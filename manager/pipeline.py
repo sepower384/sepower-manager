@@ -305,9 +305,38 @@ def sources_text(db, d):
     return "\n\n".join(out) or "(원문 없음)"
 
 
+def apply_target(db):
+    """DM 버튼으로 고른 발행 채널이 Secret 보다 우선."""
+    t = store.kv_get(db, "target_chat")
+    if t:
+        os.environ["TELEGRAM_TARGET_CHAT_ID"] = t
+
+
+def on_chat_member(db, cfg, u):
+    """봇이 채널 관리자로 추가되면 강회장에게 '여기에 발행할까?' 버튼을 보낸다."""
+    chat = u["chat"]
+    status = u["new_chat_member"]["status"]
+    if chat.get("type") not in ("channel", "supergroup"):
+        return
+    if status == "administrator":
+        telegram.send(telegram.admin_chat(),
+                      "📌 '%s' 에 관리자로 추가됐음\n이 채널에 글을 올릴까?" % chat.get("title", chat["id"]),
+                      buttons=[[("✅ 여기에 발행", "tgt:%d" % chat["id"])]])
+    elif str(chat["id"]) == telegram.target_chat() and status in ("left", "kicked", "member"):
+        telegram.send(telegram.admin_chat(), "⚠️ '%s' 에서 관리자 권한이 빠져서 발행이 멈춤" % chat.get("title", ""))
+
+
 def on_callback(db, cfg, cb):
     data = cb.get("data", "")
     act, _, did = data.partition(":")
+    msg = cb.get("message", {})
+    if act == "tgt":
+        store.kv_set(db, "target_chat", did)
+        apply_target(db)
+        telegram.answer(cb["id"], "발행 채널 설정됨")
+        telegram.edit_buttons(msg["chat"]["id"], msg["message_id"], [[("✅ 발행 채널로 설정됨", "noop:0")]])
+        return telegram.send(telegram.admin_chat(), "이제 이 채널에 %s 올림. /status 로 확인" % (
+            "자동으로" if store.kv_get(db, "mode", cfg["mode"]) == "auto" else "승인 후"))
     did = int(did or 0)
     d = store.get_draft(db, did)
     msg = cb.get("message", {})

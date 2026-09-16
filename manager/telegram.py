@@ -78,5 +78,5 @@ def answer(cb_id, text=""):
 
 def updates(offset, timeout=50):
     return call("getUpdates", {"offset": offset, "timeout": timeout,
-                               "allowed_updates": json.dumps(["message", "callback_query"])},
+                               "allowed_updates": json.dumps(["message", "callback_query", "my_chat_member"])},
                 timeout=timeout + 10)

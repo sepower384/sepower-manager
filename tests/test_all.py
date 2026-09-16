@@ -249,6 +249,26 @@ class FlowTest(unittest.TestCase):
         self.assertEqual(store.kv_get(self.db, "paused"), "1")
         self.assertEqual(store.kv_get(self.db, "offset"), "9")
 
+    def test_added_to_channel_sets_target_by_button(self):
+        os.environ["TELEGRAM_TARGET_CHAT_ID"] = ""
+        up = {"update_id": 1, "my_chat_member": {
+            "from": {"id": 1}, "chat": {"id": -1001234, "type": "channel", "title": "세력 채널"},
+            "new_chat_member": {"status": "administrator"}}}
+        stranger = {"update_id": 2, "my_chat_member": dict(up["my_chat_member"], **{"from": {"id": 5}})}
+        orig = telegram.updates
+        telegram.updates = lambda offset, timeout=0: [up, stranger]
+        try:
+            run.handle_updates(self.db, CFG)
+        finally:
+            telegram.updates = orig
+        asks = [c for c in self.tg.calls if "tgt:-1001234" in c[1].get("reply_markup", "")]
+        self.assertEqual(len(asks), 1)                      # 남이 추가한 건 무시
+        pipeline.on_callback(self.db, CFG, self.cb("tgt:-1001234", 9))
+        self.assertEqual(telegram.target_chat(), "-1001234")
+        os.environ["TELEGRAM_TARGET_CHAT_ID"] = ""
+        pipeline.apply_target(self.db)                      # 다음 회차에도 유지
+        self.assertEqual(telegram.target_chat(), "-1001234")
+
     def test_pause_command(self):
         pipeline.on_message(self.db, CFG, {"text": "/pause", "chat": {"id": 1}}, None)
         self.assertEqual(store.kv_get(self.db, "paused"), "1")

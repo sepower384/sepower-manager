@@ -68,6 +68,7 @@ def serve():
     if not (telegram.token() and telegram.admin_chat()):
         print(".env 에 TELEGRAM_BOT_TOKEN_MANAGER / TELEGRAM_ADMIN_CHAT_ID 필요"); return
     db = store.connect()
+    pipeline.apply_target(db)
     pipeline.log("세력의 매니저 시작")
     next_run = 0.0
     while True:
@@ -99,6 +100,10 @@ def handle_updates(db, cfg, timeout=0):
                 m = u["message"]
                 if str(m["chat"]["id"]) == admin:
                     pipeline.on_message(db, cfg, m, lambda force=False: cycle(db, cfg, force))
+            elif "my_chat_member" in u:
+                cm = u["my_chat_member"]
+                if str(cm["from"]["id"]) == admin:      # 강회장이 직접 추가한 채널만
+                    pipeline.on_chat_member(db, cfg, cm)
         except Exception:
             pipeline.log("업데이트 처리 오류\n" + traceback.format_exc())
     return len(ups)
@@ -136,6 +141,7 @@ def cloud(mode):
     cycle   : 버튼 처리 + 수집·초안·발행 (30분마다)
     """
     db = store.connect()
+    pipeline.apply_target(db)
     cfg = pipeline.load_config()
     if mode == "updates":
         os.environ["MANAGER_NO_LLM"] = "1"
