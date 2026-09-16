@@ -36,7 +36,7 @@ def main(pat, key):
     r = requests.post(DISPATCH, json={"ref": "no-such-ref"},
                       headers={"Authorization": "Bearer " + pat, "Accept": "application/vnd.github+json"})
     if r.status_code != 422:
-        sys.exit("PAT 권한 없음(%d): %s — PAT 의 Repository access 에 sepower-manager 추가, Actions Read/write" % (r.status_code, r.text[:200]))
+        print("PAT 권한 없음(%d): %s — PAT 의 Repository access 에 sepower-manager 추가, Actions Read/write — 잡은 먼저 등록함" % (r.status_code, r.text[:80]))
     specs = [
         ("[GH] manager-updates", "updates", list(range(0, 60, 5)), list(range(7, 24)) + [0]),
         ("[GH] manager-cycle", "cycle", [3, 33], list(range(7, 24))),

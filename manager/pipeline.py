@@ -282,7 +282,7 @@ def notify_published(db, did):
     """자동발행된 글을 DM 으로 알려주고, 마음에 안 들면 바로 지울 수 있게."""
     d = store.get_draft(db, did)
     try:
-        msg = telegram.send(telegram.admin_chat(), "📢 자동발행 #%d\n━━━━━━━━━━\n%s" % (did, d["text"]),
+        msg = telegram.send(telegram.admin_chat(), "✅ 채널 게시됨 #%d\n━━━━━━━━━━\n%s" % (did, d["text"]),
                             buttons=[[("🗑 채널에서 삭제", "del:%d" % did)]])
         store.update_draft(db, did, admin_msg_id=msg["message_id"])
     except Exception as e:
