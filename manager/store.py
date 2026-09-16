@@ -41,7 +41,33 @@ def connect(path=None):
     cols = {r[1] for r in db.execute("PRAGMA table_info(drafts)")}
     if "ptype" not in cols:   # 글 유형(A~K) — 다양하게 섞기용
         db.execute("ALTER TABLE drafts ADD COLUMN ptype TEXT DEFAULT ''")
+    if "photo_hash" not in cols:   # 같은 이미지 재사용 방지
+        db.execute("ALTER TABLE drafts ADD COLUMN photo_hash TEXT DEFAULT ''")
     return db
+
+
+LIVE = "('published','queued','pending')"
+
+
+def recent_hashes(db, hours=48):
+    since = (now_kst() - timedelta(hours=hours)).isoformat()
+    return {r[0] for r in db.execute(
+        "SELECT photo_hash FROM drafts WHERE photo_hash!='' AND status IN %s AND created>=?" % LIVE, (since,))}
+
+
+def recent_topics(db, hours=48):
+    """최근 48시간에 다룬 것: 글 앞 두 줄 + 원문 기사 제목. 중복 판정용."""
+    since = (now_kst() - timedelta(hours=hours)).isoformat()
+    out = []
+    for r in db.execute("SELECT text, refs FROM drafts WHERE status IN %s AND created>=? ORDER BY id DESC" % LIVE,
+                        (since,)):
+        out.append(" ".join(r["text"].split("\n")[:3])[:200])
+        for ref in json.loads(r["refs"] or "[]"):
+            it = db.execute("SELECT text FROM items WHERE source=? AND post_id=?",
+                            (ref.get("source"), ref.get("post_id"))).fetchone()
+            if it and it["text"]:
+                out.append(it["text"].split("\n")[0][:200])
+    return out
 
 
 def recent_types(db, limit=6):
@@ -139,6 +165,13 @@ def prune(db, item_days=3, draft_days=30):
     db.execute("DELETE FROM items WHERE fetched_at<?", ((now - timedelta(days=item_days)).isoformat(),))
     db.execute("DELETE FROM drafts WHERE created<?", ((now - timedelta(days=draft_days)).isoformat(),))
     db.commit()
+    media = os.path.join(ROOT, "data", "media")      # 캐시로 오가는 이미지는 2일치만
+    if os.path.isdir(media):
+        cut = now.timestamp() - 2 * 86400
+        for f in os.listdir(media):
+            p = os.path.join(media, f)
+            if os.path.getmtime(p) < cut:
+                os.remove(p)
 
 
 def kv_get(db, k, default=None):

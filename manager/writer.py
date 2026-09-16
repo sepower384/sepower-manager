@@ -87,14 +87,15 @@ def allowed_types(recent_types, keep_out=4):
 
 
 def build_pick_prompt(cands, recent, n, recent_types=()):
-    rec = "\n".join("- " + r.split("\n")[0][:80] for r in recent) or "- (없음)"
+    rec = "\n".join("- " + r.split("\n")[0][:120] for r in list(recent)[:60]) or "- (없음)"
     ok = allowed_types(recent_types)
     want_short = sum(1 for t in list(recent_types)[:3] if t in SHORT_TYPES) == 0
     return (rules() +
-            "\n\n[최근에 이미 쓴 글 첫 줄 — 겹치면 제외]\n" + rec +
+            "\n\n[최근 48시간에 이미 다룬 글·기사 — 같은 사건·같은 자료는 매체·언어가 달라도 절대 고르지 말 것]\n" + rec +
             "\n\n[후보]\n" + fmt_candidates(cands) +
             "\n\n[할 일 — 1단계: 고르기] 위 후보에서 채널에 올릴 가치가 큰 소식을 최대 %d개 골라라. "
-            "같은 사건을 다룬 후보 여러 개는 하나로 묶어라(refs에 모두 기입).\n"
+            "같은 사건을 다룬 후보 여러 개는 하나로 묶어라(refs에 모두 기입). "
+            "고른 것끼리 서로 다른 사건이어야 하고, 같은 후보 번호를 두 번 쓰지 말 것.\n"
             "- 인사이트를 깊게 뽑을 수 있는 소식을 우선한다(단순 가격 등락·단신보다 구조적 변화).\n"
             "- 이번에 쓸 수 있는 유형: %s. 고른 것끼리도 유형이 서로 달라야 함.\n"
             "- %s\n"
@@ -128,10 +129,13 @@ def build_write_prompt(cands, pick, bodies, snapshot, recent):
             "- 완성된 글 본문만 출력(설명·따옴표·코드블록 없이)." % (t, TYPES.get(t, ""), size, pick.get("angle", "")))
 
 
-def pick_and_write(cands, recent, n=2, hint="", recent_types=(), enrich=None):
-    """1단계 고르기 → (본문·시세 보강) → 2단계 쓰기. enrich(cands_subset_idx) -> (bodies, snapshot)"""
+def pick_and_write(cands, recent, n=2, hint="", recent_types=(), enrich=None, recent_posts=None):
+    """1단계 고르기 → (본문·시세 보강) → 2단계 쓰기.
+    recent: 최근 48시간에 다룬 사건 목록(중복 금지), recent_posts: 말투 참고용 최근 글.
+    enrich(refs) -> (bodies, snapshot)"""
     if not cands:
         return []
+    posts = recent if recent_posts is None else recent_posts
     prompt = build_pick_prompt(cands, recent, n, recent_types)
     if hint:
         prompt += "\n\n[추가 지시] " + hint
@@ -145,7 +149,7 @@ def pick_and_write(cands, recent, n=2, hint="", recent_types=(), enrich=None):
     res = []
     for p in picks:
         bodies, snapshot = enrich(p["refs"]) if enrich else ({}, "")
-        text = run_claude(build_write_prompt(cands, p, bodies, snapshot, recent)).strip()
+        text = run_claude(build_write_prompt(cands, p, bodies, snapshot, posts)).strip()
         text = re.sub(r"^```\w*\n|\n```$", "", text).strip()
         if text:
             res.append({"refs": p["refs"], "text": text, "type": p["type"],

@@ -3,6 +3,7 @@
 import json
 import os
 import random
+import re
 from datetime import datetime, timedelta, timezone
 
 from . import capture, context, filters, news, store, telegram, tme, writer
@@ -91,11 +92,12 @@ def candidates(db, cfg, limit=25, now=None):
         if r.get("publisher") in low:
             r["score"] *= 0.4
     rows.sort(key=lambda r: -r["score"])
-    recent = store.recent_texts(db, 30)
+    recent = store.recent_topics(db)          # 최근 48시간에 다룬 글·원문 제목
     picked, dropped = [], []
     for r in rows:
-        if any(filters.similar(r["text"], p["text"]) for p in picked) or \
-                any(filters.similar(r["text"], t) for t in recent):
+        head = r["text"].split("\n")[0]
+        if any(filters.similar(head, p["text"].split("\n")[0]) for p in picked) or \
+                any(filters.similar(head, t) for t in recent):
             dropped.append(r)
             continue
         picked.append(r)
@@ -136,17 +138,20 @@ def make_drafts(db, cfg, force=False):
                 bodies[i] = context.article_text(c["links"][0])
         return bodies, snap["v"]
 
-    picks = writer.pick_and_write(cands, store.recent_texts(db), n,
-                                  recent_types=store.recent_types(db), enrich=enrich)
+    topics = store.recent_topics(db)
+    picks = writer.pick_and_write(cands, topics, n, recent_types=store.recent_types(db),
+                                  enrich=enrich, recent_posts=store.recent_texts(db, 3))
     ids = []
     used = set()
-    for p in picks:
+    hashes = store.recent_hashes(db)
+    for p in dedupe_picks(picks, cands, topics):
         refs = [cands[i] for i in p["refs"]]
         did = store.add_draft(db, "insight", p["text"],
                               "", [{"source": r["source"], "post_id": r["post_id"], "url": r["url"]} for r in refs])
-        lead = next((r for r in refs if r["photos"]), refs[0])
-        store.update_draft(db, did, photo=capture.image_for(lead, did), reason=p["why"],
-                           ptype=p.get("type", ""))
+        lead = next((r for r in refs if r["source"] == "news"), refs[0])   # 기사 캡처 우선
+        path, h = capture.image_for(lead, did, hashes)
+        hashes.add(h)
+        store.update_draft(db, did, photo=path, photo_hash=h, reason=p["why"], ptype=p.get("type", ""))
         used |= {(r["source"], r["post_id"]) for r in refs}
         ids.append(did)
     store.set_item_status(db, list(used), "used")
@@ -154,6 +159,26 @@ def make_drafts(db, cfg, force=False):
                                if (c["source"], c["post_id"]) not in used], "passed")
     log("초안 %d개 생성" % len(ids))
     return ids
+
+
+def dedupe_picks(picks, cands, topics):
+    """같은 기사·같은 사건이 한 회차 안에서, 또는 최근 48시간 글과 겹치면 버린다."""
+    kept, seen_refs, heads = [], set(), []
+    for p in picks:
+        refs = set(p["refs"])
+        lead = " ".join(p["text"].split("\n")[:2])
+        src_heads = [cands[i]["text"].split("\n")[0] for i in p["refs"]]
+        dup = (refs & seen_refs
+               or any(filters.similar(lead, h, 0.5) for h in heads)
+               or any(filters.similar(s, h) for s in src_heads for h in heads)
+               or any(filters.similar(lead, t, 0.5) for t in topics))
+        if dup:
+            log("중복이라 버림:", lead[:60])
+            continue
+        kept.append(p)
+        seen_refs |= refs
+        heads += [lead] + src_heads
+    return kept
 
 
 def krw_eok(eok):
@@ -189,8 +214,10 @@ def make_alert_drafts(db, cfg):
         for r in rows:
             if store.count_kind_today(db, kind) >= cap:
                 break
-            ids.append(store.add_draft(db, kind, fmt(parse(r["text"])), "",
-                                       [{"source": r["source"], "post_id": r["post_id"], "url": r["url"]}]))
+            did = store.add_draft(db, kind, fmt(parse(r["text"])), "",
+                                  [{"source": r["source"], "post_id": r["post_id"], "url": r["url"]}])
+            ensure_photo(db, did)
+            ids.append(did)
             store.set_item_status(db, [(r["source"], r["post_id"])], "used")
             break  # 회차당 종류별 1개
         store.set_item_status(db, [(r["source"], r["post_id"]) for r in
@@ -220,7 +247,9 @@ def make_brief(db, cfg):
     cal = [c for c in cfg.get("calendar", [])
            if 0 <= (datetime.fromisoformat(c["date"]).date() - today).days <= 7]
     text = writer.morning_brief(top, cal, label, context.market_snapshot())
-    return store.add_draft(db, "brief", text, "", [])
+    did = store.add_draft(db, "brief", text, "", [])
+    ensure_photo(db, did)
+    return did
 
 
 # ───────────────────────────────────────────── 승인·발행
@@ -235,6 +264,33 @@ def admin_preview(db, did, cfg):
     store.update_draft(db, did, admin_msg_id=msg["message_id"])
 
 
+CARD_ACCENT = {"whale": "#1d9bf0", "liquidation": "#f4212e", "brief": "#00ba7c"}
+
+
+def ensure_photo(db, did):
+    """이미지 파일이 없으면(클라우드 회차가 바뀌었거나 캡처 실패) 다시 만든다. 실패하면 RuntimeError."""
+    d = store.get_draft(db, did)
+    if d["photo"] and os.path.exists(d["photo"]):
+        return d["photo"]
+    used = store.recent_hashes(db)
+    path = h = None
+    if d["kind"] == "insight" and d["refs"]:
+        ref = d["refs"][0]
+        its = store.items_where(db, "source=? AND post_id=?", (ref["source"], ref["post_id"]))
+        if its:
+            path, h = capture.image_for(its[0], did, used)
+    if not path:
+        lines = [re.sub(r"[^\w\s·().,%$~→/+\-]", "", l).strip() for l in d["text"].split("\n") if l.strip()]
+        title = lines[0] if lines else "세력"
+        sub = next((l for l in lines[1:] if not l.startswith("#")), "")
+        path = capture.card(title, {"whale": "온체인 데이터", "liquidation": "청산 데이터",
+                                    "brief": "아침 체크포인트"}.get(d["kind"], "세력"),
+                            sub, "d%d_card.png" % did, CARD_ACCENT.get(d["kind"], "#f0b90b"))
+        h = capture.file_hash(path)
+    store.update_draft(db, did, photo=path, photo_hash=h)
+    return path
+
+
 def publish(db, did, cfg):
     d = store.get_draft(db, did)
     if not d or d["status"] == "published":
@@ -242,6 +298,11 @@ def publish(db, did, cfg):
     target = telegram.target_chat()
     if not target:
         raise RuntimeError("TELEGRAM_TARGET_CHAT_ID 가 비어 있어 발행 불가")
+    try:
+        ensure_photo(db, did)            # 자료 이미지 없는 글은 내보내지 않는다
+    except Exception as e:
+        raise RuntimeError("이미지 준비 실패라 발행 보류: %s" % str(e)[:120])
+    d = store.get_draft(db, did)
     text = d["text"]
     promo = cfg.get("promo", {})
     if promo.get("enabled"):
@@ -285,7 +346,11 @@ def flush_queue(db, cfg, now=None):
     r = db.execute("SELECT id FROM drafts WHERE status='queued' ORDER BY id LIMIT 1").fetchone()
     if not r:
         return False
-    publish(db, r["id"], cfg)
+    try:
+        publish(db, r["id"], cfg)
+    except Exception as e:     # 이미지 못 만드는 가벼운 회차 등 → 다음 회차에 다시
+        log("발행 보류 #%d:" % r["id"], e)
+        return False
     lo, hi = s["gap_minutes"]
     store.kv_set(db, "next_pub_at", (now + timedelta(minutes=random.uniform(lo, hi))).isoformat())
     notify_published(db, r["id"])

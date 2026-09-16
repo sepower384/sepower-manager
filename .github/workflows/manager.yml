@@ -53,7 +53,9 @@ jobs:
       - name: 상태 복원
         uses: actions/cache/restore@v4
         with:
-          path: data/manager.db
+          path: |
+            data/manager.db
+            data/media
           key: manager-state-${{ github.run_id }}
           restore-keys: manager-state-
 
@@ -86,11 +88,17 @@ jobs:
       # 전송 없이 초안만 로그로 확인 (시간대 무관, 상태 DB 안 건드림)
       - name: 미리보기
         if: env.MODE == 'preview'
-        run: python run.py preview
+        env:
+          PREVIEW_DM: '1'
+        run: |
+          python run.py preview
+          ls -la data/media | tail -20
 
       - name: 상태 저장
         if: always()
         uses: actions/cache/save@v4
         with:
-          path: data/manager.db
+          path: |
+            data/manager.db
+            data/media
           key: manager-state-${{ github.run_id }}

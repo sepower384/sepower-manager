@@ -3,11 +3,12 @@
 import json
 import os
 import sys
+import tempfile
 import unittest
 from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from manager import filters, news, pipeline, store, telegram, tme, writer  # noqa: E402
+from manager import capture, filters, news, pipeline, store, telegram, tme, writer  # noqa: E402
 import run  # noqa: E402
 
 CFG = pipeline.load_config()
@@ -177,6 +178,22 @@ class FlowTest(unittest.TestCase):
         store.kv_set(self.db, "mode", "approve")
         self.did = store.add_draft(self.db, "insight", "⚖️ 헤드라인\n본문임\n→ 관점\n출처: 코인니스", "",
                                    [{"source": "coinnesskr", "post_id": 1, "url": "u"}])
+        # 브라우저 없이: 카드 = 임시 파일, 원문 캡처 = 실패(→ 카드로 떨어짐)
+        self.tmp = tempfile.mkdtemp()
+        self.cards = []
+
+        def fake_card(title, publisher, sub, name, accent="#000"):
+            p = os.path.join(self.tmp, name)
+            with open(p, "wb") as f:
+                f.write(("card:" + title + name).encode("utf-8"))
+            self.cards.append(title)
+            return p
+        self._orig = (capture.card, capture.screenshot_post, capture.screenshot_article)
+        capture.card = fake_card
+        capture.screenshot_post = capture.screenshot_article = lambda *a: (_ for _ in ()).throw(ValueError("no browser"))
+
+    def tearDown(self):
+        capture.card, capture.screenshot_post, capture.screenshot_article = self._orig
 
     def cb(self, data, mid):
         return {"id": "c", "data": data, "from": {"id": 1},
@@ -192,7 +209,8 @@ class FlowTest(unittest.TestCase):
         self.assertEqual(d["status"], "published")
         sent = [c for c in self.tg.calls if c[1].get("chat_id") == "@sepower"]
         self.assertEqual(len(sent), 1)
-        self.assertNotIn("초안", sent[0][1]["text"])       # 관리용 머리글은 채널에 안 나감
+        self.assertEqual(sent[0][0], "sendPhoto")
+        self.assertNotIn("초안", sent[0][1]["caption"])    # 관리용 머리글은 채널에 안 나감
         pipeline.on_callback(self.db, CFG, self.cb("pub:%d" % self.did, d["admin_msg_id"]))  # 두 번 눌러도
         self.assertEqual(len([c for c in self.tg.calls if c[1].get("chat_id") == "@sepower"]), 1)
 
@@ -301,18 +319,78 @@ class FlowTest(unittest.TestCase):
         pipeline.apply_target(self.db)                      # 다음 회차에도 유지
         self.assertEqual(telegram.target_chat(), "-1001234")
 
+    def test_every_post_has_image(self):
+        pipeline.publish(self.db, self.did, CFG)
+        sent = [c for c in self.tg.calls if c[1].get("chat_id") == "@sepower"]
+        self.assertEqual(sent[0][0], "sendPhoto")               # 글만 나가는 일 없음
+        self.assertEqual(self.cards, ["헤드라인"])                # 원문 캡처 실패 → 제목 카드(이모지 제거)
+        self.assertTrue(store.get_draft(self.db, self.did)["photo_hash"])
+
+    def test_no_image_means_hold_in_queue(self):
+        store.kv_set(self.db, "mode", "auto")
+        store.update_draft(self.db, self.did, status="queued")
+        capture.card = lambda *a, **k: (_ for _ in ()).throw(RuntimeError("playwright 없음"))
+        t = store.now_kst().replace(hour=10)
+        self.assertFalse(pipeline.flush_queue(self.db, CFG, t))
+        self.assertEqual(store.get_draft(self.db, self.did)["status"], "queued")
+        self.assertFalse([c for c in self.tg.calls if c[1].get("chat_id") == "@sepower"])
+
+    def test_same_image_not_reused(self):
+        p = os.path.join(self.tmp, "same.jpg")
+        open(p, "wb").write(b"x" * 9000)
+        h = capture.file_hash(p)
+        orig = capture.download
+        capture.download = lambda url, name: p
+        try:
+            it = item("같은 사진 기사", photos=["http://img"], kind="news")
+            _, h1 = capture.image_for(it, 1, set())
+            path2, h2 = capture.image_for(it, 2, {h})
+        finally:
+            capture.download = orig
+        self.assertEqual(h1, h)
+        self.assertNotEqual(h2, h)                              # 이미 쓴 사진이면 카드로
+        self.assertIn("card", path2)
+
+    def test_dedupe_picks(self):
+        cands = [item("[CFTC 위원장 클래리티 법안 좌초에도 시장 규칙 추진] 셀리그", pid=1),
+                 item("CFTC 위원장, 클래리티 법안 좌초에도 암호화폐 시장 규칙 추진", pid=2),
+                 item("엔비디아 데이터센터 매출 사상 최대", pid=3),
+                 item("스트래티지 비트코인 추가 매수", pid=4)]
+        picks = [{"refs": [0], "text": "규제 공은 CFTC로\n셀리그 위원장이 규칙 추진"},
+                 {"refs": [1], "text": "CFTC가 움직인다\n다른 표현"},          # 같은 사건(원문 제목 유사)
+                 {"refs": [0, 2], "text": "엔비디아 얘기\n..."},               # 같은 후보 재사용
+                 {"refs": [2], "text": "AI capex 사이클\n엔비디아 매출"},
+                 {"refs": [3], "text": "스트래티지 또 매수\n세일러"}]        # 최근 48시간에 다룸
+        kept = pipeline.dedupe_picks(picks, cands, ["스트래티지 또 매수 세일러 이번주"])
+        self.assertEqual([k["refs"] for k in kept], [[0], [2]])
+
+    def test_recent_topics_include_source_titles(self):
+        store.upsert_items(self.db, [item("원문 기사 제목입니다 충분히 길게", pid=1)])
+        store.update_draft(self.db, self.did, status="published")
+        topics = store.recent_topics(self.db)
+        self.assertIn("원문 기사 제목입니다 충분히 길게", topics)
+        self.assertTrue(any("헤드라인" in t for t in topics))
+
     def test_pause_command(self):
         pipeline.on_message(self.db, CFG, {"text": "/pause", "chat": {"id": 1}}, None)
         self.assertEqual(store.kv_get(self.db, "paused"), "1")
 
     def test_candidates_skip_recent_duplicates(self):
         store.upsert_items(self.db, [
-            item("[CFTC 위원장 클래리티 법안 좌초에도 암호화폐 시장 규칙 추진] 셀리그 위원장", pid=1),
-            item("CFTC 위원장 클래리티 법안 좌초에도 암호화폐 시장 규칙 추진 — 셀리그", src="talkevergreen", pid=2, kind="insight"),
-            item("엔비디아 실적 앞두고 반도체 AI 사이클 점검, 데이터센터 전력 수요 급증", pid=3),
+            item("[CFTC 위원장 클래리티 법안 좌초에도 암호화폐 시장 규칙 추진] 셀리그 위원장", pid=11),
+            item("CFTC 위원장 클래리티 법안 좌초에도 암호화폐 시장 규칙 추진 — 셀리그", src="talkevergreen", pid=12, kind="insight"),
+            item("엔비디아 실적 앞두고 반도체 AI 사이클 점검, 데이터센터 전력 수요 급증", pid=13),
         ])
         c = pipeline.candidates(self.db, CFG)
-        self.assertEqual(len(c), 2)
+        self.assertEqual(len(c), 2)                              # 같은 사건 두 기사 → 하나만
+        # 발행된 글의 원문과 같은 사건이면 후보에서 빠짐
+        store.upsert_items(self.db, [item("비트코인 현물 ETF 5억달러 순유출, 6월 이후 최대", pid=21)])
+        d = store.add_draft(self.db, "insight", "ETF 자금 이탈 이어짐", "",
+                            [{"source": "coinnesskr", "post_id": 21, "url": "u"}])
+        store.update_draft(self.db, d, status="published")
+        store.upsert_items(self.db, [item("비트코인 현물 ETF 5억달러 순유출… 6월 이후 최대 규모", src="news", pid=22)])
+        heads = [x["text"] for x in pipeline.candidates(self.db, CFG)]
+        self.assertFalse(any("순유출" in h for h in heads))
 
 
 if __name__ == "__main__":

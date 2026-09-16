@@ -174,6 +174,8 @@ def cloud(mode):
 def preview():
     db = store.connect(os.path.join(ROOT, "data", "preview.db"))
     cfg = pipeline.load_config()
+    if os.environ.get("NOW_COUNT"):
+        cfg["schedule"]["drafts_per_cycle"] = max(1, min(8, int(os.environ["NOW_COUNT"])))
     ids = cycle(db, cfg, force=True, send=False)
     if "--brief" in sys.argv:
         b = pipeline.make_brief(db, cfg)
@@ -196,7 +198,14 @@ def preview():
     open(out, "w", encoding="utf-8").write(page)
     print("초안 %d개 → %s" % (len(rows), out))
     for d in rows:
-        print("\n=== #%d [%s] %s\n%s" % (d["id"], d["kind"], d["reason"], d["text"]))
+        print("\n=== #%d [%s] %s\n사진: %s\n%s" % (d["id"], d["kind"], d["reason"], d["photo"], d["text"]))
+        if os.environ.get("PREVIEW_DM") == "1" and telegram.token():   # 채널 말고 강회장 DM 으로만
+            try:
+                pipeline.ensure_photo(db, d["id"])
+                d = store.get_draft(db, d["id"])
+                telegram.send(telegram.admin_chat(), "👀 미리보기(채널엔 안 나감)\n━━━━━━━━━━\n" + d["text"], d["photo"])
+            except Exception as e:
+                print("DM 실패", e)
 
 
 def main():
