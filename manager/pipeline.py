@@ -5,7 +5,7 @@ import os
 import random
 from datetime import datetime, timedelta, timezone
 
-from . import capture, filters, news, store, telegram, tme, writer
+from . import capture, context, filters, news, store, telegram, tme, writer
 
 CONFIG = os.path.join(store.ROOT, "config.json")
 CAND_WINDOW_H = 8
@@ -124,7 +124,20 @@ def make_drafts(db, cfg, force=False):
         return []
     n = cfg["schedule"]["drafts_per_cycle"]
     log("후보 %d개 → LLM 편집" % len(cands))
-    picks = writer.pick_and_write(cands, store.recent_texts(db), n)
+    snap = {}
+
+    def enrich(refs):
+        if "v" not in snap:
+            snap["v"] = context.market_snapshot()
+        bodies = {}
+        for i in refs[:3]:
+            c = cands[i]
+            if c["source"] == "news" and c["links"]:
+                bodies[i] = context.article_text(c["links"][0])
+        return bodies, snap["v"]
+
+    picks = writer.pick_and_write(cands, store.recent_texts(db), n,
+                                  recent_types=store.recent_types(db), enrich=enrich)
     ids = []
     used = set()
     for p in picks:
@@ -132,7 +145,8 @@ def make_drafts(db, cfg, force=False):
         did = store.add_draft(db, "insight", p["text"],
                               "", [{"source": r["source"], "post_id": r["post_id"], "url": r["url"]} for r in refs])
         lead = next((r for r in refs if r["photos"]), refs[0])
-        store.update_draft(db, did, photo=capture.image_for(lead, did), reason=p["why"])
+        store.update_draft(db, did, photo=capture.image_for(lead, did), reason=p["why"],
+                           ptype=p.get("type", ""))
         used |= {(r["source"], r["post_id"]) for r in refs}
         ids.append(did)
     store.set_item_status(db, list(used), "used")
@@ -205,7 +219,7 @@ def make_brief(db, cfg):
     today = k.date()
     cal = [c for c in cfg.get("calendar", [])
            if 0 <= (datetime.fromisoformat(c["date"]).date() - today).days <= 7]
-    text = writer.morning_brief(top, cal, label)
+    text = writer.morning_brief(top, cal, label, context.market_snapshot())
     return store.add_draft(db, "brief", text, "", [])
 
 

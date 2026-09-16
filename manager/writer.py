@@ -70,47 +70,104 @@ def fmt_candidates(cands):
     return "\n\n".join(lines)
 
 
-def build_pick_prompt(cands, recent, n):
+TYPES = {
+    "A": "속보 한 줄형", "B": "차트/데이터 코멘트형", "C": "쟁점 정리형(질문→답)",
+    "D": "실시간 요약형(⚡📍)", "E": "해설형(짧은 문단)", "F": "일정 체크형",
+    "G": "그때 vs 지금 비교형", "H": "역발상형", "I": "연결고리형(A→B→C)",
+    "J": "시나리오/체크포인트형", "K": "질문 던지기형",
+}
+SHORT_TYPES = {"A", "B", "K"}
+
+
+def allowed_types(recent_types, keep_out=4):
+    """최근 keep_out 개 글에 쓴 유형은 이번에 못 씀 (다양하게 섞기)."""
+    banned = set(t for t in list(recent_types)[:keep_out] if t)
+    ok = [t for t in TYPES if t not in banned and t != "F"]   # F(일정)는 아침 체크포인트 전용
+    return ok or [t for t in TYPES if t != "F"]
+
+
+def build_pick_prompt(cands, recent, n, recent_types=()):
     rec = "\n".join("- " + r.split("\n")[0][:80] for r in recent) or "- (없음)"
+    ok = allowed_types(recent_types)
+    want_short = sum(1 for t in list(recent_types)[:3] if t in SHORT_TYPES) == 0
     return (rules() +
             "\n\n[최근에 이미 쓴 글 첫 줄 — 겹치면 제외]\n" + rec +
             "\n\n[후보]\n" + fmt_candidates(cands) +
-            "\n\n[할 일] 위 후보에서 채널에 올릴 가치가 큰 것을 최대 %d개 골라 글을 써라. "
-            "같은 사건을 다룬 후보 여러 개는 하나로 합쳐 써도 됨(refs에 모두 기입). "
-            "유형(A~F)은 소식에 맞게 고르고 같은 유형만 반복하지 말 것.\n"
+            "\n\n[할 일 — 1단계: 고르기] 위 후보에서 채널에 올릴 가치가 큰 소식을 최대 %d개 골라라. "
+            "같은 사건을 다룬 후보 여러 개는 하나로 묶어라(refs에 모두 기입).\n"
+            "- 인사이트를 깊게 뽑을 수 있는 소식을 우선한다(단순 가격 등락·단신보다 구조적 변화).\n"
+            "- 이번에 쓸 수 있는 유형: %s. 고른 것끼리도 유형이 서로 달라야 함.\n"
+            "- %s\n"
+            "- angle 에는 '뉴스 요약'이 아니라 '어떤 인사이트로 풀지'(2차효과/과거비교/연결/시나리오/숨은포인트/괴리 중 무엇을 어떻게)를 적어라.\n"
             "출력은 JSON 배열만: "
-            '[{"refs":[후보번호,...],"type":"A~F","text":"완성된 글","why":"고른 이유 한 줄"}]' % n)
+            '[{"refs":[후보번호,...],"type":"유형문자","angle":"인사이트 각도 한두 줄","why":"고른 이유 한 줄"}]'
+            % (n, ", ".join("%s(%s)" % (t, TYPES[t]) for t in ok),
+               "최근 짧은 글이 없었으니 1개는 짧은 유형(A/B/K)으로" if want_short
+               else "최근 짧은 글이 있었으니 깊은 유형 위주로"))
 
 
-def pick_and_write(cands, recent, n=2, hint=""):
+def build_write_prompt(cands, pick, bodies, snapshot, recent):
+    src = []
+    for i in pick["refs"]:
+        c = cands[i]
+        body = bodies.get(i, "")
+        src.append("### 출처=%s  시각=%s\n%s\n링크: %s%s" % (
+            c.get("publisher") or c["source"], kst(c["date"]), (c["text"] or "")[:1200],
+            ", ".join(c["links"][:2]) or "-", ("\n[기사 본문]\n" + body) if body else ""))
+    t = pick["type"]
+    size = "80~200자로 짧고 날카롭게" if t in SHORT_TYPES else "300~600자로 깊게"
+    rec = "\n\n".join(r[:300] for r in recent[:3]) or "(없음)"
+    return (rules() +
+            "\n\n[현재 시장 스냅샷]\n" + (snapshot or "(없음)") +
+            "\n\n[최근 채널 글 — 말투 이어가되 내용·표현 반복 금지]\n" + rec +
+            "\n\n[원문]\n" + "\n\n".join(src) +
+            "\n\n[할 일 — 2단계: 쓰기] 유형 %s(%s)로, %s 써라.\n"
+            "인사이트 각도: %s\n"
+            "- '인사이트 깊이' 항목을 반드시 반영(짧은 유형도 마지막 한 줄은 '그래서 왜 중요한지').\n"
+            "- 원문·본문·스냅샷에 없는 숫자는 쓰지 말 것. 과거 비교는 확실히 아는 사실만.\n"
+            "- 완성된 글 본문만 출력(설명·따옴표·코드블록 없이)." % (t, TYPES.get(t, ""), size, pick.get("angle", "")))
+
+
+def pick_and_write(cands, recent, n=2, hint="", recent_types=(), enrich=None):
+    """1단계 고르기 → (본문·시세 보강) → 2단계 쓰기. enrich(cands_subset_idx) -> (bodies, snapshot)"""
     if not cands:
         return []
-    prompt = build_pick_prompt(cands, recent, n)
+    prompt = build_pick_prompt(cands, recent, n, recent_types)
     if hint:
         prompt += "\n\n[추가 지시] " + hint
-    out = extract_json(run_claude(prompt))
-    res = []
-    for d in out[:n]:
+    picks = []
+    for d in extract_json(run_claude(prompt))[:n]:
         refs = [int(x) for x in d.get("refs", []) if str(x).isdigit() and int(x) < len(cands)]
-        text = (d.get("text") or "").strip()
-        if refs and text:
-            res.append({"refs": refs, "text": text, "why": d.get("why", "")})
+        if refs:
+            t = str(d.get("type", "E")).strip()[:1].upper()
+            picks.append({"refs": refs, "type": t if t in TYPES else "E",
+                          "angle": d.get("angle", ""), "why": d.get("why", "")})
+    res = []
+    for p in picks:
+        bodies, snapshot = enrich(p["refs"]) if enrich else ({}, "")
+        text = run_claude(build_write_prompt(cands, p, bodies, snapshot, recent)).strip()
+        text = re.sub(r"^```\w*\n|\n```$", "", text).strip()
+        if text:
+            res.append({"refs": p["refs"], "text": text, "type": p["type"],
+                        "why": "[%s] %s" % (p["type"], p["why"])})
     return res
 
 
 def rewrite(text, sources_text, instruction):
     prompt = (rules() + "\n\n[원문]\n" + sources_text + "\n\n[기존 초안]\n" + text +
-              "\n\n[수정 지시] " + (instruction or "다른 유형·다른 각도로 다시 써라") +
+              "\n\n[수정 지시] " + (instruction or "다른 유형·다른 인사이트 각도로 더 깊게 다시 써라") +
               "\n\n완성된 글 본문만 출력(설명·따옴표·코드블록 없이).")
     return run_claude(prompt).strip()
 
 
-def morning_brief(top_items, calendar, today_label):
+def morning_brief(top_items, calendar, today_label, snapshot=""):
     cal = "\n".join("- %s %s %s" % (c["date"], c.get("time", ""), c["event"]) for c in calendar) or "- (등록 일정 없음)"
-    prompt = (rules() + "\n\n[지난 24시간 주요 뉴스]\n" + fmt_candidates(top_items) +
+    prompt = (rules() + "\n\n[현재 시장 스냅샷]\n" + (snapshot or "(없음)") +
+              "\n\n[지난 24시간 주요 뉴스]\n" + fmt_candidates(top_items) +
               "\n\n[등록된 일정]\n" + cal +
               "\n\n[할 일] '☀️ %s 아침 체크포인트' 글을 써라. 형식:\n"
-              "1줄 제목 → '📍지난밤 핵심' · 불릿 3~5개(각 1줄) → "
-              "'📍이번 주 일정' (등록 일정 중 7일 이내 + 뉴스에 나온 일정만, 없으면 생략) → 한 줄 관점 → 해시태그.\n"
-              "링크 없이 600자 이내. 본문만 출력." % today_label)
+              "1줄 제목 → '📍지난밤 핵심' · 불릿 3~5개(각 1줄, 사실+한마디 해석) → "
+              "'📍이번 주 일정' (등록 일정 중 7일 이내 + 뉴스에 나온 일정만, 없으면 생략) → "
+              "'📍오늘의 관점' 2~3줄(지난밤 소식들이 서로 어떻게 이어지는지, 오늘 무엇을 보면 되는지) → 해시태그.\n"
+              "링크 없이 800자 이내. 본문만 출력." % today_label)
     return run_claude(prompt).strip()

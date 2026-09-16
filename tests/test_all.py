@@ -127,14 +127,44 @@ class WriterTest(unittest.TestCase):
         self.assertIn("출처=코인니스", p)
         self.assertNotIn("talkevergreen", p)
 
-    def test_pick_filters_bad_refs(self):
+    def test_two_stage_pick_then_write_with_body(self):
+        prompts = []
+
+        def fake(p, timeout=0):
+            prompts.append(p)
+            if "1단계" in p:
+                return '[{"refs":[0,99],"type":"h","angle":"금리 인하 이유가 핵심","why":"이유"},{"refs":[]}]'
+            return "```\n다들 호재라는데\n\n본문임\n\n#경제\n```"
         orig = writer.run_claude
-        writer.run_claude = lambda p, timeout=0: '[{"refs":[0,99],"text":"글","why":"이유"},{"refs":[],"text":"x"}]'
+        writer.run_claude = fake
         try:
-            out = writer.pick_and_write([item("후보")], [], 2)
+            out = writer.pick_and_write([item("후보")], [], 2,
+                                        enrich=lambda refs: ({0: "기사 본문 전체 내용"}, "BTC $76,000 (24h -1.0%)"))
         finally:
             writer.run_claude = orig
-        self.assertEqual(out, [{"refs": [0], "text": "글", "why": "이유"}])
+        self.assertEqual(out, [{"refs": [0], "text": "다들 호재라는데\n\n본문임\n\n#경제",
+                                "type": "H", "why": "[H] 이유"}])
+        self.assertEqual(len(prompts), 2)                       # 고르기 1 + 쓰기 1
+        self.assertIn("기사 본문 전체 내용", prompts[1])
+        self.assertIn("BTC $76,000", prompts[1])
+        self.assertIn("금리 인하 이유가 핵심", prompts[1])
+        self.assertIn("300~600자", prompts[1])                  # H 는 깊은 유형
+
+    def test_recent_types_are_banned(self):
+        ok = writer.allowed_types(["C", "E", "C", "H", "A"])
+        self.assertFalse({"C", "E", "H"} & set(ok))
+        self.assertIn("A", ok)                                  # 5번째 이전은 다시 허용
+        self.assertNotIn("F", ok)                               # 일정형은 아침 브리핑 전용
+        p = writer.build_pick_prompt([item("x")], [], 2, ["C", "E"])
+        self.assertNotIn("C(쟁점", p)
+        self.assertIn("짧은 유형(A/B/K)", p)                     # 최근 짧은 글 없음 → 하나는 짧게
+
+    def test_recent_types_from_db(self):
+        db = store.connect(":memory:")
+        for t in ("C", "H"):
+            d = store.add_draft(db, "insight", "x", "", [])
+            store.update_draft(db, d, ptype=t, status="published")
+        self.assertEqual(store.recent_types(db), ["H", "C"])
 
 
 class FlowTest(unittest.TestCase):

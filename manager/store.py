@@ -38,7 +38,16 @@ def connect(path=None):
     db = sqlite3.connect(path)
     db.row_factory = sqlite3.Row
     db.executescript(SCHEMA)
+    cols = {r[1] for r in db.execute("PRAGMA table_info(drafts)")}
+    if "ptype" not in cols:   # 글 유형(A~K) — 다양하게 섞기용
+        db.execute("ALTER TABLE drafts ADD COLUMN ptype TEXT DEFAULT ''")
     return db
+
+
+def recent_types(db, limit=6):
+    return [r[0] for r in db.execute(
+        "SELECT ptype FROM drafts WHERE kind='insight' AND status IN ('published','queued','pending') "
+        "ORDER BY id DESC LIMIT ?", (limit,))]
 
 
 def upsert_items(db, items):
