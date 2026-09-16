@@ -155,6 +155,14 @@ def cloud(mode):
                 f.write("need_llm=%s\n" % ("true" if need else "false"))
     elif mode == "llm":
         llm_tasks(db, cfg)
+    elif mode == "now":          # 시간대 무시하고 지금 1개 써서 바로 발행 (동작 확인용)
+        handle_updates(db, cfg)
+        ids = cycle(db, cfg, force=True, send=False)
+        for did in ids[:1]:
+            pipeline.publish(db, did, cfg)
+            pipeline.notify_published(db, did)
+        for did in ids[1:]:
+            store.update_draft(db, did, status="queued")
     elif mode == "cycle":
         handle_updates(db, cfg)
         llm_tasks(db, cfg)

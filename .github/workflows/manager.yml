@@ -9,10 +9,14 @@
 name: 세력의 매니저
 
 on:
+  # 예비: cron-job.org 등록 전까지 / 장애 대비. 깃허브 schedule 은 붐비면 건너뜀 (UTC 기준)
+  schedule:
+    - cron: '3,33 22-23,0-14 * * *'      # KST 07~23시 30분마다 → cycle
+    - cron: '*/10 * * * *'               # 10분마다 → updates
   workflow_dispatch:
     inputs:
       mode:
-        description: updates | cycle | preview
+        description: updates | cycle | preview | now
         default: cycle
 
 concurrency:
@@ -21,6 +25,8 @@ concurrency:
 
 env:
   PYTHONUTF8: '1'
+  # schedule 로 깨면 inputs 가 없으니 cron 식으로 모드를 정한다
+  MODE: ${{ inputs.mode || (github.event.schedule == '*/10 * * * *' && 'updates' || 'cycle') }}
   TELEGRAM_BOT_TOKEN_MANAGER: ${{ secrets.TELEGRAM_BOT_TOKEN_MANAGER }}
   TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
   TELEGRAM_TARGET_CHAT_ID: ${{ secrets.TELEGRAM_TARGET_CHAT_ID }}
@@ -50,28 +56,32 @@ jobs:
       # ── 가벼운 회차 ───────────────────────────────────────────
       - name: 버튼·명령 처리
         id: upd
-        if: inputs.mode == 'updates'
+        if: env.MODE == 'updates'
         run: python run.py cloud updates
 
       # ── LLM 이 필요한 회차 ─────────────────────────────────────
       - name: claude·브라우저 준비
-        if: inputs.mode != 'updates' || steps.upd.outputs.need_llm == 'true'
+        if: env.MODE != 'updates' || steps.upd.outputs.need_llm == 'true'
         run: |
           npm install -g @anthropic-ai/claude-code
           sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk > /dev/null
           python -m playwright install --with-deps chromium > /dev/null
 
       - name: 미뤄둔 LLM 일 (다시쓰기·/now·/brief)
-        if: inputs.mode == 'updates' && steps.upd.outputs.need_llm == 'true'
+        if: env.MODE == 'updates' && steps.upd.outputs.need_llm == 'true'
         run: python run.py cloud llm
 
       - name: 수집 → 초안 → 발행
-        if: inputs.mode == 'cycle'
+        if: env.MODE == 'cycle'
         run: python run.py cloud cycle
+
+      - name: 지금 1개 발행
+        if: env.MODE == 'now'
+        run: python run.py cloud now
 
       # 전송 없이 초안만 로그로 확인 (시간대 무관, 상태 DB 안 건드림)
       - name: 미리보기
-        if: inputs.mode == 'preview'
+        if: env.MODE == 'preview'
         run: python run.py preview
 
       - name: 상태 저장
