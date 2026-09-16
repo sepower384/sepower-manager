@@ -18,6 +18,9 @@ on:
       mode:
         description: updates | cycle | preview | now
         default: cycle
+      count:
+        description: mode=now 일 때 바로 올릴 개수
+        default: '1'
 
 concurrency:
   group: manager          # 상태 DB 를 하나만 만지게 한 줄로 세운다
@@ -27,6 +30,7 @@ env:
   PYTHONUTF8: '1'
   # schedule 로 깨면 inputs 가 없으니 cron 식으로 모드를 정한다
   MODE: ${{ inputs.mode || (github.event.schedule == '*/10 * * * *' && 'updates' || 'cycle') }}
+  NOW_COUNT: ${{ inputs.count }}
   TELEGRAM_BOT_TOKEN_MANAGER: ${{ secrets.TELEGRAM_BOT_TOKEN_MANAGER }}
   TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
   TELEGRAM_TARGET_CHAT_ID: ${{ secrets.TELEGRAM_TARGET_CHAT_ID }}
