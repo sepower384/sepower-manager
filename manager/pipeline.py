@@ -11,6 +11,7 @@ CONFIG = os.path.join(store.ROOT, "config.json")
 CAND_WINDOW_H = 8
 PENDING_MAX = 4
 EXPIRE_H = 6
+QUEUE_EXPIRE_H = 3
 
 
 def load_config():
@@ -289,8 +290,12 @@ def notify_published(db, did):
 
 
 def expire(db):
-    cut = (store.now_kst() - timedelta(hours=EXPIRE_H)).isoformat()
-    for r in db.execute("SELECT id, admin_msg_id FROM drafts WHERE status IN ('pending','queued') AND created<?", (cut,)).fetchall():
+    """승인 대기는 6시간, 자동발행 대기열은 3시간 지나면 시의성이 떨어져 폐기."""
+    now = store.now_kst()
+    cut = (now - timedelta(hours=EXPIRE_H)).isoformat()
+    qcut = (now - timedelta(hours=QUEUE_EXPIRE_H)).isoformat()
+    for r in db.execute("SELECT id, admin_msg_id FROM drafts WHERE (status='pending' AND created<?) "
+                        "OR (status='queued' AND created<?)", (cut, qcut)).fetchall():
         store.update_draft(db, r["id"], status="expired")
         if r["admin_msg_id"]:
             telegram.edit_buttons(telegram.admin_chat(), r["admin_msg_id"])

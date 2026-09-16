@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: updates | cycle
+        description: updates | cycle | preview
         default: cycle
 
 concurrency:
@@ -66,8 +66,13 @@ jobs:
         run: python run.py cloud llm
 
       - name: 수집 → 초안 → 발행
-        if: inputs.mode != 'updates'
+        if: inputs.mode == 'cycle'
         run: python run.py cloud cycle
+
+      # 전송 없이 초안만 로그로 확인 (시간대 무관, 상태 DB 안 건드림)
+      - name: 미리보기
+        if: inputs.mode == 'preview'
+        run: python run.py preview
 
       - name: 상태 저장
         if: always()
