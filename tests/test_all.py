@@ -144,6 +144,7 @@ class FlowTest(unittest.TestCase):
         telegram._post = self.tg
         os.environ.update(TELEGRAM_BOT_TOKEN_MANAGER="t", TELEGRAM_ADMIN_CHAT_ID="1",
                           TELEGRAM_TARGET_CHAT_ID="@sepower")
+        store.kv_set(self.db, "mode", "approve")
         self.did = store.add_draft(self.db, "insight", "⚖️ 헤드라인\n본문임\n→ 관점\n출처: 코인니스", "",
                                    [{"source": "coinnesskr", "post_id": 1, "url": "u"}])
 
@@ -184,14 +185,32 @@ class FlowTest(unittest.TestCase):
         pipeline.on_callback(self.db, CFG, self.cb("pub:%d" % self.did, 5))
         self.assertEqual(store.get_draft(self.db, self.did)["status"], "pending")
 
-    def test_auto_mode_caps_and_gap(self):
+    def test_auto_mode_random_gap_and_night(self):
         store.kv_set(self.db, "mode", "auto")
         d2 = store.add_draft(self.db, "insight", "두번째", "", [])
         pipeline.deliver(self.db, CFG, [self.did, d2])
-        pipeline.flush_queue(self.db, CFG)
-        pipeline.flush_queue(self.db, CFG)       # 간격(25분) 안이라 두 번째는 대기
+        t = store.now_kst().replace(hour=10, minute=0)
+        self.assertTrue(pipeline.flush_queue(self.db, CFG, t))
+        self.assertFalse(pipeline.flush_queue(self.db, CFG, t + timedelta(minutes=21)))   # 최소 22분
         st = [store.get_draft(self.db, i)["status"] for i in (self.did, d2)]
         self.assertEqual(st, ["published", "queued"])
+        gap = datetime.fromisoformat(store.kv_get(self.db, "next_pub_at")) - t
+        self.assertTrue(timedelta(minutes=22) <= gap <= timedelta(minutes=40))
+        self.assertFalse(pipeline.flush_queue(self.db, CFG, t.replace(hour=3) + timedelta(days=1)))  # 새벽 금지
+        self.assertTrue(pipeline.flush_queue(self.db, CFG, t + timedelta(minutes=41)))
+        # 자동발행 알림에 삭제 버튼 → 누르면 채널에서 지움
+        admin_mid = store.get_draft(self.db, self.did)["admin_msg_id"]
+        self.assertTrue(admin_mid)
+        pipeline.on_callback(self.db, CFG, self.cb("del:%d" % self.did, admin_mid))
+        self.assertEqual(store.get_draft(self.db, self.did)["status"], "deleted")
+        self.assertIn("deleteMessage", self.tg.methods())
+
+    def test_auto_without_target_falls_back_to_dm(self):
+        store.kv_set(self.db, "mode", "auto")
+        os.environ["TELEGRAM_TARGET_CHAT_ID"] = ""
+        pipeline.deliver(self.db, CFG, [self.did])
+        self.assertEqual(store.get_draft(self.db, self.did)["status"], "pending")
+        self.assertIn("pub:%d" % self.did, self.tg.calls[0][1]["reply_markup"])
 
     def test_redo_queued_without_llm_then_processed(self):
         pipeline.deliver(self.db, CFG, [self.did])

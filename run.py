@@ -41,13 +41,8 @@ def setup_log():
         sys.stdout = sys.stderr = f
 
 
-def in_active_hours(cfg):
-    a, b = cfg["schedule"]["active_hours"]
-    return a <= store.now_kst().hour < b
-
-
 def cycle(db, cfg, force=False, send=True):
-    if not force and (store.kv_get(db, "paused") == "1" or not in_active_hours(cfg)):
+    if not force and (store.kv_get(db, "paused") == "1" or not pipeline.in_active_hours(cfg)):
         return []
     pipeline.collect(db, cfg)
     ids = pipeline.make_alert_drafts(db, cfg) + pipeline.make_drafts(db, cfg, force)

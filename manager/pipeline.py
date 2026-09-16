@@ -2,6 +2,7 @@
 """수집 → 거르기 → 초안 → (승인) → 발행."""
 import json
 import os
+import random
 from datetime import datetime, timedelta, timezone
 
 from . import capture, filters, news, store, telegram, tme, writer
@@ -249,19 +250,42 @@ def deliver(db, cfg, ids):
             admin_preview(db, did, cfg)
 
 
-def flush_queue(db, cfg):
+def in_active_hours(cfg, now=None):
+    a, b = cfg["schedule"]["active_hours"]
+    return a <= (now or store.now_kst()).hour < b
+
+
+def flush_queue(db, cfg, now=None):
+    """자동발행 — 간격을 매번 무작위(gap_minutes 범위)로 둬서 봇 티가 안 나게."""
     s = cfg["schedule"]
-    start = store.now_kst().replace(hour=0, minute=0, second=0, microsecond=0)
-    pubs = store.published_since(db, start)
-    if len(pubs) >= s["daily_post_cap"]:
-        return
-    if pubs:
-        last = datetime.fromisoformat(pubs[-1]["published_at"])
-        if store.now_kst() - last < timedelta(minutes=s["min_gap_minutes"]):
-            return
+    now = now or store.now_kst()
+    if not in_active_hours(cfg, now) or store.kv_get(db, "paused") == "1":
+        return False
+    start = now.replace(hour=0, minute=0, second=0, microsecond=0)
+    if len(store.published_since(db, start)) >= s["daily_post_cap"]:
+        return False
+    nxt = store.kv_get(db, "next_pub_at")
+    if nxt and now < datetime.fromisoformat(nxt):
+        return False
     r = db.execute("SELECT id FROM drafts WHERE status='queued' ORDER BY id LIMIT 1").fetchone()
-    if r:
-        publish(db, r["id"], cfg)
+    if not r:
+        return False
+    publish(db, r["id"], cfg)
+    lo, hi = s["gap_minutes"]
+    store.kv_set(db, "next_pub_at", (now + timedelta(minutes=random.uniform(lo, hi))).isoformat())
+    notify_published(db, r["id"])
+    return True
+
+
+def notify_published(db, did):
+    """자동발행된 글을 DM 으로 알려주고, 마음에 안 들면 바로 지울 수 있게."""
+    d = store.get_draft(db, did)
+    try:
+        msg = telegram.send(telegram.admin_chat(), "📢 자동발행 #%d\n━━━━━━━━━━\n%s" % (did, d["text"]),
+                            buttons=[[("🗑 채널에서 삭제", "del:%d" % did)]])
+        store.update_draft(db, did, admin_msg_id=msg["message_id"])
+    except Exception as e:
+        log("발행 알림 실패", e)
 
 
 def expire(db):
@@ -289,6 +313,17 @@ def on_callback(db, cfg, cb):
     msg = cb.get("message", {})
     if not d:
         return telegram.answer(cb["id"], "초안 없음")
+    if act == "del":
+        if d["status"] != "published":
+            return telegram.answer(cb["id"], "발행된 글이 아님")
+        try:
+            telegram.call("deleteMessage", {"chat_id": telegram.target_chat(), "message_id": d["channel_msg_id"]})
+            store.update_draft(db, did, status="deleted")
+            telegram.answer(cb["id"], "채널에서 지웠음")
+            telegram.edit_buttons(msg["chat"]["id"], msg["message_id"], [[("🗑 삭제됨", "noop:0")]])
+        except Exception as e:
+            telegram.answer(cb["id"], "삭제 실패: %s" % str(e)[:150])
+        return
     if d["status"] not in ("pending", "queued"):
         telegram.answer(cb["id"], "이미 처리됨: " + d["status"])
         return telegram.edit_buttons(msg["chat"]["id"], msg["message_id"])
@@ -372,8 +407,8 @@ def on_message(db, cfg, m, run_cycle):
     elif cmd == "/resume":
         store.kv_set(db, "paused", "0"); telegram.send(chat, "▶️ 재개")
     elif cmd == "/auto":
-        store.kv_set(db, "mode", "auto"); telegram.send(chat, "🤖 자동발행 모드 (하루 %d개, %d분 간격)" % (
-            cfg["schedule"]["daily_post_cap"], cfg["schedule"]["min_gap_minutes"]))
+        store.kv_set(db, "mode", "auto"); telegram.send(chat, "🤖 자동발행 모드 (하루 최대 %d개, %d~%d분 무작위 간격)" % (
+            cfg["schedule"]["daily_post_cap"], *cfg["schedule"]["gap_minutes"]))
     elif cmd == "/approve":
         store.kv_set(db, "mode", "approve"); telegram.send(chat, "🙋 승인 모드")
     elif cmd == "/now":

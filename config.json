@@ -1,14 +1,14 @@
 {
   "_설명": "세력의 매니저 — 텔레그램 채널 운영봇 설정. 토큰/채팅ID는 .env 에만 둔다.",
 
-  "mode": "approve",
-  "_mode": "approve = 강회장 DM으로 초안 → 버튼 눌러야 채널 발행 / auto = 바로 발행(하루 상한·간격 지킴)",
+  "mode": "auto",
+  "_mode": "approve = 강회장 DM으로 초안 → 버튼 눌러야 채널 발행 / auto = 바로 발행(하루 상한, 22~40분 무작위 간격, 07~24시만). 봇 DM 에서 /approve /auto 로 전환",
 
   "schedule": {
     "cycle_minutes": 30,
     "active_hours": [7, 24],
-    "daily_post_cap": 10,
-    "min_gap_minutes": 25,
+    "daily_post_cap": 30,
+    "gap_minutes": [22, 40],
     "drafts_per_cycle": 2,
     "morning_brief_at": "07:30"
   },
