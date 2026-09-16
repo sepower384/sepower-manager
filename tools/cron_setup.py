@@ -3,8 +3,8 @@
 
   python tools/cron_setup.py <GitHub PAT(Actions RW, sepower-manager 포함)> <cron-job.org API 키>
 
-  [GH] manager-updates : 5분마다 (07~24시 + 00시대)  mode=updates
-  [GH] manager-cycle   : 30분마다 (07~23시, 03·33분)   mode=cycle
+  [GH] manager-updates : 5분마다 (24시간)  mode=updates
+  [GH] manager-cycle   : 30분마다 (24시간, 03·33분)   mode=cycle
 """
 import json
 import sys
@@ -38,8 +38,8 @@ def main(pat, key):
     if r.status_code != 422:
         print("PAT 권한 없음(%d): %s — PAT 의 Repository access 에 sepower-manager 추가, Actions Read/write — 잡은 먼저 등록함" % (r.status_code, r.text[:80]))
     specs = [
-        ("[GH] manager-updates", "updates", list(range(0, 60, 5)), list(range(7, 24)) + [0]),
-        ("[GH] manager-cycle", "cycle", [3, 33], list(range(7, 24))),
+        ("[GH] manager-updates", "updates", list(range(0, 60, 5)), list(range(24))),
+        ("[GH] manager-cycle", "cycle", [3, 33], list(range(24))),
     ]
     jobs = requests.get(API + "/jobs", headers=h).json().get("jobs", [])
     titles = {s[0] for s in specs}

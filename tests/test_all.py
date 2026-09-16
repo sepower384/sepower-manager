@@ -196,7 +196,9 @@ class FlowTest(unittest.TestCase):
         self.assertEqual(st, ["published", "queued"])
         gap = datetime.fromisoformat(store.kv_get(self.db, "next_pub_at")) - t
         self.assertTrue(timedelta(minutes=22) <= gap <= timedelta(minutes=40))
-        self.assertFalse(pipeline.flush_queue(self.db, CFG, t.replace(hour=3) + timedelta(days=1)))  # 새벽 금지
+        night_off = json.loads(json.dumps(CFG))
+        night_off["schedule"]["active_hours"] = [7, 24]      # 시간대 제한을 켜면 새벽엔 안 나감
+        self.assertFalse(pipeline.flush_queue(self.db, night_off, t.replace(hour=3) + timedelta(days=1)))
         self.assertTrue(pipeline.flush_queue(self.db, CFG, t + timedelta(minutes=41)))
         # 자동발행 알림에 삭제 버튼 → 누르면 채널에서 지움
         admin_mid = store.get_draft(self.db, self.did)["admin_msg_id"]
