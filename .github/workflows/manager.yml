@@ -1,0 +1,77 @@
+# 세력의 매니저 — 강회장 PC 가 꺼져 있어도 깃허브가 돌린다.
+#
+# cron-job.org 가 workflow_dispatch API 로 깨운다(깃허브 schedule 은 붐비면 건너뜀, 2026-09-13 실측).
+#   mode=updates : 5분마다. 버튼·명령만 처리(LLM 없음, ~30초). 다시쓰기·/now·/brief 가 오면 그때만 claude 설치 후 처리
+#   mode=cycle   : 30분마다. 버튼 처리 + 수집 → 초안(claude) → DM/발행
+#
+# 상태(data/manager.db: 본 글·초안·버튼 offset)는 actions/cache 로 회차 간 이어붙인다.
+# claude 는 구독 토큰(CLAUDE_CODE_OAUTH_TOKEN, `claude setup-token` 으로 발급)을 써서 API 과금이 없다.
+name: 세력의 매니저
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: updates | cycle
+        default: cycle
+
+concurrency:
+  group: manager          # 상태 DB 를 하나만 만지게 한 줄로 세운다
+  cancel-in-progress: false
+
+env:
+  PYTHONUTF8: '1'
+  TELEGRAM_BOT_TOKEN_MANAGER: ${{ secrets.TELEGRAM_BOT_TOKEN_MANAGER }}
+  TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
+  TELEGRAM_TARGET_CHAT_ID: ${{ secrets.TELEGRAM_TARGET_CHAT_ID }}
+  CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - run: pip install -r requirements.txt
+
+      - name: 상태 복원
+        uses: actions/cache/restore@v4
+        with:
+          path: data/manager.db
+          key: manager-state-${{ github.run_id }}
+          restore-keys: manager-state-
+
+      # ── 가벼운 회차 ───────────────────────────────────────────
+      - name: 버튼·명령 처리
+        id: upd
+        if: inputs.mode == 'updates'
+        run: python run.py cloud updates
+
+      # ── LLM 이 필요한 회차 ─────────────────────────────────────
+      - name: claude·브라우저 준비
+        if: inputs.mode != 'updates' || steps.upd.outputs.need_llm == 'true'
+        run: |
+          npm install -g @anthropic-ai/claude-code
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-cjk > /dev/null
+          python -m playwright install --with-deps chromium > /dev/null
+
+      - name: 미뤄둔 LLM 일 (다시쓰기·/now·/brief)
+        if: inputs.mode == 'updates' && steps.upd.outputs.need_llm == 'true'
+        run: python run.py cloud llm
+
+      - name: 수집 → 초안 → 발행
+        if: inputs.mode != 'updates'
+        run: python run.py cloud cycle
+
+      - name: 상태 저장
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/manager.db
+          key: manager-state-${{ github.run_id }}

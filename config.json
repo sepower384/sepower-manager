@@ -1,0 +1,68 @@
+{
+  "_설명": "세력의 매니저 — 텔레그램 채널 운영봇 설정. 토큰/채팅ID는 .env 에만 둔다.",
+
+  "mode": "approve",
+  "_mode": "approve = 강회장 DM으로 초안 → 버튼 눌러야 채널 발행 / auto = 바로 발행(하루 상한·간격 지킴)",
+
+  "schedule": {
+    "cycle_minutes": 30,
+    "active_hours": [7, 24],
+    "daily_post_cap": 10,
+    "min_gap_minutes": 25,
+    "drafts_per_cycle": 2,
+    "morning_brief_at": "07:30"
+  },
+
+  "sources": [
+    {"id": "coinnesskr",       "name": "코인니스",          "kind": "news", "weight": 1.0},
+    {"id": "whalealertkorean", "name": "고래 입출금 알람",   "kind": "whale"},
+    {"id": "whaleliquidation", "name": "Whale Liquidation", "kind": "liquidation"}
+  ],
+  "_sources": "글감용 텔레그램 채널은 뉴스통신·데이터봇만. 인플루언서 채널은 글감으로 쓰지 않음(스타일만 참고 → STYLE.md)",
+
+  "news": {
+    "weight": 1.1,
+    "low_publishers": ["Hokanews", "TradingNEWS", "톱스타뉴스", "Cryptonews.net", "CoinGape", "Blockchain Reporter", "Bitget"],
+    "queries": [
+      "가상자산 과세", "클래리티 법안", "스테이블코인 법안", "비트코인 ETF", "비트코인 시세",
+      "FOMC 금리", "미국 CPI", "국채금리", "엔비디아", "반도체 AI 투자", "SK하이닉스 HBM",
+      "업비트 빗썸", "스트래티지 비트코인",
+      "Bitcoin ETF flows", "Strategy Saylor bitcoin", "SEC crypto", "Fed Warsh", "Nvidia AI capex", "hyperscaler capex"
+    ],
+    "rss": {
+      "CoinDesk": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+      "The Block": "https://www.theblock.co/rss.xml",
+      "Cointelegraph": "https://cointelegraph.com/rss",
+      "연준(Fed)": "https://www.federalreserve.gov/feeds/press_all.xml"
+    }
+  },
+
+  "style_refs": ["talkevergreen", "seaotterbtc", "juhyukb", "fireantcrypto", "Crypto100y", "PGYInfo", "dolgommagic", "yeolchoongNotice", "emperorcoin"],
+  "_style_refs": "글감으로 쓰지 않음. tools/style_report.py 로 문체만 분석 → STYLE.md",
+
+  "whale": {"min_krw_eok": 1000, "daily_cap": 3},
+  "liquidation": {"min_usd": 1000000, "daily_cap": 2},
+
+  "topics": {
+    "규제·세금": ["클래리티", "CLARITY", "과세", "가상자산법", "SEC", "CFTC", "법안", "상원", "금감원", "금융위", "스테이블코인법", "지니어스"],
+    "거시": ["FOMC", "연준", "Fed", "CPI", "PCE", "금리", "고용", "국채", "달러인덱스", "DXY", "유가", "관세", "파월", "워시", "M2", "유동성"],
+    "BTC·기관": ["비트코인", "BTC", "ETF", "스트래티지", "세일러", "블랙록", "IBIT", "기관", "매집", "고래", "CME"],
+    "미국주식·AI": ["엔비디아", "반도체", "AI", "나스닥", "S&P", "빅테크", "마이크론", "TSMC", "하이퍼스케일러", "데이터센터", "전력"],
+    "시장구조": ["김프", "업비트", "빗썸", "펀딩비", "미결제약정", "청산", "토큰화", "RWA", "이더리움", "ETH", "솔라나"]
+  },
+
+  "block": {
+    "_설명": "strong 은 1개만 있어도 차단, weak 는 2개 이상일 때 차단. 영문은 단어 단위로만 매칭",
+    "strong": ["당첨자", "참여 방법", "참여방법", "지금 참여", "선착순", "레퍼럴", "레퍼럴 코드", "총상금", "경품", "트레이딩 대회", "[광고]", "(광고)", "#광고", "협찬", "Sponsored", "페이백", "수수료 할인", "무료 리딩", "리딩방", "VIP방", "유료방", "구독 부탁", "채팅방 입장"],
+    "weak": ["에어드랍", "에어드롭", "이벤트 참여", "퀴즈", "추천인", "리워드", "증정", "상금", "AMA", "WL", "화이트리스트", "프리세일", "민팅", "가입", "보상 지급", "공지방"],
+    "shill_words": ["가즈아", "떡상", "100배", "1000배", "무조건 간다", "지금 안 사면", "숨은 보석", "젬 발굴"],
+    "min_text_len": 14
+  },
+
+  "calendar": [
+    {"date": "2026-10-29", "time": "03:00", "event": "FOMC 금리 결정(한국시간)"},
+    {"date": "2026-12-10", "time": "04:00", "event": "FOMC 금리 결정(한국시간)"}
+  ],
+
+  "promo": {"enabled": false, "every_n_posts": 8, "text": "📌 세력 멤버십에서 더 깊은 사이클 분석을 공유함"}
+}

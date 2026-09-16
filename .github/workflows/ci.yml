@@ -1,0 +1,20 @@
+name: CI
+on:
+  push: { branches: [main] }
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12', cache: 'pip' }
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover tests
+        env: { PYTHONUTF8: '1' }
+      - name: 비밀값이 커밋에 없는지
+        run: |
+          if git ls-files | grep -qE '(^|/)\.env$'; then echo "::error::.env 커밋됨"; exit 1; fi
+          if git grep -nIE '[0-9]{8,10}:AA[A-Za-z0-9_-]{30,}'; then echo "::error::텔레그램 토큰이 소스에 있음"; exit 1; fi
+          echo ok
