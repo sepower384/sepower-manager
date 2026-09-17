@@ -125,7 +125,7 @@ def seen(led, draft):
 
 
 def record(draft, at):
-    entry = {"id": draft["id"], "at": at, "fp": text_fp(draft["text"]),
+    entry = {"id": draft["id"], "at": at, "kind": draft.get("kind", "insight"), "fp": text_fp(draft["text"]),
              "refs": ref_keys(draft.get("refs")), "img": draft.get("photo_hash") or "",
              "head": " ".join((draft["text"] or "").split("\n")[:2])[:160]}
     if remote_enabled():

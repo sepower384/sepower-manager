@@ -208,9 +208,14 @@ def need_crypto(db, cfg):
     """최근 window 개 글 중 크립토 비중이 min_share 미만이면 True."""
     c = cfg.get("crypto", {})
     window = c.get("window", 4)
-    posts = [p["head"] for p in ledger.load()["posts"] if p.get("head")][-window:]
+    # 고래·청산 알림·아침 브리핑은 빼고, 직접 쓴 인사이트 글로만 센다
+    posts = [p["head"] for p in ledger.load()["posts"]
+             if p.get("head") and p.get("kind", "insight") == "insight"][-window:]
     if len(posts) < window:
-        posts = (store.recent_texts(db, window) + posts)[:window]
+        mine = [r[0] for r in db.execute(
+            "SELECT text FROM drafts WHERE kind='insight' AND status IN ('published','queued','pending') "
+            "ORDER BY id DESC LIMIT ?", (window,))]
+        posts = (mine + posts)[:window]
     if not posts:
         return True
     share = sum(1 for t in posts if filters.is_crypto(t, cfg)) / len(posts)

@@ -445,6 +445,14 @@ class FlowTest(unittest.TestCase):
             d = store.add_draft(self.db, "insight", t, "", [])
             store.update_draft(self.db, d, status="published")
         self.assertFalse(pipeline.need_crypto(self.db, CFG))                    # 최근 4개 중 3개 크립토
+        for i in range(4):                                                      # 고래 알림은 안 셈
+            d = store.add_draft(self.db, "whale", "🐋 고래 이동 BTC %d" % i, "", [])
+            store.update_draft(self.db, d, status="published")
+        self.assertFalse(pipeline.need_crypto(self.db, CFG))
+        for t in ("유가 급등", "나스닥 급락", "고용지표 쇼크"):
+            d = store.add_draft(self.db, "insight", t, "", [])
+            store.update_draft(self.db, d, status="published")
+        self.assertTrue(pipeline.need_crypto(self.db, CFG))                     # 고래 알림이 많아도 부족 판정
 
     def test_crypto_candidates_boosted_and_tagged(self):
         store.upsert_items(self.db, [item("엔비디아 AI 반도체 데이터센터 전력 급증", pid=31),
