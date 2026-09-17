@@ -309,10 +309,19 @@ def publish(db, did, cfg):
         n = db.execute("SELECT COUNT(*) FROM drafts WHERE status='published'").fetchone()[0]
         if (n + 1) % promo["every_n_posts"] == 0:
             text += "\n\n" + promo["text"]
-    msg = telegram.send(target, text, d["photo"])
-    store.update_draft(db, did, status="published", channel_msg_id=msg["message_id"],
-                       published_at=store.now_kst().isoformat())
-    log("발행 #%d" % did)
+    sent, errors = {}, []
+    for chat in telegram.target_chats():        # 모든 발행 채널에 같은 글
+        try:
+            sent[chat] = telegram.send(chat, text, d["photo"])["message_id"]
+        except Exception as e:
+            errors.append("%s: %s" % (chat, str(e)[:80]))
+    if not sent:
+        raise RuntimeError("모든 채널 발행 실패 — " + "; ".join(errors))
+    store.update_draft(db, did, status="published", channel_msg_id=next(iter(sent.values())),
+                       channel_msgs=json.dumps(sent), published_at=store.now_kst().isoformat())
+    log("발행 #%d → %d개 채널%s" % (did, len(sent), (" (실패: %s)" % "; ".join(errors)) if errors else ""))
+    if errors:
+        telegram.send(telegram.admin_chat(), "⚠️ #%d 일부 채널 발행 실패\n%s" % (did, "\n".join(errors)))
     return True
 
 
@@ -389,25 +398,68 @@ def sources_text(db, d):
     return "\n\n".join(out) or "(원문 없음)"
 
 
+def get_targets(db):
+    """발행 채널 목록. 처음엔 Secret(쉼표 구분) + 예전 단일 설정(target_chat)으로 시작, 이후 DM 버튼으로 추가·삭제."""
+    raw = store.kv_get(db, "targets")
+    if raw is None:
+        base = [c.strip() for c in telegram.env("TELEGRAM_TARGET_CHAT_ID").split(",") if c.strip()]
+        legacy = store.kv_get(db, "target_chat")
+        if legacy and legacy not in base:
+            base.append(legacy)
+        store.kv_set(db, "targets", json.dumps(base))
+        return base
+    return json.loads(raw)
+
+
+def set_targets(db, targets):
+    store.kv_set(db, "targets", json.dumps(list(dict.fromkeys(targets))))
+    apply_target(db)
+
+
 def apply_target(db):
-    """DM 버튼으로 고른 발행 채널이 Secret 보다 우선."""
-    t = store.kv_get(db, "target_chat")
-    if t:
-        os.environ["TELEGRAM_TARGET_CHAT_ID"] = t
+    os.environ["MANAGER_TARGETS"] = ",".join(get_targets(db))
+
+
+def target_titles(db):
+    titles = json.loads(store.kv_get(db, "target_titles", "{}"))
+    missing = [t for t in get_targets(db) if t not in titles]
+    for t in missing:
+        try:
+            titles[t] = telegram.call("getChat", {"chat_id": t}).get("title", t)
+        except Exception:
+            titles[t] = t
+    if missing:
+        store.kv_set(db, "target_titles", json.dumps(titles, ensure_ascii=False))
+    return titles
 
 
 def on_chat_member(db, cfg, u):
-    """봇이 채널 관리자로 추가되면 강회장에게 '여기에 발행할까?' 버튼을 보낸다."""
+    """봇이 채널 관리자로 추가되면 강회장에게 '여기에도 발행할까?' 버튼을 보낸다."""
     chat = u["chat"]
     status = u["new_chat_member"]["status"]
     if chat.get("type") not in ("channel", "supergroup"):
         return
+    cid = str(chat["id"])
+    titles = target_titles(db)
+    titles[cid] = chat.get("title", cid)
+    store.kv_set(db, "target_titles", json.dumps(titles, ensure_ascii=False))
     if status == "administrator":
+        if cid in get_targets(db):
+            return
         telegram.send(telegram.admin_chat(),
-                      "📌 '%s' 에 관리자로 추가됐음\n이 채널에 글을 올릴까?" % chat.get("title", chat["id"]),
-                      buttons=[[("✅ 여기에 발행", "tgt:%d" % chat["id"])]])
-    elif str(chat["id"]) == telegram.target_chat() and status in ("left", "kicked", "member"):
-        telegram.send(telegram.admin_chat(), "⚠️ '%s' 에서 관리자 권한이 빠져서 발행이 멈춤" % chat.get("title", ""))
+                      "📌 '%s' 에 관리자로 추가됐음\n이 채널에도 글을 올릴까? (기존 채널은 그대로 유지)" % titles[cid],
+                      buttons=[[("✅ 여기에도 발행", "tgt:%s" % cid)]])
+    elif cid in get_targets(db) and status in ("left", "kicked", "member"):
+        set_targets(db, [t for t in get_targets(db) if t != cid])
+        telegram.send(telegram.admin_chat(), "⚠️ '%s' 에서 관리자 권한이 빠져서 발행 목록에서 뺐음" % titles[cid])
+
+
+def targets_message(db):
+    titles = target_titles(db)
+    ts = get_targets(db)
+    lines = ["📡 발행 채널 %d곳" % len(ts)] + ["· %s (%s)" % (titles.get(t, "?"), t) for t in ts]
+    buttons = [[("🚫 %s 빼기" % titles.get(t, t)[:20], "untgt:%s" % t)] for t in ts]
+    return "\n".join(lines), buttons
 
 
 def on_callback(db, cfg, cb):
@@ -415,12 +467,18 @@ def on_callback(db, cfg, cb):
     act, _, did = data.partition(":")
     msg = cb.get("message", {})
     if act == "tgt":
-        store.kv_set(db, "target_chat", did)
-        apply_target(db)
-        telegram.answer(cb["id"], "발행 채널 설정됨")
-        telegram.edit_buttons(msg["chat"]["id"], msg["message_id"], [[("✅ 발행 채널로 설정됨", "noop:0")]])
-        return telegram.send(telegram.admin_chat(), "이제 이 채널에 %s 올림. /status 로 확인" % (
-            "자동으로" if store.kv_get(db, "mode", cfg["mode"]) == "auto" else "승인 후"))
+        set_targets(db, get_targets(db) + [did])
+        telegram.answer(cb["id"], "발행 채널 추가됨")
+        telegram.edit_buttons(msg["chat"]["id"], msg["message_id"], [[("✅ 발행 채널에 추가됨", "noop:0")]])
+        text, _ = targets_message(db)
+        return telegram.send(telegram.admin_chat(), text + "\n\n같은 글이 모든 채널에 올라감. /targets 로 관리")
+    if act == "untgt":
+        set_targets(db, [t for t in get_targets(db) if t != did])
+        telegram.answer(cb["id"], "뺐음")
+        text, buttons = targets_message(db)
+        return telegram.send(telegram.admin_chat(), text, buttons=buttons)
+    if act == "noop":
+        return telegram.answer(cb["id"])
     did = int(did or 0)
     d = store.get_draft(db, did)
     msg = cb.get("message", {})
@@ -430,9 +488,11 @@ def on_callback(db, cfg, cb):
         if d["status"] != "published":
             return telegram.answer(cb["id"], "발행된 글이 아님")
         try:
-            telegram.call("deleteMessage", {"chat_id": telegram.target_chat(), "message_id": d["channel_msg_id"]})
+            msgs = json.loads(d.get("channel_msgs") or "{}") or {telegram.target_chat(): d["channel_msg_id"]}
+            for chat, mid in msgs.items():
+                telegram.call("deleteMessage", {"chat_id": chat, "message_id": mid})
             store.update_draft(db, did, status="deleted")
-            telegram.answer(cb["id"], "채널에서 지웠음")
+            telegram.answer(cb["id"], "%d개 채널에서 지웠음" % len(msgs))
             telegram.edit_buttons(msg["chat"]["id"], msg["message_id"], [[("🗑 삭제됨", "noop:0")]])
         except Exception as e:
             telegram.answer(cb["id"], "삭제 실패: %s" % str(e)[:150])
@@ -485,6 +545,7 @@ def process_redo_queue(db, cfg):
 
 HELP = ("세력의 매니저 명령어\n"
         "/status 현황  /now 지금 한 바퀴  /brief 아침 체크포인트 지금\n"
+        "/targets 발행 채널 목록·빼기 (봇을 채널 관리자로 넣으면 추가 버튼이 옴)\n"
         "/pause 멈춤  /resume 재개\n"
         "/auto 자동발행  /approve 승인모드\n"
         "초안 메시지에 '답장'으로 글을 보내면 → 그 글로 교체\n"
@@ -512,9 +573,14 @@ def on_message(db, cfg, m, run_cycle):
         start = store.now_kst().replace(hour=0, minute=0, second=0, microsecond=0)
         pend = pending_count(db)
         items = db.execute("SELECT COUNT(*) FROM items WHERE fetched_at>=?", (start.isoformat(),)).fetchone()[0]
+        titles = target_titles(db)
         telegram.send(chat, "모드: %s%s\n오늘 발행 %d개 / 대기 %d개\n오늘 수집 %d개\n발행 채널: %s" % (
             store.kv_get(db, "mode", cfg["mode"]), " (일시정지)" if store.kv_get(db, "paused") == "1" else "",
-            len(store.published_since(db, start)), pend, items, telegram.target_chat() or "미설정"))
+            len(store.published_since(db, start)), pend, items,
+            ", ".join(titles.get(t, t) for t in get_targets(db)) or "미설정"))
+    elif cmd == "/targets":
+        text, buttons = targets_message(db)
+        telegram.send(chat, text, buttons=buttons)
     elif cmd == "/pause":
         store.kv_set(db, "paused", "1"); telegram.send(chat, "⏸ 멈췄음")
     elif cmd == "/resume":

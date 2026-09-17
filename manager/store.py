@@ -43,6 +43,8 @@ def connect(path=None):
         db.execute("ALTER TABLE drafts ADD COLUMN ptype TEXT DEFAULT ''")
     if "photo_hash" not in cols:   # 같은 이미지 재사용 방지
         db.execute("ALTER TABLE drafts ADD COLUMN photo_hash TEXT DEFAULT ''")
+    if "channel_msgs" not in cols:  # 여러 채널 발행 {chat_id: message_id}
+        db.execute("ALTER TABLE drafts ADD COLUMN channel_msgs TEXT DEFAULT '{}'")
     return db
 
 

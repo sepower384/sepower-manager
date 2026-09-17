@@ -175,6 +175,7 @@ class FlowTest(unittest.TestCase):
         telegram._post = self.tg
         os.environ.update(TELEGRAM_BOT_TOKEN_MANAGER="t", TELEGRAM_ADMIN_CHAT_ID="1",
                           TELEGRAM_TARGET_CHAT_ID="@sepower")
+        os.environ.pop("MANAGER_TARGETS", None)
         store.kv_set(self.db, "mode", "approve")
         self.did = store.add_draft(self.db, "insight", "⚖️ 헤드라인\n본문임\n→ 관점\n출처: 코인니스", "",
                                    [{"source": "coinnesskr", "post_id": 1, "url": "u"}])
@@ -300,7 +301,6 @@ class FlowTest(unittest.TestCase):
         self.assertEqual(store.kv_get(self.db, "offset"), "9")
 
     def test_added_to_channel_sets_target_by_button(self):
-        os.environ["TELEGRAM_TARGET_CHAT_ID"] = ""
         up = {"update_id": 1, "my_chat_member": {
             "from": {"id": 1}, "chat": {"id": -1001234, "type": "channel", "title": "세력 채널"},
             "new_chat_member": {"status": "administrator"}}}
@@ -314,10 +314,26 @@ class FlowTest(unittest.TestCase):
         asks = [c for c in self.tg.calls if "tgt:-1001234" in c[1].get("reply_markup", "")]
         self.assertEqual(len(asks), 1)                      # 남이 추가한 건 무시
         pipeline.on_callback(self.db, CFG, self.cb("tgt:-1001234", 9))
-        self.assertEqual(telegram.target_chat(), "-1001234")
-        os.environ["TELEGRAM_TARGET_CHAT_ID"] = ""
+        # 교체가 아니라 추가 — 기존 채널(@sepower)도 유지
+        self.assertEqual(telegram.target_chats(), ["@sepower", "-1001234"])
+        os.environ.pop("MANAGER_TARGETS")
         pipeline.apply_target(self.db)                      # 다음 회차에도 유지
-        self.assertEqual(telegram.target_chat(), "-1001234")
+        self.assertEqual(telegram.target_chats(), ["@sepower", "-1001234"])
+        # 발행은 두 채널 모두, 삭제도 두 채널 모두
+        pipeline.publish(self.db, self.did, CFG)
+        sent = [c[1]["chat_id"] for c in self.tg.calls if c[0] == "sendPhoto"]
+        self.assertEqual(sent, ["@sepower", "-1001234"])
+        pipeline.on_callback(self.db, CFG, self.cb("del:%d" % self.did, 9))
+        dels = [c[1]["chat_id"] for c in self.tg.calls if c[0] == "deleteMessage"]
+        self.assertEqual(dels, ["@sepower", "-1001234"])
+        # 빼기 버튼
+        pipeline.on_callback(self.db, CFG, self.cb("untgt:@sepower", 9))
+        self.assertEqual(telegram.target_chats(), ["-1001234"])
+
+    def test_legacy_single_target_is_kept_with_secret(self):
+        store.kv_set(self.db, "target_chat", "-100999")     # 예전 버전이 교체해버린 값
+        pipeline.apply_target(self.db)
+        self.assertEqual(telegram.target_chats(), ["@sepower", "-100999"])
 
     def test_every_post_has_image(self):
         pipeline.publish(self.db, self.did, CFG)

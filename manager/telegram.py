@@ -28,8 +28,17 @@ def admin_chat():
     return env("TELEGRAM_ADMIN_CHAT_ID")
 
 
+def target_chats():
+    """발행 채널 목록 (쉼표로 여러 개)."""
+    raw = os.environ.get("MANAGER_TARGETS")      # DM 버튼으로 관리하는 목록(없으면 Secret)
+    if raw is None:
+        raw = env("TELEGRAM_TARGET_CHAT_ID")
+    return [c.strip() for c in raw.split(",") if c.strip()]
+
+
 def target_chat():
-    return env("TELEGRAM_TARGET_CHAT_ID")
+    t = target_chats()
+    return t[0] if t else ""
 
 
 def call(method, data=None, files=None, timeout=30):
