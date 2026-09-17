@@ -168,6 +168,61 @@ class WriterTest(unittest.TestCase):
         self.assertEqual(store.recent_types(db), ["H", "C"])
 
 
+class ReportTest(unittest.TestCase):
+    def test_periods(self):
+        from manager import reports
+        now = datetime(2026, 9, 21, 9, 0, tzinfo=store.KST)           # 월요일
+        s, e, k, _ = reports.period("weekly", now)
+        self.assertEqual((s.date().isoformat(), e.date().isoformat(), k), ("2026-09-14", "2026-09-21", "2026-W38"))
+        s, e, k, _ = reports.period("monthly", datetime(2026, 10, 1, 9, tzinfo=store.KST))
+        self.assertEqual((s.date().isoformat(), e.date().isoformat(), k), ("2026-09-01", "2026-10-01", "2026-09"))
+        s, e, k, _ = reports.period("quarterly", datetime(2026, 10, 1, 10, tzinfo=store.KST))
+        self.assertEqual((s.date().isoformat(), e.date().isoformat(), k), ("2026-07-01", "2026-10-01", "2026-Q3"))
+        s, e, k, _ = reports.period("yearly", datetime(2027, 1, 1, 11, tzinfo=store.KST))
+        self.assertEqual((s.date().isoformat(), e.date().isoformat(), k), ("2026-01-01", "2027-01-01", "2026"))
+
+    def test_due_and_catch_up(self):
+        from manager import reports
+        tmp = tempfile.mkdtemp()
+        os.environ.pop("LEDGER_GIT", None)
+        ledger.STATE_LOCAL = tmp
+        early = datetime(2026, 9, 21, 7, 0, tzinfo=store.KST)
+        self.assertEqual(reports.due_reports(early), [])                          # 08시 전
+        due = reports.due_reports(datetime(2026, 9, 21, 8, 30, tzinfo=store.KST))
+        self.assertEqual([(d[0], d[3]) for d in due], [("weekly", "2026-W38")])
+        late = reports.due_reports(datetime(2026, 9, 23, 3, 0, tzinfo=store.KST))  # 이틀 늦어도 만회
+        self.assertEqual([(d[0], d[3]) for d in late], [("weekly", "2026-W38")])
+        reports.save("weekly", "2026-W38", {"title": "t"}, datetime(2026, 9, 21, 9, tzinfo=store.KST))
+        self.assertEqual(reports.due_reports(datetime(2026, 9, 22, 9, tzinfo=store.KST)), [])
+        oct1 = reports.due_reports(datetime(2026, 10, 1, 11, 0, tzinfo=store.KST))
+        self.assertEqual(sorted(d[0] for d in oct1), ["monthly", "quarterly", "weekly"])   # 9/28 주간도 만회
+        self.assertIn(("weekly", "2026-W39"), [(d[0], d[3]) for d in oct1])
+        jan1 = reports.due_reports(datetime(2027, 1, 1, 12, 0, tzinfo=store.KST))
+        self.assertEqual(sorted(d[0] for d in jan1), ["monthly", "quarterly", "yearly"])
+
+    def test_child_summaries_and_render(self):
+        from manager import reports
+        tmp = tempfile.mkdtemp()
+        ledger.STATE_LOCAL = tmp
+        reports.save("weekly", "2026-W38", {"title": "38주 제목", "summary": ["a"], "issues": [{"title": "i1"}]},
+                     datetime(2026, 9, 21, tzinfo=store.KST))
+        ch = reports.child_summaries("monthly", datetime(2026, 9, 1, tzinfo=store.KST),
+                                     datetime(2026, 10, 1, tzinfo=store.KST))
+        self.assertEqual([c["key"] for c in ch], ["2026-W38"])
+        mkt = {"BTC": {"name": "비트코인", "unit": "$", "series": [("2026-09-14", 70000), ("2026-09-15", 72000)],
+                       "first": 70000, "last": 72000, "change": 2.86, "change_kind": "%"},
+               "US10Y": {"name": "미 10년물", "unit": "%", "series": [("2026-09-14", 4.8), ("2026-09-15", 5.0)],
+                         "first": 4.8, "last": 5.0, "change": 0.2, "change_kind": "bp"}, "_fng": [("2026-09-15", 50, "Neutral")]}
+        s = {"title": "제목<b>", "summary": ["요약"], "issues": [{"tag": "크립토", "title": "이슈"}],
+             "sections": {}, "flow": [], "watch": [], "view": "관점", "keywords": ["k"]}
+        doc = reports.render_html("weekly", "2026-W38", "라벨", s, mkt, [], reports.post_stats([], CFG),
+                                  datetime(2026, 9, 21, tzinfo=store.KST))
+        self.assertIn("제목&lt;b&gt;", doc)                  # 이스케이프
+        self.assertIn("+20bp", doc)
+        self.assertIn("data:image/jpeg;base64", doc)         # 표지 그림
+        self.assertEqual(doc.count('class="page'), 6)       # 주간은 6쪽
+
+
 class FlowTest(unittest.TestCase):
     def setUp(self):
         self.db = store.connect(":memory:")
@@ -183,6 +238,7 @@ class FlowTest(unittest.TestCase):
         self.tmp = tempfile.mkdtemp()
         os.environ.pop("LEDGER_GIT", None)
         ledger.LOCAL = os.path.join(self.tmp, "ledger.json")      # 테스트마다 빈 장부
+        ledger.STATE_LOCAL = os.path.join(self.tmp, "state")
         self.cards = []
 
         def fake_card(title, publisher, sub, name, accent="#000"):

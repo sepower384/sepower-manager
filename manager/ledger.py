@@ -24,6 +24,7 @@ FILE = "published.json"
 LOCAL = os.path.join(ROOT, "data", "ledger.json")
 KEEP_H = 72
 GIT_DIR = ROOT
+STATE_LOCAL = os.path.join(ROOT, "data", "state")
 
 
 def text_fp(text):
@@ -81,32 +82,61 @@ def _save_local(led):
         json.dump(led, f, ensure_ascii=False, indent=1)
 
 
-def _push(entry, last_pub_at):
-    """원격 최신본에 항목을 더해 state 브랜치에 커밋·푸시. 경합이면 다시 받아서 재시도."""
+def _show(path):
+    p = _git("show", "origin/%s:%s" % (BRANCH, path), check=False)
+    return p.stdout if p.returncode == 0 else ""
+
+
+def commit_files(update, message):
+    """state 브랜치 최신본 위에서 update(read) -> {경로: 내용} 을 써서 커밋·푸시. 경합이면 재시도.
+    read(path) 는 원격 최신 내용을 준다. 로컬 모드면 data/state/ 에 쓴다."""
+    if not remote_enabled():
+        base = STATE_LOCAL
+
+        def read_local(path):
+            fp = os.path.join(base, path)
+            return open(fp, encoding="utf-8").read() if os.path.exists(fp) else ""
+        files = update(read_local)
+        for path, content in files.items():
+            fp = os.path.join(base, path)
+            os.makedirs(os.path.dirname(fp), exist_ok=True)
+            with open(fp, "w", encoding="utf-8") as f:
+                f.write(content)
+        return files
     for attempt in range(4):
-        led = load()
-        led["posts"].append(entry)
-        led["last_pub_at"] = max(led.get("last_pub_at", ""), last_pub_at)
+        _git("fetch", "-q", "origin", "+refs/heads/%s:refs/remotes/origin/%s" % (BRANCH, BRANCH), check=False)
+        files = update(_show)
         with tempfile.TemporaryDirectory() as tmp:
             wt = os.path.join(tmp, "wt")
             has = _git("ls-remote", "--exit-code", "--heads", "origin", BRANCH, check=False).returncode == 0
             if has:
-                _git("worktree", "add", "-f", wt, "origin/%s" % BRANCH)
+                _git("worktree", "add", "-f", "--detach", wt, "origin/%s" % BRANCH)
             else:
                 _git("worktree", "add", "-f", "--detach", wt)
                 _git("checkout", "--orphan", "tmp-state", cwd=wt)
                 _git("rm", "-rfq", ".", cwd=wt, check=False)
-            with open(os.path.join(wt, FILE), "w", encoding="utf-8") as f:
-                json.dump(led, f, ensure_ascii=False, indent=1)
-            _git("add", FILE, cwd=wt)
+            for path, content in files.items():
+                fp = os.path.join(wt, path)
+                os.makedirs(os.path.dirname(fp), exist_ok=True)
+                with open(fp, "w", encoding="utf-8") as f:
+                    f.write(content)
+                _git("add", path, cwd=wt)
             _git("-c", "user.name=sepower-manager", "-c", "user.email=bot@users.noreply.github.com",
-                 "commit", "-qm", "발행 기록 %s" % entry.get("id"), cwd=wt)
+                 "commit", "-qm", message, cwd=wt)
             p = _git("push", "-q", "origin", "HEAD:refs/heads/%s" % BRANCH, cwd=wt, check=False)
             _git("worktree", "remove", "-f", wt, check=False)
             if p.returncode == 0:
-                return led
+                return files
         time.sleep(2 + attempt * 2)
-    raise RuntimeError("발행 장부 저장 실패(경합)")
+    raise RuntimeError("state 브랜치 저장 실패(경합)")
+
+
+def read_state(path):
+    if remote_enabled():
+        _git("fetch", "-q", "origin", "+refs/heads/%s:refs/remotes/origin/%s" % (BRANCH, BRANCH), check=False)
+        return _show(path)
+    fp = os.path.join(STATE_LOCAL, path)
+    return open(fp, encoding="utf-8").read() if os.path.exists(fp) else ""
 
 
 def seen(led, draft):
@@ -125,17 +155,48 @@ def seen(led, draft):
 
 
 def record(draft, at):
-    entry = {"id": draft["id"], "at": at, "kind": draft.get("kind", "insight"), "fp": text_fp(draft["text"]),
+    """발행 장부(72시간) + 월별 영구 보관(archive/YYYY-MM.jsonl, 보고서 재료)을 한 커밋으로."""
+    text = draft["text"] or ""
+    entry = {"id": draft["id"], "at": at, "kind": draft.get("kind", "insight"), "fp": text_fp(text),
              "refs": ref_keys(draft.get("refs")), "img": draft.get("photo_hash") or "",
-             "head": " ".join((draft["text"] or "").split("\n")[:2])[:160]}
-    if remote_enabled():
-        led = _push(entry, at)
-    else:
-        led = load()
+             "head": " ".join(text.split("\n")[:2])[:160]}
+    full = dict(entry, text=text, ptype=draft.get("ptype") or "",
+                channels=len(json.loads(draft.get("channel_msgs") or "{}")))
+    month = at[:7]
+    out = {}
+
+    def update(read):
+        raw = read(FILE) if remote_enabled() else (open(LOCAL, encoding="utf-8").read() if os.path.exists(LOCAL) else "")
+        led = _prune(json.loads(raw)) if raw.strip() else empty()
         led["posts"].append(entry)
         led["last_pub_at"] = max(led.get("last_pub_at", ""), at)
-        _save_local(led)
-    return led
+        out["led"] = led
+        arch = read("archive/%s.jsonl" % month)
+        files = {"archive/%s.jsonl" % month: arch + json.dumps(full, ensure_ascii=False) + "\n"}
+        if remote_enabled():
+            files[FILE] = json.dumps(led, ensure_ascii=False, indent=1)
+        return files
+
+    commit_files(update, "발행 기록 %s" % draft["id"])
+    if not remote_enabled():
+        _save_local(out["led"])
+    return out["led"]
+
+
+def load_archive(start, end):
+    """[start, end) 사이(KST aware datetime)에 발행된 글 전체."""
+    months, cur = [], start.replace(day=1)
+    while cur < end:
+        months.append(cur.strftime("%Y-%m"))
+        cur = (cur.replace(day=28) + timedelta(days=4)).replace(day=1)
+    rows = []
+    for m in months:
+        for line in read_state("archive/%s.jsonl" % m).splitlines():
+            if line.strip():
+                r = json.loads(line)
+                if start.isoformat() <= r["at"] < end.isoformat():
+                    rows.append(r)
+    return rows
 
 
 def heads(led):

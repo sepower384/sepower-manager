@@ -219,6 +219,18 @@ def main():
         pipeline.collect(store.connect(), pipeline.load_config())
     elif cmd == "cloud":
         cloud(sys.argv[2])
+    elif cmd == "report":     # run.py report due | run.py report sample weekly|monthly|quarterly|yearly
+        from manager import reports
+        db = store.connect()
+        cfg = pipeline.load_config()
+        if sys.argv[2] == "due":
+            print("보고서:", reports.run_due(db, cfg, log=pipeline.log))
+        else:
+            kind = sys.argv[3]
+            pdf, s, stats, key, label = reports.sample(kind, db, cfg)
+            print(pdf)
+            if telegram.token() and os.environ.get("REPORT_DM", "1") == "1":
+                reports.deliver(kind, key, label + " (샘플)", pdf, s, stats)
     elif cmd == "once":
         cycle(store.connect(), pipeline.load_config(), force=True)
     else:

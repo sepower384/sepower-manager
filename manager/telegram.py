@@ -70,6 +70,12 @@ def send(chat, text, photo="", buttons=None, reply_to=None):
                                 "disable_web_page_preview": "true" if photo else "false", **extra})
 
 
+def send_document(chat, path, caption=""):
+    with open(path, "rb") as f:
+        return call("sendDocument", {"chat_id": chat, "caption": caption[:MAX_CAPTION]},
+                    files={"document": (os.path.basename(path), f, "application/pdf")}, timeout=120)
+
+
 def edit_buttons(chat, msg_id, buttons=None):
     try:
         call("editMessageReplyMarkup", {"chat_id": chat, "message_id": msg_id,

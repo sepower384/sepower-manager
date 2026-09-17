@@ -12,11 +12,14 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: updates | cycle | preview | now
+        description: updates | cycle | preview | now | report
         default: cycle
       count:
         description: mode=now 일 때 바로 올릴 개수
         default: '1'
+      kind:
+        description: mode=report 일 때 샘플 보고서 종류 (weekly | monthly | quarterly | yearly)
+        default: weekly
 
 permissions:
   contents: write        # state 브랜치(발행 장부) 푸시
@@ -38,7 +41,7 @@ env:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
 
@@ -79,6 +82,26 @@ jobs:
       - name: 수집 → 초안 → 발행
         if: env.MODE == 'cycle'
         run: python run.py cloud cycle
+
+      # 주간(월 08시)·월간(1일 09시)·분기(1·4·7·10월 1일)·연간(1/1) — 때가 되면 만들어 DM 으로
+      - name: 정기 보고서
+        if: env.MODE == 'cycle'
+        continue-on-error: true
+        timeout-minutes: 15
+        run: python run.py report due
+
+      - name: 보고서 샘플(진행 중인 기간, DM)
+        if: env.MODE == 'report'
+        run: python run.py report sample ${{ inputs.kind }}
+
+      - name: 보고서 파일 보관
+        if: env.MODE == 'report' || env.MODE == 'cycle'
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports-${{ github.run_id }}
+          path: data/reports/*.pdf
+          if-no-files-found: ignore
+          retention-days: 90
 
       - name: 지금 1개 발행
         if: env.MODE == 'now'
