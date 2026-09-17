@@ -106,6 +106,9 @@ def candidates(db, cfg, limit=25, now=None):
         r["score"] = filters.score(r, cfg, w.get(r["source"], 1.0), now) * (1 + 0.15 * min(cover, 5))
         if r.get("publisher") in low:
             r["score"] *= 0.4
+        r["crypto"] = filters.is_crypto(r["text"], cfg)
+        if r["crypto"]:
+            r["score"] *= cfg.get("crypto", {}).get("weight", 1.0)
     rows.sort(key=lambda r: -r["score"])
     led = ledger.load()                       # 실제로 나간 것(즉시 일관) + 로컬 DB 기록
     recent = store.recent_topics(db) + ledger.heads(led)
@@ -157,6 +160,12 @@ def make_drafts(db, cfg, force=False):
         hint = ("긴급 속보 후보: %s — 이 중 채널에 알릴 가치가 있으면 반드시 먼저 고르고 짧은 유형(A)으로 빠르게 써라."
                 % ", ".join("#%d" % cands.index(c) for c in urgent[:3]))
         n = max(n, 1)
+    elif need_crypto(db, cfg) and any(c.get("crypto") for c in cands):
+        # 최근 글에 크립토가 모자라면 크립토 후보를 앞으로 + 반드시 크립토로
+        cands.sort(key=lambda c: not c.get("crypto"))
+        hint = ("최근 글에 크립토 이야기가 부족함. 이번엔 반드시 [크립토] 표시된 후보에서 골라라 "
+                "(코인시장·BTC/ETH·알트·거래소·스테이블코인·온체인·규제 중 인사이트 있는 것).")
+        log("크립토 비중 부족 → 크립토 우선")
     log("후보 %d개(긴급 %d) → LLM 편집" % (len(cands), len(urgent)))
     snap = {}
 
@@ -193,6 +202,19 @@ def make_drafts(db, cfg, force=False):
                                if (c["source"], c["post_id"]) not in used], "passed")
     log("초안 %d개 생성" % len(ids))
     return ids
+
+
+def need_crypto(db, cfg):
+    """최근 window 개 글 중 크립토 비중이 min_share 미만이면 True."""
+    c = cfg.get("crypto", {})
+    window = c.get("window", 4)
+    posts = [p["head"] for p in ledger.load()["posts"] if p.get("head")][-window:]
+    if len(posts) < window:
+        posts = (store.recent_texts(db, window) + posts)[:window]
+    if not posts:
+        return True
+    share = sum(1 for t in posts if filters.is_crypto(t, cfg)) / len(posts)
+    return share < c.get("min_share", 0.5)
 
 
 def dedupe_picks(picks, cands, topics):

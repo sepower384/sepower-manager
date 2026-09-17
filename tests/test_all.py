@@ -431,6 +431,28 @@ class FlowTest(unittest.TestCase):
         self.assertIn("원문 기사 제목입니다 충분히 길게", topics)
         self.assertTrue(any("헤드라인" in t for t in topics))
 
+    def test_crypto_detection_and_share(self):
+        self.assertTrue(filters.is_crypto("솔라나 ETF 자금 유입", CFG))
+        self.assertTrue(filters.is_crypto("Tether mints $1B USDT", CFG))
+        self.assertFalse(filters.is_crypto("엔비디아 데이터센터 매출 사상 최대", CFG))
+        self.assertFalse(filters.is_crypto("Tokyo stocks rally", CFG))           # token 부분일치 아님
+        self.assertTrue(pipeline.need_crypto(self.db, CFG))                     # 글이 없으면 크립토부터
+        for t in ("엔비디아 실적 해설", "국채금리 5% 돌파", "FOMC 금리 인상", "애플 서버 개발"):
+            d = store.add_draft(self.db, "insight", t, "", [])
+            store.update_draft(self.db, d, status="published")
+        self.assertTrue(pipeline.need_crypto(self.db, CFG))
+        for t in ("비트코인 고래 매집", "이더리움 ETF 순유입", "업비트 신규 상장"):
+            d = store.add_draft(self.db, "insight", t, "", [])
+            store.update_draft(self.db, d, status="published")
+        self.assertFalse(pipeline.need_crypto(self.db, CFG))                    # 최근 4개 중 3개 크립토
+
+    def test_crypto_candidates_boosted_and_tagged(self):
+        store.upsert_items(self.db, [item("엔비디아 AI 반도체 데이터센터 전력 급증", pid=31),
+                                     item("비트코인 현물 ETF 대규모 순유입, 기관 매집", pid=32)])
+        c = pipeline.candidates(self.db, CFG)
+        self.assertTrue(c[0]["crypto"])
+        self.assertIn("[크립토]", writer.fmt_candidates(c))
+
     def test_pause_command(self):
         pipeline.on_message(self.db, CFG, {"text": "/pause", "chat": {"id": 1}}, None)
         self.assertEqual(store.kv_get(self.db, "paused"), "1")

@@ -64,8 +64,9 @@ def fmt_candidates(cands):
     lines = []
     for i, c in enumerate(cands):
         txt = (c["text"] or c.get("preview_title") or "")[:700]
-        lines.append("### #%d  출처=%s  시각=%s  사진=%s\n%s\n링크: %s" % (
-            i, c.get("publisher") or c["source"], kst(c["date"]),
+        tags = ("[크립토]" if c.get("crypto") else "") + ("[긴급]" if c.get("urgent") else "")
+        lines.append("### #%d %s 출처=%s  시각=%s  사진=%s\n%s\n링크: %s" % (
+            i, tags, c.get("publisher") or c["source"], kst(c["date"]),
             "있음" if c["photos"] else "없음", txt, ", ".join(c["links"][:2]) or "-"))
     return "\n\n".join(lines)
 

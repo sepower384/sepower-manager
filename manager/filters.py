@@ -68,6 +68,16 @@ def block_reason(item, cfg):
     return None
 
 
+MEDIA_NAMES = re.compile(r"코인니스|코인데스크|코인텔레그래프|CoinDesk|Cointelegraph|코인리더스|토큰포스트|블록미디어")
+
+
+def is_crypto(text, cfg):
+    """출처 줄·매체 이름('코인니스' 등)은 빼고 본문으로만 판정."""
+    body = "\n".join(l for l in (text or "").split("\n") if not l.strip().startswith("출처"))
+    body = MEDIA_NAMES.sub(" ", body)
+    return any(has_word(body, w) for w in cfg.get("crypto", {}).get("words", []))
+
+
 def topic_hits(text, cfg):
     hits = {}
     for topic, words in cfg["topics"].items():

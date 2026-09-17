@@ -27,18 +27,39 @@
       "가상자산 과세", "클래리티 법안", "스테이블코인 법안", "비트코인 ETF", "비트코인 시세",
       "FOMC 금리", "미국 CPI", "국채금리", "엔비디아", "반도체 AI 투자", "SK하이닉스 HBM",
       "업비트 빗썸", "스트래티지 비트코인",
-      "Bitcoin ETF flows", "Strategy Saylor bitcoin", "SEC crypto", "Fed Warsh", "Nvidia AI capex", "hyperscaler capex"
+      "이더리움", "솔라나", "리플 XRP", "알트코인", "스테이블코인", "비트코인 고래", "가상자산 거래소", "코인 해킹", "토큰 상장",
+      "Bitcoin ETF flows", "Strategy Saylor bitcoin", "SEC crypto", "Fed Warsh", "Nvidia AI capex", "hyperscaler capex",
+      "Ethereum ETF", "Solana ETF", "stablecoin", "crypto exchange", "Binance", "Coinbase", "Tether", "DeFi hack", "token unlock"
     ],
     "rss": {
       "CoinDesk": "https://www.coindesk.com/arc/outboundfeeds/rss/",
       "The Block": "https://www.theblock.co/rss.xml",
       "Cointelegraph": "https://cointelegraph.com/rss",
-      "연준(Fed)": "https://www.federalreserve.gov/feeds/press_all.xml"
+      "연준(Fed)": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "Decrypt": "https://decrypt.co/feed",
+      "Bitcoin Magazine": "https://bitcoinmagazine.com/.rss/full/",
+      "The Defiant": "https://thedefiant.io/api/feed",
+      "CryptoSlate": "https://cryptoslate.com/feed/",
+      "Blockworks": "https://blockworks.co/feed",
+      "블록미디어": "https://www.blockmedia.co.kr/feed",
+      "토큰포스트": "https://www.tokenpost.kr/rss",
+      "디지털애셋": "https://www.digitalasset.works/rss/allArticle.xml"
     }
   },
 
   "style_refs": ["talkevergreen", "seaotterbtc", "juhyukb", "fireantcrypto", "Crypto100y", "PGYInfo", "dolgommagic", "yeolchoongNotice", "emperorcoin"],
   "_style_refs": "글감으로 쓰지 않음. tools/style_report.py 로 문체만 분석 → STYLE.md",
+
+  "crypto": {
+    "_설명": "강회장 지시(9/17): 크립토 이슈도 섞기. 크립토 기사 가중치 + 최근 글 중 크립토가 적으면 다음 글은 크립토 우선",
+    "weight": 1.35,
+    "min_share": 0.5,
+    "window": 4,
+    "words": ["비트코인", "BTC", "이더리움", "ETH", "솔라나", "SOL", "리플", "XRP", "코인", "가상자산", "암호화폐", "가상화폐", "크립토",
+              "스테이블코인", "테더", "USDT", "USDC", "업비트", "빗썸", "바이낸스", "코인베이스", "디파이", "DeFi", "토큰", "알트",
+              "블록체인", "온체인", "채굴", "ETF 순유입", "Bitcoin", "Ethereum", "Solana", "crypto", "Crypto", "stablecoin",
+              "Binance", "Coinbase", "Tether", "token", "blockchain", "on-chain", "altcoin", "memecoin", "airdrop"]
+  },
 
   "urgent": {
     "_설명": "속보성 단어가 제목 앞부분에 있고 90분 이내·채널 주제면 긴급 → 마지막 발행 15분 뒤 바로 (하루 4개까지)",
