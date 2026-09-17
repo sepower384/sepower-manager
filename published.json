@@ -60,7 +60,21 @@
    ],
    "img": "e0d436c6ab5ec12ccc3979b2e3015bb9",
    "head": "속보) 비트코인 7만7000달러 터치 "
+  },
+  {
+   "id": 29,
+   "at": "2026-09-17T23:42:54.303189+09:00",
+   "kind": "insight",
+   "fp": "0c0fe1fdfbe70fde",
+   "refs": [
+    "news:77859324505533",
+    "url:https://news.google.com/rss/articles/CBMiSEFVX3lxTE9NaW81NXF3YVJWajZoOUdjNUpYNEhJZjB1aWxtd3NSWExxcHA3czlPd2NFcnhkZVlfT1B1aHY4YnE2Wm42NnkxOQ",
+    "news:20375378424320",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFB0NzRhc1V1VWVaemplQS1XdVp2NDJWaHhxU015WURUdnh4M19IN085RVlxVE42c2lNRGVmNm1ZSFF0UmJiQkNFdmdn"
+   ],
+   "img": "26630fb2383c32c018e098e22ffb8720",
+   "head": "속보) 美 하원 위원회, 압류 비트코인 매각 금지 법안 통과…본회의行 "
   }
  ],
- "last_pub_at": "2026-09-17T22:04:48.335288+09:00"
+ "last_pub_at": "2026-09-17T23:42:54.303189+09:00"
 }
