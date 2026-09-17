@@ -298,7 +298,7 @@ body { margin: 0; font-family: 'Pretendard', 'Noto Sans CJK KR', 'Malgun Gothic'
 h2, h3 { break-after: avoid }
 .foot { display: none }
 .eyebrow { font-size: 8.5pt; letter-spacing: .18em; font-weight: 700; color: var(--accent) }
-h2 { font-size: 20pt; line-height: 1.25; margin: 1.5mm 0 5mm; letter-spacing: -.02em }
+h2 { font-size: 19pt; line-height: 1.25; margin: 1mm 0 4mm; letter-spacing: -.02em }
 h3 { font-size: 12.5pt; margin: 0 0 2mm; letter-spacing: -.01em }
 .muted { color: #64748B }
 
@@ -340,20 +340,20 @@ h3 { font-size: 12.5pt; margin: 0 0 2mm; letter-spacing: -.01em }
 .chart-card { padding: 4mm 4mm 2mm }
 
 /* 이슈 */
-.issue { display: grid; grid-template-columns: 11mm 1fr; gap: 3mm; padding: 3.6mm 0; border-bottom: 1px solid #E2E8F0 }
+.issue { display: grid; grid-template-columns: 11mm 1fr; gap: 3mm; padding: 2.6mm 0; border-bottom: 1px solid #E2E8F0 }
 .issue:last-child { border-bottom: 0 }
 .issue .no { font-size: 20pt; font-weight: 800; color: var(--accent); line-height: 1 }
 .tag { display: inline-block; font-size: 7.5pt; font-weight: 700; padding: .4mm 2mm; border-radius: 5mm;
   background: #F1F5F9; color: #334155; margin-right: 1.5mm; vertical-align: 1px }
 .tag.crypto { background: #FEF3C7; color: #92400E } .tag.macro { background: #DBEAFE; color: #1E40AF }
 .tag.ai { background: #EDE9FE; color: #5B21B6 } .tag.reg { background: #FCE7F3; color: #9D174D }
-.issue h4 { margin: 0 0 1mm; font-size: 11.5pt; letter-spacing: -.01em }
-.issue p { margin: .6mm 0; font-size: 9.6pt }
+.issue h4 { margin: 0 0 .6mm; font-size: 11pt; letter-spacing: -.01em }
+.issue p { margin: .4mm 0; font-size: 9pt; line-height: 1.52 }
 .issue p b { color: #0F172A; font-weight: 700; margin-right: 1mm }
 .issue .why { background: #F8FAFC; border-left: .8mm solid var(--accent); padding: 1.4mm 2.5mm; border-radius: 0 1.5mm 1.5mm 0 }
 
 /* 분야 */
-.sec { display: grid; grid-template-columns: 30mm 1fr; gap: 5mm; padding: 3.6mm 0; border-bottom: 1px solid #E2E8F0 }
+.sec { display: grid; grid-template-columns: 26mm 1fr; gap: 4mm; padding: 2.8mm 0; font-size: 9.6pt; line-height: 1.55; border-bottom: 1px solid #E2E8F0 }
 .sec .h { font-size: 13pt; font-weight: 800 }
 .sec .h small { display: block; font-size: 8pt; color: #94A3B8; letter-spacing: .15em; font-weight: 600 }
 .chips span { display: inline-block; border: 1px solid #CBD5E1; border-radius: 5mm; padding: .6mm 3mm;
@@ -363,12 +363,12 @@ h3 { font-size: 12.5pt; margin: 0 0 2mm; letter-spacing: -.01em }
 .flow b { color: var(--accent2) }
 
 /* 체크포인트·관점 */
-.watch { display: grid; grid-template-columns: 30mm 1fr; border-bottom: 1px dashed #CBD5E1; padding: 2.6mm 0 }
+.watch { display: grid; grid-template-columns: 28mm 1fr; border-bottom: 1px dashed #CBD5E1; padding: 1.8mm 0; font-size: 9.6pt }
 .watch .when { font-weight: 800; font-size: 10pt }
 .watch .what { font-weight: 700 }
 .watch .why { font-size: 9.3pt; color: #475569 }
-.view { background: #0B1220; color: #E2E8F0; border-radius: 4mm; padding: 7mm 8mm; margin-top: 5mm; position: relative;
-  font-size: 10.8pt; line-height: 1.75 }
+.view { background: #0B1220; color: #E2E8F0; border-radius: 4mm; padding: 6mm 7mm; margin-top: 4mm; position: relative;
+  font-size: 10pt; line-height: 1.68 }
 .view:before { content: "“"; position: absolute; top: -3mm; left: 5mm; font-size: 44pt; color: var(--accent);
   font-family: Georgia, serif }
 .view .who { margin-top: 3mm; font-size: 8.5pt; letter-spacing: .15em; color: var(--accent); font-weight: 700 }
