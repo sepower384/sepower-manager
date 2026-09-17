@@ -212,11 +212,11 @@ def sparkline(series, w=120, h=34, color=INK):
             % (w, h, w, h, pts, color))
 
 
-def line_chart(series, w=680, h=250, color="#F0B90B", unit="$"):
+def line_chart(series, w=680, h=215, color="#F0B90B", unit="$"):
     vals = [v for _, v in series]
     if len(vals) < 2:
         return ""
-    pad_l, pad_r, pad_t, pad_b = 64, 16, 28, 34
+    pad_l, pad_r, pad_t, pad_b = 64, 16, 28, 46
     ys, mn, mx = _scale(vals, pad_t, h - pad_b)
     xs = [pad_l + i * (w - pad_l - pad_r) / (len(vals) - 1) for i in range(len(vals))]
     pts = " ".join("%.1f,%.1f" % p for p in zip(xs, ys))
@@ -240,11 +240,12 @@ def line_chart(series, w=680, h=250, color="#F0B90B", unit="$"):
                   'font-weight="700" fill="%s" text-anchor="middle">%s %s%s</text>'
                   % (xs[i], ys[i], col, xs[i], ys[i] + (-10 if tag == "고점" else 18), col, tag, unit,
                      format(round(vals[i]), ",")))
-    return ('<svg viewBox="0 0 {w} {h}" width="100%"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">'
+    gid = "g" + color.strip("#")
+    return ('<svg viewBox="0 0 {w} {h}" width="100%"><defs><linearGradient id="{gid}" x1="0" y1="0" x2="0" y2="1">'
             '<stop offset="0" stop-color="{c}" stop-opacity=".35"/><stop offset="1" stop-color="{c}" stop-opacity="0"/>'
-            '</linearGradient></defs>{grid}<polygon points="{area}" fill="url(#g)"/>'
+            '</linearGradient></defs>{grid}<polygon points="{area}" fill="url(#{gid})"/>'
             '<polyline points="{pts}" fill="none" stroke="{c}" stroke-width="2.6" stroke-linejoin="round"/>'
-            '{labels}{marks}</svg>').format(w=w, h=h, c=color, grid=grid, area=area, pts=pts, labels=labels, marks=marks)
+            '{labels}{marks}</svg>').format(w=w, h=h, c=color, gid=gid, grid=grid, area=area, pts=pts, labels=labels, marks=marks)
 
 
 def perf_bars(mkt, w=680):
@@ -254,7 +255,7 @@ def perf_bars(mkt, w=680):
     if not rows:
         return ""
     m = max(abs(r[1]) for r in rows) or 1
-    bh, gap = 22, 8
+    bh, gap = 17, 6
     h = len(rows) * (bh + gap)
     mid = 360
     half = w - mid - 70
@@ -285,22 +286,24 @@ def fng_gauge(fng):
 
 # ───────────────────────────────────────────── HTML
 CSS = """
-@page { size: A4; margin: 0 }
+@page { size: A4; margin: 16mm 16mm 17mm;
+  @bottom-left { content: var(--foot); font-family: 'Pretendard', sans-serif; font-size: 7.5pt; color: #94A3B8 }
+  @bottom-right { content: counter(page); font-family: 'Pretendard', sans-serif; font-size: 8pt; color: #94A3B8 } }
+@page :first { margin: 0; @bottom-left { content: none } @bottom-right { content: none } }
 * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact }
 body { margin: 0; font-family: 'Pretendard', 'Noto Sans CJK KR', 'Malgun Gothic', sans-serif; color: #0F172A;
        font-size: 10.5pt; line-height: 1.62; word-break: keep-all }
-.page { width: 210mm; height: 297mm; padding: 17mm 16mm 16mm; position: relative; overflow: hidden;
-        page-break-after: always; background: #fff }
-.page:last-child { page-break-after: auto }
-.foot { position: absolute; left: 16mm; right: 16mm; bottom: 8mm; display: flex; justify-content: space-between;
-        font-size: 8pt; color: #94A3B8; border-top: 1px solid #E2E8F0; padding-top: 2.5mm }
+.page { position: relative; break-before: page; background: #fff }
+.kpi, .card, .issue, .sec, .watch, .view, .stat, tr, .flow div, .summary { break-inside: avoid }
+h2, h3 { break-after: avoid }
+.foot { display: none }
 .eyebrow { font-size: 8.5pt; letter-spacing: .18em; font-weight: 700; color: var(--accent) }
 h2 { font-size: 20pt; line-height: 1.25; margin: 1.5mm 0 5mm; letter-spacing: -.02em }
 h3 { font-size: 12.5pt; margin: 0 0 2mm; letter-spacing: -.01em }
 .muted { color: #64748B }
 
 /* 표지 */
-.cover { padding: 0; color: #fff; background: #0B1220 }
+.cover { width: 210mm; height: 297mm; overflow: hidden; break-before: auto; color: #fff; background: #0B1220 }
 .cover .art { position: absolute; inset: 0; background-size: cover; background-position: center }
 .cover .shade { position: absolute; inset: 0;
   background: linear-gradient(180deg, rgba(11,18,32,.25) 0%, rgba(11,18,32,.55) 45%, rgba(11,18,32,.97) 78%) }
@@ -451,7 +454,7 @@ def render_html(kind, key, label, s, mkt, posts, stats, now):
         head = ("", "", "", "", "데이터 없음")
     eth = mkt.get("ETH")
     eth_card = ('<div class="card chart-card"><h3>이더리움 <span class="%s">%s</span></h3>%s</div>'
-                % (_chg_cls(eth), market.fmt_change(eth), line_chart(eth["series"], h=170, color="#6366F1"))) if eth else ""
+                % (_chg_cls(eth), market.fmt_change(eth), line_chart(eth["series"], h=150, color="#6366F1"))) if eth else ""
     pages.append(
         ('<section class="page"><div class="eyebrow">MARKET</div><h2>가격 흐름과 자산별 성과</h2>'
          '<div class="card chart-card"><h3>비트코인 <span class="%s">%s</span> <span class="muted" style="font-size:9pt;font-weight:500">%s → %s</span></h3>%s</div>'
@@ -519,7 +522,9 @@ def render_html(kind, key, label, s, mkt, posts, stats, now):
             '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">'
             '<style>:root{--accent:%s;--accent2:%s}%s</style></head><body>%s</body></html>'
             % (accent, "#B45309" if kind == "weekly" else "#0369A1" if kind == "monthly" else "#6D28D9"
-               if kind == "quarterly" else "#BE185D", CSS, "".join(pages)))
+               if kind == "quarterly" else "#BE185D",
+               CSS.replace("var(--foot)", '"세력 마켓 사이클 연구소 · %s 보고서 %s"' % (k["name"], key)),
+               "".join(pages)))
 
 
 def to_pdf(html_text, path):
