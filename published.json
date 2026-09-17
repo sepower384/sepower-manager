@@ -150,7 +150,21 @@
    ],
    "img": "ba86fef68f11b215f373ba0aaca98f3a",
    "head": "시큐리타이즈, 거래량은 터졌는데 매출은 줄었음 "
+  },
+  {
+   "id": 38,
+   "at": "2026-09-18T08:04:19.816080+09:00",
+   "kind": "insight",
+   "fp": "eeb6cd027ba9ae2d",
+   "refs": [
+    "news:49518835288546",
+    "url:https://www.tokenpost.kr/news/blockchain/409947",
+    "coinnesskr:231420",
+    "url:https://t.me/coinnesskr/231420"
+   ],
+   "img": "8557d930e9348efd38efa6a0e0e8525a",
+   "head": "AI로 비트코인 코어 취약점 찾기 쉬워졌다는데 "
   }
  ],
- "last_pub_at": "2026-09-18T06:52:17.310946+09:00"
+ "last_pub_at": "2026-09-18T08:04:19.816080+09:00"
 }
