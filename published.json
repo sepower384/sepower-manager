@@ -136,7 +136,21 @@
    ],
    "img": "90416df1fe4c0adc4b1cad2cdbf8c34c",
    "head": "속보) 나스닥 1.7%↑ S&P 1.1%↑, 10년물 국채금리 5% 밑으로 재하락 "
+  },
+  {
+   "id": 36,
+   "at": "2026-09-18T06:52:17.310946+09:00",
+   "kind": "insight",
+   "fp": "b9c8a5c6c73b20f8",
+   "refs": [
+    "coinnesskr:231412",
+    "url:https://t.me/coinnesskr/231412",
+    "news:235828343927106",
+    "url:https://www.tokenpost.kr/news/market/409889"
+   ],
+   "img": "ba86fef68f11b215f373ba0aaca98f3a",
+   "head": "시큐리타이즈, 거래량은 터졌는데 매출은 줄었음 "
   }
  ],
- "last_pub_at": "2026-09-18T05:35:49.952319+09:00"
+ "last_pub_at": "2026-09-18T06:52:17.310946+09:00"
 }
