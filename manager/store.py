@@ -45,6 +45,8 @@ def connect(path=None):
         db.execute("ALTER TABLE drafts ADD COLUMN photo_hash TEXT DEFAULT ''")
     if "channel_msgs" not in cols:  # 여러 채널 발행 {chat_id: message_id}
         db.execute("ALTER TABLE drafts ADD COLUMN channel_msgs TEXT DEFAULT '{}'")
+    if "urgent" not in cols:        # 긴급 속보 — 간격 짧게
+        db.execute("ALTER TABLE drafts ADD COLUMN urgent INTEGER DEFAULT 0")
     return db
 
 
@@ -174,6 +176,12 @@ def prune(db, item_days=3, draft_days=30):
             p = os.path.join(media, f)
             if os.path.getmtime(p) < cut:
                 os.remove(p)
+
+
+def count_urgent_today(db):
+    start = now_kst().replace(hour=0, minute=0, second=0, microsecond=0)
+    return db.execute("SELECT COUNT(*) FROM drafts WHERE urgent=1 AND created>=? AND status!='rejected'",
+                      (start.isoformat(),)).fetchone()[0]
 
 
 def kv_get(db, k, default=None):

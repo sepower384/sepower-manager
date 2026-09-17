@@ -2,14 +2,14 @@
   "_설명": "세력의 매니저 — 텔레그램 채널 운영봇 설정. 토큰/채팅ID는 .env 에만 둔다.",
 
   "mode": "auto",
-  "_mode": "approve = 강회장 DM으로 초안 → 버튼 눌러야 채널 발행 / auto = 바로 발행(하루 상한, 22~40분 무작위 간격, 24시간). 봇 DM 에서 /approve /auto 로 전환",
+  "_mode": "approve = 강회장 DM으로 초안 → 버튼 눌러야 채널 발행 / auto = 바로 발행(하루 상한, 60~120분 무작위 간격(긴급 속보는 15분), 24시간). 봇 DM 에서 /approve /auto 로 전환",
 
   "schedule": {
     "cycle_minutes": 30,
     "active_hours": [0, 24],
-    "daily_post_cap": 48,
-    "gap_minutes": [22, 40],
-    "drafts_per_cycle": 2,
+    "daily_post_cap": 20,
+    "gap_minutes": [60, 120],
+    "drafts_per_cycle": 1,
     "morning_brief_at": "07:30"
   },
 
@@ -39,6 +39,14 @@
 
   "style_refs": ["talkevergreen", "seaotterbtc", "juhyukb", "fireantcrypto", "Crypto100y", "PGYInfo", "dolgommagic", "yeolchoongNotice", "emperorcoin"],
   "_style_refs": "글감으로 쓰지 않음. tools/style_report.py 로 문체만 분석 → STYLE.md",
+
+  "urgent": {
+    "_설명": "속보성 단어가 제목 앞부분에 있고 90분 이내·채널 주제면 긴급 → 마지막 발행 15분 뒤 바로 (하루 4개까지)",
+    "words": ["속보", "[속보]", "긴급", "[단독]", "Breaking", "BREAKING", "JUST IN"],
+    "fresh_minutes": 90,
+    "gap_minutes": 15,
+    "daily_cap": 4
+  },
 
   "whale": {"min_krw_eok": 1000, "daily_cap": 3},
   "liquidation": {"min_usd": 1000000, "daily_cap": 2},

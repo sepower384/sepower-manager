@@ -9,10 +9,6 @@
 name: 세력의 매니저
 
 on:
-  # 예비: cron-job.org 등록 전까지 / 장애 대비. 깃허브 schedule 은 붐비면 건너뜀 (UTC 기준)
-  schedule:
-    - cron: '3,33 * * * *'               # 30분마다 → cycle
-    - cron: '*/10 * * * *'               # 10분마다 → updates
   workflow_dispatch:
     inputs:
       mode:
@@ -22,14 +18,17 @@ on:
         description: mode=now 일 때 바로 올릴 개수
         default: '1'
 
+permissions:
+  contents: write        # state 브랜치(발행 장부) 푸시
+
 concurrency:
   group: manager          # 상태 DB 를 하나만 만지게 한 줄로 세운다
   cancel-in-progress: false
 
 env:
   PYTHONUTF8: '1'
-  # schedule 로 깨면 inputs 가 없으니 cron 식으로 모드를 정한다
-  MODE: ${{ inputs.mode || (github.event.schedule == '*/10 * * * *' && 'updates' || 'cycle') }}
+  MODE: ${{ inputs.mode || 'cycle' }}
+  LEDGER_GIT: '1'      # 발행 장부를 state 브랜치에 (중복 발행 방지)
   NOW_COUNT: ${{ inputs.count }}
   TELEGRAM_BOT_TOKEN_MANAGER: ${{ secrets.TELEGRAM_BOT_TOKEN_MANAGER }}
   TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}

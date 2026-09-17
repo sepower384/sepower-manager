@@ -8,7 +8,7 @@ import unittest
 from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from manager import capture, filters, news, pipeline, store, telegram, tme, writer  # noqa: E402
+from manager import capture, filters, ledger, news, pipeline, store, telegram, tme, writer  # noqa: E402
 import run  # noqa: E402
 
 CFG = pipeline.load_config()
@@ -181,6 +181,8 @@ class FlowTest(unittest.TestCase):
                                    [{"source": "coinnesskr", "post_id": 1, "url": "u"}])
         # 브라우저 없이: 카드 = 임시 파일, 원문 캡처 = 실패(→ 카드로 떨어짐)
         self.tmp = tempfile.mkdtemp()
+        os.environ.pop("LEDGER_GIT", None)
+        ledger.LOCAL = os.path.join(self.tmp, "ledger.json")      # 테스트마다 빈 장부
         self.cards = []
 
         def fake_card(title, publisher, sub, name, accent="#000"):
@@ -236,25 +238,67 @@ class FlowTest(unittest.TestCase):
 
     def test_auto_mode_random_gap_and_night(self):
         store.kv_set(self.db, "mode", "auto")
-        d2 = store.add_draft(self.db, "insight", "두번째", "", [])
+        d2 = store.add_draft(self.db, "insight", "두번째 글은 전혀 다른 내용임", "", [])
         pipeline.deliver(self.db, CFG, [self.did, d2])
         t = store.now_kst().replace(hour=10, minute=0)
         self.assertTrue(pipeline.flush_queue(self.db, CFG, t))
-        self.assertFalse(pipeline.flush_queue(self.db, CFG, t + timedelta(minutes=21)))   # 최소 22분
+        gap = pipeline.next_gap_minutes(t.isoformat(), CFG)
+        self.assertTrue(60 <= gap <= 120)                                  # 1~2시간 무작위
+        self.assertEqual(gap, pipeline.next_gap_minutes(t.isoformat(), CFG))  # 어느 회차가 계산해도 같음
+        self.assertFalse(pipeline.flush_queue(self.db, CFG, t + timedelta(minutes=59)))
         st = [store.get_draft(self.db, i)["status"] for i in (self.did, d2)]
         self.assertEqual(st, ["published", "queued"])
-        gap = datetime.fromisoformat(store.kv_get(self.db, "next_pub_at")) - t
-        self.assertTrue(timedelta(minutes=22) <= gap <= timedelta(minutes=40))
         night_off = json.loads(json.dumps(CFG))
         night_off["schedule"]["active_hours"] = [7, 24]      # 시간대 제한을 켜면 새벽엔 안 나감
         self.assertFalse(pipeline.flush_queue(self.db, night_off, t.replace(hour=3) + timedelta(days=1)))
-        self.assertTrue(pipeline.flush_queue(self.db, CFG, t + timedelta(minutes=41)))
+        self.assertTrue(pipeline.flush_queue(self.db, CFG, t + timedelta(minutes=121)))
         # 자동발행 알림에 삭제 버튼 → 누르면 채널에서 지움
         admin_mid = store.get_draft(self.db, self.did)["admin_msg_id"]
         self.assertTrue(admin_mid)
         pipeline.on_callback(self.db, CFG, self.cb("del:%d" % self.did, admin_mid))
         self.assertEqual(store.get_draft(self.db, self.did)["status"], "deleted")
         self.assertIn("deleteMessage", self.tg.methods())
+
+    def test_urgent_goes_after_15_minutes(self):
+        store.kv_set(self.db, "mode", "auto")
+        store.update_draft(self.db, self.did, status="queued")
+        t = store.now_kst().replace(hour=10, minute=0)
+        self.assertTrue(pipeline.flush_queue(self.db, CFG, t))
+        u = store.add_draft(self.db, "insight", "속보) 전혀 새로운 긴급 뉴스", "", [])
+        store.update_draft(self.db, u, status="queued", urgent=1)
+        self.assertFalse(pipeline.flush_queue(self.db, CFG, t + timedelta(minutes=10)))
+        self.assertTrue(pipeline.flush_queue(self.db, CFG, t + timedelta(minutes=16)))
+        self.assertEqual(store.get_draft(self.db, u)["status"], "published")
+
+    def test_is_urgent(self):
+        now = datetime.now(timezone.utc)
+        self.assertTrue(pipeline.is_urgent(item("[속보] 연준 긴급 금리 인하"), CFG, now))
+        self.assertFalse(pipeline.is_urgent(item("[속보] 연예인 결혼 발표"), CFG, now))      # 주제 밖
+        self.assertFalse(pipeline.is_urgent(item("[속보] 연준 금리 인하", hours_ago=3), CFG, now))  # 오래됨
+        self.assertFalse(pipeline.is_urgent(item("연준 금리 인하 전망"), CFG, now))
+
+    def test_stale_state_cannot_republish(self):
+        """상태 DB 가 옛 버전으로 복원돼도(같은 초안이 다시 queued) 장부가 막는다."""
+        store.kv_set(self.db, "mode", "auto")
+        store.update_draft(self.db, self.did, status="queued")
+        t = store.now_kst().replace(hour=10, minute=0)
+        self.assertTrue(pipeline.flush_queue(self.db, CFG, t))
+        stale = store.connect(":memory:")                  # 옛 상태: 발행 기록 없음
+        d = store.add_draft(stale, "insight", "⚖️ 헤드라인\n본문임\n→ 관점\n출처: 코인니스", "",
+                            [{"source": "coinnesskr", "post_id": 1, "url": "u"}])
+        store.update_draft(stale, d, status="queued")
+        store.kv_set(stale, "mode", "auto")
+        self.assertFalse(pipeline.flush_queue(stale, CFG, t + timedelta(hours=3)))
+        self.assertEqual(store.get_draft(stale, d)["status"], "dup")
+        self.assertEqual(len([c for c in self.tg.calls if c[0] == "sendPhoto" and c[1]["chat_id"] == "@sepower"]), 1)
+
+    def test_same_source_different_text_blocked(self):
+        store.update_draft(self.db, self.did, status="queued")
+        pipeline.publish(self.db, self.did, CFG)
+        d2 = store.add_draft(self.db, "insight", "완전히 다르게 쓴 글", "",
+                             [{"source": "coinnesskr", "post_id": 1, "url": "u"}])     # 같은 원문
+        self.assertFalse(pipeline.publish(self.db, d2, CFG))
+        self.assertIn("같은 원문", store.get_draft(self.db, d2)["reason"])
 
     def test_auto_without_target_falls_back_to_dm(self):
         store.kv_set(self.db, "mode", "auto")

@@ -6,7 +6,7 @@ import random
 import re
 from datetime import datetime, timedelta, timezone
 
-from . import capture, context, filters, news, store, telegram, tme, writer
+from . import capture, context, filters, ledger, news, store, telegram, tme, writer
 
 CONFIG = os.path.join(store.ROOT, "config.json")
 CAND_WINDOW_H = 8
@@ -76,6 +76,21 @@ def collect(db, cfg, pages=1):
 
 
 # ───────────────────────────────────────────── 후보
+def is_urgent(item, cfg, now=None):
+    """속보성 + 90분 이내 + 채널 주제에 맞음."""
+    u = cfg.get("urgent", {})
+    words = u.get("words", [])
+    text = item["text"] or ""
+    if not any(w in text[:120] for w in words):
+        return False
+    try:
+        dt = datetime.fromisoformat(item["date"].replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    age = ((now or datetime.now(timezone.utc)) - dt).total_seconds() / 60
+    return age <= u.get("fresh_minutes", 90) and bool(filters.topic_hits(text, cfg))
+
+
 def candidates(db, cfg, limit=25, now=None):
     now = now or datetime.now(timezone.utc)
     since = (now - timedelta(hours=CAND_WINDOW_H)).isoformat()
@@ -92,11 +107,16 @@ def candidates(db, cfg, limit=25, now=None):
         if r.get("publisher") in low:
             r["score"] *= 0.4
     rows.sort(key=lambda r: -r["score"])
-    recent = store.recent_topics(db)          # 최근 48시간에 다룬 글·원문 제목
+    led = ledger.load()                       # 실제로 나간 것(즉시 일관) + 로컬 DB 기록
+    recent = store.recent_topics(db) + ledger.heads(led)
+    used = ledger.used_refs(led)
     picked, dropped = [], []
     for r in rows:
         head = r["text"].split("\n")[0]
-        if any(filters.similar(head, p["text"].split("\n")[0]) for p in picked) or \
+        keys = set(ledger.ref_keys([{"source": r["source"], "post_id": r["post_id"], "url": r["url"]}]))
+        r["urgent"] = is_urgent(r, cfg, now)
+        if keys & used or \
+                any(filters.similar(head, p["text"].split("\n")[0]) for p in picked) or \
                 any(filters.similar(head, t) for t in recent):
             dropped.append(r)
             continue
@@ -125,7 +145,19 @@ def make_drafts(db, cfg, force=False):
         log("후보 없음")
         return []
     n = cfg["schedule"]["drafts_per_cycle"]
-    log("후보 %d개 → LLM 편집" % len(cands))
+    urgent = [c for c in cands if c.get("urgent")]
+    urgent_ok = urgent and store.count_urgent_today(db) < cfg.get("urgent", {}).get("daily_cap", 4)
+    queued = db.execute("SELECT COUNT(*) FROM drafts WHERE status='queued'").fetchone()[0]
+    auto = store.kv_get(db, "mode", cfg["mode"]) == "auto"
+    if not force and auto and queued >= 1 and not urgent_ok:
+        log("대기열에 %d개 있음 — 새 초안 안 씀(1~2시간 간격이라 미리 쌓으면 시의성 떨어짐)" % queued)
+        return []
+    hint = ""
+    if urgent_ok:
+        hint = ("긴급 속보 후보: %s — 이 중 채널에 알릴 가치가 있으면 반드시 먼저 고르고 짧은 유형(A)으로 빠르게 써라."
+                % ", ".join("#%d" % cands.index(c) for c in urgent[:3]))
+        n = max(n, 1)
+    log("후보 %d개(긴급 %d) → LLM 편집" % (len(cands), len(urgent)))
     snap = {}
 
     def enrich(refs):
@@ -138,12 +170,13 @@ def make_drafts(db, cfg, force=False):
                 bodies[i] = context.article_text(c["links"][0])
         return bodies, snap["v"]
 
-    topics = store.recent_topics(db)
-    picks = writer.pick_and_write(cands, topics, n, recent_types=store.recent_types(db),
+    led = ledger.load()
+    topics = store.recent_topics(db) + ledger.heads(led)
+    picks = writer.pick_and_write(cands, topics, n, hint=hint, recent_types=store.recent_types(db),
                                   enrich=enrich, recent_posts=store.recent_texts(db, 3))
     ids = []
     used = set()
-    hashes = store.recent_hashes(db)
+    hashes = store.recent_hashes(db) | ledger.used_images(led)
     for p in dedupe_picks(picks, cands, topics):
         refs = [cands[i] for i in p["refs"]]
         did = store.add_draft(db, "insight", p["text"],
@@ -151,7 +184,8 @@ def make_drafts(db, cfg, force=False):
         lead = next((r for r in refs if r["source"] == "news"), refs[0])   # 기사 캡처 우선
         path, h = capture.image_for(lead, did, hashes)
         hashes.add(h)
-        store.update_draft(db, did, photo=path, photo_hash=h, reason=p["why"], ptype=p.get("type", ""))
+        store.update_draft(db, did, photo=path, photo_hash=h, reason=p["why"], ptype=p.get("type", ""),
+                           urgent=1 if any(r.get("urgent") for r in refs) else 0)
         used |= {(r["source"], r["post_id"]) for r in refs}
         ids.append(did)
     store.set_item_status(db, list(used), "used")
@@ -291,7 +325,7 @@ def ensure_photo(db, did):
     return path
 
 
-def publish(db, did, cfg):
+def publish(db, did, cfg, now=None):
     d = store.get_draft(db, did)
     if not d or d["status"] == "published":
         return False
@@ -303,6 +337,12 @@ def publish(db, did, cfg):
     except Exception as e:
         raise RuntimeError("이미지 준비 실패라 발행 보류: %s" % str(e)[:120])
     d = store.get_draft(db, did)
+    if True:                             # 같은 글·원문·캡처가 이미 나갔으면 절대 다시 안 냄(알림·브리핑 포함)
+        why = ledger.seen(ledger.load(), d)
+        if why:
+            store.update_draft(db, did, status="dup", reason=why)
+            log("발행 취소 #%d: %s" % (did, why))
+            return False
     text = d["text"]
     promo = cfg.get("promo", {})
     if promo.get("enabled"):
@@ -317,8 +357,15 @@ def publish(db, did, cfg):
             errors.append("%s: %s" % (chat, str(e)[:80]))
     if not sent:
         raise RuntimeError("모든 채널 발행 실패 — " + "; ".join(errors))
+    at = (now or store.now_kst()).isoformat()
     store.update_draft(db, did, status="published", channel_msg_id=next(iter(sent.values())),
-                       channel_msgs=json.dumps(sent), published_at=store.now_kst().isoformat())
+                       channel_msgs=json.dumps(sent), published_at=at)
+    try:
+        ledger.record(store.get_draft(db, did), at)
+    except Exception as e:
+        log("⚠️ 발행 장부 기록 실패:", e)
+        telegram.send(telegram.admin_chat(), "⚠️ #%d 발행 장부 기록 실패 — 자동발행 잠시 멈춤(/resume 으로 재개)\n%s" % (did, e))
+        store.kv_set(db, "paused", "1")     # 장부 없이 계속 내보내면 중복 위험
     log("발행 #%d → %d개 채널%s" % (did, len(sent), (" (실패: %s)" % "; ".join(errors)) if errors else ""))
     if errors:
         telegram.send(telegram.admin_chat(), "⚠️ #%d 일부 채널 발행 실패\n%s" % (did, "\n".join(errors)))
@@ -340,30 +387,39 @@ def in_active_hours(cfg, now=None):
     return a <= (now or store.now_kst()).hour < b
 
 
+def next_gap_minutes(last_pub_at, cfg):
+    """마지막 발행 시각으로 정해지는 무작위 간격 — 상태가 옛 버전이어도 모든 회차가 같은 값을 얻는다."""
+    lo, hi = cfg["schedule"]["gap_minutes"]
+    seed = int(ledger.hashlib.md5(last_pub_at.encode()).hexdigest()[:8], 16)
+    return lo + random.Random(seed).random() * (hi - lo)
+
+
 def flush_queue(db, cfg, now=None):
-    """자동발행 — 간격을 매번 무작위(gap_minutes 범위)로 둬서 봇 티가 안 나게."""
+    """자동발행 — 보통 글은 gap_minutes(1~2시간) 무작위, 긴급 속보는 urgent.gap_minutes 뒤면 바로."""
     s = cfg["schedule"]
     now = now or store.now_kst()
     if not in_active_hours(cfg, now) or store.kv_get(db, "paused") == "1":
         return False
-    start = now.replace(hour=0, minute=0, second=0, microsecond=0)
-    if len(store.published_since(db, start)) >= s["daily_post_cap"]:
+    led = ledger.load()
+    today = [p for p in led["posts"] if p.get("at", "") >= now.replace(hour=0, minute=0, second=0).isoformat()]
+    if len(today) >= s["daily_post_cap"]:
         return False
-    nxt = store.kv_get(db, "next_pub_at")
-    if nxt and now < datetime.fromisoformat(nxt):
-        return False
-    r = db.execute("SELECT id FROM drafts WHERE status='queued' ORDER BY id LIMIT 1").fetchone()
-    if not r:
-        return False
-    try:
-        publish(db, r["id"], cfg)
-    except Exception as e:     # 이미지 못 만드는 가벼운 회차 등 → 다음 회차에 다시
-        log("발행 보류 #%d:" % r["id"], e)
-        return False
-    lo, hi = s["gap_minutes"]
-    store.kv_set(db, "next_pub_at", (now + timedelta(minutes=random.uniform(lo, hi))).isoformat())
-    notify_published(db, r["id"])
-    return True
+    last = led.get("last_pub_at") or ""
+    since = (now - datetime.fromisoformat(last)).total_seconds() / 60 if last else 10 ** 6
+    for r in db.execute("SELECT id, urgent FROM drafts WHERE status='queued' ORDER BY urgent DESC, id").fetchall():
+        need = cfg.get("urgent", {}).get("gap_minutes", 15) if r["urgent"] else next_gap_minutes(last, cfg)
+        if since < need:
+            return False
+        try:
+            ok = publish(db, r["id"], cfg, now)
+        except Exception as e:     # 이미지 못 만드는 가벼운 회차 등 → 다음 회차에 다시
+            log("발행 보류 #%d:" % r["id"], e)
+            return False
+        if ok:
+            notify_published(db, r["id"])
+            return True
+        # 중복이라 취소됐으면 다음 대기 글을 본다
+    return False
 
 
 def notify_published(db, did):
