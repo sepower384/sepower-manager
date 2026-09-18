@@ -333,7 +333,19 @@
    ],
    "img": "bccd3b3698e3b44d44eaeca29acfa1cf",
    "head": "⚡️ 자정 시세 브리핑 요약 "
+  },
+  {
+   "id": 52,
+   "at": "2026-09-19T02:47:20.151843+09:00",
+   "kind": "whale",
+   "fp": "921b6828fc136b4d",
+   "refs": [
+    "whalealertkorean:169969",
+    "url:https://t.me/whalealertkorean/169969"
+   ],
+   "img": "c5a0e39be1e88b68bf58d3311af368e8",
+   "head": "🐋 고래 대량 이동 포착 "
   }
  ],
- "last_pub_at": "2026-09-19T01:42:18.302492+09:00"
+ "last_pub_at": "2026-09-19T02:47:20.151843+09:00"
 }
