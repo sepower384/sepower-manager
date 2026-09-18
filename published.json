@@ -319,7 +319,21 @@
    ],
    "img": "8b47100b585427e13f0704a938f579a2",
    "head": "속보) BTC 5.72% 급등하며 8만1000달러 상회 "
+  },
+  {
+   "id": 50,
+   "at": "2026-09-19T01:42:18.302492+09:00",
+   "kind": "insight",
+   "fp": "4f23a8638c954034",
+   "refs": [
+    "news:209933828110669",
+    "url:https://www.tokenpost.kr/news/briefing/410448",
+    "news:84844777355517",
+    "url:https://www.tokenpost.kr/news/briefing/410449"
+   ],
+   "img": "bccd3b3698e3b44d44eaeca29acfa1cf",
+   "head": "⚡️ 자정 시세 브리핑 요약 "
   }
  ],
- "last_pub_at": "2026-09-19T00:35:08.092790+09:00"
+ "last_pub_at": "2026-09-19T01:42:18.302492+09:00"
 }
