@@ -301,7 +301,25 @@
    ],
    "img": "9a841c10fde57edfcd28966aa04eb9c1",
    "head": "OFAC이 테헤란 거래소 BitBank 제재하면서 \"BTC가 IRGC로 흘러갔다\"고 콕 집어 밝힘 "
+  },
+  {
+   "id": 51,
+   "at": "2026-09-19T00:35:08.092790+09:00",
+   "kind": "insight",
+   "fp": "921b6f13c8da5e1f",
+   "refs": [
+    "news:236893241105090",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fcURlNE14LVF5MTRuODhHNHlhNmJfTzE3Z2tJWVB5RU5XNkhsNURQc3lxQmpQZXE2ZE9zR0c2MGMzSUNadXdCRjcxdUNGUGFObEJGRUlmcUFMcUIwZENlcFBnT241MTAy",
+    "news:211344887676687",
+    "url:https://www.theblock.co/news/markets/2026-09-18-bitcoin-reclaims-80000-solana-hyperliquid-rally-crypto-markets-shrug-off-clarity-setback-415523",
+    "coinnesskr:231518",
+    "url:https://t.me/coinnesskr/231518",
+    "news:135538093426453",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ISVVhY0RXUzJjZE1OWmtCN2gwWkpRYm14OXRVa0Z6ZGhzSkJqWmxTMUsxWl90RXk5RTdyUFhwRWpfUUEwUGlyZGs4S0pLalhqMm1oTkJUbnc"
+   ],
+   "img": "8b47100b585427e13f0704a938f579a2",
+   "head": "속보) BTC 5.72% 급등하며 8만1000달러 상회 "
   }
  ],
- "last_pub_at": "2026-09-18T23:57:21.799012+09:00"
+ "last_pub_at": "2026-09-19T00:35:08.092790+09:00"
 }
