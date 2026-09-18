@@ -289,7 +289,19 @@
    ],
    "img": "4079c63927f57cca6bb1f399bcd6a43a",
    "head": "RWA, 자산가치는 그대로인데 보유자는 왜 급증했나 "
+  },
+  {
+   "id": 49,
+   "at": "2026-09-18T23:57:21.799012+09:00",
+   "kind": "insight",
+   "fp": "934c816cdebf5517",
+   "refs": [
+    "news:221347137693082",
+    "url:https://news.google.com/rss/articles/CBMikAFBVV95cUxNM3Q5S0luY2pseHVrSlZPNVhqalFLUjl3X29ZU3lXNGpDbmEzVkk4eWJ0RldlcTdsRjZFWHVtNHFGb0lOYmlBTC1iVmVzRGZZTzc0aWJFR3hJUF9XYjBLckpYQzZMSm03WXFFa0xfcF95TTRQWDJBRENOZ3FiQmZRN09zWlBTblJLQU5pWFpUUTg"
+   ],
+   "img": "9a841c10fde57edfcd28966aa04eb9c1",
+   "head": "OFAC이 테헤란 거래소 BitBank 제재하면서 \"BTC가 IRGC로 흘러갔다\"고 콕 집어 밝힘 "
   }
  ],
- "last_pub_at": "2026-09-18T22:34:29.951572+09:00"
+ "last_pub_at": "2026-09-18T23:57:21.799012+09:00"
 }
