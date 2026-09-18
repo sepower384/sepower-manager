@@ -215,7 +215,19 @@
    ],
    "img": "04558f82a0582ab8f53e1d2935b917f6",
    "head": "일본은행 31년 만의 최고금리, 근데 엔화는 반대로 갔음 "
+  },
+  {
+   "id": 43,
+   "at": "2026-09-18T15:12:23.609045+09:00",
+   "kind": "liquidation",
+   "fp": "41c52c933366bebb",
+   "refs": [
+    "whaleliquidation:3019744",
+    "url:https://t.me/whaleliquidation/3019744"
+   ],
+   "img": "4eb39e3f07b37c3aa11fbeab16a107df",
+   "head": "💥 대규모 숏 청산 감지 "
   }
  ],
- "last_pub_at": "2026-09-18T14:04:22.822278+09:00"
+ "last_pub_at": "2026-09-18T15:12:23.609045+09:00"
 }
