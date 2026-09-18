@@ -227,7 +227,19 @@
    ],
    "img": "4eb39e3f07b37c3aa11fbeab16a107df",
    "head": "💥 대규모 숏 청산 감지 "
+  },
+  {
+   "id": 44,
+   "at": "2026-09-18T16:34:20.911887+09:00",
+   "kind": "insight",
+   "fp": "2c3328fc59e0ea77",
+   "refs": [
+    "news:11433286625557",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/410146"
+   ],
+   "img": "b011d8ba8228abab211c5cdac6a5fa4b",
+   "head": "비트코인 현물 ETF, 이틀 유출 끊고 하루 만에 1억5945만달러 순유입 전환 "
   }
  ],
- "last_pub_at": "2026-09-18T15:12:23.609045+09:00"
+ "last_pub_at": "2026-09-18T16:34:20.911887+09:00"
 }
