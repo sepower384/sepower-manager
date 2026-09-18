@@ -357,7 +357,19 @@
    ],
    "img": "f58e8d10235381e0fd68fdf45a2d038a",
    "head": "💥 대규모 숏 청산 감지 "
+  },
+  {
+   "id": 56,
+   "at": "2026-09-19T05:42:24.038414+09:00",
+   "kind": "liquidation",
+   "fp": "7e2f82ddbcfb94d5",
+   "refs": [
+    "whaleliquidation:3022931",
+    "url:https://t.me/whaleliquidation/3022931"
+   ],
+   "img": "2f6cfb91defd8ede282c8f856a15aa01",
+   "head": "💥 대규모 숏 청산 감지 "
   }
  ],
- "last_pub_at": "2026-09-19T03:57:21.767269+09:00"
+ "last_pub_at": "2026-09-19T05:42:24.038414+09:00"
 }
