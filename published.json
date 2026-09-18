@@ -173,7 +173,19 @@
    "refs": [],
    "img": "63e5084fb5bd64cd3f7040369bbeb2e7",
    "head": "☀️ 밤사이 증시는 반등, 비트는 7만5천 사수 "
+  },
+  {
+   "id": 40,
+   "at": "2026-09-18T11:04:18.684499+09:00",
+   "kind": "insight",
+   "fp": "18a25584462a880e",
+   "refs": [
+    "news:174689187928153",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE1reXZBWF9jOTBhWnVyZ1ZNNmJqakdndzdRRkRxeG5PWWdQbUpfOUZpN0x3SXN4aENPb0pnb3U2aEhfOHhDZ21neWlB"
+   ],
+   "img": "674ee609f94aa38b1028e0540d20487f",
+   "head": "기업 매집 속도 급랭, 이 조합 낯설지 않음 "
   }
  ],
- "last_pub_at": "2026-09-18T09:52:19.876656+09:00"
+ "last_pub_at": "2026-09-18T11:04:18.684499+09:00"
 }
