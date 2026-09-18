@@ -369,7 +369,21 @@
    ],
    "img": "2f6cfb91defd8ede282c8f856a15aa01",
    "head": "💥 대규모 숏 청산 감지 "
+  },
+  {
+   "id": 57,
+   "at": "2026-09-19T07:17:19.903245+09:00",
+   "kind": "insight",
+   "fp": "1bbc3e2d47eff131",
+   "refs": [
+    "coinnesskr:231535",
+    "url:https://t.me/coinnesskr/231535",
+    "news:57604301009456",
+    "url:https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQ3pKTE8yY19fdHd1RXM3WjNINTJPWkMwQ1BrWW1Sb0t3UnQzbTlzNnltNTdXUUV2TWdlQWtSdEJ5b2EyOTluVjBSVERlNkdqY3BNaHZYVEVDNklJeTRJYVZOejJQOHJkWEI1bm9MZGlGNjhMSV95QlRSU3ZCNklHOXJ5d1J0OFpDY29mcDZnc1JNNW80eUNjVHBpRGRzUVVRblNCOEc2dVVWRFJpN3VLTFlodUt3ZEI0Uk95eWhoU0N5Y1N0OTVWbG1ON2RRdjlHdVJXblkwc1R5V2VHMENRa2NSOA"
+   ],
+   "img": "070f2e8e484282e67c51611424b7b250",
+   "head": "ETH ETF 이틀간 3.66억달러 빠졌는데 온체인은 반대로 감 "
   }
  ],
- "last_pub_at": "2026-09-19T05:42:24.038414+09:00"
+ "last_pub_at": "2026-09-19T07:17:19.903245+09:00"
 }
