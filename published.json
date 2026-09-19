@@ -595,7 +595,19 @@
    ],
    "img": "d693477472361b0bdc604182f2d9ce7f",
    "head": "무기한 선물, 코인 넘어 미국주식으로 "
+  },
+  {
+   "id": 75,
+   "at": "2026-09-20T07:42:18.397836+09:00",
+   "kind": "liquidation",
+   "fp": "3526a8f0885f1009",
+   "refs": [
+    "whaleliquidation:3027437",
+    "url:https://t.me/whaleliquidation/3027437"
+   ],
+   "img": "f7c62cc217fb6bb8f8b97b0e11f30d7e",
+   "head": "💥 대규모 롱 청산 감지 "
   }
  ],
- "last_pub_at": "2026-09-20T05:57:20.868469+09:00"
+ "last_pub_at": "2026-09-20T07:42:18.397836+09:00"
 }
