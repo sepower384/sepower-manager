@@ -519,7 +519,23 @@
    ],
    "img": "503cdee54e3496958bfe7fb7dadb63fa",
    "head": "하이퍼리퀴드가 커지는 경로 "
+  },
+  {
+   "id": 69,
+   "at": "2026-09-19T23:42:22.458692+09:00",
+   "kind": "insight",
+   "fp": "935b2f948c2370b3",
+   "refs": [
+    "news:76219581783213",
+    "url:https://www.blockmedia.co.kr/archives/1141976",
+    "coinnesskr:231584",
+    "url:https://t.me/coinnesskr/231584",
+    "news:250844459709307",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/410802"
+   ],
+   "img": "37424a27f4d216805eec571bbf4f0a0d",
+   "head": "50주선 회복, 근데 진짜 관전 포인트는 그 다음임 "
   }
  ],
- "last_pub_at": "2026-09-19T22:34:33.363849+09:00"
+ "last_pub_at": "2026-09-19T23:42:22.458692+09:00"
 }
