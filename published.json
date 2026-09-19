@@ -443,7 +443,23 @@
    ],
    "img": "7a50100c1665cbd78c362ed99459c8e4",
    "head": "ETF 이전 vs 지금, 비트코인 변동성 국면 "
+  },
+  {
+   "id": 64,
+   "at": "2026-09-19T16:17:17.652111+09:00",
+   "kind": "insight",
+   "fp": "5dc1ba50ed566674",
+   "refs": [
+    "news:72494762124536",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/410708",
+    "coinnesskr:231558",
+    "url:https://t.me/coinnesskr/231558",
+    "news:74724542980144",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE9LeGpJVi1fYS1YUDhHSERIMUthV2ZMaHgwVTlEVEFyOW9PZ0JtT0FFWTVMN05KalJNUVNRVUxMZEtMekFpZFRPVmV3"
+   ],
+   "img": "bfe9d1356cc35cfc6603c9d844e8d309",
+   "head": "ETH ETF 살아났는데, 3년 버틴 고래는 지금 옮김 "
   }
  ],
- "last_pub_at": "2026-09-19T15:12:22.928142+09:00"
+ "last_pub_at": "2026-09-19T16:17:17.652111+09:00"
 }
