@@ -505,7 +505,21 @@
    ],
    "img": "5cff53c8dc37318a85fb88e1d142a1f2",
    "head": "매파적 인상인데 비트코인은 왜 안 빠졌나 "
+  },
+  {
+   "id": 68,
+   "at": "2026-09-19T22:34:33.363849+09:00",
+   "kind": "insight",
+   "fp": "6c16d312af266aa6",
+   "refs": [
+    "coinnesskr:231578",
+    "url:https://t.me/coinnesskr/231578",
+    "news:192923130769821",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/410801"
+   ],
+   "img": "503cdee54e3496958bfe7fb7dadb63fa",
+   "head": "하이퍼리퀴드가 커지는 경로 "
   }
  ],
- "last_pub_at": "2026-09-19T20:34:27.413351+09:00"
+ "last_pub_at": "2026-09-19T22:34:33.363849+09:00"
 }
