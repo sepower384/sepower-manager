@@ -431,7 +431,19 @@
    ],
    "img": "5bf423434e90a976a46e17245080be3d",
    "head": "NYSE, 토큰증권 인프라로 아발란체 저울질 "
+  },
+  {
+   "id": 63,
+   "at": "2026-09-19T15:12:22.928142+09:00",
+   "kind": "insight",
+   "fp": "6a51338b8fc3ed9b",
+   "refs": [
+    "news:32790236317800",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3dDdfWVBZN3MwU3EzcFQ3Wno5MHFtN29ELURVMHhURElveG95anRsczF2YUQyU1R6bzBPTEVvLTkzcy1vREd3aTRvZ2E1dzIyQk5saXB2eUk0WEFYaWQ5Xw"
+   ],
+   "img": "7a50100c1665cbd78c362ed99459c8e4",
+   "head": "ETF 이전 vs 지금, 비트코인 변동성 국면 "
   }
  ],
- "last_pub_at": "2026-09-19T13:27:19.751549+09:00"
+ "last_pub_at": "2026-09-19T15:12:22.928142+09:00"
 }
