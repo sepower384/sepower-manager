@@ -607,7 +607,19 @@
    ],
    "img": "f7c62cc217fb6bb8f8b97b0e11f30d7e",
    "head": "💥 대규모 롱 청산 감지 "
+  },
+  {
+   "id": 76,
+   "at": "2026-09-20T08:52:23.307510+09:00",
+   "kind": "insight",
+   "fp": "bbfeb849110dffec",
+   "refs": [
+    "news:13163126213571",
+    "url:https://cryptoslate.com/trump-backed-a-crypto-ethics-rule-that-stopped-at-the-family-business/"
+   ],
+   "img": "e4223bf86fe766743b61dced217f0d4a",
+   "head": "클래리티법, 왜 트럼프가 정작 이 윤리규정엔 반대 안 했을까 "
   }
  ],
- "last_pub_at": "2026-09-20T07:42:18.397836+09:00"
+ "last_pub_at": "2026-09-20T08:52:23.307510+09:00"
 }
