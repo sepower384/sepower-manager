@@ -571,7 +571,19 @@
    ],
    "img": "7aac0af5c82daca2dd8fceb8a09d9f40",
    "head": "🐋 고래 대량 이동 포착 "
+  },
+  {
+   "id": 73,
+   "at": "2026-09-20T04:52:19.500878+09:00",
+   "kind": "whale",
+   "fp": "2124dcf05a395eec",
+   "refs": [
+    "whalealertkorean:170091",
+    "url:https://t.me/whalealertkorean/170091"
+   ],
+   "img": "53cf35ca42d91c0e4556fa951b25cac0",
+   "head": "🐋 고래 대량 이동 포착 "
   }
  ],
- "last_pub_at": "2026-09-20T03:47:17.472994+09:00"
+ "last_pub_at": "2026-09-20T04:52:19.500878+09:00"
 }
