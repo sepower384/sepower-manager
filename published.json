@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 28,
-   "at": "2026-09-17T20:57:17.324402+09:00",
-   "kind": "insight",
-   "fp": "c041eb65db4354d3",
-   "refs": [
-    "news:207940668344488",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/409637",
-    "coinnesskr:231345",
-    "url:https://t.me/coinnesskr/231345"
-   ],
-   "img": "bddf5438a2b2bf7a552bb47772d72da5",
-   "head": "2020년 vs 지금, 금리가 10배 다르다 "
-  },
-  {
    "id": 30,
    "at": "2026-09-17T22:04:48.335288+09:00",
    "kind": "insight",
@@ -679,7 +665,19 @@
    ],
    "img": "6bff7b63cfe4ae3855a7327ecd127e6e",
    "head": "이더리움 양자내성 전환, 2029년 12월이 목표인 이유 "
+  },
+  {
+   "id": 85,
+   "at": "2026-09-20T22:04:31.445388+09:00",
+   "kind": "insight",
+   "fp": "6ed5c316aee5229a",
+   "refs": [
+    "news:168405012016252",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/411104"
+   ],
+   "img": "91df8c0e5ef52b5a4cd201885e4be3fe",
+   "head": "OTC 잔고 12.3만 BTC, 역대 최저인데 왜 매도 물량은 안 나올까 "
   }
  ],
- "last_pub_at": "2026-09-20T20:52:16.779626+09:00"
+ "last_pub_at": "2026-09-20T22:04:31.445388+09:00"
 }
