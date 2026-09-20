@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 35,
-   "at": "2026-09-18T04:52:20.556205+09:00",
-   "kind": "insight",
-   "fp": "d6a55f69a0e13037",
-   "refs": [
-    "news:269198378868702",
-    "url:https://bitcoinmagazine.com/news/clarity-act-fails-sec-pushes-tokenization",
-    "news:223958862957864",
-    "url:https://news.google.com/rss/articles/CBMimAFBVV95cUxOWGlQOG4ySVNJeHRJb2pFRVQ1WDF3ckxNd2RleUNWRWZBbG5IWGE2Y2NienpjSWJ0VFo2R3NxMGdjX25DbUdNYVl1MFU1a0ZTa0RYYk1ReTZDZzBKSm5FMk5Bamp3SllQQkV2R3NVVWQtcU5VZkxQZUhYUTN1QkY5a1oxV0hidVVDYjNDVnU4Mk8wQXNIM0lMbQ",
-    "news:214706195354860",
-    "url:https://news.google.com/rss/articles/CBMixgFBVV95cUxQckZ6MTZJeVo2M3kySXprVFQ0YThtc2F5NXh0bmFYN01UWUhsYk5TeVVRamtXMEZmQ3djWEN2YmhvZG9DaFpDTmpEM1NTaXZOV0VDVWNZbExya0xBUVNYWkNGOTBzTnJOWnNYMC1VX0NRdDhXYlVKNDNTc2h0dWVpZmhMX1l4QmNkZ2k2eHNGN3dUSG5ZMEVkMHVZdzJvTVh2R25BZWlCRW5kVE1SZ2pydTVWdXltQWd1emkwZXUzajNRZ0tYTHfSAcIBQVVfeXFMTjhCNDZsVmxLa2wwY0g4ZzZ4Mm9CcHBfSFNmdDZkdmFTLWpOS2hGcjJrNHpLanpmd3VJVXZCUlZJM2E5SjBOSWVaR1ZWU1loWmdncXlmVWZDRE9sZEpBSDlmcFM1VVJzdHhsMUlRNTNTZUVKY1pjSDFRNUlhM3M1SmJmdkFZcmh6SWl5SzVZWVhpUWFRaTRyNEI3Q0Z6dlF2Z2tieU83ZFlZUEJyZmFrOHV1eUtzMWI5QTRNcnk2VmpzRXc",
-    "news:150069464669223",
-    "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxQMXhSOUhiaUJrT2NlUk92NkFOTlBjQ1dzU0llYVZfdGt6LXR5WEdBRFM5UzN5WmtaSUQ5eExLZDYyVXZueThscDZpMU5WZG5OVTdIRFRHRlRzYWk3VFViUnRCT3hFbkRVZndCNTc2dEY4NlJUVVp5MjNOaXUyWUdDRXY3ck11bGwtTEc1OTlvN2x1OFI2ZWZzdU00ZTFhWnh0Q0E",
-    "news:37094505917486",
-    "url:https://thedefiant.io/news/regulation/sec-innovation-exemption-tokenized-stocks-cftc-software-relief"
-   ],
-   "img": "6ed02c6697d181e2980a49210b770938",
-   "head": "클래리티법 막힌 자리, SEC·CFTC가 규칙으로 메우기 시작함 "
-  },
-  {
    "id": 37,
    "at": "2026-09-18T05:35:49.952319+09:00",
    "kind": "insight",
@@ -675,7 +655,19 @@
    ],
    "img": "7c31165e7d2a02c76cda86c05afc0a8a",
    "head": "🐋 고래 대량 이동 포착 "
+  },
+  {
+   "id": 92,
+   "at": "2026-09-21T05:05:38.965946+09:00",
+   "kind": "insight",
+   "fp": "42f6c12ac65dfc41",
+   "refs": [
+    "news:68777919135373",
+    "url:https://news.google.com/rss/articles/CBMidkFVX3lxTE1xTjcyQlhoVThkWURTV09wQ2RqQXNZOHNHZVRpWnNtWVdsMkUyQnhqVFNRbTFkeWFUdndZcDNkdGQyTjhLaU5DZnVxT0Y3VER4eXlrWl9ZVnAyX2Y3WWlzX3VRbnA4TEFiNDVwRi1WM08xQWNZeUHSAWZBVV95cUxQSEhpWHowNVFoRXgxcG81ZGJVRzhFbl9MM2wwYXpZd3g4X0NEMm8tdmtocktfUmQ5eF9TTDU4clZFbW5KLUllNkVRQU9PSEd5eHBtZHR1VFRfR2duOUlNSmhSdFhlUkE"
+   ],
+   "img": "f7f1bacbbcd95864c9de41da6192fd68",
+   "head": "속보) 국산 AI칩 상용화 첫발, 엔비디아 의존도 낮추기 시동 "
   }
  ],
- "last_pub_at": "2026-09-21T04:04:18.584095+09:00"
+ "last_pub_at": "2026-09-21T05:05:38.965946+09:00"
 }
