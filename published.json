@@ -1,17 +1,6 @@
 {
  "posts": [
   {
-   "id": 22,
-   "at": "2026-09-17T15:44:13.538303+09:00",
-   "fp": "0676e576ebe83cf7",
-   "refs": [
-    "news:196943308465002",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iYkFhVlBvb2ZCcDNDb0RtZFhiMjY1d1ZIblpTT25pZFF2RUowX2V0aHlzR05ZdTA0eUMzZUpWS09ibzd4RWg0SFZKRno0ZFk0bEtsT1UtMm1kVTUwRU9ST1V0QUpwQm9y0gFuQVVfeXFMUDJicjdXVmZzWjZyNUlWcktVSmZkVktYSEcwQkxqd3ZjQjd1T015YkhiZVBMdWVOQ0tNU1puT001SDdST09mNW1RZkx1TnhrdnNvS1VGT2NpWXpxRE5jdjVxYlRSQ21iUFh3ZGMxQmc"
-   ],
-   "img": "d27b7074c580e72ae43971302dd38911",
-   "head": "국채금리 5% 다시 찍었는데, 이번 달 우량 회사채 중 30년물 비중이 5%로 2020년 이후 최저래 "
-  },
-  {
    "id": 23,
    "at": "2026-09-17T17:10:39.603124+09:00",
    "kind": "insight",
@@ -666,7 +655,19 @@
    ],
    "img": "2c29e19eb88a43372f7d636bacb88171",
    "head": "BTC 8만달러 지지선, ETF 자금은 이미 등 돌리는 중 "
+  },
+  {
+   "id": 81,
+   "at": "2026-09-20T16:22:20.337183+09:00",
+   "kind": "insight",
+   "fp": "9f3088c2cdc87673",
+   "refs": [
+    "news:4210264423104",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/411019"
+   ],
+   "img": "54607784090bbc1dbef38ae2a3ad991a",
+   "head": "코인베이스 프리미엄 5일 연속 마이너스, 프라임 거래량은 하루새 -73.1% "
   }
  ],
- "last_pub_at": "2026-09-20T14:34:20.014818+09:00"
+ "last_pub_at": "2026-09-20T16:22:20.337183+09:00"
 }
