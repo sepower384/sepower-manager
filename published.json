@@ -628,7 +628,21 @@
    "refs": [],
    "img": "4eae4a6c81d51d1bbf31879186e3fc41",
    "head": "☀️ 9/20(일) 아침 체크포인트 "
+  },
+  {
+   "id": 78,
+   "at": "2026-09-20T11:27:19.235414+09:00",
+   "kind": "insight",
+   "fp": "595f84fa83b8bf85",
+   "refs": [
+    "news:65777984170647",
+    "url:https://www.tokenpost.kr/news/blockchain/410926",
+    "news:206181803628192",
+    "url:https://www.tokenpost.kr/news/blockchain/410934"
+   ],
+   "img": "c503ed87ff87eb66b53bde347f746ec1",
+   "head": "서클, 발행사에서 인프라 운영자로 갈아타는 중 "
   }
  ],
- "last_pub_at": "2026-09-20T10:17:17.630476+09:00"
+ "last_pub_at": "2026-09-20T11:27:19.235414+09:00"
 }
