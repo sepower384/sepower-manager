@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 23,
-   "at": "2026-09-17T17:10:39.603124+09:00",
-   "kind": "insight",
-   "fp": "ec86b1a4d5a13a14",
-   "refs": [
-    "news:87092909498179",
-    "url:https://news.google.com/rss/articles/CBMiT0FVX3lxTE4xOVFQZFdGcDdnVnJzNEZ0ZmJYemptYjhBZGVOUlloV2k4cWpDUHhSbVB2X3J5anNFSmI5MFg5OGZ0TkV5UHM1bXg5RVhMZWc"
-   ],
-   "img": "00c8f84bd53f7efbaf0798ae86ffd706",
-   "head": "가상자산 과세 유예 D-100인데, 왜 지금 '거래소 유인책'인가 "
-  },
-  {
    "id": 27,
    "at": "2026-09-17T19:05:23.235987+09:00",
    "kind": "insight",
@@ -667,7 +655,19 @@
    ],
    "img": "54607784090bbc1dbef38ae2a3ad991a",
    "head": "코인베이스 프리미엄 5일 연속 마이너스, 프라임 거래량은 하루새 -73.1% "
+  },
+  {
+   "id": 82,
+   "at": "2026-09-20T18:04:16.629834+09:00",
+   "kind": "insight",
+   "fp": "5ae40870941ecf57",
+   "refs": [
+    "news:51778839917126",
+    "url:https://www.tokenpost.kr/news/briefing/411055"
+   ],
+   "img": "f6844b48bc09fe5efc1f5e103507f634",
+   "head": "⚡️ SEC, 토큰화 주식 5년 조건부 면제 발표 "
   }
  ],
- "last_pub_at": "2026-09-20T16:22:20.337183+09:00"
+ "last_pub_at": "2026-09-20T18:04:16.629834+09:00"
 }
