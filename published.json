@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 29,
-   "at": "2026-09-17T23:42:54.303189+09:00",
-   "kind": "insight",
-   "fp": "0c0fe1fdfbe70fde",
-   "refs": [
-    "news:77859324505533",
-    "url:https://news.google.com/rss/articles/CBMiSEFVX3lxTE9NaW81NXF3YVJWajZoOUdjNUpYNEhJZjB1aWxtd3NSWExxcHA3czlPd2NFcnhkZVlfT1B1aHY4YnE2Wm42NnkxOQ",
-    "news:20375378424320",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFB0NzRhc1V1VWVaemplQS1XdVp2NDJWaHhxU015WURUdnh4M19IN085RVlxVE42c2lNRGVmNm1ZSFF0UmJiQkNFdmdn"
-   ],
-   "img": "26630fb2383c32c018e098e22ffb8720",
-   "head": "속보) 美 하원 위원회, 압류 비트코인 매각 금지 법안 통과…본회의行 "
-  },
-  {
    "id": 31,
    "at": "2026-09-18T01:42:20.632407+09:00",
    "kind": "whale",
@@ -677,7 +663,19 @@
    ],
    "img": "1bd1f766ac8be317f7ee68dfded37735",
    "head": "비트코인 압축지표 93.9%, 방향 터지기 직전 "
+  },
+  {
+   "id": 87,
+   "at": "2026-09-21T01:12:24.590105+09:00",
+   "kind": "insight",
+   "fp": "07229bd2b2bbae5b",
+   "refs": [
+    "news:212517792230654",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/411139"
+   ],
+   "img": "94843483e94635e35720ee9dbce25546",
+   "head": "과거엔 비트코인이 오르면 그 힘이 중소형 알트로 흘러가는 게 정형화된 패턴이었음. 대세 상승 뒤엔 알트시즌이 따라오는 식으로. "
   }
  ],
- "last_pub_at": "2026-09-20T23:27:19.315098+09:00"
+ "last_pub_at": "2026-09-21T01:12:24.590105+09:00"
 }
