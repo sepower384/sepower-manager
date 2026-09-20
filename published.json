@@ -654,7 +654,19 @@
    ],
    "img": "eeb866f3f42aae7fb2e4bc7875916698",
    "head": "BTC 일주일 5% vs 하이프 18%, 왜 이렇게 벌어졌을까 "
+  },
+  {
+   "id": 80,
+   "at": "2026-09-20T14:34:20.014818+09:00",
+   "kind": "insight",
+   "fp": "59c88bd88e3c49bb",
+   "refs": [
+    "news:191609694037619",
+    "url:https://www.digitalasset.works/news/articleView.html"
+   ],
+   "img": "2c29e19eb88a43372f7d636bacb88171",
+   "head": "BTC 8만달러 지지선, ETF 자금은 이미 등 돌리는 중 "
   }
  ],
- "last_pub_at": "2026-09-20T13:04:11.726295+09:00"
+ "last_pub_at": "2026-09-20T14:34:20.014818+09:00"
 }
