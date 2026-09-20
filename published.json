@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 36,
-   "at": "2026-09-18T06:52:17.310946+09:00",
-   "kind": "insight",
-   "fp": "b9c8a5c6c73b20f8",
-   "refs": [
-    "coinnesskr:231412",
-    "url:https://t.me/coinnesskr/231412",
-    "news:235828343927106",
-    "url:https://www.tokenpost.kr/news/market/409889"
-   ],
-   "img": "ba86fef68f11b215f373ba0aaca98f3a",
-   "head": "시큐리타이즈, 거래량은 터졌는데 매출은 줄었음 "
-  },
-  {
    "id": 38,
    "at": "2026-09-18T08:04:19.816080+09:00",
    "kind": "insight",
@@ -661,7 +647,21 @@
    ],
    "img": "dff47afaf921994018befb013cbaf458",
    "head": "AI 데이터센터 전기 먹는 속도가 심상치 않음 "
+  },
+  {
+   "id": 93,
+   "at": "2026-09-21T07:47:15.761877+09:00",
+   "kind": "insight",
+   "fp": "932f97de178aaeeb",
+   "refs": [
+    "news:61103036595516",
+    "url:https://cryptoslate.com/who-pays-when-bitcoin-disappears-without-anyone-stealing-the-keys/",
+    "news:148628427069976",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE4ySnhVMm9ZMlZwa1Juc3R4X3N0Y2tlRHBEUWxVRU40dkF5aWdoTUhjT0xJeTVfTTFUMXhLbkdpRjBQS2pCSnEzZjZtbmh4aXJhalNVZkViOWw"
+   ],
+   "img": "3b8c5afba95cc0170cb30a3952e7ee16",
+   "head": "리퀴드 준비금에서 BTC 4천개가 사라졌는데, 개인키 탈취가 아님 "
   }
  ],
- "last_pub_at": "2026-09-21T06:22:18.726271+09:00"
+ "last_pub_at": "2026-09-21T07:47:15.761877+09:00"
 }
