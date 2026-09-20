@@ -667,7 +667,19 @@
    ],
    "img": "06644cc4c9574f7da0c3def6c6c4157d",
    "head": "다들 금리 인하=나스닥 랠리로만 보는데, 라울 팔은 반대 얘기함 "
+  },
+  {
+   "id": 84,
+   "at": "2026-09-20T20:52:16.779626+09:00",
+   "kind": "insight",
+   "fp": "6fb1a6ef84a36fd8",
+   "refs": [
+    "news:190558938660108",
+    "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CTVkzUlRqdjA1eHVEcVV2Ym41VzFwT01SOWZ2QS1yMkFpelBKSkZmb3BYRHUyX1RDakhpYy1sM21nWjFlQ1lxbEtSd251MjN0eV9SV0ZtdnFOelE"
+   ],
+   "img": "6bff7b63cfe4ae3855a7327ecd127e6e",
+   "head": "이더리움 양자내성 전환, 2029년 12월이 목표인 이유 "
   }
  ],
- "last_pub_at": "2026-09-20T19:12:21.233681+09:00"
+ "last_pub_at": "2026-09-20T20:52:16.779626+09:00"
 }
