@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 27,
-   "at": "2026-09-17T19:05:23.235987+09:00",
-   "kind": "insight",
-   "fp": "2966b86207a2c2d4",
-   "refs": [
-    "news:132810886722578",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/409557"
-   ],
-   "img": "ea1d4a847955074ddd0714a075e56a84",
-   "head": "에티오피아 채굴 전력, 가뭄에 23%까지 줄어든 이유 "
-  },
-  {
    "id": 28,
    "at": "2026-09-17T20:57:17.324402+09:00",
    "kind": "insight",
@@ -667,7 +655,19 @@
    ],
    "img": "f6844b48bc09fe5efc1f5e103507f634",
    "head": "⚡️ SEC, 토큰화 주식 5년 조건부 면제 발표 "
+  },
+  {
+   "id": 83,
+   "at": "2026-09-20T19:12:21.233681+09:00",
+   "kind": "insight",
+   "fp": "595c11fd6dceb52a",
+   "refs": [
+    "news:235922141854150",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JR0tNVkJkT3dnb1pteHVkVUQycXdEdC1WQkNRY3Q5Sl9pang2VFR1VVRmUjZJM3JwdjQybEVOOEg0dDlLMkhqUkRWa3h0SzFrSWE1Y0Zoc3ozcVZzR0gxNA"
+   ],
+   "img": "06644cc4c9574f7da0c3def6c6c4157d",
+   "head": "다들 금리 인하=나스닥 랠리로만 보는데, 라울 팔은 반대 얘기함 "
   }
  ],
- "last_pub_at": "2026-09-20T18:04:16.629834+09:00"
+ "last_pub_at": "2026-09-20T19:12:21.233681+09:00"
 }
