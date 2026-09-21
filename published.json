@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 53,
-   "at": "2026-09-19T03:57:21.767269+09:00",
-   "kind": "liquidation",
-   "fp": "1102efa27bef9e03",
-   "refs": [
-    "whaleliquidation:3022530",
-    "url:https://t.me/whaleliquidation/3022530"
-   ],
-   "img": "f58e8d10235381e0fd68fdf45a2d038a",
-   "head": "💥 대규모 숏 청산 감지 "
-  },
-  {
    "id": 56,
    "at": "2026-09-19T05:42:24.038414+09:00",
    "kind": "liquidation",
@@ -641,7 +629,19 @@
    ],
    "img": "0a79822e78e4def9c3e2daf223342532",
    "head": "🐋 고래 거래소 간 이동 포착 "
+  },
+  {
+   "id": 112,
+   "at": "2026-09-22T05:35:38.799204+09:00",
+   "kind": "liquidation",
+   "fp": "7781689900278af8",
+   "refs": [
+    "whaleliquidation:3035897",
+    "url:https://t.me/whaleliquidation/3035897"
+   ],
+   "img": "53e1315d909924bc056bc771e305311c",
+   "head": "💥 대규모 숏 청산 감지 "
   }
  ],
- "last_pub_at": "2026-09-22T03:42:20.020887+09:00"
+ "last_pub_at": "2026-09-22T05:35:38.799204+09:00"
 }
