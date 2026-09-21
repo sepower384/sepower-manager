@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 56,
-   "at": "2026-09-19T05:42:24.038414+09:00",
-   "kind": "liquidation",
-   "fp": "7e2f82ddbcfb94d5",
-   "refs": [
-    "whaleliquidation:3022931",
-    "url:https://t.me/whaleliquidation/3022931"
-   ],
-   "img": "2f6cfb91defd8ede282c8f856a15aa01",
-   "head": "💥 대규모 숏 청산 감지 "
-  },
-  {
    "id": 57,
    "at": "2026-09-19T07:17:19.903245+09:00",
    "kind": "insight",
@@ -641,7 +629,19 @@
    ],
    "img": "53e1315d909924bc056bc771e305311c",
    "head": "💥 대규모 숏 청산 감지 "
+  },
+  {
+   "id": 113,
+   "at": "2026-09-22T07:04:20.144299+09:00",
+   "kind": "insight",
+   "fp": "da73dbccfa39ee36",
+   "refs": [
+    "news:149454240796523",
+    "url:https://www.blockmedia.co.kr/archives/1142588"
+   ],
+   "img": "2a4a230272c70227e4902690bdd1d871",
+   "head": "써클, BTC 담보로 USDC 대출 서비스 오픈 "
   }
  ],
- "last_pub_at": "2026-09-22T05:35:38.799204+09:00"
+ "last_pub_at": "2026-09-22T07:04:20.144299+09:00"
 }
