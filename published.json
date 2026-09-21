@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 46,
-   "at": "2026-09-18T19:12:19.863647+09:00",
-   "kind": "insight",
-   "fp": "ceaccd5f2e459b3b",
-   "refs": [
-    "news:29112312467557",
-    "url:https://www.blockmedia.co.kr/archives/1141539"
-   ],
-   "img": "d53f96e4c7492174e64afd6ba859149c",
-   "head": "레버리지 ETF '부족함' 인정, 근데 진짜 문제는 그게 아님 "
-  },
-  {
    "id": 47,
    "at": "2026-09-18T21:04:19.988197+09:00",
    "kind": "insight",
@@ -647,7 +635,19 @@
    ],
    "img": "4619135b74a0878a0d40c935256e3b3a",
    "head": "이번 주 BTC $80k대, 두 매크로 변수가 시험대임 "
+  },
+  {
+   "id": 102,
+   "at": "2026-09-21T19:17:19.491599+09:00",
+   "kind": "insight",
+   "fp": "0e274e802c9ced23",
+   "refs": [
+    "news:129606124155543",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/411429"
+   ],
+   "img": "9089699cabacbf5731a97ba2d855305d",
+   "head": "RWA 160억달러가 다음 유동성 통로 되는 경로 "
   }
  ],
- "last_pub_at": "2026-09-21T17:52:21.136535+09:00"
+ "last_pub_at": "2026-09-21T19:17:19.491599+09:00"
 }
