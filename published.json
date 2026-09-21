@@ -1,15 +1,6 @@
 {
  "posts": [
   {
-   "id": 39,
-   "at": "2026-09-18T09:52:19.876656+09:00",
-   "kind": "brief",
-   "fp": "5e170a0e69d78981",
-   "refs": [],
-   "img": "63e5084fb5bd64cd3f7040369bbeb2e7",
-   "head": "☀️ 밤사이 증시는 반등, 비트는 7만5천 사수 "
-  },
-  {
    "id": 40,
    "at": "2026-09-18T11:04:18.684499+09:00",
    "kind": "insight",
@@ -656,7 +647,19 @@
    "refs": [],
    "img": "52078cf468b3c11c635a03c18a3d4d69",
    "head": "☀️ 9/21(월) 아침 체크포인트 "
+  },
+  {
+   "id": 95,
+   "at": "2026-09-21T10:47:18.639232+09:00",
+   "kind": "insight",
+   "fp": "0347e486dbafdf58",
+   "refs": [
+    "news:16371630734768",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE9GZ0ZvQm1HRkhsM1E4WFBHbXljeUlncHZaOGFwNGxFOXRSTGFxX0pROHdId3pGUWxhLXpJeUdILWZkRF9CR1haQmN3"
+   ],
+   "img": "695e641f0f67d70b5e3fdbaa948c2e42",
+   "head": "아크인베스트가 BTC ETF 팔았는데, \"데드캣 아니다\"라는 게 오히려 신호일 수도 "
   }
  ],
- "last_pub_at": "2026-09-21T09:12:23.500783+09:00"
+ "last_pub_at": "2026-09-21T10:47:18.639232+09:00"
 }
