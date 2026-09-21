@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 48,
-   "at": "2026-09-18T22:34:29.951572+09:00",
-   "kind": "insight",
-   "fp": "9c123ab71f82238a",
-   "refs": [
-    "news:232275877092470",
-    "url:https://www.blockmedia.co.kr/archives/1141603"
-   ],
-   "img": "4079c63927f57cca6bb1f399bcd6a43a",
-   "head": "RWA, 자산가치는 그대로인데 보유자는 왜 급증했나 "
-  },
-  {
-   "id": 49,
-   "at": "2026-09-18T23:57:21.799012+09:00",
-   "kind": "insight",
-   "fp": "934c816cdebf5517",
-   "refs": [
-    "news:221347137693082",
-    "url:https://news.google.com/rss/articles/CBMikAFBVV95cUxNM3Q5S0luY2pseHVrSlZPNVhqalFLUjl3X29ZU3lXNGpDbmEzVkk4eWJ0RldlcTdsRjZFWHVtNHFGb0lOYmlBTC1iVmVzRGZZTzc0aWJFR3hJUF9XYjBLckpYQzZMSm03WXFFa0xfcF95TTRQWDJBRENOZ3FiQmZRN09zWlBTblJLQU5pWFpUUTg"
-   ],
-   "img": "9a841c10fde57edfcd28966aa04eb9c1",
-   "head": "OFAC이 테헤란 거래소 BitBank 제재하면서 \"BTC가 IRGC로 흘러갔다\"고 콕 집어 밝힘 "
-  },
-  {
    "id": 51,
    "at": "2026-09-19T00:35:08.092790+09:00",
    "kind": "insight",
@@ -659,7 +635,19 @@
    ],
    "img": "9f7b478cda947b30336acaad1546ee2c",
    "head": "클래리티법 불발, 다들 악재라는데 세일러는 다르게 봄 "
+  },
+  {
+   "id": 105,
+   "at": "2026-09-22T00:12:24.466334+09:00",
+   "kind": "insight",
+   "fp": "5687e41c35fad268",
+   "refs": [
+    "news:11639016117671",
+    "url:https://news.google.com/rss/articles/CBMixAFBVV95cUxPWVBpMTJNOGlQaVdPQjBKYlRKVFhjN05zSzVmQ2g0eUxUbjM1UGNQcHVFY0tHcFJuZ2R5VEZIRDFudDZuRnA2YnI2R3pibURFdGlOQkFrdEIzXy12WjlnclJsVlViZWY3UVpScHF3aHNUczY2Z2ROQTRpR240V3o2NEE5OUM5OEowbS1sY0dZdUE5czEyUjJtcjQzZUZVNzJjeGtXbmFwV21VdThfLUI1SG5JUmZyY1FGMkFuUk5EcVEybDJI"
+   ],
+   "img": "c9fc87788fb68f2c02943eb483ff4b67",
+   "head": "클래리티법 막히니 CFTC가 백악관으로 우회 "
   }
  ],
- "last_pub_at": "2026-09-21T22:17:15.932710+09:00"
+ "last_pub_at": "2026-09-22T00:12:24.466334+09:00"
 }
