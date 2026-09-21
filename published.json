@@ -647,7 +647,19 @@
    ],
    "img": "9089699cabacbf5731a97ba2d855305d",
    "head": "RWA 160억달러가 다음 유동성 통로 되는 경로 "
+  },
+  {
+   "id": 103,
+   "at": "2026-09-21T20:57:20.384289+09:00",
+   "kind": "insight",
+   "fp": "f64cce2fe440935f",
+   "refs": [
+    "news:173076345356060",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/411477"
+   ],
+   "img": "1298d2e8de19883cc64d546ef7929e38",
+   "head": "아브락사스, ETH·BTC·HYPE·SOL 숏에 7억달러 걸었는데 지금 1억달러 손실 중 "
   }
  ],
- "last_pub_at": "2026-09-21T19:17:19.491599+09:00"
+ "last_pub_at": "2026-09-21T20:57:20.384289+09:00"
 }
