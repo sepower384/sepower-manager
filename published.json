@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 43,
-   "at": "2026-09-18T15:12:23.609045+09:00",
-   "kind": "liquidation",
-   "fp": "41c52c933366bebb",
-   "refs": [
-    "whaleliquidation:3019744",
-    "url:https://t.me/whaleliquidation/3019744"
-   ],
-   "img": "4eb39e3f07b37c3aa11fbeab16a107df",
-   "head": "💥 대규모 숏 청산 감지 "
-  },
-  {
    "id": 44,
    "at": "2026-09-18T16:34:20.911887+09:00",
    "kind": "insight",
@@ -653,7 +641,25 @@
    ],
    "img": "8abf37e2c04cde0257e8565c5f6ede19",
    "head": "정점식 \"가상자산 과세, 청년들 현실 외면\" "
+  },
+  {
+   "id": 100,
+   "at": "2026-09-21T16:22:17.644110+09:00",
+   "kind": "insight",
+   "fp": "a22de82888123d53",
+   "refs": [
+    "news:176292889198245",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MajFPalFIZVdXWV9weklMYzFUNEQxNEhDZmZZTGlxV244LVRPVFBtVlFoMzNaQWYyc3BvSENtNEV1blpMWDF1Zk5wMFlZcTRiZFVsWU5rdUs",
+    "news:61512542893435",
+    "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE9rNm9rdEpUdHh1ajE0LXAwS1RoVlVHQ1lTUmVfdVU1QnREWmJPTDV3TFoxcENsdmFEZ050MFkxcjI2VlkzcmlGanZTVWtLMDM4WkR4MWJmalo2RDlZNE1XM3JiWWlTUklTN2tUQTNMbFpkaUppOG9fWXkwSHZwTFE",
+    "news:250619156111799",
+    "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxQdDEtZUo2U0JUSFNCREJUYUVDS2QxWnRHbkV1UmlaV2h0aGVYQ3A4MG5WYzRoSUJhdlo4eFVLSHp3ZXpxX2F2aXphXzRDR3VicGswQm1JdU1uVHkwaUtvWE0wS21HdjRBbjBwZnRpdXJRWUM0b0lZOFVGeGhva3dTcnBVMFZYeWlPck1JUm85dy1yUQ",
+    "news:229169097975232",
+    "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxPYkM4eU95RTdicDFaX2JHSDdOV0FKY0hWRUVYdXdzSW9ja2dFbHZTTjNpZTVYdlNWS2lpTmVVQnVpVExiaExsUEg1LThFU25jMXUyTzAxbVhiVThKS2xCU1YtOUFLZHFFbFpqNEZpT1VING1xdGhvaWYwc0RBcE96S1lad2J4eTNSOTN4STluMjFCVVE"
+   ],
+   "img": "a964f37e766592e38763ab6982de6379",
+   "head": "ETF 이틀 연속 순유출 vs 이번 주 반전 "
   }
  ],
- "last_pub_at": "2026-09-21T14:35:07.021355+09:00"
+ "last_pub_at": "2026-09-21T16:22:17.644110+09:00"
 }
