@@ -627,7 +627,21 @@
    ],
    "img": "fd4d2cabd64d4d814455252b35de7c2c",
    "head": "비트코인 옵션 시장, 롱 레버리지 다시 커지는 중 "
+  },
+  {
+   "id": 110,
+   "at": "2026-09-22T02:05:03.655673+09:00",
+   "kind": "insight",
+   "fp": "25c315209f5dabe7",
+   "refs": [
+    "news:37345729889986",
+    "url:https://www.blockmedia.co.kr/archives/1142570",
+    "news:95591351273393",
+    "url:https://thedefiant.io/news/markets/bitcoin-highest-since-january-crude-sinks-sep-21-2026"
+   ],
+   "img": "a971f896f8bd45c083abe32465f4c6bc",
+   "head": "비트코인 8만6355달러 찍고 8만5000대 반납 "
   }
  ],
- "last_pub_at": "2026-09-22T01:42:26.962810+09:00"
+ "last_pub_at": "2026-09-22T02:05:03.655673+09:00"
 }
