@@ -1,38 +1,6 @@
 {
  "posts": [
   {
-   "id": 51,
-   "at": "2026-09-19T00:35:08.092790+09:00",
-   "kind": "insight",
-   "fp": "921b6f13c8da5e1f",
-   "refs": [
-    "news:236893241105090",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fcURlNE14LVF5MTRuODhHNHlhNmJfTzE3Z2tJWVB5RU5XNkhsNURQc3lxQmpQZXE2ZE9zR0c2MGMzSUNadXdCRjcxdUNGUGFObEJGRUlmcUFMcUIwZENlcFBnT241MTAy",
-    "news:211344887676687",
-    "url:https://www.theblock.co/news/markets/2026-09-18-bitcoin-reclaims-80000-solana-hyperliquid-rally-crypto-markets-shrug-off-clarity-setback-415523",
-    "coinnesskr:231518",
-    "url:https://t.me/coinnesskr/231518",
-    "news:135538093426453",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ISVVhY0RXUzJjZE1OWmtCN2gwWkpRYm14OXRVa0Z6ZGhzSkJqWmxTMUsxWl90RXk5RTdyUFhwRWpfUUEwUGlyZGs4S0pLalhqMm1oTkJUbnc"
-   ],
-   "img": "8b47100b585427e13f0704a938f579a2",
-   "head": "속보) BTC 5.72% 급등하며 8만1000달러 상회 "
-  },
-  {
-   "id": 50,
-   "at": "2026-09-19T01:42:18.302492+09:00",
-   "kind": "insight",
-   "fp": "4f23a8638c954034",
-   "refs": [
-    "news:209933828110669",
-    "url:https://www.tokenpost.kr/news/briefing/410448",
-    "news:84844777355517",
-    "url:https://www.tokenpost.kr/news/briefing/410449"
-   ],
-   "img": "bccd3b3698e3b44d44eaeca29acfa1cf",
-   "head": "⚡️ 자정 시세 브리핑 요약 "
-  },
-  {
    "id": 52,
    "at": "2026-09-19T02:47:20.151843+09:00",
    "kind": "whale",
@@ -647,7 +615,19 @@
    ],
    "img": "c9fc87788fb68f2c02943eb483ff4b67",
    "head": "클래리티법 막히니 CFTC가 백악관으로 우회 "
+  },
+  {
+   "id": 106,
+   "at": "2026-09-22T01:42:26.962810+09:00",
+   "kind": "insight",
+   "fp": "cb4f085491bfa95f",
+   "refs": [
+    "coinnesskr:231731",
+    "url:https://t.me/coinnesskr/231731"
+   ],
+   "img": "fd4d2cabd64d4d814455252b35de7c2c",
+   "head": "비트코인 옵션 시장, 롱 레버리지 다시 커지는 중 "
   }
  ],
- "last_pub_at": "2026-09-22T00:12:24.466334+09:00"
+ "last_pub_at": "2026-09-22T01:42:26.962810+09:00"
 }
