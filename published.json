@@ -1,36 +1,6 @@
 {
  "posts": [
   {
-   "id": 41,
-   "at": "2026-09-18T12:57:23.683157+09:00",
-   "kind": "insight",
-   "fp": "44fe5aa0ea67eafb",
-   "refs": [
-    "news:41534537565561",
-    "url:https://news.google.com/rss/articles/CBMickFVX3lxTE5kelNMWHlQbkpGdWNyMGJvYmwzbkJCRE5uYXdvUmpNMlRVY2c0RWRQZ2Z5TElCVEdiSGhpT0pUaGl2TzhaSDRjY1NhdElRRTctQUZoa3kyTG9LUUpFWlZIVXVucFU3bmIyZVRLdXdnWTZPZw",
-    "news:222958674073682",
-    "url:https://news.google.com/rss/articles/CBMisAJBVV95cUxPdVlSYW5TcG9DVEJwbmhGLS1JVG41YzJ1RFpackZhemE1bjVTTDhNN3o2VFBDa2twOWxZZllZZGl4UzZxanFiY0xsb0Z3MXRIVFVfd0w4Qmk3V0hCc2tqWWJQZWlWSkYwQmtPdFVNODBib3hsdjdXUnByWUR1MXlFSmNVZXZhS3lNNV9OckdNTmF1MV9hRjZxM25lZ0pPeE9XZzJvbTQtNW8yZTI0eUxBbmx6MTl4eHpMdk1VQ3A2RU1uZmVkMUdIend0M0owQ0tTbnIwZEJlbGxLaXk0dk5kNUdDU2ZraHBnTUZGWUxkQURLbFI2eDk0Uld3bHJVUmtHRTNWZkVKMlpwSWQtMmhJcGlWMkNLSDJScm1JemU2ZWVvUHdOdXlBT0FVUjJ3eVl6",
-    "news:139726555694179",
-    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE81RW1WSWNiVS11XzZUZDVqaEYxRjdsb3paYU9BaC10a2xxX0t3VmRpeVdUNlF4NUJrNk1wUFRfemE4YURSWDNrTlczSC1tWjUxYkZyZFpNczA3TDctckk2Tg"
-   ],
-   "img": "88a5a97596876acc4c7d28b19ac74ff4",
-   "head": "JP모건 \"헤지 풀리면 비트가 금보다 셀 것\" — 근데 조건절이 핵심 "
-  },
-  {
-   "id": 42,
-   "at": "2026-09-18T14:04:22.822278+09:00",
-   "kind": "insight",
-   "fp": "9aa50ba4c38532c4",
-   "refs": [
-    "news:17058131536505",
-    "url:https://www.coindesk.com/markets/2026/09/17/boj-rate-hike",
-    "news:134498125357890",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE95XzNaRHd4aUNlbmRUM1dxazVJT0V3cllwWnd5bjZzMnNSaHNvcjVtV2w2RjljZFp4dXhwbjlyTjJHOUZweFBQcENRbkE4NUZ4ek1nNFFqUVg"
-   ],
-   "img": "04558f82a0582ab8f53e1d2935b917f6",
-   "head": "일본은행 31년 만의 최고금리, 근데 엔화는 반대로 갔음 "
-  },
-  {
    "id": 43,
    "at": "2026-09-18T15:12:23.609045+09:00",
    "kind": "liquidation",
@@ -659,7 +629,19 @@
    ],
    "img": "186572b4311c06e93bdf19c56d50a75d",
    "head": "💥 대규모 숏 청산 감지 "
+  },
+  {
+   "id": 98,
+   "at": "2026-09-21T14:05:25.026974+09:00",
+   "kind": "insight",
+   "fp": "878b5a337c2ba99e",
+   "refs": [
+    "news:150690504110661",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CNlBGRjFFTzJZZ19FaXRtRWtoSzROUjQzRGxXODdYYXpHTVZoQko2ekdDZ3VFeXlDYXowZzFhTW0tNGZCTUZxbE55cmJuLUV1WDMzSVBYWHg"
+   ],
+   "img": "f6fc5bb9babbbb915e30f54d3ff7f6db",
+   "head": "BTC 20년 매각 금지법, 하원 금융위 통과… 다음 관문은 "
   }
  ],
- "last_pub_at": "2026-09-21T12:17:51.087521+09:00"
+ "last_pub_at": "2026-09-21T14:05:25.026974+09:00"
 }
