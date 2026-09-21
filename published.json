@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 44,
-   "at": "2026-09-18T16:34:20.911887+09:00",
-   "kind": "insight",
-   "fp": "2c3328fc59e0ea77",
-   "refs": [
-    "news:11433286625557",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/410146"
-   ],
-   "img": "b011d8ba8228abab211c5cdac6a5fa4b",
-   "head": "비트코인 현물 ETF, 이틀 유출 끊고 하루 만에 1억5945만달러 순유입 전환 "
-  },
-  {
-   "id": 45,
-   "at": "2026-09-18T17:42:18.377275+09:00",
-   "kind": "liquidation",
-   "fp": "85258f0977af2e61",
-   "refs": [
-    "whaleliquidation:3020106",
-    "url:https://t.me/whaleliquidation/3020106"
-   ],
-   "img": "e7041e81fb0043c99b7f819366248029",
-   "head": "💥 대규모 숏 청산 감지 "
-  },
-  {
    "id": 46,
    "at": "2026-09-18T19:12:19.863647+09:00",
    "kind": "insight",
@@ -659,7 +635,19 @@
    ],
    "img": "a964f37e766592e38763ab6982de6379",
    "head": "ETF 이틀 연속 순유출 vs 이번 주 반전 "
+  },
+  {
+   "id": 101,
+   "at": "2026-09-21T17:52:21.136535+09:00",
+   "kind": "insight",
+   "fp": "9adb03c8b64b512e",
+   "refs": [
+    "news:396103367828",
+    "url:https://cryptoslate.com/bitcoins-80000-rebound-faces-an-inflation-expectations-test-this-week/"
+   ],
+   "img": "4619135b74a0878a0d40c935256e3b3a",
+   "head": "이번 주 BTC $80k대, 두 매크로 변수가 시험대임 "
   }
  ],
- "last_pub_at": "2026-09-21T16:22:17.644110+09:00"
+ "last_pub_at": "2026-09-21T17:52:21.136535+09:00"
 }
