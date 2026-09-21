@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 40,
-   "at": "2026-09-18T11:04:18.684499+09:00",
-   "kind": "insight",
-   "fp": "18a25584462a880e",
-   "refs": [
-    "news:174689187928153",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE1reXZBWF9jOTBhWnVyZ1ZNNmJqakdndzdRRkRxeG5PWWdQbUpfOUZpN0x3SXN4aENPb0pnb3U2aEhfOHhDZ21neWlB"
-   ],
-   "img": "674ee609f94aa38b1028e0540d20487f",
-   "head": "기업 매집 속도 급랭, 이 조합 낯설지 않음 "
-  },
-  {
    "id": 41,
    "at": "2026-09-18T12:57:23.683157+09:00",
    "kind": "insight",
@@ -659,7 +647,19 @@
    ],
    "img": "695e641f0f67d70b5e3fdbaa948c2e42",
    "head": "아크인베스트가 BTC ETF 팔았는데, \"데드캣 아니다\"라는 게 오히려 신호일 수도 "
+  },
+  {
+   "id": 96,
+   "at": "2026-09-21T12:17:51.087521+09:00",
+   "kind": "liquidation",
+   "fp": "f5fc00b824d81109",
+   "refs": [
+    "whaleliquidation:3031708",
+    "url:https://t.me/whaleliquidation/3031708"
+   ],
+   "img": "186572b4311c06e93bdf19c56d50a75d",
+   "head": "💥 대규모 숏 청산 감지 "
   }
  ],
- "last_pub_at": "2026-09-21T10:47:18.639232+09:00"
+ "last_pub_at": "2026-09-21T12:17:51.087521+09:00"
 }
