@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 67,
-   "at": "2026-09-19T20:34:27.413351+09:00",
-   "kind": "insight",
-   "fp": "6ab25d61c62b0b08",
-   "refs": [
-    "news:143311778831401",
-    "url:https://www.tokenpost.kr/news/economy/410765",
-    "news:141924350675003",
-    "url:https://news.google.com/rss/articles/CBMi8AFBVV95cUxOTTB0ZnM4NEprM1hpU0U4dFJOOVJyN1Mtcl9YbXlGR0MweWZIcGVUVnEyVDFnOVRNVWtuQkxVbHNtblhtRDlzTk9WUy13dHhuUUs3dXM4YWZoVDlYbVZBY0Z4NHFnNk83cFlMS192OEZ5cUpWRnNpQXpqRjh0cVdTRXZTTDNMVFFXV0E2WFFCTEdDT2RYSXN5RDR1RGtzcXNraVFKYnVaMzBnaFRjM0RCYVNKTmJKOGdKYlpIcHhYaUxnd0xfNkdOcUJXMGRRZ1FnYTJRV1Nha1FpdXB0QjJsSXRQRmxyN1MzTDRyZ1UwaTPSAfYBQVVfeXFMT1hkNGpJQ2RFYjlZSGV6SHVaTEFkQ2M0UjE3b1JRcUlKRXBQTjYxUk5Nc2lkd1AwaElDUllRRW04dTB5OERiZVlYbDN0VzNJcDY5ZzdiMTZFcE9tVDZ2UzRxUFVmVDVHU2wzOEY1WTNmdFQ2c2daUFI2WE9HMkgxZ3hfY2ZDS05feEFKRDBCcWRBOERYRVlLYUx5Q0U1cFNGS040UHA2ajROMVNoR1NPX25veENiZ2VMSUVNMHpiUnNLYkJCOUNnZlJEZThZSzdOcWFuMVBmQ0xoNkJUcUF2R0laR0NXSVpRXzVXRjU1VnhKXzdlZDFB",
-    "news:104224778769662",
-    "url:https://cryptoslate.com/bitcoin-survived-the-fed-and-clarity-and-now-faces-the-next-major-test-at-82000-this-weekend/",
-    "news:199771960183658",
-    "url:https://news.google.com/rss/articles/CBMidEFVX3lxTE9rMWdjVnJEM2ZWN21fMnlOcDF3VnBqZEdxVDVTQlZTMVE1QzdfU21jbmFmcUxPdmZHNFBRY0pYU1J6QVlUYUFYZ1JuenBZRUJBc0I0dzNBTUZfZV9TSWpqVjlIZW5YdXRnS05HMnJOSGF3TnBB"
-   ],
-   "img": "5cff53c8dc37318a85fb88e1d142a1f2",
-   "head": "매파적 인상인데 비트코인은 왜 안 빠졌나 "
-  },
-  {
    "id": 68,
    "at": "2026-09-19T22:34:33.363849+09:00",
    "kind": "insight",
@@ -634,7 +616,19 @@
    ],
    "img": "7ae59543fb9618824f28770ad2f88725",
    "head": "비트코인, 45주 만에 50주선 위로 "
+  },
+  {
+   "id": 122,
+   "at": "2026-09-22T22:27:21.306052+09:00",
+   "kind": "insight",
+   "fp": "cc1f5d95854f1ddd",
+   "refs": [
+    "coinnesskr:231834",
+    "url:https://t.me/coinnesskr/231834"
+   ],
+   "img": "bc770b18ec5353ead2e1f4228f7af3e9",
+   "head": "WLFI, 사업 성과는 있는데 발표한 계획은 안 지켜지는 중 "
   }
  ],
- "last_pub_at": "2026-09-22T20:27:23.995331+09:00"
+ "last_pub_at": "2026-09-22T22:27:21.306052+09:00"
 }
