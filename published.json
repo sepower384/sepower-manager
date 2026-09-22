@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 66,
-   "at": "2026-09-19T19:27:20.347085+09:00",
-   "kind": "insight",
-   "fp": "74f0de80df850d66",
-   "refs": [
-    "news:137584474634393",
-    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTFBFdzRPOWpJSGVUck1FN0VYWlF5aFR1dFRKdU5vczZPMFVLLTRxWEJOVVBzSjdSSnNOdUhGYjdrbEdNQUZQYS1KeV93SlF4WjhWUXQ1ZjQ4cE45VC1PVnc4dURQWG9KNkdZZmNQcTdidFROX0E",
-    "news:231120992118773",
-    "url:https://news.google.com/rss/articles/CBMib0FVX3lxTE5OWmd0VDNya0t0akJRUVZUNURod2pnSW9jcWhGTXBaYkZqTGVhY3VRUUdCbjFYTTA4TjV5Z3dZeGsyZ3FtZThjcHJmWUo0b2pvT1BpQ29yUXp3dTFpUGRpczhQby0xRGpicUI0T2V0aw",
-    "news:127319291822812",
-    "url:https://news.google.com/rss/articles/CBMingFBVV95cUxPUWFGWmRxcHNpRGRNVDhOdXREaWdZYmVyaWU2Q3Bob3N3RkRIQWI2d2liOHVYU3FDc0toSDRCOGZxQi1pUHlwRkxkV2FUMl9xY2FkcHFWXzdLc1RPYjFrRzhPQlF4UHRELTZTTXI1UWZvVS1zdnd1bzY2cjlUNUJrTTc2QTg0SGpzY2NfTmF2b2NZRlZJeVFGanJpOENrUQ"
-   ],
-   "img": "989e495791afdb2371911a565559b275",
-   "head": "ETH ETF는 왜 안 사는데 ZEC ETF는 왜 사지 "
-  },
-  {
    "id": 67,
    "at": "2026-09-19T20:34:27.413351+09:00",
    "kind": "insight",
@@ -638,7 +622,19 @@
    ],
    "img": "6d8e1c828c4656372f26c0ea65225653",
    "head": "USDe, 바이낸스서 0.9202달러까지 갔다가 몇 시간 만에 원복 "
+  },
+  {
+   "id": 121,
+   "at": "2026-09-22T20:27:23.995331+09:00",
+   "kind": "insight",
+   "fp": "6a6f6727c0c28047",
+   "refs": [
+    "news:51665012399619",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/412156"
+   ],
+   "img": "7ae59543fb9618824f28770ad2f88725",
+   "head": "비트코인, 45주 만에 50주선 위로 "
   }
  ],
- "last_pub_at": "2026-09-22T18:34:18.716160+09:00"
+ "last_pub_at": "2026-09-22T20:27:23.995331+09:00"
 }
