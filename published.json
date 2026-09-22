@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 63,
-   "at": "2026-09-19T15:12:22.928142+09:00",
-   "kind": "insight",
-   "fp": "6a51338b8fc3ed9b",
-   "refs": [
-    "news:32790236317800",
-    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3dDdfWVBZN3MwU3EzcFQ3Wno5MHFtN29ELURVMHhURElveG95anRsczF2YUQyU1R6bzBPTEVvLTkzcy1vREd3aTRvZ2E1dzIyQk5saXB2eUk0WEFYaWQ5Xw"
-   ],
-   "img": "7a50100c1665cbd78c362ed99459c8e4",
-   "head": "ETF 이전 vs 지금, 비트코인 변동성 국면 "
-  },
-  {
    "id": 64,
    "at": "2026-09-19T16:17:17.652111+09:00",
    "kind": "insight",
@@ -632,7 +620,29 @@
    ],
    "img": "e7e9a740f12fa2937cf0475a68ee28f8",
    "head": "비트코인 85,734달러, 24시간 청산 10.2억달러 중 82% 숏 "
+  },
+  {
+   "id": 118,
+   "at": "2026-09-22T15:17:16.021590+09:00",
+   "kind": "insight",
+   "fp": "a33cba6ad8b62161",
+   "refs": [
+    "coinnesskr:231789",
+    "url:https://t.me/coinnesskr/231789",
+    "coinnesskr:231790",
+    "url:https://t.me/coinnesskr/231790",
+    "news:274324566041973",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EOXRWRlowbUJ0Y0IyZHR5VVh2bkM0N2F2TWdWYml2dHg2YmhQVGdRMHRhZHl1S1Bfbnh6Q05NMDdiM0dTdTRSTDd3Smp4enFEVGkweTE2THo",
+    "news:259473663010611",
+    "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFWE5hSFJZODVUbWJoR29jd0VfQWZoMWlWTFNFcVdac09qUVE4dnNDSlhKSGdMelp1UmQyYzlzUTVqb3NKWjJFdXM5RWZOcG80M204VA",
+    "news:204972766203082",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE41R2g5UkFKcTlsT3NQUkVNdExHXy1qZlI2UW5SX1V4ZW84NERDR2JxVUVMZHp2YXVaRFFQdkhOcXR5Vlgtd1hzWUliRkpEX2xE",
+    "news:269812480564691",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/412044"
+   ],
+   "img": "3b079d35deea58b84c2743d1745648d1",
+   "head": "ETF는 역대급 유입인데 미국은 여전히 할인 중 "
   }
  ],
- "last_pub_at": "2026-09-22T14:13:08.728920+09:00"
+ "last_pub_at": "2026-09-22T15:17:16.021590+09:00"
 }
