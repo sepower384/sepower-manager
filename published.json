@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 60,
-   "at": "2026-09-19T10:42:19.373285+09:00",
-   "kind": "insight",
-   "fp": "04f61fa3c5e676fc",
-   "refs": [
-    "coinnesskr:231530",
-    "url:https://t.me/coinnesskr/231530"
-   ],
-   "img": "7e35a5e4c5f68c02831ac468773e8564",
-   "head": "클래리티법, 다음 분기점은 9/22 워싱턴 "
-  },
-  {
-   "id": 61,
-   "at": "2026-09-19T11:52:20.381363+09:00",
-   "kind": "insight",
-   "fp": "7708e00949fa996e",
-   "refs": [
-    "news:237589825322545",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/410632"
-   ],
-   "img": "5199e242829303bb004d5ed6c4f453fd",
-   "head": "연말 10만달러 확률, 딱 25% "
-  },
-  {
    "id": 62,
    "at": "2026-09-19T13:27:19.751549+09:00",
    "kind": "insight",
@@ -636,7 +612,19 @@
    "refs": [],
    "img": "b1cbfa497ae339dfe3313a7cc9453c6b",
    "head": "☀️ 9/22(화) 아침 체크포인트 "
+  },
+  {
+   "id": 116,
+   "at": "2026-09-22T12:12:24.236269+09:00",
+   "kind": "insight",
+   "fp": "3022cd6d653226bd",
+   "refs": [
+    "news:17241847015300",
+    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE9vQUNCSDMyU0IzT09LOWtaZnBiRGJfVVlDMG5WdkpWNUFWcVZGVV92ZmNMTXZTRk8tN1U0QnZmRWs2M29Ba2F2bmVxLXNhVUFyY3NpUkVOLWJGY1h1QTc5aG9xaXNxV21iYkwwV21uM1QtQ1U"
+   ],
+   "img": "1135e0454f58f5a9da063acd41614c20",
+   "head": "스트래티지, 3주 쉬다 비트코인 매수 재개 "
   }
  ],
- "last_pub_at": "2026-09-22T10:27:22.625526+09:00"
+ "last_pub_at": "2026-09-22T12:12:24.236269+09:00"
 }
