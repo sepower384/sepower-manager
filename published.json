@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 74,
-   "at": "2026-09-20T05:57:20.868469+09:00",
-   "kind": "insight",
-   "fp": "c9262c6b120f1d06",
-   "refs": [
-    "news:53530046966767",
-    "url:https://www.blockmedia.co.kr/archives/1142006"
-   ],
-   "img": "d693477472361b0bdc604182f2d9ce7f",
-   "head": "무기한 선물, 코인 넘어 미국주식으로 "
-  },
-  {
    "id": 75,
    "at": "2026-09-20T07:42:18.397836+09:00",
    "kind": "liquidation",
@@ -612,7 +600,23 @@
    ],
    "img": "659327128581af69d7cc0edf6e6f7a98",
    "head": "클래리티법 부결 → SEC 규제 러시 → 코인베이스·서클 반사이익 "
+  },
+  {
+   "id": 129,
+   "at": "2026-09-23T07:12:19.837101+09:00",
+   "kind": "insight",
+   "fp": "fe385bd70966e248",
+   "refs": [
+    "news:29470145081749",
+    "url:https://www.blockmedia.co.kr/archives/1143183",
+    "news:58857376362004",
+    "url:https://thedefiant.io/news/markets/bitcoin-cash-cme-futures-listing-sep-22-2026",
+    "news:229749400938796",
+    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE5fSTNwVi0xS2FfWDJwWTlwWHREMzYwYWdScklpZWJnVWhOT1dXbnd1UWloeUF6UlkxMzNfRF83dzVIVEFQR1VwQW5mLUZjdzFPbWtRbTVFRmx1U0R3bVFfeGhYa0VMYWwzcV81SkdSTlFtNTjSAXtBVV95cUxQdVliWVVzNEhlSkNLTzQtZFRsN0JkZDB1SGZSVkg0bElKcUNUMXJ2XzhqYW1HamNpVTFLbU9SMTlkRFVwVTJhcDVLWTBoRi1hN0gxRmRlOXBIX2c2NGRSdDhLVFNldF9XX3lPSTQySGtUYmg0SDBXTEtkczA"
+   ],
+   "img": "b23d71252cfa37143c92308b392ceaee",
+   "head": "CME, 10/19 비트코인캐시·유니스왑 선물 상장 발표 "
   }
  ],
- "last_pub_at": "2026-09-23T05:42:19.952803+09:00"
+ "last_pub_at": "2026-09-23T07:12:19.837101+09:00"
 }
