@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 64,
-   "at": "2026-09-19T16:17:17.652111+09:00",
-   "kind": "insight",
-   "fp": "5dc1ba50ed566674",
-   "refs": [
-    "news:72494762124536",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/410708",
-    "coinnesskr:231558",
-    "url:https://t.me/coinnesskr/231558",
-    "news:74724542980144",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE9LeGpJVi1fYS1YUDhHSERIMUthV2ZMaHgwVTlEVEFyOW9PZ0JtT0FFWTVMN05KalJNUVNRVUxMZEtMekFpZFRPVmV3"
-   ],
-   "img": "bfe9d1356cc35cfc6603c9d844e8d309",
-   "head": "ETH ETF 살아났는데, 3년 버틴 고래는 지금 옮김 "
-  },
-  {
    "id": 65,
    "at": "2026-09-19T17:57:24.569248+09:00",
    "kind": "insight",
@@ -642,7 +626,19 @@
    ],
    "img": "3b079d35deea58b84c2743d1745648d1",
    "head": "ETF는 역대급 유입인데 미국은 여전히 할인 중 "
+  },
+  {
+   "id": 119,
+   "at": "2026-09-22T17:12:22.849007+09:00",
+   "kind": "insight",
+   "fp": "09bac68e46610b4e",
+   "refs": [
+    "news:5374391753945",
+    "url:https://news.google.com/rss/articles/CBMidkFVX3lxTE9PV05xVkkwY19UNXBFTXpzdFhOTE1KeHdJSC1kb1dKbUN3aXBDYXU2bm1kSHZ3cnNseHM1VmM4NDNjZkNaRm5BbnA2Vl80RFZyR1hxV09wY3czZG1uN3EtaEVvQnYxb3E3YXVrdWo1cFMtXzdOVWc"
+   ],
+   "img": "df928e2b822891457c75bc05e5bae232",
+   "head": "바이낸스, 이번엔 이란 제재 우회 혐의로 다시 도마 위 "
   }
  ],
- "last_pub_at": "2026-09-22T15:17:16.021590+09:00"
+ "last_pub_at": "2026-09-22T17:12:22.849007+09:00"
 }
