@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 70,
-   "at": "2026-09-20T01:12:17.092247+09:00",
-   "kind": "whale",
-   "fp": "0abef97e551fb6b3",
-   "refs": [
-    "whalealertkorean:170087",
-    "url:https://t.me/whalealertkorean/170087"
-   ],
-   "img": "9594a5d39e3d2bfee028ce6453ed5a7b",
-   "head": "🐋 고래 대량 이동 포착 "
-  },
-  {
    "id": 71,
    "at": "2026-09-20T02:22:21.547599+09:00",
    "kind": "insight",
@@ -610,7 +598,19 @@
    ],
    "img": "45e1c34390c96601c7256fcc60505890",
    "head": "채굴업체 계약 1000억달러라는데, 실제 청구는 550MW "
+  },
+  {
+   "id": 124,
+   "at": "2026-09-23T01:34:37.030157+09:00",
+   "kind": "whale",
+   "fp": "6b391171e8deff8a",
+   "refs": [
+    "whalealertkorean:170353",
+    "url:https://t.me/whalealertkorean/170353"
+   ],
+   "img": "d0dae741e5c277312e1b896242c04802",
+   "head": "🐋 고래 대량 이동 포착 "
   }
  ],
- "last_pub_at": "2026-09-23T00:17:21.221674+09:00"
+ "last_pub_at": "2026-09-23T01:34:37.030157+09:00"
 }
