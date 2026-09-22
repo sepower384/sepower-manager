@@ -1,36 +1,6 @@
 {
  "posts": [
   {
-   "id": 68,
-   "at": "2026-09-19T22:34:33.363849+09:00",
-   "kind": "insight",
-   "fp": "6c16d312af266aa6",
-   "refs": [
-    "coinnesskr:231578",
-    "url:https://t.me/coinnesskr/231578",
-    "news:192923130769821",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/410801"
-   ],
-   "img": "503cdee54e3496958bfe7fb7dadb63fa",
-   "head": "하이퍼리퀴드가 커지는 경로 "
-  },
-  {
-   "id": 69,
-   "at": "2026-09-19T23:42:22.458692+09:00",
-   "kind": "insight",
-   "fp": "935b2f948c2370b3",
-   "refs": [
-    "news:76219581783213",
-    "url:https://www.blockmedia.co.kr/archives/1141976",
-    "coinnesskr:231584",
-    "url:https://t.me/coinnesskr/231584",
-    "news:250844459709307",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/410802"
-   ],
-   "img": "37424a27f4d216805eec571bbf4f0a0d",
-   "head": "50주선 회복, 근데 진짜 관전 포인트는 그 다음임 "
-  },
-  {
    "id": 70,
    "at": "2026-09-20T01:12:17.092247+09:00",
    "kind": "whale",
@@ -628,7 +598,19 @@
    ],
    "img": "bc770b18ec5353ead2e1f4228f7af3e9",
    "head": "WLFI, 사업 성과는 있는데 발표한 계획은 안 지켜지는 중 "
+  },
+  {
+   "id": 123,
+   "at": "2026-09-23T00:17:21.221674+09:00",
+   "kind": "insight",
+   "fp": "84a4e63fa6866190",
+   "refs": [
+    "news:264506632432256",
+    "url:https://www.tokenpost.kr/news/ai/412203"
+   ],
+   "img": "45e1c34390c96601c7256fcc60505890",
+   "head": "채굴업체 계약 1000억달러라는데, 실제 청구는 550MW "
   }
  ],
- "last_pub_at": "2026-09-22T22:27:21.306052+09:00"
+ "last_pub_at": "2026-09-23T00:17:21.221674+09:00"
 }
