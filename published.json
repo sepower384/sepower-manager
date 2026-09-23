@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 82,
-   "at": "2026-09-20T18:04:16.629834+09:00",
-   "kind": "insight",
-   "fp": "5ae40870941ecf57",
-   "refs": [
-    "news:51778839917126",
-    "url:https://www.tokenpost.kr/news/briefing/411055"
-   ],
-   "img": "f6844b48bc09fe5efc1f5e103507f634",
-   "head": "⚡️ SEC, 토큰화 주식 5년 조건부 면제 발표 "
-  },
-  {
    "id": 83,
    "at": "2026-09-20T19:12:21.233681+09:00",
    "kind": "insight",
@@ -614,7 +602,19 @@
    ],
    "img": "8e83d59abc583cefe6338384e9e82ec7",
    "head": "스트래티지 우선주 STRC, 캐리트레이드 역풍에 출렁 "
+  },
+  {
+   "id": 137,
+   "at": "2026-09-23T18:52:23.187983+09:00",
+   "kind": "insight",
+   "fp": "df4ca200e95afc3c",
+   "refs": [
+    "news:19176254635457",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/412734"
+   ],
+   "img": "cbec1040b48b1656a42adefe9243669c",
+   "head": "9/21에 하루 6.71% 오르고 ETF도 9억9900만달러 더 들어왔는데, 공포탐욕지수는 78에서 71로 오히려 식음. Glassnode MVRV는 1.64로 과열권 근처. "
   }
  ],
- "last_pub_at": "2026-09-23T17:04:43.921698+09:00"
+ "last_pub_at": "2026-09-23T18:52:23.187983+09:00"
 }
