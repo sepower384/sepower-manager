@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 83,
-   "at": "2026-09-20T19:12:21.233681+09:00",
-   "kind": "insight",
-   "fp": "595c11fd6dceb52a",
-   "refs": [
-    "news:235922141854150",
-    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JR0tNVkJkT3dnb1pteHVkVUQycXdEdC1WQkNRY3Q5Sl9pang2VFR1VVRmUjZJM3JwdjQybEVOOEg0dDlLMkhqUkRWa3h0SzFrSWE1Y0Zoc3ozcVZzR0gxNA"
-   ],
-   "img": "06644cc4c9574f7da0c3def6c6c4157d",
-   "head": "다들 금리 인하=나스닥 랠리로만 보는데, 라울 팔은 반대 얘기함 "
-  },
-  {
    "id": 84,
    "at": "2026-09-20T20:52:16.779626+09:00",
    "kind": "insight",
@@ -614,7 +602,19 @@
    ],
    "img": "cbec1040b48b1656a42adefe9243669c",
    "head": "9/21에 하루 6.71% 오르고 ETF도 9억9900만달러 더 들어왔는데, 공포탐욕지수는 78에서 71로 오히려 식음. Glassnode MVRV는 1.64로 과열권 근처. "
+  },
+  {
+   "id": 138,
+   "at": "2026-09-23T20:42:22.179219+09:00",
+   "kind": "insight",
+   "fp": "04bd44b107378038",
+   "refs": [
+    "coinnesskr:231958",
+    "url:https://t.me/coinnesskr/231958"
+   ],
+   "img": "4557b30bf5c4a70409d57c0ac2d8420f",
+   "head": "BTC 장기보유자 평가이익률, 일주일새 20%→37% "
   }
  ],
- "last_pub_at": "2026-09-23T18:52:23.187983+09:00"
+ "last_pub_at": "2026-09-23T20:42:22.179219+09:00"
 }
