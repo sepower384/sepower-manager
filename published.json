@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 88,
-   "at": "2026-09-21T02:52:23.117254+09:00",
-   "kind": "whale",
-   "fp": "d9d917ce81d31211",
-   "refs": [
-    "whalealertkorean:170152",
-    "url:https://t.me/whalealertkorean/170152"
-   ],
-   "img": "1df6e27f94dcad88bff4fefb9eb67622",
-   "head": "🐋 고래 거래소 출금 포착 "
-  },
-  {
    "id": 90,
    "at": "2026-09-21T04:04:18.584095+09:00",
    "kind": "whale",
@@ -608,7 +596,19 @@
    ],
    "img": "838ff5516ae4a063c6f486e633e68391",
    "head": "🐋 고래 대량 이동 포착 "
+  },
+  {
+   "id": 142,
+   "at": "2026-09-24T02:57:21.276158+09:00",
+   "kind": "insight",
+   "fp": "471f89120d23ae27",
+   "refs": [
+    "news:136629819556797",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/412948"
+   ],
+   "img": "19d55ed141221ed496dbed8ddb6ae048",
+   "head": "50% 조정 왔는데도 기관은 안 팔았음 "
   }
  ],
- "last_pub_at": "2026-09-24T01:17:23.420395+09:00"
+ "last_pub_at": "2026-09-24T02:57:21.276158+09:00"
 }
