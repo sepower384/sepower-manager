@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 78,
-   "at": "2026-09-20T11:27:19.235414+09:00",
-   "kind": "insight",
-   "fp": "595f84fa83b8bf85",
-   "refs": [
-    "news:65777984170647",
-    "url:https://www.tokenpost.kr/news/blockchain/410926",
-    "news:206181803628192",
-    "url:https://www.tokenpost.kr/news/blockchain/410934"
-   ],
-   "img": "c503ed87ff87eb66b53bde347f746ec1",
-   "head": "서클, 발행사에서 인프라 운영자로 갈아타는 중 "
-  },
-  {
    "id": 79,
    "at": "2026-09-20T13:04:11.726295+09:00",
    "kind": "insight",
@@ -604,7 +590,19 @@
    "refs": [],
    "img": "f73cfdf8f30c4897b1232a60bd6f0957",
    "head": "☀️ 9/23(수) 아침 체크포인트 "
+  },
+  {
+   "id": 132,
+   "at": "2026-09-23T11:57:19.221076+09:00",
+   "kind": "insight",
+   "fp": "c14e0077893d233f",
+   "refs": [
+    "news:211994260033525",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/412550"
+   ],
+   "img": "3672d071ddad2e1cf087fddab4a91c9e",
+   "head": "AI 부채發 유동성 확대, BTC로 오는 조건 체크 "
   }
  ],
- "last_pub_at": "2026-09-23T10:27:18.514526+09:00"
+ "last_pub_at": "2026-09-23T11:57:19.221076+09:00"
 }
