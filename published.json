@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 86,
-   "at": "2026-09-20T23:27:19.315098+09:00",
-   "kind": "insight",
-   "fp": "414dc64c398e1294",
-   "refs": [
-    "news:146185249505130",
-    "url:https://www.blockmedia.co.kr/archives/1142097"
-   ],
-   "img": "1bd1f766ac8be317f7ee68dfded37735",
-   "head": "비트코인 압축지표 93.9%, 방향 터지기 직전 "
-  },
-  {
    "id": 87,
    "at": "2026-09-21T01:12:24.590105+09:00",
    "kind": "insight",
@@ -602,7 +590,25 @@
    ],
    "img": "c4c55c63873fc793d81190ca6b10b8a3",
    "head": "비트코인 6만달러 바닥론, 갈리는 지점은 10년물 금리 "
+  },
+  {
+   "id": 140,
+   "at": "2026-09-23T23:34:24.906281+09:00",
+   "kind": "insight",
+   "fp": "73971333644d577c",
+   "refs": [
+    "coinnesskr:232000",
+    "url:https://t.me/coinnesskr/232000",
+    "news:281228012040128",
+    "url:https://news.google.com/rss/articles/CBMicEFVX3lxTE9XWkZoal9sZ1ktMVN2NGhKQ1ZMMHVnYWxFaEZIRFBRaElFdXRxdmtIRGhCb2FocEx3bExyOG5FN0hWS2FOQzFJQU8yMTZKQ19iYTVXZWpoc0p2RkZDZmM1aUMwLURSYjgtZUVwSWFPUHA",
+    "coinnesskr:232001",
+    "url:https://t.me/coinnesskr/232001",
+    "news:11615897587984",
+    "url:https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbWRwVG81TkV0aDg5WEp1R3ZOdjFqV1pubThSd2RoZXBpbGk3OVQ4aVpmaE02OWFQX1NGeDZsUjRvMWQtZjhiNHJsT1ZfdFhmbVplZVFqX0piN2ZqWVNyS1dNa2pRMkhILUNmMDZKS0ZGVk1XVjRPQkxTRUg5NENCbkhEaDdIcU82YXEyOVRobjRORTNuLTVCX2lNZmRMQnR2eXE1OUpJdXlKODFtLWN3WGZjUEtKcG5T"
+   ],
+   "img": "ac3d867e0eab2a89885062ca385a645e",
+   "head": "클래리티법 막힌 사이 SEC가 우회로 뚫는 중 "
   }
  ],
- "last_pub_at": "2026-09-23T22:22:17.960530+09:00"
+ "last_pub_at": "2026-09-23T23:34:24.906281+09:00"
 }
