@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 80,
-   "at": "2026-09-20T14:34:20.014818+09:00",
-   "kind": "insight",
-   "fp": "59c88bd88e3c49bb",
-   "refs": [
-    "news:191609694037619",
-    "url:https://www.digitalasset.works/news/articleView.html"
-   ],
-   "img": "2c29e19eb88a43372f7d636bacb88171",
-   "head": "BTC 8만달러 지지선, ETF 자금은 이미 등 돌리는 중 "
-  },
-  {
    "id": 81,
    "at": "2026-09-20T16:22:20.337183+09:00",
    "kind": "insight",
@@ -614,7 +602,19 @@
    ],
    "img": "08b031604dfda6acf4555824a4e13661",
    "head": "국내 코인 거래소, 돈이 빠지고 있음 "
+  },
+  {
+   "id": 135,
+   "at": "2026-09-23T15:22:24.664257+09:00",
+   "kind": "insight",
+   "fp": "073beda46011a6b2",
+   "refs": [
+    "news:178539123792684",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/412606"
+   ],
+   "img": "6021d674e3ff5a34ac032ff887f9be74",
+   "head": "숏청산 랠리, 이제 반대로 봐야 할 때 "
   }
  ],
- "last_pub_at": "2026-09-23T14:17:18.560930+09:00"
+ "last_pub_at": "2026-09-23T15:22:24.664257+09:00"
 }
