@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 93,
-   "at": "2026-09-21T07:47:15.761877+09:00",
-   "kind": "insight",
-   "fp": "932f97de178aaeeb",
-   "refs": [
-    "news:61103036595516",
-    "url:https://cryptoslate.com/who-pays-when-bitcoin-disappears-without-anyone-stealing-the-keys/",
-    "news:148628427069976",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE4ySnhVMm9ZMlZwa1Juc3R4X3N0Y2tlRHBEUWxVRU40dkF5aWdoTUhjT0xJeTVfTTFUMXhLbkdpRjBQS2pCSnEzZjZtbmh4aXJhalNVZkViOWw"
-   ],
-   "img": "3b8c5afba95cc0170cb30a3952e7ee16",
-   "head": "리퀴드 준비금에서 BTC 4천개가 사라졌는데, 개인키 탈취가 아님 "
-  },
-  {
    "id": 94,
    "at": "2026-09-21T09:12:23.500783+09:00",
    "kind": "brief",
@@ -620,7 +606,21 @@
    ],
    "img": "4698a19255dac4bcab61f68d8fc2727f",
    "head": "TGA 1조 넘는다는데, 그게 유동성 공급은 아니라고? "
+  },
+  {
+   "id": 149,
+   "at": "2026-09-24T07:47:18.715325+09:00",
+   "kind": "insight",
+   "fp": "373d0bb5842cb8d6",
+   "refs": [
+    "news:142477335408644",
+    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxNSHhqbnR4Uko1bF9NYkNqNEdYY2UwY2hLMXBhMzlSNkJoZGxYdFE1MUJwZzZab21JaWNCWElabThoN1R3bHJieTI5alBzRXVGS3g2bHFXSlUwenBuV0NpRjVuWUVnMTBhWjNLV2JfOG5TZE5BWUJlVXZFbVBEamFCMw",
+    "news:22957249689160",
+    "url:https://thedefiant.io/news/markets/bitcoin-eases-etf-creations-1-7-billion-sep-23-2026"
+   ],
+   "img": "450a3dd19c807110ebc6972795a8d239",
+   "head": "10년물 5.1% 돌파가 결국 비트코인까지 왔다 "
   }
  ],
- "last_pub_at": "2026-09-24T06:27:18.285466+09:00"
+ "last_pub_at": "2026-09-24T07:47:18.715325+09:00"
 }
