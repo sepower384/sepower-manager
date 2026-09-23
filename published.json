@@ -608,7 +608,21 @@
    ],
    "img": "19d55ed141221ed496dbed8ddb6ae048",
    "head": "50% 조정 왔는데도 기관은 안 팔았음 "
+  },
+  {
+   "id": 146,
+   "at": "2026-09-24T03:12:23.245102+09:00",
+   "kind": "insight",
+   "fp": "26ecaf85c69ae269",
+   "refs": [
+    "news:162795013375937",
+    "url:https://www.blockmedia.co.kr/archives/1143681",
+    "news:174706494700967",
+    "url:https://www.blockmedia.co.kr/archives/1143668"
+   ],
+   "img": "f80bf85d2bbbda4b0505b0966c0f4d90",
+   "head": "속보) 비트코인 이란-미 갈등 우려로 2.16% 빠졌다가 한 시간 만에 8만4000달러대 회복 "
   }
  ],
- "last_pub_at": "2026-09-24T02:57:21.276158+09:00"
+ "last_pub_at": "2026-09-24T03:12:23.245102+09:00"
 }
