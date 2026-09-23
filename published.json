@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 92,
-   "at": "2026-09-21T05:05:38.965946+09:00",
-   "kind": "insight",
-   "fp": "42f6c12ac65dfc41",
-   "refs": [
-    "news:68777919135373",
-    "url:https://news.google.com/rss/articles/CBMidkFVX3lxTE1xTjcyQlhoVThkWURTV09wQ2RqQXNZOHNHZVRpWnNtWVdsMkUyQnhqVFNRbTFkeWFUdndZcDNkdGQyTjhLaU5DZnVxT0Y3VER4eXlrWl9ZVnAyX2Y3WWlzX3VRbnA4TEFiNDVwRi1WM08xQWNZeUHSAWZBVV95cUxQSEhpWHowNVFoRXgxcG81ZGJVRzhFbl9MM2wwYXpZd3g4X0NEMm8tdmtocktfUmQ5eF9TTDU4clZFbW5KLUllNkVRQU9PSEd5eHBtZHR1VFRfR2duOUlNSmhSdFhlUkE"
-   ],
-   "img": "f7f1bacbbcd95864c9de41da6192fd68",
-   "head": "속보) 국산 AI칩 상용화 첫발, 엔비디아 의존도 낮추기 시동 "
-  },
-  {
-   "id": 91,
-   "at": "2026-09-21T06:22:18.726271+09:00",
-   "kind": "insight",
-   "fp": "72f792de5190dca3",
-   "refs": [
-    "news:129338729903793",
-    "url:https://www.tokenpost.kr/news/ai/411196"
-   ],
-   "img": "dff47afaf921994018befb013cbaf458",
-   "head": "AI 데이터센터 전기 먹는 속도가 심상치 않음 "
-  },
-  {
    "id": 93,
    "at": "2026-09-21T07:47:15.761877+09:00",
    "kind": "insight",
@@ -630,7 +606,21 @@
    ],
    "img": "db707c51323572edc048f32c4b027833",
    "head": "클래리티법 부결, 트럼프 때문 아니라고? "
+  },
+  {
+   "id": 148,
+   "at": "2026-09-24T06:27:18.285466+09:00",
+   "kind": "insight",
+   "fp": "46ebb195bdf1875f",
+   "refs": [
+    "news:119557685287501",
+    "url:https://www.tokenpost.kr/news/economy/413123",
+    "news:212392182413620",
+    "url:https://cryptoslate.com/treasurys-cash-balance-nears-1-trillion-while-bitcoin-awaits-a-crucial-market-signal/"
+   ],
+   "img": "4698a19255dac4bcab61f68d8fc2727f",
+   "head": "TGA 1조 넘는다는데, 그게 유동성 공급은 아니라고? "
   }
  ],
- "last_pub_at": "2026-09-24T04:57:19.810168+09:00"
+ "last_pub_at": "2026-09-24T06:27:18.285466+09:00"
 }
