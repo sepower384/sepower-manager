@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 84,
-   "at": "2026-09-20T20:52:16.779626+09:00",
-   "kind": "insight",
-   "fp": "6fb1a6ef84a36fd8",
-   "refs": [
-    "news:190558938660108",
-    "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CTVkzUlRqdjA1eHVEcVV2Ym41VzFwT01SOWZ2QS1yMkFpelBKSkZmb3BYRHUyX1RDakhpYy1sM21nWjFlQ1lxbEtSd251MjN0eV9SV0ZtdnFOelE"
-   ],
-   "img": "6bff7b63cfe4ae3855a7327ecd127e6e",
-   "head": "이더리움 양자내성 전환, 2029년 12월이 목표인 이유 "
-  },
-  {
-   "id": 85,
-   "at": "2026-09-20T22:04:31.445388+09:00",
-   "kind": "insight",
-   "fp": "6ed5c316aee5229a",
-   "refs": [
-    "news:168405012016252",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/411104"
-   ],
-   "img": "91df8c0e5ef52b5a4cd201885e4be3fe",
-   "head": "OTC 잔고 12.3만 BTC, 역대 최저인데 왜 매도 물량은 안 나올까 "
-  },
-  {
    "id": 86,
    "at": "2026-09-20T23:27:19.315098+09:00",
    "kind": "insight",
@@ -614,7 +590,19 @@
    ],
    "img": "4557b30bf5c4a70409d57c0ac2d8420f",
    "head": "BTC 장기보유자 평가이익률, 일주일새 20%→37% "
+  },
+  {
+   "id": 139,
+   "at": "2026-09-23T22:22:17.960530+09:00",
+   "kind": "insight",
+   "fp": "a9ff6a7325456166",
+   "refs": [
+    "news:86262139224423",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/412823"
+   ],
+   "img": "c4c55c63873fc793d81190ca6b10b8a3",
+   "head": "비트코인 6만달러 바닥론, 갈리는 지점은 10년물 금리 "
   }
  ],
- "last_pub_at": "2026-09-23T20:42:22.179219+09:00"
+ "last_pub_at": "2026-09-23T22:22:17.960530+09:00"
 }
