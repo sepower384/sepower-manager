@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 75,
-   "at": "2026-09-20T07:42:18.397836+09:00",
-   "kind": "liquidation",
-   "fp": "3526a8f0885f1009",
-   "refs": [
-    "whaleliquidation:3027437",
-    "url:https://t.me/whaleliquidation/3027437"
-   ],
-   "img": "f7c62cc217fb6bb8f8b97b0e11f30d7e",
-   "head": "💥 대규모 롱 청산 감지 "
-  },
-  {
-   "id": 76,
-   "at": "2026-09-20T08:52:23.307510+09:00",
-   "kind": "insight",
-   "fp": "bbfeb849110dffec",
-   "refs": [
-    "news:13163126213571",
-    "url:https://cryptoslate.com/trump-backed-a-crypto-ethics-rule-that-stopped-at-the-family-business/"
-   ],
-   "img": "e4223bf86fe766743b61dced217f0d4a",
-   "head": "클래리티법, 왜 트럼프가 정작 이 윤리규정엔 반대 안 했을까 "
-  },
-  {
    "id": 77,
    "at": "2026-09-20T10:17:17.630476+09:00",
    "kind": "brief",
@@ -616,7 +592,19 @@
    ],
    "img": "b23d71252cfa37143c92308b392ceaee",
    "head": "CME, 10/19 비트코인캐시·유니스왑 선물 상장 발표 "
+  },
+  {
+   "id": 130,
+   "at": "2026-09-23T09:12:21.958248+09:00",
+   "kind": "insight",
+   "fp": "142bb60cad440f18",
+   "refs": [
+    "news:30508273415286",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/412442"
+   ],
+   "img": "c69d99e8b593afa2842e8fd8c796fc71",
+   "head": "2012년 9월 vs 지금, 같은 '역대급 9월'인데 근거가 다름 "
   }
  ],
- "last_pub_at": "2026-09-23T07:12:19.837101+09:00"
+ "last_pub_at": "2026-09-23T09:12:21.958248+09:00"
 }
