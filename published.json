@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 79,
-   "at": "2026-09-20T13:04:11.726295+09:00",
-   "kind": "insight",
-   "fp": "db1cb451d78c928a",
-   "refs": [
-    "news:5002084981406",
-    "url:https://www.blockmedia.co.kr/archives/1142058"
-   ],
-   "img": "eeb866f3f42aae7fb2e4bc7875916698",
-   "head": "BTC 일주일 5% vs 하이프 18%, 왜 이렇게 벌어졌을까 "
-  },
-  {
    "id": 80,
    "at": "2026-09-20T14:34:20.014818+09:00",
    "kind": "insight",
@@ -602,7 +590,19 @@
    ],
    "img": "3672d071ddad2e1cf087fddab4a91c9e",
    "head": "AI 부채發 유동성 확대, BTC로 오는 조건 체크 "
+  },
+  {
+   "id": 133,
+   "at": "2026-09-23T13:04:51.517976+09:00",
+   "kind": "liquidation",
+   "fp": "6664da103cd8d7d1",
+   "refs": [
+    "whaleliquidation:3041223",
+    "url:https://t.me/whaleliquidation/3041223"
+   ],
+   "img": "8a0db66c56fde12c2d050a3d33d8c754",
+   "head": "💥 대규모 숏 청산 감지 "
   }
  ],
- "last_pub_at": "2026-09-23T11:57:19.221076+09:00"
+ "last_pub_at": "2026-09-23T13:04:51.517976+09:00"
 }
