@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 102,
-   "at": "2026-09-21T19:17:19.491599+09:00",
-   "kind": "insight",
-   "fp": "0e274e802c9ced23",
-   "refs": [
-    "news:129606124155543",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/411429"
-   ],
-   "img": "9089699cabacbf5731a97ba2d855305d",
-   "head": "RWA 160억달러가 다음 유동성 통로 되는 경로 "
-  },
-  {
    "id": 103,
    "at": "2026-09-21T20:57:20.384289+09:00",
    "kind": "insight",
@@ -620,7 +608,19 @@
    ],
    "img": "6b4a47a52ee147f6df975d05fa505f52",
    "head": "美 국채 발작이 BTC 롱 청산으로 "
+  },
+  {
+   "id": 157,
+   "at": "2026-09-24T19:43:34.829058+09:00",
+   "kind": "insight",
+   "fp": "07918e9d244be9af",
+   "refs": [
+    "coinnesskr:232102",
+    "url:https://t.me/coinnesskr/232102"
+   ],
+   "img": "0b8d6f8aaa655617cdb05a3ec6d380d2",
+   "head": "XRP 콜옵션에 돈 쏠리는 이유 "
   }
  ],
- "last_pub_at": "2026-09-24T18:04:25.535015+09:00"
+ "last_pub_at": "2026-09-24T19:43:34.829058+09:00"
 }
