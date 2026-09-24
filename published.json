@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 107,
-   "at": "2026-09-22T03:42:20.020887+09:00",
-   "kind": "whale",
-   "fp": "0938820b9007ab46",
-   "refs": [
-    "whalealertkorean:170255",
-    "url:https://t.me/whalealertkorean/170255"
-   ],
-   "img": "0a79822e78e4def9c3e2daf223342532",
-   "head": "🐋 고래 거래소 간 이동 포착 "
-  },
-  {
    "id": 112,
    "at": "2026-09-22T05:35:38.799204+09:00",
    "kind": "liquidation",
@@ -604,7 +592,19 @@
    ],
    "img": "77175cf4e6cd771d2d8007046561ab25",
    "head": "2021~22년 vs 지금, 낙폭 비교 "
+  },
+  {
+   "id": 163,
+   "at": "2026-09-25T04:12:18.917366+09:00",
+   "kind": "whale",
+   "fp": "8447e8f76de01ebe",
+   "refs": [
+    "whalealertkorean:170560",
+    "url:https://t.me/whalealertkorean/170560"
+   ],
+   "img": "042da97dda1df861ebde9e5cd40ccc59",
+   "head": "🐋 고래 거래소 출금 포착 "
   }
  ],
- "last_pub_at": "2026-09-25T02:17:20.272192+09:00"
+ "last_pub_at": "2026-09-25T04:12:18.917366+09:00"
 }
