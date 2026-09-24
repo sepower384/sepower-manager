@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 96,
-   "at": "2026-09-21T12:17:51.087521+09:00",
-   "kind": "liquidation",
-   "fp": "f5fc00b824d81109",
-   "refs": [
-    "whaleliquidation:3031708",
-    "url:https://t.me/whaleliquidation/3031708"
-   ],
-   "img": "186572b4311c06e93bdf19c56d50a75d",
-   "head": "💥 대규모 숏 청산 감지 "
-  },
-  {
    "id": 98,
    "at": "2026-09-21T14:05:25.026974+09:00",
    "kind": "insight",
@@ -632,7 +620,19 @@
    ],
    "img": "d90bde4df40a2f9f0a2649849cd5480c",
    "head": "RWA 무기한선물, 이제 CEX 아니라 온체인에서 돌아감 "
+  },
+  {
+   "id": 153,
+   "at": "2026-09-24T13:27:21.886767+09:00",
+   "kind": "insight",
+   "fp": "81dbb7bcecd2c237",
+   "refs": [
+    "news:59533670784782",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/412796"
+   ],
+   "img": "600f3d5e9f750d5d4e72af979c4e8ed3",
+   "head": "양자컴 뜨면 BTC 한방에 털린다는 건 오해 "
   }
  ],
- "last_pub_at": "2026-09-24T11:27:21.026143+09:00"
+ "last_pub_at": "2026-09-24T13:27:21.886767+09:00"
 }
