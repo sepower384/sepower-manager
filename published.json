@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 113,
-   "at": "2026-09-22T07:04:20.144299+09:00",
-   "kind": "insight",
-   "fp": "da73dbccfa39ee36",
-   "refs": [
-    "news:149454240796523",
-    "url:https://www.blockmedia.co.kr/archives/1142588"
-   ],
-   "img": "2a4a230272c70227e4902690bdd1d871",
-   "head": "써클, BTC 담보로 USDC 대출 서비스 오픈 "
-  },
-  {
    "id": 114,
    "at": "2026-09-22T09:04:18.209543+09:00",
    "kind": "insight",
@@ -630,7 +618,23 @@
    ],
    "img": "3948159b94d5fb0e71552bf272ef7b77",
    "head": "속보) 美 30년물 국채금리 5.5%, 2004년 이후 최고인데 나스닥은 거의 보합 "
+  },
+  {
+   "id": 169,
+   "at": "2026-09-25T08:17:19.776479+09:00",
+   "kind": "insight",
+   "fp": "f430df99d119c411",
+   "refs": [
+    "news:35241697565554",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTFBYR040ZW9TOTR0R2I3cjE3bjBrbkpyQVdvbTBNMWxqYWQwekFMdEUwUTVUb0hfUHdJMU4tbXRMOU5LUU1GN0JsazVZLUphZmdseHlRMS0tWFI",
+    "news:109638480470668",
+    "url:https://cointelegraph.com/news/fed-proposes-new-capital-redemption-rules-for-stablecoin-issuers",
+    "news:265943144505378",
+    "url:https://news.google.com/rss/articles/CBMickFVX3lxTFB4Q3d2azFWSWVrbXVNckgzTlJ0SGgtWTBkZWJTQklqNFd5Wll6M3dZMTRWMjhVbFBnV2tlVThJN2JjdnNJdDRsLW1ZNFZ4M1hxeEFVTzBYTG1UUThxOGxUcXJadXRYcTJ1N0txZ0JhdzlRUQ"
+   ],
+   "img": "c5444e8fdd3f35ffb395b2f70a90fbaa",
+   "head": "연준 스테이블코인 규정, 뭐가 핵심인가 "
   }
  ],
- "last_pub_at": "2026-09-25T06:36:41.404435+09:00"
+ "last_pub_at": "2026-09-25T08:17:19.776479+09:00"
 }
