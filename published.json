@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 100,
-   "at": "2026-09-21T16:22:17.644110+09:00",
-   "kind": "insight",
-   "fp": "a22de82888123d53",
-   "refs": [
-    "news:176292889198245",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MajFPalFIZVdXWV9weklMYzFUNEQxNEhDZmZZTGlxV244LVRPVFBtVlFoMzNaQWYyc3BvSENtNEV1blpMWDF1Zk5wMFlZcTRiZFVsWU5rdUs",
-    "news:61512542893435",
-    "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE9rNm9rdEpUdHh1ajE0LXAwS1RoVlVHQ1lTUmVfdVU1QnREWmJPTDV3TFoxcENsdmFEZ050MFkxcjI2VlkzcmlGanZTVWtLMDM4WkR4MWJmalo2RDlZNE1XM3JiWWlTUklTN2tUQTNMbFpkaUppOG9fWXkwSHZwTFE",
-    "news:250619156111799",
-    "url:https://news.google.com/rss/articles/CBMikgFBVV95cUxQdDEtZUo2U0JUSFNCREJUYUVDS2QxWnRHbkV1UmlaV2h0aGVYQ3A4MG5WYzRoSUJhdlo4eFVLSHp3ZXpxX2F2aXphXzRDR3VicGswQm1JdU1uVHkwaUtvWE0wS21HdjRBbjBwZnRpdXJRWUM0b0lZOFVGeGhva3dTcnBVMFZYeWlPck1JUm85dy1yUQ",
-    "news:229169097975232",
-    "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxPYkM4eU95RTdicDFaX2JHSDdOV0FKY0hWRUVYdXdzSW9ja2dFbHZTTjNpZTVYdlNWS2lpTmVVQnVpVExiaExsUEg1LThFU25jMXUyTzAxbVhiVThKS2xCU1YtOUFLZHFFbFpqNEZpT1VING1xdGhvaWYwc0RBcE96S1lad2J4eTNSOTN4STluMjFCVVE"
-   ],
-   "img": "a964f37e766592e38763ab6982de6379",
-   "head": "ETF 이틀 연속 순유출 vs 이번 주 반전 "
-  },
-  {
    "id": 101,
    "at": "2026-09-21T17:52:21.136535+09:00",
    "kind": "insight",
@@ -620,7 +602,21 @@
    ],
    "img": "86d9f07e7e2b12ecaa4eead60b6afd00",
    "head": "2025년 상반기 vs 하반기, 미주 은행 가상자산 익스포저 "
+  },
+  {
+   "id": 155,
+   "at": "2026-09-24T16:22:29.928993+09:00",
+   "kind": "insight",
+   "fp": "862b6b8a7c1f2b53",
+   "refs": [
+    "coinnesskr:232091",
+    "url:https://t.me/coinnesskr/232091",
+    "news:25989723017415",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/413347"
+   ],
+   "img": "e06fae70b341fe5f02244f5521fcccc9",
+   "head": "STH 평균매입단가가 활성 LTH 평균매입단가를 뚫고 올라감. 다크포스트 말로는 역대 다섯 번째 신호 "
   }
  ],
- "last_pub_at": "2026-09-24T15:04:23.008674+09:00"
+ "last_pub_at": "2026-09-24T16:22:29.928993+09:00"
 }
