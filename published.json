@@ -1,32 +1,6 @@
 {
  "posts": [
   {
-   "id": 106,
-   "at": "2026-09-22T01:42:26.962810+09:00",
-   "kind": "insight",
-   "fp": "cb4f085491bfa95f",
-   "refs": [
-    "coinnesskr:231731",
-    "url:https://t.me/coinnesskr/231731"
-   ],
-   "img": "fd4d2cabd64d4d814455252b35de7c2c",
-   "head": "비트코인 옵션 시장, 롱 레버리지 다시 커지는 중 "
-  },
-  {
-   "id": 110,
-   "at": "2026-09-22T02:05:03.655673+09:00",
-   "kind": "insight",
-   "fp": "25c315209f5dabe7",
-   "refs": [
-    "news:37345729889986",
-    "url:https://www.blockmedia.co.kr/archives/1142570",
-    "news:95591351273393",
-    "url:https://thedefiant.io/news/markets/bitcoin-highest-since-january-crude-sinks-sep-21-2026"
-   ],
-   "img": "a971f896f8bd45c083abe32465f4c6bc",
-   "head": "비트코인 8만6355달러 찍고 8만5000대 반납 "
-  },
-  {
    "id": 107,
    "at": "2026-09-22T03:42:20.020887+09:00",
    "kind": "whale",
@@ -618,7 +592,19 @@
    ],
    "img": "0ceebece60c65c97f75bea0406805408",
    "head": "💥 대규모 숏 청산 감지 "
+  },
+  {
+   "id": 162,
+   "at": "2026-09-25T02:17:20.272192+09:00",
+   "kind": "insight",
+   "fp": "5a4d91a75fb46c58",
+   "refs": [
+    "news:18004818373729",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/413672"
+   ],
+   "img": "77175cf4e6cd771d2d8007046561ab25",
+   "head": "2021~22년 vs 지금, 낙폭 비교 "
   }
  ],
- "last_pub_at": "2026-09-25T00:42:26.808544+09:00"
+ "last_pub_at": "2026-09-25T02:17:20.272192+09:00"
 }
