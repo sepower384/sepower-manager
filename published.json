@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 112,
-   "at": "2026-09-22T05:35:38.799204+09:00",
-   "kind": "liquidation",
-   "fp": "7781689900278af8",
-   "refs": [
-    "whaleliquidation:3035897",
-    "url:https://t.me/whaleliquidation/3035897"
-   ],
-   "img": "53e1315d909924bc056bc771e305311c",
-   "head": "💥 대규모 숏 청산 감지 "
-  },
-  {
    "id": 113,
    "at": "2026-09-22T07:04:20.144299+09:00",
    "kind": "insight",
@@ -604,7 +592,21 @@
    ],
    "img": "042da97dda1df861ebde9e5cd40ccc59",
    "head": "🐋 고래 거래소 출금 포착 "
+  },
+  {
+   "id": 167,
+   "at": "2026-09-25T05:35:59.921025+09:00",
+   "kind": "insight",
+   "fp": "c6e5e04294424c81",
+   "refs": [
+    "news:1800528297394",
+    "url:https://www.blockmedia.co.kr/archives/1144043",
+    "news:217840518452314",
+    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAwc3VmaTFuR0lGUDlfTlJVVFMxSjRadjJISzBDcTRVTnhPQmtHUTI0RVVxMVN6X1pQNnhIY2RjZEFVS0R3aHZ2VzhaaFh4eUFlZEVyRGstcl91TFBtekNYbUN4QUdTS2fSAWxBVV95cUxPWjI3SWY3QlNaaWNmdTd4QkN3RHZ4dU5WUHZrbEdDaXVObWpFandNUjRQRnVURTBEX1lYN25EUWFyMjBFbm9NcEFzNEdEbFlubXhfNC00UGRPTTF4aGZ3YzFjMEhzeFZ2VHIzWHo"
+   ],
+   "img": "c85abbca0a5250c047a407dcd7f25cd5",
+   "head": "속보) 美 30년물 5.44%·10년물 5.15% 급등, 20년래 최고인데 S&P·나스닥은 보합 마감 "
   }
  ],
- "last_pub_at": "2026-09-25T04:12:18.917366+09:00"
+ "last_pub_at": "2026-09-25T05:35:59.921025+09:00"
 }
