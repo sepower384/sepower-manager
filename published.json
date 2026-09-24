@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 98,
-   "at": "2026-09-21T14:05:25.026974+09:00",
-   "kind": "insight",
-   "fp": "878b5a337c2ba99e",
-   "refs": [
-    "news:150690504110661",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE5CNlBGRjFFTzJZZ19FaXRtRWtoSzROUjQzRGxXODdYYXpHTVZoQko2ekdDZ3VFeXlDYXowZzFhTW0tNGZCTUZxbE55cmJuLUV1WDMzSVBYWHg"
-   ],
-   "img": "f6fc5bb9babbbb915e30f54d3ff7f6db",
-   "head": "BTC 20년 매각 금지법, 하원 금융위 통과… 다음 관문은 "
-  },
-  {
-   "id": 99,
-   "at": "2026-09-21T14:35:07.021355+09:00",
-   "kind": "insight",
-   "fp": "adedc2d24cc9bf8b",
-   "refs": [
-    "news:99858486278120",
-    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxNQXdGQTdxcFQzeWdtbkFBSV9NRFRqZHhHbERkVkFwQ1E2NWhiZnlTc0NxQk9HdWNfeWF1U2hKYjlTb3hBTjBMUzRVQm9XYmdLOVpyeTRYcG5hMjdJUDJIWkxaRXlZM1pKeTRKUE9GQnFBaDFHUUwwOFRDNnQ1aERBUw"
-   ],
-   "img": "8abf37e2c04cde0257e8565c5f6ede19",
-   "head": "정점식 \"가상자산 과세, 청년들 현실 외면\" "
-  },
-  {
    "id": 100,
    "at": "2026-09-21T16:22:17.644110+09:00",
    "kind": "insight",
@@ -632,7 +608,19 @@
    ],
    "img": "600f3d5e9f750d5d4e72af979c4e8ed3",
    "head": "양자컴 뜨면 BTC 한방에 털린다는 건 오해 "
+  },
+  {
+   "id": 154,
+   "at": "2026-09-24T15:04:23.008674+09:00",
+   "kind": "insight",
+   "fp": "6914ce04d40dc844",
+   "refs": [
+    "news:116002162568836",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/413280"
+   ],
+   "img": "86d9f07e7e2b12ecaa4eead60b6afd00",
+   "head": "2025년 상반기 vs 하반기, 미주 은행 가상자산 익스포저 "
   }
  ],
- "last_pub_at": "2026-09-24T13:27:21.886767+09:00"
+ "last_pub_at": "2026-09-24T15:04:23.008674+09:00"
 }
