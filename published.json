@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 105,
-   "at": "2026-09-22T00:12:24.466334+09:00",
-   "kind": "insight",
-   "fp": "5687e41c35fad268",
-   "refs": [
-    "news:11639016117671",
-    "url:https://news.google.com/rss/articles/CBMixAFBVV95cUxPWVBpMTJNOGlQaVdPQjBKYlRKVFhjN05zSzVmQ2g0eUxUbjM1UGNQcHVFY0tHcFJuZ2R5VEZIRDFudDZuRnA2YnI2R3pibURFdGlOQkFrdEIzXy12WjlnclJsVlViZWY3UVpScHF3aHNUczY2Z2ROQTRpR240V3o2NEE5OUM5OEowbS1sY0dZdUE5czEyUjJtcjQzZUZVNzJjeGtXbmFwV21VdThfLUI1SG5JUmZyY1FGMkFuUk5EcVEybDJI"
-   ],
-   "img": "c9fc87788fb68f2c02943eb483ff4b67",
-   "head": "클래리티법 막히니 CFTC가 백악관으로 우회 "
-  },
-  {
    "id": 106,
    "at": "2026-09-22T01:42:26.962810+09:00",
    "kind": "insight",
@@ -618,7 +606,19 @@
    ],
    "img": "13e73e2f890d4846db4689ea6fd90478",
    "head": "스테이블코인 시총 3000억달러 돌파 "
+  },
+  {
+   "id": 160,
+   "at": "2026-09-25T00:42:26.808544+09:00",
+   "kind": "liquidation",
+   "fp": "701124d7911d3338",
+   "refs": [
+    "whaleliquidation:3047197",
+    "url:https://t.me/whaleliquidation/3047197"
+   ],
+   "img": "0ceebece60c65c97f75bea0406805408",
+   "head": "💥 대규모 숏 청산 감지 "
   }
  ],
- "last_pub_at": "2026-09-24T22:42:24.452192+09:00"
+ "last_pub_at": "2026-09-25T00:42:26.808544+09:00"
 }
