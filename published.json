@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 95,
-   "at": "2026-09-21T10:47:18.639232+09:00",
-   "kind": "insight",
-   "fp": "0347e486dbafdf58",
-   "refs": [
-    "news:16371630734768",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE9GZ0ZvQm1HRkhsM1E4WFBHbXljeUlncHZaOGFwNGxFOXRSTGFxX0pROHdId3pGUWxhLXpJeUdILWZkRF9CR1haQmN3"
-   ],
-   "img": "695e641f0f67d70b5e3fdbaa948c2e42",
-   "head": "아크인베스트가 BTC ETF 팔았는데, \"데드캣 아니다\"라는 게 오히려 신호일 수도 "
-  },
-  {
    "id": 96,
    "at": "2026-09-21T12:17:51.087521+09:00",
    "kind": "liquidation",
@@ -632,7 +620,19 @@
    ],
    "img": "e7b27c339bc21265ae1415d1674a4c46",
    "head": "트론 스테이블코인 시총, 90일간 48억달러 증가 "
+  },
+  {
+   "id": 152,
+   "at": "2026-09-24T11:27:21.026143+09:00",
+   "kind": "insight",
+   "fp": "3ad91e843e8aa78f",
+   "refs": [
+    "news:189511537458018",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/413196"
+   ],
+   "img": "d90bde4df40a2f9f0a2649849cd5480c",
+   "head": "RWA 무기한선물, 이제 CEX 아니라 온체인에서 돌아감 "
   }
  ],
- "last_pub_at": "2026-09-24T10:12:17.425928+09:00"
+ "last_pub_at": "2026-09-24T11:27:21.026143+09:00"
 }
