@@ -1,32 +1,6 @@
 {
  "posts": [
   {
-   "id": 103,
-   "at": "2026-09-21T20:57:20.384289+09:00",
-   "kind": "insight",
-   "fp": "f64cce2fe440935f",
-   "refs": [
-    "news:173076345356060",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/411477"
-   ],
-   "img": "1298d2e8de19883cc64d546ef7929e38",
-   "head": "아브락사스, ETH·BTC·HYPE·SOL 숏에 7억달러 걸었는데 지금 1억달러 손실 중 "
-  },
-  {
-   "id": 104,
-   "at": "2026-09-21T22:17:15.932710+09:00",
-   "kind": "insight",
-   "fp": "68861b68a485ef93",
-   "refs": [
-    "news:94124977380794",
-    "url:https://www.tokenpost.kr/news/policy/411590",
-    "news:44263848537920",
-    "url:https://www.tokenpost.kr/news/policy/411529"
-   ],
-   "img": "9f7b478cda947b30336acaad1546ee2c",
-   "head": "클래리티법 불발, 다들 악재라는데 세일러는 다르게 봄 "
-  },
-  {
    "id": 105,
    "at": "2026-09-22T00:12:24.466334+09:00",
    "kind": "insight",
@@ -632,7 +606,19 @@
    ],
    "img": "f9ffeea674ae33f0e3f7c2a0a6972fec",
    "head": "금리 오르면 BTC 빠진다는데, 진짜임? "
+  },
+  {
+   "id": 159,
+   "at": "2026-09-24T22:42:24.452192+09:00",
+   "kind": "insight",
+   "fp": "064028dc1fd94bd3",
+   "refs": [
+    "news:159719248045542",
+    "url:https://www.tokenpost.kr/news/ai/413497"
+   ],
+   "img": "13e73e2f890d4846db4689ea6fd90478",
+   "head": "스테이블코인 시총 3000억달러 돌파 "
   }
  ],
- "last_pub_at": "2026-09-24T20:47:21.009882+09:00"
+ "last_pub_at": "2026-09-24T22:42:24.452192+09:00"
 }
