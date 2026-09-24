@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 101,
-   "at": "2026-09-21T17:52:21.136535+09:00",
-   "kind": "insight",
-   "fp": "9adb03c8b64b512e",
-   "refs": [
-    "news:396103367828",
-    "url:https://cryptoslate.com/bitcoins-80000-rebound-faces-an-inflation-expectations-test-this-week/"
-   ],
-   "img": "4619135b74a0878a0d40c935256e3b3a",
-   "head": "이번 주 BTC $80k대, 두 매크로 변수가 시험대임 "
-  },
-  {
    "id": 102,
    "at": "2026-09-21T19:17:19.491599+09:00",
    "kind": "insight",
@@ -616,7 +604,23 @@
    ],
    "img": "e06fae70b341fe5f02244f5521fcccc9",
    "head": "STH 평균매입단가가 활성 LTH 평균매입단가를 뚫고 올라감. 다크포스트 말로는 역대 다섯 번째 신호 "
+  },
+  {
+   "id": 156,
+   "at": "2026-09-24T18:04:25.535015+09:00",
+   "kind": "insight",
+   "fp": "60fda4e5761a7df9",
+   "refs": [
+    "news:193386295512400",
+    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE1hWjJiNzNybVVTV295eVg1ZDR1R1h0dUpBa2J2eHBtN0VOaWRkRmNSN292aEZiaVd1TU4tMDdZN1BIcDhrNms4WGpvUXh1X2IwMGdhVjRrVktzbktzc2h0V2pkRnFxMUR5ek5TVEtOMmFpdnc",
+    "news:79712726237690",
+    "url:https://www.blockmedia.co.kr/archives/1143865",
+    "news:87353570501573",
+    "url:https://www.tokenpost.kr/news/briefing/413369"
+   ],
+   "img": "6b4a47a52ee147f6df975d05fa505f52",
+   "head": "美 국채 발작이 BTC 롱 청산으로 "
   }
  ],
- "last_pub_at": "2026-09-24T16:22:29.928993+09:00"
+ "last_pub_at": "2026-09-24T18:04:25.535015+09:00"
 }
