@@ -620,7 +620,19 @@
    ],
    "img": "0b8d6f8aaa655617cdb05a3ec6d380d2",
    "head": "XRP 콜옵션에 돈 쏠리는 이유 "
+  },
+  {
+   "id": 158,
+   "at": "2026-09-24T20:47:21.009882+09:00",
+   "kind": "insight",
+   "fp": "1785576985c0010a",
+   "refs": [
+    "news:254697991203667",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/413452"
+   ],
+   "img": "f9ffeea674ae33f0e3f7c2a0a6972fec",
+   "head": "금리 오르면 BTC 빠진다는데, 진짜임? "
   }
  ],
- "last_pub_at": "2026-09-24T19:43:34.829058+09:00"
+ "last_pub_at": "2026-09-24T20:47:21.009882+09:00"
 }
