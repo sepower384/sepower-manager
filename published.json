@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 128,
-   "at": "2026-09-23T05:42:19.952803+09:00",
-   "kind": "insight",
-   "fp": "b956776487fb613e",
-   "refs": [
-    "coinnesskr:231891",
-    "url:https://t.me/coinnesskr/231891",
-    "news:66968649673535",
-    "url:https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVWE90cnRQaUJOOTFmOC1PbjUtZVV5ZVBKREd2OWw3V2tMNjhCa2RpZmVYcmhBM2lrVkxiMVBWVnl5akxhTWtBODJoVzg"
-   ],
-   "img": "659327128581af69d7cc0edf6e6f7a98",
-   "head": "클래리티법 부결 → SEC 규제 러시 → 코인베이스·서클 반사이익 "
-  },
-  {
    "id": 129,
    "at": "2026-09-23T07:12:19.837101+09:00",
    "kind": "insight",
@@ -676,7 +662,19 @@
    ],
    "img": "2fad9e63125230c4be73535614f5aa1f",
    "head": "💥 대규모 숏 청산 감지 "
+  },
+  {
+   "id": 188,
+   "at": "2026-09-26T06:47:19.158264+09:00",
+   "kind": "insight",
+   "fp": "4b45359be9cddcdc",
+   "refs": [
+    "news:38364271106442",
+    "url:https://www.theblock.co/news/regulation/2026-09-25-sec-crypto-faq-addresses-token-buybacks-network-upgrades-promises-profit-416914"
+   ],
+   "img": "1e97e6b48a62e46f1b5c343189a847de",
+   "head": "SEC FAQ가 바이백·업그레이드는 증권 아니라는데, 이게 법이 아니라 직원 의견임 "
   }
  ],
- "last_pub_at": "2026-09-26T05:35:38.472532+09:00"
+ "last_pub_at": "2026-09-26T06:47:19.158264+09:00"
 }
