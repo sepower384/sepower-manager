@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 120,
-   "at": "2026-09-22T18:34:18.716160+09:00",
-   "kind": "insight",
-   "fp": "009b00bd9051e4ff",
-   "refs": [
-    "news:250358761967835",
-    "url:https://www.tokenpost.kr/news/briefing/412088"
-   ],
-   "img": "6d8e1c828c4656372f26c0ea65225653",
-   "head": "USDe, 바이낸스서 0.9202달러까지 갔다가 몇 시간 만에 원복 "
-  },
-  {
    "id": 121,
    "at": "2026-09-22T20:27:23.995331+09:00",
    "kind": "insight",
@@ -660,7 +648,19 @@
    ],
    "img": "d64cf632a6025cfaabe4e576d10e424c",
    "head": "바이낸스서 BTC 대량 이탈, 3년 만에 최대 "
+  },
+  {
+   "id": 178,
+   "at": "2026-09-25T19:12:24.548700+09:00",
+   "kind": "insight",
+   "fp": "7a7ba1bd0aa11c60",
+   "refs": [
+    "news:34590963830121",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/414006"
+   ],
+   "img": "1cd338abcacdc3ba34c95724c6d1399c",
+   "head": "BTC 장기 보유자, 2024년 12월과 지금 비교 "
   }
  ],
- "last_pub_at": "2026-09-25T17:47:20.375353+09:00"
+ "last_pub_at": "2026-09-25T19:12:24.548700+09:00"
 }
