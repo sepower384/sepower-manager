@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 126,
-   "at": "2026-09-23T04:22:23.808076+09:00",
-   "kind": "whale",
-   "fp": "9088faaf9dbee78b",
-   "refs": [
-    "whalealertkorean:170361",
-    "url:https://t.me/whalealertkorean/170361"
-   ],
-   "img": "8793e4b2b7a934bebf692658982dd976",
-   "head": "🐋 고래 대량 이동 포착 "
-  },
-  {
    "id": 128,
    "at": "2026-09-23T05:42:19.952803+09:00",
    "kind": "insight",
@@ -676,7 +664,19 @@
    ],
    "img": "e201aa15222f719583160a4552232008",
    "head": "🐋 고래 거래소 입금 포착 "
+  },
+  {
+   "id": 187,
+   "at": "2026-09-26T05:35:38.472532+09:00",
+   "kind": "liquidation",
+   "fp": "8351f39595a4a3d4",
+   "refs": [
+    "whaleliquidation:3052049",
+    "url:https://t.me/whaleliquidation/3052049"
+   ],
+   "img": "2fad9e63125230c4be73535614f5aa1f",
+   "head": "💥 대규모 숏 청산 감지 "
   }
  ],
- "last_pub_at": "2026-09-26T03:47:30.901079+09:00"
+ "last_pub_at": "2026-09-26T05:35:38.472532+09:00"
 }
