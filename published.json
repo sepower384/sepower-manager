@@ -636,7 +636,19 @@
    ],
    "img": "1ca9f36ac103f2559f62e8fa1a2b5796",
    "head": "비트코인 22일 하루에만 1만9105BTC 빠짐. 근데 주간 순유출은 1만2153BTC임 "
+  },
+  {
+   "id": 174,
+   "at": "2026-09-25T13:52:17.440613+09:00",
+   "kind": "insight",
+   "fp": "bebb8b0c3d84adb2",
+   "refs": [
+    "news:242441880028603",
+    "url:https://news.google.com/rss/articles/CBMixgFBVV95cUxOQ3VkWG80RWtWNmhHSkNWNTdWMFl4UTdpd0xXS0tGMTVrWVNwVDNJZGV5Mm5XcFRzUDVodU1SZjNROXBUY3J1b29XZUVJOXlJMHEyVEhzVktFdlJtSjY2T3dNVmt5bDdjOFdYS3JpMXhSRWF2NXQtMTllZFkycXozR2tPV2FZeUttUWZQUU1wRDJoSmk3NzFCVG1sZU1KMnhha1A4ZF9XOVlaVENtdnFHTzl4NFBYV3BMN2lBMkllblJYNTZlYnc"
+   ],
+   "img": "928c61284ad89a15c69b75e6bddcc333",
+   "head": "시총 2.1조달러 증발했는데 온체인 활동은 그대로임 "
   }
  ],
- "last_pub_at": "2026-09-25T12:35:50.448984+09:00"
+ "last_pub_at": "2026-09-25T13:52:17.440613+09:00"
 }
