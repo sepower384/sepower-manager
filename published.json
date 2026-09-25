@@ -1,28 +1,6 @@
 {
  "posts": [
   {
-   "id": 118,
-   "at": "2026-09-22T15:17:16.021590+09:00",
-   "kind": "insight",
-   "fp": "a33cba6ad8b62161",
-   "refs": [
-    "coinnesskr:231789",
-    "url:https://t.me/coinnesskr/231789",
-    "coinnesskr:231790",
-    "url:https://t.me/coinnesskr/231790",
-    "news:274324566041973",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EOXRWRlowbUJ0Y0IyZHR5VVh2bkM0N2F2TWdWYml2dHg2YmhQVGdRMHRhZHl1S1Bfbnh6Q05NMDdiM0dTdTRSTDd3Smp4enFEVGkweTE2THo",
-    "news:259473663010611",
-    "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTFBFWE5hSFJZODVUbWJoR29jd0VfQWZoMWlWTFNFcVdac09qUVE4dnNDSlhKSGdMelp1UmQyYzlzUTVqb3NKWjJFdXM5RWZOcG80M204VA",
-    "news:204972766203082",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE41R2g5UkFKcTlsT3NQUkVNdExHXy1qZlI2UW5SX1V4ZW84NERDR2JxVUVMZHp2YXVaRFFQdkhOcXR5Vlgtd1hzWUliRkpEX2xE",
-    "news:269812480564691",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/412044"
-   ],
-   "img": "3b079d35deea58b84c2743d1745648d1",
-   "head": "ETF는 역대급 유입인데 미국은 여전히 할인 중 "
-  },
-  {
    "id": 119,
    "at": "2026-09-22T17:12:22.849007+09:00",
    "kind": "insight",
@@ -664,7 +642,21 @@
    ],
    "img": "19f6f58fab0799c7d345798cdac73b79",
    "head": "ETF는 돈 들어오는데 미국 프리미엄은 5일째 마이너스 "
+  },
+  {
+   "id": 176,
+   "at": "2026-09-25T16:27:22.709663+09:00",
+   "kind": "insight",
+   "fp": "0f92f3cf890c839a",
+   "refs": [
+    "coinnesskr:232187",
+    "url:https://t.me/coinnesskr/232187",
+    "news:128556760523621",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE45WmRjSmM5MWpPa0RDZ1VHSE1NRjFWNldvdjB3eDlGRlBCRkxTSEdXck5lZFdfVTVVLVdEZFNZbXZORkFvWVpULWEzckdzQmZ3"
+   ],
+   "img": "72a8a815d0eba449e1d0e3dd275d69ef",
+   "head": "⚡️ 비트겟 해킹 12시간 후 현황 공유 "
   }
  ],
- "last_pub_at": "2026-09-25T15:12:21.174498+09:00"
+ "last_pub_at": "2026-09-25T16:27:22.709663+09:00"
 }
