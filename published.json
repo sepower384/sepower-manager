@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 117,
-   "at": "2026-09-22T14:13:08.728920+09:00",
-   "kind": "insight",
-   "fp": "f3ea6a3594f8ee14",
-   "refs": [
-    "news:249728072801321",
-    "url:https://www.blockmedia.co.kr/archives/1142798",
-    "news:92156410466201",
-    "url:https://www.tokenpost.kr/news/briefing/412004",
-    "coinnesskr:231779",
-    "url:https://t.me/coinnesskr/231779",
-    "coinnesskr:231774",
-    "url:https://t.me/coinnesskr/231774",
-    "news:245528270120900",
-    "url:https://news.google.com/rss/articles/CBMiTkFVX3lxTE16RnZoYVcxMGtmdzZpWElROWhJMlJFVmdqVk1sQXo0cTNqcjJqWFdlUUZrRDNNSUQ2MUtfcmNnS2JTTTFJTEZGZ1U2cEVNQQ"
-   ],
-   "img": "e7e9a740f12fa2937cf0475a68ee28f8",
-   "head": "비트코인 85,734달러, 24시간 청산 10.2억달러 중 82% 숏 "
-  },
-  {
    "id": 118,
    "at": "2026-09-22T15:17:16.021590+09:00",
    "kind": "insight",
@@ -648,7 +628,43 @@
    ],
    "img": "928c61284ad89a15c69b75e6bddcc333",
    "head": "시총 2.1조달러 증발했는데 온체인 활동은 그대로임 "
+  },
+  {
+   "id": 175,
+   "at": "2026-09-25T15:12:21.174498+09:00",
+   "kind": "insight",
+   "fp": "e8633b5e930d36b4",
+   "refs": [
+    "news:187412274318750",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/413955",
+    "news:1982305383213",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/413954",
+    "news:159646732996246",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/413951",
+    "news:280450648130373",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/413948",
+    "coinnesskr:232180",
+    "url:https://t.me/coinnesskr/232180",
+    "news:168757953136880",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wQ3lSSTlvM21Zd2lzSFZMS2c4cDJZYmhmNjIyTzFROFJXei1XRHB6WlpKbTQtU0VZUTJjSzRqUnRnZC1PSlpBZU1sYnlNa1ot",
+    "news:35982540230818",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BQVRTUHlvRkpZQmNfZ3oxd3lYcjBIanJmVElsNmdFYlQwME5VLWZwMlN4WDZ6Y0RJaFp5YWh2U2RFRXljbVRvUm9WaWtEMzRNS0N6TTNyeGM",
+    "news:234187972666845",
+    "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE5BUGxTZWFEZThod1djQ2M5YTJNN2NyUGF2ZmtrNWZ6RF9qcG1RR3I4YTRrNHgwREdyM1RtamFyQnBXVDkwY3dpeGV1YW1EQjFzRjNCUDQ5UXQzTUFjcUZpR1JLWTBySkI5UmVvc0REVzRpTGZrc1YzQUJxZDFlaTg",
+    "news:36468998296905",
+    "url:https://news.google.com/rss/articles/CBMidkFVX3lxTE5lbDR0QWJMbVdTY2I3UGFzNlp3VWJfQTZwcmlVZF9rbmJDTHloUHlOd0ZDRGtVZ29tc3kwRnRWd3ZvdWpHVWNOYU1nam5ud0Y3Yk5PVnhSUDFSWWkwczZQMHhEb2pxNXRzU01qNEdrWndGRFFxeXc",
+    "news:134323000700152",
+    "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE9fMFVkUWtRODRnRmdlM2czd05RbEV1T29qaDV1UDhoS0E0ampqaTk5akFaUUp1azl4WjcwZ3BwU0xrOGJQTE00OWtPczZXb1did1BobVh5bmFOZWVUbVhsRTVwc1RpU192YjdSV0lHbkpTbDlwbGVuQ3FKeVJSXzg",
+    "news:250127380087246",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LY2lQeEJ6SGgwMmVpN3Q4SjJiQWxMbjlMQV9vNFU1SDQ1U3NYbkJfd2ktQU9IVmd6dG9Zb0Y1eGNaNWZBblhkbFJreTd6WXBX",
+    "news:2485285045870",
+    "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxaE1WUkI1RTJsdDhzWlhSMWwwZVpjWUJIS0xmU2RfMFFQaUhfTmJWRERodVRTWEVXbDhwdUZhcTRJODNxU2lQRHZQX2VOZU9DREY0Zw",
+    "news:65636300558820",
+    "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE5ON2ROQ0N2dGVzaTVYQ0dIOXRHZ1JSNzhpWmxZSmRBUlRGQVFjQkU2X0EtUWxQaDdYTEJYQUh6VHFVQ2pKeERRbGt0RlN3TWxieWdyTXFrSlI1OGhBY0M1VUpvblFraGFvY09HV09kOHdYSnZhN3kxRWRld0xHWDg"
+   ],
+   "img": "19f6f58fab0799c7d345798cdac73b79",
+   "head": "ETF는 돈 들어오는데 미국 프리미엄은 5일째 마이너스 "
   }
  ],
- "last_pub_at": "2026-09-25T13:52:17.440613+09:00"
+ "last_pub_at": "2026-09-25T15:12:21.174498+09:00"
 }
