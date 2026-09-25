@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 129,
-   "at": "2026-09-23T07:12:19.837101+09:00",
-   "kind": "insight",
-   "fp": "fe385bd70966e248",
-   "refs": [
-    "news:29470145081749",
-    "url:https://www.blockmedia.co.kr/archives/1143183",
-    "news:58857376362004",
-    "url:https://thedefiant.io/news/markets/bitcoin-cash-cme-futures-listing-sep-22-2026",
-    "news:229749400938796",
-    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE5fSTNwVi0xS2FfWDJwWTlwWHREMzYwYWdScklpZWJnVWhOT1dXbnd1UWloeUF6UlkxMzNfRF83dzVIVEFQR1VwQW5mLUZjdzFPbWtRbTVFRmx1U0R3bVFfeGhYa0VMYWwzcV81SkdSTlFtNTjSAXtBVV95cUxQdVliWVVzNEhlSkNLTzQtZFRsN0JkZDB1SGZSVkg0bElKcUNUMXJ2XzhqYW1HamNpVTFLbU9SMTlkRFVwVTJhcDVLWTBoRi1hN0gxRmRlOXBIX2c2NGRSdDhLVFNldF9XX3lPSTQySGtUYmg0SDBXTEtkczA"
-   ],
-   "img": "b23d71252cfa37143c92308b392ceaee",
-   "head": "CME, 10/19 비트코인캐시·유니스왑 선물 상장 발표 "
-  },
-  {
    "id": 130,
    "at": "2026-09-23T09:12:21.958248+09:00",
    "kind": "insight",
@@ -674,7 +658,21 @@
    ],
    "img": "1e97e6b48a62e46f1b5c343189a847de",
    "head": "SEC FAQ가 바이백·업그레이드는 증권 아니라는데, 이게 법이 아니라 직원 의견임 "
+  },
+  {
+   "id": 189,
+   "at": "2026-09-26T08:47:25.160505+09:00",
+   "kind": "insight",
+   "fp": "214f28ee21368ac7",
+   "refs": [
+    "news:272239114501106",
+    "url:https://news.google.com/rss/articles/CBMiggFBVV95cUxOd0ZhMXFCSmM0QnZmRmtVSUJJRFhON1VjMlI5ZTNweWJRZnV6S2E1Unh5d0dscTc4OEY0Z0cxa3B3NzBYSlYwU1F0SnNWS3BjWS1ickxLTU00VHByTVN6M0xQSXp1QVJGRVUyMU15bzI1R3ItYlNVYTA0cGJwNXpFRzhn",
+    "news:207808035832525",
+    "url:https://news.google.com/rss/articles/CBMickFVX3lxTE9IeEsyUHR0eWVKNDVYUDFYWUhRQUUxb0lkU292OXJZWkk4cFFjbXEyT2VZU0FUdU1SRkViS2l5akZjeTJxb3hSYzk2QnFyNXNMZXVZbGZZVm9PLWUyYzB6bzRTbmNLSjZVclBZNkY0RkxqUQ"
+   ],
+   "img": "0b914ef6f86fd181b6804608a0befefd",
+   "head": "DOJ가 테더 연계 계좌서 8420만달러 노림 "
   }
  ],
- "last_pub_at": "2026-09-26T06:47:19.158264+09:00"
+ "last_pub_at": "2026-09-26T08:47:25.160505+09:00"
 }
