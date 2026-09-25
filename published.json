@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 116,
-   "at": "2026-09-22T12:12:24.236269+09:00",
-   "kind": "insight",
-   "fp": "3022cd6d653226bd",
-   "refs": [
-    "news:17241847015300",
-    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE9vQUNCSDMyU0IzT09LOWtaZnBiRGJfVVlDMG5WdkpWNUFWcVZGVV92ZmNMTXZTRk8tN1U0QnZmRWs2M29Ba2F2bmVxLXNhVUFyY3NpUkVOLWJGY1h1QTc5aG9xaXNxV21iYkwwV21uM1QtQ1U"
-   ],
-   "img": "1135e0454f58f5a9da063acd41614c20",
-   "head": "스트래티지, 3주 쉬다 비트코인 매수 재개 "
-  },
-  {
    "id": 117,
    "at": "2026-09-22T14:13:08.728920+09:00",
    "kind": "insight",
@@ -634,7 +622,21 @@
    ],
    "img": "edbff4c18f3f3745c9d46cda0d9cfb54",
    "head": "속보) AWS, 서울서 국내 은행·증권사 RWA 토큰화 담당 전문인력 채용 공고 "
+  },
+  {
+   "id": 173,
+   "at": "2026-09-25T12:35:50.448984+09:00",
+   "kind": "insight",
+   "fp": "2d56c685614c04b8",
+   "refs": [
+    "news:147818558940975",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/413927",
+    "news:161962253168342",
+    "url:https://www.blockmedia.co.kr/archives/1144166"
+   ],
+   "img": "1ca9f36ac103f2559f62e8fa1a2b5796",
+   "head": "비트코인 22일 하루에만 1만9105BTC 빠짐. 근데 주간 순유출은 1만2153BTC임 "
   }
  ],
- "last_pub_at": "2026-09-25T11:04:48.564469+09:00"
+ "last_pub_at": "2026-09-25T12:35:50.448984+09:00"
 }
