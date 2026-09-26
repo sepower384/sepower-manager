@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 133,
-   "at": "2026-09-23T13:04:51.517976+09:00",
-   "kind": "liquidation",
-   "fp": "6664da103cd8d7d1",
-   "refs": [
-    "whaleliquidation:3041223",
-    "url:https://t.me/whaleliquidation/3041223"
-   ],
-   "img": "8a0db66c56fde12c2d050a3d33d8c754",
-   "head": "💥 대규모 숏 청산 감지 "
-  },
-  {
    "id": 134,
    "at": "2026-09-23T14:17:18.560930+09:00",
    "kind": "insight",
@@ -660,7 +648,21 @@
    ],
    "img": "2fdc46788414f5635ac510cac4bf144f",
    "head": "4년 잠든 비트코인 4500개, 드디어 움직였음 "
+  },
+  {
+   "id": 192,
+   "at": "2026-09-26T13:52:18.569617+09:00",
+   "kind": "insight",
+   "fp": "83be7844b4aebcee",
+   "refs": [
+    "news:15066837634778",
+    "url:https://www.blockmedia.co.kr/archives/1144437",
+    "news:142019130583011",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTFBTdEUzemhlZTdOWHNGVTFPSWtNanhqVm5LWFVCalBUMXFNOHhwc0tyR2hiSzhkWDhmcFdfSEMya0EyUk9RTGZGb2ZhVmN1cDNB"
+   ],
+   "img": "d939f48ea9e735a61cbd4f0a4e241a81",
+   "head": "트레저리 기업 프리미엄 무너지니 벌어지는 일 "
   }
  ],
- "last_pub_at": "2026-09-26T11:57:16.906624+09:00"
+ "last_pub_at": "2026-09-26T13:52:18.569617+09:00"
 }
