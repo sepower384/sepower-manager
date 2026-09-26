@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 134,
-   "at": "2026-09-23T14:17:18.560930+09:00",
-   "kind": "insight",
-   "fp": "b6c0556cdbb5e8b6",
-   "refs": [
-    "coinnesskr:231925",
-    "url:https://t.me/coinnesskr/231925"
-   ],
-   "img": "08b031604dfda6acf4555824a4e13661",
-   "head": "국내 코인 거래소, 돈이 빠지고 있음 "
-  },
-  {
    "id": 135,
    "at": "2026-09-23T15:22:24.664257+09:00",
    "kind": "insight",
@@ -662,7 +650,19 @@
    ],
    "img": "d939f48ea9e735a61cbd4f0a4e241a81",
    "head": "트레저리 기업 프리미엄 무너지니 벌어지는 일 "
+  },
+  {
+   "id": 193,
+   "at": "2026-09-26T15:12:20.719745+09:00",
+   "kind": "insight",
+   "fp": "36259fea930de7d2",
+   "refs": [
+    "news:8586025815715",
+    "url:https://news.google.com/rss/articles/CBMingFBVV95cUxQaHlZSm50blhYcXFWaF9JOXhOc280S3ZSa2k3UVhWaEJRbDdTc042bXJaMnMxYkRzV1NnTDc3alV0WmtNZ2F0aUJuTDV4WS1aanI2UTE1OHdIZ1ZBY2wxX3psWWFIakowbW45X05tcVZkb2FqeHJ0TjR2TWpfVjJtNHgteXY2S2wxQ3JWRnVyelZUX21vbTE5eGZiSkxwQQ"
+   ],
+   "img": "98a9b8b9570df036a07a1346a4d76b74",
+   "head": "'크립토 맘' 헤스터 피어스 SEC 사퇴, 10/2 "
   }
  ],
- "last_pub_at": "2026-09-26T13:52:18.569617+09:00"
+ "last_pub_at": "2026-09-26T15:12:20.719745+09:00"
 }
