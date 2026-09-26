@@ -1,27 +1,6 @@
 {
  "posts": [
   {
-   "id": 131,
-   "at": "2026-09-23T10:27:18.514526+09:00",
-   "kind": "brief",
-   "fp": "dcc835d44b80ff9f",
-   "refs": [],
-   "img": "f73cfdf8f30c4897b1232a60bd6f0957",
-   "head": "☀️ 9/23(수) 아침 체크포인트 "
-  },
-  {
-   "id": 132,
-   "at": "2026-09-23T11:57:19.221076+09:00",
-   "kind": "insight",
-   "fp": "c14e0077893d233f",
-   "refs": [
-    "news:211994260033525",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/412550"
-   ],
-   "img": "3672d071ddad2e1cf087fddab4a91c9e",
-   "head": "AI 부채發 유동성 확대, BTC로 오는 조건 체크 "
-  },
-  {
    "id": 133,
    "at": "2026-09-23T13:04:51.517976+09:00",
    "kind": "liquidation",
@@ -669,7 +648,19 @@
    "refs": [],
    "img": "eeca60228b0faecc5947ceafd6dad07a",
    "head": "☀️ 9/26(토) 아침 체크포인트 "
+  },
+  {
+   "id": 191,
+   "at": "2026-09-26T11:57:16.906624+09:00",
+   "kind": "insight",
+   "fp": "60e65be6a4d433dd",
+   "refs": [
+    "news:65245736620442",
+    "url:https://www.blockmedia.co.kr/archives/1144408"
+   ],
+   "img": "2fdc46788414f5635ac510cac4bf144f",
+   "head": "4년 잠든 비트코인 4500개, 드디어 움직였음 "
   }
  ],
- "last_pub_at": "2026-09-26T10:22:22.992994+09:00"
+ "last_pub_at": "2026-09-26T11:57:16.906624+09:00"
 }
