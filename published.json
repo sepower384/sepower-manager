@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 136,
-   "at": "2026-09-23T17:04:43.921698+09:00",
-   "kind": "insight",
-   "fp": "dca740baf6d6a32c",
-   "refs": [
-    "news:81356353869964",
-    "url:https://news.google.com/rss/articles/CBMicEFVX3lxTE4yaTFUalR4THVjeWt2YVExR3laTmZWX1BoZmlKOXZ0czdvWmJ1T1RDRjFteC0zc2Q2N084TTZyamtXUjgwcEdPS2lRSnozeFRWZnJJUVNrMTU3NDZpVzJEWFRubVcxQ0Z3QVVBMUExMzc"
-   ],
-   "img": "8e83d59abc583cefe6338384e9e82ec7",
-   "head": "스트래티지 우선주 STRC, 캐리트레이드 역풍에 출렁 "
-  },
-  {
    "id": 137,
    "at": "2026-09-23T18:52:23.187983+09:00",
    "kind": "insight",
@@ -662,7 +650,19 @@
    ],
    "img": "42b1c1bdbf9cf33ee7ac84e191bc68c9",
    "head": "다들 도미넌스 60% 깨졌다고 알트시즌 왔다는데 "
+  },
+  {
+   "id": 195,
+   "at": "2026-09-26T18:34:56.912590+09:00",
+   "kind": "insight",
+   "fp": "d93ac54c0e105187",
+   "refs": [
+    "coinnesskr:232262",
+    "url:https://t.me/coinnesskr/232262"
+   ],
+   "img": "5e6676cea59fa6d73dd637b06474c8a2",
+   "head": "조정 MVRV 1.0 돌파, 2012년 이후 6번째 "
   }
  ],
- "last_pub_at": "2026-09-26T16:52:18.060875+09:00"
+ "last_pub_at": "2026-09-26T18:34:56.912590+09:00"
 }
