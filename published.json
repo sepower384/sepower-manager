@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 160,
-   "at": "2026-09-25T00:42:26.808544+09:00",
-   "kind": "liquidation",
-   "fp": "701124d7911d3338",
-   "refs": [
-    "whaleliquidation:3047197",
-    "url:https://t.me/whaleliquidation/3047197"
-   ],
-   "img": "0ceebece60c65c97f75bea0406805408",
-   "head": "💥 대규모 숏 청산 감지 "
-  },
-  {
    "id": 162,
    "at": "2026-09-25T02:17:20.272192+09:00",
    "kind": "insight",
@@ -484,7 +472,21 @@
    ],
    "img": "e6f66076c36da22a5a5c69909c7aa688",
    "head": "ETF 자금, 연초 적자에서 흑자로 "
+  },
+  {
+   "id": 206,
+   "at": "2026-09-28T01:12:20.012549+09:00",
+   "kind": "insight",
+   "fp": "ea5ac6611110532d",
+   "refs": [
+    "news:190134541567275",
+    "url:https://www.tokenpost.kr/news/briefing/414796",
+    "news:102859953336383",
+    "url:https://www.tokenpost.kr/news/blockchain/414793"
+   ],
+   "img": "e229157ffe2fc61a67f298889afcba57",
+   "head": "비트겟 해킹자금 3억8750만달러, 토르체인 거쳐 BTC로 세탁 "
   }
  ],
- "last_pub_at": "2026-09-28T00:04:20.521146+09:00"
+ "last_pub_at": "2026-09-28T01:12:20.012549+09:00"
 }
