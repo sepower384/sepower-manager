@@ -1,209 +1,6 @@
 {
  "posts": [
   {
-   "id": 139,
-   "at": "2026-09-23T22:22:17.960530+09:00",
-   "kind": "insight",
-   "fp": "a9ff6a7325456166",
-   "refs": [
-    "news:86262139224423",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/412823"
-   ],
-   "img": "c4c55c63873fc793d81190ca6b10b8a3",
-   "head": "비트코인 6만달러 바닥론, 갈리는 지점은 10년물 금리 "
-  },
-  {
-   "id": 140,
-   "at": "2026-09-23T23:34:24.906281+09:00",
-   "kind": "insight",
-   "fp": "73971333644d577c",
-   "refs": [
-    "coinnesskr:232000",
-    "url:https://t.me/coinnesskr/232000",
-    "news:281228012040128",
-    "url:https://news.google.com/rss/articles/CBMicEFVX3lxTE9XWkZoal9sZ1ktMVN2NGhKQ1ZMMHVnYWxFaEZIRFBRaElFdXRxdmtIRGhCb2FocEx3bExyOG5FN0hWS2FOQzFJQU8yMTZKQ19iYTVXZWpoc0p2RkZDZmM1aUMwLURSYjgtZUVwSWFPUHA",
-    "coinnesskr:232001",
-    "url:https://t.me/coinnesskr/232001",
-    "news:11615897587984",
-    "url:https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbWRwVG81TkV0aDg5WEp1R3ZOdjFqV1pubThSd2RoZXBpbGk3OVQ4aVpmaE02OWFQX1NGeDZsUjRvMWQtZjhiNHJsT1ZfdFhmbVplZVFqX0piN2ZqWVNyS1dNa2pRMkhILUNmMDZKS0ZGVk1XVjRPQkxTRUg5NENCbkhEaDdIcU82YXEyOVRobjRORTNuLTVCX2lNZmRMQnR2eXE1OUpJdXlKODFtLWN3WGZjUEtKcG5T"
-   ],
-   "img": "ac3d867e0eab2a89885062ca385a645e",
-   "head": "클래리티법 막힌 사이 SEC가 우회로 뚫는 중 "
-  },
-  {
-   "id": 141,
-   "at": "2026-09-24T01:17:23.420395+09:00",
-   "kind": "whale",
-   "fp": "0e70e276e8c1a826",
-   "refs": [
-    "whalealertkorean:170443",
-    "url:https://t.me/whalealertkorean/170443"
-   ],
-   "img": "838ff5516ae4a063c6f486e633e68391",
-   "head": "🐋 고래 대량 이동 포착 "
-  },
-  {
-   "id": 142,
-   "at": "2026-09-24T02:57:21.276158+09:00",
-   "kind": "insight",
-   "fp": "471f89120d23ae27",
-   "refs": [
-    "news:136629819556797",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/412948"
-   ],
-   "img": "19d55ed141221ed496dbed8ddb6ae048",
-   "head": "50% 조정 왔는데도 기관은 안 팔았음 "
-  },
-  {
-   "id": 146,
-   "at": "2026-09-24T03:12:23.245102+09:00",
-   "kind": "insight",
-   "fp": "26ecaf85c69ae269",
-   "refs": [
-    "news:162795013375937",
-    "url:https://www.blockmedia.co.kr/archives/1143681",
-    "news:174706494700967",
-    "url:https://www.blockmedia.co.kr/archives/1143668"
-   ],
-   "img": "f80bf85d2bbbda4b0505b0966c0f4d90",
-   "head": "속보) 비트코인 이란-미 갈등 우려로 2.16% 빠졌다가 한 시간 만에 8만4000달러대 회복 "
-  },
-  {
-   "id": 147,
-   "at": "2026-09-24T04:57:19.810168+09:00",
-   "kind": "insight",
-   "fp": "7ac4f5d6c49f6da5",
-   "refs": [
-    "coinnesskr:232053",
-    "url:https://t.me/coinnesskr/232053",
-    "news:48708335333840",
-    "url:https://cointelegraph.com/news/trump-discloses-up-to-100k-strategy-stock-purchase",
-    "news:12210424570531",
-    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTFBaVVJRODdsY3d1aElRbEFYV1RWSURfYndlam15eWVzVUtSSmw4UHB1b1pHQUtkU1hIdDJZdTFZNjlUSDRVSk5vSVhzSmlDQUVFd2xtVmlCVG9fWlh2TW43QVdxVXg5TElVN0pxMw",
-    "news:127077891969635",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE4yUFNpLVhpZmJfM3BPdXNfNTJxejgyeXJnMUF6NFFIUEZoTGl4Q1VhdDhqYW1YYlhJa3poUEwtSWhSLVNiRGdZaDE5VVVsT0RQXzBxejVEczg",
-    "news:106520223535744",
-    "url:https://news.google.com/rss/articles/CBMizgFBVV95cUxQeGE5UHRfVkhkTGtMaHRiOTh5OFpFMk9POUE2NWl6RnRiVDBnMWV2Z3lKZVpGc0FHTi1BSHpYUW9VX29jSi16bHF2NktMcWFsSndLbkxfbFFDTWxSLW96WS15WG4yMXcwZzZ6ZGcxQzA4VVhSNVpZdEF6c0dYZ0s4SGlldlFhdnMyVFNMUG9RVzVZaGtLaFpTV1ZGb0U1cmJURUtXd0FWdGp5NEJEM0hTNnF2bFVOc2VDVkduZTRwSHpfb3R6LTBHNkc5d0w0QQ"
-   ],
-   "img": "db707c51323572edc048f32c4b027833",
-   "head": "클래리티법 부결, 트럼프 때문 아니라고? "
-  },
-  {
-   "id": 148,
-   "at": "2026-09-24T06:27:18.285466+09:00",
-   "kind": "insight",
-   "fp": "46ebb195bdf1875f",
-   "refs": [
-    "news:119557685287501",
-    "url:https://www.tokenpost.kr/news/economy/413123",
-    "news:212392182413620",
-    "url:https://cryptoslate.com/treasurys-cash-balance-nears-1-trillion-while-bitcoin-awaits-a-crucial-market-signal/"
-   ],
-   "img": "4698a19255dac4bcab61f68d8fc2727f",
-   "head": "TGA 1조 넘는다는데, 그게 유동성 공급은 아니라고? "
-  },
-  {
-   "id": 149,
-   "at": "2026-09-24T07:47:18.715325+09:00",
-   "kind": "insight",
-   "fp": "373d0bb5842cb8d6",
-   "refs": [
-    "news:142477335408644",
-    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxNSHhqbnR4Uko1bF9NYkNqNEdYY2UwY2hLMXBhMzlSNkJoZGxYdFE1MUJwZzZab21JaWNCWElabThoN1R3bHJieTI5alBzRXVGS3g2bHFXSlUwenBuV0NpRjVuWUVnMTBhWjNLV2JfOG5TZE5BWUJlVXZFbVBEamFCMw",
-    "news:22957249689160",
-    "url:https://thedefiant.io/news/markets/bitcoin-eases-etf-creations-1-7-billion-sep-23-2026"
-   ],
-   "img": "450a3dd19c807110ebc6972795a8d239",
-   "head": "10년물 5.1% 돌파가 결국 비트코인까지 왔다 "
-  },
-  {
-   "id": 150,
-   "at": "2026-09-24T09:04:19.062689+09:00",
-   "kind": "brief",
-   "fp": "c67d46a926783692",
-   "refs": [],
-   "img": "3be6b1976f6312c2eed00f055aecdbbe",
-   "head": "☀️ 9/24(목) 아침 체크포인트 "
-  },
-  {
-   "id": 151,
-   "at": "2026-09-24T10:12:17.425928+09:00",
-   "kind": "insight",
-   "fp": "93247c8f505229ed",
-   "refs": [
-    "news:7040440403051",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/413166"
-   ],
-   "img": "e7b27c339bc21265ae1415d1674a4c46",
-   "head": "트론 스테이블코인 시총, 90일간 48억달러 증가 "
-  },
-  {
-   "id": 152,
-   "at": "2026-09-24T11:27:21.026143+09:00",
-   "kind": "insight",
-   "fp": "3ad91e843e8aa78f",
-   "refs": [
-    "news:189511537458018",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/413196"
-   ],
-   "img": "d90bde4df40a2f9f0a2649849cd5480c",
-   "head": "RWA 무기한선물, 이제 CEX 아니라 온체인에서 돌아감 "
-  },
-  {
-   "id": 153,
-   "at": "2026-09-24T13:27:21.886767+09:00",
-   "kind": "insight",
-   "fp": "81dbb7bcecd2c237",
-   "refs": [
-    "news:59533670784782",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/412796"
-   ],
-   "img": "600f3d5e9f750d5d4e72af979c4e8ed3",
-   "head": "양자컴 뜨면 BTC 한방에 털린다는 건 오해 "
-  },
-  {
-   "id": 154,
-   "at": "2026-09-24T15:04:23.008674+09:00",
-   "kind": "insight",
-   "fp": "6914ce04d40dc844",
-   "refs": [
-    "news:116002162568836",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/413280"
-   ],
-   "img": "86d9f07e7e2b12ecaa4eead60b6afd00",
-   "head": "2025년 상반기 vs 하반기, 미주 은행 가상자산 익스포저 "
-  },
-  {
-   "id": 155,
-   "at": "2026-09-24T16:22:29.928993+09:00",
-   "kind": "insight",
-   "fp": "862b6b8a7c1f2b53",
-   "refs": [
-    "coinnesskr:232091",
-    "url:https://t.me/coinnesskr/232091",
-    "news:25989723017415",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/413347"
-   ],
-   "img": "e06fae70b341fe5f02244f5521fcccc9",
-   "head": "STH 평균매입단가가 활성 LTH 평균매입단가를 뚫고 올라감. 다크포스트 말로는 역대 다섯 번째 신호 "
-  },
-  {
-   "id": 156,
-   "at": "2026-09-24T18:04:25.535015+09:00",
-   "kind": "insight",
-   "fp": "60fda4e5761a7df9",
-   "refs": [
-    "news:193386295512400",
-    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE1hWjJiNzNybVVTV295eVg1ZDR1R1h0dUpBa2J2eHBtN0VOaWRkRmNSN292aEZiaVd1TU4tMDdZN1BIcDhrNms4WGpvUXh1X2IwMGdhVjRrVktzbktzc2h0V2pkRnFxMUR5ek5TVEtOMmFpdnc",
-    "news:79712726237690",
-    "url:https://www.blockmedia.co.kr/archives/1143865",
-    "news:87353570501573",
-    "url:https://www.tokenpost.kr/news/briefing/413369"
-   ],
-   "img": "6b4a47a52ee147f6df975d05fa505f52",
-   "head": "美 국채 발작이 BTC 롱 청산으로 "
-  },
-  {
    "id": 157,
    "at": "2026-09-24T19:43:34.829058+09:00",
    "kind": "insight",
@@ -662,7 +459,19 @@
    ],
    "img": "573c9af60a6e5621e78084e95749d369",
    "head": "XRP 고래 매집 뒤에 있는 진짜 그림 "
+  },
+  {
+   "id": 201,
+   "at": "2026-09-27T18:06:21.836340+09:00",
+   "kind": "insight",
+   "fp": "3a372848cd6c0db5",
+   "refs": [
+    "news:236869151361955",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE5tMWpkTGUyeEZZbGExZHR0MVNVWEhLVElTenAxRUUyeEFjUFY2ZnlJTVNsZlNoRXZCMzZDdVFNd2djRUIwcTMzMGR3"
+   ],
+   "img": "64ef899ba0a0931e395ab894f74e42d6",
+   "head": "비트코인 상관관계 86%, 이게 좋은 신호일까 "
   }
  ],
- "last_pub_at": "2026-09-26T21:42:20.993803+09:00"
+ "last_pub_at": "2026-09-27T18:06:21.836340+09:00"
 }
