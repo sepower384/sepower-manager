@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 162,
-   "at": "2026-09-25T02:17:20.272192+09:00",
-   "kind": "insight",
-   "fp": "5a4d91a75fb46c58",
-   "refs": [
-    "news:18004818373729",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/413672"
-   ],
-   "img": "77175cf4e6cd771d2d8007046561ab25",
-   "head": "2021~22년 vs 지금, 낙폭 비교 "
-  },
-  {
    "id": 163,
    "at": "2026-09-25T04:12:18.917366+09:00",
    "kind": "whale",
@@ -486,7 +474,19 @@
    ],
    "img": "e229157ffe2fc61a67f298889afcba57",
    "head": "비트겟 해킹자금 3억8750만달러, 토르체인 거쳐 BTC로 세탁 "
+  },
+  {
+   "id": 207,
+   "at": "2026-09-28T02:52:19.782969+09:00",
+   "kind": "whale",
+   "fp": "5fe46af137ba677e",
+   "refs": [
+    "whalealertkorean:170871",
+    "url:https://t.me/whalealertkorean/170871"
+   ],
+   "img": "398c7fffe59954e73c83acabbbfb5191",
+   "head": "🐋 고래 대량 이동 포착 "
   }
  ],
- "last_pub_at": "2026-09-28T01:12:20.012549+09:00"
+ "last_pub_at": "2026-09-28T02:52:19.782969+09:00"
 }
