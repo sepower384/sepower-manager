@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 169,
-   "at": "2026-09-25T08:17:19.776479+09:00",
-   "kind": "insight",
-   "fp": "f430df99d119c411",
-   "refs": [
-    "news:35241697565554",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTFBYR040ZW9TOTR0R2I3cjE3bjBrbkpyQVdvbTBNMWxqYWQwekFMdEUwUTVUb0hfUHdJMU4tbXRMOU5LUU1GN0JsazVZLUphZmdseHlRMS0tWFI",
-    "news:109638480470668",
-    "url:https://cointelegraph.com/news/fed-proposes-new-capital-redemption-rules-for-stablecoin-issuers",
-    "news:265943144505378",
-    "url:https://news.google.com/rss/articles/CBMickFVX3lxTFB4Q3d2azFWSWVrbXVNckgzTlJ0SGgtWTBkZWJTQklqNFd5Wll6M3dZMTRWMjhVbFBnV2tlVThJN2JjdnNJdDRsLW1ZNFZ4M1hxeEFVTzBYTG1UUThxOGxUcXJadXRYcTJ1N0txZ0JhdzlRUQ"
-   ],
-   "img": "c5444e8fdd3f35ffb395b2f70a90fbaa",
-   "head": "연준 스테이블코인 규정, 뭐가 핵심인가 "
-  },
-  {
    "id": 170,
    "at": "2026-09-25T09:34:23.234873+09:00",
    "kind": "brief",
@@ -474,7 +458,19 @@
    ],
    "img": "c9d5c6ed0dba6938263d5478b38535fa",
    "head": "솔라나 SIMD-0649, 결국 없던 일 됨 "
+  },
+  {
+   "id": 211,
+   "at": "2026-09-28T08:22:57.142878+09:00",
+   "kind": "insight",
+   "fp": "82363d49ab713d64",
+   "refs": [
+    "news:159637280612882",
+    "url:https://www.tokenpost.kr/news/insights/414833"
+   ],
+   "img": "2a9f555ecff218676b5f6e6407ab293c",
+   "head": "금리 올랐는데 비트코인은 왜 버텼나 "
   }
  ],
- "last_pub_at": "2026-09-28T06:42:20.981298+09:00"
+ "last_pub_at": "2026-09-28T08:22:57.142878+09:00"
 }
