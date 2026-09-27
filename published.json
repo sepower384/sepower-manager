@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 159,
-   "at": "2026-09-24T22:42:24.452192+09:00",
-   "kind": "insight",
-   "fp": "064028dc1fd94bd3",
-   "refs": [
-    "news:159719248045542",
-    "url:https://www.tokenpost.kr/news/ai/413497"
-   ],
-   "img": "13e73e2f890d4846db4689ea6fd90478",
-   "head": "스테이블코인 시총 3000억달러 돌파 "
-  },
-  {
    "id": 160,
    "at": "2026-09-25T00:42:26.808544+09:00",
    "kind": "liquidation",
@@ -480,7 +468,23 @@
    ],
    "img": "7a71da8d41272daba81279146071b38b",
    "head": "다들 \"달러 강세=위험자산 부담\"이라 아는데, 최근 15일은 거꾸로 감 "
+  },
+  {
+   "id": 205,
+   "at": "2026-09-28T00:04:20.521146+09:00",
+   "kind": "insight",
+   "fp": "c5d9add7a49dbdc4",
+   "refs": [
+    "news:56280666922840",
+    "url:https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KNDlITWZwa1JwOGJBazJQUGJRd3lJbGVGYVdZU3k2QzJYUnd3bXQ1VFRkcjZtVUVLdWt6UE9vQmNoVTdtblJWQ1d1WDlTSUxBajlZUGdn",
+    "news:132590348480507",
+    "url:https://news.google.com/rss/articles/CBMilgFBVV95cUxPWnBuWUMzWkg4RWR4QUlUYmN4WFE2cnQtdWZ2dmluc1BWRlplT3JHbkFMQi0yTXUzTllkREtwRHJXVk9NQzgxWEpmT3kyazFrOUowbC1TblBFX05KMURYVHVCQ2RoVWljYXJFOVRxZDZHUTFNYjhDbC1IX0M1c0xiR0FjXzUtc2FHTGtCeDNYSmwtdGttQnc",
+    "news:275151669967532",
+    "url:https://news.google.com/rss/articles/CBMimAFBVV95cUxPWHJlYkhyZTk4aVNZemROXy1NVGxuRVM4djlfeVRmRHFSQjhGWFIxaEd1TndOYV9iMjIybnZHZmdUT09GcUJaR0dUZTA2MnZxSXJLR3BQSmNwMzBkLWNNTUtlRkFOMjJ3RXNSZWJsQ1N5Y3VaUUZWVllVLVpHYXFJTnN1Q2dEQy02Rnk3VldHaklKbU1hSjR0RA"
+   ],
+   "img": "e6f66076c36da22a5a5c69909c7aa688",
+   "head": "ETF 자금, 연초 적자에서 흑자로 "
   }
  ],
- "last_pub_at": "2026-09-27T22:17:22.326906+09:00"
+ "last_pub_at": "2026-09-28T00:04:20.521146+09:00"
 }
