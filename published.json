@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 157,
-   "at": "2026-09-24T19:43:34.829058+09:00",
-   "kind": "insight",
-   "fp": "07918e9d244be9af",
-   "refs": [
-    "coinnesskr:232102",
-    "url:https://t.me/coinnesskr/232102"
-   ],
-   "img": "0b8d6f8aaa655617cdb05a3ec6d380d2",
-   "head": "XRP 콜옵션에 돈 쏠리는 이유 "
-  },
-  {
-   "id": 158,
-   "at": "2026-09-24T20:47:21.009882+09:00",
-   "kind": "insight",
-   "fp": "1785576985c0010a",
-   "refs": [
-    "news:254697991203667",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/413452"
-   ],
-   "img": "f9ffeea674ae33f0e3f7c2a0a6972fec",
-   "head": "금리 오르면 BTC 빠진다는데, 진짜임? "
-  },
-  {
    "id": 159,
    "at": "2026-09-24T22:42:24.452192+09:00",
    "kind": "insight",
@@ -480,7 +456,19 @@
    "refs": [],
    "img": "fbd95bfc3c7a88933983be2c93c13c38",
    "head": "☀️ 9/27(일) 아침 체크포인트 "
+  },
+  {
+   "id": 203,
+   "at": "2026-09-27T21:12:19.671741+09:00",
+   "kind": "insight",
+   "fp": "cdd3197b55d208eb",
+   "refs": [
+    "news:207783198928112",
+    "url:https://www.tokenpost.kr/news/policy/414734"
+   ],
+   "img": "84c00be5733c3a5605e8e21875530729",
+   "head": "토큰화 주식, 진짜 24시간 자유거래 맞나 "
   }
  ],
- "last_pub_at": "2026-09-27T19:17:22.397425+09:00"
+ "last_pub_at": "2026-09-27T21:12:19.671741+09:00"
 }
