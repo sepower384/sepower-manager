@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 172,
-   "at": "2026-09-25T11:04:48.564469+09:00",
-   "kind": "insight",
-   "fp": "3292d10d214bd29b",
-   "refs": [
-    "news:53099887818668",
-    "url:https://www.digitalasset.works/news/articleView.html"
-   ],
-   "img": "edbff4c18f3f3745c9d46cda0d9cfb54",
-   "head": "속보) AWS, 서울서 국내 은행·증권사 RWA 토큰화 담당 전문인력 채용 공고 "
-  },
-  {
    "id": 173,
    "at": "2026-09-25T12:35:50.448984+09:00",
    "kind": "insight",
@@ -470,7 +458,19 @@
    "refs": [],
    "img": "3e1be06e5ea1aed5ae81b52ac05a53c7",
    "head": "☀️ 9/28(월) 아침 체크포인트 — 금리 올렸는데 비트코인은 버팀 "
+  },
+  {
+   "id": 213,
+   "at": "2026-09-28T11:34:18.991278+09:00",
+   "kind": "insight",
+   "fp": "91a0feb215e7bb88",
+   "refs": [
+    "news:134520565264923",
+    "url:https://www.tokenpost.kr/news/economy/414901"
+   ],
+   "img": "0ef4c606284d08e693f9a46bffbc4e31",
+   "head": "9/30 국채 2020억달러 결제, 봐야 할 건 SOFR임 "
   }
  ],
- "last_pub_at": "2026-09-28T10:12:22.770954+09:00"
+ "last_pub_at": "2026-09-28T11:34:18.991278+09:00"
 }
