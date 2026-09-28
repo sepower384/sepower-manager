@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 180,
-   "at": "2026-09-25T22:04:27.224739+09:00",
-   "kind": "insight",
-   "fp": "99e4ccc0559dee12",
-   "refs": [
-    "news:254898624469060",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/414087"
-   ],
-   "img": "7d95b1464ba5ce17484a118de1a0b289",
-   "head": "비트코인 차익실현 24억달러, 누가 받았나 "
-  },
-  {
    "id": 181,
    "at": "2026-09-25T23:34:19.646219+09:00",
    "kind": "insight",
@@ -456,7 +444,21 @@
    ],
    "img": "e41ddb974cfeafae0da9842d036ad45f",
    "head": "速보) 美 10년물 국채금리 5.22%, 2007년 후 최고 "
+  },
+  {
+   "id": 221,
+   "at": "2026-09-28T23:27:23.135144+09:00",
+   "kind": "insight",
+   "fp": "baee0f776cd671ce",
+   "refs": [
+    "coinnesskr:232405",
+    "url:https://t.me/coinnesskr/232405",
+    "news:191381301816895",
+    "url:https://cointelegraph.com/markets/btc-price-eyes-best-q3-in-nine-years-three-things-to-know-in-bitcoin-this-week"
+   ],
+   "img": "6fa1e5b27fe0194fa9288df2f2225009",
+   "head": "이번주 BTC, 3분기 성적표 vs 8만2500 지지선 "
   }
  ],
- "last_pub_at": "2026-09-28T21:52:20.514374+09:00"
+ "last_pub_at": "2026-09-28T23:27:23.135144+09:00"
 }
