@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 173,
-   "at": "2026-09-25T12:35:50.448984+09:00",
-   "kind": "insight",
-   "fp": "2d56c685614c04b8",
-   "refs": [
-    "news:147818558940975",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/413927",
-    "news:161962253168342",
-    "url:https://www.blockmedia.co.kr/archives/1144166"
-   ],
-   "img": "1ca9f36ac103f2559f62e8fa1a2b5796",
-   "head": "비트코인 22일 하루에만 1만9105BTC 빠짐. 근데 주간 순유출은 1만2153BTC임 "
-  },
-  {
    "id": 174,
    "at": "2026-09-25T13:52:17.440613+09:00",
    "kind": "insight",
@@ -470,7 +456,19 @@
    ],
    "img": "0ef4c606284d08e693f9a46bffbc4e31",
    "head": "9/30 국채 2020억달러 결제, 봐야 할 건 SOFR임 "
+  },
+  {
+   "id": 214,
+   "at": "2026-09-28T12:42:21.365151+09:00",
+   "kind": "liquidation",
+   "fp": "34e46f371588878f",
+   "refs": [
+    "whaleliquidation:3059122",
+    "url:https://t.me/whaleliquidation/3059122"
+   ],
+   "img": "96a0daff92e9a343b033460cd67e6aa9",
+   "head": "💥 대규모 롱 청산 감지 "
   }
  ],
- "last_pub_at": "2026-09-28T11:34:18.991278+09:00"
+ "last_pub_at": "2026-09-28T12:42:21.365151+09:00"
 }
