@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 181,
-   "at": "2026-09-25T23:34:19.646219+09:00",
-   "kind": "insight",
-   "fp": "8ea066d9f36d446e",
-   "refs": [
-    "news:181135509659223",
-    "url:https://www.blockmedia.co.kr/archives/1144260"
-   ],
-   "img": "3ae27a4a8c4dc66d30ba7ef21256569e",
-   "head": "CFTC, 토큰화 자산 투자 지침 냈는데 신규 승인 아님 "
-  },
-  {
    "id": 182,
    "at": "2026-09-26T00:52:23.387459+09:00",
    "kind": "whale",
@@ -458,7 +446,19 @@
    ],
    "img": "6fa1e5b27fe0194fa9288df2f2225009",
    "head": "이번주 BTC, 3분기 성적표 vs 8만2500 지지선 "
+  },
+  {
+   "id": 222,
+   "at": "2026-09-29T00:34:34.671162+09:00",
+   "kind": "insight",
+   "fp": "0c5f2492dd810a3b",
+   "refs": [
+    "news:161679686239693",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/415247"
+   ],
+   "img": "4ac1badde98674c612ae7ed4f1f6a4b9",
+   "head": "BTC 50주선, 44주 만에 재탈환 "
   }
  ],
- "last_pub_at": "2026-09-28T23:27:23.135144+09:00"
+ "last_pub_at": "2026-09-29T00:34:34.671162+09:00"
 }
