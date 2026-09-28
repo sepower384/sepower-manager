@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 177,
-   "at": "2026-09-25T17:47:20.375353+09:00",
-   "kind": "insight",
-   "fp": "b30847cb4d0066ca",
-   "refs": [
-    "coinnesskr:232191",
-    "url:https://t.me/coinnesskr/232191",
-    "news:176890103746726",
-    "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxOTE05dmE5am96dEFfOEFxUUZqWlhibU5DVDNWV2JnYnJMb0NSaTJyTm1zTUxNbHR0UGVoV1BnanNvTVFiZ2FkT0pDdm05U19KODBNejNlRW5aZlc0a3RSUDJwN1JYcnBGSVAtZTh5NS16UGJ6VkV4bWNCZVdwQ1FnZzh2eEdadWRsZl95SFVybV8yWm04TlVwOWxDTQ",
-    "news:130763674929501",
-    "url:https://news.google.com/rss/articles/CBMihwFBVV95cUxNSmM4VTFDa1RUUjYwTmlBbWxxendCZmlYMzNKRkxXTExMd1JmRVo0Mlh2ZjdTbTQ3OFZldnRpWHdULTR6Ql9aV1dHTnJtNFhxdDFrbXdsNTd6aFFoQ29kcGYxdnAxVFp3cF9lWUk3Ui15ckRmQ3dTQTRQVXRKbXh2UGozUDRVd2c"
-   ],
-   "img": "d64cf632a6025cfaabe4e576d10e424c",
-   "head": "바이낸스서 BTC 대량 이탈, 3년 만에 최대 "
-  },
-  {
    "id": 178,
    "at": "2026-09-25T19:12:24.548700+09:00",
    "kind": "insight",
@@ -448,7 +432,19 @@
    ],
    "img": "8716c1d82af314b10518b5c237d5dd67",
    "head": "트럼프발 이란 리스크, 채권시장부터 흔들었음 "
+  },
+  {
+   "id": 218,
+   "at": "2026-09-28T18:12:25.928415+09:00",
+   "kind": "insight",
+   "fp": "4865acb019e3d31e",
+   "refs": [
+    "news:120082666380555",
+    "url:https://www.tokenpost.kr/news/policy/415055"
+   ],
+   "img": "e1450681c26ce800777d5f0618a8c44f",
+   "head": "RWA, 토큰만 찍으면 끝 아니었음 "
   }
  ],
- "last_pub_at": "2026-09-28T16:52:21.328810+09:00"
+ "last_pub_at": "2026-09-28T18:12:25.928415+09:00"
 }
