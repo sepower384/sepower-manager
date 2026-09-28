@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 188,
-   "at": "2026-09-26T06:47:19.158264+09:00",
-   "kind": "insight",
-   "fp": "4b45359be9cddcdc",
-   "refs": [
-    "news:38364271106442",
-    "url:https://www.theblock.co/news/regulation/2026-09-25-sec-crypto-faq-addresses-token-buybacks-network-upgrades-promises-profit-416914"
-   ],
-   "img": "1e97e6b48a62e46f1b5c343189a847de",
-   "head": "SEC FAQ가 바이백·업그레이드는 증권 아니라는데, 이게 법이 아니라 직원 의견임 "
-  },
-  {
    "id": 189,
    "at": "2026-09-26T08:47:25.160505+09:00",
    "kind": "insight",
@@ -450,7 +438,21 @@
    ],
    "img": "727d556af0eb31b3df55c70bbaeba6dc",
    "head": "속보) 나스닥 0.9% 하락, 美 10년물 5.2% 돌파 "
+  },
+  {
+   "id": 227,
+   "at": "2026-09-29T07:34:31.350416+09:00",
+   "kind": "insight",
+   "fp": "e24c3ce73c0e565d",
+   "refs": [
+    "news:44151734556653",
+    "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHpBdDB1VW9ZMEVUMEFNbjZtdEFWeUp5YWIzQVhTUldESVBTV3Q5QUE4UkZ0cE9NYl92dUJiYXd4bHhjU01rWFYxWWpuYU5FY1JsVVVucWRNTXc4SmZZQS13cWhNZU04UXFhcHltN1lTcTdHR3gyWW5TdTF1cWFocUlUeUd6LThoQlJTRkI3Qlo4b28",
+    "news:107062949830295",
+    "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxNVU0ySGhNRDZ2OExkNERsM0JwSzl5dGhReG9aVmRsclZoVzdSdTJ4bzFiT0VHRElQR1Q3a2FmZm1NbkpMbWhPNWI1b1Ywc0ZiUEI2X1ViaVFIVFVhNExZV1hXbWxQMTNaZ0NpVm4tZGFyN2RyNXdiMXpMOUJ5U1ZMQWNJSGdOT2lUT0lTWGd4UEhJLS0yZzNPSXZTdw"
+   ],
+   "img": "9944ba0c85a43bae1b161117fc7e6bab",
+   "head": "테더 \"이란 연계 5.5억달러 동결\" 발표했는데 숫자가 좀 안 맞음 "
   }
  ],
- "last_pub_at": "2026-09-29T05:35:51.938479+09:00"
+ "last_pub_at": "2026-09-29T07:34:31.350416+09:00"
 }
