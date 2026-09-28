@@ -1,42 +1,6 @@
 {
  "posts": [
   {
-   "id": 175,
-   "at": "2026-09-25T15:12:21.174498+09:00",
-   "kind": "insight",
-   "fp": "e8633b5e930d36b4",
-   "refs": [
-    "news:187412274318750",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/413955",
-    "news:1982305383213",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/413954",
-    "news:159646732996246",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/413951",
-    "news:280450648130373",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/413948",
-    "coinnesskr:232180",
-    "url:https://t.me/coinnesskr/232180",
-    "news:168757953136880",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wQ3lSSTlvM21Zd2lzSFZMS2c4cDJZYmhmNjIyTzFROFJXei1XRHB6WlpKbTQtU0VZUTJjSzRqUnRnZC1PSlpBZU1sYnlNa1ot",
-    "news:35982540230818",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BQVRTUHlvRkpZQmNfZ3oxd3lYcjBIanJmVElsNmdFYlQwME5VLWZwMlN4WDZ6Y0RJaFp5YWh2U2RFRXljbVRvUm9WaWtEMzRNS0N6TTNyeGM",
-    "news:234187972666845",
-    "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE5BUGxTZWFEZThod1djQ2M5YTJNN2NyUGF2ZmtrNWZ6RF9qcG1RR3I4YTRrNHgwREdyM1RtamFyQnBXVDkwY3dpeGV1YW1EQjFzRjNCUDQ5UXQzTUFjcUZpR1JLWTBySkI5UmVvc0REVzRpTGZrc1YzQUJxZDFlaTg",
-    "news:36468998296905",
-    "url:https://news.google.com/rss/articles/CBMidkFVX3lxTE5lbDR0QWJMbVdTY2I3UGFzNlp3VWJfQTZwcmlVZF9rbmJDTHloUHlOd0ZDRGtVZ29tc3kwRnRWd3ZvdWpHVWNOYU1nam5ud0Y3Yk5PVnhSUDFSWWkwczZQMHhEb2pxNXRzU01qNEdrWndGRFFxeXc",
-    "news:134323000700152",
-    "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE9fMFVkUWtRODRnRmdlM2czd05RbEV1T29qaDV1UDhoS0E0ampqaTk5akFaUUp1azl4WjcwZ3BwU0xrOGJQTE00OWtPczZXb1did1BobVh5bmFOZWVUbVhsRTVwc1RpU192YjdSV0lHbkpTbDlwbGVuQ3FKeVJSXzg",
-    "news:250127380087246",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LY2lQeEJ6SGgwMmVpN3Q4SjJiQWxMbjlMQV9vNFU1SDQ1U3NYbkJfd2ktQU9IVmd6dG9Zb0Y1eGNaNWZBblhkbFJreTd6WXBX",
-    "news:2485285045870",
-    "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxaE1WUkI1RTJsdDhzWlhSMWwwZVpjWUJIS0xmU2RfMFFQaUhfTmJWRERodVRTWEVXbDhwdUZhcTRJODNxU2lQRHZQX2VOZU9DREY0Zw",
-    "news:65636300558820",
-    "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE5ON2ROQ0N2dGVzaTVYQ0dIOXRHZ1JSNzhpWmxZSmRBUlRGQVFjQkU2X0EtUWxQaDdYTEJYQUh6VHFVQ2pKeERRbGt0RlN3TWxieWdyTXFrSlI1OGhBY0M1VUpvblFraGFvY09HV09kOHdYSnZhN3kxRWRld0xHWDg"
-   ],
-   "img": "19f6f58fab0799c7d345798cdac73b79",
-   "head": "ETF는 돈 들어오는데 미국 프리미엄은 5일째 마이너스 "
-  },
-  {
    "id": 176,
    "at": "2026-09-25T16:27:22.709663+09:00",
    "kind": "insight",
@@ -474,7 +438,19 @@
    ],
    "img": "e00a827c8b471bf468d6525604046eac",
    "head": "ETF 유입 몰아보기, BTC만 아니라 알트까지 "
+  },
+  {
+   "id": 216,
+   "at": "2026-09-28T15:42:17.537086+09:00",
+   "kind": "insight",
+   "fp": "e8f7160097f87eb1",
+   "refs": [
+    "coinnesskr:232346",
+    "url:https://t.me/coinnesskr/232346"
+   ],
+   "img": "c1081551d8bc259c107f85e9f8b2c176",
+   "head": "BTC 13.5% 뛰는 동안 수요는 오히려 줄었음 "
   }
  ],
- "last_pub_at": "2026-09-28T14:22:21.859679+09:00"
+ "last_pub_at": "2026-09-28T15:42:17.537086+09:00"
 }
