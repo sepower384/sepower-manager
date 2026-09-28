@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 178,
-   "at": "2026-09-25T19:12:24.548700+09:00",
-   "kind": "insight",
-   "fp": "7a7ba1bd0aa11c60",
-   "refs": [
-    "news:34590963830121",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/414006"
-   ],
-   "img": "1cd338abcacdc3ba34c95724c6d1399c",
-   "head": "BTC 장기 보유자, 2024년 12월과 지금 비교 "
-  },
-  {
    "id": 179,
    "at": "2026-09-25T20:47:20.291701+09:00",
    "kind": "insight",
@@ -444,7 +432,23 @@
    ],
    "img": "e1450681c26ce800777d5f0618a8c44f",
    "head": "RWA, 토큰만 찍으면 끝 아니었음 "
+  },
+  {
+   "id": 219,
+   "at": "2026-09-28T20:12:22.925946+09:00",
+   "kind": "insight",
+   "fp": "90b416714abe4a73",
+   "refs": [
+    "news:245991961908140",
+    "url:https://www.tokenpost.kr/news/policy/415101",
+    "news:89779029356203",
+    "url:https://news.google.com/rss/articles/CBMipwFBVV95cUxOVUt0WDVxVkdNT0p5Z0NzQ2lObFZzalI0a2NtY2RIT3dRaENhS2FnUGtzYzdFVnB0dU5BNVo3bkthS0ZZbTZBdXZXc0tYcnBNUFIxSUVfZUpyUjROYmFWZjAyX2F5VEJlVXE4SDBvMHNQVVZVeXR5NEZYX0Foemo1RnJVMDdtTG9IcGFHdkF6bDhrRDBaRExNa3RydVYtS3RCalJsUlBaNNIBrAFBVV95cUxPdVR2THV0Ry02bjl4b2pHYlpPVkY5bzJjNjVTaUMtT3BoVUNITkNBMVpxS2VMdGNxRjhoYWFWSEdZME9OWjVIOXFRbUR4RkhIdnBKNm1kWHV6LTBqdXdDVE1TUDI4YzdpMEFnRS1RZlNqbXhfS3ZxM1hCRHBIeFJObkEtMHdzM19UM2VoQkJJUXpubTJ3d1dPT05BU3JVbVJxczJzRjljbU9fMnJC",
+    "news:10665570520179",
+    "url:https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JMEw5UDU3dFRLUkVtTm5vbVMxcThHVEhac18tSWV0N3FwWTVKdG81SVdjQUY4MWxwcTNUaS01VnF1MkVpY2N5dG9nTUt5RERXX052ekl4cnVCQ1FB"
+   ],
+   "img": "b1ebebea31d52cdc41e7e42b82df6a29",
+   "head": "클래리티 법안은 막혔는데, 규제는 계속 가는 중 "
   }
  ],
- "last_pub_at": "2026-09-28T18:12:25.928415+09:00"
+ "last_pub_at": "2026-09-28T20:12:22.925946+09:00"
 }
