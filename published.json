@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 174,
-   "at": "2026-09-25T13:52:17.440613+09:00",
-   "kind": "insight",
-   "fp": "bebb8b0c3d84adb2",
-   "refs": [
-    "news:242441880028603",
-    "url:https://news.google.com/rss/articles/CBMixgFBVV95cUxOQ3VkWG80RWtWNmhHSkNWNTdWMFl4UTdpd0xXS0tGMTVrWVNwVDNJZGV5Mm5XcFRzUDVodU1SZjNROXBUY3J1b29XZUVJOXlJMHEyVEhzVktFdlJtSjY2T3dNVmt5bDdjOFdYS3JpMXhSRWF2NXQtMTllZFkycXozR2tPV2FZeUttUWZQUU1wRDJoSmk3NzFCVG1sZU1KMnhha1A4ZF9XOVlaVENtdnFHTzl4NFBYV3BMN2lBMkllblJYNTZlYnc"
-   ],
-   "img": "928c61284ad89a15c69b75e6bddcc333",
-   "head": "시총 2.1조달러 증발했는데 온체인 활동은 그대로임 "
-  },
-  {
    "id": 175,
    "at": "2026-09-25T15:12:21.174498+09:00",
    "kind": "insight",
@@ -468,7 +456,25 @@
    ],
    "img": "96a0daff92e9a343b033460cd67e6aa9",
    "head": "💥 대규모 롱 청산 감지 "
+  },
+  {
+   "id": 215,
+   "at": "2026-09-28T14:22:21.859679+09:00",
+   "kind": "insight",
+   "fp": "21b56e787cdcb04a",
+   "refs": [
+    "news:12624572552368",
+    "url:https://www.tokenpost.kr/news/briefing/414938",
+    "news:16300167919447",
+    "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE5COEJuZkN3TmJmT2V1LXVtS3hKbGtsRy1JamlEcl9YZlJOR1FjazFyb1RyamNCVWR4TUtJc0NWQkNwbHVCUjlnVzhPaDg2di13R1JvbnBEbm1pZzQ0Z1JIVUNxZ1dQb3hWVUEzNG9VM1VDY2kyeXp3M2ZwRFlFTkU",
+    "coinnesskr:232338",
+    "url:https://t.me/coinnesskr/232338",
+    "news:207173925444137",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/414909"
+   ],
+   "img": "e00a827c8b471bf468d6525604046eac",
+   "head": "ETF 유입 몰아보기, BTC만 아니라 알트까지 "
   }
  ],
- "last_pub_at": "2026-09-28T12:42:21.365151+09:00"
+ "last_pub_at": "2026-09-28T14:22:21.859679+09:00"
 }
