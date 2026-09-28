@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 176,
-   "at": "2026-09-25T16:27:22.709663+09:00",
-   "kind": "insight",
-   "fp": "0f92f3cf890c839a",
-   "refs": [
-    "coinnesskr:232187",
-    "url:https://t.me/coinnesskr/232187",
-    "news:128556760523621",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE45WmRjSmM5MWpPa0RDZ1VHSE1NRjFWNldvdjB3eDlGRlBCRkxTSEdXck5lZFdfVTVVLVdEZFNZbXZORkFvWVpULWEzckdzQmZ3"
-   ],
-   "img": "72a8a815d0eba449e1d0e3dd275d69ef",
-   "head": "⚡️ 비트겟 해킹 12시간 후 현황 공유 "
-  },
-  {
    "id": 177,
    "at": "2026-09-25T17:47:20.375353+09:00",
    "kind": "insight",
@@ -450,7 +436,19 @@
    ],
    "img": "c1081551d8bc259c107f85e9f8b2c176",
    "head": "BTC 13.5% 뛰는 동안 수요는 오히려 줄었음 "
+  },
+  {
+   "id": 217,
+   "at": "2026-09-28T16:52:21.328810+09:00",
+   "kind": "insight",
+   "fp": "8e5e21c77740e8e7",
+   "refs": [
+    "news:89279539486349",
+    "url:https://www.tokenpost.kr/news/briefing/415044"
+   ],
+   "img": "8716c1d82af314b10518b5c237d5dd67",
+   "head": "트럼프발 이란 리스크, 채권시장부터 흔들었음 "
   }
  ],
- "last_pub_at": "2026-09-28T15:42:17.537086+09:00"
+ "last_pub_at": "2026-09-28T16:52:21.328810+09:00"
 }
