@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 179,
-   "at": "2026-09-25T20:47:20.291701+09:00",
-   "kind": "insight",
-   "fp": "d4dc907d74d2adcc",
-   "refs": [
-    "news:204982871675184",
-    "url:https://www.blockmedia.co.kr/archives/1144244"
-   ],
-   "img": "5763675fba60e776876e8e0ff58b550a",
-   "head": "블록, AI 결제 표준 'x402'에 비트코인 라이트닝 결제 기여 "
-  },
-  {
    "id": 180,
    "at": "2026-09-25T22:04:27.224739+09:00",
    "kind": "insight",
@@ -448,7 +436,27 @@
    ],
    "img": "b1ebebea31d52cdc41e7e42b82df6a29",
    "head": "클래리티 법안은 막혔는데, 규제는 계속 가는 중 "
+  },
+  {
+   "id": 220,
+   "at": "2026-09-28T21:52:20.514374+09:00",
+   "kind": "insight",
+   "fp": "0b870b6a368090e0",
+   "refs": [
+    "news:209258055613483",
+    "url:https://www.blockmedia.co.kr/archives/1145018",
+    "news:218770137656503",
+    "url:https://news.google.com/rss/articles/CBMiT0FVX3lxTFBteUFQQkhDNHhKYVJFd1FUWUhvLXZLX0xEcnBjS1g4eFpnS2c3dDR2Uy1WSFZrYWx5OHlnRTB2b1NwQmx6NVBWQ2QzVUV4eHc",
+    "coinnesskr:232388",
+    "url:https://t.me/coinnesskr/232388",
+    "news:172680037497470",
+    "url:https://www.tokenpost.kr/news/briefing/415134",
+    "coinnesskr:232374",
+    "url:https://t.me/coinnesskr/232374"
+   ],
+   "img": "e41ddb974cfeafae0da9842d036ad45f",
+   "head": "速보) 美 10년물 국채금리 5.22%, 2007년 후 최고 "
   }
  ],
- "last_pub_at": "2026-09-28T20:12:22.925946+09:00"
+ "last_pub_at": "2026-09-28T21:52:20.514374+09:00"
 }
