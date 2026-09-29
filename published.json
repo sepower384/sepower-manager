@@ -496,7 +496,19 @@
    ],
    "img": "ac00cce2a4cd5f4e8c8a7d3ee43dbe04",
    "head": "금리 급등이 BTC 강세장까지 가는 경로 (비트와이즈 시각) "
+  },
+  {
+   "id": 240,
+   "at": "2026-09-30T02:12:18.492477+09:00",
+   "kind": "whale",
+   "fp": "1899b8bc6e71da4f",
+   "refs": [
+    "whalealertkorean:171093",
+    "url:https://t.me/whalealertkorean/171093"
+   ],
+   "img": "4cd3b3f9d7d29f6ca570458af7284f6c",
+   "head": "🐋 고래 거래소 간 이동 포착 "
   }
  ],
- "last_pub_at": "2026-09-30T01:04:37.095934+09:00"
+ "last_pub_at": "2026-09-30T02:12:18.492477+09:00"
 }
