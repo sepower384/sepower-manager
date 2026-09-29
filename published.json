@@ -1,32 +1,6 @@
 {
  "posts": [
   {
-   "id": 192,
-   "at": "2026-09-26T13:52:18.569617+09:00",
-   "kind": "insight",
-   "fp": "83be7844b4aebcee",
-   "refs": [
-    "news:15066837634778",
-    "url:https://www.blockmedia.co.kr/archives/1144437",
-    "news:142019130583011",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTFBTdEUzemhlZTdOWHNGVTFPSWtNanhqVm5LWFVCalBUMXFNOHhwc0tyR2hiSzhkWDhmcFdfSEMya0EyUk9RTGZGb2ZhVmN1cDNB"
-   ],
-   "img": "d939f48ea9e735a61cbd4f0a4e241a81",
-   "head": "트레저리 기업 프리미엄 무너지니 벌어지는 일 "
-  },
-  {
-   "id": 193,
-   "at": "2026-09-26T15:12:20.719745+09:00",
-   "kind": "insight",
-   "fp": "36259fea930de7d2",
-   "refs": [
-    "news:8586025815715",
-    "url:https://news.google.com/rss/articles/CBMingFBVV95cUxQaHlZSm50blhYcXFWaF9JOXhOc280S3ZSa2k3UVhWaEJRbDdTc042bXJaMnMxYkRzV1NnTDc3alV0WmtNZ2F0aUJuTDV4WS1aanI2UTE1OHdIZ1ZBY2wxX3psWWFIakowbW45X05tcVZkb2FqeHJ0TjR2TWpfVjJtNHgteXY2S2wxQ3JWRnVyelZUX21vbTE5eGZiSkxwQQ"
-   ],
-   "img": "98a9b8b9570df036a07a1346a4d76b74",
-   "head": "'크립토 맘' 헤스터 피어스 SEC 사퇴, 10/2 "
-  },
-  {
    "id": 194,
    "at": "2026-09-26T16:52:18.060875+09:00",
    "kind": "insight",
@@ -480,7 +454,19 @@
    ],
    "img": "e4f929bc22ef37ef5056efe017db9cc5",
    "head": "스트래티지 3568 BTC 옮겼다는데 이게 곧 매도일까 "
+  },
+  {
+   "id": 233,
+   "at": "2026-09-29T15:42:18.289476+09:00",
+   "kind": "insight",
+   "fp": "0e1dee3e508695a7",
+   "refs": [
+    "news:54949891774366",
+    "url:https://www.tokenpost.kr/news/economy/415579"
+   ],
+   "img": "095896c77704e2440d11293dd843f1e5",
+   "head": "MOVE 이틀 새 35% 급등, 여기서 갈림 "
   }
  ],
- "last_pub_at": "2026-09-29T13:47:23.279257+09:00"
+ "last_pub_at": "2026-09-29T15:42:18.289476+09:00"
 }
