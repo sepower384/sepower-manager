@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 197,
-   "at": "2026-09-26T21:42:20.993803+09:00",
-   "kind": "insight",
-   "fp": "a767ebd836fe1582",
-   "refs": [
-    "coinnesskr:232271",
-    "url:https://t.me/coinnesskr/232271"
-   ],
-   "img": "573c9af60a6e5621e78084e95749d369",
-   "head": "XRP 고래 매집 뒤에 있는 진짜 그림 "
-  },
-  {
    "id": 201,
    "at": "2026-09-27T18:06:21.836340+09:00",
    "kind": "insight",
@@ -468,7 +456,21 @@
    ],
    "img": "55f561fcf712b409ddef33082a24c489",
    "head": "금리 오르면 무조건 악재일까 "
+  },
+  {
+   "id": 237,
+   "at": "2026-09-29T22:12:21.611111+09:00",
+   "kind": "insight",
+   "fp": "daedb1a0f3f83d3e",
+   "refs": [
+    "news:59867418336896",
+    "url:https://cryptoslate.com/altcoin-spot-volume-nears-4x-bitcoins-as-etf-inflows-shrink-across-five-sessions/",
+    "news:15692329165366",
+    "url:https://cointelegraph.com/markets/us-crypto-etf-inflows-cool-bitcoin-ether-solana-xrp"
+   ],
+   "img": "b32f560bae5abc323fabe14c2d3118d5",
+   "head": "다들 ETF에 24억달러 들어왔으니 BTC 강세라고 하는데 "
   }
  ],
- "last_pub_at": "2026-09-29T20:17:25.886429+09:00"
+ "last_pub_at": "2026-09-29T22:12:21.611111+09:00"
 }
