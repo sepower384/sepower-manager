@@ -1,27 +1,6 @@
 {
  "posts": [
   {
-   "id": 190,
-   "at": "2026-09-26T10:22:22.992994+09:00",
-   "kind": "brief",
-   "fp": "428650ca34085dff",
-   "refs": [],
-   "img": "eeca60228b0faecc5947ceafd6dad07a",
-   "head": "☀️ 9/26(토) 아침 체크포인트 "
-  },
-  {
-   "id": 191,
-   "at": "2026-09-26T11:57:16.906624+09:00",
-   "kind": "insight",
-   "fp": "60e65be6a4d433dd",
-   "refs": [
-    "news:65245736620442",
-    "url:https://www.blockmedia.co.kr/archives/1144408"
-   ],
-   "img": "2fdc46788414f5635ac510cac4bf144f",
-   "head": "4년 잠든 비트코인 4500개, 드디어 움직였음 "
-  },
-  {
    "id": 192,
    "at": "2026-09-26T13:52:18.569617+09:00",
    "kind": "insight",
@@ -459,7 +438,21 @@
    ],
    "img": "187b80af8228ccbaf9138adc2b31493b",
    "head": "다들 IRS의 ETF 세금 단속이라니까 크립토 악재로 읽는데 "
+  },
+  {
+   "id": 230,
+   "at": "2026-09-29T11:57:24.879398+09:00",
+   "kind": "insight",
+   "fp": "618982138db8186a",
+   "refs": [
+    "news:70763421411540",
+    "url:https://www.blockmedia.co.kr/archives/1145253",
+    "news:33294489449901",
+    "url:https://www.digitalasset.works/news/articleView.html"
+   ],
+   "img": "f1601d5cffde32be6a9f163886dc8363",
+   "head": "스위프트 토큰화 원장에 은행이 붙는 길이 열렸음. 체인링크 발표 정리 "
   }
  ],
- "last_pub_at": "2026-09-29T10:17:24.825531+09:00"
+ "last_pub_at": "2026-09-29T11:57:24.879398+09:00"
 }
