@@ -564,7 +564,21 @@
    ],
    "img": "1662bcce153f1b2caa64c9900586f55e",
    "head": "비트겟 준비금 131% vs 127%, 뭐가 맞나 "
+  },
+  {
+   "id": 246,
+   "at": "2026-09-30T08:04:30.644030+09:00",
+   "kind": "insight",
+   "fp": "8afd5a871966099c",
+   "refs": [
+    "coinnesskr:232603",
+    "url:https://t.me/coinnesskr/232603",
+    "coinnesskr:232598",
+    "url:https://t.me/coinnesskr/232598"
+   ],
+   "img": "fa93a03b868a457c43f97f3a1ce84c5c",
+   "head": "이번 조정 시나리오, 지지선 순서가 관건 "
   }
  ],
- "last_pub_at": "2026-09-30T06:52:21.625191+09:00"
+ "last_pub_at": "2026-09-30T08:04:30.644030+09:00"
 }
