@@ -470,7 +470,21 @@
    ],
    "img": "b32f560bae5abc323fabe14c2d3118d5",
    "head": "다들 ETF에 24억달러 들어왔으니 BTC 강세라고 하는데 "
+  },
+  {
+   "id": 238,
+   "at": "2026-09-29T23:27:17.257354+09:00",
+   "kind": "insight",
+   "fp": "997ed3e33ba7d35a",
+   "refs": [
+    "coinnesskr:232546",
+    "url:https://t.me/coinnesskr/232546",
+    "news:112571990832286",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/415807"
+   ],
+   "img": "7eead98d071c22a224cb842b75ff830c",
+   "head": "BTC는 올랐는데 레버리지는 빠졌음, 두 갈래로 봐야 할 구간 "
   }
  ],
- "last_pub_at": "2026-09-29T22:12:21.611111+09:00"
+ "last_pub_at": "2026-09-29T23:27:17.257354+09:00"
 }
