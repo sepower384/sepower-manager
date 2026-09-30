@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 204,
-   "at": "2026-09-27T22:17:22.326906+09:00",
-   "kind": "insight",
-   "fp": "1f95c303cdfd4edb",
-   "refs": [
-    "news:98818386570228",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/414765"
-   ],
-   "img": "7a71da8d41272daba81279146071b38b",
-   "head": "다들 \"달러 강세=위험자산 부담\"이라 아는데, 최근 15일은 거꾸로 감 "
-  },
-  {
    "id": 205,
    "at": "2026-09-28T00:04:20.521146+09:00",
    "kind": "insight",
@@ -654,7 +642,25 @@
    ],
    "img": "37157af5cb604552e6dade328fead477",
    "head": "BTC ETF는 9거래일째 사는데 가격은 왜 8만4천 아래일까 "
+  },
+  {
+   "id": 256,
+   "at": "2026-09-30T23:12:32.429603+09:00",
+   "kind": "insight",
+   "fp": "a4a7c23b8aa1ae38",
+   "refs": [
+    "news:49689748476253",
+    "url:https://www.blockmedia.co.kr/archives/1146163",
+    "coinnesskr:232708",
+    "url:https://t.me/coinnesskr/232708",
+    "news:264599421153010",
+    "url:https://news.google.com/rss/articles/CBMiSEFVX3lxTE56Smlmd1h5NjZxNzZvV0VwTzNtV3h2ZmZYeW41cXZ6YTZpYm04U3FwRFJ4NXZWS1JWMXNhc1Vpek05U3hrNzBRSQ",
+    "news:115851762277195",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE5fUmwyQ0MtOUE4TU1GdjA2NFlVV205NEFoeDdKWVZwOWJtU1REcFdsamVNbHBFOEJCTWN2RkxjVThpQml0MlJUV3h3"
+   ],
+   "img": "dd20202ae0b432e1a37b637e47c9b04c",
+   "head": "PCE 예상 하회가 BTC 8만5천까지 오는 경로 "
   }
  ],
- "last_pub_at": "2026-09-30T21:57:19.032822+09:00"
+ "last_pub_at": "2026-09-30T23:12:32.429603+09:00"
 }
