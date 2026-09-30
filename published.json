@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 201,
-   "at": "2026-09-27T18:06:21.836340+09:00",
-   "kind": "insight",
-   "fp": "3a372848cd6c0db5",
-   "refs": [
-    "news:236869151361955",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE5tMWpkTGUyeEZZbGExZHR0MVNVWEhLVElTenAxRUUyeEFjUFY2ZnlJTVNsZlNoRXZCMzZDdVFNd2djRUIwcTMzMGR3"
-   ],
-   "img": "64ef899ba0a0931e395ab894f74e42d6",
-   "head": "비트코인 상관관계 86%, 이게 좋은 신호일까 "
-  },
-  {
    "id": 202,
    "at": "2026-09-27T19:17:22.397425+09:00",
    "kind": "brief",
@@ -647,7 +635,19 @@
    ],
    "img": "5233f2b3eb07ab94ca4386d8670c9119",
    "head": "이미 강세장이라는데 BTC는 왜 8만3천대에서 밀리는 중일까 "
+  },
+  {
+   "id": 253,
+   "at": "2026-09-30T18:27:22.099650+09:00",
+   "kind": "insight",
+   "fp": "d590296c529b45b7",
+   "refs": [
+    "news:265199729565891",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/416367"
+   ],
+   "img": "1e5f6a98c9a3c17428c4d07bfbf239e2",
+   "head": "ETF 평균 매입단가 추정치 8만1722달러, 현재가에서 약 2.2% 아래 "
   }
  ],
- "last_pub_at": "2026-09-30T16:42:21.471679+09:00"
+ "last_pub_at": "2026-09-30T18:27:22.099650+09:00"
 }
