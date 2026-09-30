@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 210,
-   "at": "2026-09-28T06:42:20.981298+09:00",
-   "kind": "insight",
-   "fp": "e27741836c70ec9e",
-   "refs": [
-    "news:221183110112582",
-    "url:https://www.tokenpost.kr/news/blockchain/414831",
-    "news:267372981336497",
-    "url:https://cryptoslate.com/solanas-plan-for-fairer-trades-stalls-as-block-producers-still-choose-which-orders-get-in/"
-   ],
-   "img": "c9d5c6ed0dba6938263d5478b38535fa",
-   "head": "솔라나 SIMD-0649, 결국 없던 일 됨 "
-  },
-  {
    "id": 211,
    "at": "2026-09-28T08:22:57.142878+09:00",
    "kind": "insight",
@@ -666,7 +652,19 @@
    ],
    "img": "dcd7056fd9c968a49f9199dac1747546",
    "head": "美 상원 디지털자산 과세법 발의, 뭐가 달라지나 "
+  },
+  {
+   "id": 265,
+   "at": "2026-10-01T07:04:25.051055+09:00",
+   "kind": "insight",
+   "fp": "b26901d4e1ded2cd",
+   "refs": [
+    "coinnesskr:232747",
+    "url:https://t.me/coinnesskr/232747"
+   ],
+   "img": "86e9facc0ee9f2bf6bfe020a54aff074",
+   "head": "클래리티법 무산됐는데 시장은 왜 올랐을까 "
   }
  ],
- "last_pub_at": "2026-10-01T05:34:45.941785+09:00"
+ "last_pub_at": "2026-10-01T07:04:25.051055+09:00"
 }
