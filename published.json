@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 203,
-   "at": "2026-09-27T21:12:19.671741+09:00",
-   "kind": "insight",
-   "fp": "cdd3197b55d208eb",
-   "refs": [
-    "news:207783198928112",
-    "url:https://www.tokenpost.kr/news/policy/414734"
-   ],
-   "img": "84c00be5733c3a5605e8e21875530729",
-   "head": "토큰화 주식, 진짜 24시간 자유거래 맞나 "
-  },
-  {
    "id": 204,
    "at": "2026-09-27T22:17:22.326906+09:00",
    "kind": "insight",
@@ -650,7 +638,23 @@
    ],
    "img": "95f401d572e6aeb3257cf2fdc96051ec",
    "head": "다들 'BTC 9월 반등 = 강세 신호'라고 하는데 "
+  },
+  {
+   "id": 255,
+   "at": "2026-09-30T21:57:19.032822+09:00",
+   "kind": "insight",
+   "fp": "4ec67059ab4ef338",
+   "refs": [
+    "news:205778457887687",
+    "url:https://cointelegraph.com/markets/bitcoin-etf-streak-9-day-ether-zcash-flip-red",
+    "news:279582562358296",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTFBnRkI4VlhNdXhqN29SamFEM2xtaExiOVNwSDBHUUxIQjMtNHNUbUc4WlRCbmdadGs3SmdsRmx2aTZQcWtrM0NwTVdFMVhoaW9MZTN5MzFNbk8",
+    "news:179520439310893",
+    "url:https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhY0dxUFBodTRYbzZDZi1reDBrMHgwd18zNzhMVjV5NWYtN2VCMUU2MS01ODZDNFJVbjhqY195NllJczdXZm5zVENGUExQb21MYnRUemJ4aGJEOHFNU0JaR0Mxb1g"
+   ],
+   "img": "37157af5cb604552e6dade328fead477",
+   "head": "BTC ETF는 9거래일째 사는데 가격은 왜 8만4천 아래일까 "
   }
  ],
- "last_pub_at": "2026-09-30T20:17:21.372756+09:00"
+ "last_pub_at": "2026-09-30T21:57:19.032822+09:00"
 }
