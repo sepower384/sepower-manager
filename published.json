@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 205,
-   "at": "2026-09-28T00:04:20.521146+09:00",
-   "kind": "insight",
-   "fp": "c5d9add7a49dbdc4",
-   "refs": [
-    "news:56280666922840",
-    "url:https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KNDlITWZwa1JwOGJBazJQUGJRd3lJbGVGYVdZU3k2QzJYUnd3bXQ1VFRkcjZtVUVLdWt6UE9vQmNoVTdtblJWQ1d1WDlTSUxBajlZUGdn",
-    "news:132590348480507",
-    "url:https://news.google.com/rss/articles/CBMilgFBVV95cUxPWnBuWUMzWkg4RWR4QUlUYmN4WFE2cnQtdWZ2dmluc1BWRlplT3JHbkFMQi0yTXUzTllkREtwRHJXVk9NQzgxWEpmT3kyazFrOUowbC1TblBFX05KMURYVHVCQ2RoVWljYXJFOVRxZDZHUTFNYjhDbC1IX0M1c0xiR0FjXzUtc2FHTGtCeDNYSmwtdGttQnc",
-    "news:275151669967532",
-    "url:https://news.google.com/rss/articles/CBMimAFBVV95cUxPWHJlYkhyZTk4aVNZemROXy1NVGxuRVM4djlfeVRmRHFSQjhGWFIxaEd1TndOYV9iMjIybnZHZmdUT09GcUJaR0dUZTA2MnZxSXJLR3BQSmNwMzBkLWNNTUtlRkFOMjJ3RXNSZWJsQ1N5Y3VaUUZWVllVLVpHYXFJTnN1Q2dEQy02Rnk3VldHaklKbU1hSjR0RA"
-   ],
-   "img": "e6f66076c36da22a5a5c69909c7aa688",
-   "head": "ETF 자금, 연초 적자에서 흑자로 "
-  },
-  {
    "id": 206,
    "at": "2026-09-28T01:12:20.012549+09:00",
    "kind": "insight",
@@ -660,7 +644,19 @@
    ],
    "img": "dd20202ae0b432e1a37b637e47c9b04c",
    "head": "PCE 예상 하회가 BTC 8만5천까지 오는 경로 "
+  },
+  {
+   "id": 257,
+   "at": "2026-10-01T00:22:22.057933+09:00",
+   "kind": "insight",
+   "fp": "73f80925cc815cb1",
+   "refs": [
+    "coinnesskr:232714",
+    "url:https://t.me/coinnesskr/232714"
+   ],
+   "img": "19bf69de5bd5eae69e8f8bda9a197d92",
+   "head": "BTC 선물 미결제약정 올해 처음 500억달러 돌파, 이게 강세 신호일까 "
   }
  ],
- "last_pub_at": "2026-09-30T23:12:32.429603+09:00"
+ "last_pub_at": "2026-10-01T00:22:22.057933+09:00"
 }
