@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 208,
-   "at": "2026-09-28T04:12:20.357737+09:00",
-   "kind": "whale",
-   "fp": "3770bbc128264f47",
-   "refs": [
-    "whalealertkorean:170874",
-    "url:https://t.me/whalealertkorean/170874"
-   ],
-   "img": "96c9112f630f1d29599e2b22cb831998",
-   "head": "🐋 고래 대량 이동 포착 "
-  },
-  {
-   "id": 209,
-   "at": "2026-09-28T05:27:25.627019+09:00",
-   "kind": "whale",
-   "fp": "a6144049fe892560",
-   "refs": [
-    "whalealertkorean:170875",
-    "url:https://t.me/whalealertkorean/170875"
-   ],
-   "img": "36330e57b5b0ec00ba8fedbc96269acd",
-   "head": "🐋 고래 거래소 출금 포착 "
-  },
-  {
    "id": 210,
    "at": "2026-09-28T06:42:20.981298+09:00",
    "kind": "insight",
@@ -678,7 +654,19 @@
    ],
    "img": "32c189c56b6a62086b4efeddc62b04ee",
    "head": "칼시 거래량 보상 종료, 근데 진짜 볼 건 따로 있음 "
+  },
+  {
+   "id": 264,
+   "at": "2026-10-01T05:34:45.941785+09:00",
+   "kind": "insight",
+   "fp": "0b8a5715feadbcd3",
+   "refs": [
+    "coinnesskr:232743",
+    "url:https://t.me/coinnesskr/232743"
+   ],
+   "img": "dcd7056fd9c968a49f9199dac1747546",
+   "head": "美 상원 디지털자산 과세법 발의, 뭐가 달라지나 "
   }
  ],
- "last_pub_at": "2026-10-01T03:52:18.623448+09:00"
+ "last_pub_at": "2026-10-01T05:34:45.941785+09:00"
 }
