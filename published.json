@@ -666,7 +666,19 @@
    ],
    "img": "221294323aca9ea9c3aa166c1629ab9c",
    "head": "🐋 고래 거래소 입금 포착 "
+  },
+  {
+   "id": 263,
+   "at": "2026-10-01T02:35:00.727483+09:00",
+   "kind": "insight",
+   "fp": "d49227d048583008",
+   "refs": [
+    "news:89815905551803",
+    "url:https://news.google.com/rss/articles/CBMia0FVX3lxTE5taFVPaHF3bUgySFdCV3pLVXhrZU1ELVNmelZueDdXV3d6NzlmcXVka1VnNVV5dmpBRkZtMlhsY3BhdWpncjFEeXpPMzRBdDZ1YTU4WkVTR01NaUJxYzR1bkNPN0h2ZXg2amdN"
+   ],
+   "img": "86f7d5bae0773b752b22801be6e668b5",
+   "head": "업비트 인도네시아, 엔비디아·애플·테슬라 RWA 상장 (단독) "
   }
  ],
- "last_pub_at": "2026-10-01T01:52:23.283704+09:00"
+ "last_pub_at": "2026-10-01T02:35:00.727483+09:00"
 }
