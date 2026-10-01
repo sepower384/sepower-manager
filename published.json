@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 215,
-   "at": "2026-09-28T14:22:21.859679+09:00",
-   "kind": "insight",
-   "fp": "21b56e787cdcb04a",
-   "refs": [
-    "news:12624572552368",
-    "url:https://www.tokenpost.kr/news/briefing/414938",
-    "news:16300167919447",
-    "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE5COEJuZkN3TmJmT2V1LXVtS3hKbGtsRy1JamlEcl9YZlJOR1FjazFyb1RyamNCVWR4TUtJc0NWQkNwbHVCUjlnVzhPaDg2di13R1JvbnBEbm1pZzQ0Z1JIVUNxZ1dQb3hWVUEzNG9VM1VDY2kyeXp3M2ZwRFlFTkU",
-    "coinnesskr:232338",
-    "url:https://t.me/coinnesskr/232338",
-    "news:207173925444137",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/414909"
-   ],
-   "img": "e00a827c8b471bf468d6525604046eac",
-   "head": "ETF 유입 몰아보기, BTC만 아니라 알트까지 "
-  },
-  {
    "id": 216,
    "at": "2026-09-28T15:42:17.537086+09:00",
    "kind": "insight",
@@ -666,7 +648,27 @@
    ],
    "img": "28046270ff67d884221e586238c3cc4d",
    "head": "파산법원이 풀인 텍사스 채굴 자산 입찰을 다시 열어줬음 "
+  },
+  {
+   "id": 270,
+   "at": "2026-10-01T15:12:21.708698+09:00",
+   "kind": "insight",
+   "fp": "5bf7229d9fa6c2b1",
+   "refs": [
+    "coinnesskr:232810",
+    "url:https://t.me/coinnesskr/232810",
+    "news:58917017809673",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE1sT3QxRXF6Vm1VekJHbjlwNjJXNGFyMUo0U2xWRnRoWDJsb2lzZF9mWnhQS3o5QUx1cHFrSmpuRXZkR1BfZll5WHFkYWlEdms1X3lodkJ4VFA",
+    "news:171321316502779",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE00cmpVWnd6dHhTTU1EVy1CLWZXZTg3QjRxMXY3ZVhTUW5lNGtPSVlGSUpQa0hLOXNLRzNyZkk1RlhnQld3eFhUTkh2ZlZtS0tSV3JlRjFyOFI",
+    "news:230840036677482",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE8zRk1CbDczLUpVaGhpZjhHLThydjBXSGVZQ0hRR3p5dXdWVFI2dzBuczQ5QkdmdmNjUUYyRVhQZmVkU21mNGp6UDZBUTBYLUM4",
+    "news:125584003405421",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFB6dm15NWpINUJWOWxqbWxmNGRNejRjdG1mODJMMWxfRGNYY1FHelE4VWp0U29oMDgwRDhkOURwZHdJQ2huR0xvMVJn"
+   ],
+   "img": "45735efb9abe69057873a8e5eb3865c4",
+   "head": "BTC 명목 수요 아직 마이너스 "
   }
  ],
- "last_pub_at": "2026-10-01T13:42:19.398330+09:00"
+ "last_pub_at": "2026-10-01T15:12:21.708698+09:00"
 }
