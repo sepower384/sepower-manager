@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 226,
-   "at": "2026-09-29T05:35:51.938479+09:00",
-   "kind": "insight",
-   "fp": "2ba5223b3c2b82d2",
-   "refs": [
-    "news:268402768821504",
-    "url:https://news.google.com/rss/articles/CBMid0FVX3lxTE5wUWRLeEN0ZWZLcEVaOE5kOFBYN0dwZFRnSWE1UWZENVdHdGZCX0plaTdCV0ZwZ29YRW5kQlZoMFBqMVU1QVBHOHVKNVNvM01OVFpXaE9qb20xVzQ1RVUwaGxKS2pkTFlhRGw4YnJhYVlsRUx4a2tB",
-    "news:275618943955353",
-    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ESkJRRHRtMUZCNlc1SndYRkhJR1pFdjFoUjgwZlBVUUlTUDNLRU5hMGM5MklCbFZxQWxMcWV3ODBIbVFWTG43MHFKMGNQSmwzbm96QXB6d3dpTm5oc0hsclNfSFpybWfSAWxBVV95cUxPQlVMejVaLWVfQnpZQnl0Wkp3TC1nOEZPV1hDTzN2S0U3djBQNE05TENMRzlGNkl4aTA0b29lUmxObGNvOEpWTGdOU3p0eVZOVFpMejVhYVhsYzdCc0hKVDBTN3lZcF83TVpCTWc",
-    "news:139099857421159",
-    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tQVU3OXpIUUgxS0kxOWpORGExWWtvQjhSUHNUMDZUQkhOSlUxLU5vdWdzS1hHS3hTamVsXzZLNlFDdGdTOW4yTWprODZqT1pnYVNScFpndlNidw",
-    "news:247429256439533",
-    "url:https://www.blockmedia.co.kr/archives/1145180",
-    "news:74012938291601",
-    "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZGk5anpISWM1ZzRHa1UzZ1ZpTm84Y1hNakZYeS1TdE02RVZwMllmRmprMmVoRzFlcFN6SmxCdkF1S0xNOVhnOVRDZ185N1V0WmlwaXp1ZG1pR2R4Q2lZQTBPMWhTa3A1My14UEE5ZWFOeFdkVkhkMXpZRFNEZXl5Y3l6TUFnZkNV"
-   ],
-   "img": "727d556af0eb31b3df55c70bbaeba6dc",
-   "head": "속보) 나스닥 0.9% 하락, 美 10년물 5.2% 돌파 "
-  },
-  {
    "id": 227,
    "at": "2026-09-29T07:34:31.350416+09:00",
    "kind": "insight",
@@ -676,7 +656,29 @@
    ],
    "img": "9860d885699765e8ee81250b362aee3f",
    "head": "속보) 美 10년물 금리 5.342%, 2002년 4월 이후 최고 찍고 반락 "
+  },
+  {
+   "id": 282,
+   "at": "2026-10-02T07:17:16.876209+09:00",
+   "kind": "insight",
+   "fp": "a595cd4f1cac33f7",
+   "refs": [
+    "news:180056898165285",
+    "url:https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkJiaFZaTHVYUGQxdlhvb2p3eDBxeUhQM1l5S0ZnNExCVjB6LTl4UU9IQXlCdlBFSDlQanlCdUJTYlN2T1JhbkktX3RWcnRXVTFPUl9oUHZIN0tZOG83eVlEOXNXZEh2eVBWRy0tZm82VDYxWEdVOG4ya01lNjI2bUo1MW5NeGROTUdjUlZCTkt0R01OUHY2SUNxY2JaeUl6Q1Vld2xaX25LQ2wxSno3ZnUtNXVKRkFWWjlz0gFaQVVfeXFMUGtnLTNjeGZwQk5EY0F6OG9ackljQThERFcxenF4WDNPLTdJekJKMHF1RE9kNzdRVTl4V0NSY29qXzN5a29JQXMtRVp2aS1rRjg2a2NDLWtyLWp3",
+    "news:18208132424828",
+    "url:https://www.theblock.co/news/regulation/2026-10-01-sec-proposes-crypto-custody-rule-investment-advisers-funds-417498",
+    "news:134510681087764",
+    "url:https://news.google.com/rss/articles/CBMid0FVX3lxTE5Ya2RBZm5Tbm93UkV5OUh0YTlwNzVQWHB3cHhBeE1GZmhFenhoSDNkdTVsZl9GcmhzLW9NY1AtdWNNWjlCRXNmTG1YMUpWNjdlTjg2YThLdFBPUHNYZlk2QUVzc3VDQmFVWW4tY3lpX2w1Ynh4a2dZ",
+    "news:195880971148362",
+    "url:https://news.google.com/rss/articles/CBMie0FVX3lxTFBaR2hfam13T3pOd29tU0pvUEpGTlk0ck1GRTE0dzlGMmtmOVpPbVRHbUJSbzljLWRDVFdHUFM1d1hudmlONnNfd3RNWXYwdjJCcEFpY2pHZkxaNDJsQUItdklxZF9TLVFTZWFULWpGaklwUXZmZUczdElyMA",
+    "coinnesskr:232902",
+    "url:https://t.me/coinnesskr/232902",
+    "news:185473509285211",
+    "url:https://news.google.com/rss/articles/CBMiygFBVV95cUxOS1M3dFdnaHdFNGh3VzJJOXd4TTd1WThPdzNvVGl4WVZpVDVEOFNody0talNRN0pMZ1pMMURTOFdSZ0lwSXRHckdOSTlBclJvS0twMFFXLU5xdWlhTGxfMlpVd2hEQXZJTkhLdFRod3gyejJHTWRiVnFmblg1bTZPWXZXVjl0V1FnQ3hOZDZ1c0h0LWJuRkdmQkV6TmdJWV9Pa3RzU2tTbGdpT3BWbTdpSlNsRHhhOHJNalY4M2tDaEwwNEV1cTF1cHFR"
+   ],
+   "img": "81977edd7bc292bd87481f57e5946e74",
+   "head": "SEC 크립토 커스터디 룰, 어디까지 왔나 "
   }
  ],
- "last_pub_at": "2026-10-02T05:35:16.387042+09:00"
+ "last_pub_at": "2026-10-02T07:17:16.876209+09:00"
 }
