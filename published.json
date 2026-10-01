@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 222,
-   "at": "2026-09-29T00:34:34.671162+09:00",
-   "kind": "insight",
-   "fp": "0c5f2492dd810a3b",
-   "refs": [
-    "news:161679686239693",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/415247"
-   ],
-   "img": "4ac1badde98674c612ae7ed4f1f6a4b9",
-   "head": "BTC 50주선, 44주 만에 재탈환 "
-  },
-  {
    "id": 223,
    "at": "2026-09-29T02:27:19.997831+09:00",
    "kind": "whale",
@@ -660,7 +648,19 @@
    ],
    "img": "eee8e48ebaa44e72a00d87ce93da7b0e",
    "head": "8만5천 근처에서 가격이 자꾸 막히는 이유가 뭘까 "
+  },
+  {
+   "id": 277,
+   "at": "2026-10-02T00:57:23.481535+09:00",
+   "kind": "insight",
+   "fp": "ef0d56f306613217",
+   "refs": [
+    "news:218600938252357",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/417158"
+   ],
+   "img": "fe85002e9455fc6dc23deeb3efd3fca3",
+   "head": "2023년 1월 vs 2026년 9월, 온체인 무기한선물 DEX "
   }
  ],
- "last_pub_at": "2026-10-01T23:34:27.746263+09:00"
+ "last_pub_at": "2026-10-02T00:57:23.481535+09:00"
 }
