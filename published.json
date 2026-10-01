@@ -1,40 +1,6 @@
 {
  "posts": [
   {
-   "id": 220,
-   "at": "2026-09-28T21:52:20.514374+09:00",
-   "kind": "insight",
-   "fp": "0b870b6a368090e0",
-   "refs": [
-    "news:209258055613483",
-    "url:https://www.blockmedia.co.kr/archives/1145018",
-    "news:218770137656503",
-    "url:https://news.google.com/rss/articles/CBMiT0FVX3lxTFBteUFQQkhDNHhKYVJFd1FUWUhvLXZLX0xEcnBjS1g4eFpnS2c3dDR2Uy1WSFZrYWx5OHlnRTB2b1NwQmx6NVBWQ2QzVUV4eHc",
-    "coinnesskr:232388",
-    "url:https://t.me/coinnesskr/232388",
-    "news:172680037497470",
-    "url:https://www.tokenpost.kr/news/briefing/415134",
-    "coinnesskr:232374",
-    "url:https://t.me/coinnesskr/232374"
-   ],
-   "img": "e41ddb974cfeafae0da9842d036ad45f",
-   "head": "速보) 美 10년물 국채금리 5.22%, 2007년 후 최고 "
-  },
-  {
-   "id": 221,
-   "at": "2026-09-28T23:27:23.135144+09:00",
-   "kind": "insight",
-   "fp": "baee0f776cd671ce",
-   "refs": [
-    "coinnesskr:232405",
-    "url:https://t.me/coinnesskr/232405",
-    "news:191381301816895",
-    "url:https://cointelegraph.com/markets/btc-price-eyes-best-q3-in-nine-years-three-things-to-know-in-bitcoin-this-week"
-   ],
-   "img": "6fa1e5b27fe0194fa9288df2f2225009",
-   "head": "이번주 BTC, 3분기 성적표 vs 8만2500 지지선 "
-  },
-  {
    "id": 222,
    "at": "2026-09-29T00:34:34.671162+09:00",
    "kind": "insight",
@@ -682,7 +648,19 @@
    ],
    "img": "2303da7c2edd43278ffb20c400ea0d95",
    "head": "토큰화 RWA 시장 커졌다는데, 규모만 보면 쓰임을 놓침 "
+  },
+  {
+   "id": 276,
+   "at": "2026-10-01T23:34:27.746263+09:00",
+   "kind": "insight",
+   "fp": "fe5757851950e40e",
+   "refs": [
+    "coinnesskr:232851",
+    "url:https://t.me/coinnesskr/232851"
+   ],
+   "img": "eee8e48ebaa44e72a00d87ce93da7b0e",
+   "head": "8만5천 근처에서 가격이 자꾸 막히는 이유가 뭘까 "
   }
  ],
- "last_pub_at": "2026-10-01T21:47:26.868562+09:00"
+ "last_pub_at": "2026-10-01T23:34:27.746263+09:00"
 }
