@@ -668,7 +668,21 @@
    ],
    "img": "c35ff8f48476a331c9898b4475a460d8",
    "head": "씨티가 BTC 12개월 목표가를 11만3000달러로 올렸는데 가격은 8만3천대 그대로임 "
+  },
+  {
+   "id": 275,
+   "at": "2026-10-01T21:47:26.868562+09:00",
+   "kind": "insight",
+   "fp": "cbbb5d79429482b1",
+   "refs": [
+    "news:32387440451033",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/417077",
+    "news:46586838436525",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/417058"
+   ],
+   "img": "2303da7c2edd43278ffb20c400ea0d95",
+   "head": "토큰화 RWA 시장 커졌다는데, 규모만 보면 쓰임을 놓침 "
   }
  ],
- "last_pub_at": "2026-10-01T20:35:12.082696+09:00"
+ "last_pub_at": "2026-10-01T21:47:26.868562+09:00"
 }
