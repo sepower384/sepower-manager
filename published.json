@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 219,
-   "at": "2026-09-28T20:12:22.925946+09:00",
-   "kind": "insight",
-   "fp": "90b416714abe4a73",
-   "refs": [
-    "news:245991961908140",
-    "url:https://www.tokenpost.kr/news/policy/415101",
-    "news:89779029356203",
-    "url:https://news.google.com/rss/articles/CBMipwFBVV95cUxOVUt0WDVxVkdNT0p5Z0NzQ2lObFZzalI0a2NtY2RIT3dRaENhS2FnUGtzYzdFVnB0dU5BNVo3bkthS0ZZbTZBdXZXc0tYcnBNUFIxSUVfZUpyUjROYmFWZjAyX2F5VEJlVXE4SDBvMHNQVVZVeXR5NEZYX0Foemo1RnJVMDdtTG9IcGFHdkF6bDhrRDBaRExNa3RydVYtS3RCalJsUlBaNNIBrAFBVV95cUxPdVR2THV0Ry02bjl4b2pHYlpPVkY5bzJjNjVTaUMtT3BoVUNITkNBMVpxS2VMdGNxRjhoYWFWSEdZME9OWjVIOXFRbUR4RkhIdnBKNm1kWHV6LTBqdXdDVE1TUDI4YzdpMEFnRS1RZlNqbXhfS3ZxM1hCRHBIeFJObkEtMHdzM19UM2VoQkJJUXpubTJ3d1dPT05BU3JVbVJxczJzRjljbU9fMnJC",
-    "news:10665570520179",
-    "url:https://news.google.com/rss/articles/CBMiXEFVX3lxTE5JMEw5UDU3dFRLUkVtTm5vbVMxcThHVEhac18tSWV0N3FwWTVKdG81SVdjQUY4MWxwcTNUaS01VnF1MkVpY2N5dG9nTUt5RERXX052ekl4cnVCQ1FB"
-   ],
-   "img": "b1ebebea31d52cdc41e7e42b82df6a29",
-   "head": "클래리티 법안은 막혔는데, 규제는 계속 가는 중 "
-  },
-  {
    "id": 220,
    "at": "2026-09-28T21:52:20.514374+09:00",
    "kind": "insight",
@@ -668,7 +652,23 @@
    ],
    "img": "d1b61815cdf7231ae64e5bbdc463adcb",
    "head": "DAT 기업 59곳이 평단 아래라는데 정작 물량은 12.8%뿐 "
+  },
+  {
+   "id": 274,
+   "at": "2026-10-01T20:35:12.082696+09:00",
+   "kind": "insight",
+   "fp": "35c639897a6ec5b2",
+   "refs": [
+    "coinnesskr:232842",
+    "url:https://t.me/coinnesskr/232842",
+    "news:222717312532373",
+    "url:https://news.google.com/rss/articles/CBMiT0FVX3lxTE90Z0pvRVhRcW42WF9pWVltdGZwSldUQXZweUNtRDFQcXo2N01QclFjXzhsN0tTQkhCcU1COEszbWRtbnhaYUNuT08tb0cyQ2c",
+    "news:220259739202995",
+    "url:https://news.google.com/rss/articles/CBMivAFBVV95cUxNa1FvampNWHlZUk1sNFhKQW9VN0s5UUZlRjlMbmdBUkYyZkdmS0NLZUxOdS1hQ1lpWjV4ZEp4MlctZEt4bDctdU1HNGxZdmMxXzA3Y0xaOWx4SmVCR0o4ZUxUWkt0NmdsT2xFbGNNX3FnNGh3aGJqRHBzMVp1SER6a3lOMjhQU0YtWTJHRzQ3U0YxQUdzZEhOSWJXbkNhZFEtU0dYSFdMZm9Td2o0NjNpMlc3UlFzSXdDbGNTRg"
+   ],
+   "img": "c35ff8f48476a331c9898b4475a460d8",
+   "head": "씨티가 BTC 12개월 목표가를 11만3000달러로 올렸는데 가격은 8만3천대 그대로임 "
   }
  ],
- "last_pub_at": "2026-10-01T18:57:19.017053+09:00"
+ "last_pub_at": "2026-10-01T20:35:12.082696+09:00"
 }
