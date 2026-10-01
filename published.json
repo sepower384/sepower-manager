@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 213,
-   "at": "2026-09-28T11:34:18.991278+09:00",
-   "kind": "insight",
-   "fp": "91a0feb215e7bb88",
-   "refs": [
-    "news:134520565264923",
-    "url:https://www.tokenpost.kr/news/economy/414901"
-   ],
-   "img": "0ef4c606284d08e693f9a46bffbc4e31",
-   "head": "9/30 국채 2020억달러 결제, 봐야 할 건 SOFR임 "
-  },
-  {
    "id": 214,
    "at": "2026-09-28T12:42:21.365151+09:00",
    "kind": "liquidation",
@@ -664,7 +652,21 @@
    "refs": [],
    "img": "c6a7388b34a48bfec591ce16fbb811c5",
    "head": "☀️ 10/1(목) 아침 체크포인트 "
+  },
+  {
+   "id": 268,
+   "at": "2026-10-01T11:42:25.090687+09:00",
+   "kind": "insight",
+   "fp": "3b4f36c5590afa1a",
+   "refs": [
+    "news:235990971574816",
+    "url:https://cointelegraph.com/news/metamask-exits-lido-validators-as-it-investigates-security-incident",
+    "coinnesskr:232761",
+    "url:https://t.me/coinnesskr/232761"
+   ],
+   "img": "dcb30664e1aca46fdba0673659d2023d",
+   "head": "메타마스크 인프라 보안 사고가 라이도까지 번졌음 "
   }
  ],
- "last_pub_at": "2026-10-01T10:12:23.984873+09:00"
+ "last_pub_at": "2026-10-01T11:42:25.090687+09:00"
 }
