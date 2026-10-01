@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 216,
-   "at": "2026-09-28T15:42:17.537086+09:00",
-   "kind": "insight",
-   "fp": "e8f7160097f87eb1",
-   "refs": [
-    "coinnesskr:232346",
-    "url:https://t.me/coinnesskr/232346"
-   ],
-   "img": "c1081551d8bc259c107f85e9f8b2c176",
-   "head": "BTC 13.5% 뛰는 동안 수요는 오히려 줄었음 "
-  },
-  {
    "id": 217,
    "at": "2026-09-28T16:52:21.328810+09:00",
    "kind": "insight",
@@ -668,7 +656,19 @@
    ],
    "img": "45735efb9abe69057873a8e5eb3865c4",
    "head": "BTC 명목 수요 아직 마이너스 "
+  },
+  {
+   "id": 272,
+   "at": "2026-10-01T16:04:35.986901+09:00",
+   "kind": "insight",
+   "fp": "fd707f3888ca71b8",
+   "refs": [
+    "news:264346264403596",
+    "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxPa0NzUUQxYWQtSzhEbFNGVnMwMWxqaHVMUHVHTmdJNExjVlN4VGVDdFJYWkJTSzE2YnUwRTc2Mk1HTzBWVV9mWmxZaTJtR1NuWFVDUmZBZ2JEcFZkaDRPR3I2OFZtS1VhWlRiODU3X1VVQXVMU0hjaW5BMl9CRXR0Yjd3RDlrLWQ0cXpYLWh6TV9IVllNeUJiaHZiYw"
+   ],
+   "img": "57c1a8857906fe56e066710ea41b41a7",
+   "head": "속보) 메타마스크 보안 사고로 라이도 이더리움 검증인 긴급 종료 절차 진행 중 "
   }
  ],
- "last_pub_at": "2026-10-01T15:12:21.708698+09:00"
+ "last_pub_at": "2026-10-01T16:04:35.986901+09:00"
 }
