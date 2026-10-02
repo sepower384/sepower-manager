@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 231,
-   "at": "2026-09-29T13:47:23.279257+09:00",
-   "kind": "insight",
-   "fp": "dac69f77b41b2f31",
-   "refs": [
-    "coinnesskr:232473",
-    "url:https://t.me/coinnesskr/232473",
-    "news:206980016191024",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlXzdIVjlpUks4OFJ3TkNpSDY3b2RfS205Nmpjck5HNlplVmtfQzkxaS10UzNhTzI4TlIyN1RncF9Hdmc0ZlJiVTE3SGtWcXNaLU4zUmZ3a3E",
-    "news:171700355986723",
-    "url:https://news.google.com/rss/articles/CBMickFVX3lxTE5zcUEtOTJhZkx2cDFnR3Y1VGNmOVQ4THdaS1N3a1ZOOTE5OEVubWdYd2FnSl9SMVVJbUVtc1ZpbUdydXdQNE9heGpmWDJPMTRUbm1XZDlFSmU4aXVXU0lrbm45WlZCTzdzLWhUdTJJb3FCUQ"
-   ],
-   "img": "e4f929bc22ef37ef5056efe017db9cc5",
-   "head": "스트래티지 3568 BTC 옮겼다는데 이게 곧 매도일까 "
-  },
-  {
    "id": 233,
    "at": "2026-09-29T15:42:18.289476+09:00",
    "kind": "insight",
@@ -683,7 +667,19 @@
    ],
    "img": "e6675ea53de050aa2f25467a82e71910",
    "head": "속보) BTC 8만6000달러 돌파 "
+  },
+  {
+   "id": 288,
+   "at": "2026-10-02T15:22:22.236530+09:00",
+   "kind": "liquidation",
+   "fp": "ed17b2005b1af63c",
+   "refs": [
+    "whaleliquidation:3059713",
+    "url:https://t.me/whaleliquidation/3059713"
+   ],
+   "img": "f707e0e69d52668becd23cb9ea5dd382",
+   "head": "💥 대규모 숏 청산 감지 "
   }
  ],
- "last_pub_at": "2026-10-02T13:35:10.075657+09:00"
+ "last_pub_at": "2026-10-02T15:22:22.236530+09:00"
 }
