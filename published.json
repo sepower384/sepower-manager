@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 237,
-   "at": "2026-09-29T22:12:21.611111+09:00",
-   "kind": "insight",
-   "fp": "daedb1a0f3f83d3e",
-   "refs": [
-    "news:59867418336896",
-    "url:https://cryptoslate.com/altcoin-spot-volume-nears-4x-bitcoins-as-etf-inflows-shrink-across-five-sessions/",
-    "news:15692329165366",
-    "url:https://cointelegraph.com/markets/us-crypto-etf-inflows-cool-bitcoin-ether-solana-xrp"
-   ],
-   "img": "b32f560bae5abc323fabe14c2d3118d5",
-   "head": "다들 ETF에 24억달러 들어왔으니 BTC 강세라고 하는데 "
-  },
-  {
    "id": 238,
    "at": "2026-09-29T23:27:17.257354+09:00",
    "kind": "insight",
@@ -687,7 +673,19 @@
    ],
    "img": "01b9182029823b3738d641b23af04d6b",
    "head": "8만9천 가까워지는데, 거기서 파는 쪽이 많을까 사는 쪽이 많을까 "
+  },
+  {
+   "id": 294,
+   "at": "2026-10-02T23:22:25.400397+09:00",
+   "kind": "insight",
+   "fp": "4137d256a46b0a0d",
+   "refs": [
+    "coinnesskr:232991",
+    "url:https://t.me/coinnesskr/232991"
+   ],
+   "img": "08cce2b9f42c06af053be1d4ee005a45",
+   "head": "BTC 현물 수요는 살아나는 중인데, 미국은 아직임 "
   }
  ],
- "last_pub_at": "2026-10-02T22:04:23.788566+09:00"
+ "last_pub_at": "2026-10-02T23:22:25.400397+09:00"
 }
