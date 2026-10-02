@@ -1,29 +1,6 @@
 {
  "posts": [
   {
-   "id": 227,
-   "at": "2026-09-29T07:34:31.350416+09:00",
-   "kind": "insight",
-   "fp": "e24c3ce73c0e565d",
-   "refs": [
-    "news:44151734556653",
-    "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxPSHpBdDB1VW9ZMEVUMEFNbjZtdEFWeUp5YWIzQVhTUldESVBTV3Q5QUE4UkZ0cE9NYl92dUJiYXd4bHhjU01rWFYxWWpuYU5FY1JsVVVucWRNTXc4SmZZQS13cWhNZU04UXFhcHltN1lTcTdHR3gyWW5TdTF1cWFocUlUeUd6LThoQlJTRkI3Qlo4b28",
-    "news:107062949830295",
-    "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxNVU0ySGhNRDZ2OExkNERsM0JwSzl5dGhReG9aVmRsclZoVzdSdTJ4bzFiT0VHRElQR1Q3a2FmZm1NbkpMbWhPNWI1b1Ywc0ZiUEI2X1ViaVFIVFVhNExZV1hXbWxQMTNaZ0NpVm4tZGFyN2RyNXdiMXpMOUJ5U1ZMQWNJSGdOT2lUT0lTWGd4UEhJLS0yZzNPSXZTdw"
-   ],
-   "img": "9944ba0c85a43bae1b161117fc7e6bab",
-   "head": "테더 \"이란 연계 5.5억달러 동결\" 발표했는데 숫자가 좀 안 맞음 "
-  },
-  {
-   "id": 228,
-   "at": "2026-09-29T08:52:19.423716+09:00",
-   "kind": "brief",
-   "fp": "8cc5cf05545fc1dd",
-   "refs": [],
-   "img": "0e10967ecc22221943ebf14d5ebbb7eb",
-   "head": "☀️ 9/29(화) 아침 체크포인트 "
-  },
-  {
    "id": 229,
    "at": "2026-09-29T10:17:24.825531+09:00",
    "kind": "insight",
@@ -678,7 +655,27 @@
    ],
    "img": "81977edd7bc292bd87481f57e5946e74",
    "head": "SEC 크립토 커스터디 룰, 어디까지 왔나 "
+  },
+  {
+   "id": 283,
+   "at": "2026-10-02T09:12:30.403057+09:00",
+   "kind": "insight",
+   "fp": "4816b223f107ccf1",
+   "refs": [
+    "news:219217617435501",
+    "url:https://www.blockmedia.co.kr/archives/1146869",
+    "news:110813364667549",
+    "url:https://news.google.com/rss/articles/CBMiXkFVX3lxTE9RUklCdC1HdHJ0anVQdHhzdlJmVEVNRHRHUjlOdWl1eDhsOTdFMzcyY1QyaVlKV3RJbE12UnFjZ2JiUWhVYTNRNE9xUkdpR1JUdGdMcDhwN2w1R09QY2c",
+    "news:192206999125987",
+    "url:https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jY3dzcTl3Wmp4V21BLWx4cDBZUjdubF8wRm1OT052Tmkyc0dfWXVPR0lTalVJR3dNWEZkOEx3MHlsM0JYcWFjOFpUQmdha1U",
+    "news:229611357473211",
+    "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wZGFGWGQtRWNfQ0JwclhaMDh0TVY1Yy1EemMxbU5vTGdNUXViU3lwUnQtOU9zRWxvcUtZSHUwRUw0YXl0aHZsMDFPUGpiSG9uNFJCbDJwVHBFSGc",
+    "news:175757711667557",
+    "url:https://www.blockmedia.co.kr/archives/1146872"
+   ],
+   "img": "19da0c5712afcbfac0e0f615a41c3c5d",
+   "head": "미국 금리는 내려왔는데 유럽이 터지는 중 "
   }
  ],
- "last_pub_at": "2026-10-02T07:17:16.876209+09:00"
+ "last_pub_at": "2026-10-02T09:12:30.403057+09:00"
 }
