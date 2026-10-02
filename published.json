@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 234,
-   "at": "2026-09-29T17:27:24.247129+09:00",
-   "kind": "insight",
-   "fp": "c7c671b33e732fa2",
-   "refs": [
-    "news:42200068995934",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/415652"
-   ],
-   "img": "5e168c1448ef9a85c24ff881a6a31ccf",
-   "head": "ETH가 하이퍼리퀴드에서 BTC를 앞질렀음. "
-  },
-  {
-   "id": 235,
-   "at": "2026-09-29T18:42:20.401048+09:00",
-   "kind": "insight",
-   "fp": "bdf303c424c28248",
-   "refs": [
-    "news:280527682729512",
-    "url:https://www.tokenpost.kr/news/insights/415671"
-   ],
-   "img": "3c1a2ef53804c64dc4e815d03d851fb1",
-   "head": "스테이블코인 입법 논의, 어디까지 왔나 "
-  },
-  {
    "id": 236,
    "at": "2026-09-29T20:17:25.886429+09:00",
    "kind": "insight",
@@ -683,7 +659,19 @@
    ],
    "img": "426ba31033d09d397438664b0a8091ff",
    "head": "다들 8만6천 돌파 = 매수세 복귀라고 보는데 "
+  },
+  {
+   "id": 291,
+   "at": "2026-10-02T19:12:17.328813+09:00",
+   "kind": "insight",
+   "fp": "162ad1d4387fe683",
+   "refs": [
+    "coinnesskr:232967",
+    "url:https://t.me/coinnesskr/232967"
+   ],
+   "img": "e621b1526d6b5593c30c5e1a59c32eb3",
+   "head": "거래소 잔고대사 5분 이내로 — 2월 vs 지금 "
   }
  ],
- "last_pub_at": "2026-10-02T17:22:21.353486+09:00"
+ "last_pub_at": "2026-10-02T19:12:17.328813+09:00"
 }
