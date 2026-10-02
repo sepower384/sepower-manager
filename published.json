@@ -1,32 +1,6 @@
 {
  "posts": [
   {
-   "id": 230,
-   "at": "2026-09-29T11:57:24.879398+09:00",
-   "kind": "insight",
-   "fp": "618982138db8186a",
-   "refs": [
-    "news:70763421411540",
-    "url:https://www.blockmedia.co.kr/archives/1145253",
-    "news:33294489449901",
-    "url:https://www.digitalasset.works/news/articleView.html"
-   ],
-   "img": "f1601d5cffde32be6a9f163886dc8363",
-   "head": "스위프트 토큰화 원장에 은행이 붙는 길이 열렸음. 체인링크 발표 정리 "
-  },
-  {
-   "id": 232,
-   "at": "2026-09-29T12:34:46.224275+09:00",
-   "kind": "insight",
-   "fp": "77e112ccbbb6dad6",
-   "refs": [
-    "news:106413451074093",
-    "url:https://news.google.com/rss/articles/CBMiUkFVX3lxTE9xWVE4YldKQWVPYVdlU01vU0NFQl9qTmxlRVpKZ2k2X3Bab0wyV09HREdDTThiYjFtUWpieDVoM1dHWW9jeHhrN1RCcTNCdHBTX2fSAVNBVV95cUxNdmhMR0IzZnBMQjBLR0Jna0hzSVlvRU5odHR0ekh5cWxJdGVZdW5OWVJpMnFTSk5NNTIwM25oaWRKMUx1VXphbVB1aV82VEs3ZWhZSQ"
-   ],
-   "img": "f58702fd3d2c4b96141ff827baa86007",
-   "head": "속보) 이형일 부총리 \"국채 금리 상승 과도하면 긴급 바이백\" "
-  },
-  {
    "id": 231,
    "at": "2026-09-29T13:47:23.279257+09:00",
    "kind": "insight",
@@ -677,7 +651,19 @@
    ],
    "img": "f86a6597b81cb504dd2b33c8bf565f55",
    "head": "연준 쪽 입에서 \"추가 인상\" 얘기가 계속 나오는 중 "
+  },
+  {
+   "id": 286,
+   "at": "2026-10-02T12:42:58.851022+09:00",
+   "kind": "insight",
+   "fp": "4c2723500a999543",
+   "refs": [
+    "news:191441020556835",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/417335"
+   ],
+   "img": "a2d58cc43e13b8ef976a38252f655be7",
+   "head": "국채 투매로 금리가 흔들리는데 새 매수 주체는 누굴까 "
   }
  ],
- "last_pub_at": "2026-10-02T11:04:59.614804+09:00"
+ "last_pub_at": "2026-10-02T12:42:58.851022+09:00"
 }
