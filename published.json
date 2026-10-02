@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 233,
-   "at": "2026-09-29T15:42:18.289476+09:00",
-   "kind": "insight",
-   "fp": "0e1dee3e508695a7",
-   "refs": [
-    "news:54949891774366",
-    "url:https://www.tokenpost.kr/news/economy/415579"
-   ],
-   "img": "095896c77704e2440d11293dd843f1e5",
-   "head": "MOVE 이틀 새 35% 급등, 여기서 갈림 "
-  },
-  {
    "id": 234,
    "at": "2026-09-29T17:27:24.247129+09:00",
    "kind": "insight",
@@ -679,7 +667,23 @@
    ],
    "img": "f707e0e69d52668becd23cb9ea5dd382",
    "head": "💥 대규모 숏 청산 감지 "
+  },
+  {
+   "id": 290,
+   "at": "2026-10-02T17:22:21.353486+09:00",
+   "kind": "insight",
+   "fp": "022137d28e591e55",
+   "refs": [
+    "news:220627355280184",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/417421",
+    "coinnesskr:232958",
+    "url:https://t.me/coinnesskr/232958",
+    "coinnesskr:232952",
+    "url:https://t.me/coinnesskr/232952"
+   ],
+   "img": "426ba31033d09d397438664b0a8091ff",
+   "head": "다들 8만6천 돌파 = 매수세 복귀라고 보는데 "
   }
  ],
- "last_pub_at": "2026-10-02T15:22:22.236530+09:00"
+ "last_pub_at": "2026-10-02T17:22:21.353486+09:00"
 }
