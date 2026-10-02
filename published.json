@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 236,
-   "at": "2026-09-29T20:17:25.886429+09:00",
-   "kind": "insight",
-   "fp": "42122a85714c4ed5",
-   "refs": [
-    "coinnesskr:232526",
-    "url:https://t.me/coinnesskr/232526",
-    "news:61344056972482",
-    "url:https://www.tokenpost.kr/news/economy/415722"
-   ],
-   "img": "55f561fcf712b409ddef33082a24c489",
-   "head": "금리 오르면 무조건 악재일까 "
-  },
-  {
    "id": 237,
    "at": "2026-09-29T22:12:21.611111+09:00",
    "kind": "insight",
@@ -671,7 +657,23 @@
    ],
    "img": "e621b1526d6b5593c30c5e1a59c32eb3",
    "head": "거래소 잔고대사 5분 이내로 — 2월 vs 지금 "
+  },
+  {
+   "id": 292,
+   "at": "2026-10-02T20:34:22.661005+09:00",
+   "kind": "insight",
+   "fp": "e504e029b7e672fe",
+   "refs": [
+    "news:270660134402811",
+    "url:https://www.blockmedia.co.kr/archives/1147165",
+    "news:29148219981909",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/417527",
+    "news:280890882126145",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/417535"
+   ],
+   "img": "bfbf001d1a065b8898508dac2164db96",
+   "head": "BTC 선물 롱 다시 쌓이는 중? 오늘 밤이 갈림길 "
   }
  ],
- "last_pub_at": "2026-10-02T19:12:17.328813+09:00"
+ "last_pub_at": "2026-10-02T20:34:22.661005+09:00"
 }
