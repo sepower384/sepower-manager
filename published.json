@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 238,
-   "at": "2026-09-29T23:27:17.257354+09:00",
-   "kind": "insight",
-   "fp": "997ed3e33ba7d35a",
-   "refs": [
-    "coinnesskr:232546",
-    "url:https://t.me/coinnesskr/232546",
-    "news:112571990832286",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/415807"
-   ],
-   "img": "7eead98d071c22a224cb842b75ff830c",
-   "head": "BTC는 올랐는데 레버리지는 빠졌음, 두 갈래로 봐야 할 구간 "
-  },
-  {
    "id": 239,
    "at": "2026-09-30T01:04:37.095934+09:00",
    "kind": "insight",
@@ -685,7 +671,23 @@
    ],
    "img": "08cce2b9f42c06af053be1d4ee005a45",
    "head": "BTC 현물 수요는 살아나는 중인데, 미국은 아직임 "
+  },
+  {
+   "id": 295,
+   "at": "2026-10-03T00:52:23.749353+09:00",
+   "kind": "insight",
+   "fp": "feb1023e7ae65901",
+   "refs": [
+    "news:39144455172390",
+    "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE1faW14T2NkUS0zYWVOWmEwRElCNzVMUWYzZmNvd0J1NHBLTTM3ZmpubV9jNEFoN3RhRTBjMDY5eElSQjRpQ3h2QzJOQmdMVEhFTHdyZ180eFlTYjQ",
+    "news:201617134502504",
+    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTFAzb0N2TmV3R1ZtRkN3UTJMeHNjNmFFZ1U2Wm1ZSVAwYlJsUEc4eFRTeS1BY1hKYmFJREhwdHdYa25hemJaX051RFN2YnYtaENwZVJZVWZKeFItNEkybFg3VWR4NHc2RGxFT0JzM3ByVTdjbTg",
+    "news:121672421801767",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFBXQTZxc29IZkNtcmZJSnhycFpUU19lUzYtOFlsalN6NXZ6YVAxa29EYWJKWnV2ZG1hQXd2dmNnOXMzTWlhX2tLck5B"
+   ],
+   "img": "d4aada8fc22aebe6a6f08699a47cc963",
+   "head": "다들 고용 쇼크 = 금리인상 우려 완화 = 호재라고 하는데 "
   }
  ],
- "last_pub_at": "2026-10-02T23:22:25.400397+09:00"
+ "last_pub_at": "2026-10-03T00:52:23.749353+09:00"
 }
