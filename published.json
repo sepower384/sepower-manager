@@ -1,38 +1,6 @@
 {
  "posts": [
   {
-   "id": 242,
-   "at": "2026-09-30T05:27:22.131352+09:00",
-   "kind": "whale",
-   "fp": "14ca102d37368f26",
-   "refs": [
-    "whalealertkorean:171106",
-    "url:https://t.me/whalealertkorean/171106"
-   ],
-   "img": "09bac2777cbcce8e0e6b798e4fc6090c",
-   "head": "🐋 고래 거래소 간 이동 포착 "
-  },
-  {
-   "id": 244,
-   "at": "2026-09-30T05:42:23.736735+09:00",
-   "kind": "insight",
-   "fp": "bbd54fe11628bd43",
-   "refs": [
-    "news:157854916925199",
-    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JdERnaWJMY1ZNZ3NveGhUcS1EZE9BSmJ6NWptOUZoTkpDc0VMbVdWczUzNzJocW1vb1ptRWRaSHEyc0c4WkdfSDFCS3FEakhRd1Z2cUc2ckQ0ZlJ5U3RidnJVbmxPWWvSAWxBVV95cUxQVEpzR2pvd0pHbU54V0hjYW5QVEZEdGdNRk05ZEtIaVJiX1lHb1BGLVBFM0NhTU02b0hQb1Y3NllBQm41LXhKcHZvX19wQWt0RjlqbTBnQVdVNmg5QnRBRVRZQzhQYk1NZGROWTE",
-    "news:261715574511757",
-    "url:https://www.blockmedia.co.kr/archives/1145719",
-    "news:238807937162761",
-    "url:https://www.blockmedia.co.kr/archives/1145701",
-    "news:29350571477163",
-    "url:https://news.google.com/rss/articles/CBMiT0FVX3lxTE5fRFk1SU1rUy01LWVtVk9BNmZHV1Q1T203ckt0SjFWai16YjVld3kwSnozTGpHaG9rUFJxY3RVeS1SYmtZczJwZnVHN29sWWs",
-    "news:169002468908584",
-    "url:https://news.google.com/rss/articles/CBMickFVX3lxTE1aWkFvd281NXo5b25ZakJleExzM2ZqcEMyS3dCaHhXZDdYQXZibE1LV3hhYTNpTFlLNHhzbkFDSmpKMFgtM0w4dVFBUFVfNHJfRW42SEJKVUxvSlAwaFB2bUZmMHQ2clFUSlg2WEJmbkRGZw"
-   ],
-   "img": "d197450d8cb501462eec8a5fdc1f5b2d",
-   "head": "속보) 美 30년물 5.61%, 2002년 이후 최고 "
-  },
-  {
    "id": 245,
    "at": "2026-09-30T06:52:21.625191+09:00",
    "kind": "insight",
@@ -675,7 +643,19 @@
    ],
    "img": "3806ca1442661955ba31e2d15ef171ea",
    "head": "🐋 고래 거래소 출금 포착 "
+  },
+  {
+   "id": 301,
+   "at": "2026-10-03T06:04:40.680646+09:00",
+   "kind": "insight",
+   "fp": "a7d52f43d49310d5",
+   "refs": [
+    "news:204103679800455",
+    "url:https://cointelegraph.com/news/blast-to-wind-down-ethereum-l2-after-costs-outpace-revenue"
+   ],
+   "img": "9c8146ff9ecd8b753fda48e8be99c557",
+   "head": "Blast 종료, 인센티브로 키운 L2의 끝 "
   }
  ],
- "last_pub_at": "2026-10-03T04:27:23.227626+09:00"
+ "last_pub_at": "2026-10-03T06:04:40.680646+09:00"
 }
