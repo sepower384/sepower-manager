@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 229,
-   "at": "2026-09-29T10:17:24.825531+09:00",
-   "kind": "insight",
-   "fp": "0a974906fa25c5e1",
-   "refs": [
-    "coinnesskr:232457",
-    "url:https://t.me/coinnesskr/232457"
-   ],
-   "img": "187b80af8228ccbaf9138adc2b31493b",
-   "head": "다들 IRS의 ETF 세금 단속이라니까 크립토 악재로 읽는데 "
-  },
-  {
    "id": 230,
    "at": "2026-09-29T11:57:24.879398+09:00",
    "kind": "insight",
@@ -675,7 +663,21 @@
    ],
    "img": "19da0c5712afcbfac0e0f615a41c3c5d",
    "head": "미국 금리는 내려왔는데 유럽이 터지는 중 "
+  },
+  {
+   "id": 285,
+   "at": "2026-10-02T11:04:59.614804+09:00",
+   "kind": "insight",
+   "fp": "a5d1beb34541de9e",
+   "refs": [
+    "coinnesskr:232913",
+    "url:https://t.me/coinnesskr/232913",
+    "news:63664141868789",
+    "url:https://www.tokenpost.kr/news/briefing/417355"
+   ],
+   "img": "f86a6597b81cb504dd2b33c8bf565f55",
+   "head": "연준 쪽 입에서 \"추가 인상\" 얘기가 계속 나오는 중 "
   }
  ],
- "last_pub_at": "2026-10-02T09:12:30.403057+09:00"
+ "last_pub_at": "2026-10-02T11:04:59.614804+09:00"
 }
