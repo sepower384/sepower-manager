@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 245,
-   "at": "2026-09-30T06:52:21.625191+09:00",
-   "kind": "insight",
-   "fp": "36fb2d8242040cbf",
-   "refs": [
-    "news:112010170957123",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/416072"
-   ],
-   "img": "1662bcce153f1b2caa64c9900586f55e",
-   "head": "비트겟 준비금 131% vs 127%, 뭐가 맞나 "
-  },
-  {
    "id": 246,
    "at": "2026-09-30T08:04:30.644030+09:00",
    "kind": "insight",
@@ -655,7 +643,19 @@
    ],
    "img": "9c8146ff9ecd8b753fda48e8be99c557",
    "head": "Blast 종료, 인센티브로 키운 L2의 끝 "
+  },
+  {
+   "id": 302,
+   "at": "2026-10-03T07:52:21.193104+09:00",
+   "kind": "insight",
+   "fp": "b49d2566597f80e7",
+   "refs": [
+    "news:78621745178881",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/417715"
+   ],
+   "img": "229cfbe4f150afbc6860b73f55771a60",
+   "head": "엘살바도르 BTC 7,791개, IMF가 \"면제\"는 해줬음 "
   }
  ],
- "last_pub_at": "2026-10-03T06:04:40.680646+09:00"
+ "last_pub_at": "2026-10-03T07:52:21.193104+09:00"
 }
