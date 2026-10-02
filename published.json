@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 239,
-   "at": "2026-09-30T01:04:37.095934+09:00",
-   "kind": "insight",
-   "fp": "6ee0bf16f03e3352",
-   "refs": [
-    "coinnesskr:232566",
-    "url:https://t.me/coinnesskr/232566"
-   ],
-   "img": "ac00cce2a4cd5f4e8c8a7d3ee43dbe04",
-   "head": "금리 급등이 BTC 강세장까지 가는 경로 (비트와이즈 시각) "
-  },
-  {
-   "id": 240,
-   "at": "2026-09-30T02:12:18.492477+09:00",
-   "kind": "whale",
-   "fp": "1899b8bc6e71da4f",
-   "refs": [
-    "whalealertkorean:171093",
-    "url:https://t.me/whalealertkorean/171093"
-   ],
-   "img": "4cd3b3f9d7d29f6ca570458af7284f6c",
-   "head": "🐋 고래 거래소 간 이동 포착 "
-  },
-  {
    "id": 241,
    "at": "2026-09-30T03:47:17.671514+09:00",
    "kind": "insight",
@@ -687,7 +663,19 @@
    ],
    "img": "d4aada8fc22aebe6a6f08699a47cc963",
    "head": "다들 고용 쇼크 = 금리인상 우려 완화 = 호재라고 하는데 "
+  },
+  {
+   "id": 296,
+   "at": "2026-10-03T02:27:19.868031+09:00",
+   "kind": "liquidation",
+   "fp": "68369414d833ce8e",
+   "refs": [
+    "whaleliquidation:3061903",
+    "url:https://t.me/whaleliquidation/3061903"
+   ],
+   "img": "31c29b4fcd33e98ec5c013428bda6dd3",
+   "head": "💥 대규모 롱 청산 감지 "
   }
  ],
- "last_pub_at": "2026-10-03T00:52:23.749353+09:00"
+ "last_pub_at": "2026-10-03T02:27:19.868031+09:00"
 }
