@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 255,
-   "at": "2026-09-30T21:57:19.032822+09:00",
-   "kind": "insight",
-   "fp": "4ec67059ab4ef338",
-   "refs": [
-    "news:205778457887687",
-    "url:https://cointelegraph.com/markets/bitcoin-etf-streak-9-day-ether-zcash-flip-red",
-    "news:279582562358296",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTFBnRkI4VlhNdXhqN29SamFEM2xtaExiOVNwSDBHUUxIQjMtNHNUbUc4WlRCbmdadGs3SmdsRmx2aTZQcWtrM0NwTVdFMVhoaW9MZTN5MzFNbk8",
-    "news:179520439310893",
-    "url:https://news.google.com/rss/articles/CBMiZEFVX3lxTFBhY0dxUFBodTRYbzZDZi1reDBrMHgwd18zNzhMVjV5NWYtN2VCMUU2MS01ODZDNFJVbjhqY195NllJczdXZm5zVENGUExQb21MYnRUemJ4aGJEOHFNU0JaR0Mxb1g"
-   ],
-   "img": "37157af5cb604552e6dade328fead477",
-   "head": "BTC ETF는 9거래일째 사는데 가격은 왜 8만4천 아래일까 "
-  },
-  {
    "id": 256,
    "at": "2026-09-30T23:12:32.429603+09:00",
    "kind": "insight",
@@ -649,7 +633,19 @@
    ],
    "img": "9babf755d80defbf1b8d3519d83b9752",
    "head": "스테이블코인 발행, 은행 먼저라는 연구용역 나왔음 "
+  },
+  {
+   "id": 311,
+   "at": "2026-10-03T22:04:15.467684+09:00",
+   "kind": "insight",
+   "fp": "fa6aae07ed0049bd",
+   "refs": [
+    "news:132935265094886",
+    "url:https://www.tokenpost.kr/news/briefing/417915"
+   ],
+   "img": "6d619dfd877f384d1d12c461b7f9d270",
+   "head": "어제 반등이 숏 스퀴즈 성격이었는데 오늘은 롱이 털렸음 "
   }
  ],
- "last_pub_at": "2026-10-03T20:27:21.905896+09:00"
+ "last_pub_at": "2026-10-03T22:04:15.467684+09:00"
 }
