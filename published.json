@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 254,
-   "at": "2026-09-30T20:17:21.372756+09:00",
-   "kind": "insight",
-   "fp": "b647095d25e0c4dd",
-   "refs": [
-    "coinnesskr:232684",
-    "url:https://t.me/coinnesskr/232684"
-   ],
-   "img": "95f401d572e6aeb3257cf2fdc96051ec",
-   "head": "다들 'BTC 9월 반등 = 강세 신호'라고 하는데 "
-  },
-  {
    "id": 255,
    "at": "2026-09-30T21:57:19.032822+09:00",
    "kind": "insight",
@@ -649,7 +637,19 @@
    ],
    "img": "597bc4de5d1021fb8a33e84cf5520929",
    "head": "스테이블코인 시총이 크립토에 미치는 경로 "
+  },
+  {
+   "id": 310,
+   "at": "2026-10-03T20:27:21.905896+09:00",
+   "kind": "insight",
+   "fp": "6a7c4980d7765540",
+   "refs": [
+    "news:234579460397901",
+    "url:https://www.digitalasset.works/news/articleView.html"
+   ],
+   "img": "9babf755d80defbf1b8d3519d83b9752",
+   "head": "스테이블코인 발행, 은행 먼저라는 연구용역 나왔음 "
   }
  ],
- "last_pub_at": "2026-10-03T19:04:24.311498+09:00"
+ "last_pub_at": "2026-10-03T20:27:21.905896+09:00"
 }
