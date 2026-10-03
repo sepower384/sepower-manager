@@ -1,36 +1,6 @@
 {
  "posts": [
   {
-   "id": 256,
-   "at": "2026-09-30T23:12:32.429603+09:00",
-   "kind": "insight",
-   "fp": "a4a7c23b8aa1ae38",
-   "refs": [
-    "news:49689748476253",
-    "url:https://www.blockmedia.co.kr/archives/1146163",
-    "coinnesskr:232708",
-    "url:https://t.me/coinnesskr/232708",
-    "news:264599421153010",
-    "url:https://news.google.com/rss/articles/CBMiSEFVX3lxTE56Smlmd1h5NjZxNzZvV0VwTzNtV3h2ZmZYeW41cXZ6YTZpYm04U3FwRFJ4NXZWS1JWMXNhc1Vpek05U3hrNzBRSQ",
-    "news:115851762277195",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE5fUmwyQ0MtOUE4TU1GdjA2NFlVV205NEFoeDdKWVZwOWJtU1REcFdsamVNbHBFOEJCTWN2RkxjVThpQml0MlJUV3h3"
-   ],
-   "img": "dd20202ae0b432e1a37b637e47c9b04c",
-   "head": "PCE 예상 하회가 BTC 8만5천까지 오는 경로 "
-  },
-  {
-   "id": 257,
-   "at": "2026-10-01T00:22:22.057933+09:00",
-   "kind": "insight",
-   "fp": "73f80925cc815cb1",
-   "refs": [
-    "coinnesskr:232714",
-    "url:https://t.me/coinnesskr/232714"
-   ],
-   "img": "19bf69de5bd5eae69e8f8bda9a197d92",
-   "head": "BTC 선물 미결제약정 올해 처음 500억달러 돌파, 이게 강세 신호일까 "
-  },
-  {
    "id": 258,
    "at": "2026-10-01T00:42:23.671289+09:00",
    "kind": "insight",
@@ -657,7 +627,19 @@
    ],
    "img": "21da8efd92e43c8b1ff0dd17beecd152",
    "head": "속보) 금융당국, 4일 오후 전 금융권 CEO 긴급 소집 "
+  },
+  {
+   "id": 312,
+   "at": "2026-10-04T00:27:19.399679+09:00",
+   "kind": "insight",
+   "fp": "53ed9ad45b1bc5aa",
+   "refs": [
+    "news:151029619116277",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/417944"
+   ],
+   "img": "8cfe30b07c812b263d725e4504b3bffb",
+   "head": "유니스왑 토큰화 주식, 거래량 71%가 정규장 밖이었음 "
   }
  ],
- "last_pub_at": "2026-10-03T23:04:34.272105+09:00"
+ "last_pub_at": "2026-10-04T00:27:19.399679+09:00"
 }
