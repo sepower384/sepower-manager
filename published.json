@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 265,
-   "at": "2026-10-01T07:04:25.051055+09:00",
-   "kind": "insight",
-   "fp": "b26901d4e1ded2cd",
-   "refs": [
-    "coinnesskr:232747",
-    "url:https://t.me/coinnesskr/232747"
-   ],
-   "img": "86e9facc0ee9f2bf6bfe020a54aff074",
-   "head": "클래리티법 무산됐는데 시장은 왜 올랐을까 "
-  },
-  {
    "id": 266,
    "at": "2026-10-01T08:57:22.984749+09:00",
    "kind": "insight",
@@ -629,7 +617,19 @@
    ],
    "img": "d4f9b840d21e0bbcfc699967a14a99d3",
    "head": "🐋 고래 대량 이동 포착 "
+  },
+  {
+   "id": 319,
+   "at": "2026-10-04T07:57:17.158584+09:00",
+   "kind": "insight",
+   "fp": "51a2490b5f22fa2b",
+   "refs": [
+    "news:130765545051327",
+    "url:https://cryptoslate.com/bankers-sue-to-overturn-occ-trust-bank-rule-used-by-crypto-firms/"
+   ],
+   "img": "4a0575bbfe9122ae7d9e2b2b134595f5",
+   "head": "은행 로비단체가 크립토 신탁은행 인가를 법원으로 끌고 감 "
   }
  ],
- "last_pub_at": "2026-10-04T05:57:16.879384+09:00"
+ "last_pub_at": "2026-10-04T07:57:17.158584+09:00"
 }
