@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 248,
-   "at": "2026-09-30T11:12:19.315255+09:00",
-   "kind": "insight",
-   "fp": "f733af81574472b1",
-   "refs": [
-    "coinnesskr:232614",
-    "url:https://t.me/coinnesskr/232614"
-   ],
-   "img": "7d017ebfc09cc61618c75a38f414ae31",
-   "head": "로빈후드 무기한 선물 · AI 에이전트 거래 공개 "
-  },
-  {
    "id": 249,
    "at": "2026-09-30T12:22:17.527641+09:00",
    "kind": "insight",
@@ -653,7 +641,23 @@
    ],
    "img": "24bee1eec409e8b7898559617d805a00",
    "head": "美 SEC, BTC·ETH 3배 레버리지 ETF 규정 변경 승인 "
+  },
+  {
+   "id": 305,
+   "at": "2026-10-03T12:04:25.450257+09:00",
+   "kind": "insight",
+   "fp": "f215d98faa5eb6fd",
+   "refs": [
+    "news:176809387713740",
+    "url:https://www.blockmedia.co.kr/archives/1147115",
+    "news:100673546962217",
+    "url:https://www.blockmedia.co.kr/archives/1147354",
+    "news:36129529273624",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/417812"
+   ],
+   "img": "e64e51b63c340273cee7b5f8ac525805",
+   "head": "BTC, 고용 호재를 유조선 피격이 지웠음 "
   }
  ],
- "last_pub_at": "2026-10-03T10:42:23.826014+09:00"
+ "last_pub_at": "2026-10-03T12:04:25.450257+09:00"
 }
