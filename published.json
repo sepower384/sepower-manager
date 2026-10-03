@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 252,
-   "at": "2026-09-30T16:42:21.471679+09:00",
-   "kind": "insight",
-   "fp": "22199f4a3d46cf91",
-   "refs": [
-    "news:117096013607877",
-    "url:https://www.blockmedia.co.kr/archives/1145931"
-   ],
-   "img": "5233f2b3eb07ab94ca4386d8670c9119",
-   "head": "이미 강세장이라는데 BTC는 왜 8만3천대에서 밀리는 중일까 "
-  },
-  {
    "id": 253,
    "at": "2026-09-30T18:27:22.099650+09:00",
    "kind": "insight",
@@ -645,7 +633,23 @@
    ],
    "img": "753807e9803fef5f697e58163e11bf91",
    "head": "ETF로 돈 들어오는데 BTC는 왜 8만4000달러대일까 "
+  },
+  {
+   "id": 308,
+   "at": "2026-10-03T17:57:20.660659+09:00",
+   "kind": "insight",
+   "fp": "b33c64cf10b5c1f6",
+   "refs": [
+    "news:155971695909243",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/417873",
+    "coinnesskr:233044",
+    "url:https://t.me/coinnesskr/233044",
+    "news:18487748517418",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/417876"
+   ],
+   "img": "1b75cba7eeec718d8b12e89dba5fe252",
+   "head": "다들 BTC 가격 조정 = 약세 신호라고 보는데 "
   }
  ],
- "last_pub_at": "2026-10-03T15:52:18.048681+09:00"
+ "last_pub_at": "2026-10-03T17:57:20.660659+09:00"
 }
