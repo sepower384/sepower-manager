@@ -1,28 +1,6 @@
 {
  "posts": [
   {
-   "id": 282,
-   "at": "2026-10-02T07:17:16.876209+09:00",
-   "kind": "insight",
-   "fp": "a595cd4f1cac33f7",
-   "refs": [
-    "news:180056898165285",
-    "url:https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkJiaFZaTHVYUGQxdlhvb2p3eDBxeUhQM1l5S0ZnNExCVjB6LTl4UU9IQXlCdlBFSDlQanlCdUJTYlN2T1JhbkktX3RWcnRXVTFPUl9oUHZIN0tZOG83eVlEOXNXZEh2eVBWRy0tZm82VDYxWEdVOG4ya01lNjI2bUo1MW5NeGROTUdjUlZCTkt0R01OUHY2SUNxY2JaeUl6Q1Vld2xaX25LQ2wxSno3ZnUtNXVKRkFWWjlz0gFaQVVfeXFMUGtnLTNjeGZwQk5EY0F6OG9ackljQThERFcxenF4WDNPLTdJekJKMHF1RE9kNzdRVTl4V0NSY29qXzN5a29JQXMtRVp2aS1rRjg2a2NDLWtyLWp3",
-    "news:18208132424828",
-    "url:https://www.theblock.co/news/regulation/2026-10-01-sec-proposes-crypto-custody-rule-investment-advisers-funds-417498",
-    "news:134510681087764",
-    "url:https://news.google.com/rss/articles/CBMid0FVX3lxTE5Ya2RBZm5Tbm93UkV5OUh0YTlwNzVQWHB3cHhBeE1GZmhFenhoSDNkdTVsZl9GcmhzLW9NY1AtdWNNWjlCRXNmTG1YMUpWNjdlTjg2YThLdFBPUHNYZlk2QUVzc3VDQmFVWW4tY3lpX2w1Ynh4a2dZ",
-    "news:195880971148362",
-    "url:https://news.google.com/rss/articles/CBMie0FVX3lxTFBaR2hfam13T3pOd29tU0pvUEpGTlk0ck1GRTE0dzlGMmtmOVpPbVRHbUJSbzljLWRDVFdHUFM1d1hudmlONnNfd3RNWXYwdjJCcEFpY2pHZkxaNDJsQUItdklxZF9TLVFTZWFULWpGaklwUXZmZUczdElyMA",
-    "coinnesskr:232902",
-    "url:https://t.me/coinnesskr/232902",
-    "news:185473509285211",
-    "url:https://news.google.com/rss/articles/CBMiygFBVV95cUxOS1M3dFdnaHdFNGh3VzJJOXd4TTd1WThPdzNvVGl4WVZpVDVEOFNody0talNRN0pMZ1pMMURTOFdSZ0lwSXRHckdOSTlBclJvS0twMFFXLU5xdWlhTGxfMlpVd2hEQXZJTkhLdFRod3gyejJHTWRiVnFmblg1bTZPWXZXVjl0V1FnQ3hOZDZ1c0h0LWJuRkdmQkV6TmdJWV9Pa3RzU2tTbGdpT3BWbTdpSlNsRHhhOHJNalY4M2tDaEwwNEV1cTF1cHFR"
-   ],
-   "img": "81977edd7bc292bd87481f57e5946e74",
-   "head": "SEC 크립토 커스터디 룰, 어디까지 왔나 "
-  },
-  {
    "id": 283,
    "at": "2026-10-02T09:12:30.403057+09:00",
    "kind": "insight",
@@ -619,7 +597,19 @@
    ],
    "img": "409be4727b1e4dfbb7d8ef77ddff9533",
    "head": "다들 SEC 승인이라 호재라고 하는데 이건 결이 다름 "
+  },
+  {
+   "id": 337,
+   "at": "2026-10-05T08:12:23.029138+09:00",
+   "kind": "insight",
+   "fp": "0a4ccb819f6f338b",
+   "refs": [
+    "news:192012745101803",
+    "url:https://www.tokenpost.kr/news/briefing/418212"
+   ],
+   "img": "534bd1d5635b9dd967317097f4da5e4f",
+   "head": "주간 ETF 합산, BTC는 +8300만달러인데 ETH는 -1억1400만달러 "
   }
  ],
- "last_pub_at": "2026-10-05T06:12:18.371363+09:00"
+ "last_pub_at": "2026-10-05T08:12:23.029138+09:00"
 }
