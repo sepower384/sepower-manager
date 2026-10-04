@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 270,
-   "at": "2026-10-01T15:12:21.708698+09:00",
-   "kind": "insight",
-   "fp": "5bf7229d9fa6c2b1",
-   "refs": [
-    "coinnesskr:232810",
-    "url:https://t.me/coinnesskr/232810",
-    "news:58917017809673",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE1sT3QxRXF6Vm1VekJHbjlwNjJXNGFyMUo0U2xWRnRoWDJsb2lzZF9mWnhQS3o5QUx1cHFrSmpuRXZkR1BfZll5WHFkYWlEdms1X3lodkJ4VFA",
-    "news:171321316502779",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE00cmpVWnd6dHhTTU1EVy1CLWZXZTg3QjRxMXY3ZVhTUW5lNGtPSVlGSUpQa0hLOXNLRzNyZkk1RlhnQld3eFhUTkh2ZlZtS0tSV3JlRjFyOFI",
-    "news:230840036677482",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE8zRk1CbDczLUpVaGhpZjhHLThydjBXSGVZQ0hRR3p5dXdWVFI2dzBuczQ5QkdmdmNjUUYyRVhQZmVkU21mNGp6UDZBUTBYLUM4",
-    "news:125584003405421",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFB6dm15NWpINUJWOWxqbWxmNGRNejRjdG1mODJMMWxfRGNYY1FHelE4VWp0U29oMDgwRDhkOURwZHdJQ2huR0xvMVJn"
-   ],
-   "img": "45735efb9abe69057873a8e5eb3865c4",
-   "head": "BTC 명목 수요 아직 마이너스 "
-  },
-  {
    "id": 272,
    "at": "2026-10-01T16:04:35.986901+09:00",
    "kind": "insight",
@@ -627,7 +607,19 @@
    ],
    "img": "c7e2798710121e16ebb69914f24be15b",
    "head": "코인베이스, 씨티 망에 스테이블코인 연결 "
+  },
+  {
+   "id": 324,
+   "at": "2026-10-04T15:52:17.606781+09:00",
+   "kind": "insight",
+   "fp": "b442dbcda06bf400",
+   "refs": [
+    "news:62178653409118",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE1rY3hTUUFESF9yZTBHRGU5RUFsSkRVeWtXLXhxT0YtMDF1NUZRcEpEaFdha0t2ZUFXd2ppUEI4dVpWejhGM3luc2tIbkp2NzhaMmQteFI1c0w"
+   ],
+   "img": "92a6384ab895cb1941e4338ad2af7ec2",
+   "head": "SEC, 투자자문사 가상자산 자체 수탁 허용 추진 "
   }
  ],
- "last_pub_at": "2026-10-04T14:27:19.051430+09:00"
+ "last_pub_at": "2026-10-04T15:52:17.606781+09:00"
 }
