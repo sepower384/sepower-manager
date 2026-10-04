@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 268,
-   "at": "2026-10-01T11:42:25.090687+09:00",
-   "kind": "insight",
-   "fp": "3b4f36c5590afa1a",
-   "refs": [
-    "news:235990971574816",
-    "url:https://cointelegraph.com/news/metamask-exits-lido-validators-as-it-investigates-security-incident",
-    "coinnesskr:232761",
-    "url:https://t.me/coinnesskr/232761"
-   ],
-   "img": "dcb30664e1aca46fdba0673659d2023d",
-   "head": "메타마스크 인프라 보안 사고가 라이도까지 번졌음 "
-  },
-  {
    "id": 269,
    "at": "2026-10-01T13:42:19.398330+09:00",
    "kind": "insight",
@@ -629,7 +615,19 @@
    ],
    "img": "b80a7fad50ab3f738573793cc7ef849e",
    "head": "다들 고용지표 호재에 BTC가 반응했다고 보는데 "
+  },
+  {
+   "id": 322,
+   "at": "2026-10-04T12:57:17.751672+09:00",
+   "kind": "insight",
+   "fp": "000527d64eb681e6",
+   "refs": [
+    "news:106888711347350",
+    "url:https://www.blockmedia.co.kr/archives/1147536"
+   ],
+   "img": "f4fa0e500d06a9c5a85cad864d404dd3",
+   "head": "CME, AI 컴퓨팅 선물 5일(현지) 상장 예정 "
   }
  ],
- "last_pub_at": "2026-10-04T11:04:27.119496+09:00"
+ "last_pub_at": "2026-10-04T12:57:17.751672+09:00"
 }
