@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 274,
-   "at": "2026-10-01T20:35:12.082696+09:00",
-   "kind": "insight",
-   "fp": "35c639897a6ec5b2",
-   "refs": [
-    "coinnesskr:232842",
-    "url:https://t.me/coinnesskr/232842",
-    "news:222717312532373",
-    "url:https://news.google.com/rss/articles/CBMiT0FVX3lxTE90Z0pvRVhRcW42WF9pWVltdGZwSldUQXZweUNtRDFQcXo2N01QclFjXzhsN0tTQkhCcU1COEszbWRtbnhaYUNuT08tb0cyQ2c",
-    "news:220259739202995",
-    "url:https://news.google.com/rss/articles/CBMivAFBVV95cUxNa1FvampNWHlZUk1sNFhKQW9VN0s5UUZlRjlMbmdBUkYyZkdmS0NLZUxOdS1hQ1lpWjV4ZEp4MlctZEt4bDctdU1HNGxZdmMxXzA3Y0xaOWx4SmVCR0o4ZUxUWkt0NmdsT2xFbGNNX3FnNGh3aGJqRHBzMVp1SER6a3lOMjhQU0YtWTJHRzQ3U0YxQUdzZEhOSWJXbkNhZFEtU0dYSFdMZm9Td2o0NjNpMlc3UlFzSXdDbGNTRg"
-   ],
-   "img": "c35ff8f48476a331c9898b4475a460d8",
-   "head": "씨티가 BTC 12개월 목표가를 11만3000달러로 올렸는데 가격은 8만3천대 그대로임 "
-  },
-  {
    "id": 275,
    "at": "2026-10-01T21:47:26.868562+09:00",
    "kind": "insight",
@@ -619,7 +603,23 @@
    ],
    "img": "ff5a0beaa31fbba9887cbfe9c77a7b64",
    "head": "2015년 이후 vs 이번 주기, 장기 보유자 MVRV "
+  },
+  {
+   "id": 328,
+   "at": "2026-10-04T21:22:18.285894+09:00",
+   "kind": "insight",
+   "fp": "4df1db113b624e7d",
+   "refs": [
+    "news:200684738928278",
+    "url:https://news.google.com/rss/articles/CBMi8gFBVV95cUxOeml3Znp2a2ZLTnVBQS1pRjJNdW9qTVdybFdRZ0NWaTl5U29uM1FkNXh1MkdjUnFEV2p5MTVwU1NVcUhxTXdocGl1N3hkWEhac3ZsRUl6enVSQkpoYm5Kei10MjExdDJzLWg5bzNEZ0tOaWRiVExJNTZUdjZZWnVReThWWXJZSnBWWWYtTm1UbG93cGVvQ0pBQ29HV2lVd0FNMVpjU3ZyWjlaWklYcWgyaHl6ZnRfMndLUHFPaXZkUDBpNi05T0NBN3JtdWxvZGh5MFh0d0tUdFVzVDhnRXRBQU9yQ1JCTERDdnlKUVRCS3FFZw",
+    "news:30002157519621",
+    "url:https://news.google.com/rss/articles/CBMirgFBVV95cUxPZTJaY3ptUnc3cXN1bm5nS2Z1Y3hsRDl5eXBzVkNUY2xTVTFNV2V4dEpxWnBXbTcyMEdZRktDNVZQZXpXQnJ2cS1SQURGTW5DandZdHk5VXhsSmdaTldDd0xaWk5GNkxGeERMNGp0dzV3N0dJX1d5TzI4Rm9TOU9nUjlTbkFJeThaOW1aSlNZRXlCNzZscWlPLWNGRW9FMTNYcjhob29vMTVhNlltcVE",
+    "news:81233996369498",
+    "url:https://news.google.com/rss/articles/CBMi_wFBVV95cUxPZXhFN3gxYnpyRDFVUGYxazdIR1RRT1NWZ3RCS0NPYktpLUtyMHlWNUItZ195ZVZmRWh3YUpIUGNoX0VrYl9sSk9iUG1GV19OX3pGZFBCT0p4Rm5Nd25uT0t2RzY1OWkxRW9odHZCUUd3bDZIUHJtbVBSTzNlNk5yQmVRcWFhc1lOaERNdmdsY2tQVHpuQ2NienYyckhIWDVvSkJHR29yV3pyTkZGNmJUUG5jQTVmem9TcEdrYWxaR18waVNET05UUjNsM0NkdjBUSEdmcE8xb2w2YUllVEFIOUdnenNTeU55RlZIbXFHUG1XNjExZlVweExlLUZab1k"
+   ],
+   "img": "49efcb337e5ce6462314d245afb2e3e0",
+   "head": "ETF 열렸다고 다 같은 ETF가 아님 "
   }
  ],
- "last_pub_at": "2026-10-04T20:04:23.709405+09:00"
+ "last_pub_at": "2026-10-04T21:22:18.285894+09:00"
 }
