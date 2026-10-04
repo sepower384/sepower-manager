@@ -619,7 +619,19 @@
    ],
    "img": "49efcb337e5ce6462314d245afb2e3e0",
    "head": "ETF 열렸다고 다 같은 ETF가 아님 "
+  },
+  {
+   "id": 329,
+   "at": "2026-10-04T21:42:18.031302+09:00",
+   "kind": "insight",
+   "fp": "ecd8cfd0948b514a",
+   "refs": [
+    "news:55599781083813",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aWXhWN1owbDlpdlpwMHRSTjduRjI0aHhnVVhETmc5cGUxc0tLcmZXQl8tbzQ2QWhsdlJxNm9SRnZLVk5BeEFQN1A3Unl1dW9tLU1scHRSb2Znb3Yxd182NkFNT3M1a1hV"
+   ],
+   "img": "6701fd76eca78da551a526ad9fe8bf71",
+   "head": "비트코인 8만5000달러대 복귀, 알트도 같이 강세 "
   }
  ],
- "last_pub_at": "2026-10-04T21:22:18.285894+09:00"
+ "last_pub_at": "2026-10-04T21:42:18.031302+09:00"
 }
