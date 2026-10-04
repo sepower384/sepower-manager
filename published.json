@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 281,
-   "at": "2026-10-02T05:35:16.387042+09:00",
-   "kind": "insight",
-   "fp": "0fdfd5ab6524f001",
-   "refs": [
-    "news:177795158001227",
-    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxQQS1pUVdPSmd0c3VyOXZpOHY4N0FaaVRCYzhTVHNZY05hQUplVHVKRkJuNW1EbXNrNjhqREZzUWpkTTJGam9RTmJRY1FuelNqS2NFVUZzRU8zWDFwVDM4T0lYbXl4ZDlrX3FNREIwdEZ5aXhjSXNKM0JjOXV1TkNmdA",
-    "news:251653897035729",
-    "url:https://www.blockmedia.co.kr/archives/1146844",
-    "news:230495101854170",
-    "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxQM3JURWlZYi1VSDh6V2lGajRmMHRsekNkT29MdnFJLUVtbUIxaUc5dGNaM1ZDZ01POVJpcFlnU0ItUnotR1J4cnJGYkVZM1EwZm9icXR6ZVJlTkRiZzBWc2MwN0tpTV9rMVBFMzc2M1dWN2RXNXBCbm9HWjFucDJScnVFWWJ6U1Bk"
-   ],
-   "img": "9860d885699765e8ee81250b362aee3f",
-   "head": "속보) 美 10년물 금리 5.342%, 2002년 4월 이후 최고 찍고 반락 "
-  },
-  {
    "id": 282,
    "at": "2026-10-02T07:17:16.876209+09:00",
    "kind": "insight",
@@ -619,7 +603,23 @@
    ],
    "img": "0c307404b71af11a594c4dd7c02c5708",
    "head": "🐋 고래 대량 이동 포착 "
+  },
+  {
+   "id": 336,
+   "at": "2026-10-05T06:12:18.371363+09:00",
+   "kind": "insight",
+   "fp": "f79b87316077e18b",
+   "refs": [
+    "news:227727338136324",
+    "url:https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSjc3dGMydGxnWmJXNEpvRm5HY0p6NVhIUjFpTWJvd2w3N1FKR29nSzQ2ZW1uQXctRnZkYlFnc3BORlhUVkx2RS00alpydHZQVGJtcktLVjJsTGpWWXpOMkNvM0FHcVl4QkxJY25keEpkSndPeWlxdXRuVzNHREtEZGxoNzVvellOVGlqd3B1WUd2RVhwSVExbndQaTQ5Sl9WNUYwUEd0RzduaHl1NEhPZkJsSkdGTm1ucV9HOVBvVUlPcnVobVlhc3ExSEpwTmEyU2VmWlFZR1d4SkU",
+    "news:225229507773025",
+    "url:https://news.google.com/rss/articles/CBMitgFBVV95cUxPcDhHZkRodk5uSUJ3Wk44QWJEbjdBOTBfa1BUNE1aTWticWZBWENHX05IQ2tuWENRSk41NGxQY3doVU9NMFRiQWZIWU1TZ2JScTJnV2RVSnpwY0lvam1lS04zMkxzcTlvN1RGU183YlVhLTRiVzZEaUZXa195c0ZROFh0b2lSdjFKcWdsY3hXSFM0ZzBsU1Mta0gyUXRhekF0YVNxR1ByR0EtUk5iNTVtVE1IZWxQdw",
+    "news:217726936048400",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xUHFNa0NSSXd2LWl4Y2FMaDdCZmozM1h3VDhJaFRSOXRIeEktSnM1aldZSmtrMFpvYURGZWVpb1IwNlNkbE1iS0hxaXlBWUtQa244bnVTOEc"
+   ],
+   "img": "409be4727b1e4dfbb7d8ef77ddff9533",
+   "head": "다들 SEC 승인이라 호재라고 하는데 이건 결이 다름 "
   }
  ],
- "last_pub_at": "2026-10-05T04:12:19.761530+09:00"
+ "last_pub_at": "2026-10-05T06:12:18.371363+09:00"
 }
