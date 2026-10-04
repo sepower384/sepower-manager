@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 272,
-   "at": "2026-10-01T16:04:35.986901+09:00",
-   "kind": "insight",
-   "fp": "fd707f3888ca71b8",
-   "refs": [
-    "news:264346264403596",
-    "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxPa0NzUUQxYWQtSzhEbFNGVnMwMWxqaHVMUHVHTmdJNExjVlN4VGVDdFJYWkJTSzE2YnUwRTc2Mk1HTzBWVV9mWmxZaTJtR1NuWFVDUmZBZ2JEcFZkaDRPR3I2OFZtS1VhWlRiODU3X1VVQXVMU0hjaW5BMl9CRXR0Yjd3RDlrLWQ0cXpYLWh6TV9IVllNeUJiaHZiYw"
-   ],
-   "img": "57c1a8857906fe56e066710ea41b41a7",
-   "head": "속보) 메타마스크 보안 사고로 라이도 이더리움 검증인 긴급 종료 절차 진행 중 "
-  },
-  {
    "id": 271,
    "at": "2026-10-01T17:34:25.622739+09:00",
    "kind": "insight",
@@ -619,7 +607,19 @@
    ],
    "img": "92a6384ab895cb1941e4338ad2af7ec2",
    "head": "SEC, 투자자문사 가상자산 자체 수탁 허용 추진 "
+  },
+  {
+   "id": 325,
+   "at": "2026-10-04T17:04:12.849454+09:00",
+   "kind": "insight",
+   "fp": "f1354b7912f2c557",
+   "refs": [
+    "news:161561598466483",
+    "url:https://www.tokenpost.kr/news/briefing/418092"
+   ],
+   "img": "b669844ee46abbdd3c13f4ee553f2ee3",
+   "head": "국내 거래액은 44% 줄었는데 BTC는 왜 8만5천달러대를 지키고 있을까 "
   }
  ],
- "last_pub_at": "2026-10-04T15:52:17.606781+09:00"
+ "last_pub_at": "2026-10-04T17:04:12.849454+09:00"
 }
