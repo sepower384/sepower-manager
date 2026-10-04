@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 275,
-   "at": "2026-10-01T21:47:26.868562+09:00",
-   "kind": "insight",
-   "fp": "cbbb5d79429482b1",
-   "refs": [
-    "news:32387440451033",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/417077",
-    "news:46586838436525",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/417058"
-   ],
-   "img": "2303da7c2edd43278ffb20c400ea0d95",
-   "head": "토큰화 RWA 시장 커졌다는데, 규모만 보면 쓰임을 놓침 "
-  },
-  {
    "id": 276,
    "at": "2026-10-01T23:34:27.746263+09:00",
    "kind": "insight",
@@ -631,7 +617,19 @@
    ],
    "img": "6701fd76eca78da551a526ad9fe8bf71",
    "head": "비트코인 8만5000달러대 복귀, 알트도 같이 강세 "
+  },
+  {
+   "id": 330,
+   "at": "2026-10-04T23:27:18.860875+09:00",
+   "kind": "insight",
+   "fp": "114a0b8132b5dfe3",
+   "refs": [
+    "news:220856186877008",
+    "url:https://www.coindesk.com/business/2026/10/04/the-clarity-act-stalled-crypto-dealmakers-aren-t-hitting-the-brakes-yet"
+   ],
+   "img": "19446eccb99771e726253ff6020ab7ae",
+   "head": "클래리티법 상원에서 막혔는데 M&A는 왜 안 멈추나 "
   }
  ],
- "last_pub_at": "2026-10-04T21:42:18.031302+09:00"
+ "last_pub_at": "2026-10-04T23:27:18.860875+09:00"
 }
