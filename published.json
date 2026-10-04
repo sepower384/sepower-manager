@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 273,
-   "at": "2026-10-01T18:57:19.017053+09:00",
-   "kind": "insight",
-   "fp": "3e70c36c2d92348b",
-   "refs": [
-    "news:248021931440815",
-    "url:https://www.tokenpost.kr/news/insights/416834"
-   ],
-   "img": "d1b61815cdf7231ae64e5bbdc463adcb",
-   "head": "DAT 기업 59곳이 평단 아래라는데 정작 물량은 12.8%뿐 "
-  },
-  {
    "id": 274,
    "at": "2026-10-01T20:35:12.082696+09:00",
    "kind": "insight",
@@ -619,7 +607,19 @@
    ],
    "img": "b6f4874866d3daba90486d3c42b43912",
    "head": "다들 업토버 온다고 하는데 국내 심리는 반반임 "
+  },
+  {
+   "id": 327,
+   "at": "2026-10-04T20:04:23.709405+09:00",
+   "kind": "insight",
+   "fp": "9be4da1a216a93c4",
+   "refs": [
+    "news:28736823527315",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/418113"
+   ],
+   "img": "ff5a0beaa31fbba9887cbfe9c77a7b64",
+   "head": "2015년 이후 vs 이번 주기, 장기 보유자 MVRV "
   }
  ],
- "last_pub_at": "2026-10-04T18:42:20.070655+09:00"
+ "last_pub_at": "2026-10-04T20:04:23.709405+09:00"
 }
