@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 290,
-   "at": "2026-10-02T17:22:21.353486+09:00",
-   "kind": "insight",
-   "fp": "022137d28e591e55",
-   "refs": [
-    "news:220627355280184",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/417421",
-    "coinnesskr:232958",
-    "url:https://t.me/coinnesskr/232958",
-    "coinnesskr:232952",
-    "url:https://t.me/coinnesskr/232952"
-   ],
-   "img": "426ba31033d09d397438664b0a8091ff",
-   "head": "다들 8만6천 돌파 = 매수세 복귀라고 보는데 "
-  },
-  {
    "id": 291,
    "at": "2026-10-02T19:12:17.328813+09:00",
    "kind": "insight",
@@ -593,7 +577,21 @@
    ],
    "img": "32a19ea76970d9066e18abd90bd91003",
    "head": "ETH 3분기 +70%, BTC +42%인데 호가는 왜 얇아졌을까 "
+  },
+  {
+   "id": 344,
+   "at": "2026-10-05T17:22:17.955264+09:00",
+   "kind": "insight",
+   "fp": "30fa9b5c294ff25c",
+   "refs": [
+    "news:35275478595796",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE1nd0VJWkdBMDYtSGw3ZnN4Y3lPandDbGtKY1ZucC15eTFhZ3FwbUt4aDdHRXhKR2lwdHhNQ2tXTkZaSmhHNnBsZl93TjZGanBt",
+    "news:173386396291655",
+    "url:https://www.coindesk.com/tech/2026/10/05/ethereum-has-a-25-day-wait-to-start-staking-with-nearly-1-5-million-eth-in-line"
+   ],
+   "img": "c16d73643679bdb2e1a2860e6ce13223",
+   "head": "ETH 스테이킹 진입 대기 150만 ETH, 대기 25일 "
   }
  ],
- "last_pub_at": "2026-10-05T16:04:16.595783+09:00"
+ "last_pub_at": "2026-10-05T17:22:17.955264+09:00"
 }
