@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 288,
-   "at": "2026-10-02T15:22:22.236530+09:00",
-   "kind": "liquidation",
-   "fp": "ed17b2005b1af63c",
-   "refs": [
-    "whaleliquidation:3059713",
-    "url:https://t.me/whaleliquidation/3059713"
-   ],
-   "img": "f707e0e69d52668becd23cb9ea5dd382",
-   "head": "💥 대규모 숏 청산 감지 "
-  },
-  {
    "id": 290,
    "at": "2026-10-02T17:22:21.353486+09:00",
    "kind": "insight",
@@ -591,7 +579,21 @@
    ],
    "img": "fe1953576bc004801023c8a7261efae1",
    "head": "IMF, 엘살바도르에 1.38억달러 지원 승인. 핵심은 돈보다 조건임 "
+  },
+  {
+   "id": 343,
+   "at": "2026-10-05T16:04:16.595783+09:00",
+   "kind": "insight",
+   "fp": "f9f4b19795ddd251",
+   "refs": [
+    "coinnesskr:233092",
+    "url:https://t.me/coinnesskr/233092",
+    "news:173934490906316",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTFB5NnI2VGNVbjhILVdjNUhDaUNIc2Z2U0JnVllYeXVNSzdnTkVKU1JDWDdoUFdqT1BBZEczRjd0WEZwcnBXemx5eTg3U1kwRWZL"
+   ],
+   "img": "32a19ea76970d9066e18abd90bd91003",
+   "head": "ETH 3분기 +70%, BTC +42%인데 호가는 왜 얇아졌을까 "
   }
  ],
- "last_pub_at": "2026-10-05T14:27:20.955618+09:00"
+ "last_pub_at": "2026-10-05T16:04:16.595783+09:00"
 }
