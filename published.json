@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 297,
-   "at": "2026-10-03T04:27:23.227626+09:00",
-   "kind": "whale",
-   "fp": "cfd0f77ec6782b84",
-   "refs": [
-    "whalealertkorean:171426",
-    "url:https://t.me/whalealertkorean/171426"
-   ],
-   "img": "3806ca1442661955ba31e2d15ef171ea",
-   "head": "🐋 고래 거래소 출금 포착 "
-  },
-  {
    "id": 301,
    "at": "2026-10-03T06:04:40.680646+09:00",
    "kind": "insight",
@@ -605,7 +593,19 @@
    ],
    "img": "8c35f9be9b53d4defe132e9b44172ed6",
    "head": "CFTC가 크립토 규정안 2건 들고 나왔는데, 아직 '제출' 단계임 "
+  },
+  {
+   "id": 354,
+   "at": "2026-10-06T05:18:46.703370+09:00",
+   "kind": "whale",
+   "fp": "3a94dadbd5a59b64",
+   "refs": [
+    "whalealertkorean:171682",
+    "url:https://t.me/whalealertkorean/171682"
+   ],
+   "img": "9027ce10783f293b3855fb0f8daf3d54",
+   "head": "🐋 고래 대량 이동 포착 "
   }
  ],
- "last_pub_at": "2026-10-06T03:42:24.238248+09:00"
+ "last_pub_at": "2026-10-06T05:18:46.703370+09:00"
 }
