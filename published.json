@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 293,
-   "at": "2026-10-02T22:04:23.788566+09:00",
-   "kind": "insight",
-   "fp": "9b9f337666169d41",
-   "refs": [
-    "news:200384183789680",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/417579",
-    "coinnesskr:232990",
-    "url:https://t.me/coinnesskr/232990"
-   ],
-   "img": "01b9182029823b3738d641b23af04d6b",
-   "head": "8만9천 가까워지는데, 거기서 파는 쪽이 많을까 사는 쪽이 많을까 "
-  },
-  {
    "id": 294,
    "at": "2026-10-02T23:22:25.400397+09:00",
    "kind": "insight",
@@ -587,7 +573,23 @@
    ],
    "img": "f4de31c07a638a515699e5d537a846e4",
    "head": "이번 주 BTC 반등, 바닥 신호일까 갈림길일까 "
+  },
+  {
+   "id": 347,
+   "at": "2026-10-05T22:47:24.026718+09:00",
+   "kind": "insight",
+   "fp": "17626d37735fc63e",
+   "refs": [
+    "news:221324017885378",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/418395",
+    "news:160242130544404",
+    "url:https://www.coindesk.com/business/2026/10/05/metaplanet-adds-1-000-bitcoin-after-sale-and-repurchase-launches-income-strategy",
+    "coinnesskr:233119",
+    "url:https://t.me/coinnesskr/233119"
+   ],
+   "img": "08bc622b29f1ded14da2bad5c533df66",
+   "head": "메타플래닛 3분기 순매수 1,000 BTC, 숫자만 보면 평범한데 속이 다름. "
   }
  ],
- "last_pub_at": "2026-10-05T20:47:56.777489+09:00"
+ "last_pub_at": "2026-10-05T22:47:24.026718+09:00"
 }
