@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 295,
-   "at": "2026-10-03T00:52:23.749353+09:00",
-   "kind": "insight",
-   "fp": "feb1023e7ae65901",
-   "refs": [
-    "news:39144455172390",
-    "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE1faW14T2NkUS0zYWVOWmEwRElCNzVMUWYzZmNvd0J1NHBLTTM3ZmpubV9jNEFoN3RhRTBjMDY5eElSQjRpQ3h2QzJOQmdMVEhFTHdyZ180eFlTYjQ",
-    "news:201617134502504",
-    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTFAzb0N2TmV3R1ZtRkN3UTJMeHNjNmFFZ1U2Wm1ZSVAwYlJsUEc4eFRTeS1BY1hKYmFJREhwdHdYa25hemJaX051RFN2YnYtaENwZVJZVWZKeFItNEkybFg3VWR4NHc2RGxFT0JzM3ByVTdjbTg",
-    "news:121672421801767",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFBXQTZxc29IZkNtcmZJSnhycFpUU19lUzYtOFlsalN6NXZ6YVAxa29EYWJKWnV2ZG1hQXd2dmNnOXMzTWlhX2tLck5B"
-   ],
-   "img": "d4aada8fc22aebe6a6f08699a47cc963",
-   "head": "다들 고용 쇼크 = 금리인상 우려 완화 = 호재라고 하는데 "
-  },
-  {
    "id": 296,
    "at": "2026-10-03T02:27:19.868031+09:00",
    "kind": "liquidation",
@@ -607,7 +591,19 @@
    ],
    "img": "e6158d96e8f52b500ba5044ac0d04d18",
    "head": "OKXICE의 토큰화 주식 63종목, 어디서 누가 막나 "
+  },
+  {
+   "id": 350,
+   "at": "2026-10-06T01:57:22.342791+09:00",
+   "kind": "whale",
+   "fp": "5c29ff7a50ecbd6c",
+   "refs": [
+    "whalealertkorean:171664",
+    "url:https://t.me/whalealertkorean/171664"
+   ],
+   "img": "6293a62150fbf7624b196880d35d5966",
+   "head": "🐋 고래 대량 이동 포착 "
   }
  ],
- "last_pub_at": "2026-10-06T00:34:40.477652+09:00"
+ "last_pub_at": "2026-10-06T01:57:22.342791+09:00"
 }
