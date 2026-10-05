@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 283,
-   "at": "2026-10-02T09:12:30.403057+09:00",
-   "kind": "insight",
-   "fp": "4816b223f107ccf1",
-   "refs": [
-    "news:219217617435501",
-    "url:https://www.blockmedia.co.kr/archives/1146869",
-    "news:110813364667549",
-    "url:https://news.google.com/rss/articles/CBMiXkFVX3lxTE9RUklCdC1HdHJ0anVQdHhzdlJmVEVNRHRHUjlOdWl1eDhsOTdFMzcyY1QyaVlKV3RJbE12UnFjZ2JiUWhVYTNRNE9xUkdpR1JUdGdMcDhwN2w1R09QY2c",
-    "news:192206999125987",
-    "url:https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jY3dzcTl3Wmp4V21BLWx4cDBZUjdubF8wRm1OT052Tmkyc0dfWXVPR0lTalVJR3dNWEZkOEx3MHlsM0JYcWFjOFpUQmdha1U",
-    "news:229611357473211",
-    "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wZGFGWGQtRWNfQ0JwclhaMDh0TVY1Yy1EemMxbU5vTGdNUXViU3lwUnQtOU9zRWxvcUtZSHUwRUw0YXl0aHZsMDFPUGpiSG9uNFJCbDJwVHBFSGc",
-    "news:175757711667557",
-    "url:https://www.blockmedia.co.kr/archives/1146872"
-   ],
-   "img": "19da0c5712afcbfac0e0f615a41c3c5d",
-   "head": "미국 금리는 내려왔는데 유럽이 터지는 중 "
-  },
-  {
    "id": 285,
    "at": "2026-10-02T11:04:59.614804+09:00",
    "kind": "insight",
@@ -609,7 +589,19 @@
    ],
    "img": "534bd1d5635b9dd967317097f4da5e4f",
    "head": "주간 ETF 합산, BTC는 +8300만달러인데 ETH는 -1억1400만달러 "
+  },
+  {
+   "id": 338,
+   "at": "2026-10-05T09:52:22.197960+09:00",
+   "kind": "liquidation",
+   "fp": "a050748520a2c62a",
+   "refs": [
+    "whaleliquidation:3066370",
+    "url:https://t.me/whaleliquidation/3066370"
+   ],
+   "img": "a50e1d14ef1f3d04bc2729ed6ba8de34",
+   "head": "💥 대규모 숏 청산 감지 "
   }
  ],
- "last_pub_at": "2026-10-05T08:12:23.029138+09:00"
+ "last_pub_at": "2026-10-05T09:52:22.197960+09:00"
 }
