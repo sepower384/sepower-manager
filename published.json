@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 294,
-   "at": "2026-10-02T23:22:25.400397+09:00",
-   "kind": "insight",
-   "fp": "4137d256a46b0a0d",
-   "refs": [
-    "coinnesskr:232991",
-    "url:https://t.me/coinnesskr/232991"
-   ],
-   "img": "08cce2b9f42c06af053be1d4ee005a45",
-   "head": "BTC 현물 수요는 살아나는 중인데, 미국은 아직임 "
-  },
-  {
    "id": 295,
    "at": "2026-10-03T00:52:23.749353+09:00",
    "kind": "insight",
@@ -605,7 +593,21 @@
    ],
    "img": "01014d7171e4b3c1d2a91899357fff01",
    "head": "SEC, 3배 비트코인·이더리움 ETF 승인 (미국 2배 상한 깨짐) "
+  },
+  {
+   "id": 349,
+   "at": "2026-10-06T00:34:40.477652+09:00",
+   "kind": "insight",
+   "fp": "b47c440c4cc265f0",
+   "refs": [
+    "news:122741248467149",
+    "url:https://thedefiant.io/converge/tradfi-and-fintech/okxice-tokenized-securities-venue-sec-innovation-exemption-63-stocks",
+    "news:77859197763928",
+    "url:https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNzlnTmsydlQyQmE2Uk8tbFdlYVdXWC1XYU83RGRqY281T0l5eURVM1JwSVhiUERGdDhuTGtWY2VHTTVla0ZINEJQbHE3am16THFPVzVIaU9sY21uX0pmRmVKbThhOGNqWEZSdmd4RVg4NS1YdkhDYVZYZnVkX1RrWTVSQ1cwVVJUZnM0eWFSLWFVaUk5a2Z5bjI0SUN6TzV4ME4xa0llUktsZTc2X3RIdHhGSTFsSmlrOGtsYk8zci1hNWwwVDdTTlY3aEZybXBOelJMd2JzTkNtY2Rlc2liYm9RRHFIcUduNWE4ZXA3dE9wdlRTdlRWY2RkbXk"
+   ],
+   "img": "e6158d96e8f52b500ba5044ac0d04d18",
+   "head": "OKXICE의 토큰화 주식 63종목, 어디서 누가 막나 "
   }
  ],
- "last_pub_at": "2026-10-05T23:04:54.824533+09:00"
+ "last_pub_at": "2026-10-06T00:34:40.477652+09:00"
 }
