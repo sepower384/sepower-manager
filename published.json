@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 285,
-   "at": "2026-10-02T11:04:59.614804+09:00",
-   "kind": "insight",
-   "fp": "a5d1beb34541de9e",
-   "refs": [
-    "coinnesskr:232913",
-    "url:https://t.me/coinnesskr/232913",
-    "news:63664141868789",
-    "url:https://www.tokenpost.kr/news/briefing/417355"
-   ],
-   "img": "f86a6597b81cb504dd2b33c8bf565f55",
-   "head": "연준 쪽 입에서 \"추가 인상\" 얘기가 계속 나오는 중 "
-  },
-  {
    "id": 286,
    "at": "2026-10-02T12:42:58.851022+09:00",
    "kind": "insight",
@@ -601,7 +587,19 @@
    ],
    "img": "a50e1d14ef1f3d04bc2729ed6ba8de34",
    "head": "💥 대규모 숏 청산 감지 "
+  },
+  {
+   "id": 340,
+   "at": "2026-10-05T11:17:20.251311+09:00",
+   "kind": "insight",
+   "fp": "89f4456b8c90a408",
+   "refs": [
+    "news:111987012925118",
+    "url:https://www.tokenpost.kr/news/policy/418232"
+   ],
+   "img": "f006bc4f4382dee52364b3a77131bdd5",
+   "head": "디지털자산 세금 법안, 하원 세입위 38대5 가결 "
   }
  ],
- "last_pub_at": "2026-10-05T09:52:22.197960+09:00"
+ "last_pub_at": "2026-10-05T11:17:20.251311+09:00"
 }
