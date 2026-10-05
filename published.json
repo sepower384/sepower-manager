@@ -591,7 +591,19 @@
    ],
    "img": "c16d73643679bdb2e1a2860e6ce13223",
    "head": "ETH 스테이킹 진입 대기 150만 ETH, 대기 25일 "
+  },
+  {
+   "id": 345,
+   "at": "2026-10-05T18:42:53.632381+09:00",
+   "kind": "insight",
+   "fp": "f9a486b9c2bf8215",
+   "refs": [
+    "news:108684226590935",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nSTlTcFBKUEREaHpEa0hERTJUSDlZWlRlc1NJTDJmR090Q2Rzc0tGWUlFWktua2VBTHNjSkVLeFJyQUhPZUo3d0pZZkxvU3B1"
+   ],
+   "img": "f004e4c9941580f3a4b6babe00ec90aa",
+   "head": "같은 BTC 노출인데 변동성이 39% → 94% → 9%로 갈리는 이유 "
   }
  ],
- "last_pub_at": "2026-10-05T17:22:17.955264+09:00"
+ "last_pub_at": "2026-10-05T18:42:53.632381+09:00"
 }
