@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 301,
-   "at": "2026-10-03T06:04:40.680646+09:00",
-   "kind": "insight",
-   "fp": "a7d52f43d49310d5",
-   "refs": [
-    "news:204103679800455",
-    "url:https://cointelegraph.com/news/blast-to-wind-down-ethereum-l2-after-costs-outpace-revenue"
-   ],
-   "img": "9c8146ff9ecd8b753fda48e8be99c557",
-   "head": "Blast 종료, 인센티브로 키운 L2의 끝 "
-  },
-  {
    "id": 302,
    "at": "2026-10-03T07:52:21.193104+09:00",
    "kind": "insight",
@@ -605,7 +593,21 @@
    ],
    "img": "9027ce10783f293b3855fb0f8daf3d54",
    "head": "🐋 고래 대량 이동 포착 "
+  },
+  {
+   "id": 355,
+   "at": "2026-10-06T07:04:35.013328+09:00",
+   "kind": "insight",
+   "fp": "2836e623b25000e1",
+   "refs": [
+    "news:38876682415911",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/418557",
+    "news:33569059608909",
+    "url:https://news.google.com/rss/articles/CBMixwFBVV95cUxQX2tUS21iUHFtVzB1N1ZZeGRScHllY3hQX1E2OF84ZGxtV2Jpcl9zNE52UklYazRvN01HUFY2VVY3TFNHRGgzaW1JUnFoVkowMGRWY1JCNG95WDRBUHg4aXBYMmpLOTZtbmRVNWtGWFF1blJ1YVA2V2xnLWNoanNJdlR5UXlfRGxqM3FURTZsN1FSSFFKSTFlR1NEbmVoV3VGenk2ZGdvT2ZucHFVamVzMl9UcnR5NjFsMGxjX3RqeTZVbXF0MmVF"
+   ],
+   "img": "119877aeba1943d35d422b64734fae8b",
+   "head": "165만 BTC, 근데 같은 물량이 아닌데? "
   }
  ],
- "last_pub_at": "2026-10-06T05:18:46.703370+09:00"
+ "last_pub_at": "2026-10-06T07:04:35.013328+09:00"
 }
