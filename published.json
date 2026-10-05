@@ -1,34 +1,6 @@
 {
  "posts": [
   {
-   "id": 291,
-   "at": "2026-10-02T19:12:17.328813+09:00",
-   "kind": "insight",
-   "fp": "162ad1d4387fe683",
-   "refs": [
-    "coinnesskr:232967",
-    "url:https://t.me/coinnesskr/232967"
-   ],
-   "img": "e621b1526d6b5593c30c5e1a59c32eb3",
-   "head": "거래소 잔고대사 5분 이내로 — 2월 vs 지금 "
-  },
-  {
-   "id": 292,
-   "at": "2026-10-02T20:34:22.661005+09:00",
-   "kind": "insight",
-   "fp": "e504e029b7e672fe",
-   "refs": [
-    "news:270660134402811",
-    "url:https://www.blockmedia.co.kr/archives/1147165",
-    "news:29148219981909",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/417527",
-    "news:280890882126145",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/417535"
-   ],
-   "img": "bfbf001d1a065b8898508dac2164db96",
-   "head": "BTC 선물 롱 다시 쌓이는 중? 오늘 밤이 갈림길 "
-  },
-  {
    "id": 293,
    "at": "2026-10-02T22:04:23.788566+09:00",
    "kind": "insight",
@@ -603,7 +575,19 @@
    ],
    "img": "f004e4c9941580f3a4b6babe00ec90aa",
    "head": "같은 BTC 노출인데 변동성이 39% → 94% → 9%로 갈리는 이유 "
+  },
+  {
+   "id": 346,
+   "at": "2026-10-05T20:47:56.777489+09:00",
+   "kind": "insight",
+   "fp": "e1c081949f695647",
+   "refs": [
+    "news:28078660299439",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/418380"
+   ],
+   "img": "f4de31c07a638a515699e5d537a846e4",
+   "head": "이번 주 BTC 반등, 바닥 신호일까 갈림길일까 "
   }
  ],
- "last_pub_at": "2026-10-05T18:42:53.632381+09:00"
+ "last_pub_at": "2026-10-05T20:47:56.777489+09:00"
 }
