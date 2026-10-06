@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 311,
-   "at": "2026-10-03T22:04:15.467684+09:00",
-   "kind": "insight",
-   "fp": "fa6aae07ed0049bd",
-   "refs": [
-    "news:132935265094886",
-    "url:https://www.tokenpost.kr/news/briefing/417915"
-   ],
-   "img": "6d619dfd877f384d1d12c461b7f9d270",
-   "head": "어제 반등이 숏 스퀴즈 성격이었는데 오늘은 롱이 털렸음 "
-  },
-  {
-   "id": 313,
-   "at": "2026-10-03T23:04:34.272105+09:00",
-   "kind": "insight",
-   "fp": "75dd0c37490dc3e4",
-   "refs": [
-    "news:92340112389117",
-    "url:https://www.blockmedia.co.kr/archives/1147473"
-   ],
-   "img": "21da8efd92e43c8b1ff0dd17beecd152",
-   "head": "속보) 금융당국, 4일 오후 전 금융권 CEO 긴급 소집 "
-  },
-  {
    "id": 312,
    "at": "2026-10-04T00:27:19.399679+09:00",
    "kind": "insight",
@@ -621,7 +597,21 @@
    ],
    "img": "a11fa8a152b9eacd00a0b904b02a93c3",
    "head": "채권 시장만 먼저 시끄러운 중 "
+  },
+  {
+   "id": 366,
+   "at": "2026-10-06T23:22:22.457982+09:00",
+   "kind": "insight",
+   "fp": "e5baaffa92622207",
+   "refs": [
+    "news:159453133849922",
+    "url:https://cryptoslate.com/ethereum-proposed-3x-etf-cme-futures-threshold-362-million/",
+    "news:221786283288362",
+    "url:https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vc3BYZ3U3Ti02amh1bURCWDBlSVF0cjhGQ3N5TzlUVENnc1FEMUhfNC1qQlF4Qk0zTkxyODVwbjk5TE8xYmk5aUwyQXJSUTFNVWxheDJR"
+   ],
+   "img": "7ada610a3aa6bd310a6a71702da38626",
+   "head": "3배 ETH ETF, 자산 3.6억 달러면 큰 걸까 "
   }
  ],
- "last_pub_at": "2026-10-06T21:42:57.725407+09:00"
+ "last_pub_at": "2026-10-06T23:22:22.457982+09:00"
 }
