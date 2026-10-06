@@ -1,34 +1,6 @@
 {
  "posts": [
   {
-   "id": 308,
-   "at": "2026-10-03T17:57:20.660659+09:00",
-   "kind": "insight",
-   "fp": "b33c64cf10b5c1f6",
-   "refs": [
-    "news:155971695909243",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/417873",
-    "coinnesskr:233044",
-    "url:https://t.me/coinnesskr/233044",
-    "news:18487748517418",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/417876"
-   ],
-   "img": "1b75cba7eeec718d8b12e89dba5fe252",
-   "head": "다들 BTC 가격 조정 = 약세 신호라고 보는데 "
-  },
-  {
-   "id": 309,
-   "at": "2026-10-03T19:04:24.311498+09:00",
-   "kind": "insight",
-   "fp": "d917d0ad5924e163",
-   "refs": [
-    "coinnesskr:233050",
-    "url:https://t.me/coinnesskr/233050"
-   ],
-   "img": "597bc4de5d1021fb8a33e84cf5520929",
-   "head": "스테이블코인 시총이 크립토에 미치는 경로 "
-  },
-  {
    "id": 310,
    "at": "2026-10-03T20:27:21.905896+09:00",
    "kind": "insight",
@@ -621,7 +593,23 @@
    ],
    "img": "ecf043ee4fc550593715fdcce0a7b998",
    "head": "폐업해도 코인 들고 있으면 '영업'임 "
+  },
+  {
+   "id": 363,
+   "at": "2026-10-06T19:04:21.983795+09:00",
+   "kind": "insight",
+   "fp": "123229c248b5eb42",
+   "refs": [
+    "news:20593670361379",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/418791",
+    "coinnesskr:233237",
+    "url:https://t.me/coinnesskr/233237",
+    "coinnesskr:233239",
+    "url:https://t.me/coinnesskr/233239"
+   ],
+   "img": "d32fb118bfc3e75b80be2cb1eb8c914a",
+   "head": "BTC 8만400달러 선 위, 수주째 버티는 중 "
   }
  ],
- "last_pub_at": "2026-10-06T17:04:26.344879+09:00"
+ "last_pub_at": "2026-10-06T19:04:21.983795+09:00"
 }
