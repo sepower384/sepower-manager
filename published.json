@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 310,
-   "at": "2026-10-03T20:27:21.905896+09:00",
-   "kind": "insight",
-   "fp": "6a7c4980d7765540",
-   "refs": [
-    "news:234579460397901",
-    "url:https://www.digitalasset.works/news/articleView.html"
-   ],
-   "img": "9babf755d80defbf1b8d3519d83b9752",
-   "head": "스테이블코인 발행, 은행 먼저라는 연구용역 나왔음 "
-  },
-  {
    "id": 311,
    "at": "2026-10-03T22:04:15.467684+09:00",
    "kind": "insight",
@@ -621,7 +609,19 @@
    ],
    "img": "3024eb9a0b683f8fab17e450ec46a07a",
    "head": "전고점 1년 뒤 낙폭, 그때 vs 지금 "
+  },
+  {
+   "id": 365,
+   "at": "2026-10-06T21:42:57.725407+09:00",
+   "kind": "insight",
+   "fp": "8148ec9e498f54ea",
+   "refs": [
+    "news:86691323794553",
+    "url:https://www.tokenpost.kr/news/economy/418880"
+   ],
+   "img": "a11fa8a152b9eacd00a0b904b02a93c3",
+   "head": "채권 시장만 먼저 시끄러운 중 "
   }
  ],
- "last_pub_at": "2026-10-06T20:17:19.399478+09:00"
+ "last_pub_at": "2026-10-06T21:42:57.725407+09:00"
 }
