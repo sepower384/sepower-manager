@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 319,
-   "at": "2026-10-04T07:57:17.158584+09:00",
-   "kind": "insight",
-   "fp": "51a2490b5f22fa2b",
-   "refs": [
-    "news:130765545051327",
-    "url:https://cryptoslate.com/bankers-sue-to-overturn-occ-trust-bank-rule-used-by-crypto-firms/"
-   ],
-   "img": "4a0575bbfe9122ae7d9e2b2b134595f5",
-   "head": "은행 로비단체가 크립토 신탁은행 인가를 법원으로 끌고 감 "
-  },
-  {
    "id": 320,
    "at": "2026-10-04T09:52:17.608240+09:00",
    "kind": "brief",
@@ -619,7 +607,21 @@
    ],
    "img": "15bac7e9168ee74a7e2bdc6e4deb30ab",
    "head": "💥 대규모 롱 청산 감지 "
+  },
+  {
+   "id": 374,
+   "at": "2026-10-07T08:04:57.589854+09:00",
+   "kind": "insight",
+   "fp": "35ada793689e29fd",
+   "refs": [
+    "news:22035557186456",
+    "url:https://thedefiant.io/news/blockchains/abstract-to-shut-down-ethereum-layer-2-on-dec-15",
+    "news:212181594681150",
+    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE1fLUJLRFY1ZjZkTDBMbW12Zzl1RzNBTkNiakNlTnRtMTJYOE9IeDFXZVY2bkNqNkdpanFsR1FFQmdjbnpaWWdzQ3EwODZFQlBmODZodVNZTFhWc3U2SE9mX2FhTERCWVVSSlNCMEFlZDBEU3M"
+   ],
+   "img": "adeba2e62b19b81318965f4f8b22f426",
+   "head": "앱스트랙트도 접음, L2 연쇄 폐쇄 정리 "
   }
  ],
- "last_pub_at": "2026-10-07T06:52:17.321579+09:00"
+ "last_pub_at": "2026-10-07T08:04:57.589854+09:00"
 }
