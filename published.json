@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 314,
-   "at": "2026-10-04T02:22:21.431791+09:00",
-   "kind": "insight",
-   "fp": "cbbe5162ed5d4313",
-   "refs": [
-    "coinnesskr:233063",
-    "url:https://t.me/coinnesskr/233063",
-    "news:178521157887200",
-    "url:https://news.google.com/rss/articles/CBMioAFBVV95cUxQekNoQkJ3LXZCQUc0dGpMb1dQLTVtdUNNNFRvSUJ3TFVKVkh1TGJZSks5NXRxSEpqb00xamZXV2gxSUZ3Z0JwaHdkdFh2YjBpUEFhVTJ2Y2FZTWo0OGhJZVo3WWN3SUxuQndNc0ZjUl9GT2c4T1VVU3JncWxDR1J3bXhoWC0wWlQ0MXRhMXBpeUkwUGpiYnNWSkxQZmxSOUJp"
-   ],
-   "img": "ca00a42a2572acf5c34a386aa1733261",
-   "head": "558개 체인 중 399개가 어제 수수료 0원이었음 "
-  },
-  {
    "id": 315,
    "at": "2026-10-04T03:34:27.234200+09:00",
    "kind": "whale",
@@ -613,7 +599,19 @@
    ],
    "img": "4b76fe44fe7dae0f8dc5de36a5c68332",
    "head": "이더리움 글램스테르담, 세폴리아까지 왔음 "
+  },
+  {
+   "id": 368,
+   "at": "2026-10-07T02:47:27.243344+09:00",
+   "kind": "liquidation",
+   "fp": "a5cd5537b712d503",
+   "refs": [
+    "whaleliquidation:3071494",
+    "url:https://t.me/whaleliquidation/3071494"
+   ],
+   "img": "51453f2ffbf4c20510605293ca8b28af",
+   "head": "💥 대규모 롱 청산 감지 "
   }
  ],
- "last_pub_at": "2026-10-07T00:47:22.977459+09:00"
+ "last_pub_at": "2026-10-07T02:47:27.243344+09:00"
 }
