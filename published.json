@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 317,
-   "at": "2026-10-04T05:57:16.879384+09:00",
-   "kind": "whale",
-   "fp": "c020568107abe5b7",
-   "refs": [
-    "whalealertkorean:171521",
-    "url:https://t.me/whalealertkorean/171521"
-   ],
-   "img": "d4f9b840d21e0bbcfc699967a14a99d3",
-   "head": "🐋 고래 대량 이동 포착 "
-  },
-  {
    "id": 319,
    "at": "2026-10-04T07:57:17.158584+09:00",
    "kind": "insight",
@@ -619,7 +607,19 @@
    ],
    "img": "bfbe3d56110c76b43475cfda37fe1557",
    "head": "美 국채금리 숨 고르자 S&P500·나스닥 장중 사상 최고 "
+  },
+  {
+   "id": 372,
+   "at": "2026-10-07T06:52:17.321579+09:00",
+   "kind": "liquidation",
+   "fp": "1fd5b3f5ed8ea351",
+   "refs": [
+    "whaleliquidation:3071951",
+    "url:https://t.me/whaleliquidation/3071951"
+   ],
+   "img": "15bac7e9168ee74a7e2bdc6e4deb30ab",
+   "head": "💥 대규모 롱 청산 감지 "
   }
  ],
- "last_pub_at": "2026-10-07T05:35:16.387096+09:00"
+ "last_pub_at": "2026-10-07T06:52:17.321579+09:00"
 }
