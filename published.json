@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 305,
-   "at": "2026-10-03T12:04:25.450257+09:00",
-   "kind": "insight",
-   "fp": "f215d98faa5eb6fd",
-   "refs": [
-    "news:176809387713740",
-    "url:https://www.blockmedia.co.kr/archives/1147115",
-    "news:100673546962217",
-    "url:https://www.blockmedia.co.kr/archives/1147354",
-    "news:36129529273624",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/417812"
-   ],
-   "img": "e64e51b63c340273cee7b5f8ac525805",
-   "head": "BTC, 고용 호재를 유조선 피격이 지웠음 "
-  },
-  {
    "id": 306,
    "at": "2026-10-03T13:57:18.587549+09:00",
    "kind": "insight",
@@ -607,7 +591,19 @@
    ],
    "img": "f5febdc26a9f9986ccc9a066b75474ab",
    "head": "기다리면 된다? 근데 BTC는 놓치는 비용이 큼 "
+  },
+  {
+   "id": 359,
+   "at": "2026-10-06T12:57:19.580744+09:00",
+   "kind": "liquidation",
+   "fp": "05d51d17a71df971",
+   "refs": [
+    "whaleliquidation:3069887",
+    "url:https://t.me/whaleliquidation/3069887"
+   ],
+   "img": "03a0e3831d109bade967a96419c2e23c",
+   "head": "💥 대규모 롱 청산 감지 "
   }
  ],
- "last_pub_at": "2026-10-06T11:17:20.680970+09:00"
+ "last_pub_at": "2026-10-06T12:57:19.580744+09:00"
 }
