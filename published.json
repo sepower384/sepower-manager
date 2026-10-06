@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 312,
-   "at": "2026-10-04T00:27:19.399679+09:00",
-   "kind": "insight",
-   "fp": "53ed9ad45b1bc5aa",
-   "refs": [
-    "news:151029619116277",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/417944"
-   ],
-   "img": "8cfe30b07c812b263d725e4504b3bffb",
-   "head": "유니스왑 토큰화 주식, 거래량 71%가 정규장 밖이었음 "
-  },
-  {
    "id": 314,
    "at": "2026-10-04T02:22:21.431791+09:00",
    "kind": "insight",
@@ -611,7 +599,21 @@
    ],
    "img": "7ada610a3aa6bd310a6a71702da38626",
    "head": "3배 ETH ETF, 자산 3.6억 달러면 큰 걸까 "
+  },
+  {
+   "id": 367,
+   "at": "2026-10-07T00:47:22.977459+09:00",
+   "kind": "insight",
+   "fp": "95562fe5746f667d",
+   "refs": [
+    "news:60602005626286",
+    "url:https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet",
+    "news:104055412839653",
+    "url:https://www.tokenpost.kr/news/blockchain/418951"
+   ],
+   "img": "4b76fe44fe7dae0f8dc5de36a5c68332",
+   "head": "이더리움 글램스테르담, 세폴리아까지 왔음 "
   }
  ],
- "last_pub_at": "2026-10-06T23:22:22.457982+09:00"
+ "last_pub_at": "2026-10-07T00:47:22.977459+09:00"
 }
