@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 323,
-   "at": "2026-10-04T14:27:19.051430+09:00",
-   "kind": "insight",
-   "fp": "150580fb429b172c",
-   "refs": [
-    "news:246054537308413",
-    "url:https://www.blockmedia.co.kr/archives/1147554"
-   ],
-   "img": "c7e2798710121e16ebb69914f24be15b",
-   "head": "코인베이스, 씨티 망에 스테이블코인 연결 "
-  },
-  {
    "id": 324,
    "at": "2026-10-04T15:52:17.606781+09:00",
    "kind": "insight",
@@ -641,7 +629,37 @@
    ],
    "img": "9ffb1c107c5c69325bd7c8153e068718",
    "head": "코인베이스, Pro 연말 재출시 계획 + 데리빗 통합 완료 "
+  },
+  {
+   "id": 380,
+   "at": "2026-10-07T15:42:23.309267+09:00",
+   "kind": "insight",
+   "fp": "bc8ff0740f0632f3",
+   "refs": [
+    "news:161486397996760",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/419253",
+    "news:213392936414780",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/419252",
+    "news:42926720780203",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTFBDWHNMVWRweTYzdm5ScXAtM2NfSFNZNmxOc2NZUWZNWmRuTWhvMjRzYjRYOU51WmZBeGJnWE1kZ1RqVkhmeEt1TVF0WXNNUFhkYTJma1ZVVFo",
+    "news:28894703966366",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE54enRXSjNDY0JpZE1PMUR2ZGRSX1JtblRUUWJmZlItQjJfSl8xZFFpd1VCbjlJSWtNbmJTZ3dyc1ZkVlkzZGI5bGZWV3FoNlRUdmd6RVpPdEI",
+    "news:180537520078980",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE9DaXJNY0NtV0s3UG5yRjRCLUlKZ1FSTUV3VmJPOXJEYXc2dDB2WnducDlkbl9DWG5PbFpPU3BPSzNKdnpSbjJTS0ZMZ3VCbG5q",
+    "news:257307325232466",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE54RUdibXZWRm8zWkN1MzBSSWx1MEViY1g1T3pkbk50UzRSY3VmOENrZUtTTWhpcEtRRVhXMlh0Zm5OdGFoLTFOa3N5Y0RVdXJVc0FMVFJDbnk",
+    "news:163314313213361",
+    "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxPRnc5YmphWWdaVWNSVEM0Zjdsc0g0Nm92ZU5iNnlsRzZZeHhTUEdVcDZndDhpS0lBZVprRXJ1NFZLb2lMd09IM1NtbnBUckRDa3VNT1R5akZFdDFtNDZSY1hiUHhRTGQ5QTdueVYyYi1sdV9sV24xRFJJcEE0azRxVFFpQzU0QjBjbmFIYzZiVzc0LTZ5RF9BUzlrUmdEaldyTUViNXBWNlA0Qldz",
+    "news:58626892243061",
+    "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PTlJDNzQ2TFRXSHpId3pLQXNSSWk1V2x2eTgzdVF4WjJKX0Z3cFNvUlNvSXg4T29iUzRlYmJMaEdPZ25IWmkyU2Z2MUMzN0pWbXdyeg",
+    "coinnesskr:233359",
+    "url:https://t.me/coinnesskr/233359",
+    "news:83743195737520",
+    "url:https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbGpxc19fRVNVNC12SmZOVnF1TjdhM200SmUtV0c5YWhlSFBBc3pYX0ZBeEQzckFEUjM2b2VvN1N2aWlSajNSWlhubmxaQ3Z2NjlRdl9iSGhtNnViOHhxX20wSU84cURxNk5DdW1NeURuWkhYTVh6M2U5TVg2RnIxaTFmbkNORnhRdmRraDVnYUstZmZKbDRSU3d6N3Nnb0ZnRmhaUGVVVkVqaTNUWi03S09veUtBR0FsZDVndWZ0Yzl3b3B5SlZ1TQ"
+   ],
+   "img": "4c904b9ecacd7e8db67a7e33e1262e31",
+   "head": "BTC ETF는 돌아오고 ETH ETF는 계속 빠지는 중 "
   }
  ],
- "last_pub_at": "2026-10-07T13:57:16.974674+09:00"
+ "last_pub_at": "2026-10-07T15:42:23.309267+09:00"
 }
