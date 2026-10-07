@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 337,
-   "at": "2026-10-05T08:12:23.029138+09:00",
-   "kind": "insight",
-   "fp": "0a4ccb819f6f338b",
-   "refs": [
-    "news:192012745101803",
-    "url:https://www.tokenpost.kr/news/briefing/418212"
-   ],
-   "img": "534bd1d5635b9dd967317097f4da5e4f",
-   "head": "주간 ETF 합산, BTC는 +8300만달러인데 ETH는 -1억1400만달러 "
-  },
-  {
    "id": 338,
    "at": "2026-10-05T09:52:22.197960+09:00",
    "kind": "liquidation",
@@ -681,7 +669,23 @@
    ],
    "img": "8c783e3ce82faa546a509d7d024e88d4",
    "head": "속보) 美 10년물 5.36% 찍었음, 2002년 이후 최고 "
+  },
+  {
+   "id": 393,
+   "at": "2026-10-08T08:42:19.870923+09:00",
+   "kind": "insight",
+   "fp": "7e5883f464744ba7",
+   "refs": [
+    "news:265924331997620",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aa3FsUUVkUjRWbG12ZFdWWk5uaWU3VDF1bHJGOEt1V2VvMXNWS2JKbHlSSEI1ck5KUk5YcmthZlNJLVZpR3hRS1l4QUZfRkhyQldWM2d2d0hWakw2ZGZ6QdIBeEFVX3lxTE5iem84djN5YU1lekh6MlhEZ1RzT2doakVMNmF3UUM4dU5uT3dxNzl6WG4zRVZCLWZBbnV3OFJBLUJfanBCMUR0a2x0eUV3NHJUbjJkcHUwZ1FfTWFqQllxV1ZaYWpnRUFDdllNRkNGdnNONFJCbUZNQg",
+    "news:217378315245625",
+    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTFBOcGs5aXJldFdPZmtJZGRBM2g4dFlWdjE4eHhPVmpObFdUMWxKd1BGVGFXTHM1UVFiU3NUVkRoYkNPV0QwNWJhNzNsX1JPb2JxSG41MVh1M3B5dw",
+    "news:276120678234934",
+    "url:https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KSXNuV3pXanFEMk5DeWh4UFhvYzcwYWpGc1NsMk8wbHhrdEVEcExsSmNXUGJRS1h1Ul9VWXEwVGdJSjV2MVV6eU9pa2RtdjNBcjBLemp3"
+   ],
+   "img": "2d63f2a94bc0b7142b4a0b91e2ac40c4",
+   "head": "9월 FOMC 의사록, 연내 인상 \"한 번 더\"인데 시기는 비어 있음 "
   }
  ],
- "last_pub_at": "2026-10-08T07:05:57.316726+09:00"
+ "last_pub_at": "2026-10-08T08:42:19.870923+09:00"
 }
