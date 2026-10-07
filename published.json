@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 329,
-   "at": "2026-10-04T21:42:18.031302+09:00",
-   "kind": "insight",
-   "fp": "ecd8cfd0948b514a",
-   "refs": [
-    "news:55599781083813",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aWXhWN1owbDlpdlpwMHRSTjduRjI0aHhnVVhETmc5cGUxc0tLcmZXQl8tbzQ2QWhsdlJxNm9SRnZLVk5BeEFQN1A3Unl1dW9tLU1scHRSb2Znb3Yxd182NkFNT3M1a1hV"
-   ],
-   "img": "6701fd76eca78da551a526ad9fe8bf71",
-   "head": "비트코인 8만5000달러대 복귀, 알트도 같이 강세 "
-  },
-  {
    "id": 330,
    "at": "2026-10-04T23:27:18.860875+09:00",
    "kind": "insight",
@@ -643,7 +631,23 @@
    ],
    "img": "40f4a26c0f30b0028b35eb83252a1e7f",
    "head": "한때 글로벌 1위였던 원화, 이제 3위 "
+  },
+  {
+   "id": 386,
+   "at": "2026-10-07T23:12:20.969037+09:00",
+   "kind": "insight",
+   "fp": "1b7b4be1cfb72008",
+   "refs": [
+    "coinnesskr:233411",
+    "url:https://t.me/coinnesskr/233411",
+    "news:209896503664947",
+    "url:https://www.blockmedia.co.kr/archives/1148788",
+    "news:152889036510880",
+    "url:https://news.google.com/rss/articles/CBMiXEFVX3lxTE52djNKWWhIcS1SUW5WcDJaLTI0dDhnZGVhTzhTQVBCLTRxdFlpUUw0SHlURmJTM1dqMk9Ic2lfcmVHUHhVS0tQX0w2c2wwOWMzVlIyV3RNVXhMU285"
+   ],
+   "img": "d0d06a20baa60dc817490d07df29ff06",
+   "head": "ETF 매수세는 있는데 BTC는 왜 8.3만까지 밀렸을까 "
   }
  ],
- "last_pub_at": "2026-10-07T21:34:20.059466+09:00"
+ "last_pub_at": "2026-10-07T23:12:20.969037+09:00"
 }
