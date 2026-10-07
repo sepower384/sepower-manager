@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 330,
-   "at": "2026-10-04T23:27:18.860875+09:00",
-   "kind": "insight",
-   "fp": "114a0b8132b5dfe3",
-   "refs": [
-    "news:220856186877008",
-    "url:https://www.coindesk.com/business/2026/10/04/the-clarity-act-stalled-crypto-dealmakers-aren-t-hitting-the-brakes-yet"
-   ],
-   "img": "19446eccb99771e726253ff6020ab7ae",
-   "head": "클래리티법 상원에서 막혔는데 M&A는 왜 안 멈추나 "
-  },
-  {
    "id": 331,
    "at": "2026-10-05T00:57:17.453879+09:00",
    "kind": "insight",
@@ -647,7 +635,27 @@
    ],
    "img": "d0d06a20baa60dc817490d07df29ff06",
    "head": "ETF 매수세는 있는데 BTC는 왜 8.3만까지 밀렸을까 "
+  },
+  {
+   "id": 389,
+   "at": "2026-10-08T00:05:02.009103+09:00",
+   "kind": "insight",
+   "fp": "4be93f52faee5063",
+   "refs": [
+    "news:249053583897088",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE03RjZrMjZaOG5CVmM0eDNDSE5PMmRZM2ZxR2JkenJ1ZC1TU0gwRVhCejFMNUowZ0JZZHdQZndzQ2V4N1ZMU3FyZXo1VkotUXNMYldTZ05tTXR5MGZoSWVhanFBQXdyX0dp",
+    "news:147972504464361",
+    "url:https://www.tokenpost.kr/news/briefing/419465",
+    "news:175120972626825",
+    "url:https://news.google.com/rss/articles/CBMinwFBVV95cUxOSmh5UnpFbUFzMk5nTzItc0lvTUROM2pIcEVJQ2tkWXVZZGVjSXV5aEVmVVhNWTJEZTZmTEphbGJFSFl1NTd1WDgtVmdsaDVkWjNFNDJlYnNvaUxBa1V1Sk16cWl3UXpON3BxZzN6UXAzQWd3TWM5amV2NUh6N0ltOFhKSWVrZFVSWDhOeGZ6R3VSNGtyNnYxSGhYSW40R0k",
+    "coinnesskr:233434",
+    "url:https://t.me/coinnesskr/233434",
+    "news:260300265754448",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE43V1lRZ05SVVFjZlRVcV8teFMycUpMM2Z0UGJ5aEttcWVOUkgyRWQ1MDcwWlpKQUJ5aHI5Y2Fkd2VuYUMtN1dzYzM0SlBQUUtZN0h6Q3Q1akY"
+   ],
+   "img": "501931d3a17aa96963b7bc2c30c43471",
+   "head": "속보) 비트코인 8.3만 달러선 후퇴, 24h -4.4% "
   }
  ],
- "last_pub_at": "2026-10-07T23:12:20.969037+09:00"
+ "last_pub_at": "2026-10-08T00:05:02.009103+09:00"
 }
