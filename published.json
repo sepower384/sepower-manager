@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 324,
-   "at": "2026-10-04T15:52:17.606781+09:00",
-   "kind": "insight",
-   "fp": "b442dbcda06bf400",
-   "refs": [
-    "news:62178653409118",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE1rY3hTUUFESF9yZTBHRGU5RUFsSkRVeWtXLXhxT0YtMDF1NUZRcEpEaFdha0t2ZUFXd2ppUEI4dVpWejhGM3luc2tIbkp2NzhaMmQteFI1c0w"
-   ],
-   "img": "92a6384ab895cb1941e4338ad2af7ec2",
-   "head": "SEC, 투자자문사 가상자산 자체 수탁 허용 추진 "
-  },
-  {
    "id": 325,
    "at": "2026-10-04T17:04:12.849454+09:00",
    "kind": "insight",
@@ -659,7 +647,19 @@
    ],
    "img": "4c904b9ecacd7e8db67a7e33e1262e31",
    "head": "BTC ETF는 돌아오고 ETH ETF는 계속 빠지는 중 "
+  },
+  {
+   "id": 382,
+   "at": "2026-10-07T16:34:59.750696+09:00",
+   "kind": "insight",
+   "fp": "771d7165244c265a",
+   "refs": [
+    "news:169494353785989",
+    "url:https://www.digitalasset.works/news/articleView.html"
+   ],
+   "img": "44ebfba63b89a749fbee35940dbe4076",
+   "head": "LG전자, 가전 이용데이터 블록체인 거래 美 특허 출원 "
   }
  ],
- "last_pub_at": "2026-10-07T15:42:23.309267+09:00"
+ "last_pub_at": "2026-10-07T16:34:59.750696+09:00"
 }
