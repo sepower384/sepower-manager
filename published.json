@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 331,
-   "at": "2026-10-05T00:57:17.453879+09:00",
-   "kind": "insight",
-   "fp": "5d0ff10a459cdd9e",
-   "refs": [
-    "news:213168662988123",
-    "url:https://www.tokenpost.kr/news/economy/418165",
-    "news:245640618784083",
-    "url:https://cryptoslate.com/the-same-fed-rate-hike-can-help-stablecoins-and-hurt-bitcoin-borrowers/"
-   ],
-   "img": "a2713eab3427de823fd27db1cdeddb08",
-   "head": "같은 금리 인상인데 크립토 안에서 승자랑 패자가 갈림 "
-  },
-  {
    "id": 332,
    "at": "2026-10-05T02:42:19.966619+09:00",
    "kind": "whale",
@@ -655,7 +641,21 @@
    ],
    "img": "501931d3a17aa96963b7bc2c30c43471",
    "head": "속보) 비트코인 8.3만 달러선 후퇴, 24h -4.4% "
+  },
+  {
+   "id": 387,
+   "at": "2026-10-08T01:20:08.812196+09:00",
+   "kind": "insight",
+   "fp": "b5485efee1c36688",
+   "refs": [
+    "coinnesskr:233426",
+    "url:https://t.me/coinnesskr/233426",
+    "news:38675721739039",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/419441"
+   ],
+   "img": "e4a41ae92d8e6186ba714803aa3a4d63",
+   "head": "다들 85K 회복했으니 상승 랠리 시작이라고 하는데 "
   }
  ],
- "last_pub_at": "2026-10-08T00:05:02.009103+09:00"
+ "last_pub_at": "2026-10-08T01:20:08.812196+09:00"
 }
