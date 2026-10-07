@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 336,
-   "at": "2026-10-05T06:12:18.371363+09:00",
-   "kind": "insight",
-   "fp": "f79b87316077e18b",
-   "refs": [
-    "news:227727338136324",
-    "url:https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSjc3dGMydGxnWmJXNEpvRm5HY0p6NVhIUjFpTWJvd2w3N1FKR29nSzQ2ZW1uQXctRnZkYlFnc3BORlhUVkx2RS00alpydHZQVGJtcktLVjJsTGpWWXpOMkNvM0FHcVl4QkxJY25keEpkSndPeWlxdXRuVzNHREtEZGxoNzVvellOVGlqd3B1WUd2RVhwSVExbndQaTQ5Sl9WNUYwUEd0RzduaHl1NEhPZkJsSkdGTm1ucV9HOVBvVUlPcnVobVlhc3ExSEpwTmEyU2VmWlFZR1d4SkU",
-    "news:225229507773025",
-    "url:https://news.google.com/rss/articles/CBMitgFBVV95cUxPcDhHZkRodk5uSUJ3Wk44QWJEbjdBOTBfa1BUNE1aTWticWZBWENHX05IQ2tuWENRSk41NGxQY3doVU9NMFRiQWZIWU1TZ2JScTJnV2RVSnpwY0lvam1lS04zMkxzcTlvN1RGU183YlVhLTRiVzZEaUZXa195c0ZROFh0b2lSdjFKcWdsY3hXSFM0ZzBsU1Mta0gyUXRhekF0YVNxR1ByR0EtUk5iNTVtVE1IZWxQdw",
-    "news:217726936048400",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xUHFNa0NSSXd2LWl4Y2FMaDdCZmozM1h3VDhJaFRSOXRIeEktSnM1aldZSmtrMFpvYURGZWVpb1IwNlNkbE1iS0hxaXlBWUtQa244bnVTOEc"
-   ],
-   "img": "409be4727b1e4dfbb7d8ef77ddff9533",
-   "head": "다들 SEC 승인이라 호재라고 하는데 이건 결이 다름 "
-  },
-  {
    "id": 337,
    "at": "2026-10-05T08:12:23.029138+09:00",
    "kind": "insight",
@@ -655,7 +639,23 @@
    ],
    "img": "8c1fb81ab10beb7546d276ad1bc05ec2",
    "head": "속보) 국채금리 다시 급등, S&P·나스닥 최고치서 하루 만에 후퇴 "
+  },
+  {
+   "id": 394,
+   "at": "2026-10-08T06:38:48.013481+09:00",
+   "kind": "insight",
+   "fp": "b2543edea8240399",
+   "refs": [
+    "news:18787960349908",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE8wQmlxc3dibndOZXMzWlowYnVYbmVld2c0RWJYUW5ZcHRuOWdJTDk5Sk9TVlMxUnF5Wl9NanNSZ0wxWEtHc0ZwRmYtT0ZieEhI",
+    "news:33590108713207",
+    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LTWFpcWE2blVWYVc5UDVOU0dza2g5NHN1X09aY3VfV2xlUnc4OXpuM0Y4eXNfN083RlNtcV9Ia1FhWUZOQnhaQzNMeUN1aDJFeGYyWEdtUVhob2Z2NWZLNXVuNzEwSnc",
+    "news:242039804618536",
+    "url:https://news.google.com/rss/articles/CBMiXkFVX3lxTE10QWtRYm5YSTVsUTI1WlJpaU9uTkxGRmMwa3pvZnBwRW9KdWlINk5VVVVWalNZWEllUlhsY0RCaHNZdS1qMDQ4MTNBb0RSOXdOV3dqcHh2eV9FUUpLRnc"
+   ],
+   "img": "eebea50edf886cb32cf10cb6956040bc",
+   "head": "속보) 금리 급등 속 반도체도 갈렸음, 마이크론 +4.06% vs 엔비디아 -0.74%·AMD -0.55% "
   }
  ],
- "last_pub_at": "2026-10-08T05:42:43.389449+09:00"
+ "last_pub_at": "2026-10-08T06:38:48.013481+09:00"
 }
