@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 335,
-   "at": "2026-10-05T04:12:19.761530+09:00",
-   "kind": "whale",
-   "fp": "db58077bef203f94",
-   "refs": [
-    "whalealertkorean:171584",
-    "url:https://t.me/whalealertkorean/171584"
-   ],
-   "img": "0c307404b71af11a594c4dd7c02c5708",
-   "head": "🐋 고래 대량 이동 포착 "
-  },
-  {
    "id": 336,
    "at": "2026-10-05T06:12:18.371363+09:00",
    "kind": "insight",
@@ -655,7 +643,19 @@
    ],
    "img": "989e124b55009078eb732401aa9f13ff",
    "head": "🐋 고래 대량 이동 포착 "
+  },
+  {
+   "id": 392,
+   "at": "2026-10-08T05:42:43.389449+09:00",
+   "kind": "insight",
+   "fp": "2359f190e48d6eb1",
+   "refs": [
+    "news:60712363748723",
+    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxNWjRYV0xfMkhYaHRiUjhvZFE1MFhsNjN2eE1ncFZiaFNoSmpkam5XSkNsSUlsc25Zb3FPaDdwUHY5T0VBV3U1c1VKOGY5R0Q3el85VUZVZVM4clRmX2lOMmhiN084RWxsdlphOU84aXQ5cWZDTXpCM3lybXhuQ3RVVQ"
+   ],
+   "img": "8c1fb81ab10beb7546d276ad1bc05ec2",
+   "head": "속보) 국채금리 다시 급등, S&P·나스닥 최고치서 하루 만에 후퇴 "
   }
  ],
- "last_pub_at": "2026-10-08T03:17:15.587905+09:00"
+ "last_pub_at": "2026-10-08T05:42:43.389449+09:00"
 }
