@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 332,
-   "at": "2026-10-05T02:42:19.966619+09:00",
-   "kind": "whale",
-   "fp": "32a5d045f6a29f81",
-   "refs": [
-    "whalealertkorean:171580",
-    "url:https://t.me/whalealertkorean/171580"
-   ],
-   "img": "01a72144c6a947beb353858a176bd5d8",
-   "head": "🐋 고래 대량 이동 포착 "
-  },
-  {
    "id": 335,
    "at": "2026-10-05T04:12:19.761530+09:00",
    "kind": "whale",
@@ -655,7 +643,19 @@
    ],
    "img": "e4a41ae92d8e6186ba714803aa3a4d63",
    "head": "다들 85K 회복했으니 상승 랠리 시작이라고 하는데 "
+  },
+  {
+   "id": 390,
+   "at": "2026-10-08T03:17:15.587905+09:00",
+   "kind": "whale",
+   "fp": "bdb99a5ef7232903",
+   "refs": [
+    "whalealertkorean:171960",
+    "url:https://t.me/whalealertkorean/171960"
+   ],
+   "img": "989e124b55009078eb732401aa9f13ff",
+   "head": "🐋 고래 대량 이동 포착 "
   }
  ],
- "last_pub_at": "2026-10-08T01:20:08.812196+09:00"
+ "last_pub_at": "2026-10-08T03:17:15.587905+09:00"
 }
