@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 352,
-   "at": "2026-10-06T03:42:24.238248+09:00",
-   "kind": "insight",
-   "fp": "bec35de8f97f72f1",
-   "refs": [
-    "coinnesskr:233145",
-    "url:https://t.me/coinnesskr/233145",
-    "news:202765310519901",
-    "url:https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUWh2M0ZVQ0xQQm5KaDRHMXJGTG1fWXdYSjdhbkpCeU1MTXc3QndhUkxQOUdqcUFkZDVwUTZJZzM1OFV0dmVjcnhQUDZJc2llTzZOWFZaRXFQUE5jSGJQbzZ3VUlIZ0FlaktlaldFNDRmOUZHamFoM3Y3UUVIQWtiRzhBUTJkdEFnU0VGWm1VLVI3c28tMmh3V2lPS0FEem9KUXdVMjZIelZqUENuZnMyNHlBT05sNEtvaWJrTGlwUkNpQQ"
-   ],
-   "img": "8c35f9be9b53d4defe132e9b44172ed6",
-   "head": "CFTC가 크립토 규정안 2건 들고 나왔는데, 아직 '제출' 단계임 "
-  },
-  {
    "id": 354,
    "at": "2026-10-06T05:18:46.703370+09:00",
    "kind": "whale",
@@ -714,7 +700,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 409,
+   "at": "2026-10-09T03:42:19.434121+09:00",
+   "kind": "whale",
+   "fp": "adc8ec327a5b5345",
+   "refs": [
+    "whalealertkorean:172145",
+    "url:https://t.me/whalealertkorean/172145"
+   ],
+   "img": "51da6d03162da209c9ca81f0cc12c108",
+   "head": "🐋 고래 거래소 입금 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-09T02:12:19.419057+09:00"
+ "last_pub_at": "2026-10-09T03:42:19.434121+09:00"
 }
