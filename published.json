@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 345,
-   "at": "2026-10-05T18:42:53.632381+09:00",
-   "kind": "insight",
-   "fp": "f9a486b9c2bf8215",
-   "refs": [
-    "news:108684226590935",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE9nSTlTcFBKUEREaHpEa0hERTJUSDlZWlRlc1NJTDJmR090Q2Rzc0tGWUlFWktua2VBTHNjSkVLeFJyQUhPZUo3d0pZZkxvU3B1"
-   ],
-   "img": "f004e4c9941580f3a4b6babe00ec90aa",
-   "head": "같은 BTC 노출인데 변동성이 39% → 94% → 9%로 갈리는 이유 "
-  },
-  {
    "id": 346,
    "at": "2026-10-05T20:47:56.777489+09:00",
    "kind": "insight",
@@ -692,7 +680,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 403,
+   "at": "2026-10-08T19:34:31.332632+09:00",
+   "kind": "insight",
+   "fp": "5328c74cbcb1c36d",
+   "refs": [
+    "news:186335640514030",
+    "url:https://www.blockmedia.co.kr/archives/1149134",
+    "news:74431299028559",
+    "url:https://cryptoslate.com/vitalik-buterin-urges-calm-as-ai-raises-new-fears-over-bitcoin-and-ethereum-cryptography-security/",
+    "news:15662309025114",
+    "url:https://news.google.com/rss/articles/CBMikAFBVV95cUxObHR5WEU1Ry1MalB1SlozeHhvVEVTLWJVczk3TVFoTXUyREhrNk1GRjhIcWVRZ0V0NFNCNTdYVFNrRWxiM0tYajhIdUh2amxRS05EOTFDYTlnQ0IxM3RSZFhjY1UzYm04YUMyNkZMa3gwNVlvejFVNE00N3JCWi1JNkJsWnRSYnY3T3ZtdUVseEs"
+   ],
+   "img": "a695510a43251a0ecc814d25a484bd06",
+   "head": "AI가 양자컴퓨터보다 먼저 지갑 암호를 깰 수도 있다는 경고 나옴 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-08T17:57:18.140430+09:00"
+ "last_pub_at": "2026-10-08T19:34:31.332632+09:00"
 }
