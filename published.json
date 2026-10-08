@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 349,
-   "at": "2026-10-06T00:34:40.477652+09:00",
-   "kind": "insight",
-   "fp": "b47c440c4cc265f0",
-   "refs": [
-    "news:122741248467149",
-    "url:https://thedefiant.io/converge/tradfi-and-fintech/okxice-tokenized-securities-venue-sec-innovation-exemption-63-stocks",
-    "news:77859197763928",
-    "url:https://news.google.com/rss/articles/CBMi_AFBVV95cUxQNzlnTmsydlQyQmE2Uk8tbFdlYVdXWC1XYU83RGRqY281T0l5eURVM1JwSVhiUERGdDhuTGtWY2VHTTVla0ZINEJQbHE3am16THFPVzVIaU9sY21uX0pmRmVKbThhOGNqWEZSdmd4RVg4NS1YdkhDYVZYZnVkX1RrWTVSQ1cwVVJUZnM0eWFSLWFVaUk5a2Z5bjI0SUN6TzV4ME4xa0llUktsZTc2X3RIdHhGSTFsSmlrOGtsYk8zci1hNWwwVDdTTlY3aEZybXBOelJMd2JzTkNtY2Rlc2liYm9RRHFIcUduNWE4ZXA3dE9wdlRTdlRWY2RkbXk"
-   ],
-   "img": "e6158d96e8f52b500ba5044ac0d04d18",
-   "head": "OKXICE의 토큰화 주식 63종목, 어디서 누가 막나 "
-  },
-  {
    "id": 350,
    "at": "2026-10-06T01:57:22.342791+09:00",
    "kind": "whale",
@@ -707,7 +693,25 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 408,
+   "at": "2026-10-09T00:52:21.235906+09:00",
+   "kind": "insight",
+   "fp": "5149f3d3b6f861bd",
+   "refs": [
+    "news:22634994235440",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNTEhXVVNCV0ZzTHhfVHJoOU9qSU9PUjlOUElkanJmUkdKWjRFQXNXUGV6M0xkakQwNXlMUWxTVjRnOHprQ2Z2UWdVZDhGTnNCX2dvbG1kYkpWSEJOMk1KNzJoTVl0TzJR",
+    "news:52881004867053",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ILS12a1J2OFhPZlBRX01hNk9RX0JEdlBZNWtkdkFrT1oxZjFBaHhSd0hwWmM0NThkOGpQR25BcnRITTY5YkpCZjBwTzN3SVJUZHUzbllYZVE5QkNsVGR4VjF2TEdHZGFE"
+   ],
+   "img": "cfffd15a79a033fdfa113f2913c2e968",
+   "head": "속보) 비트코인 8만2000달러 하회, 알트 더 크게 털썩 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-08T23:12:18.427701+09:00"
+ "last_pub_at": "2026-10-09T00:52:21.235906+09:00"
 }
