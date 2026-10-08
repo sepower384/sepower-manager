@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 344,
-   "at": "2026-10-05T17:22:17.955264+09:00",
-   "kind": "insight",
-   "fp": "30fa9b5c294ff25c",
-   "refs": [
-    "news:35275478595796",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE1nd0VJWkdBMDYtSGw3ZnN4Y3lPandDbGtKY1ZucC15eTFhZ3FwbUt4aDdHRXhKR2lwdHhNQ2tXTkZaSmhHNnBsZl93TjZGanBt",
-    "news:173386396291655",
-    "url:https://www.coindesk.com/tech/2026/10/05/ethereum-has-a-25-day-wait-to-start-staking-with-nearly-1-5-million-eth-in-line"
-   ],
-   "img": "c16d73643679bdb2e1a2860e6ce13223",
-   "head": "ETH 스테이킹 진입 대기 150만 ETH, 대기 25일 "
-  },
-  {
    "id": 345,
    "at": "2026-10-05T18:42:53.632381+09:00",
    "kind": "insight",
@@ -690,7 +676,23 @@
    ],
    "img": "017042d8a1cb803fc8ab3312b9e413d3",
    "head": "ETF 창구는 팔고 있는데 코인베이스 프리미엄은 플러스로 돌아선 이유가 뭘까 "
+  },
+  {
+   "id": 402,
+   "at": "2026-10-08T17:57:18.140430+09:00",
+   "kind": "insight",
+   "fp": "1f9764a282b0d600",
+   "refs": [
+    "coinnesskr:233536",
+    "url:https://t.me/coinnesskr/233536"
+   ],
+   "img": "39831235c508b6dcb5596ce82d577c73",
+   "head": "그리스 암호화폐 과세, 어디까지 왔나 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-08T16:34:27.436514+09:00"
+ "last_pub_at": "2026-10-08T17:57:18.140430+09:00"
 }
