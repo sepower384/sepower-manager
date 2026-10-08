@@ -159,7 +159,8 @@ def record(draft, at):
     text = draft["text"] or ""
     entry = {"id": draft["id"], "at": at, "kind": draft.get("kind", "insight"), "fp": text_fp(text),
              "refs": ref_keys(draft.get("refs")), "img": draft.get("photo_hash") or "",
-             "head": " ".join(text.split("\n")[:2])[:160]}
+             "head": " ".join(text.split("\n")[:2])[:160],
+             "chats": list(json.loads(draft.get("channel_msgs") or "{}").keys())}
     full = dict(entry, text=text, ptype=draft.get("ptype") or "",
                 channels=len(json.loads(draft.get("channel_msgs") or "{}")))
     month = at[:7]

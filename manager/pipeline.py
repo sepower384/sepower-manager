@@ -376,8 +376,13 @@ def publish(db, did, cfg, now=None):
         n = db.execute("SELECT COUNT(*) FROM drafts WHERE status='published'").fetchone()[0]
         if (n + 1) % promo["every_n_posts"] == 0:
             text += "\n\n" + promo["text"]
-    sent, errors = {}, []
-    for chat in telegram.target_chats():        # 모든 발행 채널에 같은 글
+    sent, errors, held = {}, [], []
+    led = ledger.load()
+    for chat in telegram.target_chats():        # 모든 발행 채널에 같은 글 (방별 상한이 있으면 그 방만 건너뜀)
+        why = channel_hold(chat, d, cfg, led, now or store.now_kst())
+        if why:
+            held.append("%s(%s)" % (chat, why))
+            continue
         try:
             sent[chat] = telegram.send(chat, text, d["photo"])["message_id"]
         except Exception as e:
@@ -393,10 +398,38 @@ def publish(db, did, cfg, now=None):
         log("⚠️ 발행 장부 기록 실패:", e)
         telegram.send(telegram.admin_chat(), "⚠️ #%d 발행 장부 기록 실패 — 자동발행 잠시 멈춤(/resume 으로 재개)\n%s" % (did, e))
         store.kv_set(db, "paused", "1")     # 장부 없이 계속 내보내면 중복 위험
-    log("발행 #%d → %d개 채널%s" % (did, len(sent), (" (실패: %s)" % "; ".join(errors)) if errors else ""))
+    log("발행 #%d → %d개 채널%s%s" % (did, len(sent), (" (실패: %s)" % "; ".join(errors)) if errors else "",
+                                    (" (건너뜀: %s)" % "; ".join(held)) if held else ""))
     if errors:
         telegram.send(telegram.admin_chat(), "⚠️ #%d 일부 채널 발행 실패\n%s" % (did, "\n".join(errors)))
     return True
+
+
+def channel_hold(chat, d, cfg, led, now):
+    """방별 발행 상한(config channel_limits). 걸리면 이유 문자열, 아니면 None.
+    강회장 10-04·10-08: 공지방(@sepowerr)은 너무 잦다 → 4시간 내외로 한 번."""
+    lim = (cfg.get("channel_limits") or {}).get(str(chat))
+    if not lim:
+        return None
+    kind = d.get("kind") or "insight"
+    if lim.get("kinds") and kind not in lim["kinds"]:
+        return "종류 제외:%s" % kind
+    mine = sorted(p.get("at", "") for p in led.get("posts", []) if str(chat) in (p.get("chats") or []))
+    day0 = now.replace(hour=0, minute=0, second=0, microsecond=0).isoformat()
+    if sum(1 for a in mine if a >= day0) >= lim.get("daily_cap", 6):
+        return "하루 상한"
+    if mine:
+        last = mine[-1]
+        since = (now - datetime.fromisoformat(last)).total_seconds() / 60
+        if d.get("urgent"):
+            need = lim.get("urgent_gap_minutes", 60)
+        else:
+            lo, hi = lim.get("gap_minutes", [210, 270])
+            seed = int(ledger.hashlib.md5((str(chat) + last).encode()).hexdigest()[:8], 16)
+            need = lo + random.Random(seed).random() * (hi - lo)
+        if since < need:
+            return "간격 %.0f/%.0f분" % (since, need)
+    return None
 
 
 def deliver(db, cfg, ids):
