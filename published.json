@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 343,
-   "at": "2026-10-05T16:04:16.595783+09:00",
-   "kind": "insight",
-   "fp": "f9f4b19795ddd251",
-   "refs": [
-    "coinnesskr:233092",
-    "url:https://t.me/coinnesskr/233092",
-    "news:173934490906316",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTFB5NnI2VGNVbjhILVdjNUhDaUNIc2Z2U0JnVllYeXVNSzdnTkVKU1JDWDdoUFdqT1BBZEczRjd0WEZwcnBXemx5eTg3U1kwRWZL"
-   ],
-   "img": "32a19ea76970d9066e18abd90bd91003",
-   "head": "ETH 3분기 +70%, BTC +42%인데 호가는 왜 얇아졌을까 "
-  },
-  {
    "id": 344,
    "at": "2026-10-05T17:22:17.955264+09:00",
    "kind": "insight",
@@ -682,7 +668,29 @@
    ],
    "img": "85725149818bc48be2418745830ce646",
    "head": "BTC·ETH 옵션 21억 6000만달러어치가 10월 9일 만기임. "
+  },
+  {
+   "id": 401,
+   "at": "2026-10-08T16:34:27.436514+09:00",
+   "kind": "insight",
+   "fp": "74644a3d0e9d5b92",
+   "refs": [
+    "news:97534853917162",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/419772",
+    "news:3126468772451",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/419771",
+    "news:153858053741517",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/419766",
+    "news:160602427906075",
+    "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxNR2pQU0wyTkJSUS1QYzFsNWpTSUIxb3dqU1p4Z0dZbWF5RlNQRUFCbHF3ZGZvR1BDblgzTloxLUU4RUlVVjl1OGFzdldiSnlZcU5mZEg3eENZMGpOR3E2WkFGaEJLeFdpU1EybFJGT00zWlhLTllsRHg3bF9rWWFudEhidThKMWh1STd5aERSYllnbVU",
+    "news:167078073001748",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE5mSzJzaUJwdTVWSUZzWHVmSlpwZk01aUQ4MmtQWXNPamZDZk1OVkFFM2doeE9PMjVhdE1hN1JIWjBtQ3Fkd1BmeEw4Wkh6S0ZNZDNDLVF6bGY",
+    "news:268022047973055",
+    "url:https://news.google.com/rss/articles/CBMickFVX3lxTFBUTDlLNThhbHRud1V2NE5UWHpBaGFkQWU3LVRKWXNBNnZ5MUhLNEE1UXVfcUN2QWFjNGVRZ2NhWWFlWmNZbkp6cmRhTTNmVDJ0cWxITlRQT2lKWnpHbXNmUXBPZFJtMGR0VnRWd1U4OUkzQQ"
+   ],
+   "img": "017042d8a1cb803fc8ab3312b9e413d3",
+   "head": "ETF 창구는 팔고 있는데 코인베이스 프리미엄은 플러스로 돌아선 이유가 뭘까 "
   }
  ],
- "last_pub_at": "2026-10-08T14:34:25.152273+09:00"
+ "last_pub_at": "2026-10-08T16:34:27.436514+09:00"
 }
