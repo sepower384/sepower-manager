@@ -1,32 +1,6 @@
 {
  "posts": [
   {
-   "id": 355,
-   "at": "2026-10-06T07:04:35.013328+09:00",
-   "kind": "insight",
-   "fp": "2836e623b25000e1",
-   "refs": [
-    "news:38876682415911",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/418557",
-    "news:33569059608909",
-    "url:https://news.google.com/rss/articles/CBMixwFBVV95cUxQX2tUS21iUHFtVzB1N1ZZeGRScHllY3hQX1E2OF84ZGxtV2Jpcl9zNE52UklYazRvN01HUFY2VVY3TFNHRGgzaW1JUnFoVkowMGRWY1JCNG95WDRBUHg4aXBYMmpLOTZtbmRVNWtGWFF1blJ1YVA2V2xnLWNoanNJdlR5UXlfRGxqM3FURTZsN1FSSFFKSTFlR1NEbmVoV3VGenk2ZGdvT2ZucHFVamVzMl9UcnR5NjFsMGxjX3RqeTZVbXF0MmVF"
-   ],
-   "img": "119877aeba1943d35d422b64734fae8b",
-   "head": "165만 BTC, 근데 같은 물량이 아닌데? "
-  },
-  {
-   "id": 356,
-   "at": "2026-10-06T08:22:57.774316+09:00",
-   "kind": "liquidation",
-   "fp": "71d2dabdc3263505",
-   "refs": [
-    "whaleliquidation:3069554",
-    "url:https://t.me/whaleliquidation/3069554"
-   ],
-   "img": "4e4c330b2abf328461a3910ad4bd7b64",
-   "head": "💥 대규모 숏 청산 감지 "
-  },
-  {
    "id": 357,
    "at": "2026-10-06T09:27:22.786323+09:00",
    "kind": "brief",
@@ -733,7 +707,31 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 414,
+   "at": "2026-10-09T08:42:20.739601+09:00",
+   "kind": "insight",
+   "fp": "ad63dcbc863b97d8",
+   "refs": [
+    "news:271752966641979",
+    "url:https://cryptoslate.com/bitcoins-slide-below-81000-exposes-why-a-fed-pause-may-not-save-the-crypto-market/",
+    "news:251588701762523",
+    "url:https://news.google.com/rss/articles/CBMiakFVX3lxTFBiY18wUk9XMmpnTmkwdHc3ZWEzQkpyUllPNEhGMUlVZDJpT2R4ajRTYzAtMWVrMF9fbjlwSlVSV25JeEdYUFJNcjZzMy12VmlLc0hqQlJWb2ljZEJ2X1ZvX1ZmdHhxRFJ3RlE",
+    "news:277875735225512",
+    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTFBvX0J5cXlsaV84YmltR2VuMHdGMTFJTE9tNEQ2b3A4OHJKRnUtQ1psYXpyTEd6Z3VVbUZGNFFPNnFrQlVCb2hidWd4aUllMEF6ZlhFMGpNSDBCUU1abHdpUGpZa2hYUDFEV1FSNnRPYVpTOHM",
+    "news:165430268194186",
+    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE1QVTRmVFFGN0YzUFNCb3ZYUGh1aGRGZlVTZENFQ2tXamEtU2paVk1hMWlfQnBDcDk0RXNmSU9XS1ptSzdhSUpjYjRhLWJrT0dUbk5xUU9MVXJoTXhHTnhfN1Q4UE1NMmUyeWRlaQ",
+    "news:177214295818496",
+    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE9UMVAwb1Zkc3ZSOTVfN2FhRGlfMDJhMmFxb29BNjBma3dFdTl2c1V4ZnBEMEF6T1Z0R2R2M0dBZ1l6eW5YSXBEX1ZwNkQzZmh5MHlOMlFIbUZ3d1FaNGdXX3AtZ3g3QklsZG9JWA"
+   ],
+   "img": "bf6e782301cd6b9797cfb21c58fac95f",
+   "head": "BTC 8.1만 아래로, 연준 동결해도 안 끝남 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-09T07:04:24.101138+09:00"
+ "last_pub_at": "2026-10-09T08:42:20.739601+09:00"
 }
