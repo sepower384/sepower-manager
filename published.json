@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 341,
-   "at": "2026-10-05T12:52:19.948599+09:00",
-   "kind": "insight",
-   "fp": "28144b0fa32cdcb8",
-   "refs": [
-    "coinnesskr:233086",
-    "url:https://t.me/coinnesskr/233086"
-   ],
-   "img": "5e22fd659e21bc84435204e7477fa9bb",
-   "head": "OKXICE, SEC에 토큰화 증권 거래소 신청서 제출. 승인이 아니라 '신청'임 "
-  },
-  {
    "id": 342,
    "at": "2026-10-05T14:27:20.955618+09:00",
    "kind": "insight",
@@ -682,7 +670,19 @@
    ],
    "img": "191a27d2537dccf89b3f8a516bb55317",
    "head": "2021년 11월 사이클 vs 이번 사이클 "
+  },
+  {
+   "id": 399,
+   "at": "2026-10-08T13:22:19.979747+09:00",
+   "kind": "liquidation",
+   "fp": "17a22eeda7b59a09",
+   "refs": [
+    "whaleliquidation:3075957",
+    "url:https://t.me/whaleliquidation/3075957"
+   ],
+   "img": "542c78300b023819f997fdcfe258f907",
+   "head": "💥 대규모 롱 청산 감지 "
   }
  ],
- "last_pub_at": "2026-10-08T11:34:21.749383+09:00"
+ "last_pub_at": "2026-10-08T13:22:19.979747+09:00"
 }
