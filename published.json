@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 346,
-   "at": "2026-10-05T20:47:56.777489+09:00",
-   "kind": "insight",
-   "fp": "e1c081949f695647",
-   "refs": [
-    "news:28078660299439",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/418380"
-   ],
-   "img": "f4de31c07a638a515699e5d537a846e4",
-   "head": "이번 주 BTC 반등, 바닥 신호일까 갈림길일까 "
-  },
-  {
    "id": 347,
    "at": "2026-10-05T22:47:24.026718+09:00",
    "kind": "insight",
@@ -699,7 +687,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 404,
+   "at": "2026-10-08T20:57:20.799192+09:00",
+   "kind": "insight",
+   "fp": "10bae5e8e56e83e2",
+   "refs": [
+    "news:35007590252657",
+    "url:https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices"
+   ],
+   "img": "4035830416f95859ea7f8ab3aeccc932",
+   "head": "삼성월렛 → 솔라나 → USDC, 이렇게 이어졌음 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-08T19:34:31.332632+09:00"
+ "last_pub_at": "2026-10-08T20:57:20.799192+09:00"
 }
