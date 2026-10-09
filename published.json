@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 373,
-   "at": "2026-10-07T05:35:16.387096+09:00",
-   "kind": "insight",
-   "fp": "9cdb8911688eb222",
-   "refs": [
-    "news:61976329709296",
-    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxNSXNKUklqQVg3ZnRkVUEtMHBFSjlNUWR2Wm9ENnBZc3RIVUpOUDF1UUZHNm9fLVNRc1ZsNmlDT1hDU0dSSFhZQnlGMlUxVk9yM095SlRubG84V1U1eXVRLWZxTHNFTDYzWUZkWHFNbVBrR2Z2WTk1YUFHcm1LUnlCWg",
-    "news:80198522123048",
-    "url:https://www.blockmedia.co.kr/archives/1148419",
-    "news:201742140348662",
-    "url:https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xc3lWdXM3QkR6dUZFZXhMaHdRQzVfVEFkdDV0bWxtd25uQTB6aVlBQXM3bEdVSXl6OWJFaEYwdE83VjlBV3E0UVRjckN1d1Z5RmVIRmVoWUVRaVFSR1E",
-    "news:276248313735478",
-    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTE0ySU1vTzFMSHhYeENERllMcW5KSGZFUzJoME4ta3UxbjBMZlRmdUVNQUw0RGJfbHdpa1Y4Y3F1eVZncnNjUjZ4V1VWVkVVeE1jNE5zUTNEZDk2UQ",
-    "news:270286058509088",
-    "url:https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRaDIxOVQ1Vng4eXRhMTk3VzJrMlNBQmJ1eUpSc3FlWTFoUWs5M3B0NS1McGFJckw1TUxaU29FdHpqYlI4VmR4bGhWQWE2SWZoMFltQ1BadEpqT1dl"
-   ],
-   "img": "bfbe3d56110c76b43475cfda37fe1557",
-   "head": "美 국채금리 숨 고르자 S&P500·나스닥 장중 사상 최고 "
-  },
-  {
    "id": 372,
    "at": "2026-10-07T06:52:17.321579+09:00",
    "kind": "liquidation",
@@ -790,7 +770,28 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 430,
+   "at": "2026-10-10T06:05:05.852622+09:00",
+   "kind": "insight",
+   "fp": "c95f4f353accc50f",
+   "refs": [
+    "news:112282262202984",
+    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GcWNxdVdLTEVhX1lZSjBlaTNGd1dDWjVrcDBHVzdNNUpLM3UzVWptb2FTT2FZdTZGX2hXb0J6WUJTTDhIbGlxTUZFSnFMQUdHX1dFN0tDa1VLQQ",
+    "coinnesskr:233733",
+    "url:https://t.me/coinnesskr/233733",
+    "news:222580692592075",
+    "url:https://news.google.com/rss/articles/CBMicEFVX3lxTFBkYlJoQnNmd2wtNHlYd08tcDVxaFFjQTQzbHBrVzlFZEVVaDJPUTdiS0RmZkRHNndGX3dJUFk2Slctcmwyam9rcmxLbnpIYWk3aWtBVVFVa3NFbmoyRkFGSEM2TEdDUW0zazRxX1NaNUTSAXRBVV95cUxQMVVWMXU0OExTSnoxaW1WZ1ROLXBReFNXeUQyb2hWZFVSenNyMnNUWVBXRWlqY25EYTQ5eEExQU9UQk9qOW9VNW1acEpvTEhwd2hoVjlZc0ZVNlo4d1B1bTJoRU9hTFZuejRRbUpyM0RTRDVXZg",
+    "news:100292024690548",
+    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ1RtSkR0QXNORmEwbWlHZHhWMWxMRnFsQ09zbE9jdHNEM2V4VnFCZ0Z2SEc3SHhGMFplNU85ZzEzd05PS2ZlX0NZbDJUSERJOTJoWkhFUGNLdzhVVy1yYzA1WWQzUFV3dmFybEYtZWkxWGdYMzZKbW1iRmZtZEZPSg"
+   ],
+   "img": "c311831ff9346ca454b5923d015ae17e",
+   "head": "속보) 뉴욕증시 3대 지수 상승, S&P500 7,811 · 나스닥 +0.64% ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-10T05:34:45.737520+09:00"
+ "last_pub_at": "2026-10-10T06:05:05.852622+09:00"
 }
