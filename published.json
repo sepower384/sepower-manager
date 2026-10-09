@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 359,
-   "at": "2026-10-06T12:57:19.580744+09:00",
-   "kind": "liquidation",
-   "fp": "05d51d17a71df971",
-   "refs": [
-    "whaleliquidation:3069887",
-    "url:https://t.me/whaleliquidation/3069887"
-   ],
-   "img": "03a0e3831d109bade967a96419c2e23c",
-   "head": "💥 대규모 롱 청산 감지 "
-  },
-  {
    "id": 360,
    "at": "2026-10-06T14:12:22.036291+09:00",
    "kind": "insight",
@@ -739,7 +727,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 417,
+   "at": "2026-10-09T13:22:54.021685+09:00",
+   "kind": "insight",
+   "fp": "3ee292e76846281a",
+   "refs": [
+    "news:158151313494629",
+    "url:https://cryptoslate.com/ai-may-be-keeping-bitcoins-biggest-macro-headwind-alive-after-the-fed-stops-hiking/"
+   ],
+   "img": "c2b01794e9a93e144a01f60e7048231e",
+   "head": "연준 의사록에서 AI 얘기가 나왔음 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-09T12:12:22.243609+09:00"
+ "last_pub_at": "2026-10-09T13:22:54.021685+09:00"
 }
