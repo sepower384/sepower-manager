@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 360,
-   "at": "2026-10-06T14:12:22.036291+09:00",
-   "kind": "insight",
-   "fp": "ff8bd46fb4c09d80",
-   "refs": [
-    "coinnesskr:233189",
-    "url:https://t.me/coinnesskr/233189"
-   ],
-   "img": "71f6a3c13704d764c158b714407052d9",
-   "head": "스트라이브 5억 달러 우선주 바이백, '한도'일 뿐임 "
-  },
-  {
    "id": 361,
    "at": "2026-10-06T15:42:25.141360+09:00",
    "kind": "insight",
@@ -743,7 +731,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 418,
+   "at": "2026-10-09T15:12:22.375394+09:00",
+   "kind": "insight",
+   "fp": "00a5210f05d7163b",
+   "refs": [
+    "coinnesskr:233650",
+    "url:https://t.me/coinnesskr/233650",
+    "news:277035278014632",
+    "url:https://news.google.com/rss/articles/CBMickFVX3lxTE1fblFhZjNscnp0bHRwTXFIM0ZReTM5XzdFTkZRdGdKU3hicnl6emg3am40WDlaNnFEbmx3OE1TLWJEaTRlanpZOFNQLWxpTDc5VHRNLVpsQ3BxT3d3Rko2SDZHcnNXQzQzR3dkcmtqb1g2UQ",
+    "news:271049194551138",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE52aEY3TFYxQndIVVZSNDhMZWRRSkxWNmt3WUU1S3JPX2hMbzNuSEtnNXJDQjRMM1FzMlM3ZWM2TUhNWnRhRzlBS1gwOHBndXNj"
+   ],
+   "img": "4673fadfca904ea7aa40136a55966c9d",
+   "head": "BTC 현물 ETF 이틀 연속 순유출 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-09T13:22:54.021685+09:00"
+ "last_pub_at": "2026-10-09T15:12:22.375394+09:00"
 }
