@@ -1,32 +1,6 @@
 {
  "posts": [
   {
-   "id": 372,
-   "at": "2026-10-07T06:52:17.321579+09:00",
-   "kind": "liquidation",
-   "fp": "1fd5b3f5ed8ea351",
-   "refs": [
-    "whaleliquidation:3071951",
-    "url:https://t.me/whaleliquidation/3071951"
-   ],
-   "img": "15bac7e9168ee74a7e2bdc6e4deb30ab",
-   "head": "💥 대규모 롱 청산 감지 "
-  },
-  {
-   "id": 374,
-   "at": "2026-10-07T08:04:57.589854+09:00",
-   "kind": "insight",
-   "fp": "35ada793689e29fd",
-   "refs": [
-    "news:22035557186456",
-    "url:https://thedefiant.io/news/blockchains/abstract-to-shut-down-ethereum-layer-2-on-dec-15",
-    "news:212181594681150",
-    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE1fLUJLRFY1ZjZkTDBMbW12Zzl1RzNBTkNiakNlTnRtMTJYOE9IeDFXZVY2bkNqNkdpanFsR1FFQmdjbnpaWWdzQ3EwODZFQlBmODZodVNZTFhWc3U2SE9mX2FhTERCWVVSSlNCMEFlZDBEU3M"
-   ],
-   "img": "adeba2e62b19b81318965f4f8b22f426",
-   "head": "앱스트랙트도 접음, L2 연쇄 폐쇄 정리 "
-  },
-  {
    "id": 375,
    "at": "2026-10-07T09:57:18.583064+09:00",
    "kind": "brief",
@@ -791,7 +765,26 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 431,
+   "at": "2026-10-10T08:10:52.522061+09:00",
+   "kind": "insight",
+   "fp": "1bb7d0ef087ceecd",
+   "refs": [
+    "news:58373845000974",
+    "url:https://cryptoslate.com/ledger-hack-scare-nears-90-million-as-tether-moves-to-freeze-stolen-usdt/",
+    "news:277734749418165",
+    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE5MZEtDVnRjalR3dGVWN0pINGhjTVd4VUNnSzdDRDhtYXNlS3E5SnVQVEkwRG85SmFoVkZaa3FvYVNFZjVGUmtrQ0w4eWFQUmFTVXl2dTNPMEhHY2o5WEsweXZaSkp2MHNmbTg4RA",
+    "coinnesskr:233725",
+    "url:https://t.me/coinnesskr/233725"
+   ],
+   "img": "d63e754a23b7ffbba7ffa077facd284f",
+   "head": "렛저 해킹 사태, 어디까지 왔나 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-10T06:05:05.852622+09:00"
+ "last_pub_at": "2026-10-10T08:10:52.522061+09:00"
 }
