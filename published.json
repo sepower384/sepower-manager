@@ -1,20 +1,6 @@
 {
  "posts": [
   {
-   "id": 367,
-   "at": "2026-10-07T00:47:22.977459+09:00",
-   "kind": "insight",
-   "fp": "95562fe5746f667d",
-   "refs": [
-    "news:60602005626286",
-    "url:https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet",
-    "news:104055412839653",
-    "url:https://www.tokenpost.kr/news/blockchain/418951"
-   ],
-   "img": "4b76fe44fe7dae0f8dc5de36a5c68332",
-   "head": "이더리움 글램스테르담, 세폴리아까지 왔음 "
-  },
-  {
    "id": 368,
    "at": "2026-10-07T02:47:27.243344+09:00",
    "kind": "liquidation",
@@ -782,7 +768,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 426,
+   "at": "2026-10-10T02:34:35.338326+09:00",
+   "kind": "whale",
+   "fp": "4a05b20a9b685ce7",
+   "refs": [
+    "whalealertkorean:172327",
+    "url:https://t.me/whalealertkorean/172327"
+   ],
+   "img": "d49f3a1ac0ed9f66c4dba5890098a6d2",
+   "head": "🐋 고래 대량 이동 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-10T00:42:18.955804+09:00"
+ "last_pub_at": "2026-10-10T02:34:35.338326+09:00"
 }
