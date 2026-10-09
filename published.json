@@ -1,32 +1,6 @@
 {
  "posts": [
   {
-   "id": 365,
-   "at": "2026-10-06T21:42:57.725407+09:00",
-   "kind": "insight",
-   "fp": "8148ec9e498f54ea",
-   "refs": [
-    "news:86691323794553",
-    "url:https://www.tokenpost.kr/news/economy/418880"
-   ],
-   "img": "a11fa8a152b9eacd00a0b904b02a93c3",
-   "head": "채권 시장만 먼저 시끄러운 중 "
-  },
-  {
-   "id": 366,
-   "at": "2026-10-06T23:22:22.457982+09:00",
-   "kind": "insight",
-   "fp": "e5baaffa92622207",
-   "refs": [
-    "news:159453133849922",
-    "url:https://cryptoslate.com/ethereum-proposed-3x-etf-cme-futures-threshold-362-million/",
-    "news:221786283288362",
-    "url:https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vc3BYZ3U3Ti02amh1bURCWDBlSVF0cjhGQ3N5TzlUVENnc1FEMUhfNC1qQlF4Qk0zTkxyODVwbjk5TE8xYmk5aUwyQXJSUTFNVWxheDJR"
-   ],
-   "img": "7ada610a3aa6bd310a6a71702da38626",
-   "head": "3배 ETH ETF, 자산 3.6억 달러면 큰 걸까 "
-  },
-  {
    "id": 367,
    "at": "2026-10-07T00:47:22.977459+09:00",
    "kind": "insight",
@@ -778,7 +752,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 424,
+   "at": "2026-10-09T23:34:21.080636+09:00",
+   "kind": "insight",
+   "fp": "c629bceb8f808050",
+   "refs": [
+    "coinnesskr:233702",
+    "url:https://t.me/coinnesskr/233702"
+   ],
+   "img": "3cd97ba44ee507a54191f759f7b193a8",
+   "head": "클린스파크 9월 매도 702 BTC, 근데 대부분 시장에 던진 게 아님 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-09T21:34:57.357463+09:00"
+ "last_pub_at": "2026-10-09T23:34:21.080636+09:00"
 }
