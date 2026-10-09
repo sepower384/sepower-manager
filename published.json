@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 363,
-   "at": "2026-10-06T19:04:21.983795+09:00",
-   "kind": "insight",
-   "fp": "123229c248b5eb42",
-   "refs": [
-    "news:20593670361379",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/418791",
-    "coinnesskr:233237",
-    "url:https://t.me/coinnesskr/233237",
-    "coinnesskr:233239",
-    "url:https://t.me/coinnesskr/233239"
-   ],
-   "img": "d32fb118bfc3e75b80be2cb1eb8c914a",
-   "head": "BTC 8만400달러 선 위, 수주째 버티는 중 "
-  },
-  {
    "id": 364,
    "at": "2026-10-06T20:17:19.399478+09:00",
    "kind": "insight",
@@ -755,7 +739,25 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 422,
+   "at": "2026-10-09T19:05:12.181419+09:00",
+   "kind": "insight",
+   "fp": "5db1c53c43a34511",
+   "refs": [
+    "news:264119703441176",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aT0ZmMS1mWFk1ZnlpWnZaRHhCWm1wcGozVDY2ZkFKXzdXY0lLY05zaEJ0d3luZjN5eF91RldpaUxfQXhGSTd2NzdMSFBmM194VUFWSENMeXJBYXRXMHN0dkZqSWNMZDkt",
+    "news:84808925930166",
+    "url:https://www.blockmedia.co.kr/archives/1149688"
+   ],
+   "img": "d0cc7fc7d7e80eba2b842085331e732a",
+   "head": "속보) 카이아(KAIA) 업비트 상장, 직후 82원선에 형성 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-09T17:52:20.245287+09:00"
+ "last_pub_at": "2026-10-09T19:05:12.181419+09:00"
 }
