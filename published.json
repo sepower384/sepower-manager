@@ -760,7 +760,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 423,
+   "at": "2026-10-09T21:34:57.357463+09:00",
+   "kind": "insight",
+   "fp": "136a5b36a80ce7ee",
+   "refs": [
+    "news:249691366138248",
+    "url:https://news.google.com/rss/articles/CBMitAFBVV95cUxOSFF1aDlfYWRYUGVhZkc0eHhPWTFueHQyQmpFX0UtcTVsUFlkODBVN3FkOHhyTFBnVVVSYWNFVnpnVU5XcDVvblE1cU5wOW1XR3JFSEVMdTlVZ1FvWjR3NE11azF0MU01OUV0ejVvanEzWjd0NXZfY3RQV29ycHBNczhKeVpNcEsxVjRpSDZXWUVqNU9NdUFKVkhfT1NlaVVHZmR1eG5wWTVpYzVzcGx0VU96d1A",
+    "news:262739281829497",
+    "url:https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRklCclZYSEY1WUFXSjZhLWczc0c3ZXlJa1FmbzZQYkE5VWZQRi04YS1ENXB5S0JGNHhySklQSkJCbTMyRUV3ck1YZ1hRSmZGYk42aVJPemVQeVVhZzJ4NjZLbVV2WmVJazRiMFcwUnV3bGVfYlRmNDhhZ1pVSFV0VDlXRnVLM1hnX1JfbnRKOVhEcFFZdWNiYjNacUhFTmNqMVNyTVptNVpjUQ"
+   ],
+   "img": "f9bea42abea485c9f027245b57fec9cf",
+   "head": "태국 SEC, 비트코인·이더 ETF 태국거래소(SET) 상장 규칙 확정, 10/16 시행 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-09T21:04:20.611951+09:00"
+ "last_pub_at": "2026-10-09T21:34:57.357463+09:00"
 }
