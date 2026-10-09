@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 362,
-   "at": "2026-10-06T17:04:26.344879+09:00",
-   "kind": "insight",
-   "fp": "45ae9112c67ebb1d",
-   "refs": [
-    "coinnesskr:233219",
-    "url:https://t.me/coinnesskr/233219"
-   ],
-   "img": "ecf043ee4fc550593715fdcce0a7b998",
-   "head": "폐업해도 코인 들고 있으면 '영업'임 "
-  },
-  {
    "id": 363,
    "at": "2026-10-06T19:04:21.983795+09:00",
    "kind": "insight",
@@ -749,7 +737,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 420,
+   "at": "2026-10-09T17:52:20.245287+09:00",
+   "kind": "insight",
+   "fp": "eab57b8a8f617ab0",
+   "refs": [
+    "news:46186168972158",
+    "url:https://www.tokenpost.kr/news/briefing/420376",
+    "news:258851046739588",
+    "url:https://www.coindesk.com/business/2026/10/09/live-updates-xrp-etfs-the-only-ones-in-green-as-btc-eth-zec-funds-post-outflows"
+   ],
+   "img": "13234e1d255225ebe0dc5457eab91b2c",
+   "head": "다들 청산 8.6억달러면 큰 하락장 왔다고 보는데 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-09T16:17:18.881652+09:00"
+ "last_pub_at": "2026-10-09T17:52:20.245287+09:00"
 }
