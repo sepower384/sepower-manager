@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 361,
-   "at": "2026-10-06T15:42:25.141360+09:00",
-   "kind": "insight",
-   "fp": "05710267fa8673d9",
-   "refs": [
-    "news:241068272584010",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/418734",
-    "coinnesskr:233203",
-    "url:https://t.me/coinnesskr/233203",
-    "news:46242319514514",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE0tQm1FV21laUcydEhFSzNWeUpUaHJwdENEUHJsOHRZMVNzT3pVWnU1OXpEaE9sb3VBdG9jZk1aSi1hMGl3T01sTWVRNDRNZS1oYlY2ZHhmd08",
-    "news:81968771494845",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/418725"
-   ],
-   "img": "a0800152b9e467247864ac66f4f35f73",
-   "head": "BTC 현물 ETF 하루 만에 유출 전환, 미국 수요 약해진 걸까 "
-  },
-  {
    "id": 362,
    "at": "2026-10-06T17:04:26.344879+09:00",
    "kind": "insight",
@@ -750,7 +732,24 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 419,
+   "at": "2026-10-09T16:17:18.881652+09:00",
+   "kind": "insight",
+   "fp": "fcf6b2cb8bac2e22",
+   "refs": [
+    "coinnesskr:233660",
+    "url:https://t.me/coinnesskr/233660",
+    "news:82390955224695",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/420363"
+   ],
+   "img": "a0d52e439854f145929e39666fb0ebb5",
+   "head": "마라홀딩스 996 BTC(약 8113만달러)가 갤럭시디지털로 넘어갔다는데, 이게 진짜 매도일까 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-09T15:12:22.375394+09:00"
+ "last_pub_at": "2026-10-09T16:17:18.881652+09:00"
 }
