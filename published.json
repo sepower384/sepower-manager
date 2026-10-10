@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 389,
-   "at": "2026-10-08T00:05:02.009103+09:00",
-   "kind": "insight",
-   "fp": "4be93f52faee5063",
-   "refs": [
-    "news:249053583897088",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE03RjZrMjZaOG5CVmM0eDNDSE5PMmRZM2ZxR2JkenJ1ZC1TU0gwRVhCejFMNUowZ0JZZHdQZndzQ2V4N1ZMU3FyZXo1VkotUXNMYldTZ05tTXR5MGZoSWVhanFBQXdyX0dp",
-    "news:147972504464361",
-    "url:https://www.tokenpost.kr/news/briefing/419465",
-    "news:175120972626825",
-    "url:https://news.google.com/rss/articles/CBMinwFBVV95cUxOSmh5UnpFbUFzMk5nTzItc0lvTUROM2pIcEVJQ2tkWXVZZGVjSXV5aEVmVVhNWTJEZTZmTEphbGJFSFl1NTd1WDgtVmdsaDVkWjNFNDJlYnNvaUxBa1V1Sk16cWl3UXpON3BxZzN6UXAzQWd3TWM5amV2NUh6N0ltOFhKSWVrZFVSWDhOeGZ6R3VSNGtyNnYxSGhYSW40R0k",
-    "coinnesskr:233434",
-    "url:https://t.me/coinnesskr/233434",
-    "news:260300265754448",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE43V1lRZ05SVVFjZlRVcV8teFMycUpMM2Z0UGJ5aEttcWVOUkgyRWQ1MDcwWlpKQUJ5aHI5Y2Fkd2VuYUMtN1dzYzM0SlBQUUtZN0h6Q3Q1akY"
-   ],
-   "img": "501931d3a17aa96963b7bc2c30c43471",
-   "head": "속보) 비트코인 8.3만 달러선 후퇴, 24h -4.4% "
-  },
-  {
    "id": 387,
    "at": "2026-10-08T01:20:08.812196+09:00",
    "kind": "insight",
@@ -817,7 +797,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 443,
+   "at": "2026-10-11T01:17:20.201661+09:00",
+   "kind": "whale",
+   "fp": "3693dd2b70a749ed",
+   "refs": [
+    "whalealertkorean:172394",
+    "url:https://t.me/whalealertkorean/172394"
+   ],
+   "img": "7d8172be826ce52d5a7f885086d6bc17",
+   "head": "🐋 고래 대량 이동 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-10T23:42:17.443103+09:00"
+ "last_pub_at": "2026-10-11T01:17:20.201661+09:00"
 }
