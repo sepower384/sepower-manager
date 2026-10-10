@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 384,
-   "at": "2026-10-07T19:42:33.359597+09:00",
-   "kind": "insight",
-   "fp": "b455b759897dcc14",
-   "refs": [
-    "coinnesskr:233391",
-    "url:https://t.me/coinnesskr/233391"
-   ],
-   "img": "ad705dfc89af259d20b7bc4f6e63c540",
-   "head": "비트마인 \"ETH 5%는 하드캡\" "
-  },
-  {
    "id": 385,
    "at": "2026-10-07T21:34:20.059466+09:00",
    "kind": "insight",
@@ -809,7 +797,24 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 440,
+   "at": "2026-10-10T20:12:20.678381+09:00",
+   "kind": "insight",
+   "fp": "d0789477a6eeafb7",
+   "refs": [
+    "news:4354952497944",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/420844",
+    "news:118313048757562",
+    "url:https://news.google.com/rss/articles/CBMijgFBVV95cUxOTXAxQldyNjFwMnF1eXNBRG9VMG01NU14RTIzUG14cS0zeWpKWTRIRUdjamRJMTM1SEJmRDI2NGdFRmJZS2NxZ3hzcmVsbW1GaTJTVGxEN3lmRWQ2N2wySmJxTlQ1Y0FheFk1WW5EUjRVLW1yb2R3N2lQLVNoVk1zVGlQck9qN2ctTmlTMXl3"
+   ],
+   "img": "483170ad110e6c23b3eb201d3aab4ad0",
+   "head": "ETH 현물 ETF 일주일간 5억4,206만달러 순유출 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-10T18:12:21.382507+09:00"
+ "last_pub_at": "2026-10-10T20:12:20.678381+09:00"
 }
