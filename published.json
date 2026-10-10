@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 392,
-   "at": "2026-10-08T05:42:43.389449+09:00",
-   "kind": "insight",
-   "fp": "2359f190e48d6eb1",
-   "refs": [
-    "news:60712363748723",
-    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxNWjRYV0xfMkhYaHRiUjhvZFE1MFhsNjN2eE1ncFZiaFNoSmpkam5XSkNsSUlsc25Zb3FPaDdwUHY5T0VBV3U1c1VKOGY5R0Q3el85VUZVZVM4clRmX2lOMmhiN084RWxsdlphOU84aXQ5cWZDTXpCM3lybXhuQ3RVVQ"
-   ],
-   "img": "8c1fb81ab10beb7546d276ad1bc05ec2",
-   "head": "속보) 국채금리 다시 급등, S&P·나스닥 최고치서 하루 만에 후퇴 "
-  },
-  {
    "id": 394,
    "at": "2026-10-08T06:38:48.013481+09:00",
    "kind": "insight",
@@ -817,7 +805,24 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 447,
+   "at": "2026-10-11T06:04:45.711956+09:00",
+   "kind": "insight",
+   "fp": "74fe3db5192fbba5",
+   "refs": [
+    "news:249923015520793",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/420942",
+    "news:241527030212725",
+    "url:https://cryptoslate.com/being-right-about-bitcoin-wont-save-your-3x-leveraged-etf-position/"
+   ],
+   "img": "8a559f7f6e2e79461d3a9865df4d01cd",
+   "head": "3배 레버리지 ETF, BTC가 매수가로 돌아오면 본전일까? ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-11T04:12:21.213240+09:00"
+ "last_pub_at": "2026-10-11T06:04:45.711956+09:00"
 }
