@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 383,
-   "at": "2026-10-07T18:04:48.080016+09:00",
-   "kind": "insight",
-   "fp": "31ace9064d8d7e6f",
-   "refs": [
-    "news:274876869121486",
-    "url:https://www.tokenpost.kr/news/ai/419322"
-   ],
-   "img": "6949c2b92c8ad4e5ca8964b09f12e953",
-   "head": "전력 병목이 칩에서 전기로 넘어가는 경로 "
-  },
-  {
    "id": 384,
    "at": "2026-10-07T19:42:33.359597+09:00",
    "kind": "insight",
@@ -800,7 +788,28 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 438,
+   "at": "2026-10-10T18:12:21.382507+09:00",
+   "kind": "insight",
+   "fp": "0a05a5951386465b",
+   "refs": [
+    "news:188199395354705",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NRWpCd2g2bm1MWmN1T2txNlMwR0lYSE5VQUk4ZWdXdFlfTy1RcVA1dDJhd3Vra2d2cFJiN191SktqVUlyNUJZLXNNZzFzeDdIU1hHRzVsTlA0VGVRUmNERQ",
+    "news:160403522775584",
+    "url:https://www.tokenpost.kr/news/briefing/420826",
+    "news:13485438355985",
+    "url:https://news.google.com/rss/articles/CBMiigFBVV95cUxOSTM1eHhVTVl4MTJrRVh4cFVxTm5US04wSlNiYmg1Vm9HeU9aX01DR1MzZmlScmRxdzhaUTY5NTNOMU5QeEFFaDdDVjRIUWE5eDRjRlZ2amRRMWJ2V0h4QjNHT3EyN2NjTUZ3SlFhLVhiei1aWVhrY1lNSDh1X2daeXNfUWF4c1lXM2c",
+    "news:258491107915044",
+    "url:https://news.google.com/rss/articles/CBMilwFBVV95cUxNMFRheVhPbjhwUEtfWEVGOGZSY1RVV2o1dHBKNjhfOFh6bTYxbXZGeGVzNEdJNUJHUWFyWnQxWXdva3BtT1RkNGdyYUxCaTJ1OGNfRmk4bzZXWkJoNUs4Z3Y3SVlyRlhNNTlPWHUzbUFCbzh5eDgwTHV5WDRFX2p5YVFSN2YtdHdZUU15dVJsdzFnbDk3RHc0"
+   ],
+   "img": "c5a6abe6ae427e27e2f6cd66f6d0cc15",
+   "head": "BTC 현물 ETF 하루 반등, 근데 5일은 아직 마이너스 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-10T17:04:42.240464+09:00"
+ "last_pub_at": "2026-10-10T18:12:21.382507+09:00"
 }
