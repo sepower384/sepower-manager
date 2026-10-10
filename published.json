@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 386,
-   "at": "2026-10-07T23:12:20.969037+09:00",
-   "kind": "insight",
-   "fp": "1b7b4be1cfb72008",
-   "refs": [
-    "coinnesskr:233411",
-    "url:https://t.me/coinnesskr/233411",
-    "news:209896503664947",
-    "url:https://www.blockmedia.co.kr/archives/1148788",
-    "news:152889036510880",
-    "url:https://news.google.com/rss/articles/CBMiXEFVX3lxTE52djNKWWhIcS1SUW5WcDJaLTI0dDhnZGVhTzhTQVBCLTRxdFlpUUw0SHlURmJTM1dqMk9Ic2lfcmVHUHhVS0tQX0w2c2wwOWMzVlIyV3RNVXhMU285"
-   ],
-   "img": "d0d06a20baa60dc817490d07df29ff06",
-   "head": "ETF 매수세는 있는데 BTC는 왜 8.3만까지 밀렸을까 "
-  },
-  {
    "id": 389,
    "at": "2026-10-08T00:05:02.009103+09:00",
    "kind": "insight",
@@ -818,7 +802,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 442,
+   "at": "2026-10-10T23:42:17.443103+09:00",
+   "kind": "insight",
+   "fp": "511502ff98a4f517",
+   "refs": [
+    "news:134464815252594",
+    "url:https://decrypt.co/380630/france-stablecoin-swap-crypto-exit-tax"
+   ],
+   "img": "cd28192aaac69416a86215d77df08e1e",
+   "head": "프랑스 국회 위원회가 스테이블코인 스왑 과세·크립토 엑싯택스를 채택했다가 예산 세입안을 통째로 부결 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-10T21:42:21.380284+09:00"
+ "last_pub_at": "2026-10-10T23:42:17.443103+09:00"
 }
