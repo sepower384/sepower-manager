@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 385,
-   "at": "2026-10-07T21:34:20.059466+09:00",
-   "kind": "insight",
-   "fp": "a99beeaa09277dc1",
-   "refs": [
-    "coinnesskr:233394",
-    "url:https://t.me/coinnesskr/233394"
-   ],
-   "img": "40f4a26c0f30b0028b35eb83252a1e7f",
-   "head": "한때 글로벌 1위였던 원화, 이제 3위 "
-  },
-  {
    "id": 386,
    "at": "2026-10-07T23:12:20.969037+09:00",
    "kind": "insight",
@@ -814,7 +802,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 441,
+   "at": "2026-10-10T21:42:21.380284+09:00",
+   "kind": "insight",
+   "fp": "8dca15cab8ff854f",
+   "refs": [
+    "news:186714415940249",
+    "url:https://www.coindesk.com/markets/2026/10/10/bitcoin-s-usd19-billion-wake-up-call-one-year-later-has-crypto-learned-anything"
+   ],
+   "img": "3d56e5f0a035b716ac7e449e2ea91a92",
+   "head": "1년 전 vs 지금, 190억달러 청산 폭락 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-10T20:12:20.678381+09:00"
+ "last_pub_at": "2026-10-10T21:42:21.380284+09:00"
 }
