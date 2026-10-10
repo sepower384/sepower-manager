@@ -1,15 +1,6 @@
 {
  "posts": [
   {
-   "id": 375,
-   "at": "2026-10-07T09:57:18.583064+09:00",
-   "kind": "brief",
-   "fp": "73ce56a506192723",
-   "refs": [],
-   "img": "f400b4f89d044526410b6bbbe524f6e7",
-   "head": "☀️ 10/7(수) 아침 체크포인트 "
-  },
-  {
    "id": 377,
    "at": "2026-10-07T11:34:40.130519+09:00",
    "kind": "insight",
@@ -797,7 +788,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 434,
+   "at": "2026-10-10T10:34:58.128440+09:00",
+   "kind": "insight",
+   "fp": "8b8e538baff7085c",
+   "refs": [
+    "news:147667395181046",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zSmtRTExNLV81dVNONFlFME9VZGlxRW5SSnpBR0JpTzFwdVhGcGIwZTUtYVgySUp2NXo1eVdZOTJYbEItMTJFRGhkMjNaMXNQZVc2dnNzbGR4cWN6NjBNWVhvUk9JZG54"
+   ],
+   "img": "15545d071d8c596d5b3b3b70313e152c",
+   "head": "속보) 비트코인·리플 소폭 상승, 주요 코인 강보합 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-10T09:52:21.241410+09:00"
+ "last_pub_at": "2026-10-10T10:34:58.128440+09:00"
 }
