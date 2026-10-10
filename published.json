@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 379,
-   "at": "2026-10-07T13:57:16.974674+09:00",
-   "kind": "insight",
-   "fp": "9be83b6293a9b048",
-   "refs": [
-    "news:234654550523774",
-    "url:https://www.theblock.co/news/business/2026-10-06-coinbase-pro-deribit-integration-coinbase-global-exchange-417867"
-   ],
-   "img": "9ffb1c107c5c69325bd7c8153e068718",
-   "head": "코인베이스, Pro 연말 재출시 계획 + 데리빗 통합 완료 "
-  },
-  {
    "id": 380,
    "at": "2026-10-07T15:42:23.309267+09:00",
    "kind": "insight",
@@ -804,7 +792,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 436,
+   "at": "2026-10-10T14:52:20.255549+09:00",
+   "kind": "insight",
+   "fp": "9c20095c3a942d13",
+   "refs": [
+    "news:19406791962593",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/420794"
+   ],
+   "img": "a13c9e27182be3f163206fd4e6a9b671",
+   "head": "다들 \"기관 숏이 롱의 2.2배\"라니까 하락 베팅이라고 하는데 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-10T13:42:16.711868+09:00"
+ "last_pub_at": "2026-10-10T14:52:20.255549+09:00"
 }
