@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 399,
-   "at": "2026-10-08T13:22:19.979747+09:00",
-   "kind": "liquidation",
-   "fp": "17a22eeda7b59a09",
-   "refs": [
-    "whaleliquidation:3075957",
-    "url:https://t.me/whaleliquidation/3075957"
-   ],
-   "img": "542c78300b023819f997fdcfe258f907",
-   "head": "💥 대규모 롱 청산 감지 "
-  },
-  {
-   "id": 400,
-   "at": "2026-10-08T14:34:25.152273+09:00",
-   "kind": "insight",
-   "fp": "d464a8c304a32b0b",
-   "refs": [
-    "news:19713691200639",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/419708"
-   ],
-   "img": "85725149818bc48be2418745830ce646",
-   "head": "BTC·ETH 옵션 21억 6000만달러어치가 10월 9일 만기임. "
-  },
-  {
    "id": 401,
    "at": "2026-10-08T16:34:27.436514+09:00",
    "kind": "insight",
@@ -838,7 +814,28 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 455,
+   "at": "2026-10-11T15:04:52.824278+09:00",
+   "kind": "insight",
+   "fp": "3badd523f1920757",
+   "refs": [
+    "news:196819870881395",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/421027",
+    "news:152337998500817",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/421026",
+    "news:48306294957352",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/421031",
+    "news:207065071507989",
+    "url:https://news.google.com/rss/articles/CBMimAFBVV95cUxQaG1PVXdQQ3dyQTM2dXdfdG5RMUhPTlIzUTZwVzY2NlM1TTNLcjRiMlg4X2oyR2x6N0xrUWdWUEtHSDNGcHI3MFltMnhUYVBvR1BnbjUtZGFTYVc5TEI1QTdkM0VsNm1CeFFYS0JmSHpQSXA4Zm4zTFYzTFBnRktVZ2IwNXpwNk90NThYc3Z2M2c2RUR5V0dONQ"
+   ],
+   "img": "ab73570b33d15bdba64d14f7f0b96a0d",
+   "head": "미국 수요는 식는데 물량은 빠지는 중, 어느 쪽일까 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-11T13:04:57.315553+09:00"
+ "last_pub_at": "2026-10-11T15:04:52.824278+09:00"
 }
