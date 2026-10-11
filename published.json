@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 404,
-   "at": "2026-10-08T20:57:20.799192+09:00",
-   "kind": "insight",
-   "fp": "10bae5e8e56e83e2",
-   "refs": [
-    "news:35007590252657",
-    "url:https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices"
-   ],
-   "img": "4035830416f95859ea7f8ab3aeccc932",
-   "head": "삼성월렛 → 솔라나 → USDC, 이렇게 이어졌음 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 405,
    "at": "2026-10-08T21:57:23.319604+09:00",
    "kind": "insight",
@@ -843,7 +828,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 460,
+   "at": "2026-10-11T21:42:18.324472+09:00",
+   "kind": "insight",
+   "fp": "ce83209cd778288c",
+   "refs": [
+    "news:3290101957149",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/421080"
+   ],
+   "img": "42c0c841f6a3f94a2d30be84522acf35",
+   "head": "폴리마켓 '8만달러 계약' 63%, 하락 베팅이 아님 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-11T20:27:16.868091+09:00"
+ "last_pub_at": "2026-10-11T21:42:18.324472+09:00"
 }
