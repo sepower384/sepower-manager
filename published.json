@@ -1,39 +1,6 @@
 {
  "posts": [
   {
-   "id": 408,
-   "at": "2026-10-09T00:52:21.235906+09:00",
-   "kind": "insight",
-   "fp": "5149f3d3b6f861bd",
-   "refs": [
-    "news:22634994235440",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNTEhXVVNCV0ZzTHhfVHJoOU9qSU9PUjlOUElkanJmUkdKWjRFQXNXUGV6M0xkakQwNXlMUWxTVjRnOHprQ2Z2UWdVZDhGTnNCX2dvbG1kYkpWSEJOMk1KNzJoTVl0TzJR",
-    "news:52881004867053",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ILS12a1J2OFhPZlBRX01hNk9RX0JEdlBZNWtkdkFrT1oxZjFBaHhSd0hwWmM0NThkOGpQR25BcnRITTY5YkpCZjBwTzN3SVJUZHUzbllYZVE5QkNsVGR4VjF2TEdHZGFE"
-   ],
-   "img": "cfffd15a79a033fdfa113f2913c2e968",
-   "head": "속보) 비트코인 8만2000달러 하회, 알트 더 크게 털썩 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
-   "id": 407,
-   "at": "2026-10-09T02:12:19.419057+09:00",
-   "kind": "insight",
-   "fp": "52b92ba178709cec",
-   "refs": [
-    "news:156337871709232",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/419974"
-   ],
-   "img": "114b4a94abe4f3f3a3e6de5de9d40b33",
-   "head": "BTC 장기 보유자 물량, 오래 들고 있던 쪽은 팔고 있을까 버티고 있을까 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 409,
    "at": "2026-10-09T03:42:19.434121+09:00",
    "kind": "whale",
@@ -837,7 +804,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 463,
+   "at": "2026-10-12T02:27:23.281049+09:00",
+   "kind": "whale",
+   "fp": "a233ff071540dd67",
+   "refs": [
+    "whalealertkorean:172501",
+    "url:https://t.me/whalealertkorean/172501"
+   ],
+   "img": "7c160362dcd09954004db2360fdbd00d",
+   "head": "🐋 고래 거래소 출금 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-12T00:42:17.810386+09:00"
+ "last_pub_at": "2026-10-12T02:27:23.281049+09:00"
 }
