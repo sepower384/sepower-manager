@@ -1,28 +1,6 @@
 {
  "posts": [
   {
-   "id": 406,
-   "at": "2026-10-08T23:12:18.427701+09:00",
-   "kind": "insight",
-   "fp": "3f3618e33c2f1ead",
-   "refs": [
-    "coinnesskr:233570",
-    "url:https://t.me/coinnesskr/233570",
-    "news:164363674651230",
-    "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxNcDhvcWJybEMwdG5uMkZKT2hHOThiWkJTNnQ5d2NCSUNpOXZPTVZfM1ctc1hiTG9YZ0RBcnRzWnVIWkJhd3lzTnlEeG9aeHlTQjY1X3NLSlE2N3IwMUpCYlppVzkxdWtHVTd1Y3VneHlkNVZSaUhGblVsaVhsaTFObXJ0cGU2WDI0eWhVUWdtVHZiaE5NQzhsMTZNTQ",
-    "news:5032873861192",
-    "url:https://www.coindesk.com/business/2026/10/08/securitize-brings-apple-nvidia-and-tesla-to-solana-with-nyse-trading-in-the-works",
-    "news:55425701039790",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Gd0padnRrWEppQUNsUDRpTXVXNWN5MGszSGZySVkyZUFSblh5aUN1QW80eDhNT3k1bTczbmhNQTBZV3h5VjhMQmJyT2M0NXM1"
-   ],
-   "img": "a2630e5a404ee452c4e32322c4be0d4c",
-   "head": "시큐리타이즈 솔라나에 美 주식 12종목 올림 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 408,
    "at": "2026-10-09T00:52:21.235906+09:00",
    "kind": "insight",
@@ -844,7 +822,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 462,
+   "at": "2026-10-12T00:42:17.810386+09:00",
+   "kind": "insight",
+   "fp": "626efb8628c9d140",
+   "refs": [
+    "news:202811072041999",
+    "url:https://cryptoslate.com/bitcoin-ethereum-and-solana-etfs-lose-1-25-billion-as-xrp-extends-13-week-inflow-streak/"
+   ],
+   "img": "1d55564a5c6b134d5565e1798f6f79b6",
+   "head": "XRP ETF 13주 연속 유입, 근데 금액은 11.31만이 아니라 1,131만달러임 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-11T22:52:16.863577+09:00"
+ "last_pub_at": "2026-10-12T00:42:17.810386+09:00"
 }
