@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 403,
-   "at": "2026-10-08T19:34:31.332632+09:00",
-   "kind": "insight",
-   "fp": "5328c74cbcb1c36d",
-   "refs": [
-    "news:186335640514030",
-    "url:https://www.blockmedia.co.kr/archives/1149134",
-    "news:74431299028559",
-    "url:https://cryptoslate.com/vitalik-buterin-urges-calm-as-ai-raises-new-fears-over-bitcoin-and-ethereum-cryptography-security/",
-    "news:15662309025114",
-    "url:https://news.google.com/rss/articles/CBMikAFBVV95cUxObHR5WEU1Ry1MalB1SlozeHhvVEVTLWJVczk3TVFoTXUyREhrNk1GRjhIcWVRZ0V0NFNCNTdYVFNrRWxiM0tYajhIdUh2amxRS05EOTFDYTlnQ0IxM3RSZFhjY1UzYm04YUMyNkZMa3gwNVlvejFVNE00N3JCWi1JNkJsWnRSYnY3T3ZtdUVseEs"
-   ],
-   "img": "a695510a43251a0ecc814d25a484bd06",
-   "head": "AI가 양자컴퓨터보다 먼저 지갑 암호를 깰 수도 있다는 경고 나옴 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 404,
    "at": "2026-10-08T20:57:20.799192+09:00",
    "kind": "insight",
@@ -847,7 +828,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 459,
+   "at": "2026-10-11T20:27:16.868091+09:00",
+   "kind": "insight",
+   "fp": "bb697b7d0d362624",
+   "refs": [
+    "news:25900307950465",
+    "url:https://www.blockmedia.co.kr/archives/1150157"
+   ],
+   "img": "94aee024b581c75ad4e4a7f43281079e",
+   "head": "미국 9월 CPI, 숫자보다 '구성'이 포인트 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-11T19:17:15.439599+09:00"
+ "last_pub_at": "2026-10-11T20:27:16.868091+09:00"
 }
