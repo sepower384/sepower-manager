@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 405,
-   "at": "2026-10-08T21:57:23.319604+09:00",
-   "kind": "insight",
-   "fp": "e983ba89473d1b7f",
-   "refs": [
-    "news:153311992690097",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/419900"
-   ],
-   "img": "f5086fc9605021348f8aa9c120b39f1a",
-   "head": "로빈후드, 회사 돈으로 BTC 2500만달러 매입 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 406,
    "at": "2026-10-08T23:12:18.427701+09:00",
    "kind": "insight",
@@ -843,7 +828,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 461,
+   "at": "2026-10-11T22:52:16.863577+09:00",
+   "kind": "insight",
+   "fp": "6307761da1315282",
+   "refs": [
+    "news:81768062624873",
+    "url:https://news.google.com/rss/articles/CBMifkFVX3lxTE1zbHE5cGNROER4Z0FhYkxCcmVRTXBSelkzcjRVYnJuVHVOczFNVVBobnp4MlNtVEZQOE9XQVdmU3NGRnZXRlRSclp1Q1NudWVkZDR1Y1VRSWVua0xEUXptYVFxb2dUbk1GWUZ4c1JZTDVwOWZoQ05zV1NLQ0hsZw"
+   ],
+   "img": "732f6fef5545a30b05d06b8ec5ae5c6a",
+   "head": "미국 현물 솔라나 ETF, 14주 만에 첫 순유출 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-11T21:42:18.324472+09:00"
+ "last_pub_at": "2026-10-11T22:52:16.863577+09:00"
 }
