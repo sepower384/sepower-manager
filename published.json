@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 413,
-   "at": "2026-10-09T07:04:24.101138+09:00",
-   "kind": "liquidation",
-   "fp": "b052621024db78f4",
-   "refs": [
-    "whaleliquidation:3080667",
-    "url:https://t.me/whaleliquidation/3080667"
-   ],
-   "img": "5db2eb609d9d31bd167f237d0e98dfd0",
-   "head": "💥 대규모 숏 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 414,
    "at": "2026-10-09T08:42:20.739601+09:00",
    "kind": "insight",
@@ -820,7 +805,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 468,
+   "at": "2026-10-12T08:04:22.466352+09:00",
+   "kind": "insight",
+   "fp": "d843a6d2636b33c5",
+   "refs": [
+    "news:240551514641944",
+    "url:https://www.blockmedia.co.kr/archives/1150189",
+    "news:717439561835",
+    "url:https://www.tokenpost.kr/news/international/421171"
+   ],
+   "img": "26df7c2e9f5f487f0a49ade80d7b780e",
+   "head": "트럼프 \"에너지 휴전\" 한마디에 BTC가 먼저 움직인 경로 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-12T06:12:23.430761+09:00"
+ "last_pub_at": "2026-10-12T08:04:22.466352+09:00"
 }
