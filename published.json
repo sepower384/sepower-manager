@@ -819,7 +819,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 454,
+   "at": "2026-10-11T13:04:57.315553+09:00",
+   "kind": "insight",
+   "fp": "5408ca2924e1d44a",
+   "refs": [
+    "news:168074153038900",
+    "url:https://www.blockmedia.co.kr/archives/1150101",
+    "news:251177523024342",
+    "url:https://www.tokenpost.kr/news/blockchain/421022",
+    "news:215374344983055",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VQWQzYjNZNE8xVHVHYnYwbUlYcmRLay16LU5taGRFWk84cjI2RU1MdElhNEp3NEVXZ0M2TnBfOERUbDNiakp3MmhURmJjaEdaaFZTdzhUWXM"
+   ],
+   "img": "e7ad8e0e97eb34b8a4e4803cdcd8144f",
+   "head": "속보) 에버노스 8/27 투자설명서에 \"XRPL 소스코드 결함 위험\" 문구 있었음 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-11T12:34:34.567841+09:00"
+ "last_pub_at": "2026-10-11T13:04:57.315553+09:00"
 }
