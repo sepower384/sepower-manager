@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 417,
-   "at": "2026-10-09T13:22:54.021685+09:00",
-   "kind": "insight",
-   "fp": "3ee292e76846281a",
-   "refs": [
-    "news:158151313494629",
-    "url:https://cryptoslate.com/ai-may-be-keeping-bitcoins-biggest-macro-headwind-alive-after-the-fed-stops-hiking/"
-   ],
-   "img": "c2b01794e9a93e144a01f60e7048231e",
-   "head": "연준 의사록에서 AI 얘기가 나왔음 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 418,
    "at": "2026-10-09T15:12:22.375394+09:00",
    "kind": "insight",
@@ -816,7 +800,26 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 472,
+   "at": "2026-10-12T13:34:21.827785+09:00",
+   "kind": "insight",
+   "fp": "da2fe7ffc4a4ebc6",
+   "refs": [
+    "news:59768252373563",
+    "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE5KaFlJRkF0b3IwYS1kRHFMT2pIa0tPOU9KNzFaRHZRSmZMRkczUDFvMExGaUVzcFZSZmZWMWVUbF9TX184dEF4X3k4ZGllOGJic2I5N05rdWEteWtfZ0RYWTlWdWFXdThDNDVJdDN3a19kMlRsQnFBUldaSdIBgAFBVV95cUxNOUh5aDV2aFpZc2lGUmVOdmJGMXdsSUNSTEtXT0h5MGhMT0VjcVJucFI3aUhSbmdnQ3diNUZib2djWmFmMzZUMlFjY3M2LUE5NElrR3g4bmRIdmFBNFhUTnlnNW80MXBQRktmSTh3bE91SWlJMktzZzRJQWxHY0FiUA",
+    "news:221673105522972",
+    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GQmRyVzEyQ25DVWwwTzVGeWV1Y1ZxRzJHSFk2enMzZUlDS0dUVFpvUEhCUWNSQktoNlV4b3dNMkl4NlUxZWNSSmszWHRjOVdLWDBpM0ZuajYxNFJBSzFySlJIdzVtQkk",
+    "news:107730215803866",
+    "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTE1aOTNKZVFIaUpSWGtUU2RneXlwM3hESTFIOWJ2R1A0eEVVcDFNX0hJcWVZaUcxZDYtR2RQdjFOUVVzYjdyTFlqV0NlMVA4QmdOaGRuNDQ4cw"
+   ],
+   "img": "8de846281861af25a639f8eea268a6cf",
+   "head": "10년물 6%? 핌코 경고의 진짜 의미와 체크포인트 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-12T12:27:20.066630+09:00"
+ "last_pub_at": "2026-10-12T13:34:21.827785+09:00"
 }
