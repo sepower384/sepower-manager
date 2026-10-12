@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 416,
-   "at": "2026-10-09T12:12:22.243609+09:00",
-   "kind": "insight",
-   "fp": "bc8cb0370cd67899",
-   "refs": [
-    "news:272985044636091",
-    "url:https://www.tokenpost.kr/news/market/420221",
-    "news:70788324312729",
-    "url:https://www.tokenpost.kr/news/ai/420224"
-   ],
-   "img": "36e0c44bfd1b968c474462b6fd86a500",
-   "head": "OpenAI 매출 보도 하나에 AI주가 줄줄이 빠진 이유 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 417,
    "at": "2026-10-09T13:22:54.021685+09:00",
    "kind": "insight",
@@ -814,7 +797,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 470,
+   "at": "2026-10-12T12:27:20.066630+09:00",
+   "kind": "insight",
+   "fp": "9c4f08b83ef1a118",
+   "refs": [
+    "news:263955156701376",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE82Q0hHc1ZUUXBfMEF5VmR6RkhWRzlmTUtRRnNCR0ZIZmNwSl9TNHVyUUwwTGtCelFSWGhVT2hZM0JDMF9GQkNUVWNR",
+    "news:105125318828707",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFBiMEwtYWlBcXF1eGp1NUpxc0xsZUcyS3pZbWI4SEFlUmdUeU9uWEZ2WEo3WVFmYXhNNXlZX00wd2lyNlNFQlZRaEZR",
+    "news:51151424936581",
+    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE41RE5ldTk0ZnV5S1JNb0ozYzFBc2EtRzFRQjQ2NU11amZqazVUWl9XWTM5c2FubFlxWDNzanQxY1Z1WFNDY3BtTnJMUXMtRjVYR1haODF4T0pzRVMyWUVOWUtGejMybXBseEpvVTBFVzhsR0U"
+   ],
+   "img": "da788e34a19fc455d1089cae3de72048",
+   "head": "카나리 \"국채금리 오르면 BTC ETF 뜬다\"는데, 정작 BTC·ETH·SOL ETF는 같이 빠지는 중임 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-12T10:35:42.208885+09:00"
+ "last_pub_at": "2026-10-12T12:27:20.066630+09:00"
 }
