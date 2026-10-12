@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 422,
-   "at": "2026-10-09T19:05:12.181419+09:00",
-   "kind": "insight",
-   "fp": "5db1c53c43a34511",
-   "refs": [
-    "news:264119703441176",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aT0ZmMS1mWFk1ZnlpWnZaRHhCWm1wcGozVDY2ZkFKXzdXY0lLY05zaEJ0d3luZjN5eF91RldpaUxfQXhGSTd2NzdMSFBmM194VUFWSENMeXJBYXRXMHN0dkZqSWNMZDkt",
-    "news:84808925930166",
-    "url:https://www.blockmedia.co.kr/archives/1149688"
-   ],
-   "img": "d0cc7fc7d7e80eba2b842085331e732a",
-   "head": "속보) 카이아(KAIA) 업비트 상장, 직후 82원선에 형성 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 421,
    "at": "2026-10-09T21:04:20.611951+09:00",
    "kind": "insight",
@@ -819,7 +801,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 477,
+   "at": "2026-10-12T20:34:45.296433+09:00",
+   "kind": "insight",
+   "fp": "81bbacd7a4c5bcde",
+   "refs": [
+    "news:224258477166012",
+    "url:https://www.tokenpost.kr/news/briefing/421435"
+   ],
+   "img": "b7781b678e58e2c92b335df2fe5d3a61",
+   "head": "24시간 청산 1억5590만달러 중 숏이 77% ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-12T18:27:17.357512+09:00"
+ "last_pub_at": "2026-10-12T20:34:45.296433+09:00"
 }
