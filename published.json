@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 415,
-   "at": "2026-10-09T10:27:24.432686+09:00",
-   "kind": "brief",
-   "fp": "47f2ca0f578b3a7d",
-   "refs": [],
-   "img": "de99568b25f97e4dfb4528c3ff051c88",
-   "head": "☀️ 10/9(금) 아침 체크포인트 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 416,
    "at": "2026-10-09T12:12:22.243609+09:00",
    "kind": "insight",
@@ -810,7 +798,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 471,
+   "at": "2026-10-12T10:35:42.208885+09:00",
+   "kind": "insight",
+   "fp": "d07044bd33089f3e",
+   "refs": [
+    "news:101819056474278",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5SUUyYzRlS1pGamEyUlB5R3ZSZ1d5SDZkY0lpMXVSVG1oWXN6dkw2S0Y4UEliS0VPdlRQWHhNSzZ0ajRER1RfX29VbEduVUcxMkkwalR0cUN3VnJyWlJYTjZ4WGF0XzFS"
+   ],
+   "img": "f4cb01e7e6867d0b4675419d82d7cc57",
+   "head": "BTC 8만3000달러선 회복, 근데 주간 낙폭은 아직 그대로임 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-12T09:57:18.187660+09:00"
+ "last_pub_at": "2026-10-12T10:35:42.208885+09:00"
 }
