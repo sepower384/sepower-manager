@@ -1,43 +1,6 @@
 {
  "posts": [
   {
-   "id": 429,
-   "at": "2026-10-10T05:34:45.737520+09:00",
-   "kind": "insight",
-   "fp": "4f45e2844c082778",
-   "refs": [
-    "news:192601840956452",
-    "url:https://www.tokenpost.kr/news/blockchain/420669"
-   ],
-   "img": "8a7a0dbaf92fae2c643a1017ae45c294",
-   "head": "비트코인 31.2%가 공개키 노출 상태라는데, 이게 곧 털린다는 뜻일까 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
-   "id": 430,
-   "at": "2026-10-10T06:05:05.852622+09:00",
-   "kind": "insight",
-   "fp": "c95f4f353accc50f",
-   "refs": [
-    "news:112282262202984",
-    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GcWNxdVdLTEVhX1lZSjBlaTNGd1dDWjVrcDBHVzdNNUpLM3UzVWptb2FTT2FZdTZGX2hXb0J6WUJTTDhIbGlxTUZFSnFMQUdHX1dFN0tDa1VLQQ",
-    "coinnesskr:233733",
-    "url:https://t.me/coinnesskr/233733",
-    "news:222580692592075",
-    "url:https://news.google.com/rss/articles/CBMicEFVX3lxTFBkYlJoQnNmd2wtNHlYd08tcDVxaFFjQTQzbHBrVzlFZEVVaDJPUTdiS0RmZkRHNndGX3dJUFk2Slctcmwyam9rcmxLbnpIYWk3aWtBVVFVa3NFbmoyRkFGSEM2TEdDUW0zazRxX1NaNUTSAXRBVV95cUxQMVVWMXU0OExTSnoxaW1WZ1ROLXBReFNXeUQyb2hWZFVSenNyMnNUWVBXRWlqY25EYTQ5eEExQU9UQk9qOW9VNW1acEpvTEhwd2hoVjlZc0ZVNlo4d1B1bTJoRU9hTFZuejRRbUpyM0RTRDVXZg",
-    "news:100292024690548",
-    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ1RtSkR0QXNORmEwbWlHZHhWMWxMRnFsQ09zbE9jdHNEM2V4VnFCZ0Z2SEc3SHhGMFplNU85ZzEzd05PS2ZlX0NZbDJUSERJOTJoWkhFUGNLdzhVVy1yYzA1WWQzUFV3dmFybEYtZWkxWGdYMzZKbW1iRmZtZEZPSg"
-   ],
-   "img": "c311831ff9346ca454b5923d015ae17e",
-   "head": "속보) 뉴욕증시 3대 지수 상승, S&P500 7,811 · 나스닥 +0.64% ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 431,
    "at": "2026-10-10T08:10:52.522061+09:00",
    "kind": "insight",
@@ -819,7 +782,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 486,
+   "at": "2026-10-13T06:42:17.151304+09:00",
+   "kind": "insight",
+   "fp": "86621bbe833169d4",
+   "refs": [
+    "news:207279811037850",
+    "url:https://www.blockmedia.co.kr/archives/1150649",
+    "news:30669170409867",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE8xUF8yM2JOZTh4dUNsci1XX1VSd21wWU9jd3hBckFFT1BWSEk0by1mclA1RlhfbmFIczQyWkFUeEtHRTJFUXVvYU1R"
+   ],
+   "img": "258cd12b9e4ed4979c893d066d4d976a",
+   "head": "BTC 풋옵션 7.6만~8만 구간에 4.5억달러 몰림 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-13T05:34:21.368011+09:00"
+ "last_pub_at": "2026-10-13T06:42:17.151304+09:00"
 }
