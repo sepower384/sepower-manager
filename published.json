@@ -802,7 +802,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 478,
+   "at": "2026-10-12T22:52:19.173160+09:00",
+   "kind": "insight",
+   "fp": "61e64d35d027d773",
+   "refs": [
+    "news:103543273077545",
+    "url:https://www.tokenpost.kr/news/ai/421382",
+    "news:207014959238549",
+    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTE44V0FCUjY3M09LVEo3dms0RGRmUzc1WFN4S3gzWmY4V2pTSlJuWHlvVGFmUUVDbk9kX3FNa0dUdUdoNHFCelFxSEluRVlRUjBuV0pDWXgtc1hqZw"
+   ],
+   "img": "0b1f9571cdf31eb88ef0bae08d1b96f2",
+   "head": "AI 투자 병목이 옮겨가는 경로 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-12T21:35:03.437502+09:00"
+ "last_pub_at": "2026-10-12T22:52:19.173160+09:00"
 }
