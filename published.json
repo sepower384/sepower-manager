@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 418,
-   "at": "2026-10-09T15:12:22.375394+09:00",
-   "kind": "insight",
-   "fp": "00a5210f05d7163b",
-   "refs": [
-    "coinnesskr:233650",
-    "url:https://t.me/coinnesskr/233650",
-    "news:277035278014632",
-    "url:https://news.google.com/rss/articles/CBMickFVX3lxTE1fblFhZjNscnp0bHRwTXFIM0ZReTM5XzdFTkZRdGdKU3hicnl6emg3am40WDlaNnFEbmx3OE1TLWJEaTRlanpZOFNQLWxpTDc5VHRNLVpsQ3BxT3d3Rko2SDZHcnNXQzQzR3dkcmtqb1g2UQ",
-    "news:271049194551138",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE52aEY3TFYxQndIVVZSNDhMZWRRSkxWNmt3WUU1S3JPX2hMbzNuSEtnNXJDQjRMM1FzMlM3ZWM2TUhNWnRhRzlBS1gwOHBndXNj"
-   ],
-   "img": "4673fadfca904ea7aa40136a55966c9d",
-   "head": "BTC 현물 ETF 이틀 연속 순유출 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 419,
    "at": "2026-10-09T16:17:18.881652+09:00",
    "kind": "insight",
@@ -819,7 +800,31 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 473,
+   "at": "2026-10-12T15:27:17.935565+09:00",
+   "kind": "insight",
+   "fp": "3ae1b2735c998fe6",
+   "refs": [
+    "news:230607758254416",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/421281",
+    "news:201432014892494",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE1nV3ZTU1RwQVlSNmRBcUtpN2VkYTlrczlUN1J3T2dDeTNYWk56b0RNdEZMb2RDbjdaSWFKcHhuZ2ZZVUw2SnloQWJfanQwRFYt",
+    "news:207373910910858",
+    "url:https://news.google.com/rss/articles/CBMid0FVX3lxTE13TWlSMlVIY01rTjktTDRZWHdpM01FcDhTU3k0S1ptZ2hRMy1KNWI5Ry13SUJyUjVJZTNIZzU2VzdJX1Z6WjhZVF9BZXFneENfN1k0dHVWaUg4MzRycWZBZkRGY0p6Z2R6ekJoZVQ4dDIwMmdXVEIw",
+    "coinnesskr:233831",
+    "url:https://t.me/coinnesskr/233831",
+    "news:31017189721284",
+    "url:https://www.coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls"
+   ],
+   "img": "072272062994a8750bce586989b84a5d",
+   "head": "BTC 84,000달러 회복, 근데 이 반등 주인공은 미국 수요가 아님 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-12T13:34:21.827785+09:00"
+ "last_pub_at": "2026-10-12T15:27:17.935565+09:00"
 }
