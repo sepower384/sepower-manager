@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 414,
-   "at": "2026-10-09T08:42:20.739601+09:00",
-   "kind": "insight",
-   "fp": "ad63dcbc863b97d8",
-   "refs": [
-    "news:271752966641979",
-    "url:https://cryptoslate.com/bitcoins-slide-below-81000-exposes-why-a-fed-pause-may-not-save-the-crypto-market/",
-    "news:251588701762523",
-    "url:https://news.google.com/rss/articles/CBMiakFVX3lxTFBiY18wUk9XMmpnTmkwdHc3ZWEzQkpyUllPNEhGMUlVZDJpT2R4ajRTYzAtMWVrMF9fbjlwSlVSV25JeEdYUFJNcjZzMy12VmlLc0hqQlJWb2ljZEJ2X1ZvX1ZmdHhxRFJ3RlE",
-    "news:277875735225512",
-    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTFBvX0J5cXlsaV84YmltR2VuMHdGMTFJTE9tNEQ2b3A4OHJKRnUtQ1psYXpyTEd6Z3VVbUZGNFFPNnFrQlVCb2hidWd4aUllMEF6ZlhFMGpNSDBCUU1abHdpUGpZa2hYUDFEV1FSNnRPYVpTOHM",
-    "news:165430268194186",
-    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE1QVTRmVFFGN0YzUFNCb3ZYUGh1aGRGZlVTZENFQ2tXamEtU2paVk1hMWlfQnBDcDk0RXNmSU9XS1ptSzdhSUpjYjRhLWJrT0dUbk5xUU9MVXJoTXhHTnhfN1Q4UE1NMmUyeWRlaQ",
-    "news:177214295818496",
-    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE9UMVAwb1Zkc3ZSOTVfN2FhRGlfMDJhMmFxb29BNjBma3dFdTl2c1V4ZnBEMEF6T1Z0R2R2M0dBZ1l6eW5YSXBEX1ZwNkQzZmh5MHlOMlFIbUZ3d1FaNGdXX3AtZ3g3QklsZG9JWA"
-   ],
-   "img": "bf6e782301cd6b9797cfb21c58fac95f",
-   "head": "BTC 8.1만 아래로, 연준 동결해도 안 끝남 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 415,
    "at": "2026-10-09T10:27:24.432686+09:00",
    "kind": "brief",
@@ -822,7 +798,19 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 469,
+   "at": "2026-10-12T09:57:18.187660+09:00",
+   "kind": "brief",
+   "fp": "79cb4f4011fe7f12",
+   "refs": [],
+   "img": "51cf3c29c38b163ba1bd86e395d338a4",
+   "head": "☀️ 10/12(월) 아침 체크포인트 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-12T08:04:22.466352+09:00"
+ "last_pub_at": "2026-10-12T09:57:18.187660+09:00"
 }
