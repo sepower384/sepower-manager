@@ -1,39 +1,6 @@
 {
  "posts": [
   {
-   "id": 421,
-   "at": "2026-10-09T21:04:20.611951+09:00",
-   "kind": "insight",
-   "fp": "53f3c8edf00b9af9",
-   "refs": [
-    "coinnesskr:233669",
-    "url:https://t.me/coinnesskr/233669"
-   ],
-   "img": "2149dcf232e55b88d09a030936b5d796",
-   "head": "이번 하락, 뇌관은 정부 이체였는데 연료는 따로 있었음 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 423,
-   "at": "2026-10-09T21:34:57.357463+09:00",
-   "kind": "insight",
-   "fp": "136a5b36a80ce7ee",
-   "refs": [
-    "news:249691366138248",
-    "url:https://news.google.com/rss/articles/CBMitAFBVV95cUxOSFF1aDlfYWRYUGVhZkc0eHhPWTFueHQyQmpFX0UtcTVsUFlkODBVN3FkOHhyTFBnVVVSYWNFVnpnVU5XcDVvblE1cU5wOW1XR3JFSEVMdTlVZ1FvWjR3NE11azF0MU01OUV0ejVvanEzWjd0NXZfY3RQV29ycHBNczhKeVpNcEsxVjRpSDZXWUVqNU9NdUFKVkhfT1NlaVVHZmR1eG5wWTVpYzVzcGx0VU96d1A",
-    "news:262739281829497",
-    "url:https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRklCclZYSEY1WUFXSjZhLWczc0c3ZXlJa1FmbzZQYkE5VWZQRi04YS1ENXB5S0JGNHhySklQSkJCbTMyRUV3ck1YZ1hRSmZGYk42aVJPemVQeVVhZzJ4NjZLbVV2WmVJazRiMFcwUnV3bGVfYlRmNDhhZ1pVSFV0VDlXRnVLM1hnX1JfbnRKOVhEcFFZdWNiYjNacUhFTmNqMVNyTVptNVpjUQ"
-   ],
-   "img": "f9bea42abea485c9f027245b57fec9cf",
-   "head": "태국 SEC, 비트코인·이더 ETF 태국거래소(SET) 상장 규칙 확정, 10/16 시행 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 424,
    "at": "2026-10-09T23:34:21.080636+09:00",
    "kind": "insight",
@@ -817,7 +784,25 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 479,
+   "at": "2026-10-12T21:35:03.437502+09:00",
+   "kind": "insight",
+   "fp": "4af367ffeb1724a7",
+   "refs": [
+    "news:201177310376661",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE5lbHcxcW5rTkZTWGtQbXlSLXRwbVd6Y19aTEdFdmkta0d5anNFcFVFZjVyRVRMZkUteHdLWlJycmFqXzhlbkNLaFJJM2VCcmZuR2t3STVJbmc",
+    "news:61145513484563",
+    "url:https://news.google.com/rss/articles/CBMipwFBVV95cUxNVDdLbWhLWGs0dDNhVy1kbU9hb2FVUFZZdWxUUFIyT3JKaGFHTzdRQm9BVFlnWWxfQmRBRG5EX3J3QWQxbnBTVnRXR2FJR3RxMTMtZUtBSUlIV2d1d0Vwc29qcElLMUNMRmRLd0RWX0Nyb0xxdUxBVzRnSG1yUEVXTHlUTGNyWVViT3BLQXdWOXZmZ2VDTnVET2I2cFJfbFlGeHFVZUhSNA"
+   ],
+   "img": "f9cef5385ec611968cac41e2478b7f76",
+   "head": "스트래티지, BTC 250개만 추가 매수 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-12T20:34:45.296433+09:00"
+ "last_pub_at": "2026-10-12T21:35:03.437502+09:00"
 }
