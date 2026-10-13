@@ -1,34 +1,6 @@
 {
  "posts": [
   {
-   "id": 432,
-   "at": "2026-10-10T09:52:21.241410+09:00",
-   "kind": "brief",
-   "fp": "34382d37bbc57fa7",
-   "refs": [],
-   "img": "4e37746ea9d35395f29cf6b1c2a5a979",
-   "head": "☀️ 10/10(토) 아침 체크포인트 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
-   "id": 434,
-   "at": "2026-10-10T10:34:58.128440+09:00",
-   "kind": "insight",
-   "fp": "8b8e538baff7085c",
-   "refs": [
-    "news:147667395181046",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zSmtRTExNLV81dVNONFlFME9VZGlxRW5SSnpBR0JpTzFwdVhGcGIwZTUtYVgySUp2NXo1eVdZOTJYbEItMTJFRGhkMjNaMXNQZVc2dnNzbGR4cWN6NjBNWVhvUk9JZG54"
-   ],
-   "img": "15545d071d8c596d5b3b3b70313e152c",
-   "head": "속보) 비트코인·리플 소폭 상승, 주요 코인 강보합 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 433,
    "at": "2026-10-10T12:22:19.127534+09:00",
    "kind": "insight",
@@ -815,7 +787,31 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 490,
+   "at": "2026-10-13T11:27:20.236682+09:00",
+   "kind": "insight",
+   "fp": "e0b9f35430abd686",
+   "refs": [
+    "news:212722389139850",
+    "url:https://www.blockmedia.co.kr/archives/1150764",
+    "news:119817974408341",
+    "url:https://www.blockmedia.co.kr/archives/1150789",
+    "news:136258411605230",
+    "url:https://www.blockmedia.co.kr/archives/1150730",
+    "news:181948673224287",
+    "url:https://www.tokenpost.kr/news/insights/421636",
+    "news:88860533517510",
+    "url:https://www.tokenpost.kr/news/economy/421673"
+   ],
+   "img": "86d1fc536d968e76f947ee5d1929ed4b",
+   "head": "블랙록이 美 주식 비중을 낮추고 국채를 늘린 게 오늘 시장이랑 어떻게 이어지나 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-13T09:42:21.420088+09:00"
+ "last_pub_at": "2026-10-13T11:27:20.236682+09:00"
 }
