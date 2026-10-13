@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 448,
-   "at": "2026-10-11T07:52:24.005710+09:00",
-   "kind": "insight",
-   "fp": "7a24e2348ed4e385",
-   "refs": [
-    "news:13610685458677",
-    "url:https://news.google.com/rss/articles/CBMia0FVX3lxTE1lZllWRkItSkwyU1NWY2w5RG9UZG01SDlyZDJWM29RX1VPaUdkZVhWNEM5SXRSb2kzQkhuRGJOR05Pd1FYWGxTVWdaZVFhZXljWnBaeXlaVWVIQkQ1X19OclBYam5RUDFCcFZZ0gFwQVVfeXFMTklENzlOTl9aRXVNekh2WUJNbm0xcEtPNmp2TEQ1UTZhMVpWOFRHNmRWMHpsVzEyZWFDdzdIdXRiS2lXQ0VETE9uNHhmWDRfWlFrODFzUlZyZmhKMkRwTlU1dXowbEVUYktRbzhzeVppdA"
-   ],
-   "img": "57728babed5d33af7ba802d0bd5ee10c",
-   "head": "석 달 앞둔 가상자산 과세, 강행에서 신중으로 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 449,
    "at": "2026-10-11T09:12:17.865809+09:00",
    "kind": "brief",
@@ -814,7 +798,19 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 506,
+   "at": "2026-10-14T08:42:22.960996+09:00",
+   "kind": "brief",
+   "fp": "fca9d4716bdfe8a5",
+   "refs": [],
+   "img": "15ca7fb384cb8c9d9a09ebd02084da49",
+   "head": "☀️ 10/14(수) 아침 체크포인트 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-14T07:35:20.281196+09:00"
+ "last_pub_at": "2026-10-14T08:42:22.960996+09:00"
 }
