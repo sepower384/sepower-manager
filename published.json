@@ -1,41 +1,6 @@
 {
  "posts": [
   {
-   "id": 437,
-   "at": "2026-10-10T16:12:23.483444+09:00",
-   "kind": "insight",
-   "fp": "cc749d412a3a6c7f",
-   "refs": [
-    "news:113976305316858",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/420807",
-    "coinnesskr:233753",
-    "url:https://t.me/coinnesskr/233753",
-    "news:104368197751066",
-    "url:https://www.coindesk.com/markets/2026/10/09/bitcoin-s-volatility-has-plunged-but-extreme-price-swings-are-more-frequent-than-in-2018"
-   ],
-   "img": "1f726ebec02215ee2037b79ff01c1b11",
-   "head": "2018년 약세장 vs 2026년 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 439,
-   "at": "2026-10-10T17:04:42.240464+09:00",
-   "kind": "insight",
-   "fp": "35354353c88884e1",
-   "refs": [
-    "news:169494353785989",
-    "url:https://www.digitalasset.works/news/articleView.html"
-   ],
-   "img": "d26a399ae78e41b2b860cdc3515f031a",
-   "head": "LG전자, 가전 이용데이터 블록체인 거래 美 특허 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 438,
    "at": "2026-10-10T18:12:21.382507+09:00",
    "kind": "insight",
@@ -813,7 +778,28 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 494,
+   "at": "2026-10-13T17:22:22.334907+09:00",
+   "kind": "insight",
+   "fp": "03c0d030db289041",
+   "refs": [
+    "coinnesskr:233987",
+    "url:https://t.me/coinnesskr/233987",
+    "news:6640216053566",
+    "url:https://news.google.com/rss/articles/CBMiZEFVX3lxTE40cTY1Y3NvTnBodjFBY2NPTnlld0ljcDlCYkpNSmlRNUVUd0Jkc2QxMnhxbXdsRVRrc0V3Wk00NUduRlVOVlRSMTlrc3RYS1lmaVkxcHlYemlhWUtGV3JPMTFqc2Q",
+    "news:277313350763752",
+    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxQUzViQjl1bEVxcmZZYXJSQldCbW1acWk5bjRfQ1JTQWtnSUpYcFFCQW5OakQ0VVdJWlVnWDB3UzlReDFKaTYzQmdlQnVvUGVwYndVVjJiMUs2QzNxOGh0eE5PX2pIcHdaY1AzdWFDYW9mblNGblpSaEJNQ0R6YTV3eg",
+    "news:31904096251293",
+    "url:https://news.google.com/rss/articles/CBMickFVX3lxTFBsNnBVUWpla2w4U2JrRGtPRmhBWEpHWTEwV2tDaXAweWNkWEd0dEJGN2RCR1M2bDJrd09tZXlaZnJMWGFkYTR0WHhvMFpyZEV1QXN0c0xDcXl3SncxMjJQRnlaV3pYcnZVTGRJUkQwS3NMdw"
+   ],
+   "img": "bafe5ce717ffe4d4a6b75ec1e4250eb9",
+   "head": "국세청 \"하드포크·에어드롭도 과세 가능\", 남은 건 11월 고시 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-13T15:42:21.972670+09:00"
+ "last_pub_at": "2026-10-13T17:22:22.334907+09:00"
 }
