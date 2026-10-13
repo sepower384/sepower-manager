@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 447,
-   "at": "2026-10-11T06:04:45.711956+09:00",
-   "kind": "insight",
-   "fp": "74fe3db5192fbba5",
-   "refs": [
-    "news:249923015520793",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/420942",
-    "news:241527030212725",
-    "url:https://cryptoslate.com/being-right-about-bitcoin-wont-save-your-3x-leveraged-etf-position/"
-   ],
-   "img": "8a559f7f6e2e79461d3a9865df4d01cd",
-   "head": "3배 레버리지 ETF, BTC가 매수가로 돌아오면 본전일까? ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 448,
    "at": "2026-10-11T07:52:24.005710+09:00",
    "kind": "insight",
@@ -796,7 +779,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 504,
+   "at": "2026-10-14T07:17:18.185483+09:00",
+   "kind": "insight",
+   "fp": "fee5ed6a646ed259",
+   "refs": [
+    "news:9580665271788",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/422233",
+    "coinnesskr:234068",
+    "url:https://t.me/coinnesskr/234068",
+    "coinnesskr:234064",
+    "url:https://t.me/coinnesskr/234064"
+   ],
+   "img": "f12ffb58ecd588d9adf809c3a9fcb528",
+   "head": "비트코인 고래 보유량 303만 BTC, 분배에서 축적으로 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-14T05:34:56.698507+09:00"
+ "last_pub_at": "2026-10-14T07:17:18.185483+09:00"
 }
