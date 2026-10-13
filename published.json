@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 436,
-   "at": "2026-10-10T14:52:20.255549+09:00",
-   "kind": "insight",
-   "fp": "9c20095c3a942d13",
-   "refs": [
-    "news:19406791962593",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/420794"
-   ],
-   "img": "a13c9e27182be3f163206fd4e6a9b671",
-   "head": "다들 \"기관 숏이 롱의 2.2배\"라니까 하락 베팅이라고 하는데 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 437,
    "at": "2026-10-10T16:12:23.483444+09:00",
    "kind": "insight",
@@ -808,7 +793,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 493,
+   "at": "2026-10-13T15:42:21.972670+09:00",
+   "kind": "insight",
+   "fp": "fdaec97e2942462d",
+   "refs": [
+    "news:168184172496767",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/421838",
+    "news:228283549059335",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZMG9GeTFOQmlEZUZnMVMwOTljVGVpSl9INm5QZzlicmxUa25nQ0JROHkxNXB4aklIcUJlWEhPUnREMHA1VDRBRWtESEJRLWY3M3lBY0JXemg",
+    "news:225330308698741",
+    "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxOV0NfWGFaNktLeFUzUUVsOGw1ckxfOEZFMVZRd2diUi1nbTVyay1ETUNQWmNJNGRPTmUzemRXcnZXU0wwY014ZDJkN3l1Y3lYNXFSY0o4UTRkZHBiQmE5MXpNLWI0VHh6el93UVZjUkFOQzREVTdibm1UcjhxUG5LaExhTERka2ZM"
+   ],
+   "img": "636941831bd54ba9d602688a66c4a699",
+   "head": "이더리움 ETF 10거래일째 빠지는데, 누가 파는 걸까 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-13T14:27:21.190402+09:00"
+ "last_pub_at": "2026-10-13T15:42:21.972670+09:00"
 }
