@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 431,
-   "at": "2026-10-10T08:10:52.522061+09:00",
-   "kind": "insight",
-   "fp": "1bb7d0ef087ceecd",
-   "refs": [
-    "news:58373845000974",
-    "url:https://cryptoslate.com/ledger-hack-scare-nears-90-million-as-tether-moves-to-freeze-stolen-usdt/",
-    "news:277734749418165",
-    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE5MZEtDVnRjalR3dGVWN0pINGhjTVd4VUNnSzdDRDhtYXNlS3E5SnVQVEkwRG85SmFoVkZaa3FvYVNFZjVGUmtrQ0w4eWFQUmFTVXl2dTNPMEhHY2o5WEsweXZaSkp2MHNmbTg4RA",
-    "coinnesskr:233725",
-    "url:https://t.me/coinnesskr/233725"
-   ],
-   "img": "d63e754a23b7ffbba7ffa077facd284f",
-   "head": "렛저 해킹 사태, 어디까지 왔나 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 432,
    "at": "2026-10-10T09:52:21.241410+09:00",
    "kind": "brief",
@@ -819,7 +800,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 487,
+   "at": "2026-10-13T09:42:21.420088+09:00",
+   "kind": "insight",
+   "fp": "d36466a84fd12d33",
+   "refs": [
+    "news:89086773543777",
+    "url:https://www.blockmedia.co.kr/archives/1150702"
+   ],
+   "img": "ac3ac2968cd8ab419f2c6df57c83e54f",
+   "head": "다들 토큰화 = 효율·속도 호재라고 하는데 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-13T07:35:18.460929+09:00"
+ "last_pub_at": "2026-10-13T09:42:21.420088+09:00"
 }
