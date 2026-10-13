@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 440,
-   "at": "2026-10-10T20:12:20.678381+09:00",
-   "kind": "insight",
-   "fp": "d0789477a6eeafb7",
-   "refs": [
-    "news:4354952497944",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/420844",
-    "news:118313048757562",
-    "url:https://news.google.com/rss/articles/CBMijgFBVV95cUxOTXAxQldyNjFwMnF1eXNBRG9VMG01NU14RTIzUG14cS0zeWpKWTRIRUdjamRJMTM1SEJmRDI2NGdFRmJZS2NxZ3hzcmVsbW1GaTJTVGxEN3lmRWQ2N2wySmJxTlQ1Y0FheFk1WW5EUjRVLW1yb2R3N2lQLVNoVk1zVGlQck9qN2ctTmlTMXl3"
-   ],
-   "img": "483170ad110e6c23b3eb201d3aab4ad0",
-   "head": "ETH 현물 ETF 일주일간 5억4,206만달러 순유출 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 441,
    "at": "2026-10-10T21:42:21.380284+09:00",
    "kind": "insight",
@@ -795,7 +778,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 496,
+   "at": "2026-10-13T20:52:18.389171+09:00",
+   "kind": "insight",
+   "fp": "8567882b39fdf0f3",
+   "refs": [
+    "news:215667300778654",
+    "url:https://www.blockmedia.co.kr/archives/1150917",
+    "news:108646705749834",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/421928"
+   ],
+   "img": "bb08d79ecb259dbe9265499306ecfbb3",
+   "head": "거래소 BTC 13만개 빠졌는데 가격은 왜 8만달러대 제자리일까 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-13T19:04:24.434351+09:00"
+ "last_pub_at": "2026-10-13T20:52:18.389171+09:00"
 }
