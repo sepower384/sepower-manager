@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 462,
-   "at": "2026-10-12T00:42:17.810386+09:00",
-   "kind": "insight",
-   "fp": "626efb8628c9d140",
-   "refs": [
-    "news:202811072041999",
-    "url:https://cryptoslate.com/bitcoin-ethereum-and-solana-etfs-lose-1-25-billion-as-xrp-extends-13-week-inflow-streak/"
-   ],
-   "img": "1d55564a5c6b134d5565e1798f6f79b6",
-   "head": "XRP ETF 13주 연속 유입, 근데 금액은 11.31만이 아니라 1,131만달러임 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 463,
    "at": "2026-10-12T02:27:23.281049+09:00",
    "kind": "whale",
@@ -789,7 +774,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 517,
+   "at": "2026-10-15T01:47:24.166445+09:00",
+   "kind": "insight",
+   "fp": "434bd1834e9e529c",
+   "refs": [
+    "coinnesskr:234199",
+    "url:https://t.me/coinnesskr/234199"
+   ],
+   "img": "2b34441a3d91d2f68eb76a3d11e613c2",
+   "head": "다들 STRC 우선주 덕에 희석 막고 BTC 더 샀다고 보는데 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-14T23:52:23.567960+09:00"
+ "last_pub_at": "2026-10-15T01:47:24.166445+09:00"
 }
