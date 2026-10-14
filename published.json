@@ -1,41 +1,6 @@
 {
  "posts": [
   {
-   "id": 456,
-   "at": "2026-10-11T16:22:16.839654+09:00",
-   "kind": "insight",
-   "fp": "9580cc8a326450a3",
-   "refs": [
-    "news:83010753626040",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/421035",
-    "news:57646172007808",
-    "url:https://www.blockmedia.co.kr/archives/1150067"
-   ],
-   "img": "1d09a49419fb08cda51ea76bb86a3d61",
-   "head": "채굴자 수익이 꽤 회복됐음. 일일 수익이 7월 저점 2700만달러에서 4800만달러로 78% 늘었음. ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 457,
-   "at": "2026-10-11T17:52:22.742495+09:00",
-   "kind": "insight",
-   "fp": "9106594c79b8988a",
-   "refs": [
-    "news:264147902243702",
-    "url:https://cryptoslate.com/bitcoin-companies-are-learning-that-holding-forever-takes-cash/",
-    "news:66455517736236",
-    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE02Z2pWMGJXeTI3MFVZR1B6bU1EcVo4aFlWZHpMZDRSSDRUYUVYWkktY2RsVUpIVWdRSXNNUE9Jc21Bb1l3YmVzMlBjVU5uVG9SbGtEaFZyZjFXR2RpV2dlbw"
-   ],
-   "img": "bc9f3134a378ae0136a71ca31339db1a",
-   "head": "메타플래닛은 왜 BTC 1만개를 팔고 더 비싸게 되샀을까 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 458,
    "at": "2026-10-11T19:17:15.439599+09:00",
    "kind": "insight",
@@ -793,7 +758,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 512,
+   "at": "2026-10-14T18:12:24.308603+09:00",
+   "kind": "insight",
+   "fp": "1530e0e33110f0fb",
+   "refs": [
+    "coinnesskr:234142",
+    "url:https://t.me/coinnesskr/234142",
+    "news:163558957959153",
+    "url:https://www.digitalasset.works/news/articleView.html"
+   ],
+   "img": "947730ef6929e124df78de63e6c3e42c",
+   "head": "고팍스·프라뱅 해킹, 어디까지 왔나 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-14T16:17:21.197978+09:00"
+ "last_pub_at": "2026-10-14T18:12:24.308603+09:00"
 }
