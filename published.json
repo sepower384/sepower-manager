@@ -779,7 +779,26 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 510,
+   "at": "2026-10-14T14:27:19.932378+09:00",
+   "kind": "insight",
+   "fp": "3a42d04840507939",
+   "refs": [
+    "coinnesskr:234124",
+    "url:https://t.me/coinnesskr/234124",
+    "coinnesskr:234125",
+    "url:https://t.me/coinnesskr/234125",
+    "news:15834368592771",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/422392"
+   ],
+   "img": "9977b3c252912ce9c8d56e7f6f6f8bd8",
+   "head": "BTC ETF 하루 만에 순유입 복귀 (+1억7562만달러), ETH ETF도 10거래일 연속 유출 끊김 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-14T13:12:18.797942+09:00"
+ "last_pub_at": "2026-10-14T14:27:19.932378+09:00"
 }
