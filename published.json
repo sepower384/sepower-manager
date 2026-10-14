@@ -1,27 +1,6 @@
 {
  "posts": [
   {
-   "id": 455,
-   "at": "2026-10-11T15:04:52.824278+09:00",
-   "kind": "insight",
-   "fp": "3badd523f1920757",
-   "refs": [
-    "news:196819870881395",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/421027",
-    "news:152337998500817",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/421026",
-    "news:48306294957352",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/421031",
-    "news:207065071507989",
-    "url:https://news.google.com/rss/articles/CBMimAFBVV95cUxQaG1PVXdQQ3dyQTM2dXdfdG5RMUhPTlIzUTZwVzY2NlM1TTNLcjRiMlg4X2oyR2x6N0xrUWdWUEtHSDNGcHI3MFltMnhUYVBvR1BnbjUtZGFTYVc5TEI1QTdkM0VsNm1CeFFYS0JmSHpQSXA4Zm4zTFYzTFBnRktVZ2IwNXpwNk90NThYc3Z2M2c2RUR5V0dONQ"
-   ],
-   "img": "ab73570b33d15bdba64d14f7f0b96a0d",
-   "head": "미국 수요는 식는데 물량은 빠지는 중, 어느 쪽일까 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 456,
    "at": "2026-10-11T16:22:16.839654+09:00",
    "kind": "insight",
@@ -798,7 +777,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 511,
+   "at": "2026-10-14T16:17:21.197978+09:00",
+   "kind": "insight",
+   "fp": "716b99ce4c6b489b",
+   "refs": [
+    "news:156419572850713",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/422412"
+   ],
+   "img": "740f4ad568f5c9d62612221419e8a5a4",
+   "head": "윌리 우 \"BTC, 4년 주기 벗어날 수도\" ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-14T14:27:19.932378+09:00"
+ "last_pub_at": "2026-10-14T16:17:21.197978+09:00"
 }
