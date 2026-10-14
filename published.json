@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 461,
-   "at": "2026-10-11T22:52:16.863577+09:00",
-   "kind": "insight",
-   "fp": "6307761da1315282",
-   "refs": [
-    "news:81768062624873",
-    "url:https://news.google.com/rss/articles/CBMifkFVX3lxTE1zbHE5cGNROER4Z0FhYkxCcmVRTXBSelkzcjRVYnJuVHVOczFNVVBobnp4MlNtVEZQOE9XQVdmU3NGRnZXRlRSclp1Q1NudWVkZDR1Y1VRSWVua0xEUXptYVFxb2dUbk1GWUZ4c1JZTDVwOWZoQ05zV1NLQ0hsZw"
-   ],
-   "img": "732f6fef5545a30b05d06b8ec5ae5c6a",
-   "head": "미국 현물 솔라나 ETF, 14주 만에 첫 순유출 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 462,
    "at": "2026-10-12T00:42:17.810386+09:00",
    "kind": "insight",
@@ -790,7 +774,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 516,
+   "at": "2026-10-14T23:52:23.567960+09:00",
+   "kind": "insight",
+   "fp": "319da83b39d3a48e",
+   "refs": [
+    "news:40624282896779",
+    "url:https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending"
+   ],
+   "img": "48ea087091d8ce36853aed939e5c3c49",
+   "head": "Kraken 모회사 Payward, 리투아니아 Saldo Bank 인수 합의 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-14T22:12:24.854514+09:00"
+ "last_pub_at": "2026-10-14T23:52:23.567960+09:00"
 }
