@@ -796,7 +796,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 508,
+   "at": "2026-10-14T11:34:36.129572+09:00",
+   "kind": "insight",
+   "fp": "1fef552cc0234742",
+   "refs": [
+    "news:27255944214344",
+    "url:https://cryptoslate.com/metaplanet-unveils-380-million-share-buyback-after-stock-crashes-nearly-90-from-peak/",
+    "news:11004565560884",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE1DR1kwOFpVdmk1LWE2MTRMVTJFV1JYODFCR0E5SWJjSWU3ZExyZm9yRzdyZS1oOVpJOTdXSG1Hd3hYOThXSW84UlR3"
+   ],
+   "img": "cd2038ceb74ab57c2d97cf9b3478c7be",
+   "head": "다들 메타플래닛 자사주 매입 600억엔을 호재라고 하는데 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-14T10:27:17.664585+09:00"
+ "last_pub_at": "2026-10-14T11:34:36.129572+09:00"
 }
