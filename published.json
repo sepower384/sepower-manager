@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 458,
-   "at": "2026-10-11T19:17:15.439599+09:00",
-   "kind": "insight",
-   "fp": "c289c2cc534a4fed",
-   "refs": [
-    "news:112782295202735",
-    "url:https://www.tokenpost.kr/news/policy/421054"
-   ],
-   "img": "83214b293c00a4384b1ff4ba4453e915",
-   "head": "SEC 가상자산 수탁 규정, 어디까지 왔나 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 459,
    "at": "2026-10-11T20:27:16.868091+09:00",
    "kind": "insight",
@@ -775,7 +760,28 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 513,
+   "at": "2026-10-14T19:52:22.755200+09:00",
+   "kind": "insight",
+   "fp": "9754f19ae82da2cf",
+   "refs": [
+    "news:61537600888084",
+    "url:https://www.blockmedia.co.kr/archives/1151406",
+    "news:83363043305561",
+    "url:https://www.tokenpost.kr/news/economy/422446",
+    "news:53147372170384",
+    "url:https://www.tokenpost.kr/news/economy/422445",
+    "news:48932271025944",
+    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UM0RvTHNEeTJoYTRGcVhIdm42dm8ySmF3TzEyT0JjamI4djRueUdZbG9NLW9jeFg3WWN3R2hRS0tIRzh6YW9VZ0hDckQ2ZkE3WFVqQ2ZqRjVVN0diNGpxY0g1RFE2UGs"
+   ],
+   "img": "d467c1bb7006837d4c095d8bd9fd6396",
+   "head": "美 10년물 5.9%가 주식→채권 갈아타는 선이라는 월가 분석이 나왔음 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-14T18:12:24.308603+09:00"
+ "last_pub_at": "2026-10-14T19:52:22.755200+09:00"
 }
