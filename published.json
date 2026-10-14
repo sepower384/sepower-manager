@@ -1,35 +1,6 @@
 {
  "posts": [
   {
-   "id": 449,
-   "at": "2026-10-11T09:12:17.865809+09:00",
-   "kind": "brief",
-   "fp": "48b9c7d5bb859e87",
-   "refs": [],
-   "img": "55735fecc1a0d3f9fb87fbad8e515755",
-   "head": "☀️ 10/11(일) 아침 체크포인트 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 450,
-   "at": "2026-10-11T10:17:16.090688+09:00",
-   "kind": "insight",
-   "fp": "6d80239f15b46602",
-   "refs": [
-    "news:82707976479283",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/420977",
-    "news:232389313358946",
-    "url:https://news.google.com/rss/articles/CBMimAFBVV95cUxOaDZtMFhGc3RWU1pKd0NBeGpXTkMzTWx6Vm85c2NCMTZ1T3h5WVRLeUxCQ1J5dGZNRTYwazRaVmxEMDc4elNPclk4SExINEhCcVdTVjlqZVJRaTYzdTZKd1pjWlp4OHJoTjNpZGl4Y0lUbWRsYnVJWlV2ZEdXYWVBTVpsUTVVSTd0YjVtUzRocGlsZl9reDhWTg"
-   ],
-   "img": "d282bfcda54bc528a23c260aee668a3e",
-   "head": "다들 ETH ETF 9거래일 연속 유출 = 기관이 하락에 베팅 중이라고 읽는데 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 451,
    "at": "2026-10-11T11:42:20.003209+09:00",
    "kind": "insight",
@@ -810,7 +781,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 507,
+   "at": "2026-10-14T10:27:17.664585+09:00",
+   "kind": "insight",
+   "fp": "e2196bef055b56bf",
+   "refs": [
+    "news:43795719725942",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/422290"
+   ],
+   "img": "e816c2f33dcd6bce84108377dfe42992",
+   "head": "연내 10만달러 갈 확률 27%라는 예측시장 수치가 돌고 있음. ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-14T08:42:22.960996+09:00"
+ "last_pub_at": "2026-10-14T10:27:17.664585+09:00"
 }
