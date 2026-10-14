@@ -1,56 +1,6 @@
 {
  "posts": [
   {
-   "id": 451,
-   "at": "2026-10-11T11:42:20.003209+09:00",
-   "kind": "insight",
-   "fp": "e79147fe891871c4",
-   "refs": [
-    "news:165945528177891",
-    "url:https://www.blockmedia.co.kr/archives/1150065"
-   ],
-   "img": "4474703ae04d21cfe8ac4b3d52d12166",
-   "head": "2025말 vs 지금, 같은 자리 맴도는 BTC ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 453,
-   "at": "2026-10-11T12:34:34.567841+09:00",
-   "kind": "insight",
-   "fp": "d5f063677e2403ae",
-   "refs": [
-    "news:179770514195383",
-    "url:https://www.blockmedia.co.kr/archives/1150098"
-   ],
-   "img": "b1781063fb5378f10e9fc8019475e7be",
-   "head": "속보) 에버노스, SPAC 합병 완료 공시(8-K, 10/9) — XRPL 무단 발행 버그 공개와 같은 날 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
-   "id": 454,
-   "at": "2026-10-11T13:04:57.315553+09:00",
-   "kind": "insight",
-   "fp": "5408ca2924e1d44a",
-   "refs": [
-    "news:168074153038900",
-    "url:https://www.blockmedia.co.kr/archives/1150101",
-    "news:251177523024342",
-    "url:https://www.tokenpost.kr/news/blockchain/421022",
-    "news:215374344983055",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VQWQzYjNZNE8xVHVHYnYwbUlYcmRLay16LU5taGRFWk84cjI2RU1MdElhNEp3NEVXZ0M2TnBfOERUbDNiakp3MmhURmJjaEdaaFZTdzhUWXM"
-   ],
-   "img": "e7ad8e0e97eb34b8a4e4803cdcd8144f",
-   "head": "속보) 에버노스 8/27 투자설명서에 \"XRPL 소스코드 결함 위험\" 문구 있었음 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 455,
    "at": "2026-10-11T15:04:52.824278+09:00",
    "kind": "insight",
@@ -814,7 +764,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 509,
+   "at": "2026-10-14T13:12:18.797942+09:00",
+   "kind": "insight",
+   "fp": "7c40e6c9b0389632",
+   "refs": [
+    "news:50887847731129",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/422337"
+   ],
+   "img": "ba0fd2e3320a6ddc4954bb21ebb74f13",
+   "head": "금리 오르는데 BTC도 오른 이유 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-14T11:34:36.129572+09:00"
+ "last_pub_at": "2026-10-14T13:12:18.797942+09:00"
 }
