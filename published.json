@@ -790,7 +790,32 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 522,
+   "at": "2026-10-15T07:35:28.557203+09:00",
+   "kind": "insight",
+   "fp": "2ccea8dd412716a1",
+   "refs": [
+    "news:91780238117082",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE5COUotZkVoMkpzazhNaTZPQ2pCY0FVY18zVzFmMjd3ZHJON3Z0YUw2anZYdzVlWmhxa2hqaWdYd3dZWE1aWldqNWR2UGM3Z21rZGxEQzFDNDhfUm9OVnN2emNXSlEzT0c1",
+    "news:249201808198833",
+    "url:https://news.google.com/rss/articles/CBMibkFVX3lxTFAwZjRaUzJpYUw5U0tETUZPcUp5Mm45cVpuMzhoWkU2V2lZTWFIOWtHYjJkaWhodEhyM1djS1JtQVhBZkI0UTBMbXNSVDVvM2dwSWhJYnJiQ001eVREOTR5VEp4czlxMnRseGloZUdR",
+    "news:142661433806190",
+    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsYlpQcTdBMThsT0JCb3BYU3g1WVI4b21wdG1KdHlCWEg2cXFDQTZpQldpYXVPSXRzcWNKcS1SOHFYT29seENmVWlNZmhYVEtkWHBndFktelJwZw",
+    "news:192145902073989",
+    "url:https://news.google.com/rss/articles/CBMicEFVX3lxTE5ndkF6Y0JQTjM3STdrSW1rdWRTaTVrWjFMTTVZcDZkWGdWdGEtXzUyeW42LWJEMHVucktReUQ4M0llZ0RUUjBrRUg1eUQxODVSRlA5WHpwQ2FfQnVzXzFEa3RVYlltcVQ3WHFEdmtRa0k",
+    "news:30492146867977",
+    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxNQl9mMGZKYnk0NS14WXVOSnpCTWpfTGZ3QWIzVkdla3djNUtLQVhEN2tGTW9uYzg5ZUxJbk1KaTdHTk1laU4xemUtYzc5UzdVNTVpcGt6NmlQRi1nckhQcHJRRU9DR2FxUjdLTjlWUTNXdjg3eVFEOWJqZlh4bVJGVw",
+    "news:139362832604787",
+    "url:https://news.google.com/rss/articles/CBMiakFVX3lxTE1TSnRtSG5rLU8yQVVNVV8wcGlLdXdTcHdCa2NiLTRxa1Z4cEFBaWRhSWhyWGZnallNTTQxcEhMbVQ2MDJlZVhjeC1lZE40YW1pbmpVMHdMQ0ZpU01OQmo0dUJuVDhDUVpBVFHSAW9BVV95cUxNeGpVWEk1RWg2Sk1aRmloLUNHSlQxU2ozcWk2LW5fWFM4czQ1Uld5cVRqSWlDb1JBNmU0XzBqNjFNWC1Pcl9NNWpfNGFaZkdHMGY2Zk5feXNZaEsyY0tPQjJ5TUhUTW5TeXpRcmVEa1k"
+   ],
+   "img": "e46dd692586526b0da17694e00a9799a",
+   "head": "속보) 美 9월 CPI 예상 상회, AI·반도체 동반 급락 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-15T07:12:22.962125+09:00"
+ "last_pub_at": "2026-10-15T07:35:28.557203+09:00"
 }
