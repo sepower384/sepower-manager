@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 486,
-   "at": "2026-10-13T06:42:17.151304+09:00",
-   "kind": "insight",
-   "fp": "86621bbe833169d4",
-   "refs": [
-    "news:207279811037850",
-    "url:https://www.blockmedia.co.kr/archives/1150649",
-    "news:30669170409867",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE8xUF8yM2JOZTh4dUNsci1XX1VSd21wWU9jd3hBckFFT1BWSEk0by1mclA1RlhfbmFIczQyWkFUeEtHRTJFUXVvYU1R"
-   ],
-   "img": "258cd12b9e4ed4979c893d066d4d976a",
-   "head": "BTC 풋옵션 7.6만~8만 구간에 4.5억달러 몰림 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 488,
    "at": "2026-10-13T07:35:18.460929+09:00",
    "kind": "insight",
@@ -832,7 +814,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 538,
+   "at": "2026-10-16T07:27:19.435546+09:00",
+   "kind": "whale",
+   "fp": "aed0f9d997926116",
+   "refs": [
+    "whalealertkorean:173004",
+    "url:https://t.me/whalealertkorean/173004"
+   ],
+   "img": "a3f2e702a5eef230b997429a8053af98",
+   "head": "🐋 고래 대량 이동 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-16T05:35:22.447037+09:00"
+ "last_pub_at": "2026-10-16T07:27:19.435546+09:00"
 }
