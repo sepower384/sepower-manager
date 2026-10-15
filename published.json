@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 473,
-   "at": "2026-10-12T15:27:17.935565+09:00",
-   "kind": "insight",
-   "fp": "3ae1b2735c998fe6",
-   "refs": [
-    "news:230607758254416",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/421281",
-    "news:201432014892494",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE1nV3ZTU1RwQVlSNmRBcUtpN2VkYTlrczlUN1J3T2dDeTNYWk56b0RNdEZMb2RDbjdaSWFKcHhuZ2ZZVUw2SnloQWJfanQwRFYt",
-    "news:207373910910858",
-    "url:https://news.google.com/rss/articles/CBMid0FVX3lxTE13TWlSMlVIY01rTjktTDRZWHdpM01FcDhTU3k0S1ptZ2hRMy1KNWI5Ry13SUJyUjVJZTNIZzU2VzdJX1Z6WjhZVF9BZXFneENfN1k0dHVWaUg4MzRycWZBZkRGY0p6Z2R6ekJoZVQ4dDIwMmdXVEIw",
-    "coinnesskr:233831",
-    "url:https://t.me/coinnesskr/233831",
-    "news:31017189721284",
-    "url:https://www.coindesk.com/markets/2026/10/12/bitcoin-shrugs-off-etf-outflows-to-trade-above-usd84-000-as-oil-falls"
-   ],
-   "img": "072272062994a8750bce586989b84a5d",
-   "head": "BTC 84,000달러 회복, 근데 이 반등 주인공은 미국 수요가 아님 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 474,
    "at": "2026-10-12T16:34:34.775565+09:00",
    "kind": "insight",
@@ -813,7 +789,29 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 528,
+   "at": "2026-10-15T16:27:15.934387+09:00",
+   "kind": "insight",
+   "fp": "b6203bf26440a7b8",
+   "refs": [
+    "news:257767536317536",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/422729",
+    "news:1950014832349",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/422730",
+    "news:64650342424448",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/422739",
+    "news:161523202433527",
+    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE5fQmVBNFMwTlh1ZGlEdDgzSi1ibGdvNUZTN3hkekhiVmhGcnBSdEt0TzdtWFFjcXI5UDJtMUswVFpybE5PTHlYLVhyMENfcWR0cm4xTW4tUEc5WDBTMnZ5b18ydE8xc3lWbEhMZTRLRWNfTnM"
+   ],
+   "img": "b6411d165e60106c0ad288793d92a46a",
+   "head": "하루 만에 뒤집힌 ETF, 고래는 반대로 사는 중 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-15T15:04:27.317051+09:00"
+ "last_pub_at": "2026-10-15T16:27:15.934387+09:00"
 }
