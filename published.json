@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 472,
-   "at": "2026-10-12T13:34:21.827785+09:00",
-   "kind": "insight",
-   "fp": "da2fe7ffc4a4ebc6",
-   "refs": [
-    "news:59768252373563",
-    "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE5KaFlJRkF0b3IwYS1kRHFMT2pIa0tPOU9KNzFaRHZRSmZMRkczUDFvMExGaUVzcFZSZmZWMWVUbF9TX184dEF4X3k4ZGllOGJic2I5N05rdWEteWtfZ0RYWTlWdWFXdThDNDVJdDN3a19kMlRsQnFBUldaSdIBgAFBVV95cUxNOUh5aDV2aFpZc2lGUmVOdmJGMXdsSUNSTEtXT0h5MGhMT0VjcVJucFI3aUhSbmdnQ3diNUZib2djWmFmMzZUMlFjY3M2LUE5NElrR3g4bmRIdmFBNFhUTnlnNW80MXBQRktmSTh3bE91SWlJMktzZzRJQWxHY0FiUA",
-    "news:221673105522972",
-    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GQmRyVzEyQ25DVWwwTzVGeWV1Y1ZxRzJHSFk2enMzZUlDS0dUVFpvUEhCUWNSQktoNlV4b3dNMkl4NlUxZWNSSmszWHRjOVdLWDBpM0ZuajYxNFJBSzFySlJIdzVtQkk",
-    "news:107730215803866",
-    "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTE1aOTNKZVFIaUpSWGtUU2RneXlwM3hESTFIOWJ2R1A0eEVVcDFNX0hJcWVZaUcxZDYtR2RQdjFOUVVzYjdyTFlqV0NlMVA4QmdOaGRuNDQ4cw"
-   ],
-   "img": "8de846281861af25a639f8eea268a6cf",
-   "head": "10년물 6%? 핌코 경고의 진짜 의미와 체크포인트 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 473,
    "at": "2026-10-12T15:27:17.935565+09:00",
    "kind": "insight",
@@ -815,7 +796,24 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 527,
+   "at": "2026-10-15T15:04:27.317051+09:00",
+   "kind": "insight",
+   "fp": "2af897cde7f1499d",
+   "refs": [
+    "news:79037831769470",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/422668",
+    "news:269231408722769",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/422654"
+   ],
+   "img": "a0d71289f970a5df862b6e8771c520a4",
+   "head": "XRP 현물 ETF 주간 1131만달러 순유입 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-15T13:12:24.188872+09:00"
+ "last_pub_at": "2026-10-15T15:04:27.317051+09:00"
 }
