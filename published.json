@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 480,
-   "at": "2026-10-13T00:34:46.417184+09:00",
-   "kind": "insight",
-   "fp": "fa3befeed9450deb",
-   "refs": [
-    "coinnesskr:233891",
-    "url:https://t.me/coinnesskr/233891"
-   ],
-   "img": "29bf7711a50a0a0d3c47605b6ead01c5",
-   "head": "BTC 8만1300 이탈하면 어디까지 열려 있나 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 481,
    "at": "2026-10-13T02:04:26.679671+09:00",
    "kind": "liquidation",
@@ -823,7 +808,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 534,
+   "at": "2026-10-16T01:22:27.648186+09:00",
+   "kind": "insight",
+   "fp": "610470b6187e1c8e",
+   "refs": [
+    "news:58517593729632",
+    "url:https://thedefiant.io/converge/regulation/tether-routed-payments-to-hines-s-firm-during-white-house-tenure-wsj-reports",
+    "news:257570192548536",
+    "url:https://news.google.com/rss/articles/CBMimgFBVV95cUxPa194aXNqYlhCeVdweHJXaVlPNWxKZEp1MjZucHNNc1dob3dtTjFHNFZZd29Rc1FVUmdiLXdDRENRM1pTQnU0LVoteFlka0l1MDNrMy1fQ0hDR3gwVXFqcmM3S01ReHJZRUhHNkU5R3AzN1hGX1BrbG1KdHhka2pYTG9uelRvbm1KTHVZbnAwWUhjSDFnbm5IZEJB",
+    "news:275902252595337",
+    "url:https://news.google.com/rss/articles/CBMia0FVX3lxTFB0a0RVUE9kWDJoQVpaaDd2U3dBdzZCOHVTU056REFTeWdTT1NYMHlYcEFVbWJGdWtYUVRCQTJkUmtESVN4bkJ0Z3U3VHR2cllfZ21uREllRjA1bkRzZ0l5VVdRLTNHZzdybGIw"
+   ],
+   "img": "eda8801a62848fb9fafcc80d3aa1bba0",
+   "head": "테더-보 하인스 건 어디까지 확인됐나 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-15T23:34:24.189128+09:00"
+ "last_pub_at": "2026-10-16T01:22:27.648186+09:00"
 }
