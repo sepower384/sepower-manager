@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 478,
-   "at": "2026-10-12T22:52:19.173160+09:00",
-   "kind": "insight",
-   "fp": "61e64d35d027d773",
-   "refs": [
-    "news:103543273077545",
-    "url:https://www.tokenpost.kr/news/ai/421382",
-    "news:207014959238549",
-    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTE44V0FCUjY3M09LVEo3dms0RGRmUzc1WFN4S3gzWmY4V2pTSlJuWHlvVGFmUUVDbk9kX3FNa0dUdUdoNHFCelFxSEluRVlRUjBuV0pDWXgtc1hqZw"
-   ],
-   "img": "0b1f9571cdf31eb88ef0bae08d1b96f2",
-   "head": "AI 투자 병목이 옮겨가는 경로 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 480,
    "at": "2026-10-13T00:34:46.417184+09:00",
    "kind": "insight",
@@ -818,7 +801,29 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 533,
+   "at": "2026-10-15T23:34:24.189128+09:00",
+   "kind": "insight",
+   "fp": "c4fb79450ad59981",
+   "refs": [
+    "coinnesskr:234327",
+    "url:https://t.me/coinnesskr/234327",
+    "news:124439995652234",
+    "url:https://www.blockmedia.co.kr/archives/1152136",
+    "news:246055720049249",
+    "url:https://www.blockmedia.co.kr/archives/1152153",
+    "coinnesskr:234332",
+    "url:https://t.me/coinnesskr/234332"
+   ],
+   "img": "545d7ce8e37cff5ac633e8012404c987",
+   "head": "PPI 1.3%인데 BTC 8만달러가 위태로운 이유 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-15T22:22:24.152146+09:00"
+ "last_pub_at": "2026-10-15T23:34:24.189128+09:00"
 }
