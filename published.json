@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 471,
-   "at": "2026-10-12T10:35:42.208885+09:00",
-   "kind": "insight",
-   "fp": "d07044bd33089f3e",
-   "refs": [
-    "news:101819056474278",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5SUUyYzRlS1pGamEyUlB5R3ZSZ1d5SDZkY0lpMXVSVG1oWXN6dkw2S0Y4UEliS0VPdlRQWHhNSzZ0ajRER1RfX29VbEduVUcxMkkwalR0cUN3VnJyWlJYTjZ4WGF0XzFS"
-   ],
-   "img": "f4cb01e7e6867d0b4675419d82d7cc57",
-   "head": "BTC 8만3000달러선 회복, 근데 주간 낙폭은 아직 그대로임 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 470,
    "at": "2026-10-12T12:27:20.066630+09:00",
    "kind": "insight",
@@ -813,7 +797,29 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 526,
+   "at": "2026-10-15T12:05:06.623442+09:00",
+   "kind": "insight",
+   "fp": "d33068d18c0a351d",
+   "refs": [
+    "news:173075769036057",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yWUxOZmRTOXdlakE5YkwxMW1FWmJLWjV4SWFJVlVyc2FUaHJfUTg2bnhhQXVJVDJMVDFSc1RLdHNPNjJ2UEJHc1JIM0lxVUNjU2xSWjVfaW15eTFRSWJjT1N4OVdYTUw0",
+    "news:230486711801614",
+    "url:https://news.google.com/rss/articles/CBMiqwJBVV95cUxOWjZ3eUF4UV83Zl9KTmNheWpZWml6R1FKSWFpdmYxQm80Sm02T013VU5SbG4yRXNfeHBBZ0diaFI0bkpwT1VrM3c0aXlldHFxc01xQTdwWTFEcVk2cG5WMnhDRUNVR3VCRGt5UGctNm1tcmVaaEdUSGg0YkZKdXhSOE5zcnRSWDRwSEp5MGdnUUtYdmJHelJER2xjSi14TVJ0bXI4Z3pWb1N5ODJ3ZUx6OW1hQWhpYlEzSVpWVEg2THdvbnp5cGhFYzBSaTNjdE9yeFZNcU9sbmpMSXg3SzM0bnZwZllkOGVEMkZFcFFSaHhFeXhPN0trQ28yaUprQVhyd1VpUWxTWU1tZ0phYVlzaE5RWXNGNEdndWdFV2VOeGM1OVhLc0dDZkREUQ",
+    "news:257659332532423",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9peS1OX01Rb2c1OHZmV0JOREN4R2hFS0pBSG5OdGFwU2R5blZIS05uT2RZdHBSbUhTYUxOUk5sdlFyOVBMV1lEQ2p4YUI1b0xtUUZVaFB1c1o",
+    "news:136898272144838",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFBhRmkzM0RhUXFuV0V1S3dnQW12Q25aejVVekdTWV91aHBxVEZiOTk1U1ZuaVpSamJTMHBRME1jdmo0NDdmbEk4WmVR"
+   ],
+   "img": "cc5e3a67583afddcf534570b5780a3fd",
+   "head": "속보) CPI 쇼크에 BTC 8만1000달러선·ETH 2,418.40달러(-3.13%) 동반 약세 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-15T10:34:30.974833+09:00"
+ "last_pub_at": "2026-10-15T12:05:06.623442+09:00"
 }
