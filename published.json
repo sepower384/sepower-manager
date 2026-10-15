@@ -1,18 +1,6 @@
 {
  "posts": [
   {
-   "id": 469,
-   "at": "2026-10-12T09:57:18.187660+09:00",
-   "kind": "brief",
-   "fp": "79cb4f4011fe7f12",
-   "refs": [],
-   "img": "51cf3c29c38b163ba1bd86e395d338a4",
-   "head": "☀️ 10/12(월) 아침 체크포인트 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 471,
    "at": "2026-10-12T10:35:42.208885+09:00",
    "kind": "insight",
@@ -810,7 +798,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 524,
+   "at": "2026-10-15T10:34:30.974833+09:00",
+   "kind": "insight",
+   "fp": "a2f9c778503e7cb0",
+   "refs": [
+    "news:11516911423053",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IZ0JYNFBUZlhYWUFzc2hZaU81c2VuV3RRUVFQR0FNSE5MMjRpMmZMU2kxS1VQNXA0RUdwbFRfdFB6bEhVNno0eDYxZTB5X0VXWkUwSUlkMDI"
+   ],
+   "img": "3ca4072bc5ef90477b2b9224316f4388",
+   "head": "스트래티지 MSCI 퇴출 여부, 16일에 갈림 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-15T08:42:22.040803+09:00"
+ "last_pub_at": "2026-10-15T10:34:30.974833+09:00"
 }
