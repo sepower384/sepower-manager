@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 470,
-   "at": "2026-10-12T12:27:20.066630+09:00",
-   "kind": "insight",
-   "fp": "9c4f08b83ef1a118",
-   "refs": [
-    "news:263955156701376",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE82Q0hHc1ZUUXBfMEF5VmR6RkhWRzlmTUtRRnNCR0ZIZmNwSl9TNHVyUUwwTGtCelFSWGhVT2hZM0JDMF9GQkNUVWNR",
-    "news:105125318828707",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFBiMEwtYWlBcXF1eGp1NUpxc0xsZUcyS3pZbWI4SEFlUmdUeU9uWEZ2WEo3WVFmYXhNNXlZX00wd2lyNlNFQlZRaEZR",
-    "news:51151424936581",
-    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE41RE5ldTk0ZnV5S1JNb0ozYzFBc2EtRzFRQjQ2NU11amZqazVUWl9XWTM5c2FubFlxWDNzanQxY1Z1WFNDY3BtTnJMUXMtRjVYR1haODF4T0pzRVMyWUVOWUtGejMybXBseEpvVTBFVzhsR0U"
-   ],
-   "img": "da788e34a19fc455d1089cae3de72048",
-   "head": "카나리 \"국채금리 오르면 BTC ETF 뜬다\"는데, 정작 BTC·ETH·SOL ETF는 같이 빠지는 중임 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 472,
    "at": "2026-10-12T13:34:21.827785+09:00",
    "kind": "insight",
@@ -819,7 +800,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 525,
+   "at": "2026-10-15T13:12:24.188872+09:00",
+   "kind": "insight",
+   "fp": "b561fb5d0121f590",
+   "refs": [
+    "coinnesskr:234241",
+    "url:https://t.me/coinnesskr/234241"
+   ],
+   "img": "8724fe61152b0c0a59c932f774079746",
+   "head": "비트와이즈가 24조달러 규모 자산관리 플랫폼 20여곳과 ETP 도입을 추진 중이라는데, 이거 진짜 자금 유입일까? ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-15T12:05:06.623442+09:00"
+ "last_pub_at": "2026-10-15T13:12:24.188872+09:00"
 }
