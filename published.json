@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 479,
-   "at": "2026-10-12T21:35:03.437502+09:00",
-   "kind": "insight",
-   "fp": "4af367ffeb1724a7",
-   "refs": [
-    "news:201177310376661",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE5lbHcxcW5rTkZTWGtQbXlSLXRwbVd6Y19aTEdFdmkta0d5anNFcFVFZjVyRVRMZkUteHdLWlJycmFqXzhlbkNLaFJJM2VCcmZuR2t3STVJbmc",
-    "news:61145513484563",
-    "url:https://news.google.com/rss/articles/CBMipwFBVV95cUxNVDdLbWhLWGs0dDNhVy1kbU9hb2FVUFZZdWxUUFIyT3JKaGFHTzdRQm9BVFlnWWxfQmRBRG5EX3J3QWQxbnBTVnRXR2FJR3RxMTMtZUtBSUlIV2d1d0Vwc29qcElLMUNMRmRLd0RWX0Nyb0xxdUxBVzRnSG1yUEVXTHlUTGNyWVViT3BLQXdWOXZmZ2VDTnVET2I2cFJfbFlGeHFVZUhSNA"
-   ],
-   "img": "f9cef5385ec611968cac41e2478b7f76",
-   "head": "스트래티지, BTC 250개만 추가 매수 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 478,
    "at": "2026-10-12T22:52:19.173160+09:00",
    "kind": "insight",
@@ -813,7 +795,30 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 532,
+   "at": "2026-10-15T22:22:24.152146+09:00",
+   "kind": "insight",
+   "fp": "5eac289c94563907",
+   "refs": [
+    "news:202066147496423",
+    "url:https://www.blockmedia.co.kr/archives/1152026",
+    "coinnesskr:234316",
+    "url:https://t.me/coinnesskr/234316",
+    "coinnesskr:234308",
+    "url:https://t.me/coinnesskr/234308",
+    "news:42158431571253",
+    "url:https://www.tokenpost.kr/news/briefing/422879",
+    "coinnesskr:234320",
+    "url:https://t.me/coinnesskr/234320"
+   ],
+   "img": "fa796c45d0a8104a1b9ade92e6e5f9db",
+   "head": "BTC 레버리지가 빠지는 중 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-15T20:52:23.770183+09:00"
+ "last_pub_at": "2026-10-15T22:22:24.152146+09:00"
 }
