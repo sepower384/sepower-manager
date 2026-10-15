@@ -1,36 +1,6 @@
 {
  "posts": [
   {
-   "id": 474,
-   "at": "2026-10-12T16:34:34.775565+09:00",
-   "kind": "insight",
-   "fp": "ae26a5ebdfe32fb3",
-   "refs": [
-    "coinnesskr:233837",
-    "url:https://t.me/coinnesskr/233837"
-   ],
-   "img": "2ef1397e418a3a26b1d1872acea3be57",
-   "head": "다들 알트 공급 부담 끝났다고 하는데 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 475,
-   "at": "2026-10-12T18:27:17.357512+09:00",
-   "kind": "liquidation",
-   "fp": "20492a5c198fb714",
-   "refs": [
-    "whaleliquidation:3089313",
-    "url:https://t.me/whaleliquidation/3089313"
-   ],
-   "img": "473ab4a5bbc67c6bda033df72d390956",
-   "head": "💥 대규모 롱 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 477,
    "at": "2026-10-12T20:34:45.296433+09:00",
    "kind": "insight",
@@ -811,7 +781,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 529,
+   "at": "2026-10-15T18:27:21.568714+09:00",
+   "kind": "insight",
+   "fp": "3be6f311b3eb5514",
+   "refs": [
+    "news:10722429124961",
+    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxNUm9OelBoWXRVbXJuVlNvN0RUT3pOWWlDQmJqZl9EaEZvRWhGMFl2YXVlc2tSUUtLUWFkVmRhUERabUZQWTJQcUlPLTQtekZJeHFQQXFwWmZubTNIbmgwaGJDdTVXUW9JOXR1OVJVVDdMTGFmSzVIenFneU04N2IzQw"
+   ],
+   "img": "bf133124237db37e113df173383d24a0",
+   "head": "코인 과세 '2년 유예' 법안, 여당에서도 나옴 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-15T16:27:15.934387+09:00"
+ "last_pub_at": "2026-10-15T18:27:21.568714+09:00"
 }
