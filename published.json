@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 481,
-   "at": "2026-10-13T02:04:26.679671+09:00",
-   "kind": "liquidation",
-   "fp": "b1e2b0a77803399a",
-   "refs": [
-    "whaleliquidation:3090993",
-    "url:https://t.me/whaleliquidation/3090993"
-   ],
-   "img": "abc1b27157dcac2e78665f4c6ef6c768",
-   "head": "💥 대규모 롱 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 483,
    "at": "2026-10-13T03:47:17.819380+09:00",
    "kind": "whale",
@@ -827,7 +812,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 535,
+   "at": "2026-10-16T02:52:26.743990+09:00",
+   "kind": "insight",
+   "fp": "7fea99a896177212",
+   "refs": [
+    "news:199568260664379",
+    "url:https://thedefiant.io/converge/tradfi-and-fintech/schwab-completes-retail-bitcoin-and-ether-rollout-begins-crypto-transfers"
+   ],
+   "img": "8def38b11fc3cce3a35d5869391d02c1",
+   "head": "이번 주 ETF에선 돈이 빠지고 BTC도 8만달러 아래인데 슈왑은 왜 리테일 BTC·ETH 롤아웃을 끝냈을까 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-16T01:22:27.648186+09:00"
+ "last_pub_at": "2026-10-16T02:52:26.743990+09:00"
 }
