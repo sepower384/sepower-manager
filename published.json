@@ -1,27 +1,6 @@
 {
  "posts": [
   {
-   "id": 494,
-   "at": "2026-10-13T17:22:22.334907+09:00",
-   "kind": "insight",
-   "fp": "03c0d030db289041",
-   "refs": [
-    "coinnesskr:233987",
-    "url:https://t.me/coinnesskr/233987",
-    "news:6640216053566",
-    "url:https://news.google.com/rss/articles/CBMiZEFVX3lxTE40cTY1Y3NvTnBodjFBY2NPTnlld0ljcDlCYkpNSmlRNUVUd0Jkc2QxMnhxbXdsRVRrc0V3Wk00NUduRlVOVlRSMTlrc3RYS1lmaVkxcHlYemlhWUtGV3JPMTFqc2Q",
-    "news:277313350763752",
-    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxQUzViQjl1bEVxcmZZYXJSQldCbW1acWk5bjRfQ1JTQWtnSUpYcFFCQW5OakQ0VVdJWlVnWDB3UzlReDFKaTYzQmdlQnVvUGVwYndVVjJiMUs2QzNxOGh0eE5PX2pIcHdaY1AzdWFDYW9mblNGblpSaEJNQ0R6YTV3eg",
-    "news:31904096251293",
-    "url:https://news.google.com/rss/articles/CBMickFVX3lxTFBsNnBVUWpla2w4U2JrRGtPRmhBWEpHWTEwV2tDaXAweWNkWEd0dEJGN2RCR1M2bDJrd09tZXlaZnJMWGFkYTR0WHhvMFpyZEV1QXN0c0xDcXl3SncxMjJQRnlaV3pYcnZVTGRJUkQwS3NMdw"
-   ],
-   "img": "bafe5ce717ffe4d4a6b75ec1e4250eb9",
-   "head": "국세청 \"하드포크·에어드롭도 과세 가능\", 남은 건 11월 고시 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 495,
    "at": "2026-10-13T19:04:24.434351+09:00",
    "kind": "insight",
@@ -803,7 +782,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 547,
+   "at": "2026-10-16T18:04:18.513007+09:00",
+   "kind": "insight",
+   "fp": "0d3f0b4c7192266e",
+   "refs": [
+    "news:172763404953293",
+    "url:https://www.tokenpost.kr/news/insights/423289"
+   ],
+   "img": "fadc9fe099dd33aa8a9602982f0c5d7c",
+   "head": "국내 은행 첫 BTC 담보 원화대출(10/12)이 나왔는데, 독립 상품인지 기존 신용대출의 보완담보인지부터 설명이 엇갈림. 금융당국 검토도 진행 중이고 LTV·마진콜 기준은 비공개임 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-16T16:12:18.207180+09:00"
+ "last_pub_at": "2026-10-16T18:04:18.513007+09:00"
 }
