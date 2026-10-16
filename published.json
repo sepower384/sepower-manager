@@ -1,41 +1,6 @@
 {
  "posts": [
   {
-   "id": 492,
-   "at": "2026-10-13T14:27:21.190402+09:00",
-   "kind": "insight",
-   "fp": "b7b023f697cc854a",
-   "refs": [
-    "news:149489907500941",
-    "url:https://www.tokenpost.kr/news/policy/421774"
-   ],
-   "img": "9bcf7aadd6363dd189c87a778d0ba406",
-   "head": "가상자산 과세 석 달 앞, 준비 어디까지 왔나 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 493,
-   "at": "2026-10-13T15:42:21.972670+09:00",
-   "kind": "insight",
-   "fp": "fdaec97e2942462d",
-   "refs": [
-    "news:168184172496767",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/421838",
-    "news:228283549059335",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ZMG9GeTFOQmlEZUZnMVMwOTljVGVpSl9INm5QZzlicmxUa25nQ0JROHkxNXB4aklIcUJlWEhPUnREMHA1VDRBRWtESEJRLWY3M3lBY0JXemg",
-    "news:225330308698741",
-    "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxOV0NfWGFaNktLeFUzUUVsOGw1ckxfOEZFMVZRd2diUi1nbTVyay1ETUNQWmNJNGRPTmUzemRXcnZXU0wwY014ZDJkN3l1Y3lYNXFSY0o4UTRkZHBiQmE5MXpNLWI0VHh6el93UVZjUkFOQzREVTdibm1UcjhxUG5LaExhTERka2ZM"
-   ],
-   "img": "636941831bd54ba9d602688a66c4a699",
-   "head": "이더리움 ETF 10거래일째 빠지는데, 누가 파는 걸까 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 494,
    "at": "2026-10-13T17:22:22.334907+09:00",
    "kind": "insight",
@@ -821,7 +786,24 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 546,
+   "at": "2026-10-16T16:12:18.207180+09:00",
+   "kind": "insight",
+   "fp": "3e822d3b4ee877e8",
+   "refs": [
+    "news:174014280724799",
+    "url:https://news.google.com/rss/articles/CBMickFVX3lxTE5BOS10T3Y4WldsVENFd05NMUNhT21wZEZueXdSYXYzX3duVVZIR1IxaUZBeE8waVNkZENuYVdwVkJLQmRQUHNkOVE2eFBEWW5sVFBDdGhsV19sMGhFM21BYjh2SEladmd3aXczVTFtaFpyZw",
+    "news:184043515244742",
+    "url:https://news.google.com/rss/articles/CBMiswFBVV95cUxQcEFTd3pFQ0lNc3E2UGYtd1IzNmtNNGJOa0FfNGtYWVMyX1Q2TUZKRU81NS14b2FIVHBkWlB0clZNMTVoS3VNMkpEQ0JHQWptMGNyLWdhZ2ZTZkZsbDlGRXdwRTJHYXNIaVJjTzVaU0g0WGlUUmJLTDVUeXVzOWNaVnNTbTkxeWkwdmRoQVZPTWJ4TXh4VC1wMW1fWTZQQ2tiR3VpcE5yaVhXRk01eWtEcFE3RdIBuAFBVV95cUxOb3E3eF9SRzUwUzBGTUpwa3JBb2FaX0I1blFxZkhrbFpuOUEzVndENkdxcWhETG5NT3VaQVgwVXNaRXRhWk5NS1FPNU9zSTBLb21ZRFhoNUxJS2h0RFUwR2o0TTBwa3Mta3VPak1TSWxkX3c2aW1mVmYzN1JXNGNvR0Jzb1BFUkRHbTVJR3d3OUtTRmdTeTdQLWdHdmxkcXJBSWhkN3RhUDN6XzRtVUtlelhVS0xkT1R2"
+   ],
+   "img": "41ff9ca6e71e05c025666fb61d29c57d",
+   "head": "⚡️ 워시 연준 의장 발언 요약 (IMF·WB 총회, 방콕) ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-16T14:12:20.313285+09:00"
+ "last_pub_at": "2026-10-16T16:12:18.207180+09:00"
 }
