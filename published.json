@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 488,
-   "at": "2026-10-13T07:35:18.460929+09:00",
-   "kind": "insight",
-   "fp": "7437deaf2d45bdf0",
-   "refs": [
-    "news:50930834421547",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE1VMTFuZjVPQ1FhU1BxUjhvdVNQeGtkUW5GOEtWZ29KVm01eVhkUzFrUVdwQTNiaE1LOHNvT05lVHlLanpVSS1uaTMyTldsZDU1bnREM2pPczVQTGRtWEIwaUdTUFBfT0Vk",
-    "news:1717541278814",
-    "url:https://www.blockmedia.co.kr/archives/1150693",
-    "news:1020216528780",
-    "url:https://www.blockmedia.co.kr/archives/1150716"
-   ],
-   "img": "bf963c89a97e0d5dcc8dda9953f7f689",
-   "head": "속보) 에버노스, 나스닥 XRPN 입성 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 487,
    "at": "2026-10-13T09:42:21.420088+09:00",
    "kind": "insight",
@@ -829,7 +810,24 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 540,
+   "at": "2026-10-16T09:17:22.501645+09:00",
+   "kind": "insight",
+   "fp": "76ddf3b4291076d7",
+   "refs": [
+    "news:180712594991534",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/423106",
+    "news:14736308249158",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/423097"
+   ],
+   "img": "3523cc315d098980ff0e4715c8bfa924",
+   "head": "2022년 말 vs 지금, BTC 바닥 비교 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-16T07:27:19.435546+09:00"
+ "last_pub_at": "2026-10-16T09:17:22.501645+09:00"
 }
