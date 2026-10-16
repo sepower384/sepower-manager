@@ -1,53 +1,6 @@
 {
  "posts": [
   {
-   "id": 504,
-   "at": "2026-10-14T07:17:18.185483+09:00",
-   "kind": "insight",
-   "fp": "fee5ed6a646ed259",
-   "refs": [
-    "news:9580665271788",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/422233",
-    "coinnesskr:234068",
-    "url:https://t.me/coinnesskr/234068",
-    "coinnesskr:234064",
-    "url:https://t.me/coinnesskr/234064"
-   ],
-   "img": "f12ffb58ecd588d9adf809c3a9fcb528",
-   "head": "비트코인 고래 보유량 303만 BTC, 분배에서 축적으로 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
-   "id": 505,
-   "at": "2026-10-14T07:35:20.281196+09:00",
-   "kind": "insight",
-   "fp": "29a7f61027c6636b",
-   "refs": [
-    "news:249053872047953",
-    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9lX25KXzBzcmxNVFpZNUVuYWhYaURhZE1XeG9xcWszcGVaMmN6Q3VfbGltTFZ5QnF5REczeGlTbWhmWXRDLWtkaWR1cjhNWnRaQWp6cnZjVVZ4OEs5MUQtUGh3NkY3bUk"
-   ],
-   "img": "40d93f2a90425a82ccd08d24e882d927",
-   "head": "속보) 마이크론 -3.62% 급락, 엔비디아·AMD는 상승 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 506,
-   "at": "2026-10-14T08:42:22.960996+09:00",
-   "kind": "brief",
-   "fp": "fca9d4716bdfe8a5",
-   "refs": [],
-   "img": "15ca7fb384cb8c9d9a09ebd02084da49",
-   "head": "☀️ 10/14(수) 아침 체크포인트 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 507,
    "at": "2026-10-14T10:27:17.664585+09:00",
    "kind": "insight",
@@ -797,7 +750,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 558,
+   "at": "2026-10-17T08:42:22.968445+09:00",
+   "kind": "insight",
+   "fp": "cc7397949954d084",
+   "refs": [
+    "coinnesskr:234499",
+    "url:https://t.me/coinnesskr/234499"
+   ],
+   "img": "c1d7b2f33524adb2d2a6d0f09c23944a",
+   "head": "블라스트 체인이 결국 문 닫음 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-17T07:12:20.609971+09:00"
+ "last_pub_at": "2026-10-17T08:42:22.968445+09:00"
 }
