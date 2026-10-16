@@ -1,30 +1,6 @@
 {
  "posts": [
   {
-   "id": 490,
-   "at": "2026-10-13T11:27:20.236682+09:00",
-   "kind": "insight",
-   "fp": "e0b9f35430abd686",
-   "refs": [
-    "news:212722389139850",
-    "url:https://www.blockmedia.co.kr/archives/1150764",
-    "news:119817974408341",
-    "url:https://www.blockmedia.co.kr/archives/1150789",
-    "news:136258411605230",
-    "url:https://www.blockmedia.co.kr/archives/1150730",
-    "news:181948673224287",
-    "url:https://www.tokenpost.kr/news/insights/421636",
-    "news:88860533517510",
-    "url:https://www.tokenpost.kr/news/economy/421673"
-   ],
-   "img": "86d1fc536d968e76f947ee5d1929ed4b",
-   "head": "블랙록이 美 주식 비중을 낮추고 국채를 늘린 게 오늘 시장이랑 어떻게 이어지나 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 491,
    "at": "2026-10-13T12:52:23.692395+09:00",
    "kind": "insight",
@@ -827,7 +803,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 543,
+   "at": "2026-10-16T12:27:27.714942+09:00",
+   "kind": "insight",
+   "fp": "847cfcd1ecddd311",
+   "refs": [
+    "coinnesskr:234383",
+    "url:https://t.me/coinnesskr/234383",
+    "coinnesskr:234380",
+    "url:https://t.me/coinnesskr/234380"
+   ],
+   "img": "96416adf137c4f7a3a85ffa4683d96f8",
+   "head": "이번 BTC 옵션 만기, 두 갈래 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-16T11:04:39.852149+09:00"
+ "last_pub_at": "2026-10-16T12:27:27.714942+09:00"
 }
