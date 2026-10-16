@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 496,
-   "at": "2026-10-13T20:52:18.389171+09:00",
-   "kind": "insight",
-   "fp": "8567882b39fdf0f3",
-   "refs": [
-    "news:215667300778654",
-    "url:https://www.blockmedia.co.kr/archives/1150917",
-    "news:108646705749834",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/421928"
-   ],
-   "img": "bb08d79ecb259dbe9265499306ecfbb3",
-   "head": "거래소 BTC 13만개 빠졌는데 가격은 왜 8만달러대 제자리일까 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 497,
    "at": "2026-10-13T22:34:27.980631+09:00",
    "kind": "insight",
@@ -800,7 +782,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 549,
+   "at": "2026-10-16T21:22:21.726331+09:00",
+   "kind": "insight",
+   "fp": "09327af958afe369",
+   "refs": [
+    "coinnesskr:234459",
+    "url:https://t.me/coinnesskr/234459"
+   ],
+   "img": "acfa41ad0daf374de598daaf3ff80172",
+   "head": "다들 금리 인상 = 악재라고 하는데 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-16T19:22:17.555654+09:00"
+ "last_pub_at": "2026-10-16T21:22:21.726331+09:00"
 }
