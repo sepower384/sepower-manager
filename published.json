@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 495,
-   "at": "2026-10-13T19:04:24.434351+09:00",
-   "kind": "insight",
-   "fp": "dce531b9e44c717a",
-   "refs": [
-    "news:128626214763859",
-    "url:https://www.tokenpost.kr/news/market/421899",
-    "news:211551414101855",
-    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxPcXhPWnFjWHVTWkJJdnJHUUxnWG1mNU9vNy1hdGNzNUQ5UTY0N3M2MnlHNVFXM1VxdHlpa19sbTMtMF9tVWR1TVkweDRvcmJLVGRpdW9haW9lU080bVRzY2FSTHlUbE5halNUUGFNU1loZUpaVXZQVUkzalB4STVWTQ"
-   ],
-   "img": "2b8e4a9b380c46b92915d188d6f9b04b",
-   "head": "AI 투자 열기가 코인까지 오는 경로 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 496,
    "at": "2026-10-13T20:52:18.389171+09:00",
    "kind": "insight",
@@ -798,7 +781,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 548,
+   "at": "2026-10-16T19:22:17.555654+09:00",
+   "kind": "insight",
+   "fp": "cd56b05638570981",
+   "refs": [
+    "news:92128708656839",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/423327",
+    "news:19074154035324",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/423300",
+    "news:2184201454442",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/423335"
+   ],
+   "img": "0d1ab522e15daa3c8d6d548a892502e5",
+   "head": "BTC 단기 보유자 물량이 408만개까지 늘었음 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-16T18:04:18.513007+09:00"
+ "last_pub_at": "2026-10-16T19:22:17.555654+09:00"
 }
