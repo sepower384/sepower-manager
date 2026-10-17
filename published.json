@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 517,
-   "at": "2026-10-15T01:47:24.166445+09:00",
-   "kind": "insight",
-   "fp": "434bd1834e9e529c",
-   "refs": [
-    "coinnesskr:234199",
-    "url:https://t.me/coinnesskr/234199"
-   ],
-   "img": "2b34441a3d91d2f68eb76a3d11e613c2",
-   "head": "다들 STRC 우선주 덕에 희석 막고 BTC 더 샀다고 보는데 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 518,
    "at": "2026-10-15T03:34:32.382637+09:00",
    "kind": "whale",
@@ -782,7 +766,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 570,
+   "at": "2026-10-18T03:04:18.354879+09:00",
+   "kind": "insight",
+   "fp": "e2e50342ef00066c",
+   "refs": [
+    "news:257480438404383",
+    "url:https://decrypt.co/381236/crypto-firms-launch-quantum-alliance-as-6-million-bitcoin-sit-exposed",
+    "news:156010731218967",
+    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE9zdzh4eUhiTWJNTnF0cVhDNHdaLXgtRTQtRGtaSzRBbVExQm0zeEJFaW1WVy1XUnRtWGpSOXNkV1k1VEtMN19TVWVKVWlnWVJUN29TX0QtTWx5T2dlNEZmeTBIZWF2RC1GcmdyaQ",
+    "news:260689957071228",
+    "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kRWFhM3pYcVpsWkNwZkV6N3RVSTcxdVZ1LW9vdFB5Y0JBdWREX2NpY2FMbkFZak9SM1htdXNNZUN0R3VlQ2xqa0NxeC1MR1RWMDdhUU9RVlZfZUE"
+   ],
+   "img": "1f6e6a467a20dc5bff4cef2a0edf9305",
+   "head": "양자컴퓨터 위협, 이번엔 표준부터 만드는 중임 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-18T01:17:17.047747+09:00"
+ "last_pub_at": "2026-10-18T03:04:18.354879+09:00"
 }
