@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 516,
-   "at": "2026-10-14T23:52:23.567960+09:00",
-   "kind": "insight",
-   "fp": "319da83b39d3a48e",
-   "refs": [
-    "news:40624282896779",
-    "url:https://www.coindesk.com/business/2026/10/14/kraken-parent-payward-to-become-first-crypto-firm-to-buy-a-eu-bank-as-it-expands-into-deposits-lending"
-   ],
-   "img": "48ea087091d8ce36853aed939e5c3c49",
-   "head": "Kraken 모회사 Payward, 리투아니아 Saldo Bank 인수 합의 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 517,
    "at": "2026-10-15T01:47:24.166445+09:00",
    "kind": "insight",
@@ -781,7 +766,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 569,
+   "at": "2026-10-18T01:17:17.047747+09:00",
+   "kind": "insight",
+   "fp": "0cfcb36a808e3576",
+   "refs": [
+    "coinnesskr:234543",
+    "url:https://t.me/coinnesskr/234543"
+   ],
+   "img": "a536c1ada37ac5b612db577f7c80fc1c",
+   "head": "ETF 매도세가 있었는데 누가 57만 BTC를 샀을까 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-17T23:27:19.881684+09:00"
+ "last_pub_at": "2026-10-18T01:17:17.047747+09:00"
 }
