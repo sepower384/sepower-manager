@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 510,
-   "at": "2026-10-14T14:27:19.932378+09:00",
-   "kind": "insight",
-   "fp": "3a42d04840507939",
-   "refs": [
-    "coinnesskr:234124",
-    "url:https://t.me/coinnesskr/234124",
-    "coinnesskr:234125",
-    "url:https://t.me/coinnesskr/234125",
-    "news:15834368592771",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/422392"
-   ],
-   "img": "9977b3c252912ce9c8d56e7f6f6f8bd8",
-   "head": "BTC ETF 하루 만에 순유입 복귀 (+1억7562만달러), ETH ETF도 10거래일 연속 유출 끊김 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 511,
    "at": "2026-10-14T16:17:21.197978+09:00",
    "kind": "insight",
@@ -762,7 +743,30 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 562,
+   "at": "2026-10-17T14:47:24.564139+09:00",
+   "kind": "insight",
+   "fp": "bfe7053ea1068740",
+   "refs": [
+    "news:138944249406840",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aZDExVDEwWGVZV3JKemdBM00tLUI0QUloMlpna2lIbFY1NjlJZ2FwMWRQdjhYV2otdURaeVhLRTREcXFsTkh3el9rby0tUHN4MjFpVGtKQkE0bjh1d0RFaQ",
+    "news:202660144063850",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE9JenJHNFhyU3NJZ1psdnJHek1PUmtVYWRaT0VHRzRsYnlDZHpHUVdPZ2RoRmFibWt0Q3dnNFIyWk1CMENDZ3o1eVhqT05QQjNO",
+    "news:248680726997067",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rekZwV0w0YnRBa3ZRajJQenRQbGdmdHUxbk9Cb2xiQUtqMVJ6VHRUcGRMaUQzMF8wS0FWYXVyMVpRZmRNU1RrMVM3TlZraVZjOFFsN3lSVzFXTzlwd2pSag",
+    "news:190550674823485",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6MUV5aVBGS21TUTIzMnI3YmhJYVFhLS0zM0RKczJ0VllZZ2lHZm92T3RTSVpGOVF4YzhSci1uWUdCaWFSY1k3cG9wczRCZjVS",
+    "news:220001659334490",
+    "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTE9sblcxUGprNlZJM3lrR2daaUFiLXFaZDVxcXVkSmNvcHJKdVhMMkdzTnJKODdDNVctc01VNi1ZajZYQU9PUndqNnR0WlZHeElVWXM2QQ"
+   ],
+   "img": "980e794ba47045fe8bbf233784f5a56d",
+   "head": "BTC ETF는 꺾였는데 ETH는 이미 3일째 빠지는 중 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-17T13:12:19.390732+09:00"
+ "last_pub_at": "2026-10-17T14:47:24.564139+09:00"
 }
