@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 512,
-   "at": "2026-10-14T18:12:24.308603+09:00",
-   "kind": "insight",
-   "fp": "1530e0e33110f0fb",
-   "refs": [
-    "coinnesskr:234142",
-    "url:https://t.me/coinnesskr/234142",
-    "news:163558957959153",
-    "url:https://www.digitalasset.works/news/articleView.html"
-   ],
-   "img": "947730ef6929e124df78de63e6c3e42c",
-   "head": "고팍스·프라뱅 해킹, 어디까지 왔나 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 513,
    "at": "2026-10-14T19:52:22.755200+09:00",
    "kind": "insight",
@@ -787,7 +770,28 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 565,
+   "at": "2026-10-17T18:42:18.132800+09:00",
+   "kind": "insight",
+   "fp": "3944bf67cde323ed",
+   "refs": [
+    "news:171606384975662",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/423672",
+    "news:91916048411797",
+    "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxOSnhFOGloOU96YnhQZ1F5eUVLVlZjSWZJdXJkS21KazJYUjNHTzZocjRxS1FGZmFXczJpXzlMTlVXdy1lMnRneVZYdDNWZmI4NHh4VDN2bklqZ19RR05LV2pqSmVpZFFhNm13TUVYUEh3aU1aOVZ1cklreTRvNHpndThCaHR4cTZFc21GQ2RCRXFPZF9ZU1ZldWN0SQ",
+    "news:211001231019752",
+    "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxPQXB0RlFpM0pWM1BTUUx3aU5veG14UVM5SzJhaVlHUHE1V1NaaEQ1Zlk4LS1XUzZXY3gtaGh6M3ljdkhGcUN0UGVTdUVNUG5JZEtJdmF4bWZobUFscHVfRFFaU0F4OW9FRWxqeHNNd2M5a2ZXcFdmQUF2d012VkFLeklDUHp4SUxKTWNfZXhZamtxZG9mWkI3R2N6NjhCeklwRzdNdTNLMEMyeVBt",
+    "news:118523604862735",
+    "url:https://news.google.com/rss/articles/CBMirwFBVV95cUxPSzVoOTUxUFZ1S2hYd3RJSkg0VUlZak1HVnl0ZEtmTFZYWnhKVlU2VGRpWS1sQm5UaTlBVHltb2JWa21KMFgyTTNycGd6amdydXVFRW14UXhkT0xyWGZRVHo1V2pLeldha1RZWW9OcHNYWlVpUWVoSTVvZ3BLeFZWZW5ia3JQc2JZWmZKRWFMN0F1UzFJUGk3eE9YZG9YbnpIYUFFVTdweDQ4U0xyNEhr"
+   ],
+   "img": "b8f853bd77a9162a51c9ad540cab4dac",
+   "head": "ETH ETF 유출이 BTC를 앞질렀음 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-17T17:34:22.077125+09:00"
+ "last_pub_at": "2026-10-17T18:42:18.132800+09:00"
 }
