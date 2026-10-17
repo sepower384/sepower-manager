@@ -1,27 +1,6 @@
 {
  "posts": [
   {
-   "id": 513,
-   "at": "2026-10-14T19:52:22.755200+09:00",
-   "kind": "insight",
-   "fp": "9754f19ae82da2cf",
-   "refs": [
-    "news:61537600888084",
-    "url:https://www.blockmedia.co.kr/archives/1151406",
-    "news:83363043305561",
-    "url:https://www.tokenpost.kr/news/economy/422446",
-    "news:53147372170384",
-    "url:https://www.tokenpost.kr/news/economy/422445",
-    "news:48932271025944",
-    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UM0RvTHNEeTJoYTRGcVhIdm42dm8ySmF3TzEyT0JjamI4djRueUdZbG9NLW9jeFg3WWN3R2hRS0tIRzh6YW9VZ0hDckQ2ZkE3WFVqQ2ZqRjVVN0diNGpxY0g1RFE2UGs"
-   ],
-   "img": "d467c1bb7006837d4c095d8bd9fd6396",
-   "head": "美 10년물 5.9%가 주식→채권 갈아타는 선이라는 월가 분석이 나왔음 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 514,
    "at": "2026-10-14T21:52:22.281614+09:00",
    "kind": "insight",
@@ -791,7 +770,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 566,
+   "at": "2026-10-17T20:42:24.959355+09:00",
+   "kind": "insight",
+   "fp": "d3ba8398ba76eb08",
+   "refs": [
+    "coinnesskr:234528",
+    "url:https://t.me/coinnesskr/234528"
+   ],
+   "img": "08dc7fcedbbc42d2c7a8d6f4bb0ea716",
+   "head": "코인베이스 BTC 담보 USDC 대출 23억 달러 돌파 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-17T18:42:18.132800+09:00"
+ "last_pub_at": "2026-10-17T20:42:24.959355+09:00"
 }
