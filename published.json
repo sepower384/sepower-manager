@@ -766,7 +766,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 563,
+   "at": "2026-10-17T16:04:14.253862+09:00",
+   "kind": "insight",
+   "fp": "2f96c1946433baa0",
+   "refs": [
+    "news:75239296069632",
+    "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTE1LRUdpRFZZQ2V5Ry1HOEc0dDZoOXFjdDI0NzZyakVaWFI0cktkdENPN3AwWHk5SXFocFFnSTV1TzRIX1dFbmZxb3oyREpkOTlfQXplZ2Jocw",
+    "news:82706583192186",
+    "url:https://www.tokenpost.kr/news/tech/423644",
+    "news:64392978535536",
+    "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxNekpZRjVEYnZWajdJb1RXT2NtWnU2OExJUWxNMlJ3WVNUNmlrb0tCeXBPNFpybmNpX1JUYTJVXzY1bXpSZ2NFWjZkWlFMQ3pGRkdBT2xDZFFCZ0dIdWx6M053YTh0VTFwYWVCNEFoVDljd3NIOS1oWm5CLThneTh0SXRfRUI"
+   ],
+   "img": "9b20faf387eda40ce2a5dee5b6e225f6",
+   "head": "2021년 반도체 호황 vs 이번 AI 호황, 14% 빠진 지금 뭐가 다를까 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-17T14:47:24.564139+09:00"
+ "last_pub_at": "2026-10-17T16:04:14.253862+09:00"
 }
