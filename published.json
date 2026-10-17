@@ -1,29 +1,6 @@
 {
  "posts": [
   {
-   "id": 515,
-   "at": "2026-10-14T22:12:24.854514+09:00",
-   "kind": "insight",
-   "fp": "a5106fcb4716ec77",
-   "refs": [
-    "news:162211842989236",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFd0l3b25zWDlPMzhlMEJNaVQ3M3BRdGVqY3RyT2JKWk5WV0txZlpYdDRJUnpGMExjM3pyOWNaaDNmcUlUZEJhUzI5d1VRUFZBNGFvN2w3enlNODhnbGhWVW0wSV9LMjE0",
-    "coinnesskr:234183",
-    "url:https://t.me/coinnesskr/234183",
-    "news:169072928144448",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE5qcWxBTGo5NkV3eVQyTl96VEZia3FSTlBHSlVFRUdreGVrT1RjbmpTVWJmakZDaE52N1JvdEZvNVBVVjFpLWFJeDNHdGx0TjhuWjljR2RIdXI",
-    "news:155572035313054",
-    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE4wbV96RURYZmhDMmYxQ3FZNWZHcXdRclA5SDdCNGZ0WjNyVTkzLUREVTlOUUw1Y3NacmtWbkZoZ3o5c3RwMnBaV0M2c3VTRXNxUmEwb3JhbFFBalFpOV9QOGFuWEtnc2l6czNaZQ",
-    "news:96961503096008",
-    "url:https://news.google.com/rss/articles/CBMiZEFVX3lxTFBROXNPd0sxMDFuMDZWbVhUZzVXdVhwQ1RHWkJkS3YzS05ucUlqcHN1TTdIZ3U5WEcwdWlJVmVpYkp2SUFXa0lISjB3Y2RaVjQtbXFJUE5kcHRBejZTamJRR1NpTkU"
-   ],
-   "img": "4c3b45e5a661dffc6c4f9696d7752c02",
-   "head": "속보) 美 9월 CPI 3.7%, 예상 3.6% 상회 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 516,
    "at": "2026-10-14T23:52:23.567960+09:00",
    "kind": "insight",
@@ -787,7 +764,24 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 568,
+   "at": "2026-10-17T23:27:19.881684+09:00",
+   "kind": "insight",
+   "fp": "ea0e2ef36c6053c2",
+   "refs": [
+    "news:193270114950574",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/423715",
+    "news:197205946047860",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIZXhkeHFlandpX1k1ZHlLLTJ2TzhWTDhaUk8wT2lVV081SDBrNDBkanB3cUZuQlpEa2FkQm5TOTBoWWUxLV9FU3NkQmF1ZDJmVlhsSWt1OTVwSHFNUHB3Wg"
+   ],
+   "img": "5f14eb91c060a62f42ca838ee17e8b11",
+   "head": "헤이즈의 'AI 버블 → 구제 → BTC' 논리, 조건이 붙은 시나리오임 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-17T22:04:20.129208+09:00"
+ "last_pub_at": "2026-10-17T23:27:19.881684+09:00"
 }
