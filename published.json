@@ -1,28 +1,6 @@
 {
  "posts": [
   {
-   "id": 526,
-   "at": "2026-10-15T12:05:06.623442+09:00",
-   "kind": "insight",
-   "fp": "d33068d18c0a351d",
-   "refs": [
-    "news:173075769036057",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE1yWUxOZmRTOXdlakE5YkwxMW1FWmJLWjV4SWFJVlVyc2FUaHJfUTg2bnhhQXVJVDJMVDFSc1RLdHNPNjJ2UEJHc1JIM0lxVUNjU2xSWjVfaW15eTFRSWJjT1N4OVdYTUw0",
-    "news:230486711801614",
-    "url:https://news.google.com/rss/articles/CBMiqwJBVV95cUxOWjZ3eUF4UV83Zl9KTmNheWpZWml6R1FKSWFpdmYxQm80Sm02T013VU5SbG4yRXNfeHBBZ0diaFI0bkpwT1VrM3c0aXlldHFxc01xQTdwWTFEcVk2cG5WMnhDRUNVR3VCRGt5UGctNm1tcmVaaEdUSGg0YkZKdXhSOE5zcnRSWDRwSEp5MGdnUUtYdmJHelJER2xjSi14TVJ0bXI4Z3pWb1N5ODJ3ZUx6OW1hQWhpYlEzSVpWVEg2THdvbnp5cGhFYzBSaTNjdE9yeFZNcU9sbmpMSXg3SzM0bnZwZllkOGVEMkZFcFFSaHhFeXhPN0trQ28yaUprQVhyd1VpUWxTWU1tZ0phYVlzaE5RWXNGNEdndWdFV2VOeGM1OVhLc0dDZkREUQ",
-    "news:257659332532423",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9peS1OX01Rb2c1OHZmV0JOREN4R2hFS0pBSG5OdGFwU2R5blZIS05uT2RZdHBSbUhTYUxOUk5sdlFyOVBMV1lEQ2p4YUI1b0xtUUZVaFB1c1o",
-    "news:136898272144838",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFBhRmkzM0RhUXFuV0V1S3dnQW12Q25aejVVekdTWV91aHBxVEZiOTk1U1ZuaVpSamJTMHBRME1jdmo0NDdmbEk4WmVR"
-   ],
-   "img": "cc5e3a67583afddcf534570b5780a3fd",
-   "head": "속보) CPI 쇼크에 BTC 8만1000달러선·ETH 2,418.40달러(-3.13%) 동반 약세 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 525,
    "at": "2026-10-15T13:12:24.188872+09:00",
    "kind": "insight",
@@ -783,7 +761,26 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 579,
+   "at": "2026-10-18T12:34:18.888665+09:00",
+   "kind": "insight",
+   "fp": "0d303ba0c756a190",
+   "refs": [
+    "news:49957532632287",
+    "url:https://news.google.com/rss/articles/CBMickFVX3lxTE1tQlhzTkVPaEFEcHo2ZlRjQTlwWmVSRzZocFVNUlFDYWhCYmdGX2FMUjRWaXBVUm9mWkI0bnpqSFlRcnhXaTItT204SlRVeEM3bk9QeFNPLWt6bW5vSTB6UWFKRUFnNS1lc2ViX1B6YmszUQ",
+    "news:193633813110748",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE5kSDBTSU10T0xZajIzT1B0ZjhnNnhzWWE4Y3l3YloxT0x2b29uZFhvYXVLRmNxZzZTMXY2U05lT2c5eUlTRFNMVkZn",
+    "news:20724686967195",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE04M0lWMmo2cWNxTlR4M1QwV2dCbWppcVg1d3JkUkpsTkpUSjRSVXI5MkFZNUVJejhhLVJzVnlsaE1MYWpmUTFENnFwNUwyMi1QaGx0LWJHSWg"
+   ],
+   "img": "61e1049cfba0ad6bd1ca7381907aaa39",
+   "head": "다들 ETH 2400달러 돌파, 올해 66% 랠리라고 좋아하는데 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-18T11:04:48.284245+09:00"
+ "last_pub_at": "2026-10-18T12:34:18.888665+09:00"
 }
