@@ -1,28 +1,6 @@
 {
  "posts": [
   {
-   "id": 528,
-   "at": "2026-10-15T16:27:15.934387+09:00",
-   "kind": "insight",
-   "fp": "b6203bf26440a7b8",
-   "refs": [
-    "news:257767536317536",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/422729",
-    "news:1950014832349",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/422730",
-    "news:64650342424448",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/422739",
-    "news:161523202433527",
-    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE5fQmVBNFMwTlh1ZGlEdDgzSi1ibGdvNUZTN3hkekhiVmhGcnBSdEt0TzdtWFFjcXI5UDJtMUswVFpybE5PTHlYLVhyMENfcWR0cm4xTW4tUEc5WDBTMnZ5b18ydE8xc3lWbEhMZTRLRWNfTnM"
-   ],
-   "img": "b6411d165e60106c0ad288793d92a46a",
-   "head": "하루 만에 뒤집힌 ETF, 고래는 반대로 사는 중 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 529,
    "at": "2026-10-15T18:27:21.568714+09:00",
    "kind": "insight",
@@ -781,7 +759,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 582,
+   "at": "2026-10-18T17:34:17.318196+09:00",
+   "kind": "insight",
+   "fp": "d794500ffef6ac30",
+   "refs": [
+    "news:93740112991393",
+    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10elgyaWhfT3I0YzlFVkYtQy1Qa0ZxWDNPRU0yaDdXZkcwUUlwOU5QZHRGM08wdWkzYnFIQUlHSjVZUHdKUVE1ajFkbG9LWHdoYVZ4NDJGcF9YMUNNeXh6N3lWbUp2bDQ",
+    "news:189137546807072",
+    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE1qYzZZYnVLNWZhMmFBZ1BhNHFlTHhPUEhYMXphQ2lKenExNG9KT0Vnb040LUlJN3gzQVJSdWVsTjdVdlMyV1N0aHcxcWkxc3dNTTBlc2V6Qk5Rbm0xM3BxY0c3dTRuOUxTZUs3X3AzdlEwdzg"
+   ],
+   "img": "4ed0242d6a5748fff4f37025bc4d0cb7",
+   "head": "AI 거품 우려에 다들 달러로 갈 줄 알았는데 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-18T15:34:15.891747+09:00"
+ "last_pub_at": "2026-10-18T17:34:17.318196+09:00"
 }
