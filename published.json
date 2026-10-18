@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 525,
-   "at": "2026-10-15T13:12:24.188872+09:00",
-   "kind": "insight",
-   "fp": "b561fb5d0121f590",
-   "refs": [
-    "coinnesskr:234241",
-    "url:https://t.me/coinnesskr/234241"
-   ],
-   "img": "8724fe61152b0c0a59c932f774079746",
-   "head": "비트와이즈가 24조달러 규모 자산관리 플랫폼 20여곳과 ETP 도입을 추진 중이라는데, 이거 진짜 자금 유입일까? ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 527,
    "at": "2026-10-15T15:04:27.317051+09:00",
    "kind": "insight",
@@ -780,7 +765,24 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 580,
+   "at": "2026-10-18T13:47:19.747500+09:00",
+   "kind": "insight",
+   "fp": "3b165aef8a4c4c94",
+   "refs": [
+    "news:19250441881851",
+    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxNaURZekZXU1k5TTFkOFg4M1ItelJWYWtCXy03V19sV29uZ2Z0TTl4c1ZDSVVWMTdQWktQVzZQSUNGazBNYk5feGtfQ2t6SUVTTVVLLVNRV09wS0Q1aVdBRlQteExzZGxvUnZPZnh4aUhPQlNIQnpsZ0ZIam8xYWtVTA",
+    "news:133005456964606",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTFBuRVl3ekdscnV0VV9KeVRqVG5jM3lqYWFTRFFSS0U4N01GbnVobGo5MEs3NGkwU29uUHUxU3ZQaGVoU2RCYTM0XzVKQlROMEQzODR4MmlzZWU"
+   ],
+   "img": "69abf25c95e17a48c8b9e44fe1db15e2",
+   "head": "AI 신용 불안이 BTC까지 오는 경로 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-18T12:34:18.888665+09:00"
+ "last_pub_at": "2026-10-18T13:47:19.747500+09:00"
 }
