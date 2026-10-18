@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 534,
-   "at": "2026-10-16T01:22:27.648186+09:00",
-   "kind": "insight",
-   "fp": "610470b6187e1c8e",
-   "refs": [
-    "news:58517593729632",
-    "url:https://thedefiant.io/converge/regulation/tether-routed-payments-to-hines-s-firm-during-white-house-tenure-wsj-reports",
-    "news:257570192548536",
-    "url:https://news.google.com/rss/articles/CBMimgFBVV95cUxPa194aXNqYlhCeVdweHJXaVlPNWxKZEp1MjZucHNNc1dob3dtTjFHNFZZd29Rc1FVUmdiLXdDRENRM1pTQnU0LVoteFlka0l1MDNrMy1fQ0hDR3gwVXFqcmM3S01ReHJZRUhHNkU5R3AzN1hGX1BrbG1KdHhka2pYTG9uelRvbm1KTHVZbnAwWUhjSDFnbm5IZEJB",
-    "news:275902252595337",
-    "url:https://news.google.com/rss/articles/CBMia0FVX3lxTFB0a0RVUE9kWDJoQVpaaDd2U3dBdzZCOHVTU056REFTeWdTT1NYMHlYcEFVbWJGdWtYUVRCQTJkUmtESVN4bkJ0Z3U3VHR2cllfZ21uREllRjA1bkRzZ0l5VVdRLTNHZzdybGIw"
-   ],
-   "img": "eda8801a62848fb9fafcc80d3aa1bba0",
-   "head": "테더-보 하인스 건 어디까지 확인됐나 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 535,
    "at": "2026-10-16T02:52:26.743990+09:00",
    "kind": "insight",
@@ -748,7 +729,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 588,
+   "at": "2026-10-19T01:27:20.484942+09:00",
+   "kind": "whale",
+   "fp": "93994aba7d03089e",
+   "refs": [
+    "whalealertkorean:173542",
+    "url:https://t.me/whalealertkorean/173542"
+   ],
+   "img": "4429397a924181a2c6e081f7eb543a4e",
+   "head": "🐋 고래 거래소 출금 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-19T00:04:20.347148+09:00"
+ "last_pub_at": "2026-10-19T01:27:20.484942+09:00"
 }
