@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 529,
-   "at": "2026-10-15T18:27:21.568714+09:00",
-   "kind": "insight",
-   "fp": "3be6f311b3eb5514",
-   "refs": [
-    "news:10722429124961",
-    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxNUm9OelBoWXRVbXJuVlNvN0RUT3pOWWlDQmJqZl9EaEZvRWhGMFl2YXVlc2tSUUtLUWFkVmRhUERabUZQWTJQcUlPLTQtekZJeHFQQXFwWmZubTNIbmgwaGJDdTVXUW9JOXR1OVJVVDdMTGFmSzVIenFneU04N2IzQw"
-   ],
-   "img": "bf133124237db37e113df173383d24a0",
-   "head": "코인 과세 '2년 유예' 법안, 여당에서도 나옴 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 531,
    "at": "2026-10-15T19:04:44.826155+09:00",
    "kind": "insight",
@@ -776,7 +761,24 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 583,
+   "at": "2026-10-18T18:42:22.108188+09:00",
+   "kind": "insight",
+   "fp": "118fcd7cd8c51d15",
+   "refs": [
+    "news:12437427786750",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/423916",
+    "news:236638924993068",
+    "url:https://www.blockmedia.co.kr/archives/1152983"
+   ],
+   "img": "36fff25412087a125442adfd0a7550d5",
+   "head": "BTC MVRV 백분위 30 아래, 두 갈래 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-18T17:34:17.318196+09:00"
+ "last_pub_at": "2026-10-18T18:42:22.108188+09:00"
 }
