@@ -1,44 +1,6 @@
 {
  "posts": [
   {
-   "id": 530,
-   "at": "2026-10-15T20:52:23.770183+09:00",
-   "kind": "insight",
-   "fp": "420f4d9357469f02",
-   "refs": [
-    "news:80351315291594",
-    "url:https://www.blockmedia.co.kr/archives/1152046"
-   ],
-   "img": "248a5a2d02879295af9a3b60590e3fdd",
-   "head": "코스피 7.57% 폭락이 BTC까지 온 경로 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 532,
-   "at": "2026-10-15T22:22:24.152146+09:00",
-   "kind": "insight",
-   "fp": "5eac289c94563907",
-   "refs": [
-    "news:202066147496423",
-    "url:https://www.blockmedia.co.kr/archives/1152026",
-    "coinnesskr:234316",
-    "url:https://t.me/coinnesskr/234316",
-    "coinnesskr:234308",
-    "url:https://t.me/coinnesskr/234308",
-    "news:42158431571253",
-    "url:https://www.tokenpost.kr/news/briefing/422879",
-    "coinnesskr:234320",
-    "url:https://t.me/coinnesskr/234320"
-   ],
-   "img": "fa796c45d0a8104a1b9ade92e6e5f9db",
-   "head": "BTC 레버리지가 빠지는 중 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 533,
    "at": "2026-10-15T23:34:24.189128+09:00",
    "kind": "insight",
@@ -775,7 +737,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 586,
+   "at": "2026-10-18T22:34:41.912225+09:00",
+   "kind": "insight",
+   "fp": "723d3058b0ed2036",
+   "refs": [
+    "news:164016757223617",
+    "url:https://www.blockmedia.co.kr/archives/1152992",
+    "news:32881235015648",
+    "url:https://www.blockmedia.co.kr/archives/1152995"
+   ],
+   "img": "0bbdfa2751f978c8531b3e93044ba7d0",
+   "head": "분석가 심리는 불장인데 돈은 아직 안 따라오는 중 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-18T20:42:17.351658+09:00"
+ "last_pub_at": "2026-10-18T22:34:41.912225+09:00"
 }
