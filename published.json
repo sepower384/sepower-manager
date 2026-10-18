@@ -765,7 +765,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 577,
+   "at": "2026-10-18T09:34:49.204017+09:00",
+   "kind": "insight",
+   "fp": "6f82e5033fbe3cda",
+   "refs": [
+    "news:272200239568238",
+    "url:https://news.google.com/rss/articles/CBMiTkFVX3lxTFAtUWI1Qk55SUt6OU05ME1JWElLSl84YmtYQ0VfZFBQQkRJdjloUldiTkstQnBnLUpFS2VaVHdWai1uQXUzOVloQjJZS1lSZw"
+   ],
+   "img": "1517cea9479b5aba2e1cea247dd32984",
+   "head": "속보) 정부, 20일 5대 거래소 불러 과세 간담회 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-18T09:17:20.932204+09:00"
+ "last_pub_at": "2026-10-18T09:34:49.204017+09:00"
 }
