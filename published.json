@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 539,
-   "at": "2026-10-16T05:35:22.447037+09:00",
-   "kind": "insight",
-   "fp": "4c54a769de4250b9",
-   "refs": [
-    "news:83110515327931",
-    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XVWhwWU9UNUFNdzdEYTVTcjRnQXl2UzBKTDBuOS02TldfTDJOdVB3dE1lcTEtbjIxeFhsekV2M1ZCZ0ljUE5kT3M5OVN2akluaXlMZkt2UVFtakRxMGhjaDZMRUZuM0U",
-    "news:57060946650511",
-    "url:https://www.blockmedia.co.kr/archives/1152264",
-    "news:202344368447849",
-    "url:https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wbHR5d3lRMkVCQXlhemNVaWdzSU1xVDBwSmEyZ2syT3ptNTNfb3J4YkNaR0o1Q3N3T0EyeHVzUEphMlVZZlZnN1M1clJYN1A0VTR2Tml3"
-   ],
-   "img": "f21c3bf136f312705555612f5996691f",
-   "head": "속보) 美 반도체지수 0.9% 하락, 마이크론만 2% 반등 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 538,
    "at": "2026-10-16T07:27:19.435546+09:00",
    "kind": "whale",
@@ -754,7 +734,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 591,
+   "at": "2026-10-19T06:17:23.006107+09:00",
+   "kind": "whale",
+   "fp": "ac6d534bb1d76945",
+   "refs": [
+    "whalealertkorean:173545",
+    "url:https://t.me/whalealertkorean/173545"
+   ],
+   "img": "b4f5d2b1f3e9fc871b02b1cb2bb66902",
+   "head": "🐋 고래 대량 이동 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-19T04:34:44.893976+09:00"
+ "last_pub_at": "2026-10-19T06:17:23.006107+09:00"
 }
