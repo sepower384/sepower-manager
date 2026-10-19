@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 557,
-   "at": "2026-10-17T07:12:20.609971+09:00",
-   "kind": "insight",
-   "fp": "fb57a9700bbe65df",
-   "refs": [
-    "coinnesskr:234490",
-    "url:https://t.me/coinnesskr/234490"
-   ],
-   "img": "5bc85489508044d9016625784abd88c9",
-   "head": "MSCI가 스트래티지 빼는 이유, 쟁점 정리 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 558,
    "at": "2026-10-17T08:42:22.968445+09:00",
    "kind": "insight",
@@ -795,7 +779,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 613,
+   "at": "2026-10-20T08:12:20.406153+09:00",
+   "kind": "insight",
+   "fp": "987a0c64ac4e36f5",
+   "refs": [
+    "news:138233216961484",
+    "url:https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087"
+   ],
+   "img": "8bd72b73f45a734a8447e8d5e5c5fb47",
+   "head": "블랙록, IBIT 연계 비트코인 ETF 또 신청 (세 번째) ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-20T06:42:21.197481+09:00"
+ "last_pub_at": "2026-10-20T08:12:20.406153+09:00"
 }
