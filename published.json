@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 548,
-   "at": "2026-10-16T19:22:17.555654+09:00",
-   "kind": "insight",
-   "fp": "cd56b05638570981",
-   "refs": [
-    "news:92128708656839",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/423327",
-    "news:19074154035324",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/423300",
-    "news:2184201454442",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/423335"
-   ],
-   "img": "0d1ab522e15daa3c8d6d548a892502e5",
-   "head": "BTC 단기 보유자 물량이 408만개까지 늘었음 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 549,
    "at": "2026-10-16T21:22:21.726331+09:00",
    "kind": "insight",
@@ -781,7 +762,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 603,
+   "at": "2026-10-19T21:04:24.934296+09:00",
+   "kind": "insight",
+   "fp": "3605d1638d11cc0c",
+   "refs": [
+    "coinnesskr:234641",
+    "url:https://t.me/coinnesskr/234641"
+   ],
+   "img": "b0bf3ba2ac888d7fd07d6bc664525058",
+   "head": "BTC 채굴주, 이제 BTC 안 따라감 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-19T19:12:18.504427+09:00"
+ "last_pub_at": "2026-10-19T21:04:24.934296+09:00"
 }
