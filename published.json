@@ -762,7 +762,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 602,
+   "at": "2026-10-19T19:12:18.504427+09:00",
+   "kind": "insight",
+   "fp": "b21b145110077b50",
+   "refs": [
+    "news:227185831636167",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Ob0c2bFpDai1Tbmd0dERLeDJJbmc5UnVwdjRBdEVTS1MzUUx6czk5MXFBRXA3R2R5d3pBTjVEcEtYUHZ1VzhWdERRNVVyNDNsSDh2YmxaUk9SSlJjS3l2Ug",
+    "news:193671018102742",
+    "url:https://news.google.com/rss/articles/CBMipgFBVV95cUxPZ1RGdHNkOWNHZ3FPZ1h6TEtmTU9sR0YxelYwUG1ybHU4N3dUMjNFcjZ3bXliZHk0MXMtM0hoaGs1MVo2NkhUSE43cHVIVklfYzViWE1UXzZzWFFBX3VmUzdYa0dfN1R0cDlsaUNmV0F0a09UaVFZalMydmZjU19IZ0tWZlR5dHAzbHdObVpYa2lXTXBlb2diMTh5UjdobllqWU5WbzZB",
+    "news:39229640269807",
+    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTFBDOTkyTTBVSm41RVNLaHU4VXFJek1KZEpfc3V2TF9DMW53X1dXZlJuQ2hmY2xnd2w1VWxMQXpJOE1oOHlDUktfUGk1QlE2NW9lbkdhT1RrZVVKd2U5bG9PRFRCRTJoU09wTVVoSGpENFVwMmvSAXdBVV95cUxObU16VWJXVzhORzljOFVmMm0zc3BDVW8wSllSNVdFTUJqU2pqVkVzMWZ0MVpIVzMtM0dyZHpwRndJV3pXTFRzM2JDNGtsWDNrblJ3UVlPakN1aWZKaHpGSmNadzktSFphUlhzU0d3RkxlV2hLUjM1MA"
+   ],
+   "img": "7301532d785933fa94f9fa481f36f10b",
+   "head": "이더리움 ETF 두 주간 8억6200만달러 순유출 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-19T18:04:32.521044+09:00"
+ "last_pub_at": "2026-10-19T19:12:18.504427+09:00"
 }
