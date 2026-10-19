@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 549,
-   "at": "2026-10-16T21:22:21.726331+09:00",
-   "kind": "insight",
-   "fp": "09327af958afe369",
-   "refs": [
-    "coinnesskr:234459",
-    "url:https://t.me/coinnesskr/234459"
-   ],
-   "img": "acfa41ad0daf374de598daaf3ff80172",
-   "head": "다들 금리 인상 = 악재라고 하는데 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 551,
    "at": "2026-10-16T23:34:40.046954+09:00",
    "kind": "insight",
@@ -777,7 +762,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 604,
+   "at": "2026-10-19T22:42:22.450840+09:00",
+   "kind": "insight",
+   "fp": "758c897b5e4cff1c",
+   "refs": [
+    "coinnesskr:234654",
+    "url:https://t.me/coinnesskr/234654",
+    "news:86779520611260",
+    "url:https://cointelegraph.com/news/world-liberty-usd1-stablecoin-market-cap-drops-400-million"
+   ],
+   "img": "8fd63e7e60087a90498a7e9d0bfcf308",
+   "head": "WLFI USD1, 2주 새 4억달러 빠진 이유 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-19T21:04:24.934296+09:00"
+ "last_pub_at": "2026-10-19T22:42:22.450840+09:00"
 }
