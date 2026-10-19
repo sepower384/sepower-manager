@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 546,
-   "at": "2026-10-16T16:12:18.207180+09:00",
-   "kind": "insight",
-   "fp": "3e822d3b4ee877e8",
-   "refs": [
-    "news:174014280724799",
-    "url:https://news.google.com/rss/articles/CBMickFVX3lxTE5BOS10T3Y4WldsVENFd05NMUNhT21wZEZueXdSYXYzX3duVVZIR1IxaUZBeE8waVNkZENuYVdwVkJLQmRQUHNkOVE2eFBEWW5sVFBDdGhsV19sMGhFM21BYjh2SEladmd3aXczVTFtaFpyZw",
-    "news:184043515244742",
-    "url:https://news.google.com/rss/articles/CBMiswFBVV95cUxQcEFTd3pFQ0lNc3E2UGYtd1IzNmtNNGJOa0FfNGtYWVMyX1Q2TUZKRU81NS14b2FIVHBkWlB0clZNMTVoS3VNMkpEQ0JHQWptMGNyLWdhZ2ZTZkZsbDlGRXdwRTJHYXNIaVJjTzVaU0g0WGlUUmJLTDVUeXVzOWNaVnNTbTkxeWkwdmRoQVZPTWJ4TXh4VC1wMW1fWTZQQ2tiR3VpcE5yaVhXRk01eWtEcFE3RdIBuAFBVV95cUxOb3E3eF9SRzUwUzBGTUpwa3JBb2FaX0I1blFxZkhrbFpuOUEzVndENkdxcWhETG5NT3VaQVgwVXNaRXRhWk5NS1FPNU9zSTBLb21ZRFhoNUxJS2h0RFUwR2o0TTBwa3Mta3VPak1TSWxkX3c2aW1mVmYzN1JXNGNvR0Jzb1BFUkRHbTVJR3d3OUtTRmdTeTdQLWdHdmxkcXJBSWhkN3RhUDN6XzRtVUtlelhVS0xkT1R2"
-   ],
-   "img": "41ff9ca6e71e05c025666fb61d29c57d",
-   "head": "⚡️ 워시 연준 의장 발언 요약 (IMF·WB 총회, 방콕) ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 547,
    "at": "2026-10-16T18:04:18.513007+09:00",
    "kind": "insight",
@@ -762,7 +745,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 600,
+   "at": "2026-10-19T16:42:21.537849+09:00",
+   "kind": "insight",
+   "fp": "71b20ee462552390",
+   "refs": [
+    "coinnesskr:234609",
+    "url:https://t.me/coinnesskr/234609"
+   ],
+   "img": "86f44cc9c63e3710adaf5eec082c10d7",
+   "head": "금감원장 \"가상자산 감독체계 새로 짠다\" 두 갈래 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-19T15:12:17.339562+09:00"
+ "last_pub_at": "2026-10-19T16:42:21.537849+09:00"
 }
