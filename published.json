@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 547,
-   "at": "2026-10-16T18:04:18.513007+09:00",
-   "kind": "insight",
-   "fp": "0d3f0b4c7192266e",
-   "refs": [
-    "news:172763404953293",
-    "url:https://www.tokenpost.kr/news/insights/423289"
-   ],
-   "img": "fadc9fe099dd33aa8a9602982f0c5d7c",
-   "head": "국내 은행 첫 BTC 담보 원화대출(10/12)이 나왔는데, 독립 상품인지 기존 신용대출의 보완담보인지부터 설명이 엇갈림. 금융당국 검토도 진행 중이고 LTV·마진콜 기준은 비공개임 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 548,
    "at": "2026-10-16T19:22:17.555654+09:00",
    "kind": "insight",
@@ -760,7 +744,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 601,
+   "at": "2026-10-19T18:04:32.521044+09:00",
+   "kind": "insight",
+   "fp": "3b9812313d127758",
+   "refs": [
+    "coinnesskr:234619",
+    "url:https://t.me/coinnesskr/234619",
+    "news:30482507018640",
+    "url:https://thedefiant.io/converge/tradfi-and-fintech/jpmorgan-extends-jpm-coin-to-ethereum-for-institutional-clients"
+   ],
+   "img": "1006f872ad826575faf1757f172a435e",
+   "head": "JP모건, 달러 예금 토큰 JPM 이더리움으로 확장 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-19T16:42:21.537849+09:00"
+ "last_pub_at": "2026-10-19T18:04:32.521044+09:00"
 }
