@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 542,
-   "at": "2026-10-16T11:04:39.852149+09:00",
-   "kind": "liquidation",
-   "fp": "87cdac639ac3e1b1",
-   "refs": [
-    "whaleliquidation:3106149",
-    "url:https://t.me/whaleliquidation/3106149"
-   ],
-   "img": "0daf2f247ab7a127881f7779844b95f5",
-   "head": "💥 대규모 롱 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 543,
    "at": "2026-10-16T12:27:27.714942+09:00",
    "kind": "insight",
@@ -760,7 +745,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 597,
+   "at": "2026-10-19T12:04:45.880798+09:00",
+   "kind": "insight",
+   "fp": "6b1fa129c651ec2c",
+   "refs": [
+    "news:178227977110376",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/424146",
+    "coinnesskr:234582",
+    "url:https://t.me/coinnesskr/234582"
+   ],
+   "img": "e4b71b100251c52c175cb76e54276461",
+   "head": "세일러가 말하는 BTC 담보 스테이블코인, 연결고리로 보면 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-19T10:12:19.108200+09:00"
+ "last_pub_at": "2026-10-19T12:04:45.880798+09:00"
 }
