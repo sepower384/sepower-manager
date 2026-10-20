@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 573,
-   "at": "2026-10-18T06:17:20.592020+09:00",
-   "kind": "whale",
-   "fp": "22c598c6b76e977f",
-   "refs": [
-    "whalealertkorean:173496",
-    "url:https://t.me/whalealertkorean/173496"
-   ],
-   "img": "dad70ae92f0efc1441d6f905c54881f0",
-   "head": "🐋 고래 대량 이동 포착 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 574,
    "at": "2026-10-18T07:27:16.640580+09:00",
    "kind": "insight",
@@ -782,7 +767,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 631,
+   "at": "2026-10-21T07:22:20.861653+09:00",
+   "kind": "insight",
+   "fp": "3eb6bdd8dd91b7c5",
+   "refs": [
+    "coinnesskr:234850",
+    "url:https://t.me/coinnesskr/234850",
+    "news:211983013895521",
+    "url:https://cointelegraph.com/news/bitwise-hyperliquid-seek-sec-rule-changes-for-token-trading-airdrops",
+    "news:44757344789614",
+    "url:https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNXVMOG4wSjhOT3JuMG9fZGZnaTdQX2I3NGJKQTF1Rk5lNUlEZk1xSXFnaFIzdkRWNkJ3UFVJWkpxX1kybGRCMEdvQzVqVlFIWFAtN3hpd2ozeGFSemZvdEpWd3Uxbjg1UmlFemxFcC01YXlNdnVnTjI3aGJYc0t2Sjd1Z0QxWHpwbHhj"
+   ],
+   "img": "1e6238aeb3ca87063da02fd3fe35e879",
+   "head": "SEC·CFTC 크립토 규제안 의견수렴, 같은 날 겹침 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-21T05:35:19.222846+09:00"
+ "last_pub_at": "2026-10-21T07:22:20.861653+09:00"
 }
