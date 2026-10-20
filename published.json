@@ -1,40 +1,6 @@
 {
  "posts": [
   {
-   "id": 570,
-   "at": "2026-10-18T03:04:18.354879+09:00",
-   "kind": "insight",
-   "fp": "e2e50342ef00066c",
-   "refs": [
-    "news:257480438404383",
-    "url:https://decrypt.co/381236/crypto-firms-launch-quantum-alliance-as-6-million-bitcoin-sit-exposed",
-    "news:156010731218967",
-    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE9zdzh4eUhiTWJNTnF0cVhDNHdaLXgtRTQtRGtaSzRBbVExQm0zeEJFaW1WVy1XUnRtWGpSOXNkV1k1VEtMN19TVWVKVWlnWVJUN29TX0QtTWx5T2dlNEZmeTBIZWF2RC1GcmdyaQ",
-    "news:260689957071228",
-    "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kRWFhM3pYcVpsWkNwZkV6N3RVSTcxdVZ1LW9vdFB5Y0JBdWREX2NpY2FMbkFZak9SM1htdXNNZUN0R3VlQ2xqa0NxeC1MR1RWMDdhUU9RVlZfZUE"
-   ],
-   "img": "1f6e6a467a20dc5bff4cef2a0edf9305",
-   "head": "양자컴퓨터 위협, 이번엔 표준부터 만드는 중임 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 571,
-   "at": "2026-10-18T04:42:21.820289+09:00",
-   "kind": "whale",
-   "fp": "8d183d59d5faf841",
-   "refs": [
-    "whalealertkorean:173492",
-    "url:https://t.me/whalealertkorean/173492"
-   ],
-   "img": "cac6ffd1a0b89e370fa4c75c4ec8bfcc",
-   "head": "🐋 고래 대량 이동 포착 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 573,
    "at": "2026-10-18T06:17:20.592020+09:00",
    "kind": "whale",
@@ -781,7 +747,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 628,
+   "at": "2026-10-21T04:47:19.508663+09:00",
+   "kind": "whale",
+   "fp": "4cb6cbd2e94f2778",
+   "refs": [
+    "whalealertkorean:173706",
+    "url:https://t.me/whalealertkorean/173706"
+   ],
+   "img": "9a41ea9f8c7a3face944a150664922c9",
+   "head": "🐋 고래 대량 이동 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-21T02:57:20.896601+09:00"
+ "last_pub_at": "2026-10-21T04:47:19.508663+09:00"
 }
