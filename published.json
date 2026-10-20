@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 567,
-   "at": "2026-10-17T22:04:20.129208+09:00",
-   "kind": "insight",
-   "fp": "fef2eaf8d4a18edc",
-   "refs": [
-    "news:209745235151192",
-    "url:https://cryptoslate.com/the-hidden-trade-behind-strives-16-7-bitcoin-income-offer/",
-    "news:148446183293351",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/423690"
-   ],
-   "img": "890ac9c0c3a60ea5b13a92bde1e88b17",
-   "head": "스트라이브 SATS 우선주, 숨은 포인트 3가지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 568,
    "at": "2026-10-17T23:27:19.881684+09:00",
    "kind": "insight",
@@ -765,7 +748,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 623,
+   "at": "2026-10-20T22:42:26.861286+09:00",
+   "kind": "insight",
+   "fp": "277f932b2e492446",
+   "refs": [
+    "news:39179623475557",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/424912"
+   ],
+   "img": "f14989bc80959aab5ed008473d597580",
+   "head": "BNY와 시타델이 토큰화한 2년 만기 美 국채로 레포 거래를 마쳤음. 주요 트라이파티 레포 플랫폼에서 토큰화 자산이 쓰인 첫 사례라고 함. ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-20T21:22:25.848982+09:00"
+ "last_pub_at": "2026-10-20T22:42:26.861286+09:00"
 }
