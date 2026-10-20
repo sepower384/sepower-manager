@@ -1,46 +1,6 @@
 {
  "posts": [
   {
-   "id": 561,
-   "at": "2026-10-17T13:12:19.390732+09:00",
-   "kind": "insight",
-   "fp": "32a7d09f670d9d41",
-   "refs": [
-    "news:259225269630729",
-    "url:https://www.tokenpost.kr/news/briefing/423617",
-    "news:58663278702628",
-    "url:https://news.google.com/rss/articles/CBMib0FVX3lxTFBaU1UxejkwTVlfTVI0Tk1JWDVxN3Q3b185NWFVMXRBMTRjRTFuWVZMajJEUWYxcU8tc2h0RU94N0V2NW1FaGNBQkUxMkNSa3F1Vk9wWUdKektUVXFhYjNFTGJuN0hEbXozSFY3cUlPb9IBb0FVX3lxTFBaU1UxejkwTVlfTVI0Tk1JWDVxN3Q3b185NWFVMXRBMTRjRTFuWVZMajJEUWYxcU8tc2h0RU94N0V2NW1FaGNBQkUxMkNSa3F1Vk9wWUdKektUVXFhYjNFTGJuN0hEbXozSFY3cUlPbw"
-   ],
-   "img": "90eff90561b5cd699ffe50e5e416b96f",
-   "head": "나스닥 한 주 -4.5%, BTC도 8만1000달러 아래. 이번엔 같이 가는 걸까 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 562,
-   "at": "2026-10-17T14:47:24.564139+09:00",
-   "kind": "insight",
-   "fp": "bfe7053ea1068740",
-   "refs": [
-    "news:138944249406840",
-    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE5aZDExVDEwWGVZV3JKemdBM00tLUI0QUloMlpna2lIbFY1NjlJZ2FwMWRQdjhYV2otdURaeVhLRTREcXFsTkh3el9rby0tUHN4MjFpVGtKQkE0bjh1d0RFaQ",
-    "news:202660144063850",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE9JenJHNFhyU3NJZ1psdnJHek1PUmtVYWRaT0VHRzRsYnlDZHpHUVdPZ2RoRmFibWt0Q3dnNFIyWk1CMENDZ3o1eVhqT05QQjNO",
-    "news:248680726997067",
-    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rekZwV0w0YnRBa3ZRajJQenRQbGdmdHUxbk9Cb2xiQUtqMVJ6VHRUcGRMaUQzMF8wS0FWYXVyMVpRZmRNU1RrMVM3TlZraVZjOFFsN3lSVzFXTzlwd2pSag",
-    "news:190550674823485",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6MUV5aVBGS21TUTIzMnI3YmhJYVFhLS0zM0RKczJ0VllZZ2lHZm92T3RTSVpGOVF4YzhSci1uWUdCaWFSY1k3cG9wczRCZjVS",
-    "news:220001659334490",
-    "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTE9sblcxUGprNlZJM3lrR2daaUFiLXFaZDVxcXVkSmNvcHJKdVhMMkdzTnJKODdDNVctc01VNi1ZajZYQU9PUndqNnR0WlZHeElVWXM2QQ"
-   ],
-   "img": "980e794ba47045fe8bbf233784f5a56d",
-   "head": "BTC ETF는 꺾였는데 ETH는 이미 3일째 빠지는 중 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 563,
    "at": "2026-10-17T16:04:14.253862+09:00",
    "kind": "insight",
@@ -797,7 +757,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 617,
+   "at": "2026-10-20T14:52:21.013161+09:00",
+   "kind": "liquidation",
+   "fp": "a0214938d72f259e",
+   "refs": [
+    "whaleliquidation:3118084",
+    "url:https://t.me/whaleliquidation/3118084"
+   ],
+   "img": "76a098da682dab1d9745cad383a0ee1d",
+   "head": "💥 대규모 숏 청산 감지 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-20T12:57:16.921318+09:00"
+ "last_pub_at": "2026-10-20T14:52:21.013161+09:00"
 }
