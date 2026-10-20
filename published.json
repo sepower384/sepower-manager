@@ -766,7 +766,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 626,
+   "at": "2026-10-21T01:04:53.145179+09:00",
+   "kind": "insight",
+   "fp": "5527dc8ed16cabb1",
+   "refs": [
+    "news:261272987647030",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GeDlMUXJONXhDQnM4ajExaFVlN1VyWWJvZ3pPR2NKWk5YVW9ISWp0VDROZENKbDBDUEdRNHNDSGZnajFqNkFwZ3ozaTl4ck5EbnJ0ZzJfbnY5R2xyVnBoNHN0U1FsNmN4"
+   ],
+   "img": "632e06b1abc7f5b1b67b39810e94c2bd",
+   "head": "속보) 美 기술주 동반 하락, 메타 3%·스페이스X 2%대 약세. 엔비디아·마이크론도 밀리는 중 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-21T00:34:47.909456+09:00"
+ "last_pub_at": "2026-10-21T01:04:53.145179+09:00"
 }
