@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 563,
-   "at": "2026-10-17T16:04:14.253862+09:00",
-   "kind": "insight",
-   "fp": "2f96c1946433baa0",
-   "refs": [
-    "news:75239296069632",
-    "url:https://news.google.com/rss/articles/CBMiV0FVX3lxTE1LRUdpRFZZQ2V5Ry1HOEc0dDZoOXFjdDI0NzZyakVaWFI0cktkdENPN3AwWHk5SXFocFFnSTV1TzRIX1dFbmZxb3oyREpkOTlfQXplZ2Jocw",
-    "news:82706583192186",
-    "url:https://www.tokenpost.kr/news/tech/423644",
-    "news:64392978535536",
-    "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxNekpZRjVEYnZWajdJb1RXT2NtWnU2OExJUWxNMlJ3WVNUNmlrb0tCeXBPNFpybmNpX1JUYTJVXzY1bXpSZ2NFWjZkWlFMQ3pGRkdBT2xDZFFCZ0dIdWx6M053YTh0VTFwYWVCNEFoVDljd3NIOS1oWm5CLThneTh0SXRfRUI"
-   ],
-   "img": "9b20faf387eda40ce2a5dee5b6e225f6",
-   "head": "2021년 반도체 호황 vs 이번 AI 호황, 14% 빠진 지금 뭐가 다를까 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 564,
    "at": "2026-10-17T17:34:22.077125+09:00",
    "kind": "insight",
@@ -772,7 +752,26 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 619,
+   "at": "2026-10-20T16:34:58.913468+09:00",
+   "kind": "insight",
+   "fp": "ecf348283da3db44",
+   "refs": [
+    "news:75402559803153",
+    "url:https://www.theblock.co/news/markets/2026-10-20-blackrock-ibit-bitcoin-etf-665-million-421102",
+    "news:241842391409364",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/424712",
+    "news:88177808728296",
+    "url:https://cointelegraph.com/markets/bitcoin-etfs-527m-inflows-biggest-since-september"
+   ],
+   "img": "803747accc956100a546acf13956fa3e",
+   "head": "이번 주 IBIT 자금, 두 갈래로 읽힘 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-20T14:52:21.013161+09:00"
+ "last_pub_at": "2026-10-20T16:34:58.913468+09:00"
 }
