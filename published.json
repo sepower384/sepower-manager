@@ -1,27 +1,6 @@
 {
  "posts": [
   {
-   "id": 565,
-   "at": "2026-10-17T18:42:18.132800+09:00",
-   "kind": "insight",
-   "fp": "3944bf67cde323ed",
-   "refs": [
-    "news:171606384975662",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/423672",
-    "news:91916048411797",
-    "url:https://news.google.com/rss/articles/CBMimwFBVV95cUxOSnhFOGloOU96YnhQZ1F5eUVLVlZjSWZJdXJkS21KazJYUjNHTzZocjRxS1FGZmFXczJpXzlMTlVXdy1lMnRneVZYdDNWZmI4NHh4VDN2bklqZ19RR05LV2pqSmVpZFFhNm13TUVYUEh3aU1aOVZ1cklreTRvNHpndThCaHR4cTZFc21GQ2RCRXFPZF9ZU1ZldWN0SQ",
-    "news:211001231019752",
-    "url:https://news.google.com/rss/articles/CBMirAFBVV95cUxPQXB0RlFpM0pWM1BTUUx3aU5veG14UVM5SzJhaVlHUHE1V1NaaEQ1Zlk4LS1XUzZXY3gtaGh6M3ljdkhGcUN0UGVTdUVNUG5JZEtJdmF4bWZobUFscHVfRFFaU0F4OW9FRWxqeHNNd2M5a2ZXcFdmQUF2d012VkFLeklDUHp4SUxKTWNfZXhZamtxZG9mWkI3R2N6NjhCeklwRzdNdTNLMEMyeVBt",
-    "news:118523604862735",
-    "url:https://news.google.com/rss/articles/CBMirwFBVV95cUxPSzVoOTUxUFZ1S2hYd3RJSkg0VUlZak1HVnl0ZEtmTFZYWnhKVlU2VGRpWS1sQm5UaTlBVHltb2JWa21KMFgyTTNycGd6amdydXVFRW14UXhkT0xyWGZRVHo1V2pLeldha1RZWW9OcHNYWlVpUWVoSTVvZ3BLeFZWZW5ia3JQc2JZWmZKRWFMN0F1UzFJUGk3eE9YZG9YbnpIYUFFVTdweDQ4U0xyNEhr"
-   ],
-   "img": "b8f853bd77a9162a51c9ad540cab4dac",
-   "head": "ETH ETF 유출이 BTC를 앞질렀음 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 566,
    "at": "2026-10-17T20:42:24.959355+09:00",
    "kind": "insight",
@@ -770,7 +749,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 621,
+   "at": "2026-10-20T19:34:30.711687+09:00",
+   "kind": "insight",
+   "fp": "bbb8ea08d0128b22",
+   "refs": [
+    "coinnesskr:234764",
+    "url:https://t.me/coinnesskr/234764"
+   ],
+   "img": "3b59784b34be574fe86b8fd7f9a524e1",
+   "head": "다들 \"스트래티지가 BTC를 계속 사준다\"고 하는데 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-20T18:27:27.368893+09:00"
+ "last_pub_at": "2026-10-20T19:34:30.711687+09:00"
 }
