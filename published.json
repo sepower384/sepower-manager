@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 568,
-   "at": "2026-10-17T23:27:19.881684+09:00",
-   "kind": "insight",
-   "fp": "ea0e2ef36c6053c2",
-   "refs": [
-    "news:193270114950574",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/423715",
-    "news:197205946047860",
-    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIZXhkeHFlandpX1k1ZHlLLTJ2TzhWTDhaUk8wT2lVV081SDBrNDBkanB3cUZuQlpEa2FkQm5TOTBoWWUxLV9FU3NkQmF1ZDJmVlhsSWt1OTVwSHFNUHB3Wg"
-   ],
-   "img": "5f14eb91c060a62f42ca838ee17e8b11",
-   "head": "헤이즈의 'AI 버블 → 구제 → BTC' 논리, 조건이 붙은 시나리오임 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 569,
    "at": "2026-10-18T01:17:17.047747+09:00",
    "kind": "insight",
@@ -764,7 +747,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 624,
+   "at": "2026-10-21T00:34:47.909456+09:00",
+   "kind": "insight",
+   "fp": "4996af47bca93a4f",
+   "refs": [
+    "news:24820073034682",
+    "url:https://www.blockmedia.co.kr/archives/1153941",
+    "news:209331483973050",
+    "url:https://news.google.com/rss/articles/CBMingFBVV95cUxOOFdaOWdiY3NOME1CS05DVWJrVUUtNFVXQjJsSFFhNms3WU5wUTFpQVMyZ3F5aHg3RW84cFFzYW13VlFKMXJ4MVVHMlVCb0w2Ni0wWEhsWGFDWmhNT2RDVkZ0WFViejVia081bFBfYjBBQldfTVlCNnhZaVpQcy04R3FRTFoxMk9KZzR2X0xaeHhTc2EzTEFJWHltcVpld9IBsgFBVV95cUxQUzR2YnJ4ZlkzRVR6U0JzZ0RGUjlBYV9uWGxOLV8tbGRJRno2dG13TXA2bnZCRGk0WkpOcEZwdFhGeGlQcjM2TFR1ektzamZwSFptc1VMUU9CQWFuMzd6ZERHMGFiSEhBRTVubUZXVTFHeV9Ub1FXcVkyNGRQd2tvV29SNmFhMG1lU01ULXFBQ0RvRHV2YVR6c0JIdkNSVmRGcHVhVXV5a01FckRLTnRjaUt3",
+    "news:162179955538051",
+    "url:https://news.google.com/rss/articles/CBMiXEFVX3lxTFBfYmFvRVo0dmYzam9udU9lUkk1R0pYVE9kS0hqaHRVTnlHSTZJc3dENml4N1NGMlRVODJHRGdFNTg0ZjV0aDJvajFkczNnc1V6VkNuY2ZCeEhWb0R6"
+   ],
+   "img": "b34b70cfbd0dc3335c27be054cab9e25",
+   "head": "이번 주 기술주 투매, BTC는 선방했는데 진짜 디커플링일까 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-20T22:42:26.861286+09:00"
+ "last_pub_at": "2026-10-21T00:34:47.909456+09:00"
 }
