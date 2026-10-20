@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 560,
-   "at": "2026-10-17T11:47:18.133708+09:00",
-   "kind": "insight",
-   "fp": "0543c008c867bdd4",
-   "refs": [
-    "news:188361459091518",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/423597"
-   ],
-   "img": "c033a47cf995e26902bcb6014500bb62",
-   "head": "BTC가 금리 뉴스에 같이 흔들리는 이유 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 561,
    "at": "2026-10-17T13:12:19.390732+09:00",
    "kind": "insight",
@@ -795,7 +779,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 616,
+   "at": "2026-10-20T12:57:16.921318+09:00",
+   "kind": "insight",
+   "fp": "19d9a243c79f6938",
+   "refs": [
+    "coinnesskr:234726",
+    "url:https://t.me/coinnesskr/234726",
+    "news:273882885870943",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tZDRXRFlROU44ZmZPQmp0WWdHOHktdWdfS3JDWWJyYklGQURTb1hMMWw0UWdtXzlCTzR3RWdrWGpva1BBRjRtMEFFQnczRnItNlUxekpES2NybEdKMVQtbdIBZkFVX3lxTE5NSGJpZENDMkdWd3RwbVFNTFVqeC1NRTZUMjdHTlMtVG05em80b3BpMnhwWjY3Ylp4c0tBdUI5and5MkJCdk5XNExRRm5uRElOVTJtdlhEMlJVVy1zb3hQeFZndmJQUQ"
+   ],
+   "img": "ad2794a23e02124153c9fcd64bd343e3",
+   "head": "스트래티지 3분기 BTC 순증이 1,666개였음. 2분기 8만3,901개에서 급감한 숫자임. ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-20T11:27:19.865538+09:00"
+ "last_pub_at": "2026-10-20T12:57:16.921318+09:00"
 }
