@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 580,
-   "at": "2026-10-18T13:47:19.747500+09:00",
-   "kind": "insight",
-   "fp": "3b165aef8a4c4c94",
-   "refs": [
-    "news:19250441881851",
-    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxNaURZekZXU1k5TTFkOFg4M1ItelJWYWtCXy03V19sV29uZ2Z0TTl4c1ZDSVVWMTdQWktQVzZQSUNGazBNYk5feGtfQ2t6SUVTTVVLLVNRV09wS0Q1aVdBRlQteExzZGxvUnZPZnh4aUhPQlNIQnpsZ0ZIam8xYWtVTA",
-    "news:133005456964606",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTFBuRVl3ekdscnV0VV9KeVRqVG5jM3lqYWFTRFFSS0U4N01GbnVobGo5MEs3NGkwU29uUHUxU3ZQaGVoU2RCYTM0XzVKQlROMEQzODR4MmlzZWU"
-   ],
-   "img": "69abf25c95e17a48c8b9e44fe1db15e2",
-   "head": "AI 신용 불안이 BTC까지 오는 경로 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 581,
    "at": "2026-10-18T15:34:15.891747+09:00",
    "kind": "insight",
@@ -777,7 +760,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 638,
+   "at": "2026-10-21T15:04:25.820473+09:00",
+   "kind": "insight",
+   "fp": "f86c5a8a4208b77f",
+   "refs": [
+    "coinnesskr:234898",
+    "url:https://t.me/coinnesskr/234898"
+   ],
+   "img": "1506adbc9287847b032fedd9f115666e",
+   "head": "가상자산 과세 여야 합의, 어디까지 왔나 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-21T13:42:17.954522+09:00"
+ "last_pub_at": "2026-10-21T15:04:25.820473+09:00"
 }
