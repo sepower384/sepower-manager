@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 578,
-   "at": "2026-10-18T11:04:48.284245+09:00",
-   "kind": "insight",
-   "fp": "efa7619c6f6d7b75",
-   "refs": [
-    "news:257443617810377",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/423850",
-    "news:41464388499991",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/423856"
-   ],
-   "img": "fc820e370fec0af988142751fae8ac11",
-   "head": "8만~8만1천달러 구간에 방어선 몰렸음 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 579,
    "at": "2026-10-18T12:34:18.888665+09:00",
    "kind": "insight",
@@ -777,7 +760,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 636,
+   "at": "2026-10-21T11:52:19.751042+09:00",
+   "kind": "insight",
+   "fp": "db2e3de0f3985256",
+   "refs": [
+    "news:161083559688760",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/425309",
+    "coinnesskr:234873",
+    "url:https://t.me/coinnesskr/234873",
+    "news:243766866215729",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oT2w5SS1hQ05GQVY5SUl0OWhfNnV4X1NhT19ROHJYY3V5akxYRzBRbVdEWWUzNkxiWEswa2lQTnVsUjdvZU5kZU1EYm1NSGVQaEpOM0cwSkHSAV5BVV95cUxPLUlWTFF0R3hUNGFsT2JrZlh5ZFhqaEJldzJ2WXp3X1dMRFRGYTdrNHNJRWJCQ1VmSjZLei14NmtWUkxkQTJjVmljcC1MTzZlazBwV3h0aUY3V0R3Z2N3"
+   ],
+   "img": "eca951065bc444f401b261229740d347",
+   "head": "9년 들고 있던 ETH 고래가 마지막 1000개를 크라켄에 넣었다는 추정이 나옴 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-21T10:04:40.959088+09:00"
+ "last_pub_at": "2026-10-21T11:52:19.751042+09:00"
 }
