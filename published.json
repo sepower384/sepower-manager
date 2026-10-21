@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 587,
-   "at": "2026-10-19T00:04:20.347148+09:00",
-   "kind": "insight",
-   "fp": "5e9225717e839fd9",
-   "refs": [
-    "news:203053353041520",
-    "url:https://decrypt.co/381253/banks-hold-a-lever-over-stablecoin-adoption-bis-economists-say"
-   ],
-   "img": "9f584b8721fb34d37ed4bf8f3e7d8bc8",
-   "head": "스테이블코인 성장, 은행 예금금리가 쥐고 있었음 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 588,
    "at": "2026-10-19T01:27:20.484942+09:00",
    "kind": "whale",
@@ -777,7 +762,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 644,
+   "at": "2026-10-22T00:42:23.831504+09:00",
+   "kind": "insight",
+   "fp": "fc73c3d0579a52ac",
+   "refs": [
+    "news:130960794219777",
+    "url:https://www.blockmedia.co.kr/archives/1154516"
+   ],
+   "img": "4b3e5e18d9b9534ab4eb3938e068114f",
+   "head": "BTC 변동성이 올해 최저권까지 눌렸음. ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-21T22:52:23.055440+09:00"
+ "last_pub_at": "2026-10-22T00:42:23.831504+09:00"
 }
