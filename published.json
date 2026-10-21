@@ -1,28 +1,6 @@
 {
  "posts": [
   {
-   "id": 589,
-   "at": "2026-10-19T02:52:19.513514+09:00",
-   "kind": "insight",
-   "fp": "91d98bc21290eda6",
-   "refs": [
-    "news:193540981046250",
-    "url:https://www.tokenpost.kr/news/briefing/423981",
-    "news:12543198386726",
-    "url:https://decrypt.co/381246/bitcoin-etfs-shed-nearly-1-billion-two-weeks-uptober-red",
-    "news:55200614155057",
-    "url:https://news.google.com/rss/articles/CBMid0FVX3lxTFBFQnBtSGNlbHVpeVlRdm8xdmRIU19YbzZzLXlHMVR5M3BXRkJfQ3plZUpkZE5UTmF2bXJtVHpxRHZWSE9oM0x1SXVzWU1DN3gyakU3eGZHZmVuWTdIQVBtQUN2VlhMaDVNSlJoMHFtajFLa0thMjlv",
-    "news:11568905197165",
-    "url:https://news.google.com/rss/articles/CBMizgFBVV95cUxNTGVlMTloUDdPRXowSks0d0kzUE0wTGxwSGJaOEhLUjc0UU1xZ3lTT0g4cnVTeGJiNkZ2ODRjdE90V295ZVFuYXBKaHdPSmk0UGIwalo4dHVlUG5lUGhZUUNiV0RuVXY2dzBXNXNISEl5U1J4NzBlaElUajQ1TGpUc250TVJQbmozdVo0QWE1ZEZnaldJb2ExRm43T0lRemlHX1BvdDNmVmxpT3VDNWlZenZsbzFmZ3MzYlcyWlBwZWtFY3Y5cnhIZDVhZnlSZw"
-   ],
-   "img": "adac17794fdde2e686c8df07803d15a1",
-   "head": "2주 전 vs 이번 주, BTC ETF 달라진 점 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 592,
    "at": "2026-10-19T04:34:44.893976+09:00",
    "kind": "insight",
@@ -778,7 +756,24 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 646,
+   "at": "2026-10-22T03:42:18.659421+09:00",
+   "kind": "insight",
+   "fp": "47f1b8e4921202cf",
+   "refs": [
+    "news:94532221173833",
+    "url:https://decrypt.co/381538/musk-spacex-tesla-merger-bitcoin-treasury-behemoth",
+    "coinnesskr:234982",
+    "url:https://t.me/coinnesskr/234982"
+   ],
+   "img": "93a03e1abe2c485ee0733c79c63a5872",
+   "head": "속보) 테슬라·스페이스X 합병 검토 위원회 구성, 합치면 BTC 30,221개(약 25억 달러) ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-22T01:47:17.229295+09:00"
+ "last_pub_at": "2026-10-22T03:42:18.659421+09:00"
 }
