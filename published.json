@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 583,
-   "at": "2026-10-18T18:42:22.108188+09:00",
-   "kind": "insight",
-   "fp": "118fcd7cd8c51d15",
-   "refs": [
-    "news:12437427786750",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/423916",
-    "news:236638924993068",
-    "url:https://www.blockmedia.co.kr/archives/1152983"
-   ],
-   "img": "36fff25412087a125442adfd0a7550d5",
-   "head": "BTC MVRV 백분위 30 아래, 두 갈래 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 584,
    "at": "2026-10-18T20:42:17.351658+09:00",
    "kind": "liquidation",
@@ -773,7 +756,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 641,
+   "at": "2026-10-21T19:34:24.939858+09:00",
+   "kind": "insight",
+   "fp": "a61409b4fe61136e",
+   "refs": [
+    "news:118301621014120",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFBGSm10X1AyTVcycEVEQlR2X3ZmVFgxNlJfcUFfc0lSQWZHMWdlUkRaVTdRRlNXc2pIYzR5ZW40NmhCeldobUQwcVJR",
+    "news:83429841958968",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TQnFOMGNJOUE1bHh2YTVBM2YzV3J6am1HaFNNczlVY0NHLXcycTR3dG1EVGZfWEZFSTZBaEYyR0kweDlEM255UUp2UXdCSndxNVRuZHFtYzdtQWdnSUlMWtIBZkFVX3lxTE1wMUlFZFl2TWNsakhOOWRwaDNvdUpUVEp3VnBKMHluNUVxeGloNDdLVlR3OHVLWUxiUm5BWjRkam5QSmdPTWlFZFQzYnh2UGxFU3B4OWFranFia25FRzZ3RTRmbms4dw"
+   ],
+   "img": "f8f2b2a34df7d2c39c66456033f832ed",
+   "head": "ETH ETF는 15연속 순유출, 10월에만 10억 8,000만 달러 빠졌는데 가격은 2,400달러 부근을 6일 연속 지킴 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-21T17:52:19.670843+09:00"
+ "last_pub_at": "2026-10-21T19:34:24.939858+09:00"
 }
