@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 582,
-   "at": "2026-10-18T17:34:17.318196+09:00",
-   "kind": "insight",
-   "fp": "d794500ffef6ac30",
-   "refs": [
-    "news:93740112991393",
-    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10elgyaWhfT3I0YzlFVkYtQy1Qa0ZxWDNPRU0yaDdXZkcwUUlwOU5QZHRGM08wdWkzYnFIQUlHSjVZUHdKUVE1ajFkbG9LWHdoYVZ4NDJGcF9YMUNNeXh6N3lWbUp2bDQ",
-    "news:189137546807072",
-    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE1qYzZZYnVLNWZhMmFBZ1BhNHFlTHhPUEhYMXphQ2lKenExNG9KT0Vnb040LUlJN3gzQVJSdWVsTjdVdlMyV1N0aHcxcWkxc3dNTTBlc2V6Qk5Rbm0xM3BxY0c3dTRuOUxTZUs3X3AzdlEwdzg"
-   ],
-   "img": "4ed0242d6a5748fff4f37025bc4d0cb7",
-   "head": "AI 거품 우려에 다들 달러로 갈 줄 알았는데 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 583,
    "at": "2026-10-18T18:42:22.108188+09:00",
    "kind": "insight",
@@ -775,7 +758,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 640,
+   "at": "2026-10-21T17:52:19.670843+09:00",
+   "kind": "insight",
+   "fp": "f7e209bb8691eba6",
+   "refs": [
+    "news:267892740302967",
+    "url:https://www.blockmedia.co.kr/archives/1154324"
+   ],
+   "img": "927913230793343debff3c88f4f1f6e6",
+   "head": "속보) 위불, 칼시와 손잡고 내달 미국 고객 대상 BTC 무기한 선물 개시 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-21T16:42:17.634125+09:00"
+ "last_pub_at": "2026-10-21T17:52:19.670843+09:00"
 }
