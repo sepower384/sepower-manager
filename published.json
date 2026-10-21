@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 584,
-   "at": "2026-10-18T20:42:17.351658+09:00",
-   "kind": "liquidation",
-   "fp": "de947e89b4f78f5a",
-   "refs": [
-    "whaleliquidation:3112979",
-    "url:https://t.me/whaleliquidation/3112979"
-   ],
-   "img": "d490db4ccb10786fd6186794faa43b24",
-   "head": "💥 대규모 숏 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 586,
    "at": "2026-10-18T22:34:41.912225+09:00",
    "kind": "insight",
@@ -774,7 +759,28 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 642,
+   "at": "2026-10-21T21:12:19.795487+09:00",
+   "kind": "insight",
+   "fp": "129d8c26fae20d42",
+   "refs": [
+    "coinnesskr:234926",
+    "url:https://t.me/coinnesskr/234926",
+    "coinnesskr:234936",
+    "url:https://t.me/coinnesskr/234936",
+    "coinnesskr:234939",
+    "url:https://t.me/coinnesskr/234939",
+    "coinnesskr:234941",
+    "url:https://t.me/coinnesskr/234941"
+   ],
+   "img": "5865928745d7449f68631f53992da669",
+   "head": "BTC 8만대 초반 횡보, 위아래 어디가 먼저 시험받나 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-21T19:34:24.939858+09:00"
+ "last_pub_at": "2026-10-21T21:12:19.795487+09:00"
 }
