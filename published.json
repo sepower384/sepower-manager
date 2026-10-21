@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 579,
-   "at": "2026-10-18T12:34:18.888665+09:00",
-   "kind": "insight",
-   "fp": "0d303ba0c756a190",
-   "refs": [
-    "news:49957532632287",
-    "url:https://news.google.com/rss/articles/CBMickFVX3lxTE1tQlhzTkVPaEFEcHo2ZlRjQTlwWmVSRzZocFVNUlFDYWhCYmdGX2FMUjRWaXBVUm9mWkI0bnpqSFlRcnhXaTItT204SlRVeEM3bk9QeFNPLWt6bW5vSTB6UWFKRUFnNS1lc2ViX1B6YmszUQ",
-    "news:193633813110748",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE5kSDBTSU10T0xZajIzT1B0ZjhnNnhzWWE4Y3l3YloxT0x2b29uZFhvYXVLRmNxZzZTMXY2U05lT2c5eUlTRFNMVkZn",
-    "news:20724686967195",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE04M0lWMmo2cWNxTlR4M1QwV2dCbWppcVg1d3JkUkpsTkpUSjRSVXI5MkFZNUVJejhhLVJzVnlsaE1MYWpmUTFENnFwNUwyMi1QaGx0LWJHSWg"
-   ],
-   "img": "61e1049cfba0ad6bd1ca7381907aaa39",
-   "head": "다들 ETH 2400달러 돌파, 올해 66% 랠리라고 좋아하는데 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 580,
    "at": "2026-10-18T13:47:19.747500+09:00",
    "kind": "insight",
@@ -779,7 +760,24 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 637,
+   "at": "2026-10-21T13:42:17.954522+09:00",
+   "kind": "insight",
+   "fp": "6a0b5f7004c3d369",
+   "refs": [
+    "coinnesskr:234882",
+    "url:https://t.me/coinnesskr/234882",
+    "news:9283891236045",
+    "url:https://www.tokenpost.kr/news/insights/425327"
+   ],
+   "img": "3108b31a7eaaf9932ab584a79b61dc89",
+   "head": "스트라이브 15% 우선주, 배당은 BTC 시세가 아니라 현금으로 나옴 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-21T11:52:19.751042+09:00"
+ "last_pub_at": "2026-10-21T13:42:17.954522+09:00"
 }
