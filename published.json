@@ -1,39 +1,6 @@
 {
  "posts": [
   {
-   "id": 575,
-   "at": "2026-10-18T09:17:20.932204+09:00",
-   "kind": "insight",
-   "fp": "f894307a72c62730",
-   "refs": [
-    "news:57821408074748",
-    "url:https://news.google.com/rss/articles/CBMiSEFVX3lxTFBnR0dFTkJyZEZIQkI3ME9jRjdkTEhyZkUtcklIbzYxa3ZZTk41aGV3bVNRSlVuWG56bzc5TFdURzV3RGZWQ1RxXw",
-    "news:36690257282501",
-    "url:https://news.google.com/rss/articles/CBMiUkFVX3lxTE12RFU1UVpwWTdUQ0d3dFQ3QTROSXY0cUhENmR6S3BJTmQzSUR6SE5WZm9ORXg2elcyRHJRb1NCTDlDc1NvX2VwSGkzNkxGQUphNUE"
-   ],
-   "img": "1cbeb3dd8a624e42b84b03b0afc5708c",
-   "head": "가상자산 과세 유예론, 어디까지 왔나 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 577,
-   "at": "2026-10-18T09:34:49.204017+09:00",
-   "kind": "insight",
-   "fp": "6f82e5033fbe3cda",
-   "refs": [
-    "news:272200239568238",
-    "url:https://news.google.com/rss/articles/CBMiTkFVX3lxTFAtUWI1Qk55SUt6OU05ME1JWElLSl84YmtYQ0VfZFBQQkRJdjloUldiTkstQnBnLUpFS2VaVHdWai1uQXUzOVloQjJZS1lSZw"
-   ],
-   "img": "1517cea9479b5aba2e1cea247dd32984",
-   "head": "속보) 정부, 20일 5대 거래소 불러 과세 간담회 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 578,
    "at": "2026-10-18T11:04:48.284245+09:00",
    "kind": "insight",
@@ -792,7 +759,25 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 635,
+   "at": "2026-10-21T10:04:40.959088+09:00",
+   "kind": "insight",
+   "fp": "60ed9de7c84470e6",
+   "refs": [
+    "news:181535415094615",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/425258",
+    "coinnesskr:234861",
+    "url:https://t.me/coinnesskr/234861"
+   ],
+   "img": "f3a8357931d4e5ef465cba93916cc620",
+   "head": "속보) 문페이, 두나무와 스테이블코인 결제·자금관리 협력 추진 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-21T08:34:58.899828+09:00"
+ "last_pub_at": "2026-10-21T10:04:40.959088+09:00"
 }
