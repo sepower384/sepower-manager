@@ -1,36 +1,6 @@
 {
  "posts": [
   {
-   "id": 593,
-   "at": "2026-10-19T07:27:18.863193+09:00",
-   "kind": "insight",
-   "fp": "c688ba1fc45714f3",
-   "refs": [
-    "news:10711310887989",
-    "url:https://www.tokenpost.kr/news/briefing/424034"
-   ],
-   "img": "8b3df14d0c7051d368ab46225abdfe7d",
-   "head": "BTC 수급, 공급이 수요를 넘는 중 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 594,
-   "at": "2026-10-19T08:42:20.069915+09:00",
-   "kind": "insight",
-   "fp": "e396b15f6b1287b3",
-   "refs": [
-    "news:215884618311362",
-    "url:https://www.blockmedia.co.kr/archives/1153019"
-   ],
-   "img": "a086a0332df0142f36ecf71ce5c31404",
-   "head": "미국이 BTC 순유입국으로 돌아섰음 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 595,
    "at": "2026-10-19T10:12:19.108200+09:00",
    "kind": "brief",
@@ -770,7 +740,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 650,
+   "at": "2026-10-22T09:17:19.742919+09:00",
+   "kind": "insight",
+   "fp": "503cbab638598b45",
+   "refs": [
+    "news:196744738766501",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE5kQXRRQlJiSUY4YlNLQi0xSmxYSW0teGlCenBoaVJOemszV0tYNjNUQVNfNlFhRHpRdWQyZlNMd3BjVjNiNC1nM0Zn",
+    "news:129658819511500",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFAtYnFGRC1Wa1ZESEVlOVhjMjMxOE5kczUxUEh0S3RaNE9VMnU1MTZkbFp6eFE5V2ZLZFBEY1RQN01GMER0VGZpM2JR",
+    "news:263022632647938",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFA1TmhwMW1ORmh3aGJSOFM1M2FLNldydGgwTU9Hb055UEtVclZqazUzRTk0UmZpb3RMekR2NW8xTUZBNFAtX2tkcHVR"
+   ],
+   "img": "b3493231eea1c9170cb51c8077d88e2d",
+   "head": "블랙록 ETF에 하루 8,130 BTC 들어왔는데, 이 반등 진짜 수요일까지 갈까 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-22T07:22:18.386777+09:00"
+ "last_pub_at": "2026-10-22T09:17:19.742919+09:00"
 }
