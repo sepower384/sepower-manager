@@ -1,37 +1,6 @@
 {
  "posts": [
   {
-   "id": 612,
-   "at": "2026-10-20T06:42:21.197481+09:00",
-   "kind": "insight",
-   "fp": "baf4b416d985d4c3",
-   "refs": [
-    "news:256034286385315",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/424444"
-   ],
-   "img": "294070b16f285de1fb154a2c278aadce",
-   "head": "베이스 위에서 BTC 담보 대출이 16억달러라는 보도가 나왔음 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 613,
-   "at": "2026-10-20T08:12:20.406153+09:00",
-   "kind": "insight",
-   "fp": "987a0c64ac4e36f5",
-   "refs": [
-    "news:138233216961484",
-    "url:https://www.theblock.co/news/regulation/2026-10-19-blackrock-files-bitcoin-managed-protect-etf-downside-protection-ibit-421087"
-   ],
-   "img": "8bd72b73f45a734a8447e8d5e5c5fb47",
-   "head": "블랙록, IBIT 연계 비트코인 ETF 또 신청 (세 번째) ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 614,
    "at": "2026-10-20T10:12:18.467225+09:00",
    "kind": "brief",
@@ -783,7 +752,32 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 667,
+   "at": "2026-10-23T08:30:37.585385+09:00",
+   "kind": "insight",
+   "fp": "b17564b8ea2ec313",
+   "refs": [
+    "news:85247866044350",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE9RY28yajFsMzVMd1ZhVHdTclVCbFVONTZUNlNsYmZ0NjJvRlpkLWhtMF9MWTkxSERCSDdoMVV2TmRHN0ZZUjZWRDh3",
+    "news:267996145778517",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE1iUEdRelJQNTJUUkx0VTRSbXFkWURFUGpFZTVmSEJoOFpmRG9zSjVxQnZuLXdKU0tHUmlvQWRSWFBTYXpkaUFtRUZ3",
+    "news:136888001129449",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFB4dHc0bG9wU0o0b2FIRzlmTUVmNnktWWZua1dZWWIxLXBXZHVORFBBNkhXUHhKaGRfZ3p1OXBZYXNUOUFnaktST1pB",
+    "news:88339438894903",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE4weWtOTVpRVGl1UXA0Q0V0Um1pMlhZcnNmQWFKMzJ5R1hUYjB6YkNtemp1MmZZTVNxZDhPbl94a0RnR3VpeXEzRlNn",
+    "news:101243592826232",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE5EeTdVTGtPX3JtN29tNmF1SG1DVFN1N3JEWVZ3ZHRHbHhJeHJWa3dOQ3FRaUZob1FMWml1c1pyWFg0STBQc19YcWhR",
+    "news:49691206119536",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE4zZjVYaFdSZmtSSEJpeUh2RUhHZ01xS3ZNR0JpMjNBWTh0b1NvRG1yM1F6a3NTSzZHdlFiV3dHYXRZMWVVZGJveTRB"
+   ],
+   "img": "c2a96b2498fd9d0e427d627b71858f5d",
+   "head": "빅테크발 위험회피, 코인 전체로 번진 날 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-23T06:35:28.742350+09:00"
+ "last_pub_at": "2026-10-23T08:30:37.585385+09:00"
 }
