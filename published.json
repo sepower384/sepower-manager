@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 597,
-   "at": "2026-10-19T12:04:45.880798+09:00",
-   "kind": "insight",
-   "fp": "6b1fa129c651ec2c",
-   "refs": [
-    "news:178227977110376",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/424146",
-    "coinnesskr:234582",
-    "url:https://t.me/coinnesskr/234582"
-   ],
-   "img": "e4b71b100251c52c175cb76e54276461",
-   "head": "세일러가 말하는 BTC 담보 스테이블코인, 연결고리로 보면 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 598,
    "at": "2026-10-19T14:04:26.844121+09:00",
    "kind": "insight",
@@ -777,7 +760,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 654,
+   "at": "2026-10-22T13:27:20.460535+09:00",
+   "kind": "insight",
+   "fp": "fb7222eb31fed04e",
+   "refs": [
+    "coinnesskr:235016",
+    "url:https://t.me/coinnesskr/235016"
+   ],
+   "img": "2d6aeb28b88974692a54dd91df1c1d40",
+   "head": "BTC 팔고 ETH 사는 고래, 한 주체의 로테이션일까 흐름 전환일까 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-22T12:04:26.058236+09:00"
+ "last_pub_at": "2026-10-22T13:27:20.460535+09:00"
 }
