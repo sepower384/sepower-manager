@@ -760,7 +760,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 656,
+   "at": "2026-10-22T16:38:04.406138+09:00",
+   "kind": "insight",
+   "fp": "720e8e35aca1ba29",
+   "refs": [
+    "news:225788039761740",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/425810",
+    "news:206276688177410",
+    "url:https://news.google.com/rss/articles/CBMi0gFBVV95cUxPTjhvaktqQlB2Z2s2SVg2b2xKamZtamMtRm5OZDY0dS1qYUZkbWFsQzN6N0NrLUFMVm5LLUpuS3U1VFBsZnJvMDZZZ1JVVVBJejBjcUxzc0pCcUNSdlNUN181V1VXUEpJU2JsZ2RkeTNqWmZ6czVpbVpaNUdrdnViNnZydzlLNUhXZkgwMkdLc21pelpQTlV0VkN1a2JNNjdiVzZ1Xy1FcjBKcUlKQm1IcFNWQU5RTjVnMndZWG52Q1BBa2w2NlVPNmtMNXV6WlV0OUE",
+    "news:186862251025610",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE5KcnAtTEdDNlVjdjlmbHd6T0hwYzZnQlEyaHdxeFI2OUZFZV9qRUJBWmstYjV4bkFjcWxadTJEbGpCZl80SFBNVmZiWEZVcTVD"
+   ],
+   "img": "f5f1729bcba8ed9286c1d1f24c5028b7",
+   "head": "미국 비트코인 현물 ETF가 3거래일 연속 순유입이고, 10/21 하루에만 5억2,840만 달러가 들어왔음. 전일(2,316만 달러)의 약 22.8배임. ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-22T15:22:22.087359+09:00"
+ "last_pub_at": "2026-10-22T16:38:04.406138+09:00"
 }
