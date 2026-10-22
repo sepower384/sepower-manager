@@ -1,39 +1,6 @@
 {
  "posts": [
   {
-   "id": 600,
-   "at": "2026-10-19T16:42:21.537849+09:00",
-   "kind": "insight",
-   "fp": "71b20ee462552390",
-   "refs": [
-    "coinnesskr:234609",
-    "url:https://t.me/coinnesskr/234609"
-   ],
-   "img": "86f44cc9c63e3710adaf5eec082c10d7",
-   "head": "금감원장 \"가상자산 감독체계 새로 짠다\" 두 갈래 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 601,
-   "at": "2026-10-19T18:04:32.521044+09:00",
-   "kind": "insight",
-   "fp": "3b9812313d127758",
-   "refs": [
-    "coinnesskr:234619",
-    "url:https://t.me/coinnesskr/234619",
-    "news:30482507018640",
-    "url:https://thedefiant.io/converge/tradfi-and-fintech/jpmorgan-extends-jpm-coin-to-ethereum-for-institutional-clients"
-   ],
-   "img": "1006f872ad826575faf1757f172a435e",
-   "head": "JP모건, 달러 예금 토큰 JPM 이더리움으로 확장 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 602,
    "at": "2026-10-19T19:12:18.504427+09:00",
    "kind": "insight",
@@ -779,7 +746,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 657,
+   "at": "2026-10-22T18:30:38.851829+09:00",
+   "kind": "insight",
+   "fp": "9a63d27666fcee31",
+   "refs": [
+    "coinnesskr:235054",
+    "url:https://t.me/coinnesskr/235054"
+   ],
+   "img": "5d1e1a25563b69c8c01982535e633907",
+   "head": "BTC 단기 보유자는 지금 미실현 수익률 +11%인데, 이 수익이 사라지는 선이 $75,100임 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-22T16:38:04.406138+09:00"
+ "last_pub_at": "2026-10-22T18:30:38.851829+09:00"
 }
