@@ -760,7 +760,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 652,
+   "at": "2026-10-22T10:04:50.449045+09:00",
+   "kind": "insight",
+   "fp": "9f9fc8e0a8fbae55",
+   "refs": [
+    "news:7905461683874",
+    "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JaXFFX0swUG9qSF85VnVvd1dXbFMzcUIyVFZCdzV6NkNUTDF2bDI4ZDR2SjRydXh2LVVhT2RkMjVwMVp6T1FyclhyUW5mcGRPMWd3M3NKMDBIOUk"
+   ],
+   "img": "bf0b60d61724026b1b25fd4ae3c9006d",
+   "head": "속보) 김민석 “가상자산 과세, 올해 안에 정리해야” ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-22T09:17:19.742919+09:00"
+ "last_pub_at": "2026-10-22T10:04:50.449045+09:00"
 }
