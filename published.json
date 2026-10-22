@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 604,
-   "at": "2026-10-19T22:42:22.450840+09:00",
-   "kind": "insight",
-   "fp": "758c897b5e4cff1c",
-   "refs": [
-    "coinnesskr:234654",
-    "url:https://t.me/coinnesskr/234654",
-    "news:86779520611260",
-    "url:https://cointelegraph.com/news/world-liberty-usd1-stablecoin-market-cap-drops-400-million"
-   ],
-   "img": "8fd63e7e60087a90498a7e9d0bfcf308",
-   "head": "WLFI USD1, 2주 새 4억달러 빠진 이유 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 605,
    "at": "2026-10-20T00:27:22.055270+09:00",
    "kind": "insight",
@@ -758,7 +740,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 660,
+   "at": "2026-10-22T23:27:26.136716+09:00",
+   "kind": "insight",
+   "fp": "6c1039a0228cd114",
+   "refs": [
+    "coinnesskr:235085",
+    "url:https://t.me/coinnesskr/235085"
+   ],
+   "img": "df3d76099032fe12500b62d32577e352",
+   "head": "이더리움 최종 확정 16분→4분 제안, 크로스체인에서 뭐가 달라지나 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-22T22:00:47.560981+09:00"
+ "last_pub_at": "2026-10-22T23:27:26.136716+09:00"
 }
