@@ -762,7 +762,28 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 666,
+   "at": "2026-10-23T06:35:28.742350+09:00",
+   "kind": "insight",
+   "fp": "f197d3c9f571afaa",
+   "refs": [
+    "news:382797735802",
+    "url:https://news.google.com/rss/articles/CBMie0FVX3lxTFBvcDVTTTNhbzlQejFESTFsREJON1dVTlVFbENoeTlIU0hISTJnYmY0X1V2cWNEYU5nWV96cV9lNnpkUUphVGJVdEhnRFA1bm84d2s3V0J2ZmJkeUl1S043OGNHY2wtSk8tZ2dIY0hEdUNPMEZWajFZbDBEWdIBgAFBVV95cUxOTU1BRkRyckN5b05SdEYta3h5QmhadWpKdHpoRU9FZXh6NVRNRWJNakU2d0JsbUlLOTRHS0tEbXFfd2RCb2EwWTR0blRtVXVSOGpIMFBjOWNxbDdQVHJZdm9tbEkxakpjR0twbWhIVmtGUFJ4UVgwd0wwX2lEV1J5Uw",
+    "news:134970998227679",
+    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHc2xfUUNVbGxMbFViVW94OU95UVN6YndIZ0Q0eWNLWDc4a2tUZUVrbFBndnJMaURpQmU3Q0pON0lPT1hvWmtFcy1mTDdOWHMwY2tsWEZ5QjVuR3hEdldMTDdjRUR1ajQ",
+    "news:28160194937029",
+    "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rSVd3R1p3bV9xNV90T2ZGV0Exa0VmRHFJejNzTS1COXpoaHdMSDFPdEtzb3NqSElLRi1oZUM2YjM1U1dvcUxoUGxxUDhXYTZ4LVJxMzdkQmc5cmfSAWBBVV95cUxNSWlxOEdZcjc4UnFKUFNyQWVSSnZVZk5OX3UyUHk5SXNPUVBmamNFQkZHUlg3ZkZQZWliTUV1UlYzU29CcXF2VE5aUV83ckxZVkFsbENpRGoyVm1oZUVqang",
+    "news:39177633912451",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DM1RtMVp4VTJsUFhzYXhrdlQ3UDNwc0hjQXpnNHh1dmtNWTc5ZmJGV1F1MUR4WHhrN05Idk1WTktrcktrbDc1ZEItY29VT05RQ0dCRkF2OGE"
+   ],
+   "img": "c4e990454caf7741a39eabf6fe77aba2",
+   "head": "속보) 美 10년물 금리 한 달 만에 5% 아래, 4.95%대로 급락 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-23T05:35:28.806113+09:00"
+ "last_pub_at": "2026-10-23T06:35:28.742350+09:00"
 }
