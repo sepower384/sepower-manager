@@ -1,39 +1,6 @@
 {
  "posts": [
   {
-   "id": 598,
-   "at": "2026-10-19T14:04:26.844121+09:00",
-   "kind": "insight",
-   "fp": "67dcb876227dccc8",
-   "refs": [
-    "news:227478449154806",
-    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE1KaEo5N3FRS1B2cTJMaFlvSkdiQ3RSNmV2blc2ZzZjY1Z6ZGNQakJpQVJQU2drb3NBOUh6cTV0MHdETWZrdHYyNjZwckZFVE1VVTVIY3VLVnNXUTk5eDVHOFVLcy14cUFXZUM2VA",
-    "news:230777906956124",
-    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTFBFcnZDZVlBZDgzZXUxVVZ2UDdTOERENmdkRUxXNFJyYS1KM0xUd1lYNmdaUUxUZG0weGdnTDM2WmxveU90dXdaSC1UUk0yVlRRM2UxN0hrcXJUY0xwTnp6Ylllc3lJTVkzMGJnbA"
-   ],
-   "img": "9d8e2d98cb20a2877285dc8a5c60329d",
-   "head": "브로드컴·버라이즌 등 9개사가 SEC 토큰화 주식 프레임워크 상장을 거부했음 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
-   "id": 599,
-   "at": "2026-10-19T15:12:17.339562+09:00",
-   "kind": "insight",
-   "fp": "8905a7c06b331c2d",
-   "refs": [
-    "news:191642726957807",
-    "url:https://www.tokenpost.kr/news/economy/424218"
-   ],
-   "img": "6a252bebac19cc39137999d219dfd02f",
-   "head": "연준 9월 회의록, 연내 인상 열어뒀나 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 600,
    "at": "2026-10-19T16:42:21.537849+09:00",
    "kind": "insight",
@@ -775,7 +742,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 655,
+   "at": "2026-10-22T15:22:22.087359+09:00",
+   "kind": "insight",
+   "fp": "cc3b5ea30bf5eb32",
+   "refs": [
+    "coinnesskr:235033",
+    "url:https://t.me/coinnesskr/235033",
+    "news:237436328540383",
+    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UX09jTHNrNEZvMFBiYlI5WVZuMURrQ2I0RkliYVVmTWRzeVk5ZE5pTVpRN3ZzUVphZlU1eEozeHpqeURocWxCRFRtTkVKT1dpeFBvSXRJcDRZdw"
+   ],
+   "img": "18591671e1335a850850101737fc6195",
+   "head": "가상자산 과세, 국감에서 나온 답변 정리 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-22T13:27:20.460535+09:00"
+ "last_pub_at": "2026-10-22T15:22:22.087359+09:00"
 }
