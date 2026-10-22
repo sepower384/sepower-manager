@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 603,
-   "at": "2026-10-19T21:04:24.934296+09:00",
-   "kind": "insight",
-   "fp": "3605d1638d11cc0c",
-   "refs": [
-    "coinnesskr:234641",
-    "url:https://t.me/coinnesskr/234641"
-   ],
-   "img": "b0bf3ba2ac888d7fd07d6bc664525058",
-   "head": "BTC 채굴주, 이제 BTC 안 따라감 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 604,
    "at": "2026-10-19T22:42:22.450840+09:00",
    "kind": "insight",
@@ -758,7 +743,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 659,
+   "at": "2026-10-22T22:00:47.560981+09:00",
+   "kind": "insight",
+   "fp": "fb321a3b1bde23a5",
+   "refs": [
+    "news:62241332229262",
+    "url:https://cryptoslate.com/solana-targets-faster-finality-while-wall-street-cuts-the-cash-that-must-move/"
+   ],
+   "img": "94d776e1af454736f522dcc5c262743d",
+   "head": "솔라나 결제 최종성: 월가 넷팅 vs 알펜글로우 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-22T19:50:40.845633+09:00"
+ "last_pub_at": "2026-10-22T22:00:47.560981+09:00"
 }
