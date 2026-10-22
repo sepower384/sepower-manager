@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 611,
-   "at": "2026-10-20T05:34:42.956438+09:00",
-   "kind": "insight",
-   "fp": "b10e3c71cd1897ba",
-   "refs": [
-    "news:93057498488426",
-    "url:https://www.blockmedia.co.kr/archives/1153513"
-   ],
-   "img": "4e4e5b049e636ee8e10c81e2f8d29e64",
-   "head": "클래리티법 상원 문턱 못 넘은 뒤, 길은 두 갈래 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 612,
    "at": "2026-10-20T06:42:21.197481+09:00",
    "kind": "insight",
@@ -755,7 +740,29 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 665,
+   "at": "2026-10-23T05:35:28.806113+09:00",
+   "kind": "insight",
+   "fp": "abe9aaa04778c77d",
+   "refs": [
+    "news:189833553823416",
+    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxOSnFFMzhXTGRGdDhZQTlHVGR1Y1ZZVUotbTdjbF96ZTVKSXd1SkJ5RS1BdEEzay1aaVNkdUt0REhmNUt4NUhBR0ZBUXRILXdZWm9OMU5LYi1ROGpqaXpPdVllbkFyRWhEZHUybk9xZWIzUkVlS0IxT05aUnRxeTBYWA",
+    "news:128388252451778",
+    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85YkhZc3pQUy1vTkIzbkozZ01FRDN3MGFGb2p5bWx5TkVSMUk1T3hDdDFfN2FwaFFhelNQMGg5WXhpWEZlOFhqVm5iWG9HMGdBcGhvTVVkMldkUG95SF9fekRLbVRDQ1U",
+    "news:210657607665054",
+    "url:https://www.blockmedia.co.kr/archives/1155160",
+    "news:194332040617182",
+    "url:https://www.blockmedia.co.kr/archives/1155124"
+   ],
+   "img": "71a6a9c6d048fe7973bb7fffdc1eb3f0",
+   "head": "속보) 나스닥 2.6% 급락, 필라델피아 반도체지수는 6.72% 폭락 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-23T04:37:20.823831+09:00"
+ "last_pub_at": "2026-10-23T05:35:28.806113+09:00"
 }
