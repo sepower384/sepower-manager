@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 630,
-   "at": "2026-10-21T05:35:19.222846+09:00",
-   "kind": "insight",
-   "fp": "b3f88a94bae70557",
-   "refs": [
-    "news:184358726066085",
-    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBKLTNfcjVfOXBHV0ExaWR2UTV2V01KTDBEN05DNVc2MXU2Ym1qTVdGakEwN1NneUNyVWRjd3J3NlVsWHowSG9URkRJS1VTR0haNDFzV1Jia2VwUUMwakJYeV94VXpiY0k",
-    "news:44858910878969",
-    "url:https://www.blockmedia.co.kr/archives/1154070",
-    "news:66267850654222",
-    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04VGxNU0RoY002cTJfUzJHVEV4N1d6cUI4SWtQV3Awb1Y5YzR1MEN2RnFjd3k3Znk1VFRXYnptdVhzRUVhZC1sdEI2T1pIb1pubTZiOEZkaHZTTkJ3VUxpdjRfUkhYaGs"
-   ],
-   "img": "95e2f62e6aa651b73fac5a8f3ac09d78",
-   "head": "속보) 美 증시 마감, 다우 1.02%↑ 나스닥 0.02%↓. 지수가 가린 괴리임 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 631,
    "at": "2026-10-21T07:22:20.861653+09:00",
    "kind": "insight",
@@ -762,7 +742,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 681,
+   "at": "2026-10-24T07:00:39.246771+09:00",
+   "kind": "insight",
+   "fp": "f0c430fa8e520e84",
+   "refs": [
+    "news:272117779586586",
+    "url:https://cryptoslate.com/bitcoin-etf-outflows-holdings-cost-basis/",
+    "news:59930233053770",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE9VNFVKcl9PVjlSMzFWX1o4YTdkWlplVk9GSDNoc016OGFjRFBQekh1Skx0bWw4aDJWVjdla1Y1LTFXQS1aV1hiQi13"
+   ],
+   "img": "b9d7cd5fca5a72fc6a898e908c1a5d86",
+   "head": "이번 ETF 유출, 숨은 포인트는 '단가'임 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-24T05:00:45.757019+09:00"
+ "last_pub_at": "2026-10-24T07:00:39.246771+09:00"
 }
