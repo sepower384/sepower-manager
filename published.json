@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 616,
-   "at": "2026-10-20T12:57:16.921318+09:00",
-   "kind": "insight",
-   "fp": "19d9a243c79f6938",
-   "refs": [
-    "coinnesskr:234726",
-    "url:https://t.me/coinnesskr/234726",
-    "news:273882885870943",
-    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tZDRXRFlROU44ZmZPQmp0WWdHOHktdWdfS3JDWWJyYklGQURTb1hMMWw0UWdtXzlCTzR3RWdrWGpva1BBRjRtMEFFQnczRnItNlUxekpES2NybEdKMVQtbdIBZkFVX3lxTE5NSGJpZENDMkdWd3RwbVFNTFVqeC1NRTZUMjdHTlMtVG05em80b3BpMnhwWjY3Ylp4c0tBdUI5and5MkJCdk5XNExRRm5uRElOVTJtdlhEMlJVVy1zb3hQeFZndmJQUQ"
-   ],
-   "img": "ad2794a23e02124153c9fcd64bd343e3",
-   "head": "스트래티지 3분기 BTC 순증이 1,666개였음. 2분기 8만3,901개에서 급감한 숫자임. ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 617,
    "at": "2026-10-20T14:52:21.013161+09:00",
    "kind": "liquidation",
@@ -778,7 +760,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 670,
+   "at": "2026-10-23T13:30:34.984651+09:00",
+   "kind": "liquidation",
+   "fp": "6e5f6ecd2561beba",
+   "refs": [
+    "whaleliquidation:3128842",
+    "url:https://t.me/whaleliquidation/3128842"
+   ],
+   "img": "6a5d1e54251b21a266c32f33ae327f98",
+   "head": "💥 대규모 숏 청산 감지 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-23T11:30:34.977729+09:00"
+ "last_pub_at": "2026-10-23T13:30:34.984651+09:00"
 }
