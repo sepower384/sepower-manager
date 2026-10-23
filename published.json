@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 619,
-   "at": "2026-10-20T16:34:58.913468+09:00",
-   "kind": "insight",
-   "fp": "ecf348283da3db44",
-   "refs": [
-    "news:75402559803153",
-    "url:https://www.theblock.co/news/markets/2026-10-20-blackrock-ibit-bitcoin-etf-665-million-421102",
-    "news:241842391409364",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/424712",
-    "news:88177808728296",
-    "url:https://cointelegraph.com/markets/bitcoin-etfs-527m-inflows-biggest-since-september"
-   ],
-   "img": "803747accc956100a546acf13956fa3e",
-   "head": "이번 주 IBIT 자금, 두 갈래로 읽힘 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 620,
    "at": "2026-10-20T18:27:27.368893+09:00",
    "kind": "insight",
@@ -775,7 +756,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 673,
+   "at": "2026-10-23T17:00:45.878518+09:00",
+   "kind": "insight",
+   "fp": "0b1bf871beb8e0cb",
+   "refs": [
+    "news:56815164485118",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/426251",
+    "coinnesskr:235155",
+    "url:https://t.me/coinnesskr/235155"
+   ],
+   "img": "8741a6eb008ac80a2b68e5ba6738f085",
+   "head": "BTC 15만달러까지 조건 3개, 지금 몇 개 충족일까 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-23T15:00:50.633490+09:00"
+ "last_pub_at": "2026-10-23T17:00:45.878518+09:00"
 }
