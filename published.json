@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 620,
-   "at": "2026-10-20T18:27:27.368893+09:00",
-   "kind": "insight",
-   "fp": "7a7be610be2a3098",
-   "refs": [
-    "news:101786966114794",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/424747"
-   ],
-   "img": "305d56bc2ae40e4e51ac45e17883bd80",
-   "head": "다이먼이 '사기'라던 비트코인, 이제 JP모건운용 모델에 들어갔음. 이게 무슨 뜻일까 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 621,
    "at": "2026-10-20T19:34:30.711687+09:00",
    "kind": "insight",
@@ -774,7 +758,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 674,
+   "at": "2026-10-23T19:10:03.252316+09:00",
+   "kind": "insight",
+   "fp": "a0ca3d0e7bd0d222",
+   "refs": [
+    "coinnesskr:235173",
+    "url:https://t.me/coinnesskr/235173",
+    "news:209167073499986",
+    "url:https://thedefiant.io/news/hacks/swell-pauses-sweth-and-rsweth-deposits-and-withdrawals"
+   ],
+   "img": "6a368bb9046b6b2e895de4ec931dd6f7",
+   "head": "스웰 swETH 출금이 막혔는데, 신규 요청뿐 아니라 이미 넣은 출금 청구까지 같이 멈춘 게 포인트임 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-23T17:00:45.878518+09:00"
+ "last_pub_at": "2026-10-23T19:10:03.252316+09:00"
 }
