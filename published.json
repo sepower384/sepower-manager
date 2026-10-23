@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 621,
-   "at": "2026-10-20T19:34:30.711687+09:00",
-   "kind": "insight",
-   "fp": "bbb8ea08d0128b22",
-   "refs": [
-    "coinnesskr:234764",
-    "url:https://t.me/coinnesskr/234764"
-   ],
-   "img": "3b59784b34be574fe86b8fd7f9a524e1",
-   "head": "다들 \"스트래티지가 BTC를 계속 사준다\"고 하는데 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 622,
    "at": "2026-10-20T21:22:25.848982+09:00",
    "kind": "insight",
@@ -775,7 +760,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 675,
+   "at": "2026-10-23T21:01:40.545835+09:00",
+   "kind": "insight",
+   "fp": "36eda23a53998554",
+   "refs": [
+    "news:183498721988615",
+    "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE85R1k4am1kRjRYakIxZ2g5Z29kaHdfa2pUM1R6Q0x3bkJwWG9nRWxPamdnVE4wenhXQjRxN1p0UnIzYk1fN0tSRDJrNEd3a2I1UEtTNGFiLVMtdEZ6LUZOb1JqOFpSRzZiMmFtb3ZmaVRhRS1ER3RSdkhwbC11Zms",
+    "news:194491398322817",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFAwY3UwblJoOTAwdG5zWHlvblc0dkJpb215aGxMWmxnby1seXY5eElteWhOZTNDN0Fic0gxSnFxckZ4MjEzRXpwVEZ3",
+    "news:12852141661027",
+    "url:https://news.google.com/rss/articles/CBMirgFBVV95cUxNWDhMcEtDZmhoQnJMSVBVUzFaWVBqeUczRlRZekhZc1RpYWU0ajVLWlNscVRjQ2UzSS1ZVFRsd3BsazVuR2FtVG5PQVQwRW8zY1FhVzlJeE9SVWEtS1VnZzZROWR0dXdNTVQ1X2pMTDZkdjBleGE0akJRSVpKTXRaWTdfTUJhaktpOFRlaHY5UHdtLUZMOE5HMXR2YkpGODBDU1RoaHFlcGFzeEpJMnc"
+   ],
+   "img": "6a653d7c163b4dfd765a7f55257ccbee",
+   "head": "유가·연료비발 CPI가 금리 쪽으로 번지는 경로 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-23T19:10:03.252316+09:00"
+ "last_pub_at": "2026-10-23T21:01:40.545835+09:00"
 }
