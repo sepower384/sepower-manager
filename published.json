@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 617,
-   "at": "2026-10-20T14:52:21.013161+09:00",
-   "kind": "liquidation",
-   "fp": "a0214938d72f259e",
-   "refs": [
-    "whaleliquidation:3118084",
-    "url:https://t.me/whaleliquidation/3118084"
-   ],
-   "img": "76a098da682dab1d9745cad383a0ee1d",
-   "head": "💥 대규모 숏 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 619,
    "at": "2026-10-20T16:34:58.913468+09:00",
    "kind": "insight",
@@ -775,7 +760,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 672,
+   "at": "2026-10-23T15:00:50.633490+09:00",
+   "kind": "liquidation",
+   "fp": "325cbffeb3fe43a1",
+   "refs": [
+    "whaleliquidation:3128892",
+    "url:https://t.me/whaleliquidation/3128892"
+   ],
+   "img": "73bf3bce4dd0110e7eee64d2340a07fc",
+   "head": "💥 대규모 숏 청산 감지 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-23T13:30:34.984651+09:00"
+ "last_pub_at": "2026-10-23T15:00:50.633490+09:00"
 }
