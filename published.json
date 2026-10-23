@@ -1,41 +1,6 @@
 {
  "posts": [
   {
-   "id": 624,
-   "at": "2026-10-21T00:34:47.909456+09:00",
-   "kind": "insight",
-   "fp": "4996af47bca93a4f",
-   "refs": [
-    "news:24820073034682",
-    "url:https://www.blockmedia.co.kr/archives/1153941",
-    "news:209331483973050",
-    "url:https://news.google.com/rss/articles/CBMingFBVV95cUxOOFdaOWdiY3NOME1CS05DVWJrVUUtNFVXQjJsSFFhNms3WU5wUTFpQVMyZ3F5aHg3RW84cFFzYW13VlFKMXJ4MVVHMlVCb0w2Ni0wWEhsWGFDWmhNT2RDVkZ0WFViejVia081bFBfYjBBQldfTVlCNnhZaVpQcy04R3FRTFoxMk9KZzR2X0xaeHhTc2EzTEFJWHltcVpld9IBsgFBVV95cUxQUzR2YnJ4ZlkzRVR6U0JzZ0RGUjlBYV9uWGxOLV8tbGRJRno2dG13TXA2bnZCRGk0WkpOcEZwdFhGeGlQcjM2TFR1ektzamZwSFptc1VMUU9CQWFuMzd6ZERHMGFiSEhBRTVubUZXVTFHeV9Ub1FXcVkyNGRQd2tvV29SNmFhMG1lU01ULXFBQ0RvRHV2YVR6c0JIdkNSVmRGcHVhVXV5a01FckRLTnRjaUt3",
-    "news:162179955538051",
-    "url:https://news.google.com/rss/articles/CBMiXEFVX3lxTFBfYmFvRVo0dmYzam9udU9lUkk1R0pYVE9kS0hqaHRVTnlHSTZJc3dENml4N1NGMlRVODJHRGdFNTg0ZjV0aDJvajFkczNnc1V6VkNuY2ZCeEhWb0R6"
-   ],
-   "img": "b34b70cfbd0dc3335c27be054cab9e25",
-   "head": "이번 주 기술주 투매, BTC는 선방했는데 진짜 디커플링일까 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 626,
-   "at": "2026-10-21T01:04:53.145179+09:00",
-   "kind": "insight",
-   "fp": "5527dc8ed16cabb1",
-   "refs": [
-    "news:261272987647030",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GeDlMUXJONXhDQnM4ajExaFVlN1VyWWJvZ3pPR2NKWk5YVW9ISWp0VDROZENKbDBDUEdRNHNDSGZnajFqNkFwZ3ozaTl4ck5EbnJ0ZzJfbnY5R2xyVnBoNHN0U1FsNmN4"
-   ],
-   "img": "632e06b1abc7f5b1b67b39810e94c2bd",
-   "head": "속보) 美 기술주 동반 하락, 메타 3%·스페이스X 2%대 약세. 엔비디아·마이크론도 밀리는 중 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 625,
    "at": "2026-10-21T02:57:20.896601+09:00",
    "kind": "insight",
@@ -777,7 +742,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 678,
+   "at": "2026-10-24T02:00:43.692313+09:00",
+   "kind": "insight",
+   "fp": "16ed2bf229ae834c",
+   "refs": [
+    "news:21095325390340",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/426523",
+    "news:29694626907924",
+    "url:https://www.tokenpost.kr/news/briefing/426527",
+    "news:220540532194861",
+    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTFBIRmd0QjJ3LVNVRTVHazhIdlJBX1EtRnRyU3lSUk5vMjJLT0NlNF9TMmZySDRESE9DRkV1bnlKeEF2ZzcwQ1VLYzdfZVVUZV9zTUVIZEhVVHpuZFctVk9ydGR0d1Z0QmxtaTF4ZA"
+   ],
+   "img": "0c8c3df0b61d708d0e352dfd5556f2d1",
+   "head": "비트코인 현물 ETF 하루 만에 유입에서 유출로 반전 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-24T00:30:36.818807+09:00"
+ "last_pub_at": "2026-10-24T02:00:43.692313+09:00"
 }
