@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 649,
-   "at": "2026-10-22T07:22:18.386777+09:00",
-   "kind": "whale",
-   "fp": "004c778690bd411f",
-   "refs": [
-    "whalealertkorean:173813",
-    "url:https://t.me/whalealertkorean/173813"
-   ],
-   "img": "a1be15c0f1a1b39970d18b92e720ae80",
-   "head": "🐋 고래 대량 이동 포착 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 650,
    "at": "2026-10-22T09:17:19.742919+09:00",
    "kind": "insight",
@@ -723,7 +708,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 701,
+   "at": "2026-10-25T08:30:35.745493+09:00",
+   "kind": "insight",
+   "fp": "80b5bb07baebbd9c",
+   "refs": [
+    "news:202137770422280",
+    "url:https://www.blockmedia.co.kr/archives/1155842",
+    "news:224924728095803",
+    "url:https://www.tokenpost.kr/news/ai/427039",
+    "news:50682988323866",
+    "url:https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RMHUzb0huUDVoMHF6ZEpqRE1heTNnQWpxWXpjdmpCNzgyeUZVYWlqNldRazIyRldZQlV4M0RuS0VibUszaHV6SWl0NW1ldE1OaVQ1dGhia2xlSVRKRGc"
+   ],
+   "img": "f0ac4c6ba302dd74cd4bdb1ce556202f",
+   "head": "유가·AI 부채가 BTC까지 오는 경로 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-25T06:30:33.145428+09:00"
+ "last_pub_at": "2026-10-25T08:30:35.745493+09:00"
 }
