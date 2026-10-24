@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 641,
-   "at": "2026-10-21T19:34:24.939858+09:00",
-   "kind": "insight",
-   "fp": "a61409b4fe61136e",
-   "refs": [
-    "news:118301621014120",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFBGSm10X1AyTVcycEVEQlR2X3ZmVFgxNlJfcUFfc0lSQWZHMWdlUkRaVTdRRlNXc2pIYzR5ZW40NmhCeldobUQwcVJR",
-    "news:83429841958968",
-    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TQnFOMGNJOUE1bHh2YTVBM2YzV3J6am1HaFNNczlVY0NHLXcycTR3dG1EVGZfWEZFSTZBaEYyR0kweDlEM255UUp2UXdCSndxNVRuZHFtYzdtQWdnSUlMWtIBZkFVX3lxTE1wMUlFZFl2TWNsakhOOWRwaDNvdUpUVEp3VnBKMHluNUVxeGloNDdLVlR3OHVLWUxiUm5BWjRkam5QSmdPTWlFZFQzYnh2UGxFU3B4OWFranFia25FRzZ3RTRmbms4dw"
-   ],
-   "img": "f8f2b2a34df7d2c39c66456033f832ed",
-   "head": "ETH ETF는 15연속 순유출, 10월에만 10억 8,000만 달러 빠졌는데 가격은 2,400달러 부근을 6일 연속 지킴 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 642,
    "at": "2026-10-21T21:12:19.795487+09:00",
    "kind": "insight",
@@ -725,7 +707,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 690,
+   "at": "2026-10-24T20:00:37.653056+09:00",
+   "kind": "insight",
+   "fp": "0f339283b461170b",
+   "refs": [
+    "news:94013860029981",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/426894"
+   ],
+   "img": "1262732e914a5785597d5877ee55774e",
+   "head": "상위 트레이더 숏이 30억달러까지 몰렸는데, 롱 비중은 4.5%임 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-24T18:30:35.905609+09:00"
+ "last_pub_at": "2026-10-24T20:00:37.653056+09:00"
 }
