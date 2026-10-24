@@ -719,7 +719,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 696,
+   "at": "2026-10-25T00:35:19.241395+09:00",
+   "kind": "insight",
+   "fp": "19a2ac42e55f9938",
+   "refs": [
+    "news:57384595827117",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Kek9VNXQ3MGptcVUxU2xQbmdnWlJ1S1N2dU9OMGhGeDJuUVUwd1pfNWsyWXV1bXFSYXlXcV9CNkFRTjNfYUNYa3Y4MEhSUlNNbWw5bnFsT0R2WU9TVVhIVElaYWp1U2t1",
+    "news:193497453135607",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE05UThXT1BrZHRXZEpXNnY0Sy1OX3hvZDYyQjN5Qy1BU0VjQVE1NUVZM2k0Wnl2VnNmZ0dJakhVY3RvMmxldFFFRVhoaGZGY09MNDJHTUhncWzSAV5BVV95cUxPX1g2VFpfMGVYX09pTWhNR0ZDMUVoaGVfYXE4RkoxRmZENjlrcGVPVkxpSnllZU5RQTV2TkFONklBVHdSQVRUMEZZdVNHZ3h1bl85OGh2NDdfWHdxOGZR",
+    "news:242678196485832",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE85RTdvOTl0VGhLQXVsZDROZlZYNnVsak1DRnplWmFyUFlZSG5fS0RWWThfV2M5LTVoa1poMkxoT2F1c25vd2hRc3ZNVFd2eHREN1RJcnFaYi3SAV5BVV95cUxNYUgyU1BnRjZXYmxjb2pMNU9ldjFtbWNvNTRpM1VleDMyUm5vbS10a1Q0SXgzQjRIQWxhSDFLZlJTNGxrRUpGd0lDeVhLZFBKei1tNzdYX2tVN3lVZnl3"
+   ],
+   "img": "31d7098fb6b8b709f5d41fcd31c23041",
+   "head": "속보) 비트코인 8만달러 붕괴, 7만9827달러 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-24T23:35:05.723953+09:00"
+ "last_pub_at": "2026-10-25T00:35:19.241395+09:00"
 }
