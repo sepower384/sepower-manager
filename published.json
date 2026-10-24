@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 636,
-   "at": "2026-10-21T11:52:19.751042+09:00",
-   "kind": "insight",
-   "fp": "db2e3de0f3985256",
-   "refs": [
-    "news:161083559688760",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/425309",
-    "coinnesskr:234873",
-    "url:https://t.me/coinnesskr/234873",
-    "news:243766866215729",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oT2w5SS1hQ05GQVY5SUl0OWhfNnV4X1NhT19ROHJYY3V5akxYRzBRbVdEWWUzNkxiWEswa2lQTnVsUjdvZU5kZU1EYm1NSGVQaEpOM0cwSkHSAV5BVV95cUxPLUlWTFF0R3hUNGFsT2JrZlh5ZFhqaEJldzJ2WXp3X1dMRFRGYTdrNHNJRWJCQ1VmSjZLei14NmtWUkxkQTJjVmljcC1MTzZlazBwV3h0aUY3V0R3Z2N3"
-   ],
-   "img": "eca951065bc444f401b261229740d347",
-   "head": "9년 들고 있던 ETH 고래가 마지막 1000개를 크라켄에 넣었다는 추정이 나옴 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 637,
    "at": "2026-10-21T13:42:17.954522+09:00",
    "kind": "insight",
@@ -728,7 +709,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 685,
+   "at": "2026-10-24T12:00:42.620510+09:00",
+   "kind": "insight",
+   "fp": "3e413a9fe7b2f0c6",
+   "refs": [
+    "news:37352452036185",
+    "url:https://www.blockmedia.co.kr/archives/1155663"
+   ],
+   "img": "deea2f3920889a92d4f6d6e0f811a766",
+   "head": "미국 OCC 스테이블코인 환매 규정, 뭐가 바뀌었나 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-24T10:30:32.404299+09:00"
+ "last_pub_at": "2026-10-24T12:00:42.620510+09:00"
 }
