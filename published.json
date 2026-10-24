@@ -1,47 +1,6 @@
 {
  "posts": [
   {
-   "id": 631,
-   "at": "2026-10-21T07:22:20.861653+09:00",
-   "kind": "insight",
-   "fp": "3eb6bdd8dd91b7c5",
-   "refs": [
-    "coinnesskr:234850",
-    "url:https://t.me/coinnesskr/234850",
-    "news:211983013895521",
-    "url:https://cointelegraph.com/news/bitwise-hyperliquid-seek-sec-rule-changes-for-token-trading-airdrops",
-    "news:44757344789614",
-    "url:https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNXVMOG4wSjhOT3JuMG9fZGZnaTdQX2I3NGJKQTF1Rk5lNUlEZk1xSXFnaFIzdkRWNkJ3UFVJWkpxX1kybGRCMEdvQzVqVlFIWFAtN3hpd2ozeGFSemZvdEpWd3Uxbjg1UmlFemxFcC01YXlNdnVnTjI3aGJYc0t2Sjd1Z0QxWHpwbHhj"
-   ],
-   "img": "1e6238aeb3ca87063da02fd3fe35e879",
-   "head": "SEC·CFTC 크립토 규제안 의견수렴, 같은 날 겹침 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 634,
-   "at": "2026-10-21T08:34:58.899828+09:00",
-   "kind": "insight",
-   "fp": "e37b4a54905d7c7e",
-   "refs": [
-    "news:133653480171903",
-    "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE9BVmpIZzZ0ejdOU3h4M1ZHdEJJeUVZWlVCdlVVSklYS3pfWk5DdkQxbFF5VzBVYzE5UWNNVGFPYlZYV3JQalFJTUVXOVVUcVc3T0lQTlUyUlptbGJ2czZicFhtYkRXQ0kzS1F6TXJMLTNQaXc3Smp6QmZnUdIBgAFBVV95cUxQTnlpWHI1ODgzc0RaWktFYlN6ck5BeFJmLXBPeXJjd2JaTDZleEtSX21tODFjQmN5dTVWeDhhWExEb0xwLTI3U0FybkhiVlRzRHlKT2VjR25fd0puZ1VqRVdIZUJ3VXo3V2dtNkRuZUg3OHoweVZjR3hKVEtiWVpmZQ",
-    "news:224179457507348",
-    "url:https://news.google.com/rss/articles/CBMicEFVX3lxTFBocGJSbUZMZGlGbEdmRlV0SVcySkJoLXdTV2NNREN5OWpmWnFFUHE1QXVZMmU3bHNsWkswWENUMlFjalFnOGRWU21TSXFseU5nRVd0QjV3cndvZU0tcllMS2x5bjduOWFXOXV3ZWh6Zkk",
-    "news:90642916721029",
-    "url:https://news.google.com/rss/articles/CBMibkFVX3lxTE5WTGNiOWtib24xaXgxbHdGUEFHd082dl9zT2pTZVdQUnhudGtKeU5VZW9KS3I5WERrb0tJVTFSc2tuX0JVUXNjQ0Jwcjc3blpzdzZPZEUzUHpIWjRpUDFLZ0RSanhpMDZidVN3RVdn",
-    "news:23828883887969",
-    "url:https://news.google.com/rss/articles/CBMicEFVX3lxTE5kMDdxMG5MX1BoUlRSMnRZaTVKMEFBWTVSSnZNNzhQS01GQlRXNnlxc0VGSFJqeTdNckdIdm9qcVU2TmV0bFhDcXJ5WDVtNnZjUmJnMXJkWFhQeHNvd3dpb0xCV1JwaERtYmdSXzBVVkXSAXRBVV95cUxPZE5NWmdJYTFxTnM1NTZGQkZXNUt6Ui1XUHpjdmg4dG0yQkJMbTJRMTUtT0FNTkhsTVdCWlJURGhidHlmY1ZJLWhSODM0Rmw4OHlGNkR3bFl5SkFzRnVIRWdCaE9ZbGdxSU9RWXJldXduNU5mTw"
-   ],
-   "img": "e03fdb9997e585bf7d12324015ea5e00",
-   "head": "속보) 삼전닉스 프리마켓 2%대 강세 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 635,
    "at": "2026-10-21T10:04:40.959088+09:00",
    "kind": "insight",
@@ -760,7 +719,19 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 683,
+   "at": "2026-10-24T09:00:43.420104+09:00",
+   "kind": "brief",
+   "fp": "69a845a5f53be3d8",
+   "refs": [],
+   "img": "0f0d7a427ff18370202aab3831908174",
+   "head": "☀️ 10/24(토) 아침 체크포인트 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-24T07:00:39.246771+09:00"
+ "last_pub_at": "2026-10-24T09:00:43.420104+09:00"
 }
