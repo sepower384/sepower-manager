@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 643,
-   "at": "2026-10-21T22:52:23.055440+09:00",
-   "kind": "insight",
-   "fp": "cec4648e846b9c4c",
-   "refs": [
-    "coinnesskr:234943",
-    "url:https://t.me/coinnesskr/234943"
-   ],
-   "img": "5e8bb644dc582f6d4910ce60e2324e8f",
-   "head": "미국 OCC, 지니어스법 최종 규정 어디까지 나왔나 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 644,
    "at": "2026-10-22T00:42:23.831504+09:00",
    "kind": "insight",
@@ -717,7 +702,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 693,
+   "at": "2026-10-24T23:35:05.723953+09:00",
+   "kind": "insight",
+   "fp": "9e86a38959fc97c8",
+   "refs": [
+    "news:1310833992770",
+    "url:https://news.google.com/rss/articles/CBMiVkFVX3lxTFBGeGNiUGViRkJlOXZ6M04tckZRc3huN2ZlQnJCcXJHZGswS0tKSUh0bXg3NEdBbzdUU3hzek1xMGtmbVJ2dk5RNHRHVEUzOVVKVi1NU0FB0gFbQVVfeXFMTlhzVlVFcy1sWVZnVERKVVpWSEtkdWdWMTlwZ045WV9VRDBhenozTkxoYV9Gd1ZqT0hOYmpmNEx5Nk1FMTdEYU92ZUduQ0pieThvQ0NlN1k0SjBOMA",
+    "news:127711396547577",
+    "url:https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rTnFzQ1lMbDVCR0d6djd4Qy1DUFVkWUI2UDdUVFR1R0hmYUZndWgyNTNyUlRDS2RxOVNpNkNua3Z0aHVFN01ONmNKXzUzRWJPNTA2SGZn"
+   ],
+   "img": "9f39bdd2998fecf86fb9c9964664e096",
+   "head": "클래리티법 막히자 세법이 먼저 간 이유 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-24T21:34:58.821604+09:00"
+ "last_pub_at": "2026-10-24T23:35:05.723953+09:00"
 }
