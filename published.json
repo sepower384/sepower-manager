@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 640,
-   "at": "2026-10-21T17:52:19.670843+09:00",
-   "kind": "insight",
-   "fp": "f7e209bb8691eba6",
-   "refs": [
-    "news:267892740302967",
-    "url:https://www.blockmedia.co.kr/archives/1154324"
-   ],
-   "img": "927913230793343debff3c88f4f1f6e6",
-   "head": "속보) 위불, 칼시와 손잡고 내달 미국 고객 대상 BTC 무기한 선물 개시 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 641,
    "at": "2026-10-21T19:34:24.939858+09:00",
    "kind": "insight",
@@ -723,7 +708,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 689,
+   "at": "2026-10-24T18:30:35.905609+09:00",
+   "kind": "insight",
+   "fp": "aa38724020ce3c71",
+   "refs": [
+    "news:176183749086316",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/426878",
+    "news:93244611807497",
+    "url:https://cryptoslate.com/ethereum-staking-yield-is-losing-to-cash-rates-so-why-are-investors-still-lining-up/"
+   ],
+   "img": "0ec944ea635c737aeb660e30b40f1c79",
+   "head": "ETH 스테이킹 보상 2.2%, 유로 1년 이하 신규 예금은 2.10%. 이 정도 차이에 대기열은 135만7636 ETH, 활성화까지 약 23일 13시간임 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-24T17:04:16.999415+09:00"
+ "last_pub_at": "2026-10-24T18:30:35.905609+09:00"
 }
