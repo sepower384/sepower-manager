@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 646,
-   "at": "2026-10-22T03:42:18.659421+09:00",
-   "kind": "insight",
-   "fp": "47f1b8e4921202cf",
-   "refs": [
-    "news:94532221173833",
-    "url:https://decrypt.co/381538/musk-spacex-tesla-merger-bitcoin-treasury-behemoth",
-    "coinnesskr:234982",
-    "url:https://t.me/coinnesskr/234982"
-   ],
-   "img": "93a03e1abe2c485ee0733c79c63a5872",
-   "head": "속보) 테슬라·스페이스X 합병 검토 위원회 구성, 합치면 BTC 30,221개(약 25억 달러) ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 647,
    "at": "2026-10-22T05:34:35.608748+09:00",
    "kind": "whale",
@@ -725,7 +708,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 697,
+   "at": "2026-10-25T04:30:31.846620+09:00",
+   "kind": "whale",
+   "fp": "7b23ac8a26c605ef",
+   "refs": [
+    "whalealertkorean:174073",
+    "url:https://t.me/whalealertkorean/174073"
+   ],
+   "img": "b31a1b0b98a4209796879d88bc09c5ca",
+   "head": "🐋 고래 대량 이동 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-25T02:30:30.188265+09:00"
+ "last_pub_at": "2026-10-25T04:30:31.846620+09:00"
 }
