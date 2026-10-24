@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 635,
-   "at": "2026-10-21T10:04:40.959088+09:00",
-   "kind": "insight",
-   "fp": "60ed9de7c84470e6",
-   "refs": [
-    "news:181535415094615",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/425258",
-    "coinnesskr:234861",
-    "url:https://t.me/coinnesskr/234861"
-   ],
-   "img": "f3a8357931d4e5ef465cba93916cc620",
-   "head": "속보) 문페이, 두나무와 스테이블코인 결제·자금관리 협력 추진 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 636,
    "at": "2026-10-21T11:52:19.751042+09:00",
    "kind": "insight",
@@ -731,7 +713,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 684,
+   "at": "2026-10-24T10:30:32.404299+09:00",
+   "kind": "insight",
+   "fp": "38690df6b25ce3d6",
+   "refs": [
+    "news:119267005069314",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/426751"
+   ],
+   "img": "fe1242b5b5e49f7a03c53daf9aa05728",
+   "head": "BTC는 안전자산일까 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-24T09:00:43.420104+09:00"
+ "last_pub_at": "2026-10-24T10:30:32.404299+09:00"
 }
