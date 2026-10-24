@@ -1,27 +1,6 @@
 {
  "posts": [
   {
-   "id": 642,
-   "at": "2026-10-21T21:12:19.795487+09:00",
-   "kind": "insight",
-   "fp": "129d8c26fae20d42",
-   "refs": [
-    "coinnesskr:234926",
-    "url:https://t.me/coinnesskr/234926",
-    "coinnesskr:234936",
-    "url:https://t.me/coinnesskr/234936",
-    "coinnesskr:234939",
-    "url:https://t.me/coinnesskr/234939",
-    "coinnesskr:234941",
-    "url:https://t.me/coinnesskr/234941"
-   ],
-   "img": "5865928745d7449f68631f53992da669",
-   "head": "BTC 8만대 초반 횡보, 위아래 어디가 먼저 시험받나 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 643,
    "at": "2026-10-21T22:52:23.055440+09:00",
    "kind": "insight",
@@ -722,7 +701,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 692,
+   "at": "2026-10-24T21:34:58.821604+09:00",
+   "kind": "insight",
+   "fp": "2bf0e33aa624dcec",
+   "refs": [
+    "coinnesskr:235289",
+    "url:https://t.me/coinnesskr/235289"
+   ],
+   "img": "d50f2f988ba0d168eaf49dca19ee3cb7",
+   "head": "속보) 비트코인 월렛 일렉트럼, 심각한 보안 취약점 수정한 4.8.3 긴급 배포 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-24T20:00:37.653056+09:00"
+ "last_pub_at": "2026-10-24T21:34:58.821604+09:00"
 }
