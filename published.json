@@ -703,7 +703,41 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 706,
+   "at": "2026-10-25T16:00:47.161533+09:00",
+   "kind": "insight",
+   "fp": "46bb3a763bf1c6ce",
+   "refs": [
+    "news:14299879817320",
+    "url:https://news.google.com/rss/articles/CBMiYkFVX3lxTE9XckFLck1YdDBJZXF0ZkJpaERZcVg5Z0NvVVgybU9FcGN4LV82SkpnbU5aWmdiMzdkbkV4bl9mMEVoVHNaX0UxYWpGazdFQ2NfMndxbUNDMVltTm1VejExMEx3",
+    "news:235800354682047",
+    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE0wa2lDZXZlTGdQeXdjTDAwd292T3RkQW9XOUthZlQtVXJTaHlQTFN5MTFHNVJQMldsZjdPdm52akJJNkNkVkplT19YRV9YZWhGR2l3SjNOS0FTdlRZd19KLV9EN0xTRUdkdWF0Z3Y4dmpwV3c",
+    "news:122160039110427",
+    "url:https://news.google.com/rss/articles/CBMiZEFVX3lxTE44Q0o1b1NmR1h1Mi10eWV2Q05WR3BBaE5vdUNacmtlRE14OGhoVk1KM25OaDZSd3hmU2E2cmhXTnR0bGVqUWp3QUpPWGtrTC1mcXhaZjU1Sm1OU1FqRnZENWMzWEQ",
+    "news:91254418511317",
+    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE1QejZxc1hPUjN5OHVPbTJTeFZYemRXdkZoSklTMTBPc1hXd0hJZ2xJdEllZEJYMXNldmE4M19fYldQM01ScTJweGpUc0JWR1JsdlAxbzluVlZPWGkwOTFkT1B6ZnVZbHdSZnVaVA",
+    "news:194241192188049",
+    "url:https://news.google.com/rss/articles/CBMiUkFVX3lxTFBGbEE0b0l5TXdRNF9RTGdQNGxTLVEzYk1YOGVySGdtbmpFTkN1YVNhVHkzckxXcWpOMmN1QmRlX3piVjJEZ0pzNks5SEtsdlViZWc",
+    "news:153784381118582",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE5nNDJIYW8zQ1B5YkNRLVhRenBiV05EMDFfSXgwTklhelk5ZkZ6UXBvMm5Odzk1LU1NR1B2bU5BQlBCRDBpR202bHViVVFfR0NLUy1HLW1YVFFocWZBUFd2eg",
+    "news:104625549311579",
+    "url:https://news.google.com/rss/articles/CBMiS0FVX3lxTE9NUG5XNFVDSWZ0dU5mOHRQeG9sNVFYaXpxNEVDVHZLcmV6UGdmdmJNQmx5R21BNGxnQlZSNnMtakI2TExjWFRzdEZicw",
+    "news:210428603435030",
+    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTE53Nlc5M01URzN4N3pyMzZDSjQyVkpWRWx4SE8wUzRRdWRXWE00dkRDSHNlbkVxVkZpWHFuUzd1NmJMbThva2R3VnNnc2hLUl9RY1V6NW5ESnBIQQ",
+    "news:145636516122829",
+    "url:https://news.google.com/rss/articles/CBMikwFBVV95cUxORXJ5UndNWTEtNHFZNnNLdnBkd1VBRDJoaUthUDhrdmhlOTNTZTk2cHMxUXhaTzJ2MTFHcjNHYjhIYjg5TldPUlpUdGh2YVVuUDNpS2JrM0FnNFZrazB0eGRYTXhJZ0R1OU1YRUM1VGRkUnZGb3MwS2RZWUdBd0JYWUhDRnd3dmVVbzBEc0Q4Y0hGLWc",
+    "news:229073887185475",
+    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4UFBwaV9vZkhYNVRuNW40b1lsN2xnbHBEbU0ycGptTGlMTmpnaDZSNklhclZmMEttMlh0ZGNGczJSa0IzU3BOVFZEZjVMdm04ZEljTnM5TjlvUQ"
+   ],
+   "img": "53d2362f2186a82af64dd267c1999ef9",
+   "head": "속보) 청와대, 내년 1월 가상자산 과세 '유예 검토' ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-25T15:30:32.941142+09:00"
+ "last_pub_at": "2026-10-25T16:00:47.161533+09:00"
 }
