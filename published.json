@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 658,
-   "at": "2026-10-22T19:50:40.845633+09:00",
-   "kind": "insight",
-   "fp": "f0ccc776e128144f",
-   "refs": [
-    "coinnesskr:235063",
-    "url:https://t.me/coinnesskr/235063"
-   ],
-   "img": "d85ff06f3e42310d690ee8f931d377d2",
-   "head": "로빈후드 체인이 이더리움 수익을 추월했다는데, 헤드라인만 보면 놓치는 게 있음 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 659,
    "at": "2026-10-22T22:00:47.560981+09:00",
    "kind": "insight",
@@ -733,7 +717,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 709,
+   "at": "2026-10-25T21:30:34.467022+09:00",
+   "kind": "insight",
+   "fp": "50c56adc87fe3710",
+   "refs": [
+    "news:130096302920280",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ySFdKSU9IVzEwcVQ5aS11TXkzTU8yT0FRZVVMNWhhSEZKRmVDc3FFUHFITXdQRnNWTGxMUmE3OW9NdnY4OUZRTG5GeWFLSjNsdUpDejJNdzjSAV5BVV95cUxNcWVOOVROd0g1N0w2YnlrUEwzeVhtdVdqb21jcW9ZeUtDeGxNcUlGYTVCRWxMMzRVNDg3MEVTcFlwSnFxN2ZpMTdvcU5VamUxazRnSGVvZDdGM21XOVdB",
+    "news:55060017595421",
+    "url:https://news.google.com/rss/articles/CBMilwFBVV95cUxOUnVqNFZtMWdtM21HSVg5VVlNanRuNU45bWJjRXhDaWZCekNRWEtmaFRkNFJqZXRPOHRGZG9vZFBJUWpqa0N4UUxJYnREdTVNXzdGY3hhUzg5RmV1TFBoa0dFMV8wcHNyV3p3YmU2X0VNU0V0TDFTcUJDVldVT0ZReU5lYllPQ1BBVjZ0d1FhQ3JaWXZsRTRF",
+    "news:264222806334683",
+    "url:https://news.google.com/rss/articles/CBMie0FVX3lxTE52bi1DY2h0d2dObXVjRjVSUzlLa2FCLWJoUVpJSWhCS3ptcTZmMzJkNVhaMGliREFmS0FoVElDQmx1MFhobkxNY2Q4UUM3Tlo5RWFqU2RDdDVrS1Z2bVNYb3RmU0V4OWtqNWZVLXNaU0FRUTNyTDlzbUVvcw"
+   ],
+   "img": "6f82c9ef3aa7dabae7734408d505c749",
+   "head": "SEC 3배 레버리지 BTC·ETH ETF, 뭐가 승인된 건가 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-25T19:30:33.178579+09:00"
+ "last_pub_at": "2026-10-25T21:30:34.467022+09:00"
 }
