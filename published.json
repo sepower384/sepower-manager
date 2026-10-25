@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 661,
-   "at": "2026-10-23T01:07:57.007368+09:00",
-   "kind": "insight",
-   "fp": "40d8dca6400ec4b3",
-   "refs": [
-    "coinnesskr:235092",
-    "url:https://t.me/coinnesskr/235092"
-   ],
-   "img": "5e3076b5d50c544b9b650c0b2ec0729d",
-   "head": "BTC 현물 ETF 자금흐름, 선행 지표는 아닌 듯 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 662,
    "at": "2026-10-23T02:30:39.640555+09:00",
    "kind": "whale",
@@ -737,7 +721,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 715,
+   "at": "2026-10-26T02:05:22.977612+09:00",
+   "kind": "insight",
+   "fp": "4c868975e354405c",
+   "refs": [
+    "news:237445435605901",
+    "url:https://news.google.com/rss/articles/CBMi6gFBVV95cUxPS3lEbTI1UzZfOUJ6MDZFRS1GTzdWQ1N5QTlxYzIxc2FGWHh3d29qb3dTcGdXWXE0WXJlTENLQzU1R2FuN0tDY1R1WW1rUm02aHdmV1FQNU4zSzl3Wnk2Y0MtVGRiZDBOOFJ1bFk5UDdHSUFSVHdxRUxxVUV6alRpNUxfZnczQ3dBZnk5ZzNweGljMUNEc2x2bm1LU0xibjNlWFdVRHVwbmEyTkgxSnBFS1U5S0J1M19NUkJ2WHZWM1U3akEzb3FtWm1TNG5US242S0hLc0VET2NoN0ZYeDdTX3pSc0dJcEpTdHc"
+   ],
+   "img": "d10fa99d37244fc171efe366c41da95b",
+   "head": "XRP 이번 주 보합, BTC·ETH·SOL은 하락 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-26T01:00:45.115539+09:00"
+ "last_pub_at": "2026-10-26T02:05:22.977612+09:00"
 }
