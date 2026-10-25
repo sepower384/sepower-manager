@@ -1,36 +1,6 @@
 {
  "posts": [
   {
-   "id": 659,
-   "at": "2026-10-22T22:00:47.560981+09:00",
-   "kind": "insight",
-   "fp": "fb321a3b1bde23a5",
-   "refs": [
-    "news:62241332229262",
-    "url:https://cryptoslate.com/solana-targets-faster-finality-while-wall-street-cuts-the-cash-that-must-move/"
-   ],
-   "img": "94d776e1af454736f522dcc5c262743d",
-   "head": "솔라나 결제 최종성: 월가 넷팅 vs 알펜글로우 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 660,
-   "at": "2026-10-22T23:27:26.136716+09:00",
-   "kind": "insight",
-   "fp": "6c1039a0228cd114",
-   "refs": [
-    "coinnesskr:235085",
-    "url:https://t.me/coinnesskr/235085"
-   ],
-   "img": "df3d76099032fe12500b62d32577e352",
-   "head": "이더리움 최종 확정 16분→4분 제안, 크로스체인에서 뭐가 달라지나 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 661,
    "at": "2026-10-23T01:07:57.007368+09:00",
    "kind": "insight",
@@ -737,7 +707,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 710,
+   "at": "2026-10-25T23:30:31.686359+09:00",
+   "kind": "insight",
+   "fp": "a13fdf04149494b0",
+   "refs": [
+    "news:58930178860863",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/427147"
+   ],
+   "img": "a3dc560bbe035975ef193ff88cdfbcaf",
+   "head": "IBIT 주간 5억6570만달러 순유입, 근데 방향이 뒤집힘 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-25T21:30:34.467022+09:00"
+ "last_pub_at": "2026-10-25T23:30:31.686359+09:00"
 }
