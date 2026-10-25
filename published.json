@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 653,
-   "at": "2026-10-22T12:04:26.058236+09:00",
-   "kind": "liquidation",
-   "fp": "63df558991d27213",
-   "refs": [
-    "whaleliquidation:3124348",
-    "url:https://t.me/whaleliquidation/3124348"
-   ],
-   "img": "2abf61f7111f89eda4f296f658031d97",
-   "head": "💥 대규모 롱 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 654,
    "at": "2026-10-22T13:27:20.460535+09:00",
    "kind": "insight",
@@ -705,7 +690,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 703,
+   "at": "2026-10-25T12:30:34.728183+09:00",
+   "kind": "insight",
+   "fp": "7baea0759cebadfd",
+   "refs": [
+    "news:257400955553682",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/427054"
+   ],
+   "img": "c0ced8b4384a8f16a0eaad17bb8f474e",
+   "head": "영구우선주로 BTC 13.6만 개, 숨은 포인트부터 볼 것 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-25T10:30:31.289611+09:00"
+ "last_pub_at": "2026-10-25T12:30:34.728183+09:00"
 }
