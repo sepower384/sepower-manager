@@ -1,41 +1,6 @@
 {
  "posts": [
   {
-   "id": 650,
-   "at": "2026-10-22T09:17:19.742919+09:00",
-   "kind": "insight",
-   "fp": "503cbab638598b45",
-   "refs": [
-    "news:196744738766501",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE5kQXRRQlJiSUY4YlNLQi0xSmxYSW0teGlCenBoaVJOemszV0tYNjNUQVNfNlFhRHpRdWQyZlNMd3BjVjNiNC1nM0Zn",
-    "news:129658819511500",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFAtYnFGRC1Wa1ZESEVlOVhjMjMxOE5kczUxUEh0S3RaNE9VMnU1MTZkbFp6eFE5V2ZLZFBEY1RQN01GMER0VGZpM2JR",
-    "news:263022632647938",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFA1TmhwMW1ORmh3aGJSOFM1M2FLNldydGgwTU9Hb055UEtVclZqazUzRTk0UmZpb3RMekR2NW8xTUZBNFAtX2tkcHVR"
-   ],
-   "img": "b3493231eea1c9170cb51c8077d88e2d",
-   "head": "블랙록 ETF에 하루 8,130 BTC 들어왔는데, 이 반등 진짜 수요일까지 갈까 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
-   "id": 652,
-   "at": "2026-10-22T10:04:50.449045+09:00",
-   "kind": "insight",
-   "fp": "9f9fc8e0a8fbae55",
-   "refs": [
-    "news:7905461683874",
-    "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JaXFFX0swUG9qSF85VnVvd1dXbFMzcUIyVFZCdzV6NkNUTDF2bDI4ZDR2SjRydXh2LVVhT2RkMjVwMVp6T1FyclhyUW5mcGRPMWd3M3NKMDBIOUk"
-   ],
-   "img": "bf0b60d61724026b1b25fd4ae3c9006d",
-   "head": "속보) 김민석 “가상자산 과세, 올해 안에 정리해야” ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 653,
    "at": "2026-10-22T12:04:26.058236+09:00",
    "kind": "liquidation",
@@ -728,7 +693,19 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 702,
+   "at": "2026-10-25T10:30:31.289611+09:00",
+   "kind": "brief",
+   "fp": "8bb9475c23e5e690",
+   "refs": [],
+   "img": "e7a5f9e2133ced5be98f2f402f744a4d",
+   "head": "☀️ 10/25(일) 아침 체크포인트 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-25T08:30:35.745493+09:00"
+ "last_pub_at": "2026-10-25T10:30:31.289611+09:00"
 }
