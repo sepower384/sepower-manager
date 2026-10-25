@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 655,
-   "at": "2026-10-22T15:22:22.087359+09:00",
-   "kind": "insight",
-   "fp": "cc3b5ea30bf5eb32",
-   "refs": [
-    "coinnesskr:235033",
-    "url:https://t.me/coinnesskr/235033",
-    "news:237436328540383",
-    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UX09jTHNrNEZvMFBiYlI5WVZuMURrQ2I0RkliYVVmTWRzeVk5ZE5pTVpRN3ZzUVphZlU1eEozeHpqeURocWxCRFRtTkVKT1dpeFBvSXRJcDRZdw"
-   ],
-   "img": "18591671e1335a850850101737fc6195",
-   "head": "가상자산 과세, 국감에서 나온 답변 정리 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 656,
    "at": "2026-10-22T16:38:04.406138+09:00",
    "kind": "insight",
@@ -706,7 +688,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 705,
+   "at": "2026-10-25T15:30:32.941142+09:00",
+   "kind": "insight",
+   "fp": "27e309e7e95ae7d4",
+   "refs": [
+    "news:258931801546955",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/427104"
+   ],
+   "img": "f4d2c29a4589230e831128c9d78c471d",
+   "head": "주말에 美 증시는 닫혀 있는데 온체인 주식 토큰은 거래됨 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-25T14:00:41.328016+09:00"
+ "last_pub_at": "2026-10-25T15:30:32.941142+09:00"
 }
