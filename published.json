@@ -1,27 +1,6 @@
 {
  "posts": [
   {
-   "id": 666,
-   "at": "2026-10-23T06:35:28.742350+09:00",
-   "kind": "insight",
-   "fp": "f197d3c9f571afaa",
-   "refs": [
-    "news:382797735802",
-    "url:https://news.google.com/rss/articles/CBMie0FVX3lxTFBvcDVTTTNhbzlQejFESTFsREJON1dVTlVFbENoeTlIU0hISTJnYmY0X1V2cWNEYU5nWV96cV9lNnpkUUphVGJVdEhnRFA1bm84d2s3V0J2ZmJkeUl1S043OGNHY2wtSk8tZ2dIY0hEdUNPMEZWajFZbDBEWdIBgAFBVV95cUxOTU1BRkRyckN5b05SdEYta3h5QmhadWpKdHpoRU9FZXh6NVRNRWJNakU2d0JsbUlLOTRHS0tEbXFfd2RCb2EwWTR0blRtVXVSOGpIMFBjOWNxbDdQVHJZdm9tbEkxakpjR0twbWhIVmtGUFJ4UVgwd0wwX2lEV1J5Uw",
-    "news:134970998227679",
-    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHc2xfUUNVbGxMbFViVW94OU95UVN6YndIZ0Q0eWNLWDc4a2tUZUVrbFBndnJMaURpQmU3Q0pON0lPT1hvWmtFcy1mTDdOWHMwY2tsWEZ5QjVuR3hEdldMTDdjRUR1ajQ",
-    "news:28160194937029",
-    "url:https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rSVd3R1p3bV9xNV90T2ZGV0Exa0VmRHFJejNzTS1COXpoaHdMSDFPdEtzb3NqSElLRi1oZUM2YjM1U1dvcUxoUGxxUDhXYTZ4LVJxMzdkQmc5cmfSAWBBVV95cUxNSWlxOEdZcjc4UnFKUFNyQWVSSnZVZk5OX3UyUHk5SXNPUVBmamNFQkZHUlg3ZkZQZWliTUV1UlYzU29CcXF2VE5aUV83ckxZVkFsbENpRGoyVm1oZUVqang",
-    "news:39177633912451",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9DM1RtMVp4VTJsUFhzYXhrdlQ3UDNwc0hjQXpnNHh1dmtNWTc5ZmJGV1F1MUR4WHhrN05Idk1WTktrcktrbDc1ZEItY29VT05RQ0dCRkF2OGE"
-   ],
-   "img": "c4e990454caf7741a39eabf6fe77aba2",
-   "head": "속보) 美 10년물 금리 한 달 만에 5% 아래, 4.95%대로 급락 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 667,
    "at": "2026-10-23T08:30:37.585385+09:00",
    "kind": "insight",
@@ -721,7 +700,31 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 717,
+   "at": "2026-10-26T08:00:39.747182+09:00",
+   "kind": "insight",
+   "fp": "ec15ab0cef9c61fb",
+   "refs": [
+    "news:233174537257698",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/427231",
+    "news:121959527197827",
+    "url:https://www.blockmedia.co.kr/archives/1155926",
+    "news:187248292145724",
+    "url:https://news.google.com/rss/articles/CBMi-gFBVV95cUxPbS1CT1p5OERnaDhUQm1COXh1eGdVTm1makdFRnQ4QzFaNHlyN28zRWd5bUJzVjBCM2tLdWtZcElURmtsdFhMNUZTelk5WVlSaFUxMzVvVEVZXzRpMEthOVpzaGlpeUp0cUhIbGZXQXJWY1lEdUZFM2dOdllRbG95Vzh6NlVCU2dXMHdjNjhPUG04YlZGb0ZVUXctRG0tcV80MGdzT0MxQm5BSFNjbmZmNVJlVnk5al96QlZxYlNTS1djalRfWGpWZ1FsZzBMRlFVdnpXOGFnd0Z3Z25CZVJmcUU1SEk0U2JEQlRNOGlyZ2VMb3JFUV9SbFRn",
+    "news:161538794342212",
+    "url:https://news.google.com/rss/articles/CBMiUkFVX3lxTE96SFRuelRRbmZRWW1kdnM1UkxGUVZWenFlUEltYzcyY1Y2bkJLYURCQ3Z5ZXBmVzlKOVUzSEo4LUhTdXRFZ1JmQ1NFT3d5ZGFpRmfSAVNBVV95cUxNNm9mMGR0S2RsUjAtQXZjYlQ2UFV3TnJOOTRvUk9WX2Y0MG91RG5fdVE5MjFnVnN4TEkyWEwwMXlzX2h4ay1peHRid1NVdzFra2ZZTQ",
+    "news:258160406914206",
+    "url:https://news.google.com/rss/articles/CBMitwFBVV95cUxPSW1NYUN4NVZhLWN4QzJtU0t6UXdUenhUcmZFTkFFUWJvaHFZRmtyWW5HZGFXUUoxMC11MjBZb29CcjVuenRQeXprNWFnbDJZOXplWWw4eFlhT2ZFX0k3MURTQlR5dk0wWHdhVEhlQzdIaDd1NTFTMExTalRTWjJreFZVUDhyNVFpYjZSRVVpNjBKN1gtMllMSnRubHo0SXZOTnM5Vkp4czYxbmZBdVVXLXBzVk1aeW8"
+   ],
+   "img": "e70dca71ca2a3dfdd8686b3c10bf4485",
+   "head": "이번 주 BTC 3대 변수, 시나리오 정리 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-26T05:40:24.009574+09:00"
+ "last_pub_at": "2026-10-26T08:00:39.747182+09:00"
 }
