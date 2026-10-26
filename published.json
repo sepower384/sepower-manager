@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 670,
-   "at": "2026-10-23T13:30:34.984651+09:00",
-   "kind": "liquidation",
-   "fp": "6e5f6ecd2561beba",
-   "refs": [
-    "whaleliquidation:3128842",
-    "url:https://t.me/whaleliquidation/3128842"
-   ],
-   "img": "6a5d1e54251b21a266c32f33ae327f98",
-   "head": "💥 대규모 숏 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 672,
    "at": "2026-10-23T15:00:50.633490+09:00",
    "kind": "liquidation",
@@ -722,7 +707,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 721,
+   "at": "2026-10-26T13:30:35.953643+09:00",
+   "kind": "insight",
+   "fp": "e0fb18ad7de608e5",
+   "refs": [
+    "coinnesskr:235340",
+    "url:https://t.me/coinnesskr/235340",
+    "news:139240319967994",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/427302"
+   ],
+   "img": "888ff264fe2faa757fca46d2f57e30a3",
+   "head": "아브락사스 헤지 계정 숏 12.9억달러, 이게 하락 베팅 맞나 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-26T12:05:19.617668+09:00"
+ "last_pub_at": "2026-10-26T13:30:35.953643+09:00"
 }
