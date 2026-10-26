@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 678,
-   "at": "2026-10-24T02:00:43.692313+09:00",
-   "kind": "insight",
-   "fp": "16ed2bf229ae834c",
-   "refs": [
-    "news:21095325390340",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/426523",
-    "news:29694626907924",
-    "url:https://www.tokenpost.kr/news/briefing/426527",
-    "news:220540532194861",
-    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTFBIRmd0QjJ3LVNVRTVHazhIdlJBX1EtRnRyU3lSUk5vMjJLT0NlNF9TMmZySDRESE9DRkV1bnlKeEF2ZzcwQ1VLYzdfZVVUZV9zTUVIZEhVVHpuZFctVk9ydGR0d1Z0QmxtaTF4ZA"
-   ],
-   "img": "0c8c3df0b61d708d0e352dfd5556f2d1",
-   "head": "비트코인 현물 ETF 하루 만에 유입에서 유출로 반전 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 679,
    "at": "2026-10-24T03:55:58.523520+09:00",
    "kind": "whale",
@@ -753,7 +733,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 731,
+   "at": "2026-10-27T03:00:45.196590+09:00",
+   "kind": "whale",
+   "fp": "cfe11ca9f0604e12",
+   "refs": [
+    "whalealertkorean:174200",
+    "url:https://t.me/whalealertkorean/174200"
+   ],
+   "img": "3743b90558d80ad869e9bc0118d03014",
+   "head": "🐋 고래 대량 이동 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-27T01:30:37.481429+09:00"
+ "last_pub_at": "2026-10-27T03:00:45.196590+09:00"
 }
