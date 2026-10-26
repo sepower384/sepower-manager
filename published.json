@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 680,
-   "at": "2026-10-24T05:00:45.757019+09:00",
-   "kind": "whale",
-   "fp": "00a399e134a288b7",
-   "refs": [
-    "whalealertkorean:174008",
-    "url:https://t.me/whalealertkorean/174008"
-   ],
-   "img": "ceee018c7980bcfd4298d1f83447b984",
-   "head": "🐋 고래 대량 이동 포착 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 681,
    "at": "2026-10-24T07:00:39.246771+09:00",
    "kind": "insight",
@@ -748,7 +733,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 734,
+   "at": "2026-10-27T06:57:05.278277+09:00",
+   "kind": "insight",
+   "fp": "4490a7091c3b4391",
+   "refs": [
+    "news:233103518682705",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/427723",
+    "news:16719634875209",
+    "url:https://www.blockmedia.co.kr/archives/1156614",
+    "news:65975936105514",
+    "url:https://news.google.com/rss/articles/CBMiugFBVV95cUxONkhLOXNGaVFnbmhWbHF0QkVpUDBMZElZbTJNTllBVGtleWFxRDRnZ3M2dTdCeDNqS0VLcmdRNzBCcERMUDBuYWo5NTZsX2c4b3REQmluRU4tejRtbWxONmVQVk5nVnBvSFlZZ3BoRk9HaVcyd0dnVlBlVGhYcmZaVDdNMC12S0htNV91WlRiY3ZzV3NCclI2NHdGa2J2ZXZiZGJSejZYa1Y5QnRxZ3JIVmhHdWlqWXZjZ0E"
+   ],
+   "img": "15191973cef7a189a0148a8a9521892a",
+   "head": "유럽·미국 파생상품이 같이 규제권 안으로 들어오는 중 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-27T04:55:11.630457+09:00"
+ "last_pub_at": "2026-10-27T06:57:05.278277+09:00"
 }
