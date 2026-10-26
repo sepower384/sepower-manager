@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 674,
-   "at": "2026-10-23T19:10:03.252316+09:00",
-   "kind": "insight",
-   "fp": "a0ca3d0e7bd0d222",
-   "refs": [
-    "coinnesskr:235173",
-    "url:https://t.me/coinnesskr/235173",
-    "news:209167073499986",
-    "url:https://thedefiant.io/news/hacks/swell-pauses-sweth-and-rsweth-deposits-and-withdrawals"
-   ],
-   "img": "6a368bb9046b6b2e895de4ec931dd6f7",
-   "head": "스웰 swETH 출금이 막혔는데, 신규 요청뿐 아니라 이미 넣은 출금 청구까지 같이 멈춘 게 포인트임 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 675,
    "at": "2026-10-23T21:01:40.545835+09:00",
    "kind": "insight",
@@ -755,7 +738,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 725,
+   "at": "2026-10-26T19:30:35.765501+09:00",
+   "kind": "insight",
+   "fp": "5efe52ed703da6d5",
+   "refs": [
+    "news:231375385583660",
+    "url:https://news.google.com/rss/articles/CBMisAFBVV95cUxQVGkzSkR4Tjc5OHdsdk1yYnJhdFZkUVV3WGRhWlVaemllMFlyaFRQcDJYX3c3X3FjU2NwaG40Nk5BV2ZxUHJkWXMyY1Z6Smt6VDR0WHpNaWJIemFnNGtxYVItOGNIem03eXNPQ19hZ0tibTJyZDBVVHJNMEVZSnhIUVZ4Q3p2bnE5c0JuUkVUcE5MUWx4X0o0X3RYWVA2ZkZLSmxnZ2RFUlBhWGFCRkpnYQ",
+    "news:148837866768084",
+    "url:https://news.google.com/rss/articles/CBMivwJBVV95cUxORjBGTFZ2SVVSX3ZkZzRLSDRuM3EzRTBZMUExbWpUaGlEM1lrRDdPM3BPeGo0eExXMlBOMzFlbkxtcXlReHhEN3BuZW95RElfNU9aR1d4WDZqU1VKeFJaRktFSDQwMmw3Tm8yVFRwY0RqaGtLdkM4V0RBbGVIWW9CN3A2TWs3UWxXLS1uczJJeGhaeVp5a285Vk1TcVZIMTdjOWNoRks4aWtUV1hTOWZKNG9jdk16NzMyZEFUUEY1RG5GMy12VWhDTWJsR1ZJVXlzRzVuekU2dnZqTlJmQl80VS1BR2ZFdVh5b0FhREdhQTQ0U3VCQzNxNkpIYlJoTWNDZi1MbXVPanQ2RWxWZE5KTjZ1Y2hKM2xqVkp2R0t4bHJGdmFVemNUS002VWZwOHZxMTExcDR0Vy1BYk9yRHlz",
+    "news:50652120093626",
+    "url:https://news.google.com/rss/articles/CBMijgJBVV95cUxNamJfVWxlMzBtSXBzYnhQUDFqckxoWFowanRMaEI5dy1XWFJRXzZydW1sM215cldCR0hiVEdDU1BQdW96OWM3YVFPZjBSb1ZXZEFWVE00WmNRTW5ULXRHdGNNbnBQUlpxYmZuOTAxSWhPOGxfcHdsdFFJZUxIenBTQlRzTGY0UXpvVUhoa3JsRFBPNWdfQ0tOSFU2OC1IaExoYXNHZ19QcVYxVk1pUjZ1eEE0UTk2a1d3VFJMQ09UTWUzdUVGaG4xbW9nc3NZMEdDUTRCRHhMdGZnSFJmV0hZN0pQRTdpLUdMdV81c1ViY2NSczFrYW1YMU5KcE9tcW1sMmdteVFuSFAzTWNDOEE"
+   ],
+   "img": "fdf3cfa4cf0063c50b34508ea84f0eff",
+   "head": "이번 달 ETH ETF 유출, 월간으로 보면 이미 10억달러 넘음 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-26T18:04:43.175981+09:00"
+ "last_pub_at": "2026-10-26T19:30:35.765501+09:00"
 }
