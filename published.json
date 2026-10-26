@@ -698,7 +698,31 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 720,
+   "at": "2026-10-26T12:05:19.617668+09:00",
+   "kind": "insight",
+   "fp": "cf7e8decc569b279",
+   "refs": [
+    "news:243151704830674",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTFBySXJZUENMaGdEb2NZT1d2Q3A0X09Vb0tSb0l2TVd1dFVwYTBsMjRENDVkR2tsaG9MMl9jLWQ3a0JPZ3VzZDcya290RTBuNVhQcGhWM1VEOWNWMHp6dndRSFFueHZQVkF3",
+    "news:213972229280063",
+    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wSHlNRGppZUlEaDFrVDhXckF4X2k1Y3U5OGFOS1ZQXzBIUlVnZjIwamUxc3dnSTlydWF2aDMwbWJmS2hqZy1laU9FWXdGYVp6dnlEOVBXeDBmUQ",
+    "news:172986497737990",
+    "url:https://news.google.com/rss/articles/CBMiakFVX3lxTFBURnBqYnk0UFRqMkV6cWxkcU84RG9HZG50RFZLYmZnRzZsNWNGcm5UUTVDRFJWVmNrTTh2LWNiSk5tc3o1Ny1nZ0RiZWwweVpZOXZTV1BhNmtZNUgySndhWXkwdm5HUVdBMWfSAWpBVV95cUxQVEZwamJ5NFBUajJFenFsZHFPOERvR2RudERWS2JmZ0c2bDVjRnJuVFE1Q0RSVlZja004di1jYkpObXN6NTctZ2dEYmVsMHlaWTl2U1dQYTZrWTVIMkp3YVl5MHZuR1FXQTFn",
+    "news:166909543600422",
+    "url:https://www.tokenpost.kr/news/briefing/427301",
+    "news:9335669451275",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE9XUWpZMnctTEJTZU1WY0hjOEozS2N5NDJ0bFlIS3RobnFldVNUd0w1YXVLbEhJY3R4OFRHNEdsXzNZNklqQUc2WU9R"
+   ],
+   "img": "78e927c6d740ffe6307663025bef4b82",
+   "head": "속보) 비트코인 다시 8만달러 밑으로, 현재 약 $79,597 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-26T11:34:24.997456+09:00"
+ "last_pub_at": "2026-10-26T12:05:19.617668+09:00"
 }
