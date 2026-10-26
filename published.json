@@ -724,7 +724,24 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 722,
+   "at": "2026-10-26T15:00:44.039340+09:00",
+   "kind": "insight",
+   "fp": "62104ede2773207e",
+   "refs": [
+    "news:133287546825354",
+    "url:https://news.google.com/rss/articles/CBMizAFBVV95cUxQaTA2YmNMdE9jaVN4OUxzTTlkeHlMQlVKSlpKZTMyZ2xFa3lBTVpIMWVTVW5iaTFqeDRfMHNLQVhaQ3ZMWjZOZGY4a3dNZGVVQ0dQTEdlaFcwUTVpQnN6SHpneFE4NGRxdk85aWR2MktrQ3E3MkNEQUF4N1F1VjdJZjUzNFI2Tk1qRHQ1LUNFUHFUcUt2U2YxMVEzeGlGZlZra2w1ZnN3YUVlUDhVUlhvakc3dWh4Nk84UTZBTXdkbXNYTE5ueGJDN0xkZjk",
+    "news:127403515176483",
+    "url:https://news.google.com/rss/articles/CBMiowFBVV95cUxQZkpzWWMtVjloNnZUa1h4S3JyVGlxMnNEaE9ILTVLOVhPdkhNejdXRElwOHI1eHV4bVNDQVZ4VWdJejBGaWh2RE9jSTFrbDF6c2U1dEN2Wm9NcVdqSmN6X2hldlkzNFloV1NpQ1hMSERRZTExcWltWG40Y1ZCQ2YxQmh2dlVMVUJPaXRLUWhpRl96YUtyejRFakJidFJlOUl1SXc4"
+   ],
+   "img": "05d3dbc605f62baaf49608a89b97ea65",
+   "head": "ETF 자금 방향이 뒤집힌 건가 싶었는데, 집계 기준이 달라서 그런 것 같음 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-26T13:30:35.953643+09:00"
+ "last_pub_at": "2026-10-26T15:00:44.039340+09:00"
 }
