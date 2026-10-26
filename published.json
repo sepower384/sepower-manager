@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 681,
-   "at": "2026-10-24T07:00:39.246771+09:00",
-   "kind": "insight",
-   "fp": "f0c430fa8e520e84",
-   "refs": [
-    "news:272117779586586",
-    "url:https://cryptoslate.com/bitcoin-etf-outflows-holdings-cost-basis/",
-    "news:59930233053770",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE9VNFVKcl9PVjlSMzFWX1o4YTdkWlplVk9GSDNoc016OGFjRFBQekh1Skx0bWw4aDJWVjdla1Y1LTFXQS1aV1hiQi13"
-   ],
-   "img": "b9d7cd5fca5a72fc6a898e908c1a5d86",
-   "head": "이번 ETF 유출, 숨은 포인트는 '단가'임 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 683,
    "at": "2026-10-24T09:00:43.420104+09:00",
    "kind": "brief",
@@ -753,7 +735,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 735,
+   "at": "2026-10-27T08:30:36.840733+09:00",
+   "kind": "insight",
+   "fp": "0a7dd96038fa4efb",
+   "refs": [
+    "news:261154369412105",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/427618"
+   ],
+   "img": "6955c6665cc510ccda6ec1df5914dc3a",
+   "head": "하월 \"BTC 7만달러 지키면 유동성 전망 재검토 가능\" ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-27T06:57:05.278277+09:00"
+ "last_pub_at": "2026-10-27T08:30:36.840733+09:00"
 }
