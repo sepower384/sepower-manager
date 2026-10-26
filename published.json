@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 675,
-   "at": "2026-10-23T21:01:40.545835+09:00",
-   "kind": "insight",
-   "fp": "36eda23a53998554",
-   "refs": [
-    "news:183498721988615",
-    "url:https://news.google.com/rss/articles/CBMif0FVX3lxTE85R1k4am1kRjRYakIxZ2g5Z29kaHdfa2pUM1R6Q0x3bkJwWG9nRWxPamdnVE4wenhXQjRxN1p0UnIzYk1fN0tSRDJrNEd3a2I1UEtTNGFiLVMtdEZ6LUZOb1JqOFpSRzZiMmFtb3ZmaVRhRS1ER3RSdkhwbC11Zms",
-    "news:194491398322817",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFAwY3UwblJoOTAwdG5zWHlvblc0dkJpb215aGxMWmxnby1seXY5eElteWhOZTNDN0Fic0gxSnFxckZ4MjEzRXpwVEZ3",
-    "news:12852141661027",
-    "url:https://news.google.com/rss/articles/CBMirgFBVV95cUxNWDhMcEtDZmhoQnJMSVBVUzFaWVBqeUczRlRZekhZc1RpYWU0ajVLWlNscVRjQ2UzSS1ZVFRsd3BsazVuR2FtVG5PQVQwRW8zY1FhVzlJeE9SVWEtS1VnZzZROWR0dXdNTVQ1X2pMTDZkdjBleGE0akJRSVpKTXRaWTdfTUJhaktpOFRlaHY5UHdtLUZMOE5HMXR2YkpGODBDU1RoaHFlcGFzeEpJMnc"
-   ],
-   "img": "6a653d7c163b4dfd765a7f55257ccbee",
-   "head": "유가·연료비발 CPI가 금리 쪽으로 번지는 경로 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 676,
    "at": "2026-10-23T22:39:40.642221+09:00",
    "kind": "insight",
@@ -757,7 +737,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 727,
+   "at": "2026-10-26T21:30:42.651101+09:00",
+   "kind": "insight",
+   "fp": "48a4de5778a0bc6e",
+   "refs": [
+    "news:264151260751722",
+    "url:https://www.blockmedia.co.kr/archives/1156118"
+   ],
+   "img": "21c503aace632e0901a1e58a38733b9e",
+   "head": "비트코인 해시레이트가 약 8개월 만에 1ZH/s를 회복했음. ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-26T19:30:35.765501+09:00"
+ "last_pub_at": "2026-10-26T21:30:42.651101+09:00"
 }
