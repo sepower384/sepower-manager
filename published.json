@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 673,
-   "at": "2026-10-23T17:00:45.878518+09:00",
-   "kind": "insight",
-   "fp": "0b1bf871beb8e0cb",
-   "refs": [
-    "news:56815164485118",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/426251",
-    "coinnesskr:235155",
-    "url:https://t.me/coinnesskr/235155"
-   ],
-   "img": "8741a6eb008ac80a2b68e5ba6738f085",
-   "head": "BTC 15만달러까지 조건 3개, 지금 몇 개 충족일까 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 674,
    "at": "2026-10-23T19:10:03.252316+09:00",
    "kind": "insight",
@@ -742,7 +724,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 724,
+   "at": "2026-10-26T17:04:16.899082+09:00",
+   "kind": "insight",
+   "fp": "db3a25250c89946b",
+   "refs": [
+    "news:152157138005809",
+    "url:https://www.digitalasset.works/news/articleView.html"
+   ],
+   "img": "c94b5975822ddb6f067370b8ebf655f4",
+   "head": "빗썸 vs FIU 소송, 진짜 쟁점은 뭔가 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-26T15:30:35.894906+09:00"
+ "last_pub_at": "2026-10-26T17:04:16.899082+09:00"
 }
