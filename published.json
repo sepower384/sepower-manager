@@ -739,7 +739,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 726,
+   "at": "2026-10-26T18:04:43.175981+09:00",
+   "kind": "insight",
+   "fp": "2f1deec0bc1917cf",
+   "refs": [
+    "news:164650576493548",
+    "url:https://news.google.com/rss/articles/CBMiUkFVX3lxTE03S1JwM2VmZnUzLUVVX3hMQWYxTDNveWcwZ0xVSzNHcGRORzdNY0p6T3NpNjJWR1NMU0dEeWthNXphTE1NcTItTlVFZFRSV25iN3c"
+   ],
+   "img": "d27f60dc033186f2a359dc307345a213",
+   "head": "속보) 매경 단독, \"AI 꺾이면 반도체 수출 1천억弗 타격\" ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-26T17:04:16.899082+09:00"
+ "last_pub_at": "2026-10-26T18:04:43.175981+09:00"
 }
