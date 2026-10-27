@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 687,
-   "at": "2026-10-24T15:30:32.026489+09:00",
-   "kind": "insight",
-   "fp": "5cf753f791b9991c",
-   "refs": [
-    "news:108898645998817",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/426843"
-   ],
-   "img": "fed94c5ca55d760cbb4c131b6bb17609",
-   "head": "다들 CME 레버리지 펀드 숏이 롱의 1.9배라고 약세 베팅이라는데 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 688,
    "at": "2026-10-24T17:04:16.999415+09:00",
    "kind": "insight",
@@ -737,7 +722,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 739,
+   "at": "2026-10-27T16:04:39.137534+09:00",
+   "kind": "liquidation",
+   "fp": "0f734a8d7b3b5e46",
+   "refs": [
+    "whaleliquidation:3140997",
+    "url:https://t.me/whaleliquidation/3140997"
+   ],
+   "img": "f34f2ce754d7c7105d98e8e3fe31a7ff",
+   "head": "💥 대규모 롱 청산 감지 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-27T14:30:35.042663+09:00"
+ "last_pub_at": "2026-10-27T16:04:39.137534+09:00"
 }
