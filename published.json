@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 700,
-   "at": "2026-10-25T06:30:33.145428+09:00",
-   "kind": "liquidation",
-   "fp": "9f52d76b6f6b9108",
-   "refs": [
-    "whaleliquidation:3135391",
-    "url:https://t.me/whaleliquidation/3135391"
-   ],
-   "img": "4b3ae47e5830e2f0af2259f6da97669d",
-   "head": "💥 대규모 숏 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 701,
    "at": "2026-10-25T08:30:35.745493+09:00",
    "kind": "insight",
@@ -730,7 +715,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 750,
+   "at": "2026-10-28T07:04:47.162790+09:00",
+   "kind": "insight",
+   "fp": "e4d2ce67feec0dd8",
+   "refs": [
+    "coinnesskr:235653",
+    "url:https://t.me/coinnesskr/235653",
+    "news:203590763233719",
+    "url:https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top",
+    "news:269278091969182",
+    "url:https://www.blockmedia.co.kr/archives/1157250"
+   ],
+   "img": "7f690fb2418a380c4a47a72c79afa87c",
+   "head": "베선트 \"크립토도 달러 지키는 무기\" ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-28T04:43:07.132998+09:00"
+ "last_pub_at": "2026-10-28T07:04:47.162790+09:00"
 }
