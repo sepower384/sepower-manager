@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 689,
-   "at": "2026-10-24T18:30:35.905609+09:00",
-   "kind": "insight",
-   "fp": "aa38724020ce3c71",
-   "refs": [
-    "news:176183749086316",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/426878",
-    "news:93244611807497",
-    "url:https://cryptoslate.com/ethereum-staking-yield-is-losing-to-cash-rates-so-why-are-investors-still-lining-up/"
-   ],
-   "img": "0ec944ea635c737aeb660e30b40f1c79",
-   "head": "ETH 스테이킹 보상 2.2%, 유로 1년 이하 신규 예금은 2.10%. 이 정도 차이에 대기열은 135만7636 ETH, 활성화까지 약 23일 13시간임 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 690,
    "at": "2026-10-24T20:00:37.653056+09:00",
    "kind": "insight",
@@ -737,7 +720,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 741,
+   "at": "2026-10-27T19:03:42.810796+09:00",
+   "kind": "insight",
+   "fp": "813c68cbebb1fa07",
+   "refs": [
+    "news:83925618121588",
+    "url:https://www.coindesk.com/tech/2026/10/27/solana-bug-reports-now-cost-1-sol-as-ai-floods-security-teams-with-spam"
+   ],
+   "img": "9281b61c678d7a27a89153adb43a9b25",
+   "head": "솔라나 버그 제보 1건당 1 SOL 소각 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-27T17:30:34.548065+09:00"
+ "last_pub_at": "2026-10-27T19:03:42.810796+09:00"
 }
