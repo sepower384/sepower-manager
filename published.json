@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 715,
-   "at": "2026-10-26T02:05:22.977612+09:00",
-   "kind": "insight",
-   "fp": "4c868975e354405c",
-   "refs": [
-    "news:237445435605901",
-    "url:https://news.google.com/rss/articles/CBMi6gFBVV95cUxPS3lEbTI1UzZfOUJ6MDZFRS1GTzdWQ1N5QTlxYzIxc2FGWHh3d29qb3dTcGdXWXE0WXJlTENLQzU1R2FuN0tDY1R1WW1rUm02aHdmV1FQNU4zSzl3Wnk2Y0MtVGRiZDBOOFJ1bFk5UDdHSUFSVHdxRUxxVUV6alRpNUxfZnczQ3dBZnk5ZzNweGljMUNEc2x2bm1LU0xibjNlWFdVRHVwbmEyTkgxSnBFS1U5S0J1M19NUkJ2WHZWM1U3akEzb3FtWm1TNG5US242S0hLc0VET2NoN0ZYeDdTX3pSc0dJcEpTdHc"
-   ],
-   "img": "d10fa99d37244fc171efe366c41da95b",
-   "head": "XRP 이번 주 보합, BTC·ETH·SOL은 하락 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 713,
    "at": "2026-10-26T04:00:40.728974+09:00",
    "kind": "whale",
@@ -814,7 +798,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 766,
+   "at": "2026-10-29T03:00:44.043425+09:00",
+   "kind": "whale",
+   "fp": "af5eb5b06c422405",
+   "refs": [
+    "whalealertkorean:174366",
+    "url:https://t.me/whalealertkorean/174366"
+   ],
+   "img": "5a3ccfefec8613b6f1044a679ab5031f",
+   "head": "🐋 고래 대량 이동 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-29T01:00:46.062636+09:00"
+ "last_pub_at": "2026-10-29T03:00:44.043425+09:00"
 }
