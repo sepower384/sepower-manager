@@ -732,7 +732,33 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 753,
+   "at": "2026-10-28T09:30:36.542050+09:00",
+   "kind": "insight",
+   "fp": "3102b695f8d303a9",
+   "refs": [
+    "news:30502419475842",
+    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxOYkUtQm1UTERhcDNTb0dKdlU3SUk0dTFKeE5HN19rd1o0dWc1eVlISVBySDNYWkNYLU9QanlhNEFhX3dRQTZ3R25nTkhjQVNiNjRzX0xqdnBrcEQwR1VyVG9yX3hZb0FTdUxHMjJBOUMyT0hDOS1nekZnSG9ZTDhHVA",
+    "news:275097562656640",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTFB6VGFHeTRtMl9xT3pKZE5qTzlLRGp1bmprZWJBVmxBOHN3RWpINVJTTktrLWljZFF3SjJsNmhDb0R4dGU4YnJ4blJNeXBBanBEQTBjUkN6ZTfSAVNBVV95cUxQWDBBTGlUd1NpczE2c3JBYUppdkx5aFhEeGlidENIZlZGSTJlS3lQYWtRZWZPTWcwX2VoNXBLNFE5RXIzUlVyY2drSHVEejhfbDhPZw",
+    "news:233827244828012",
+    "url:https://news.google.com/rss/articles/CBMiZEFVX3lxTE05S1k5M2NTd01Mc081WmRrdHBmY2NZaTc1UFhQenNZcjc3WENEMnBKNm5QVjJyMzRaaVA1T2tEUGdwNlVGM2FacURjWThwZ0VZa1hsUjF5Q2VoMkNDRGItckFTaE4",
+    "news:116143636205027",
+    "url:https://news.google.com/rss/articles/CBMiXkFVX3lxTE0xZUpYTVpRMGVxRGp0RGp2d2xxQkMtejJpMFk2R01rRVZiR0dSazh2ZVZhQURsN3NfUDgyaExuSkdWdDZqcEZVMTNOVnFCVkw0cUI2T3E5V2VNcTF1dkHSAVhBVV95cUxNV0xndVZ5V1ZpOEdkell5Yy1oblM3MGN1VUY2S09JVzJackhqOE93a1FOZGtJQ2twUGxscmpOR2J1UVZPWTRjeFJSRlg2eEoyc2h4UkxhX1Y4",
+    "news:279135121359654",
+    "url:https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0MFBmcUYtSmE4NDBaRElzcTR5VTNma1NNUmZMZ1huaWNxR01jclR5V3BDeW1FR09YNWM2UWxuUDBpdklWVjdGVHBMMzR6OTIxa3RMeUdtWlY4bWtkc0HSAVhBVV95cUxPR2hhMll2dm5NSEsxSzhkNms1NW5xWVBxYlFwMFR6MzctY2daT1ctREktMmJqeklUT2E0emlLUXlCOFIzQ3RXY2lFRHdYaktSdjVVM1RPRUxa",
+    "news:47250452754555",
+    "url:https://news.google.com/rss/articles/CBMiS0FVX3lxTE9zak1td3VoTGRqYVlWWGJMQ0hpT2d1cU43WllKZnZycmhZTERDaHVKcHFmZ24xQUp2RWFqdnZIclhld29nTXFFQmYwTQ"
+   ],
+   "img": "40179246124b67e20424596204201ba1",
+   "head": "속보) 가상자산 과세, 당정 \"원칙 공감\"하지만 추가 유예 여부 결론 못 냄 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-28T09:00:45.334888+09:00"
+ "last_pub_at": "2026-10-28T09:30:36.542050+09:00"
 }
