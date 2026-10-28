@@ -1,27 +1,6 @@
 {
  "posts": [
   {
-   "id": 716,
-   "at": "2026-10-26T05:40:24.009574+09:00",
-   "kind": "insight",
-   "fp": "edd36f6d3ea1a3d9",
-   "refs": [
-    "news:115809531087155",
-    "url:https://news.google.com/rss/articles/CBMingFBVV95cUxOSWxiN1Fhei1tZlI5ZnYwNkhEcTZ6TmJsUjFPbURKczFQM0xVeXJtSVdxU3ozRDhNNm1uWnh4TU1fV2JrSDdndmFqTDdiV2x0dUFMWHdQYVpSSUZHVXNBd1o1eHZHZlQ1MC0ybThFbUctckt3bVI3TjJTUVRiLXUzejdZeElNajhWQ0FJMnlSazlRaFJzV3ZyMmpxMVhSQQ",
-    "news:62401969387473",
-    "url:https://news.google.com/rss/articles/CBMidkFVX3lxTE5CTkFhd1BGTGZpM0xwRWRFdEd5MDF5TGp2SjdvM3BpZmdXcF9KbXBJcDRrdGFrZ3ZrZ0JGNFlYNlVxZ1N4bXdXeURJMmNxRzdMQml6MFExVlR5TnI0Wjhicjk3YjZwN1JCMlA0dngxZEJPNk0wZXc",
-    "news:180996601021993",
-    "url:https://news.google.com/rss/articles/CBMijAFBVV95cUxOanpraXNBSVdYS2J4alZmYkgzdnZGc0JRdElfMWxHaVJFWEZlVDhfQXlyaGd1S3ZjYjJzQlJJaGFvTmhpbGFCd0FQSXBrT25oMl9jeExPYk9JTS05UlRoenlBQUlnbERfOG1tb2VadEt6ek9tUVVhSUJpZXM1OE1PU2VfelFFdzRKN2l5Ng",
-    "news:69329372634260",
-    "url:https://news.google.com/rss/articles/CBMizAFBVV95cUxNM1JuQ05kaDlYY0RLdlpfOVR2cmNXajRvcjd5NDM1alVobG9rZmRvZVR1OXhZb0FFdUpGaEphRjl1OHpDeDg2ejR1alYya3dfZExZbmZ2OE5GV3ZZdlRJY3JvY2pEZ1ZYQU5qRS1vYjAzejJxUkh3azFScmJFUE05SS1feHNtM2V6OFo3ZG1lamQyRVlmZXpxMkJSQm9TX3RVSEVXbnd5S1NhdWpsS2d5NGtLZEhfWi1OTnQxbUZBTnN6RGhEb09IamE1V1M"
-   ],
-   "img": "39ebd21289b555de71805409dc5bf863",
-   "head": "BTC ETF는 3억500만달러 순유입으로 돌아섰는데 ETH ETF는 4주째 2억2000만달러 유출. 같은 ETF 자금인데 왜 갈릴까 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 717,
    "at": "2026-10-26T08:00:39.747182+09:00",
    "kind": "insight",
@@ -833,7 +812,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 770,
+   "at": "2026-10-29T07:34:31.182509+09:00",
+   "kind": "insight",
+   "fp": "de0268d53282c596",
+   "refs": [
+    "news:175340110889991",
+    "url:https://www.tokenpost.kr/news/policy/428886"
+   ],
+   "img": "dbf7a9d1fecd54a79505beb5cdc165b4",
+   "head": "해거티 상원의원, 시장구조 법안 처리하면 비트코인 비축 확대 가능성 거론 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-29T05:35:21.937009+09:00"
+ "last_pub_at": "2026-10-29T07:34:31.182509+09:00"
 }
