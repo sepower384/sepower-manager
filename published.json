@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 704,
-   "at": "2026-10-25T14:00:41.328016+09:00",
-   "kind": "insight",
-   "fp": "b511d4635f756486",
-   "refs": [
-    "news:272123744588009",
-    "url:https://news.google.com/rss/articles/CBMiUkFVX3lxTE1zeE8zdjF6SXdYVDJPaU9PbklSa1FaRFM5RmpoYlIxd1pDeFRNWFd3Y1NjZ29SM3I0cXlTeHZGbTJuak5PNnZoVFFjb24xeFhTSGfSAVNBVV95cUxOZ19XVlo0Um5DMUYtQVBtYWhXTGVBdUNEd042RnNCWXdKYl8xZGlGTnhqTlI0cmpVU3BLSDRCaURYYjNZMFp0TmFhUDg2UUtiaWhzSQ"
-   ],
-   "img": "bafb387702dc02119e72fe0114cfd437",
-   "head": "가상자산 과세 재유예, 어디까지 왔나 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 705,
    "at": "2026-10-25T15:30:32.941142+09:00",
    "kind": "insight",
@@ -781,7 +765,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 757,
+   "at": "2026-10-28T14:00:50.215358+09:00",
+   "kind": "insight",
+   "fp": "9e0440e5f821568a",
+   "refs": [
+    "news:253723968535842",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wODVkQlBNTnFaSmhQenpHYWYya29jbEIzVWtsanh3N1BmcmZKVkRyWXBGVzdmSTM1MXBlLWk1SktYVEZQQ3NtX3FQLTAySFFudzFtcnM1c2RfcUw5UHUxbUJWcWQ4VFFH",
+    "news:261705935623394",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SNXhGX0gxT012OHh4QUNOWnpqM2VlbENWT1B2elBQdDlkNVJ0UGFxa01aTFRnN01zRmREd2RUMms5b1F2V21NUVhFQVViaWZyVlphaVhKdUk",
+    "coinnesskr:235692",
+    "url:https://t.me/coinnesskr/235692"
+   ],
+   "img": "4ff62d29dd72f47ccb093750a4528e11",
+   "head": "속보) 비트코인 8만달러선 사수, ZEC 8%대 급등 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-28T13:30:34.385354+09:00"
+ "last_pub_at": "2026-10-28T14:00:50.215358+09:00"
 }
