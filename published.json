@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 703,
-   "at": "2026-10-25T12:30:34.728183+09:00",
-   "kind": "insight",
-   "fp": "7baea0759cebadfd",
-   "refs": [
-    "news:257400955553682",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/427054"
-   ],
-   "img": "c0ced8b4384a8f16a0eaad17bb8f474e",
-   "head": "영구우선주로 BTC 13.6만 개, 숨은 포인트부터 볼 것 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 704,
    "at": "2026-10-25T14:00:41.328016+09:00",
    "kind": "insight",
@@ -778,7 +763,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 756,
+   "at": "2026-10-28T13:30:34.385354+09:00",
+   "kind": "insight",
+   "fp": "ac43024617a866c5",
+   "refs": [
+    "coinnesskr:235679",
+    "url:https://t.me/coinnesskr/235679",
+    "news:274425511053249",
+    "url:https://news.google.com/rss/articles/CBMicEFVX3lxTFBRUHlxcVQ3eHhiQzE0QmtIM0lNaHdOSGhpWTdmSFdUcU9lbWxhc3djLTl2Y2tZZWxqUmc1bHc3TVJPRXR4ckF2YjJOdl9VdzVMSGxVME5OczRjU1M5RDYxcFgxelhaSmhMYTQ2OTdSUHI"
+   ],
+   "img": "19e41eb8ac2fbb5bf6d35ebaee3bc2b2",
+   "head": "BTC 8.7만 저항, 8.15만 지지 이탈 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-28T11:30:35.639921+09:00"
+ "last_pub_at": "2026-10-28T13:30:34.385354+09:00"
 }
