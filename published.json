@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 711,
-   "at": "2026-10-26T01:00:45.115539+09:00",
-   "kind": "insight",
-   "fp": "adb599aa672a3ae3",
-   "refs": [
-    "news:229043223408877",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/427176"
-   ],
-   "img": "fcb92de2266309136a71c9e0cce43f9c",
-   "head": "유니스왑 v4가 30일 거래량에서 v3를 처음 앞섰다는데, 숫자를 보면 거의 동률임. ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 715,
    "at": "2026-10-26T02:05:22.977612+09:00",
    "kind": "insight",
@@ -812,7 +797,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 765,
+   "at": "2026-10-29T01:00:46.062636+09:00",
+   "kind": "insight",
+   "fp": "11396ec3d2165110",
+   "refs": [
+    "news:98443081861477",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/428643",
+    "news:56061680910860",
+    "url:https://cointelegraph.com/news/dtcc-subsidiary-launches-tokenization-services"
+   ],
+   "img": "a8ec942ba4eaef0197189c8d15a06669",
+   "head": "DTCC 토큰화 서비스 출시, 온도는 어디까지 들어왔나 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-28T23:34:17.984307+09:00"
+ "last_pub_at": "2026-10-29T01:00:46.062636+09:00"
 }
