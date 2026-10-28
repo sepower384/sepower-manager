@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 708,
-   "at": "2026-10-25T19:30:33.178579+09:00",
-   "kind": "insight",
-   "fp": "4b98a1a6edc174dd",
-   "refs": [
-    "news:89829368952778",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/427125"
-   ],
-   "img": "5f716571cc8b77a2ae4ca7461d356ffc",
-   "head": "BTC 9일째 박스권, 변동폭이 확 줄었음 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 709,
    "at": "2026-10-25T21:30:34.467022+09:00",
    "kind": "insight",
@@ -808,7 +793,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 762,
+   "at": "2026-10-28T20:30:37.447566+09:00",
+   "kind": "insight",
+   "fp": "040f26641342d18a",
+   "refs": [
+    "news:207562848356056",
+    "url:https://www.coindesk.com/markets/2026/10/28/bitcoin-averages-over-50-in-the-12-months-after-midterms-s-and-p-500-gains-15",
+    "news:251463714654414",
+    "url:https://www.coindesk.com/markets/2026/10/28/bitcoin-averages-over-50-in-the-12-months-after-midterms-s-and-p-500-gains-15",
+    "coinnesskr:235746",
+    "url:https://t.me/coinnesskr/235746"
+   ],
+   "img": "a89e749ec3fbdf6c2b152c7315ee7a5e",
+   "head": "중간선거 뒤 1년, BTC 평균 +53.7%라는데 선거 덕일까 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-28T19:00:43.068673+09:00"
+ "last_pub_at": "2026-10-28T20:30:37.447566+09:00"
 }
