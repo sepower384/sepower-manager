@@ -784,7 +784,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 758,
+   "at": "2026-10-28T14:30:38.500411+09:00",
+   "kind": "insight",
+   "fp": "886efd2723787de7",
+   "refs": [
+    "news:189163223338383",
+    "url:https://news.google.com/rss/articles/CBMifkFVX3lxTE40VnZPb3F2dGozcnVsUElGQzJobnlNY1VRV19mejQxNF84c3RWQ3V6WVVFc1dERGdqdDIxaFRNak80SWM1YXBmeGdBX29wRTdXRkhja0EtZmQ5Q09sc3VHb3BiMzQ0TEx2Z1QwUjVfeFlnakcxaExhaUpHbUM0QQ"
+   ],
+   "img": "38e3cb10fc13135a79952aae08295dde",
+   "head": "속보) 증권·가상자산 해킹, 금융권 전반으로 확산 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-28T14:00:50.215358+09:00"
+ "last_pub_at": "2026-10-28T14:30:38.500411+09:00"
 }
