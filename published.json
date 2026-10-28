@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 710,
-   "at": "2026-10-25T23:30:31.686359+09:00",
-   "kind": "insight",
-   "fp": "a13fdf04149494b0",
-   "refs": [
-    "news:58930178860863",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/427147"
-   ],
-   "img": "a3dc560bbe035975ef193ff88cdfbcaf",
-   "head": "IBIT 주간 5억6570만달러 순유입, 근데 방향이 뒤집힘 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 711,
    "at": "2026-10-26T01:00:45.115539+09:00",
    "kind": "insight",
@@ -807,7 +792,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 764,
+   "at": "2026-10-28T23:34:17.984307+09:00",
+   "kind": "insight",
+   "fp": "ee4645f0f5e80768",
+   "refs": [
+    "coinnesskr:235760",
+    "url:https://t.me/coinnesskr/235760",
+    "news:132194543617775",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE56Z05fYl9VNEpYY09EMTNJZmlDSW9sZGVrUWJudnBtQms2RkZ1QXMwOFZKVzZPcVp4anMxRUNhbFZjdzdiY05STGNldVJFdVNyRk9iZlg3ZHcwRUhYc2FLZ9IBZkFVX3lxTE01ajR6Y1RlVVUtV18yY0hoYnRUU3N5WHdUYTJHUUViZ1ZSbjFtU0RNc1JvR3NOdmVSOGZGdTJ2ZHV1Qno5MlZFUkhmel9NWkVRYTZLc3ZBMURqMmNlTG9kVl9Yc3AzQQ",
+    "news:217650235288587",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/428574"
+   ],
+   "img": "ca34afb33750bc4ea4e9a7d94d375c13",
+   "head": "FOMC 직전, 고래는 팔고 지갑은 빠지는 중 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-28T22:00:47.954165+09:00"
+ "last_pub_at": "2026-10-28T23:34:17.984307+09:00"
 }
