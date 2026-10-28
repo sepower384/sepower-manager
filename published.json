@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 701,
-   "at": "2026-10-25T08:30:35.745493+09:00",
-   "kind": "insight",
-   "fp": "80b5bb07baebbd9c",
-   "refs": [
-    "news:202137770422280",
-    "url:https://www.blockmedia.co.kr/archives/1155842",
-    "news:224924728095803",
-    "url:https://www.tokenpost.kr/news/ai/427039",
-    "news:50682988323866",
-    "url:https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RMHUzb0huUDVoMHF6ZEpqRE1heTNnQWpxWXpjdmpCNzgyeUZVYWlqNldRazIyRldZQlV4M0RuS0VibUszaHV6SWl0NW1ldE1OaVQ1dGhia2xlSVRKRGc"
-   ],
-   "img": "f0ac4c6ba302dd74cd4bdb1ce556202f",
-   "head": "유가·AI 부채가 BTC까지 오는 경로 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 702,
    "at": "2026-10-25T10:30:31.289611+09:00",
    "kind": "brief",
@@ -735,7 +715,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 751,
+   "at": "2026-10-28T09:00:45.334888+09:00",
+   "kind": "insight",
+   "fp": "f8186cb6fb4b004a",
+   "refs": [
+    "news:69835446336367",
+    "url:https://news.google.com/rss/articles/CBMimAJBVV95cUxQZVBGX3NHTklFZHJxaFVqcUZnQ2NudGdGUFRxNDEyMVJvSnlTN3cyQ1VsaW5HNlRPN29UWlZrNGswQktWNndKclhBdWlpdkpnZ19PSm9sOC12VXp2Yjd4YV9hNjI4TERidDNiVjlLazdfUnFIeGk1UmQzZEZZV2pZSWg1RWlUTFc2QkkyRVpHUjJVQ2g1VXJqdzJzRFd5bndybnZZNDVyWEFxdTU2STJycG1wRkNfdmx2TkNGTEJLOXRHMHBMOXpEU2xrNjJ5WDVnbDFtWjFzVERvVERIZExmV0JXeEFwSlJqaTRZS3FTOVctZllRaURkdHRTZkIwQ0x5Q1ZCeFBEQldkUWF3RVhjSER2TUpCQVlR",
+    "news:152807914223712",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFBlcUFnSmZraU1fU2pTTGIwZWdIOFNCTDJqdnM5OUNxRExCLXllZjVqN2lwWTc1S0hxWm1zVFBGYTUtbGZYV0hjTmdR"
+   ],
+   "img": "ff08f86421e510a34c31a96f881cfa3a",
+   "head": "다들 금리 동결 = 안도 랠리라고 하는데 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-28T07:04:47.162790+09:00"
+ "last_pub_at": "2026-10-28T09:00:45.334888+09:00"
 }
