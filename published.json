@@ -758,7 +758,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 755,
+   "at": "2026-10-28T10:05:03.122020+09:00",
+   "kind": "insight",
+   "fp": "68acbe1ed4086042",
+   "refs": [
+    "news:275188741188636",
+    "url:https://news.google.com/rss/articles/CBMigwFBVV95cUxNR1d3N2pMeGpiR3FFZjduUGU2Vkdod2dWMjIxUzVJUV9oYUtialEwMWtPb1RLaEtFTEhlRFpjQjhJdW13WkJrU3NPeE1paUliOTRyblBRS0daaTRXd0pIdk1tNjRrTXMwV3BfWWtsbTZ0Tm56T3praHBvc3BYWlpjM2hIdw",
+    "news:219843144314097",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zbWlCS2VWbzhnTWVSOHpheHpIMFg2U2x5UlBBMmlHa3ZTWXV6Yjk4V1RoVTlGbXJFMzhvdHhWT0l0UTl4Q0lwM3JHb0FWdDFuUmpId05DWkxxeUdCYlVpeg"
+   ],
+   "img": "faad82da26a38449391a82b154e669b8",
+   "head": "속보) 빗썸 사내 모바일 시스템 해킹, 개인정보 유출 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-28T09:30:36.542050+09:00"
+ "last_pub_at": "2026-10-28T10:05:03.122020+09:00"
 }
