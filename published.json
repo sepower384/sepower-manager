@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 734,
-   "at": "2026-10-27T06:57:05.278277+09:00",
-   "kind": "insight",
-   "fp": "4490a7091c3b4391",
-   "refs": [
-    "news:233103518682705",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/427723",
-    "news:16719634875209",
-    "url:https://www.blockmedia.co.kr/archives/1156614",
-    "news:65975936105514",
-    "url:https://news.google.com/rss/articles/CBMiugFBVV95cUxONkhLOXNGaVFnbmhWbHF0QkVpUDBMZElZbTJNTllBVGtleWFxRDRnZ3M2dTdCeDNqS0VLcmdRNzBCcERMUDBuYWo5NTZsX2c4b3REQmluRU4tejRtbWxONmVQVk5nVnBvSFlZZ3BoRk9HaVcyd0dnVlBlVGhYcmZaVDdNMC12S0htNV91WlRiY3ZzV3NCclI2NHdGa2J2ZXZiZGJSejZYa1Y5QnRxZ3JIVmhHdWlqWXZjZ0E"
-   ],
-   "img": "15191973cef7a189a0148a8a9521892a",
-   "head": "유럽·미국 파생상품이 같이 규제권 안으로 들어오는 중 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 735,
    "at": "2026-10-27T08:30:36.840733+09:00",
    "kind": "insight",
@@ -833,7 +813,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 788,
+   "at": "2026-10-30T07:30:32.908761+09:00",
+   "kind": "liquidation",
+   "fp": "d009a968bf068d2f",
+   "refs": [
+    "whaleliquidation:3148493",
+    "url:https://t.me/whaleliquidation/3148493"
+   ],
+   "img": "dd00537214e4378e9b86021f38d73e20",
+   "head": "💥 대규모 롱 청산 감지 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-30T05:35:49.571854+09:00"
+ "last_pub_at": "2026-10-30T07:30:32.908761+09:00"
 }
