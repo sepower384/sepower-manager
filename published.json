@@ -1,39 +1,6 @@
 {
  "posts": [
   {
-   "id": 722,
-   "at": "2026-10-26T15:00:44.039340+09:00",
-   "kind": "insight",
-   "fp": "62104ede2773207e",
-   "refs": [
-    "news:133287546825354",
-    "url:https://news.google.com/rss/articles/CBMizAFBVV95cUxQaTA2YmNMdE9jaVN4OUxzTTlkeHlMQlVKSlpKZTMyZ2xFa3lBTVpIMWVTVW5iaTFqeDRfMHNLQVhaQ3ZMWjZOZGY4a3dNZGVVQ0dQTEdlaFcwUTVpQnN6SHpneFE4NGRxdk85aWR2MktrQ3E3MkNEQUF4N1F1VjdJZjUzNFI2Tk1qRHQ1LUNFUHFUcUt2U2YxMVEzeGlGZlZra2w1ZnN3YUVlUDhVUlhvakc3dWh4Nk84UTZBTXdkbXNYTE5ueGJDN0xkZjk",
-    "news:127403515176483",
-    "url:https://news.google.com/rss/articles/CBMiowFBVV95cUxQZkpzWWMtVjloNnZUa1h4S3JyVGlxMnNEaE9ILTVLOVhPdkhNejdXRElwOHI1eHV4bVNDQVZ4VWdJejBGaWh2RE9jSTFrbDF6c2U1dEN2Wm9NcVdqSmN6X2hldlkzNFloV1NpQ1hMSERRZTExcWltWG40Y1ZCQ2YxQmh2dlVMVUJPaXRLUWhpRl96YUtyejRFakJidFJlOUl1SXc4"
-   ],
-   "img": "05d3dbc605f62baaf49608a89b97ea65",
-   "head": "ETF 자금 방향이 뒤집힌 건가 싶었는데, 집계 기준이 달라서 그런 것 같음 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 723,
-   "at": "2026-10-26T15:30:35.894906+09:00",
-   "kind": "insight",
-   "fp": "67eb62c3d8c9b9b4",
-   "refs": [
-    "news:276660982546048",
-    "url:https://www.tokenpost.kr/news/ai/427349"
-   ],
-   "img": "ddf8b04347184903047b927619fbec3a",
-   "head": "속보) 앤트로픽 AI 안전 법안 초안, 주법 문구 수정하겠다고 밝힘 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 724,
    "at": "2026-10-26T17:04:16.899082+09:00",
    "kind": "insight",
@@ -809,7 +776,28 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 776,
+   "at": "2026-10-29T15:30:35.363722+09:00",
+   "kind": "insight",
+   "fp": "c098503976775154",
+   "refs": [
+    "news:11804611462986",
+    "url:https://www.blockmedia.co.kr/archives/1158011",
+    "news:130768840569851",
+    "url:https://www.tokenpost.kr/news/briefing/429068",
+    "news:186422231386004",
+    "url:https://www.tokenpost.kr/news/insights/429058",
+    "news:256907326149271",
+    "url:https://news.google.com/rss/articles/CBMi7AFBVV95cUxORnYySWIyNnlHT1VXbzQxTHYtRGNXV2pKck0yOGJlc0ZXUXppQ0RoMjJpQ2FpUllPMjJqU1hPR3pfdjctck9ZTnhWckRoNVdyTkx1WlJJMUdnMGE0T0F2d2k0bG0tdkN6d0Y4ZkNfQUNsU1hRN3RuTXNHd1JhcFVRbDQ5eGxwaVl5MGw1QWJmWUNBbFYyME1qMkRkN2Y1aUtwWC1GckxBS011b3ZyWnUwblRmbjlILUtvcV80Z2lESjIxSGJMLVlSNmJrX0czUEFTNjFDUTZBY0FCdHgyZW5MQWY1Q0ZHTno1bEdpbQ"
+   ],
+   "img": "3aada8a711674cd723e7bd99c0d62860",
+   "head": "다들 FOMC 비둘기적이면 호재라고 하는데 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-29T13:34:33.928558+09:00"
+ "last_pub_at": "2026-10-29T15:30:35.363722+09:00"
 }
