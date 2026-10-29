@@ -1,47 +1,6 @@
 {
  "posts": [
   {
-   "id": 720,
-   "at": "2026-10-26T12:05:19.617668+09:00",
-   "kind": "insight",
-   "fp": "cf7e8decc569b279",
-   "refs": [
-    "news:243151704830674",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTFBySXJZUENMaGdEb2NZT1d2Q3A0X09Vb0tSb0l2TVd1dFVwYTBsMjRENDVkR2tsaG9MMl9jLWQ3a0JPZ3VzZDcya290RTBuNVhQcGhWM1VEOWNWMHp6dndRSFFueHZQVkF3",
-    "news:213972229280063",
-    "url:https://news.google.com/rss/articles/CBMiWkFVX3lxTE8wSHlNRGppZUlEaDFrVDhXckF4X2k1Y3U5OGFOS1ZQXzBIUlVnZjIwamUxc3dnSTlydWF2aDMwbWJmS2hqZy1laU9FWXdGYVp6dnlEOVBXeDBmUQ",
-    "news:172986497737990",
-    "url:https://news.google.com/rss/articles/CBMiakFVX3lxTFBURnBqYnk0UFRqMkV6cWxkcU84RG9HZG50RFZLYmZnRzZsNWNGcm5UUTVDRFJWVmNrTTh2LWNiSk5tc3o1Ny1nZ0RiZWwweVpZOXZTV1BhNmtZNUgySndhWXkwdm5HUVdBMWfSAWpBVV95cUxQVEZwamJ5NFBUajJFenFsZHFPOERvR2RudERWS2JmZ0c2bDVjRnJuVFE1Q0RSVlZja004di1jYkpObXN6NTctZ2dEYmVsMHlaWTl2U1dQYTZrWTVIMkp3YVl5MHZuR1FXQTFn",
-    "news:166909543600422",
-    "url:https://www.tokenpost.kr/news/briefing/427301",
-    "news:9335669451275",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE9XUWpZMnctTEJTZU1WY0hjOEozS2N5NDJ0bFlIS3RobnFldVNUd0w1YXVLbEhJY3R4OFRHNEdsXzNZNklqQUc2WU9R"
-   ],
-   "img": "78e927c6d740ffe6307663025bef4b82",
-   "head": "속보) 비트코인 다시 8만달러 밑으로, 현재 약 $79,597 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
-   "id": 721,
-   "at": "2026-10-26T13:30:35.953643+09:00",
-   "kind": "insight",
-   "fp": "e0fb18ad7de608e5",
-   "refs": [
-    "coinnesskr:235340",
-    "url:https://t.me/coinnesskr/235340",
-    "news:139240319967994",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/427302"
-   ],
-   "img": "888ff264fe2faa757fca46d2f57e30a3",
-   "head": "아브락사스 헤지 계정 숏 12.9억달러, 이게 하락 베팅 맞나 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 722,
    "at": "2026-10-26T15:00:44.039340+09:00",
    "kind": "insight",
@@ -835,7 +794,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 774,
+   "at": "2026-10-29T13:34:33.928558+09:00",
+   "kind": "insight",
+   "fp": "b25b66e98b3cc4b6",
+   "refs": [
+    "news:139269526549411",
+    "url:https://www.blockmedia.co.kr/archives/1157880"
+   ],
+   "img": "421d6ec1ecc70282fc29a1fe50fbfbf0",
+   "head": "솔라나 DEX 점유율 1위인데 가격은 왜 안 오를까 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-29T12:04:41.671594+09:00"
+ "last_pub_at": "2026-10-29T13:34:33.928558+09:00"
 }
