@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 726,
-   "at": "2026-10-26T18:04:43.175981+09:00",
-   "kind": "insight",
-   "fp": "2f1deec0bc1917cf",
-   "refs": [
-    "news:164650576493548",
-    "url:https://news.google.com/rss/articles/CBMiUkFVX3lxTE03S1JwM2VmZnUzLUVVX3hMQWYxTDNveWcwZ0xVSzNHcGRORzdNY0p6T3NpNjJWR1NMU0dEeWthNXphTE1NcTItTlVFZFRSV25iN3c"
-   ],
-   "img": "d27f60dc033186f2a359dc307345a213",
-   "head": "속보) 매경 단독, \"AI 꺾이면 반도체 수출 1천억弗 타격\" ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 725,
    "at": "2026-10-26T19:30:35.765501+09:00",
    "kind": "insight",
@@ -813,7 +797,24 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 779,
+   "at": "2026-10-29T19:05:28.356826+09:00",
+   "kind": "insight",
+   "fp": "503dcdef270d0865",
+   "refs": [
+    "coinnesskr:235902",
+    "url:https://t.me/coinnesskr/235902",
+    "news:255914207515905",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/429174"
+   ],
+   "img": "3e66a1de8df0983e973e3fc8aca03396",
+   "head": "유가가 코인까지 오는 경로 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-29T17:30:35.530996+09:00"
+ "last_pub_at": "2026-10-29T19:05:28.356826+09:00"
 }
