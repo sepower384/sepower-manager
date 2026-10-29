@@ -811,7 +811,29 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 790,
+   "at": "2026-10-30T05:35:49.571854+09:00",
+   "kind": "insight",
+   "fp": "fa85d046355f197b",
+   "refs": [
+    "news:115915208984163",
+    "url:https://www.blockmedia.co.kr/archives/1158486",
+    "news:143897573221587",
+    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxPM2xVSmlOcVlPRGdTbUNMVDNVY0tNdThTcExjMGFlQm9ydE1EODBRdi02NllFV2JyZXlVRHRETVptWklld0JsRTdXUUhqSk1ybXJhWktaYnhaRHZCOTlabDJsVGQycjQxSHBCaGd6Q3VvdjZRZUZIRUYwN05JSkM3eQ",
+    "coinnesskr:236035",
+    "url:https://t.me/coinnesskr/236035",
+    "news:67269658628585",
+    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE9WX1lQbXhlNTNUQm9MZS1oR3lzUXoxN0ozNWNQNGQ3a3VMUGRKaXlXQk1vYXNfa1l2YlFTVXBNVThBS21RekNNdERtSklKUGI3NTQtSG43QUpTX1lhTkFlRWg0dGhSeGZrZ2pSOTVJQTFMQjTSAXdBVV95cUxPWjUyRW5ETXNzd0VjT3hMdDZ4b2FLR2E2QUp2Y3pIZzNaOHpPRTNXZVJ0ZW5Nc0tYY1ZGYXE5ODJ5b2ZyYWlQeVB6bHFEYWZ2TEhRRmhqNGdPUm9UalMzLWotdHRCLTlBYUl0SmMyMUJUSm5abEVlOA"
+   ],
+   "img": "d750b48a47158a3565c2a84db845b4ca",
+   "head": "알파벳 13% 급락, 나스닥 1.38%↓ ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-30T05:00:43.012364+09:00"
+ "last_pub_at": "2026-10-30T05:35:49.571854+09:00"
 }
