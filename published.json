@@ -825,7 +825,47 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 792,
+   "at": "2026-10-30T09:34:59.691590+09:00",
+   "kind": "insight",
+   "fp": "e44eab47b6ec78a4",
+   "refs": [
+    "news:262347132373297",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yTWdGbDk5UWREMjl1LWluT2VhVHpxRWhNOUVRTC1DQ0tac1B6RGpDMnc5WW1ETzVPLWVJVXIxWWZ6a1BvcnBQWWg3WDk3X1VXaS00WFBORUxMa1RZc2prdnl2ZFBGUG1z",
+    "news:186489684939118",
+    "url:https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFBGX214NXA2cjVHeDZOeDhlYmNaV2dCWnN2dFVoRHEwZ1d4X2hkWEtnLU1oV2x0VXBCTm1RdnozNTUzYWhyZE1pTzhidVhwdF9tc1NHZmRvc3BCWExxdGE0TmJwVjNSWmNMUEF5WjdweDhvZzZZd0dHR1U3WS03bGdtLVZHMXM3MWRvVTlIRHpPNTMwaWhkaTZ0OVBxM2MyeG53RE9sSnQtMFNHeXNJb2VlMGYtZw",
+    "news:281103778376338",
+    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE44ekJaNlRkRUFKUmFGN0kySk9nQzhaWmlrUzBHc1VqU3hQMXFDZDZyNmdTYzRlS05hcy1GZzdIYVdCaVJ2Q0h6VnlNa3pNMUNtMGF2LWdKdFp0Smp4ZjctQ0I5YkhTd3l1Z1JSUQ",
+    "news:52863474947759",
+    "url:https://cointelegraph.com/markets/binance-hack-rattles-crypto-markets-bnb-bitcoin-slide",
+    "news:3937675735277",
+    "url:https://thedefiant.io/news/hacks/binance-wallet-outflows-widen-to-three-accounts-in-suspected-hack",
+    "news:22278986208021",
+    "url:https://news.google.com/rss/articles/CBMipAFBVV95cUxPY1dWU2gzLVZYY1gzS1VTbnF1T25adDZweWVzd29ORzlBd29Kdmp4R0xPMGdkMGFFY1ZTRFRCNGtockdwa3RtYUppaDVKY3BOdGJFa01HS2xycWd4WjNySEJJUFN4U3FOQkJ1eWh2Q2EtZlhBQU5yMEJ2cnQyRjUyWDlkZzUxMzhnXzlsck9aNW9oZ1doeWNnaWk2eE5Ua2JMR0pnXw",
+    "news:248886447202398",
+    "url:https://www.coindesk.com/business/2026/10/30/binance-hack-drained-wallets-backing-customer-assets-reserve-data-shows",
+    "news:130895465027127",
+    "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTFAxbGVkTWRPQ3Q5Ql9jWmNRbXdmMzN4ZlhoRlhrRlcxc2RWZ05RZVZXaHp5WUVDTXk5OWdMdjdLQ0ExRjZNTmJ6ckhXdDdGTERjSXY1Uw",
+    "news:31029274091139",
+    "url:https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVGxBcUo4UExhRUZWeTZiVjBKemUxNnFOSzZWal96NWU3VHdmbU9oMnRvZ0RKSlBOY2hGc2xleE5QbDdmU3dHNndPMlg1Uk1mRDRQdUhyTFU0U0o3dE96S1JPV2llWU9CZ3Ztc3FhQVFxaEJrei1ZRTVaVzNka2IwVFgxcVRLRVRGOUdOcXIyajJXNUt5bjJvcnZ4alVEMjZRNFFXSnZJZzk4dS11ZUd0Q0hRbV96ajJSQld5T3l4ZkRieGRadDdjbUJFRXg3cUU3",
+    "news:183138951999271",
+    "url:https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR2l6N2lrZThFSm1uSnJyMTZFZ1E3czZHdnNLYnBCSm5DN0s0YW5MVXJIRnk3VEktZmxyMTdxemh4cGdVT2xWdFQzTThpRXFISFRZVnlsaEEzQXM1RUJhYy1pM1o0aWVnSHJGTWFEbXcyMEVrc1g4LXZ4OEYxaGt1MFdOY1dTVHlIcEFQX183RnJrdkJLa284ZXlWVEJLWF9RaUZ5YXpLX3VxV0FfVkhyMkp0Z3E1SVJx0gG-AUFVX3lxTFBNeUs0MjdQdXFna0tZUjJWTGhKNFhSWVc0U2s0bVVqbVAzVUVZUWd3Wm5ReVdMVkM1VHZGUFhWSE9za3VFRG1qQnF0cGJsTXQ3WjZKbEN6SnUxTDJrYjBNd0c4eTFQQUFfMFdWZ09icnhLRU0wejVuSDJHOFVmVHRGMGVGODVLV0ItSlM5eWdIVUhJR1F6UEpfOFFUQ3FoVHk3QURNYjYtM01VSThJLTRWVldfNmlqRFM4VzNYRUE",
+    "news:80139615299876",
+    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE41SlI3R21RZ2FBdGp6QjhJak9kUWdQMnNQOEpxaWF2UW9yYTBjUUN2a0hLYjR4VFk3MjVTUS10TmI2TW52RDZpUjY3Q19DSDVfYW5JbGV4bVFpWnM0cjBnN2hfcTExMmYtdURoMg",
+    "coinnesskr:236104",
+    "url:https://t.me/coinnesskr/236104",
+    "news:150943602435064",
+    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE1vSEs0WGt6U2h0STB6Q0hqTGNzQ3dqODdwVTJGaXRRWlhlcUhHQm9MbHhVZ1RqRFlkaEg0SWI5ZjJiNEtKNnFpc28tektPSS1fV00zMUUyZXFReW5sWVFKMVk2VmNGaDlLQ3J4QXVqa3diREE"
+   ],
+   "img": "a65087770ae011a66c168df29a83b443",
+   "head": "속보) 비트코인 7만8000달러선까지 밀림, 바이낸스 해킹 의혹 여파 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-30T09:04:12.446492+09:00"
+ "last_pub_at": "2026-10-30T09:34:59.691590+09:00"
 }
