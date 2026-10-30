@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 746,
-   "at": "2026-10-28T03:00:42.527526+09:00",
-   "kind": "whale",
-   "fp": "c44a4ca03a219c41",
-   "refs": [
-    "whalealertkorean:174279",
-    "url:https://t.me/whalealertkorean/174279"
-   ],
-   "img": "98dd43cbc850dad42b23052143a4487d",
-   "head": "🐋 고래 거래소 입금 포착 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 747,
    "at": "2026-10-28T04:43:07.132998+09:00",
    "kind": "liquidation",
@@ -921,7 +906,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 805,
+   "at": "2026-10-31T03:34:26.651978+09:00",
+   "kind": "insight",
+   "fp": "7d5e9b3698b9d804",
+   "refs": [
+    "coinnesskr:236253",
+    "url:https://t.me/coinnesskr/236253",
+    "news:226689940200467",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/430290",
+    "news:248601883306267",
+    "url:https://www.blockmedia.co.kr/archives/1159220"
+   ],
+   "img": "11551cc8af99495db41b39d34e8e9ec6",
+   "head": "다들 \"바이낸스 해킹에도 7.7만~8만달러 방어 = 강세 신호\"라고 하는데 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-31T02:30:35.959137+09:00"
+ "last_pub_at": "2026-10-31T03:34:26.651978+09:00"
 }
