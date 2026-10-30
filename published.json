@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 739,
-   "at": "2026-10-27T16:04:39.137534+09:00",
-   "kind": "liquidation",
-   "fp": "0f734a8d7b3b5e46",
-   "refs": [
-    "whaleliquidation:3140997",
-    "url:https://t.me/whaleliquidation/3140997"
-   ],
-   "img": "f34f2ce754d7c7105d98e8e3fe31a7ff",
-   "head": "💥 대규모 롱 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 740,
    "at": "2026-10-27T17:30:34.548065+09:00",
    "kind": "insight",
@@ -901,7 +886,26 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 797,
+   "at": "2026-10-30T16:30:34.264807+09:00",
+   "kind": "insight",
+   "fp": "9f8b24530e28df18",
+   "refs": [
+    "news:280771602861261",
+    "url:https://news.google.com/rss/articles/CBMifEFVX3lxTE1DWkZVcV9kQ2xTOVRhNXgwZ2ExUlB4aEUtajNKUFlZOXpkZlJYVGNncHhDOVN0SlBsNjFmSnhBNnhPeHI2ZFlIUlo5R25MSnlrVVRDMXRrRFFSb3BYN3JoRHpueld2SHZsUGlNMlBPS2V5cExOUEJPSVViRUI",
+    "news:130577785402575",
+    "url:https://news.google.com/rss/articles/CBMidEFVX3lxTE9hbTh5ckFDRlZ1dmtRM2tkTVJoOXdKbTJpR2tqQXd3S0NhU3NsOVg5b0JVZEpjMDNQWnoxZzBxQmJtazFwRFJfVGNnTHFreEp5bEdlenhIbmtNVFUwcUZ4Vzdacm9IRlNOQVJuaDNBQ0YtRHRk",
+    "news:56063923694319",
+    "url:https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UNzYxdENtdzdBQzZNX1F6emY4T1NaeHhDQW56R0R2SDNGTVZ2dlZfUDFHekU1Njlua1MwdEozcDNCZ1M5NTR2VjgyNUd2N01tcUpwMG10TWx2dWk4WDFB"
+   ],
+   "img": "0959f8a48a3d27b74cc13f6380fe85d4",
+   "head": "가상자산 과세 어디까지 왔나 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-30T15:00:40.744208+09:00"
+ "last_pub_at": "2026-10-30T16:30:34.264807+09:00"
 }
