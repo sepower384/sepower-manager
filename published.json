@@ -1,38 +1,6 @@
 {
  "posts": [
   {
-   "id": 741,
-   "at": "2026-10-27T19:03:42.810796+09:00",
-   "kind": "insight",
-   "fp": "813c68cbebb1fa07",
-   "refs": [
-    "news:83925618121588",
-    "url:https://www.coindesk.com/tech/2026/10/27/solana-bug-reports-now-cost-1-sol-as-ai-floods-security-teams-with-spam"
-   ],
-   "img": "9281b61c678d7a27a89153adb43a9b25",
-   "head": "솔라나 버그 제보 1건당 1 SOL 소각 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 742,
-   "at": "2026-10-27T20:30:36.971026+09:00",
-   "kind": "insight",
-   "fp": "b16a97cefedfff3d",
-   "refs": [
-    "coinnesskr:235554",
-    "url:https://t.me/coinnesskr/235554",
-    "news:185652270730573",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/427976"
-   ],
-   "img": "766f69391d7255143a864a5c1302e83c",
-   "head": "스트래티지 STRC 일일 배당안, 통과 조건이 뭔가 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 743,
    "at": "2026-10-27T22:04:57.283856+09:00",
    "kind": "insight",
@@ -932,7 +900,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 800,
+   "at": "2026-10-30T21:00:44.109421+09:00",
+   "kind": "insight",
+   "fp": "2b2810c491ced3f2",
+   "refs": [
+    "coinnesskr:236199",
+    "url:https://t.me/coinnesskr/236199"
+   ],
+   "img": "17d71be5eeeec75dd81d381b2cc6a91c",
+   "head": "바이낸스 해킹 자금이 ETH로 갈아탄 경로, 시장까지 이어지면 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-30T19:00:44.033270+09:00"
+ "last_pub_at": "2026-10-30T21:00:44.109421+09:00"
 }
