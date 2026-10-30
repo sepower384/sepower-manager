@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 743,
-   "at": "2026-10-27T22:04:57.283856+09:00",
-   "kind": "insight",
-   "fp": "c47658aedfe000f0",
-   "refs": [
-    "news:175678548812571",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/428002",
-    "news:210291216911435",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/427986"
-   ],
-   "img": "6bb6fc48b65fe12a97c5076d25441e52",
-   "head": "변동성 43%로 S&P500 일부 종목(19%)보다 낮아졌다는데, 왜 체감은 그대로일까 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 744,
    "at": "2026-10-28T00:00:46.957132+09:00",
    "kind": "insight",
@@ -915,7 +897,27 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 801,
+   "at": "2026-10-30T22:30:36.235417+09:00",
+   "kind": "insight",
+   "fp": "2d67e6b93f0ba91b",
+   "refs": [
+    "coinnesskr:236213",
+    "url:https://t.me/coinnesskr/236213",
+    "news:244993326905999",
+    "url:https://cointelegraph.com/news/binance-hacker-bitcoin-holdings-exceed-coinbase-btc-treasury",
+    "news:268138208711479",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/430095"
+   ],
+   "img": "28ac6beab5d2fcc5e9b66b8385e2e008",
+   "head": "해커 지갑 BTC가 코인베이스 법인 보유분보다 많아짐 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-30T21:00:44.109421+09:00"
+ "last_pub_at": "2026-10-30T22:30:36.235417+09:00"
 }
