@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 740,
-   "at": "2026-10-27T17:30:34.548065+09:00",
-   "kind": "insight",
-   "fp": "d1a8437138045ede",
-   "refs": [
-    "news:69838975652063",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/427848"
-   ],
-   "img": "a2795b8d15a9ec3101fe0c6993d65123",
-   "head": "2021년 말 vs 이번 사이클 바닥 신호 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 741,
    "at": "2026-10-27T19:03:42.810796+09:00",
    "kind": "insight",
@@ -927,7 +911,28 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 799,
+   "at": "2026-10-30T19:00:44.033270+09:00",
+   "kind": "insight",
+   "fp": "3d58ff4b1ce0fdd4",
+   "refs": [
+    "news:94503595287016",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MMktUMlVRSXFwY2tZdmxpS3FTSlpYYkdHdFdIa1BmbnVfTGYyRVVxbUhVSjJZUXpqazFDZERLclRGWV81bTBUSWtCcDgyQ1FOR0dHeDJJNE5kQWtpalhYUdIBZkFVX3lxTE9TMEFFb2piVmtzeTVOYmdTUXBWV1hKUFJxVUNfVXFseExobVdkZllfNUdncUx0ZUJMWXpZSWFqUVVOcngxRC12cTYyQl9GbFJjNDZGSnJ6anlSRVhZdVllc0RiMmxoZw",
+    "news:238870323069290",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE9SRl8xNjBVMDQ5TUpGNWJVOHhRZUo5Z21RTklibEp0YmxZa0RJVlRFODZrTmxsSG9xNy16eXV5bWdncUJweXNJS1pydVJtS2Ft",
+    "news:225334173638812",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qbTdxUFlNeHN3NlI0Si1GTkN3UjFKbG93VE14UVJiMFcyOENQX0pzSGJVQzRRNXM4X09pLV81cDdIeXdNTjlWOE5ua0Y2S1dKQUNTRGdZZkbSAV5BVV95cUxQeDh1QTRRMnRZcmYyeUtpLUxFUXRXRl9Ga0VaTlVQaC1MRmZrSlNXRjMwemRxSXdsWTVrU1hhVHpXNUFSV3dhMExkQ3h2NmlTb3RNM1dKRGxTRm4xc0ZB",
+    "news:229446147165243",
+    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE42SWlwYlpoSHlIcEFlTjFTNDU1Q1E1ZnQ3YlZOaHVKUkhLSVNsbFBhd3FjTkV3Zm9HX1hCZDBZN0U2cEFCYldvRTNB"
+   ],
+   "img": "561d7c279f95a27c41b57fbd4df4cd38",
+   "head": "스트래티지가 BTC 파는 쪽이었다는 게 이번 실적의 숨은 포인트임 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-30T17:00:41.189548+09:00"
+ "last_pub_at": "2026-10-30T19:00:44.033270+09:00"
 }
