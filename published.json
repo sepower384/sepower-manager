@@ -882,7 +882,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 796,
+   "at": "2026-10-30T15:00:40.744208+09:00",
+   "kind": "insight",
+   "fp": "3f4c013801d740ca",
+   "refs": [
+    "news:205585947649852",
+    "url:https://www.blockmedia.co.kr/archives/1158983",
+    "news:272891179842837",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/429925",
+    "coinnesskr:236164",
+    "url:https://t.me/coinnesskr/236164"
+   ],
+   "img": "b4cac0a5089fda925a923c69e2e3686e",
+   "head": "속보) 에테나, 바이낸스 해킹 직후 긴급 준비금 증명 공개 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-30T14:30:37.921502+09:00"
+ "last_pub_at": "2026-10-30T15:00:40.744208+09:00"
 }
