@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 750,
-   "at": "2026-10-28T07:04:47.162790+09:00",
-   "kind": "insight",
-   "fp": "e4d2ce67feec0dd8",
-   "refs": [
-    "coinnesskr:235653",
-    "url:https://t.me/coinnesskr/235653",
-    "news:203590763233719",
-    "url:https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top",
-    "news:269278091969182",
-    "url:https://www.blockmedia.co.kr/archives/1157250"
-   ],
-   "img": "7f690fb2418a380c4a47a72c79afa87c",
-   "head": "베선트 \"크립토도 달러 지키는 무기\" ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 751,
    "at": "2026-10-28T09:00:45.334888+09:00",
    "kind": "insight",
@@ -926,7 +906,30 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 809,
+   "at": "2026-10-31T07:35:21.945263+09:00",
+   "kind": "insight",
+   "fp": "abc053c2fc8fbc27",
+   "refs": [
+    "news:123490114966914",
+    "url:https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
+    "news:226416569165421",
+    "url:https://decrypt.co/382282/crypto-hacks-buy-bitcoin-proxies-stock-market-wall-street",
+    "news:230480806103323",
+    "url:https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WQmJkenNhbzhnZDhGSjNabnp2TURHMmhHQmNGX0VpZHJ1S0Q4RG5NUHZmMk5WR2ozVmw1bjNGbnhXR1BhZWMtWHFRX0tFLU5SaGQxdjhn0gFbQVVfeXFMTl9GVkl3SFBCdklvZ2t1RDYxbU5xdXZ3a2YzSFJBdk91LXZzVGdyYTBITGNWUjM2VnUtWjdoWkdJZHJ2NnlCQk5yWFdyOUFiM3B6UWk0YzdHWTBsQQ",
+    "news:85351974595905",
+    "url:https://www.blockmedia.co.kr/archives/1159255",
+    "news:117944304650945",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/430315"
+   ],
+   "img": "450e92623437637a880c5cb7eec69aef",
+   "head": "바이낸스 해킹, 규제 판은 어디로 갈까 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-31T05:30:33.827131+09:00"
+ "last_pub_at": "2026-10-31T07:35:21.945263+09:00"
 }
