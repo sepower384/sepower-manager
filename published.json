@@ -905,7 +905,29 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 798,
+   "at": "2026-10-30T17:00:41.189548+09:00",
+   "kind": "insight",
+   "fp": "4c4ee9befeb7d173",
+   "refs": [
+    "news:1279490126647",
+    "url:https://news.google.com/rss/articles/CBMiekFVX3lxTFBUa1l1SzVxWmlla3dtbWFFaFh3Uk9GVEo2NWpDYUp1MFk3M1ZTc21oZ0E0eHhveXNOZ2YxNVhiSkdERWNMVXNPbWt6TGgwN3Q1aUdTdHZLblY4WUpFSmsxUGhGNnpfZXlNdU5zUXVFcGFmdjJfMUtJMTR30gGAAUFVX3lxTE9yR2RXbWtpSU5Tbnh4ajRNS2xnZXR0UHhqMUo2RnpGcnhyS0hyZVpYMUNGTGFkMUdtN2pFa19ENHNuYjA2WV9Fdjh1UWd6bFYxQnd1LU8yVHVKZUhaNGFORFFsUHBZci1fcVFlNjJMTmdfSWJtVlhIUzBRQ3JmRlBK",
+    "news:265380570835656",
+    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE5PZ3BGSzl0MFVIMmR0UFNmU1B1RDMyNmZUM3c3MVJyTVhBSnJtVkZMNHhLOURFVVZzVDhXQXVBVHc0SVIyRDJSQThWTWwwQlhLNXI2cWZ2NVFiSTVtTWpqejlucUxTVldDVV9ubw",
+    "news:154500609599902",
+    "url:https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rTEYxRmdKSGdoc0pRS1M2NGdQczNlVEozeTg1OWM3eEJvaVljbk5lOTJiSUktY1IzNlh3SkZmU0NST1RoeGUwQ2hCNXVnTXEySjc2ZEhyeF9LREVsZ1QxTEpR",
+    "news:238247924192786",
+    "url:https://www.tokenpost.kr/news/briefing/429988"
+   ],
+   "img": "b6675b12841e9e943344ee316ef6449a",
+   "head": "속보) 바이낸스 해킹 피해액 63억달러로 갱신, 30억달러 동결 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-30T16:30:34.264807+09:00"
+ "last_pub_at": "2026-10-30T17:00:41.189548+09:00"
 }
