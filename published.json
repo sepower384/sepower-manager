@@ -1,24 +1,6 @@
 {
  "posts": [
   {
-   "id": 756,
-   "at": "2026-10-28T13:30:34.385354+09:00",
-   "kind": "insight",
-   "fp": "ac43024617a866c5",
-   "refs": [
-    "coinnesskr:235679",
-    "url:https://t.me/coinnesskr/235679",
-    "news:274425511053249",
-    "url:https://news.google.com/rss/articles/CBMicEFVX3lxTFBRUHlxcVQ3eHhiQzE0QmtIM0lNaHdOSGhpWTdmSFdUcU9lbWxhc3djLTl2Y2tZZWxqUmc1bHc3TVJPRXR4ckF2YjJOdl9VdzVMSGxVME5OczRjU1M5RDYxcFgxelhaSmhMYTQ2OTdSUHI"
-   ],
-   "img": "19e41eb8ac2fbb5bf6d35ebaee3bc2b2",
-   "head": "BTC 8.7만 저항, 8.15만 지지 이탈 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 757,
    "at": "2026-10-28T14:00:50.215358+09:00",
    "kind": "insight",
@@ -897,7 +879,31 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 813,
+   "at": "2026-10-31T14:00:38.995710+09:00",
+   "kind": "insight",
+   "fp": "4f907b28fea6b107",
+   "refs": [
+    "news:79838653955268",
+    "url:https://news.google.com/rss/articles/CBMiggFBVV95cUxQYktDNThFOHUxak84VmxPNjhYNHhOR3Azc2F5SEpIdnQ0dm14eEVGaGFSVkJkYW9vZjFBZ0hMQUlsNXc2V2RNek1wa0cxR0NkZGowUC16elNSN1JDaDZSUDRydmVjQ3E5ajB2bHJQaEZnZ18wc3FnN3RaaUR1VzdhRHRB",
+    "news:115938858777140",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlMHhFbFktWnBIazBkdkc4MHAzWER3OEF0eUFqWDJkbXRydXcybnFhYko4d0ZYMHhhb2p4OHo3V2p0WWtTblFlMXVfVTBhTUN6ak1oWXpqb1ZpV0VkZDd1YlpHRWZNTG53",
+    "news:224610056604587",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/430497",
+    "news:275521444996665",
+    "url:https://www.blockmedia.co.kr/archives/1159464",
+    "news:203332595039380",
+    "url:https://www.blockmedia.co.kr/archives/1159421"
+   ],
+   "img": "ef5727b1a273e0f9dc3faf0d3ac2ec73",
+   "head": "AI 투자 청구서가 날아오는 경로 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-31T12:30:35.706659+09:00"
+ "last_pub_at": "2026-10-31T14:00:38.995710+09:00"
 }
