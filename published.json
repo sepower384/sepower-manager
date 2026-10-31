@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 769,
-   "at": "2026-10-29T04:06:01.239255+09:00",
-   "kind": "insight",
-   "fp": "2430c084bf9c6090",
-   "refs": [
-    "news:162157993363787",
-    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjc0F4LXNWQktGZ1A3RzB0RDJsa1BxZmQxQ3lOVEQ2ZnQ3dnk0Z2dtZWZpQnJLbVdOZGsydTh2cUw5dFV1Q0Q2ZFMxYjFQaF91SmRxM3FXTTBiQkxQaXQzQlFSU1ZoUDA",
-    "coinnesskr:235814",
-    "url:https://t.me/coinnesskr/235814",
-    "news:262619784784900",
-    "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcWVmVFBwQTlNSlF1dWRZaDlteGo4U1ljVHcyMjZTbEEtYjBRdXFsTVJjMHBEdVFXV0I0UmtnaHc0NHFzcExDR1lQRUJSTTlRYmhORm1sVEszdzU4YWNFVlg5RkpWbEJudXhseURSSUhXQWFmRTZyYWJ2eXMyRVA0WFZ3b1RjY21Q"
-   ],
-   "img": "c266ef9d57b4bcc18eed782cdfb0fb5c",
-   "head": "속보) 워시 연준 의장, FOMC 일정 개편 예고 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 768,
    "at": "2026-10-29T05:35:21.937009+09:00",
    "kind": "whale",
@@ -856,7 +836,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 823,
+   "at": "2026-11-01T04:34:20.216608+09:00",
+   "kind": "liquidation",
+   "fp": "9d04291b4058b018",
+   "refs": [
+    "whaleliquidation:3157227",
+    "url:https://t.me/whaleliquidation/3157227"
+   ],
+   "img": "eed31637cd4a6cce3fe616ff1dad2b28",
+   "head": "💥 대규모 숏 청산 감지 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-01T03:30:34.479338+09:00"
+ "last_pub_at": "2026-11-01T04:34:20.216608+09:00"
 }
