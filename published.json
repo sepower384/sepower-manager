@@ -1,41 +1,6 @@
 {
  "posts": [
   {
-   "id": 757,
-   "at": "2026-10-28T14:00:50.215358+09:00",
-   "kind": "insight",
-   "fp": "9e0440e5f821568a",
-   "refs": [
-    "news:253723968535842",
-    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE5wODVkQlBNTnFaSmhQenpHYWYya29jbEIzVWtsanh3N1BmcmZKVkRyWXBGVzdmSTM1MXBlLWk1SktYVEZQQ3NtX3FQLTAySFFudzFtcnM1c2RfcUw5UHUxbUJWcWQ4VFFH",
-    "news:261705935623394",
-    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9SNXhGX0gxT012OHh4QUNOWnpqM2VlbENWT1B2elBQdDlkNVJ0UGFxa01aTFRnN01zRmREd2RUMms5b1F2V21NUVhFQVViaWZyVlphaVhKdUk",
-    "coinnesskr:235692",
-    "url:https://t.me/coinnesskr/235692"
-   ],
-   "img": "4ff62d29dd72f47ccb093750a4528e11",
-   "head": "속보) 비트코인 8만달러선 사수, ZEC 8%대 급등 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 758,
-   "at": "2026-10-28T14:30:38.500411+09:00",
-   "kind": "insight",
-   "fp": "886efd2723787de7",
-   "refs": [
-    "news:189163223338383",
-    "url:https://news.google.com/rss/articles/CBMifkFVX3lxTE40VnZPb3F2dGozcnVsUElGQzJobnlNY1VRV19mejQxNF84c3RWQ3V6WVVFc1dERGdqdDIxaFRNak80SWM1YXBmeGdBX29wRTdXRkhja0EtZmQ5Q09sc3VHb3BiMzQ0TEx2Z1QwUjVfeFlnakcxaExhaUpHbUM0QQ"
-   ],
-   "img": "38e3cb10fc13135a79952aae08295dde",
-   "head": "속보) 증권·가상자산 해킹, 금융권 전반으로 확산 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 759,
    "at": "2026-10-28T16:00:45.155279+09:00",
    "kind": "insight",
@@ -903,7 +868,38 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 814,
+   "at": "2026-10-31T15:30:35.725311+09:00",
+   "kind": "insight",
+   "fp": "c85e9a53efb75f4b",
+   "refs": [
+    "news:133790949394796",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/430538",
+    "news:129599405805264",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/430522",
+    "coinnesskr:236307",
+    "url:https://t.me/coinnesskr/236307",
+    "news:163223375254485",
+    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE40aGhjZTZlaWlPSmYtbHlqaFpWT2hCMk5GUS0xOGJYZlhuSDdtZzg3cWt2MGRlVEFaU21SSlcwX0hfWFFBZEw3SlBQa2phRTBLdFpLejQ0eG9fNnkzc0tlZGhpcV9zVzNNSWNaWQ",
+    "news:232193857173124",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE5GLWlBS1FYX0NBSy12SjNadVFvbldhX2Q1S3YwYWxqLXp6bTQyb2hCQXFGeWJxRnhUM08zMVB1TkxIT25nVTNRSmlYUzR6d3dX",
+    "news:275475350452987",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/430537",
+    "coinnesskr:236308",
+    "url:https://t.me/coinnesskr/236308",
+    "news:278463995733508",
+    "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTE04eVZnUUQ5NHlXdWpTbVhVUXNZTjdld01neXZGa1VEdHh3YnpiZW5ncnVqZHFuU0NxTFMtNVN3b19TbTQ0cTJlemxHQ1VNa0c5Zl9xSg",
+    "news:271650652334710",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE1pTU9rUkVFWGhuU2JETEhjZWFHYWVhV3EzNlA2WmVYd0xIc2lJeEJIa0d1QklDQ1J4THZ5MjFnUjNVWlZ0M2V2RUJlRUlNR2c5"
+   ],
+   "img": "dd6ac9e2fd0a95498f1b19f207fa9b81",
+   "head": "미국 비트코인 현물 ETF가 4거래일 만에 순유출로 돌아섰음. 30일(현지시간) 하루 순유출이 6억4320만달러인데, 직전 4거래일(26~29일) 순유입 합계가 4억4080만달러였음. ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-31T14:00:38.995710+09:00"
+ "last_pub_at": "2026-10-31T15:30:35.725311+09:00"
 }
