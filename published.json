@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 751,
-   "at": "2026-10-28T09:00:45.334888+09:00",
-   "kind": "insight",
-   "fp": "f8186cb6fb4b004a",
-   "refs": [
-    "news:69835446336367",
-    "url:https://news.google.com/rss/articles/CBMimAJBVV95cUxQZVBGX3NHTklFZHJxaFVqcUZnQ2NudGdGUFRxNDEyMVJvSnlTN3cyQ1VsaW5HNlRPN29UWlZrNGswQktWNndKclhBdWlpdkpnZ19PSm9sOC12VXp2Yjd4YV9hNjI4TERidDNiVjlLazdfUnFIeGk1UmQzZEZZV2pZSWg1RWlUTFc2QkkyRVpHUjJVQ2g1VXJqdzJzRFd5bndybnZZNDVyWEFxdTU2STJycG1wRkNfdmx2TkNGTEJLOXRHMHBMOXpEU2xrNjJ5WDVnbDFtWjFzVERvVERIZExmV0JXeEFwSlJqaTRZS3FTOVctZllRaURkdHRTZkIwQ0x5Q1ZCeFBEQldkUWF3RVhjSER2TUpCQVlR",
-    "news:152807914223712",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTFBlcUFnSmZraU1fU2pTTGIwZWdIOFNCTDJqdnM5OUNxRExCLXllZjVqN2lwWTc1S0hxWm1zVFBGYTUtbGZYV0hjTmdR"
-   ],
-   "img": "ff08f86421e510a34c31a96f881cfa3a",
-   "head": "다들 금리 동결 = 안도 랠리라고 하는데 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 753,
    "at": "2026-10-28T09:30:36.542050+09:00",
    "kind": "insight",
@@ -929,7 +912,20 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 810,
+   "at": "2026-10-31T09:30:33.621866+09:00",
+   "kind": "brief",
+   "fp": "4418d9c281c0ad19",
+   "refs": [],
+   "img": "2b44957c027a12dc6f6723a4d63792c6",
+   "head": "☀️ 10/31(토) 아침 체크포인트 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-31T07:35:21.945263+09:00"
+ "last_pub_at": "2026-10-31T09:30:33.621866+09:00"
 }
