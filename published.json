@@ -1,44 +1,6 @@
 {
  "posts": [
   {
-   "id": 761,
-   "at": "2026-10-28T19:00:43.068673+09:00",
-   "kind": "insight",
-   "fp": "cc1329ac727e8772",
-   "refs": [
-    "news:62392504336360",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/428473",
-    "news:221633957916812",
-    "url:https://cointelegraph.com/markets/bitcoin-etf-176-million-inflow-sentiment-rebounds",
-    "news:116761400289648",
-    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UdFBKVUZSeS0xUXE0QS14U0RUTmJ4SmNOOU1lcFFSTXBWSUNVYWlsR0szWXM2WllaQWFYSXdKSXF4WDFGSXJtdUIxSEIxYnNqeE5mOFBjVzNRc29MRHB2btIBZkFVX3lxTE8xeGxfVXNQcXZPUUQ2eE5kSmZ3S3g1bWQ0Z0NQM2pYQzNwU1Vaanh6N29EUzZGY3JqS3l3S1JTYlk2R2JTNUg4NEQ0d2xKYjZqOW5kX0RiVGZvcGtjS09RRlpZOFlLQQ",
-    "news:21253690145167",
-    "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTE9zcjc1Sy12WDNobDUxdnNidW5ZRG5lOTdabzQ3VFY1ZUFyZWhkUm9ocUpOVGo4RDRkWGNpdFE5QlNDN2lvOTVSazNNcV9ERkxoVTFmZw",
-    "news:32860860024970",
-    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE1weTNYTHVfaEI4V1dRU2ZsVllwMTRLTHlCcmp1dFFMM1NOejkwWWpPWkpXbks3X3pSM21ZTDQ2Y2pFMXNUOXlIaTR4d2k5TW9VVmhwaFJtZElNVTMwam9zazBiV2NxOGJ3UThLcQ",
-    "news:179691657253536",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTFB1c3BuQVUybDF2eDg2QjBzcjRtbzhEbVpiT05kd2tnbUdPSlMzendESnphYnhXY1BJakRxVWVmSHh1NlBnNXF3RkRZVjFwZUc0",
-    "news:114342018604254",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwZDZwM2lGQTJhTlFYU3ZFcWE2eGI1aEMtb1dQc0EzOEtncjdZcU54VXZ2RXVZWUtpZFRUSnNWbDBXbUZGN2VIeVQ5dGdPTFdW",
-    "news:41334358871055",
-    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oZ21fMFpJT1V6OHZESVdGMVBldXZhMElNcjI1Z3p4RnAyN2o4ZDgyN3NUaHBOa2FUOXA2Qy1CblZJWE81VVc4VzctbUlmZmFoRnVsSlZ6U0tVb1ExckNmaNIBZkFVX3lxTE4tbmNzV0hxTnp5N241QXVpUlBjVVJlNTMzbHRicmpwZEVVVVN4Rml5QUZGMjNTTjcxTTQxS3ZQeXJudnF6YkZtWjh1Z3d4a1pzMWdKWmVlWnBfejNrSHJ0Q1pTUFF4UQ",
-    "news:77482164097145",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE85Si1WcTVDcHZ0Z3hsbDFsWndUR0F4UWNJeWpwS2VZZU9Oa3h1WmhnZzNHbWdrcS1xMDJLcUc5SnFkSEVPaklNeGh0Vk81ZnJH",
-    "news:143819588093438",
-    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE5pRkIyblp0N25sQmhQN2tIc1dHZldSYUdBcVM5QzZaaEctbWdsMXZkQUpOMHpqcDEzVjFKMVNKNHFpVGdObG9aV0lFTUN6TmVUSWt4SVp2ZmpmWVJCSmVrV1VTMktlcHpIVFVJTQ",
-    "news:247190636485402",
-    "url:https://news.google.com/rss/articles/CBMikAFBVV95cUxQZXh4MWpfMUY5MWhmSHZlb0M3WER5VTlaZFdPVlJETzBMTFdGU0p3SjRaQnFyOWNGUmtVUlJKcldxNDViRFlMbjBRakpxYlMxQ2RSUEotblprdlFrSXZENFR3V1lrVzZPazJHTXB3cFJNRVdYc3lWOEpuQkFsRVI0Tk9LNDc0eHhYMnBYOWxSU1g",
-    "news:65929736890486",
-    "url:https://news.google.com/rss/articles/CBMimAFBVV95cUxQS0d1WExHZkVTNnkyakZsVzgyQXp6SWgxUlNuTmtuYmNXVnczTlBfcEk2SmRvRVo5RGVlUGtfbGxvMExKRlNvNzNBRWVOekVVdGlPRy1sYVVUN2tOREhwSlZCcmlLSUY3dVBQN0VqQ1F5alJ0clJ1R190TlREU21WS2ZtRDR0bjYzVnRiVWJYaVFCeXlYM2RnZg"
-   ],
-   "img": "8e5a0fb636dae06d309b1aa6fa804d16",
-   "head": "비트코인 ETF 이틀 연속 유입인데, 10월 성적표는 아직 마이너스 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 762,
    "at": "2026-10-28T20:30:37.447566+09:00",
    "kind": "insight",
@@ -880,7 +842,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 816,
+   "at": "2026-10-31T19:00:41.897254+09:00",
+   "kind": "insight",
+   "fp": "fef4f3f76d4a8429",
+   "refs": [
+    "news:214655129914140",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/430569"
+   ],
+   "img": "77653de176217dd42bf05380d56cdeb3",
+   "head": "거래소 11곳 공개 주소 자산 하루 새 6.7% 감소 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-10-31T17:30:33.682619+09:00"
+ "last_pub_at": "2026-10-31T19:00:41.897254+09:00"
 }
