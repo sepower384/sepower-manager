@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 763,
-   "at": "2026-10-28T22:00:47.954165+09:00",
-   "kind": "insight",
-   "fp": "d9c7a8ecc4eeaf4b",
-   "refs": [
-    "news:22135718477904",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/428544"
-   ],
-   "img": "087517c53ac5657b3bca2a6df9fd3dac",
-   "head": "비트코인 8만 회복했는데 현물 매수는 오히려 약해진 중 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 764,
    "at": "2026-10-28T23:34:17.984307+09:00",
    "kind": "insight",
@@ -856,7 +841,26 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 818,
+   "at": "2026-10-31T22:30:34.481885+09:00",
+   "kind": "insight",
+   "fp": "9a5576d5bb31bb73",
+   "refs": [
+    "news:187442613694272",
+    "url:https://www.blockmedia.co.kr/archives/1159533",
+    "news:125054752433200",
+    "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxPMlhkZVRjcVo3aTIxVDNSSUp2NlJDWTdpbnJSWEpuLTU4dm5Qd3Y5VUJMNWpGVHB0R19VTW1BbzA5a2ZUaURtLUNLdGVnUVJRcHZCOUV0UWVyUnlSaDE0QkVqcXltY1hhbW1NZ2t1ZXV3TGxSNDdBVkFEWHRQbjRBczRULTI",
+    "news:143000381699078",
+    "url:https://cointelegraph.com/news/blockchain-investigator-chainalysis-hit-by-cybersecurity-incident"
+   ],
+   "img": "32ffee9d7a84e2b2c2f464cd3a2c8bed",
+   "head": "바이낸스 해킹 자금, 동결되는 돈 vs 못 막는 돈 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-31T20:30:35.011419+09:00"
+ "last_pub_at": "2026-10-31T22:30:34.481885+09:00"
 }
