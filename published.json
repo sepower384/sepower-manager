@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 762,
-   "at": "2026-10-28T20:30:37.447566+09:00",
-   "kind": "insight",
-   "fp": "040f26641342d18a",
-   "refs": [
-    "news:207562848356056",
-    "url:https://www.coindesk.com/markets/2026/10/28/bitcoin-averages-over-50-in-the-12-months-after-midterms-s-and-p-500-gains-15",
-    "news:251463714654414",
-    "url:https://www.coindesk.com/markets/2026/10/28/bitcoin-averages-over-50-in-the-12-months-after-midterms-s-and-p-500-gains-15",
-    "coinnesskr:235746",
-    "url:https://t.me/coinnesskr/235746"
-   ],
-   "img": "a89e749ec3fbdf6c2b152c7315ee7a5e",
-   "head": "중간선거 뒤 1년, BTC 평균 +53.7%라는데 선거 덕일까 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 763,
    "at": "2026-10-28T22:00:47.954165+09:00",
    "kind": "insight",
@@ -858,7 +839,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 817,
+   "at": "2026-10-31T20:30:35.011419+09:00",
+   "kind": "insight",
+   "fp": "766c5ec34e8d24d9",
+   "refs": [
+    "news:143181610832109",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/430595",
+    "coinnesskr:236326",
+    "url:https://t.me/coinnesskr/236326"
+   ],
+   "img": "b8a6fe7d000f12c6b94aef86c1a3127d",
+   "head": "손실 중인 단기 보유자가 24시간 동안 거래소로 보낸 BTC가 3만6600개 넘음. 바이낸스행 7일 누적은 4만5400개로 10월 최고임 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-10-31T19:00:41.897254+09:00"
+ "last_pub_at": "2026-10-31T20:30:35.011419+09:00"
 }
