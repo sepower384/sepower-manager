@@ -851,7 +851,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 825,
+   "at": "2026-11-01T07:30:33.813514+09:00",
+   "kind": "insight",
+   "fp": "e3aa76ae77e43133",
+   "refs": [
+    "coinnesskr:236343",
+    "url:https://t.me/coinnesskr/236343",
+    "news:160665130015803",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE81SUZxRVg3OW5FTVc4di05VjdQRm5UNWFzX2N3WUNiR3NMT2NkVHpQcHBFWEJhUjc5anBxdnBKdFI5eUlTYlFJRTlVQVBHN0V4QkkzXzNtXzVWUGNFeWx3VNIBZkFVX3lxTE5xenczaWpsWHkweUFGV3R5d3RxVXBWcXU0NEgwVUFCMkMyTnV6dFlEY2M5am51ZFRxamhSR2Q5UUJyZXljcWFnUnZKa0d4Sl9QaHYwS1ctZzBJUFhqT25XVDd0NTZHUQ"
+   ],
+   "img": "6f7fb8276bd91b478d59c2635d25052b",
+   "head": "다들 2024년 말 현물 ETF 출시에 트럼프 친크립토 전환이면 사이클 상승이라고 봤는데 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-11-01T06:00:39.173469+09:00"
+ "last_pub_at": "2026-11-01T07:30:33.813514+09:00"
 }
