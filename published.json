@@ -1,23 +1,6 @@
 {
  "posts": [
   {
-   "id": 779,
-   "at": "2026-10-29T19:05:28.356826+09:00",
-   "kind": "insight",
-   "fp": "503dcdef270d0865",
-   "refs": [
-    "coinnesskr:235902",
-    "url:https://t.me/coinnesskr/235902",
-    "news:255914207515905",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/429174"
-   ],
-   "img": "3e66a1de8df0983e973e3fc8aca03396",
-   "head": "유가가 코인까지 오는 경로 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 780,
    "at": "2026-10-29T21:00:52.270419+09:00",
    "kind": "insight",
@@ -805,7 +788,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 831,
+   "at": "2026-11-01T19:30:34.982694+09:00",
+   "kind": "insight",
+   "fp": "4cebc41fcfa76371",
+   "refs": [
+    "news:182523665382204",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/430866"
+   ],
+   "img": "cd14588a5833f0f25798db7592e42d77",
+   "head": "비트코인 단기 보유분 절반이 평가손실 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-11-01T17:34:26.513402+09:00"
+ "last_pub_at": "2026-11-01T19:30:34.982694+09:00"
 }
