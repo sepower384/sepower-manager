@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 788,
-   "at": "2026-10-30T07:30:32.908761+09:00",
-   "kind": "liquidation",
-   "fp": "d009a968bf068d2f",
-   "refs": [
-    "whaleliquidation:3148493",
-    "url:https://t.me/whaleliquidation/3148493"
-   ],
-   "img": "dd00537214e4378e9b86021f38d73e20",
-   "head": "💥 대규모 롱 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 791,
    "at": "2026-10-30T09:04:12.446492+09:00",
    "kind": "brief",
@@ -798,7 +783,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 840,
+   "at": "2026-11-02T07:34:26.386804+09:00",
+   "kind": "insight",
+   "fp": "34b01f43f5aaac0a",
+   "refs": [
+    "news:90599786902983",
+    "url:https://cryptoslate.com/tracked-binance-wallets-record-2-5-billion-in-outflows-as-withdrawals-reopen-after-hack/",
+    "news:240847809094316",
+    "url:https://www.tokenpost.kr/news/briefing/431019",
+    "news:19270926794356",
+    "url:https://news.google.com/rss/articles/CBMiWEFVX3lxTE9lTkFMSGx6b3FGcTdNamlGNm1DQzJkUVo3R2k0TGtfd1BTa3FJMG0zOER5Ullod3hDTW8xS3hkd3JFb25tSU1fVkhjVE1sbU83NnEwMGtwVWs"
+   ],
+   "img": "40de291a4e660c11bd384a26432fdbea",
+   "head": "바이낸스 출금 재개 후 순유출, 숫자가 왜 제각각일까 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-02T06:00:40.529946+09:00"
+ "last_pub_at": "2026-11-02T07:34:26.386804+09:00"
 }
