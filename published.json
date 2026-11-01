@@ -1,43 +1,6 @@
 {
  "posts": [
   {
-   "id": 776,
-   "at": "2026-10-29T15:30:35.363722+09:00",
-   "kind": "insight",
-   "fp": "c098503976775154",
-   "refs": [
-    "news:11804611462986",
-    "url:https://www.blockmedia.co.kr/archives/1158011",
-    "news:130768840569851",
-    "url:https://www.tokenpost.kr/news/briefing/429068",
-    "news:186422231386004",
-    "url:https://www.tokenpost.kr/news/insights/429058",
-    "news:256907326149271",
-    "url:https://news.google.com/rss/articles/CBMi7AFBVV95cUxORnYySWIyNnlHT1VXbzQxTHYtRGNXV2pKck0yOGJlc0ZXUXppQ0RoMjJpQ2FpUllPMjJqU1hPR3pfdjctck9ZTnhWckRoNVdyTkx1WlJJMUdnMGE0T0F2d2k0bG0tdkN6d0Y4ZkNfQUNsU1hRN3RuTXNHd1JhcFVRbDQ5eGxwaVl5MGw1QWJmWUNBbFYyME1qMkRkN2Y1aUtwWC1GckxBS011b3ZyWnUwblRmbjlILUtvcV80Z2lESjIxSGJMLVlSNmJrX0czUEFTNjFDUTZBY0FCdHgyZW5MQWY1Q0ZHTno1bEdpbQ"
-   ],
-   "img": "3aada8a711674cd723e7bd99c0d62860",
-   "head": "다들 FOMC 비둘기적이면 호재라고 하는데 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 777,
-   "at": "2026-10-29T16:00:43.335489+09:00",
-   "kind": "insight",
-   "fp": "3b85627099ec80ab",
-   "refs": [
-    "news:4082781365724",
-    "url:https://www.tokenpost.kr/news/economy/429100"
-   ],
-   "img": "d6f86fdccf44e62fad3e0b792024aa19",
-   "head": "속보) 오늘 밤 21:30 美 3분기 GDP 속보치·9월 PCE 동시 발표 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 778,
    "at": "2026-10-29T17:30:35.530996+09:00",
    "kind": "insight",
@@ -827,7 +790,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 829,
+   "at": "2026-11-01T16:00:42.252892+09:00",
+   "kind": "insight",
+   "fp": "343636aa103a12a5",
+   "refs": [
+    "news:142294444115894",
+    "url:https://www.blockmedia.co.kr/archives/1159639"
+   ],
+   "img": "edc4c790dada99f89d2af149e6300aa0",
+   "head": "2021년 11월 vs 지금, BTC를 보는 월가의 시선 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-01T14:34:42.351152+09:00"
+ "last_pub_at": "2026-11-01T16:00:42.252892+09:00"
 }
