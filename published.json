@@ -1,52 +1,6 @@
 {
  "posts": [
   {
-   "id": 772,
-   "at": "2026-10-29T11:30:34.412658+09:00",
-   "kind": "insight",
-   "fp": "1ef38bdbce63cff0",
-   "refs": [
-    "news:266830074093745",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/428978"
-   ],
-   "img": "9e5fa49d6dd176f3ff15ba203fd05e16",
-   "head": "상장사 BTC 130만개, 14개월 증가분 71%가 스트래티지 몫 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 775,
-   "at": "2026-10-29T12:04:41.671594+09:00",
-   "kind": "insight",
-   "fp": "80f4be08dc89b6dd",
-   "refs": [
-    "coinnesskr:235864",
-    "url:https://t.me/coinnesskr/235864"
-   ],
-   "img": "f4ddab7ed3a3b23aac41320ba2a8bb20",
-   "head": "가상자산 과세 넷째 유예, 30일 간담회가 분기점 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
-   "id": 774,
-   "at": "2026-10-29T13:34:33.928558+09:00",
-   "kind": "insight",
-   "fp": "b25b66e98b3cc4b6",
-   "refs": [
-    "news:139269526549411",
-    "url:https://www.blockmedia.co.kr/archives/1157880"
-   ],
-   "img": "421d6ec1ecc70282fc29a1fe50fbfbf0",
-   "head": "솔라나 DEX 점유율 1위인데 가격은 왜 안 오를까 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 776,
    "at": "2026-10-29T15:30:35.363722+09:00",
    "kind": "insight",
@@ -857,7 +811,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 828,
+   "at": "2026-11-01T14:34:42.351152+09:00",
+   "kind": "insight",
+   "fp": "8a0a419296a82fde",
+   "refs": [
+    "news:203750025975837",
+    "url:https://www.digitalasset.works/news/articleView.html"
+   ],
+   "img": "8f7a52695e64dbc6c0199736205c46af",
+   "head": "이번 중간선거(11/3), 클래리티 법안 두 갈래 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-11-01T11:00:40.469576+09:00"
+ "last_pub_at": "2026-11-01T14:34:42.351152+09:00"
 }
