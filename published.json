@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 782,
-   "at": "2026-10-30T00:00:45.469314+09:00",
-   "kind": "liquidation",
-   "fp": "3785e5e9e8f0e0ac",
-   "refs": [
-    "whaleliquidation:3147330",
-    "url:https://t.me/whaleliquidation/3147330"
-   ],
-   "img": "7c0cb6a92e0bf0fa1d1a2a3b47ae6254",
-   "head": "💥 대규모 숏 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 783,
    "at": "2026-10-30T02:00:44.023150+09:00",
    "kind": "insight",
@@ -807,7 +792,29 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 834,
+   "at": "2026-11-02T00:00:43.405625+09:00",
+   "kind": "insight",
+   "fp": "71b7ef88df95c3cd",
+   "refs": [
+    "news:225775257780550",
+    "url:https://www.blockmedia.co.kr/archives/1159688",
+    "news:48803043320776",
+    "url:https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMbUNEX25zdDIxX1B3RnBYeDFiNHBveF9hUWRzcVlIS0s0dkQ2U2d2QV9TZnpnMUFCRFFlUExNWUM5TFpTODRZZ2ZVeTA",
+    "news:130239074388463",
+    "url:https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GNWdOLVJ5MTlCcGppOFpBdFY2cDBLZTA1VmpsNHgtU3BFYk1hUm9xbGpRQUo1Z2FrR1l6WDEySVRWeTR6SzZqUVZrSFR2OTYtMWVETm03ckM5RlFHZk92UNIBZkFVX3lxTE9LcmJGVlYwS1B1cGVEN2Y4SmJVUzRHRk9CN2JMdFAtZi1QWHJVa21iOEI4OU5lZndMb2NUS1pXc1lxZ1R6SkNid0U0RXBybTVZd0Zmckp5ZlhYSTR1MlFjd0Z5bWNsUQ",
+    "news:180149436051202",
+    "url:https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZGtpbEZfZ0JlTndvc1VxOEo5R1ZxYmNFVVFiRW0xNTdOal9ZbTVQX3AyUGRBUHRmZGFXZUdOczJ2WXo5d2FsOTQybHV4Zm1XVUdPZFhFcFRCbFpIYU8zaEtQMjhDMUkwMHJaU0xjTW56U0RVQ09SSXJET0NsVnFkQnZLNzVBcTJHa3Zfd3g2LUkyQnVMMUlGOXdOZ0VON2xDUFVnYU1qUmhLNnM"
+   ],
+   "img": "6718c46794dbf482a900ce37a7c0fcd1",
+   "head": "세일러 일요일 신호, 확정은 아님 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-11-01T22:35:10.272719+09:00"
+ "last_pub_at": "2026-11-02T00:00:43.405625+09:00"
 }
