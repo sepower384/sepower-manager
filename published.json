@@ -1,43 +1,6 @@
 {
  "posts": [
   {
-   "id": 787,
-   "at": "2026-10-30T05:00:43.012364+09:00",
-   "kind": "liquidation",
-   "fp": "d336f91cd7e2a74f",
-   "refs": [
-    "whaleliquidation:3148257",
-    "url:https://t.me/whaleliquidation/3148257"
-   ],
-   "img": "5a8d814f82d8863ab50891d98d902628",
-   "head": "💥 대규모 롱 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 790,
-   "at": "2026-10-30T05:35:49.571854+09:00",
-   "kind": "insight",
-   "fp": "fa85d046355f197b",
-   "refs": [
-    "news:115915208984163",
-    "url:https://www.blockmedia.co.kr/archives/1158486",
-    "news:143897573221587",
-    "url:https://news.google.com/rss/articles/CBMigAFBVV95cUxPM2xVSmlOcVlPRGdTbUNMVDNVY0tNdThTcExjMGFlQm9ydE1EODBRdi02NllFV2JyZXlVRHRETVptWklld0JsRTdXUUhqSk1ybXJhWktaYnhaRHZCOTlabDJsVGQycjQxSHBCaGd6Q3VvdjZRZUZIRUYwN05JSkM3eQ",
-    "coinnesskr:236035",
-    "url:https://t.me/coinnesskr/236035",
-    "news:67269658628585",
-    "url:https://news.google.com/rss/articles/CBMic0FVX3lxTE9WX1lQbXhlNTNUQm9MZS1oR3lzUXoxN0ozNWNQNGQ3a3VMUGRKaXlXQk1vYXNfa1l2YlFTVXBNVThBS21RekNNdERtSklKUGI3NTQtSG43QUpTX1lhTkFlRWg0dGhSeGZrZ2pSOTVJQTFMQjTSAXdBVV95cUxPWjUyRW5ETXNzd0VjT3hMdDZ4b2FLR2E2QUp2Y3pIZzNaOHpPRTNXZVJ0ZW5Nc0tYY1ZGYXE5ODJ5b2ZyYWlQeVB6bHFEYWZ2TEhRRmhqNGdPUm9UalMzLWotdHRCLTlBYUl0SmMyMUJUSm5abEVlOA"
-   ],
-   "img": "d750b48a47158a3565c2a84db845b4ca",
-   "head": "알파벳 13% 급락, 나스닥 1.38%↓ ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 788,
    "at": "2026-10-30T07:30:32.908761+09:00",
    "kind": "liquidation",
@@ -813,7 +776,29 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 839,
+   "at": "2026-11-02T06:00:40.529946+09:00",
+   "kind": "insight",
+   "fp": "1fde02a3754830fd",
+   "refs": [
+    "news:214045280957931",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/430997",
+    "news:53706350008435",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/430978",
+    "news:121162999455873",
+    "url:https://news.google.com/rss/articles/CBMihAFBVV95cUxPSmdGdnFMMzRsUTJSYUFTeFlPcUh5LV9Cc19IY0s2SGprbHNhQVhhUm5sdDJrdXJUTkRBcl9IRURzRmZyTURHdTVROURuSlo1SERqU1VEMk5qQXpka29ZUms4bTRwN1hNSlRpNUk5VDdaODFlRDFiWkY2eGEzd1NQZmdOWlc",
+    "news:34152310152856",
+    "url:https://news.google.com/rss/articles/CBMijAFBVV95cUxQLThLTFNmemYzZFRZYmVKQ0xTTFROcXFUNDc1dkRVeF9pYndHT1NZVjU3SDhtYnRsdDVOWXZiakt4X1hKWF9BQnY3TUNBV0p2eGdmUE1ScGEwakxSVVYxRmdqQTNoNzh6SVIyUV9iWFQxMlNhSXBxZU1vN29oSHdHOWtCMVBiN1hVczQzbA"
+   ],
+   "img": "560cdc96ef8afb3e3cbe02028e836393",
+   "head": "10월 -7.32%, 2014년 이후 최악이라는데 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-11-02T04:00:40.407679+09:00"
+ "last_pub_at": "2026-11-02T06:00:40.529946+09:00"
 }
