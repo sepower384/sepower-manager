@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 770,
-   "at": "2026-10-29T07:34:31.182509+09:00",
-   "kind": "insight",
-   "fp": "de0268d53282c596",
-   "refs": [
-    "news:175340110889991",
-    "url:https://www.tokenpost.kr/news/policy/428886"
-   ],
-   "img": "dbf7a9d1fecd54a79505beb5cdc165b4",
-   "head": "해거티 상원의원, 시장구조 법안 처리하면 비트코인 비축 확대 가능성 거론 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 771,
    "at": "2026-10-29T09:30:35.882387+09:00",
    "kind": "brief",
@@ -869,7 +854,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 826,
+   "at": "2026-11-01T09:06:04.035118+09:00",
+   "kind": "insight",
+   "fp": "87ea4d494e37758b",
+   "refs": [
+    "news:263698184423171",
+    "url:https://www.blockmedia.co.kr/archives/1159602",
+    "news:131038959591541",
+    "url:https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdEd3UGRkeV9qSWp5b1hDNUZoOGZPNkwxbU9ETXF2TmNCck8zblRRX1RBa0l5eDNMMFJnRVRWU29LdjhyT3pBTTJjYkJhTmNkbjJWUlV5MzN5Z1BTZFJDUjRDWUtzSEZudzVIcS1NME9NeVhsQnJYcG1hLWFNZXFsdTlJckxpRE5T0gGcAUFVX3lxTE5WdVViVkpVejBFTzR4MHlBQk1Wa2xnQmt6MUMxYzlIejFhc1pPdlhyUjZwSkphOWNUUUlDZVhWcFVQVlNZZXhpUWtWV0I5N3ljWVNKanNZdFdOQUtUWWpBUzlINnk3OXd4WEk5T1FhTUsyNU4xMFVWUV9YMlM2aVhXUm9FS0EwV05LUFhSSnZkZ2NYNERjY29CU1JlbQ",
+    "news:221935624206432",
+    "url:https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iNXo4THZTckxaclRreXFKcVY0ck5MbkdfanBCaTVLdUpOanBza0RTa1c2YnFXcUExbklUbWotdEl2bENBTHZJaU16ZldWWnJST0dmbVNrcjZWLUdmNnZhdXRpdDVLQdIBU0FVX3lxTFBfVFowaEJSZ3lOQS1oT2g4bGFsQUItU3Z5NEJLWi1haU42dmJGU2ZEelFacHNkbjBCM1E2OXNoNzRyZ2s4MjgyUlo0WUd0aXVaOVMw"
+   ],
+   "img": "781b36e07a0b170760a39fdf699a2281",
+   "head": "속보) FBI, 바이낸스 60억달러 해킹 배후로 북한 공식 지목 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-01T07:30:33.813514+09:00"
+ "last_pub_at": "2026-11-01T09:06:04.035118+09:00"
 }
