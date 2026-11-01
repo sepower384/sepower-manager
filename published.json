@@ -1,22 +1,6 @@
 {
  "posts": [
   {
-   "id": 780,
-   "at": "2026-10-29T21:00:52.270419+09:00",
-   "kind": "insight",
-   "fp": "834d17a43f8d4f5f",
-   "refs": [
-    "news:58814866963873",
-    "url:https://www.blockmedia.co.kr/archives/1158081"
-   ],
-   "img": "fc6c3753a13e02a94e40b55598f9687d",
-   "head": "美 재무부 국채 매입 60억달러, 그런데 BTC는 8만달러 아래 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 781,
    "at": "2026-10-29T22:34:25.499131+09:00",
    "kind": "insight",
@@ -804,7 +788,26 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 832,
+   "at": "2026-11-01T21:30:34.766448+09:00",
+   "kind": "insight",
+   "fp": "c790e5d068cf769e",
+   "refs": [
+    "news:272911654801497",
+    "url:https://www.blockmedia.co.kr/archives/1159673",
+    "news:85502893927473",
+    "url:https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTmxQdFF5V0pUcmFlTnJzbVZBaHJadl9xRXFZRXJxWnRjbWZYNllhZHlIX0t6N0dQeHAtQTJPcDRucWN5akxsY1E2OGJBUERIWmpsek9UZk9EeG1ja05sWFItUFFfa1dOTk9KQVBnM0tIdkZDWENNNTZzSVR0QTdLMlR3MGxxcC15cVB1dS13NnZ1WHgzckFDM2ZhT3Jma3dEeXRZVGI0RWY",
+    "news:177384894545059",
+    "url:https://news.google.com/rss/articles/CBMidkFVX3lxTFBQSzM1TzJLRWF6Q29XSkFWSDYyQU1YR1hvYnF5bl9nbDU2M18ySzFJQVVDOHppVWdpOGlONnZLUUx4cmJpYk5lNVNvR2dzWHNodzJRLVlFQjBiMGI3X215ZUpLQlpjRndyODl3MHVKS3R5OUszcFE"
+   ],
+   "img": "b76f0b4becc35dd9b8c668dc4de4ab73",
+   "head": "바이낸스 출금 재개, 뭐가 열렸고 뭐가 남았나 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-01T19:30:34.982694+09:00"
+ "last_pub_at": "2026-11-01T21:30:34.766448+09:00"
 }
