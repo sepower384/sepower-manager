@@ -732,7 +732,29 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 858,
+   "at": "2026-11-03T07:00:42.972068+09:00",
+   "kind": "insight",
+   "fp": "49c8297d02505b75",
+   "refs": [
+    "news:267902463714333",
+    "url:https://cointelegraph.com/markets/bitcoin-risks-sub-76k-drop-as-7-fall-in-oil-fails-to-spark-btc-price-rally",
+    "news:205832537689999",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/431588",
+    "news:61394956296579",
+    "url:https://www.tokenpost.kr/news/briefing/431590",
+    "news:168863598182066",
+    "url:https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80dDROWFd1TkNVaGQwa2laNUVPX1ZIUFI3OFVlY2R1eWlUTHc0LXBKRHJCUl8zTmx2X1l4TnZXYk8wWDJNNk5QZmNTN094LUlGN2JCUFMzenBiUW1yelhWN3Vsbm8zLVk"
+   ],
+   "img": "078562ec2aa4a6175cfbb028173d7939",
+   "head": "유가 급락이 코인까지 오는 경로, 이번엔 끊겼음 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-11-03T05:30:35.314883+09:00"
+ "last_pub_at": "2026-11-03T07:00:42.972068+09:00"
 }
