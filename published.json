@@ -730,7 +730,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 849,
+   "at": "2026-11-02T17:34:46.522263+09:00",
+   "kind": "insight",
+   "fp": "75dc221c6d80009e",
+   "refs": [
+    "news:238813204823043",
+    "url:https://news.google.com/rss/articles/CBMibkFVX3lxTE9HSmhnVWtBZ2xTSDRRMDBFUWJ1TmhkRU1ha1E4U1JDX0pFbTQ5NzRGWDRUdVlnNVVCZ3ZfY3hmcmZTUTZxYTk0Vzg5VzMtdWxSclg2QXZtenVzUUk0amxFQTRCdkExaFNYS2ljLUtn"
+   ],
+   "img": "751f1bc63f74b7be4bf8c3e384466b24",
+   "head": "금융위, 국내 5개 거래소 소집해 긴급 보안점검 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-02T17:05:16.251421+09:00"
+ "last_pub_at": "2026-11-02T17:34:46.522263+09:00"
 }
