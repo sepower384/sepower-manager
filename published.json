@@ -1,51 +1,6 @@
 {
  "posts": [
   {
-   "id": 794,
-   "at": "2026-10-30T12:34:31.683464+09:00",
-   "kind": "insight",
-   "fp": "05e4447da79efd72",
-   "refs": [
-    "news:151214301016754",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/429786",
-    "coinnesskr:236136",
-    "url:https://t.me/coinnesskr/236136",
-    "news:225503258396038",
-    "url:https://www.blockmedia.co.kr/archives/1158769"
-   ],
-   "img": "53a298218848e8412c14a3455827dc73",
-   "head": "바이낸스 해커, 알트 팔고 ETH로 갈아타는 중 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 795,
-   "at": "2026-10-30T14:30:37.921502+09:00",
-   "kind": "insight",
-   "fp": "f82ddd0d819e3671",
-   "refs": [
-    "news:280190050328603",
-    "url:https://www.coindesk.com/markets/2026/10/30/usd6-billion-binance-hack-sends-bitcoin-ether-tumbling-standard-chartered-sees-more-losses-ahead",
-    "news:121846968128266",
-    "url:https://www.blockmedia.co.kr/archives/1158821",
-    "news:206136444403517",
-    "url:https://news.google.com/rss/articles/CBMixgFBVV95cUxNYzU5TFpDRGt4TlhobXdNZ3VFWnlYaHdNMkJaOEhNMVljcFJKbEdmU3MxU1dIX3pEc3M1Ni1ldmUta09EdzhpcV9qQm5SVmFhaVBXWmpPaFExV1h3X1BlMDFhd2k3Y0ZWMVlfV1l5M01MN0F3a1JLQTlicEhOUXJYX0tTOGZBNGZNNXpvM3JBUzhJU1JqUk42SnBFUS1vV2NzRm5OQWhOclAyc2pKaDlaZFpyc01GOXlPSUZoNFVXM1NBQm9GVlE",
-    "news:109151372096062",
-    "url:https://www.tokenpost.kr/news/briefing/429853",
-    "news:196132177869985",
-    "url:https://news.google.com/rss/articles/CBMipgFBVV95cUxNaXBwUUFIUXp4a2g4V0hRV2VKS1dZY2trSzgybk1nNjhlamhGQmJqV2VPVkxwSmlWSEFTSk5pZ3dCRk1LQ243REVXUWdjWjU1UVJ6NXdoUjR3ME9kSEU0VThCN2RHc2ZmZDRLNUVFMUs4RzN5WW1aY1FiQzJKTm5CQVQ5bWpVclNGaDN4czdQVU9QQlUxeERqQV9MUXl0T05qaTVUUTZn",
-    "news:126511180680196",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE1RYmhyN3k3UGVjY200Y1lPUzVhWWMtU3ZfVW1ONkxPVEZjT2NYemJnUWRsamwtdlYxUldsT2Z0bGJJc3IyTFhFcFV3"
-   ],
-   "img": "e0422ebeb07b0a2a3360be09c6ca2e13",
-   "head": "바이낸스 해킹이 BTC까지 번진 경로 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 796,
    "at": "2026-10-30T15:00:40.744208+09:00",
    "kind": "insight",
@@ -776,7 +731,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 845,
+   "at": "2026-11-02T14:30:36.957906+09:00",
+   "kind": "insight",
+   "fp": "c75915fc293f6306",
+   "refs": [
+    "coinnesskr:236397",
+    "url:https://t.me/coinnesskr/236397"
+   ],
+   "img": "5adcaeec6bc522c87a4389aaafe7ee4c",
+   "head": "중간선거(11/3) 하루 앞, 코인뷰로 분석 두 갈래 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-02T12:30:35.546279+09:00"
+ "last_pub_at": "2026-11-02T14:30:36.957906+09:00"
 }
