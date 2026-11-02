@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 796,
-   "at": "2026-10-30T15:00:40.744208+09:00",
-   "kind": "insight",
-   "fp": "3f4c013801d740ca",
-   "refs": [
-    "news:205585947649852",
-    "url:https://www.blockmedia.co.kr/archives/1158983",
-    "news:272891179842837",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/429925",
-    "coinnesskr:236164",
-    "url:https://t.me/coinnesskr/236164"
-   ],
-   "img": "b4cac0a5089fda925a923c69e2e3686e",
-   "head": "속보) 에테나, 바이낸스 해킹 직후 긴급 준비금 증명 공개 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 797,
    "at": "2026-10-30T16:30:34.264807+09:00",
    "kind": "insight",
@@ -746,7 +727,29 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 846,
+   "at": "2026-11-02T16:00:45.899964+09:00",
+   "kind": "insight",
+   "fp": "56ba91accbc2cd0f",
+   "refs": [
+    "news:31468225399124",
+    "url:https://www.blockmedia.co.kr/archives/1159905",
+    "news:82542049318258",
+    "url:https://www.tokenpost.kr/news/cryptocurrency/431139",
+    "news:87165732095286",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE5IajRKRnViX0N0aG42UEJsd0E1Sk15Y2Roa0pTS01WcEd2Q1NBWWNLbDBPUnQwQWtjMTl5VEdpdkhETnJJNGY2bnpfbTlZeU1p",
+    "news:15391349077684",
+    "url:https://news.google.com/rss/articles/CBMitgFBVV95cUxPNFV5N2hBRXFMZ0VTalVBR0tKT2wxT3NqYUxKb2lLMktyTXV3WTFEWEVObjlqdW5OVGVHS09iQlFjaU1zanpkb0h2TFhBaEFWOTlsQm84V2xPZ1FwVkRveVFoejFYVDJBLXZzdXdsVmwwVi14Q1lLVW9ITTJVZjlBZkRaT1U1T3NtSGFpcHdtYVA0SVAtOGZUOER2eUdlZFYybDhVNlk5eXJHaWxiMTJBQkQ2NGYtUQ"
+   ],
+   "img": "6e8a0e33d218276da0d850dd930cee62",
+   "head": "ETF 주간 자금 흐름, BTC·ETH 동반 이탈 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-11-02T14:30:36.957906+09:00"
+ "last_pub_at": "2026-11-02T16:00:45.899964+09:00"
 }
