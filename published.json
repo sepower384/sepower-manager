@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 800,
-   "at": "2026-10-30T21:00:44.109421+09:00",
-   "kind": "insight",
-   "fp": "2b2810c491ced3f2",
-   "refs": [
-    "coinnesskr:236199",
-    "url:https://t.me/coinnesskr/236199"
-   ],
-   "img": "17d71be5eeeec75dd81d381b2cc6a91c",
-   "head": "바이낸스 해킹 자금이 ETH로 갈아탄 경로, 시장까지 이어지면 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 801,
    "at": "2026-10-30T22:30:36.235417+09:00",
    "kind": "insight",
@@ -739,7 +724,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 850,
+   "at": "2026-11-02T21:00:44.424125+09:00",
+   "kind": "liquidation",
+   "fp": "a80ff6f9fbbfeb44",
+   "refs": [
+    "whaleliquidation:3159942",
+    "url:https://t.me/whaleliquidation/3159942"
+   ],
+   "img": "34d444039d15beabdcd73cc5a898cea8",
+   "head": "💥 대규모 롱 청산 감지 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-02T19:00:44.491756+09:00"
+ "last_pub_at": "2026-11-02T21:00:44.424125+09:00"
 }
