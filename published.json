@@ -1,26 +1,6 @@
 {
  "posts": [
   {
-   "id": 801,
-   "at": "2026-10-30T22:30:36.235417+09:00",
-   "kind": "insight",
-   "fp": "2d67e6b93f0ba91b",
-   "refs": [
-    "coinnesskr:236213",
-    "url:https://t.me/coinnesskr/236213",
-    "news:244993326905999",
-    "url:https://cointelegraph.com/news/binance-hacker-bitcoin-holdings-exceed-coinbase-btc-treasury",
-    "news:268138208711479",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/430095"
-   ],
-   "img": "28ac6beab5d2fcc5e9b66b8385e2e008",
-   "head": "해커 지갑 BTC가 코인베이스 법인 보유분보다 많아짐 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 802,
    "at": "2026-10-31T00:30:38.328099+09:00",
    "kind": "insight",
@@ -739,7 +719,29 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 851,
+   "at": "2026-11-02T22:30:35.808126+09:00",
+   "kind": "insight",
+   "fp": "d56cfe09a8cb3fbb",
+   "refs": [
+    "coinnesskr:236470",
+    "url:https://t.me/coinnesskr/236470",
+    "news:10676563115768",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTFBKVGxtbnd4LXZJV1llZ0hsb3FXVTZfUUtuRkJrUUFFQV9reDdUSl9LNWR1SEpyVEswRGlYZGU0NlJyeWNqNDlkSTMzbnJTQkw4",
+    "news:103900020996555",
+    "url:https://www.coindesk.com/tech/2026/11/02/no-proof-of-ai-in-north-korean-hackers-move-of-stolen-binance-funds-through-thousands-of-wallets",
+    "news:138702902531650",
+    "url:https://news.google.com/rss/articles/CBMirwJBVV95cUxQb2o0cTJqdlkxTk5nOTE3Qnp5RXN5QVZkU2JMSWdILVlzWndZSy1XNWoxdWVGeGtXcWN3OUk2SlUtRERDekZ4Z25yNFA3UWdEYjZwbTdXOWhOdjlfYVY1N3ZfRGxQMHJfZUZlTHpSYWpFbVBKSXAyeElKZ2FLNnZaclBUeEpkYXhFZVpuUFVJcHZaRk1vZXdjQlBabzhkQ21lTTJpTFkwajhwNWc2MlI1QXpQYm5DeVFTeXlyNG5NR3RHcUk2bnVXY1lYeUVib29UZlJ0MXFmc0N4aC1aeVh4cUtMbWNERXdxYkxWWmlLVVlZbFdlRDl4V2VaYkhGX2tiRi1WX3RWd3hMdU1VR3lmcVp4NEpmUFJOVFNXOWV0YUo0VWtUSkdCX1ZFQURwZVk"
+   ],
+   "img": "4519690fa70e588142b456a1d9f8b5e7",
+   "head": "이번 주 바이낸스 해킹 자금, 두 갈래로 봐야 할 듯 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-11-02T21:00:44.424125+09:00"
+ "last_pub_at": "2026-11-02T22:30:35.808126+09:00"
 }
