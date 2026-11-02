@@ -754,7 +754,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 860,
+   "at": "2026-11-03T07:35:06.049328+09:00",
+   "kind": "insight",
+   "fp": "d2768b4718f1649d",
+   "refs": [
+    "news:23742911990405",
+    "url:https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KQVJ5bTFodWVYQ1k0QS1lNFdoZGFHTjhLMU93RGFDa1ZpblB6YkdqaUVaUk42bXdIMFNrakE3eWVZa1JOREdYc3JFUmVHdm9PRmF4OU9Iay1aWlZBaDh5VjVmTklfZEpZ"
+   ],
+   "img": "b2205e4b4820c633f417c2b68d5ee564",
+   "head": "속보) 美 반도체 줄줄이 급락, 인텔 8.80%·AMD 7.52%↓ ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-03T07:00:42.972068+09:00"
+ "last_pub_at": "2026-11-03T07:35:06.049328+09:00"
 }
