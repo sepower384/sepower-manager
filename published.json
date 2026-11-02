@@ -1,29 +1,6 @@
 {
  "posts": [
   {
-   "id": 809,
-   "at": "2026-10-31T07:35:21.945263+09:00",
-   "kind": "insight",
-   "fp": "abc053c2fc8fbc27",
-   "refs": [
-    "news:123490114966914",
-    "url:https://decrypt.co/382285/binance-hack-why-offshore-exchanges-need-us-oversight-cftc-chair",
-    "news:226416569165421",
-    "url:https://decrypt.co/382282/crypto-hacks-buy-bitcoin-proxies-stock-market-wall-street",
-    "news:230480806103323",
-    "url:https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WQmJkenNhbzhnZDhGSjNabnp2TURHMmhHQmNGX0VpZHJ1S0Q4RG5NUHZmMk5WR2ozVmw1bjNGbnhXR1BhZWMtWHFRX0tFLU5SaGQxdjhn0gFbQVVfeXFMTl9GVkl3SFBCdklvZ2t1RDYxbU5xdXZ3a2YzSFJBdk91LXZzVGdyYTBITGNWUjM2VnUtWjdoWkdJZHJ2NnlCQk5yWFdyOUFiM3B6UWk0YzdHWTBsQQ",
-    "news:85351974595905",
-    "url:https://www.blockmedia.co.kr/archives/1159255",
-    "news:117944304650945",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/430315"
-   ],
-   "img": "450e92623437637a880c5cb7eec69aef",
-   "head": "바이낸스 해킹, 규제 판은 어디로 갈까 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 810,
    "at": "2026-10-31T09:30:33.621866+09:00",
    "kind": "brief",
@@ -769,7 +746,23 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 862,
+   "at": "2026-11-03T08:34:44.191517+09:00",
+   "kind": "insight",
+   "fp": "9626853bb3973199",
+   "refs": [
+    "coinnesskr:236550",
+    "url:https://t.me/coinnesskr/236550"
+   ],
+   "img": "3f0778dc747018485adffd5e12f543cf",
+   "head": "속보) 리퀴드 네트워크, 300 BTC 긴급 투입해 L-BTC 담보율 약 87%→94.14% ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-11-03T07:35:06.049328+09:00"
+ "last_pub_at": "2026-11-03T08:34:44.191517+09:00"
 }
