@@ -1,25 +1,6 @@
 {
  "posts": [
   {
-   "id": 802,
-   "at": "2026-10-31T00:30:38.328099+09:00",
-   "kind": "insight",
-   "fp": "d2f3a1ee0d72bc46",
-   "refs": [
-    "news:117312691674019",
-    "url:https://www.tokenpost.kr/news/market/430192",
-    "news:33510783715466",
-    "url:https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZ1VfMlRzNEdlUFZqOU44dkhiSW9uUmR6NkhCWDdQVHE0MVBteERlVmNXMXpTZkNkVmlkcGZMcW14TmVnbkxtR0cwdTAtX1ExSUVTU3BIenVhdVFTZW5obDJWZGtKa25ZbTI5MGxSVDhEb1lIa0xOTnBBQUwwMi1pR294dnNoaHp2MWdELXV4QVdPMUI4RmVhdENPenR2V29sQThDdGV1ZVdUbVh0TC1STU9XY3Y4ZVRTOVdvWG9qd2o5aVkyZXk2Z3Q5SFZWWGYzLXNTU0tSYw",
-    "news:52209236451840",
-    "url:https://news.google.com/rss/articles/CBMiSkFVX3lxTE5xc0ZSU2hEdjBFZ2VhYlZITjZLNUN5MGVkek14LXdLaU0zNTdVYjd1NzItVVhoc2NXX2psN050VFhHUi03dHlWWEJB"
-   ],
-   "img": "7d3e792b71fa8311161d357eac82b96f",
-   "head": "코인베이스 -4.8%, 스트래티지 약 -6% (29일 미국 시간외) ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 803,
    "at": "2026-10-31T02:30:35.959137+09:00",
    "kind": "whale",
@@ -741,7 +722,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 852,
+   "at": "2026-11-03T00:30:36.806962+09:00",
+   "kind": "insight",
+   "fp": "035310ec4a172611",
+   "refs": [
+    "coinnesskr:236473",
+    "url:https://t.me/coinnesskr/236473"
+   ],
+   "img": "f01b75d7ada495f0a490a4095f4ba821",
+   "head": "2분기 vs 3분기, 비트코인 수요 주체가 바뀜 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-02T22:30:35.808126+09:00"
+ "last_pub_at": "2026-11-03T00:30:36.806962+09:00"
 }
