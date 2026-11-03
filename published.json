@@ -1,37 +1,6 @@
 {
  "posts": [
   {
-   "id": 814,
-   "at": "2026-10-31T15:30:35.725311+09:00",
-   "kind": "insight",
-   "fp": "c85e9a53efb75f4b",
-   "refs": [
-    "news:133790949394796",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/430538",
-    "news:129599405805264",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/430522",
-    "coinnesskr:236307",
-    "url:https://t.me/coinnesskr/236307",
-    "news:163223375254485",
-    "url:https://news.google.com/rss/articles/CBMibEFVX3lxTE40aGhjZTZlaWlPSmYtbHlqaFpWT2hCMk5GUS0xOGJYZlhuSDdtZzg3cWt2MGRlVEFaU21SSlcwX0hfWFFBZEw3SlBQa2phRTBLdFpLejQ0eG9fNnkzc0tlZGhpcV9zVzNNSWNaWQ",
-    "news:232193857173124",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE5GLWlBS1FYX0NBSy12SjNadVFvbldhX2Q1S3YwYWxqLXp6bTQyb2hCQXFGeWJxRnhUM08zMVB1TkxIT25nVTNRSmlYUzR6d3dX",
-    "news:275475350452987",
-    "url:https://www.tokenpost.kr/news/cryptocurrency/430537",
-    "coinnesskr:236308",
-    "url:https://t.me/coinnesskr/236308",
-    "news:278463995733508",
-    "url:https://news.google.com/rss/articles/CBMiVEFVX3lxTE04eVZnUUQ5NHlXdWpTbVhVUXNZTjdld01neXZGa1VEdHh3YnpiZW5ncnVqZHFuU0NxTFMtNVN3b19TbTQ0cTJlemxHQ1VNa0c5Zl9xSg",
-    "news:271650652334710",
-    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE1pTU9rUkVFWGhuU2JETEhjZWFHYWVhV3EzNlA2WmVYd0xIc2lJeEJIa0d1QklDQ1J4THZ5MjFnUjNVWlZ0M2V2RUJlRUlNR2c5"
-   ],
-   "img": "dd6ac9e2fd0a95498f1b19f207fa9b81",
-   "head": "미국 비트코인 현물 ETF가 4거래일 만에 순유출로 돌아섰음. 30일(현지시간) 하루 순유출이 6억4320만달러인데, 직전 4거래일(26~29일) 순유입 합계가 4억4080만달러였음. ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 815,
    "at": "2026-10-31T17:30:33.682619+09:00",
    "kind": "insight",
@@ -778,7 +747,22 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 868,
+   "at": "2026-11-03T16:30:38.884286+09:00",
+   "kind": "insight",
+   "fp": "46ab45804f918bfe",
+   "refs": [
+    "news:101947500405657",
+    "url:https://www.blockmedia.co.kr/archives/1160492"
+   ],
+   "img": "50a78b6ff8547946129c449c04352f11",
+   "head": "다들 달러 유동성 늘면 BTC 오른다고 하는데 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-03T14:30:38.928238+09:00"
+ "last_pub_at": "2026-11-03T16:30:38.884286+09:00"
 }
