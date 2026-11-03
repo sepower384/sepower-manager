@@ -762,7 +762,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 863,
+   "at": "2026-11-03T09:06:02.164045+09:00",
+   "kind": "insight",
+   "fp": "0be5bf221c2996ce",
+   "refs": [
+    "news:182951453977016",
+    "url:https://news.google.com/rss/articles/CBMiakFVX3lxTE5HdFNUZzBzTmFfRzBmbW9VeWxMZE53aGJjRmhQdmUtdHpmTzFxTllvRVBCOVR6NkxOUkRxVUNBd1h2c29NNXJKSk5WQ3AxTG9scHlPNzlWTnhtdFg4cWdqX25IOVlZV1VFM0E",
+    "news:264897517328986",
+    "url:https://news.google.com/rss/articles/CBMickFVX3lxTFBFbkxVeXZXNGVGa1dPTml5UXdJWFA4N3J3NGY3bWlVLVpYeElVandyTnhwY0dPVmFsUTM1cXM2akpBY0pjN2FrakpINmRBMmdEWm9mM1B6YjdiMzlHYW1FQnF0Mk1yb2F3WGtEd1M5RWdUQQ"
+   ],
+   "img": "69f222b229c06b9fbe1aacbda80d1594",
+   "head": "속보) 북한 해커, 바이낸스 탈취금 2차 세탁 돌입이라고 보도 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-03T08:34:44.191517+09:00"
+ "last_pub_at": "2026-11-03T09:06:02.164045+09:00"
 }
