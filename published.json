@@ -1,19 +1,6 @@
 {
  "posts": [
   {
-   "id": 810,
-   "at": "2026-10-31T09:30:33.621866+09:00",
-   "kind": "brief",
-   "fp": "4418d9c281c0ad19",
-   "refs": [],
-   "img": "2b44957c027a12dc6f6723a4d63792c6",
-   "head": "☀️ 10/31(토) 아침 체크포인트 ",
-   "chats": [
-    "-1004462359818",
-    "-1001852979246"
-   ]
-  },
-  {
    "id": 811,
    "at": "2026-10-31T11:00:42.211226+09:00",
    "kind": "insight",
@@ -779,7 +766,25 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 864,
+   "at": "2026-11-03T09:34:52.424145+09:00",
+   "kind": "insight",
+   "fp": "ab91d48153764f02",
+   "refs": [
+    "news:228900199258768",
+    "url:https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVOXRjRUg5X0xzVGF4Tm91QS1JaWVSd0ZJM1M4SlIxM2VsOV9KTXN1OG1ObXQ5bWVyZ0dQdXg2dkpnV0UwTmUyRS1SZElYR3RQZkk2Tkpn",
+    "news:165636498030565",
+    "url:https://news.google.com/rss/articles/CBMiUEFVX3lxTE1qZEdEaVc0ZjFia3ByYm5HMVI4b2ZyNVotQU9yVnhtanRkVDIyTkc1ZGhrUEptMW9Ncm45cUxWaVdwTFhDVjJJMVNuaS04WnZ3"
+   ],
+   "img": "549b2bddaa7878cf5b4e8e5504570d85",
+   "head": "이번 주 가상자산 과세, 두 갈래 ",
+   "chats": [
+    "-1004462359818",
+    "-1001852979246"
+   ]
   }
  ],
- "last_pub_at": "2026-11-03T09:06:02.164045+09:00"
+ "last_pub_at": "2026-11-03T09:34:52.424145+09:00"
 }
