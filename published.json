@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 811,
-   "at": "2026-10-31T11:00:42.211226+09:00",
-   "kind": "insight",
-   "fp": "e4dc87f0530fc13e",
-   "refs": [
-    "coinnesskr:236284",
-    "url:https://t.me/coinnesskr/236284"
-   ],
-   "img": "740a639ebc33590322d3fef62408ec8f",
-   "head": "바이낸스 해킹 이후 업계가 먼저 움직임 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 812,
    "at": "2026-10-31T12:30:35.706659+09:00",
    "kind": "insight",
@@ -784,7 +769,24 @@
     "-1004462359818",
     "-1001852979246"
    ]
+  },
+  {
+   "id": 865,
+   "at": "2026-11-03T11:30:40.579849+09:00",
+   "kind": "insight",
+   "fp": "2b2d518a62fe04f8",
+   "refs": [
+    "coinnesskr:236569",
+    "url:https://t.me/coinnesskr/236569",
+    "news:252587749325514",
+    "url:https://news.google.com/rss/articles/CBMiogFBVV95cUxOQkk5ZUdEbWV2cjlQcjV3djNYNW5Pa2NlTnRuRmVsYmtkZ1ZfNm85VG1iV0VuWjVjcnFFamJINUtvVlBZNVl1VGV5bk5xb0VzNDV5LTdKLU1JSEpkZ183MlRsRjIwT1VsV1RZa1lXWjA3MjJnSnZnRXhjeVdJaldmdHZiX0dCakxNbnhNSFVUZHh0eS1pdEVZTWpfMXY1ZmVQTWc"
+   ],
+   "img": "65dea8d703603c08611fe895bd0aa13e",
+   "head": "테더 CEO가 \"자체적으로 약 15만 BTC 보유 중\"이라고 밝혔음 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-03T09:34:52.424145+09:00"
+ "last_pub_at": "2026-11-03T11:30:40.579849+09:00"
 }
