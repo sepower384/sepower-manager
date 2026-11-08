@@ -1,21 +1,6 @@
 {
  "posts": [
   {
-   "id": 874,
-   "at": "2026-11-04T06:04:30.130866+09:00",
-   "kind": "liquidation",
-   "fp": "bc742ef11e892018",
-   "refs": [
-    "whaleliquidation:3164854",
-    "url:https://t.me/whaleliquidation/3164854"
-   ],
-   "img": "eac2820106ded56bccc69aaec1eac87f",
-   "head": "💥 대규모 숏 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 888,
    "at": "2026-11-07T02:34:21.671499+09:00",
    "kind": "whale",
@@ -29,7 +14,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 896,
+   "at": "2026-11-09T02:34:24.993739+09:00",
+   "kind": "whale",
+   "fp": "2e62c7a398a97546",
+   "refs": [
+    "whalealertkorean:175582",
+    "url:https://t.me/whalealertkorean/175582"
+   ],
+   "img": "94eae07f8ddb2e7f15d168a1d0b1c1c8",
+   "head": "🐋 고래 거래소 입금 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-07T02:34:21.671499+09:00"
+ "last_pub_at": "2026-11-09T02:34:24.993739+09:00"
 }
