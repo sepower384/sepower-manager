@@ -1,36 +1,6 @@
 {
  "posts": [
   {
-   "id": 925,
-   "at": "2026-11-15T06:34:06.123387+09:00",
-   "kind": "liquidation",
-   "fp": "4908fab2646ace81",
-   "refs": [
-    "whaleliquidation:3201229",
-    "url:https://t.me/whaleliquidation/3201229"
-   ],
-   "img": "d362c5b2cb57950bff0c2bd7865fb3d4",
-   "head": "💥 대규모 숏 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 926,
-   "at": "2026-11-15T08:30:35.951754+09:00",
-   "kind": "liquidation",
-   "fp": "317e77079ea2ab2c",
-   "refs": [
-    "whaleliquidation:3201336",
-    "url:https://t.me/whaleliquidation/3201336"
-   ],
-   "img": "3d1de9d3f552f4633fc77bf9b23bb8b2",
-   "head": "💥 대규모 롱 청산 감지 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 930,
    "at": "2026-11-16T04:34:13.576391+09:00",
    "kind": "whale",
@@ -74,7 +44,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 945,
+   "at": "2026-11-19T02:34:23.340379+09:00",
+   "kind": "whale",
+   "fp": "e1c6167023a86dda",
+   "refs": [
+    "whalealertkorean:176368",
+    "url:https://t.me/whalealertkorean/176368"
+   ],
+   "img": "ecd371e36477951f5ea46640dc799529",
+   "head": "🐋 고래 대량 이동 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-18T04:04:18.295544+09:00"
+ "last_pub_at": "2026-11-19T02:34:23.340379+09:00"
 }
