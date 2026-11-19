@@ -1,36 +1,6 @@
 {
  "posts": [
   {
-   "id": 930,
-   "at": "2026-11-16T04:34:13.576391+09:00",
-   "kind": "whale",
-   "fp": "38a27fb4b70cc254",
-   "refs": [
-    "whalealertkorean:176120",
-    "url:https://t.me/whalealertkorean/176120"
-   ],
-   "img": "e28ef83f6df0d5aa33ce1dfd30c0ce29",
-   "head": "🐋 고래 대량 이동 포착 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
-   "id": 931,
-   "at": "2026-11-16T06:04:26.275065+09:00",
-   "kind": "whale",
-   "fp": "69013c29fb73230c",
-   "refs": [
-    "whalealertkorean:176124",
-    "url:https://t.me/whalealertkorean/176124"
-   ],
-   "img": "cca1450baf8098009059b79773a081d5",
-   "head": "🐋 고래 대량 이동 포착 ",
-   "chats": [
-    "-1004462359818"
-   ]
-  },
-  {
    "id": 940,
    "at": "2026-11-18T04:04:18.295544+09:00",
    "kind": "whale",
@@ -74,7 +44,22 @@
    "chats": [
     "-1004462359818"
    ]
+  },
+  {
+   "id": 949,
+   "at": "2026-11-20T02:34:19.609005+09:00",
+   "kind": "whale",
+   "fp": "01ba8458e9eabfc3",
+   "refs": [
+    "whalealertkorean:176482",
+    "url:https://t.me/whalealertkorean/176482"
+   ],
+   "img": "f46f54168c8d27757983c6cead3d6124",
+   "head": "🐋 고래 대량 이동 포착 ",
+   "chats": [
+    "-1004462359818"
+   ]
   }
  ],
- "last_pub_at": "2026-11-19T04:09:39.580467+09:00"
+ "last_pub_at": "2026-11-20T02:34:19.609005+09:00"
 }
